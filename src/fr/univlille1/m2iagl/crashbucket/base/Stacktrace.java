@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Stacktrace extends ArrayList<StacktraceElement>{
     private String stackTraceNumber;
     private boolean initial = true;
-    private Bucket bucket;
+    private Crash bucket;
     private boolean inBucket;
     
     public String getStackTraceNumber() {
@@ -18,18 +18,18 @@ public class Stacktrace extends ArrayList<StacktraceElement>{
         this.inBucket = false;
     }
     
-    public Stacktrace(Bucket bucket) {
+    public Stacktrace(Crash bucket) {
     	super();
         initial = true;
         this.bucket = bucket;
         this.inBucket = true;
     }
     
-    public Bucket getBucket(){
+    public Crash getBucket(){
     	return this.bucket;
     }
     
-    public MainBucket getMainBucket(){
+    public Bucket getMainBucket(){
     	return this.getBucket().getMainBucket();
     }
 

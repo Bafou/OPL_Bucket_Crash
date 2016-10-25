@@ -47,11 +47,11 @@ public class StacktraceElement extends ArrayList<String>{
         return this.stacktrace;
     }
     
-    public Bucket getBucket(){
+    public Crash getBucket(){
     	return this.getStackTrace().getBucket();
     }
     
-    public MainBucket getMainBucket(){
+    public Bucket getMainBucket(){
     	return this.getBucket().getMainBucket();
     }
 }
