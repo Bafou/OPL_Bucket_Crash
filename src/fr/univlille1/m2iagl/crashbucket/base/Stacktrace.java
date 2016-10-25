@@ -30,7 +30,7 @@ public class Stacktrace extends ArrayList<StacktraceElement>{
     }
     
     public Bucket getMainBucket(){
-    	return this.getBucket().getMainBucket();
+    	return this.getBucket().getBucket();
     }
 
     public boolean inBucket(){

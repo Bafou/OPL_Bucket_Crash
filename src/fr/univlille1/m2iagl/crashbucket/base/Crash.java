@@ -5,11 +5,11 @@ import java.util.ArrayList;
 public class Crash extends ArrayList<Stacktrace>{
     
     private String bucketId;
-    private Bucket mainBucket;
+    private Bucket bucket;
     
-    public Crash(Bucket mainBucket) {
+    public Crash(Bucket bucket) {
     	super();
-    	this.mainBucket = mainBucket;
+    	this.bucket = bucket;
     }
 
     public Crash(String bucketId) {
@@ -25,7 +25,7 @@ public class Crash extends ArrayList<Stacktrace>{
     	this.bucketId = bucketId;
     }
     
-    public Bucket getMainBucket(){
-    	return this.mainBucket;
+    public Bucket getBucket(){
+    	return this.bucket;
     }
 }

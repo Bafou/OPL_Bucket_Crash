@@ -52,6 +52,6 @@ public class StacktraceElement extends ArrayList<String>{
     }
     
     public Bucket getMainBucket(){
-    	return this.getBucket().getMainBucket();
+    	return this.getBucket().getBucket();
     }
 }
