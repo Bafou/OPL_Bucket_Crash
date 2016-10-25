@@ -9,7 +9,8 @@ public class ParsingHelper {
                     listFilesForFolder(fileEntry);
                 } 
                 else {
-                    //TODO
+                    System.out.println(fileEntry.getParent());
+                    System.out.println(fileEntry.getParentFile().getParentFile().getName());
                     System.out.println(fileEntry.getName());
                 }
             }
