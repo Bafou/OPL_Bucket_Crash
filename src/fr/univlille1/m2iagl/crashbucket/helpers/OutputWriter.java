@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class OutputWriter {
     
-    public static void generateOutputFile(String stackTrace, String bucketId, String fileName, String filePath){
+    public static void generateOutputResultFile(String stackTrace, String bucketId, String fileName, String filePath){
         try {
 
         String content = stackTrace+"  -> " + bucketId+"\n";

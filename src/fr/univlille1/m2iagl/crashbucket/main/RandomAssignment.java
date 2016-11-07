@@ -1,13 +1,13 @@
 package fr.univlille1.m2iagl.crashbucket.main;
 
 import fr.univlille1.m2iagl.crashbucket.constant.Paths;
-import static fr.univlille1.m2iagl.crashbucket.helpers.OutputWriter.generateOutputFile;
 import static fr.univlille1.m2iagl.crashbucket.helpers.ParsingHelper.listTestingFolder;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import static fr.univlille1.m2iagl.crashbucket.helpers.ParsingHelper.listTrainingFolder;
 import java.util.Random;
+import static fr.univlille1.m2iagl.crashbucket.helpers.OutputWriter.generateOutputResultFile;
 
 public class RandomAssignment {
     
@@ -26,7 +26,7 @@ public class RandomAssignment {
         for(String stackTrace : stackTraces){
             int index = randomGenerator.nextInt(bucketChoice.size());
             String item = bucketChoice.get(index);
-            generateOutputFile(stackTrace,item,"RandomAssignementOutput",Paths.NAUTILUS);
+            generateOutputResultFile(stackTrace,item,"RandomAssignementOutput",Paths.NAUTILUS);
         }
     }
     
