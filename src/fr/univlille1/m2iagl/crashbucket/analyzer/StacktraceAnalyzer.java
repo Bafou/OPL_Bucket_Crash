@@ -14,14 +14,14 @@ public class StacktraceAnalyzer {
 	private int lineAt;
 	private String stackTraceLineNumber;
 
-	public StacktraceAnalyzer(File Crash) throws FileNotFoundException {
+	public StacktraceAnalyzer(final File Crash) throws FileNotFoundException {
 
-		FileReader fileReader = new FileReader(Crash);
+		final FileReader fileReader = new FileReader(Crash);
 		bufferedReader = new BufferedReader(fileReader);
 		lineBeginingFrom = -1;
 		lineAt = -1;
 
-		String[] parts = Crash.getAbsolutePath().split("/");
+		final String[] parts = Crash.getAbsolutePath().split("/");
 
 		// Revoir celle l�
 		System.out.println(Crash.getAbsolutePath());
@@ -81,7 +81,7 @@ public class StacktraceAnalyzer {
 		return null;
 	}
 
-	public String getMethodeName(String stackTraceLine) {
+	public String getMethodeName(final String stackTraceLine) {
 		int position;
 		if ((position = stackTraceLine.indexOf("in")) != -1) {
 			final String methodName = stackTraceLine.substring(position + 2);
@@ -102,7 +102,7 @@ public class StacktraceAnalyzer {
 			final String allMethodArguments = stackTraceLine.substring(position, endAt);
 			extractArguments(arguments, allMethodArguments);
 		}
-		
+
 		return arguments;
 	}
 
@@ -113,5 +113,13 @@ public class StacktraceAnalyzer {
 			final String[] couplePart = couple.split("=");
 			arguments.put(couplePart[0].trim(), couplePart[1].trim());
 		}
+	}
+
+	public boolean isBeginningLine(final String stackTraceLine) {
+		int startFrom = stackTraceLine.indexOf('#');
+		if (startFrom != -1 && startFrom == 0) {
+			return true;
+		}
+		return false;
 	}
 }
