@@ -79,4 +79,16 @@ public class StacktraceAnalyzer {
 		}
 		return null;
 	}
+    
+    public String getMethodeName(String stackTraceLine){
+        int position;
+        if ((position = stackTraceLine.indexOf("in")) != -1)
+        {
+            String methodName = stackTraceLine.substring(position +2);
+            int endAt = methodName.indexOf("(");
+            
+            
+    }
+        return null;
+}
 }
