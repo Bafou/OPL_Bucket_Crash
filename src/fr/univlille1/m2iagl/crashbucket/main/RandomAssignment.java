@@ -29,5 +29,4 @@ public class RandomAssignment {
             generateOutputResultFile(stackTrace,item,"RandomAssignementOutput",Paths.NAUTILUS);
         }
     }
-    
 }

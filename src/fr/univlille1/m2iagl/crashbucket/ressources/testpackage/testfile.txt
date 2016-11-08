@@ -1,0 +1,2 @@
+#0  0x00007fcd45f5fe8c in g_type_check_instance_cast () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
