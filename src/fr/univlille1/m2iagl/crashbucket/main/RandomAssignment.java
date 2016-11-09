@@ -11,6 +11,9 @@ import static fr.univlille1.m2iagl.crashbucket.helpers.OutputWriter.generateOutp
 
 public class RandomAssignment {
     
+    
+
+
     public static List<File> trainingRessources = new ArrayList<>();
     public static List<File> testingRessources = new ArrayList<>();
         
@@ -27,6 +30,7 @@ public class RandomAssignment {
             int index = randomGenerator.nextInt(bucketChoice.size());
             String item = bucketChoice.get(index);
             generateOutputResultFile(stackTrace,item,"RandomAssignementOutput",Paths.NAUTILUS);
-        }
+        }  
     }
+    
 }
