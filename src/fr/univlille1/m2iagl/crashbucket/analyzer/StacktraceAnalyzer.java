@@ -3,6 +3,7 @@ package fr.univlille1.m2iagl.crashbucket.analyzer;
 import fr.univlille1.m2iagl.crashbucket.constant.Constants;
 import static fr.univlille1.m2iagl.crashbucket.helpers.FilesLoader.loadAllFiles;
 import static fr.univlille1.m2iagl.crashbucket.helpers.OutputWriter.generateOutputResultFile;
+import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.ClassLineParser;
 import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.ClassNameParser;
 import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.LibraryNameParser;
 import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.MethodNameParser;
@@ -147,6 +148,12 @@ public class StacktraceAnalyzer {
                                 stacktraceLine.addStacktraceLineData(data);
                             }
                             break;
+                        case ":":
+                            word = scanner.next();
+                            if(word != null){
+                                data = new ClassLineParser(word);
+                                stacktraceLine.addStacktraceLineData(data);
+                            }
                         default:
                             break;
                     }

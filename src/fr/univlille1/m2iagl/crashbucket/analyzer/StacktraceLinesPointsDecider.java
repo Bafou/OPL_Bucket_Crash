@@ -8,7 +8,7 @@ public class StacktraceLinesPointsDecider {
     //Améliorer les scores !!
     private static double getSimilarityScore(StacktraceLine stacktraceLine, StacktraceLine stacktraceLineToCompare) {
         Double score = 0.0;
-        if (stacktraceLine.getLineNumber().toString().equals(stacktraceLineToCompare.getLineNumber().toString()))
+        if (stacktraceLine.getLineNumber().equals(stacktraceLineToCompare.getLineNumber()))
             score += 500;
         for (StacktraceLineDataParser data : stacktraceLine.getStacktraceLineData())
             for (StacktraceLineDataParser dataToCompare : stacktraceLineToCompare.getStacktraceLineData())
