@@ -2,19 +2,15 @@ package fr.univlille1.m2iagl.crashbucket.main;
 
 import fr.univlille1.m2iagl.crashbucket.constant.Paths;
 import static fr.univlille1.m2iagl.crashbucket.helpers.FilesLoader.listTestingFolder;
+import static fr.univlille1.m2iagl.crashbucket.helpers.FilesLoader.listTrainingFolder;
+import static fr.univlille1.m2iagl.crashbucket.helpers.OutputWriter.generateOutputResultFile;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-import static fr.univlille1.m2iagl.crashbucket.helpers.FilesLoader.listTrainingFolder;
 import java.util.Random;
-import static fr.univlille1.m2iagl.crashbucket.helpers.OutputWriter.generateOutputResultFile;
-import static fr.univlille1.m2iagl.crashbucket.helpers.FilesLoader.loadAllFiles;
 
 public class RandomAssignment {
     
-    
-
-
     public static List<File> trainingRessources = new ArrayList<>();
     public static List<File> testingRessources = new ArrayList<>();
         
@@ -32,6 +28,5 @@ public class RandomAssignment {
             String item = bucketChoice.get(index);
             generateOutputResultFile(stackTrace,item,"RandomAssignementOutput",Paths.NAUTILUS);
         }  
-    }
-    
+    }  
 }
