@@ -1,13 +1,14 @@
 package fr.univlille1.m2iagl.crashbucket.main;
 
 import fr.univlille1.m2iagl.crashbucket.constant.Paths;
-import static fr.univlille1.m2iagl.crashbucket.helpers.ParsingHelper.listTestingFolder;
+import static fr.univlille1.m2iagl.crashbucket.helpers.FilesLoader.listTestingFolder;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-import static fr.univlille1.m2iagl.crashbucket.helpers.ParsingHelper.listTrainingFolder;
+import static fr.univlille1.m2iagl.crashbucket.helpers.FilesLoader.listTrainingFolder;
 import java.util.Random;
 import static fr.univlille1.m2iagl.crashbucket.helpers.OutputWriter.generateOutputResultFile;
+import static fr.univlille1.m2iagl.crashbucket.helpers.FilesLoader.loadAllFiles;
 
 public class RandomAssignment {
     

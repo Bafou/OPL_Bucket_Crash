@@ -5,8 +5,7 @@
  */
 package test.java.fr.univlille1.m2iagl.crashbucket.helpers;
 
-import fr.univlille1.m2iagl.crashbucket.helpers.ParsingHelper;
-import static fr.univlille1.m2iagl.crashbucket.helpers.ParsingHelper.listTestingFolder;
+import fr.univlille1.m2iagl.crashbucket.helpers.FilesLoader;
 import java.io.File;
 import java.util.List;
 import static junit.framework.TestCase.assertEquals;
@@ -16,14 +15,17 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import static junit.framework.TestCase.assertEquals;
+import static junit.framework.TestCase.assertEquals;
+import static junit.framework.TestCase.assertEquals;
 
 /**
  *
  * @author Rahal Badr
  */
-public class ParsingHelperTest {
+public class FilesLoaderTest {
     
-    public ParsingHelperTest() {
+    public FilesLoaderTest() {
     }
     
     @BeforeClass
@@ -43,18 +45,6 @@ public class ParsingHelperTest {
     }
 
     /**
-     * Test of listFilesForFolder method, of class ParsingHelper.
-     */
-    @Test
-    public void testListFilesForFolder() {
-        System.out.println("listFilesForFolder");
-        File folder = null;
-        ParsingHelper.listFilesForFolder(folder);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
      * Test of listTrainingFolder method, of class ParsingHelper.
      */
     @Test
@@ -62,7 +52,7 @@ public class ParsingHelperTest {
         System.out.println("listTrainingFolder");
         File folder = null;
         List<String> expResult = null;
-        List<String> result = ParsingHelper.listTrainingFolder(folder);
+        List<String> result = FilesLoader.listTrainingFolder(folder);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
@@ -77,7 +67,7 @@ public class ParsingHelperTest {
         System.out.println("listTestingFolder");
         File folder = new File("fr/univlille1/m2iagl/crashbucket/ressources/testpackage");
         List<String> expResult = null;
-        List<String> result = ParsingHelper.listTestingFolder(folder);
+        List<String> result = FilesLoader.listTestingFolder(folder);
         //assertEquals(expResult, result);
         assertEquals("testfile", result.get(0));
     }   

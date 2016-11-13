@@ -23,7 +23,6 @@ public class StacktraceAnalyzer {
 
 		final String[] parts = Crash.getAbsolutePath().split("/");
 
-		// Revoir celle l�
 		System.out.println(Crash.getAbsolutePath());
 
 		stackTraceLineNumber = parts[parts.length - 1].split("\\.")[0];
@@ -95,7 +94,7 @@ public class StacktraceAnalyzer {
 	}
 
 	public Map<String, String> getMethodArgument(final String stackTraceLine) {
-		final Map<String, String> arguments = new HashMap<String, String>();
+		final Map<String, String> arguments = new HashMap<>();
 		int position, endAt;
 
 		if (((position = stackTraceLine.indexOf("(")) != -1) && (endAt = stackTraceLine.indexOf(")")) != -1) {
