@@ -1,18 +1,32 @@
 package fr.univlille1.m2iagl.crashbucket.analyzer;
 
+import fr.univlille1.m2iagl.crashbucket.structure.CrashReport;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class StacktraceAnalyzer {
+    public static Map<String, String> assignementResult = new HashMap<>();
 
-	private BufferedReader bufferedReader;
-	private int lineBeginingFrom;
-	private int lineAt;
-	private String stackTraceLineNumber;
+    private BufferedReader bufferedReader;
+    private int lineBeginingFrom;
+    private int lineAt;
+    private String stackTraceLineNumber;
+        
+    
+    public List<File> trainingRessources = new ArrayList<>();
+    public List<File> testingRessources = new ArrayList<>();
+    
+    public Map<File,String> trainingRessourcesContent = new HashMap<>();
+    public Map<File,String> testingRessourcesContent = new HashMap<>();
+
+    public Map<String,CrashReport> trainingRessourcesStacktrace = new HashMap<>();
+    public Map<String,CrashReport> testingRessourcesStacktrace = new HashMap<>();
 
 	public StacktraceAnalyzer(final File Crash) throws FileNotFoundException {
 
@@ -116,9 +130,6 @@ public class StacktraceAnalyzer {
 
 	public boolean isBeginningLine(final String stackTraceLine) {
 		int startFrom = stackTraceLine.indexOf('#');
-		if (startFrom != -1 && startFrom == 0) {
-			return true;
-		}
-		return false;
+		return startFrom != -1 && startFrom == 0;
 	}
 }
