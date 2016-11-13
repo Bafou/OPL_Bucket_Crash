@@ -122,29 +122,29 @@ public class StacktraceAnalyzer {
 	public void getStacktraceLineData(String line, StacktraceLine stacktraceLine) {
             try (Scanner scanner = new Scanner(line)) {
                 String word = null;
-                StacktraceLineDataParser keyword;
+                StacktraceLineDataParser data;
                 while (scanner.hasNext()) {
                     String keywordValue = scanner.next();
                     switch (keywordValue) {
                         case "in":
                             word = scanner.next();
                             if (word != null) {
-                                keyword = new MethodNameParser(word);
-                                stacktraceLine.addStacktraceLineData(keyword);
-                            }
-                            break;
-                        case "at":
-                            word = scanner.next();
-                            if (word != null) {
-                                keyword = new ClassNameParser(word);
-                                stacktraceLine.addStacktraceLineData(keyword);
+                                data = new MethodNameParser(word);
+                                stacktraceLine.addStacktraceLineData(data);
                             }
                             break;
                         case "from":
                             word = scanner.next();
                             if (word != null) {
-                                keyword = new LibraryNameParser(word);
-                                stacktraceLine.addStacktraceLineData(keyword);
+                            data = new LibraryNameParser(word);
+                            stacktraceLine.addStacktraceLineData(data);
+                            }
+                            break;
+                        case "at":
+                            word = scanner.next();
+                            if (word != null) {
+                                data = new ClassNameParser(word);
+                                stacktraceLine.addStacktraceLineData(data);
                             }
                             break;
                         default:
