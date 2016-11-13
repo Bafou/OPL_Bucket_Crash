@@ -1,29 +1,19 @@
 package fr.univlille1.m2iagl.crashbucket.analyzer;
 
-import fr.univlille1.m2iagl.crashbucket.constant.Paths;
+import fr.univlille1.m2iagl.crashbucket.constant.Constants;
 import static fr.univlille1.m2iagl.crashbucket.helpers.FilesLoader.loadAllFiles;
 import static fr.univlille1.m2iagl.crashbucket.helpers.OutputWriter.generateOutputResultFile;
-import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.Class;
-import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.Library;
-import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.Method;
-import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.StacktraceData;
-import fr.univlille1.m2iagl.crashbucket.structure.StacktraceLine;
+import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.ClassNameParser;
+import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.LibraryNameParser;
+import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.MethodNameParser;
+import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.StacktraceLineDataParser;
 import fr.univlille1.m2iagl.crashbucket.structure.Crash;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.SortedSet;
-import java.util.TreeSet;
+import fr.univlille1.m2iagl.crashbucket.structure.StacktraceLine;
+import java.io.*;
+import java.util.*;
 
 public class StacktraceAnalyzer {
+    
     public static Map<String, String> assignementResult = new HashMap<>();
 
     private BufferedReader bufferedReader;
@@ -32,16 +22,21 @@ public class StacktraceAnalyzer {
     private String stackTraceLineNumber;
         
     
-    public List<File> trainingRessources = new ArrayList<>();
-    public List<File> testingRessources = new ArrayList<>();
+    private final List<File> trainingRessources = new ArrayList<>();
+    private final List<File> testingRessources = new ArrayList<>();
     
-    public Map<File,String> trainingRessourcesContent = new HashMap<>();
-    public Map<File,String> testingRessourcesContent = new HashMap<>();
+    private final Map<File,String> trainingRessourcesContent = new HashMap<>();
+    private final Map<File,String> testingRessourcesContent = new HashMap<>();
 
-    public Map<String,Crash> trainingRessourcesStacktrace = new HashMap<>();
-    public Map<String,Crash> testingRessourcesStacktrace = new HashMap<>();
+    private final Map<String,Crash> trainingRessourcesStacktrace = new HashMap<>();
+    private final Map<String,Crash> testingRessourcesStacktrace = new HashMap<>();
+    
+    public StacktraceAnalyzer() {
+        this.lineBeginingFrom = -1;
+        this.lineAt = -1;
+    }
 
-    public void assignStacktraceToBucket(File testingFolder, File trainingFolder) {
+    public void assignStacktraceToBucket(File testingFolder, File trainingFolder, String outputFileName) {
         loadAllFiles(trainingFolder, trainingRessources);
 	loadAllFiles(testingFolder, testingRessources);
 
@@ -52,21 +47,21 @@ public class StacktraceAnalyzer {
 	getStacktraceContent(trainingRessourcesStacktrace, trainingRessourcesContent);
         
         for (File testingFile : testingRessourcesContent.keySet()) {
-            BucketDecider testingFileAnalyzeThread = 
+            BucketDecider bucketDecider = 
                     new BucketDecider(trainingRessourcesStacktrace,testingRessourcesStacktrace, trainingRessourcesContent, testingRessourcesContent, testingFile);
-            testingFileAnalyzeThread.InitiateAssignment();
+            bucketDecider.InitiateAssignment();
         }
-        generateOutputFile();
+        generateOutputFile(outputFileName);
     }
         
-    public void generateOutputFile() {
+    public void generateOutputFile(String outputFileName) {
         SortedSet<String> sortedList = new TreeSet<>(new Comparator<String>() {
             @Override
             public int compare(String a, String b) {
                 return Integer.valueOf(a).compareTo(Integer.valueOf(b));}});
         sortedList.addAll(assignementResult.keySet());
         for (String testingFileName : sortedList)
-            generateOutputResultFile(testingFileName,assignementResult.get(testingFileName),"AssignementResultOutput",Paths.NAUTILUS);
+            generateOutputResultFile(testingFileName,assignementResult.get(testingFileName),outputFileName,Constants.NAUTILUS_PATH);
 	}
 
 	public void loadFileContent(List<File> fileList, Map<File,String> fileContent) {
@@ -74,8 +69,8 @@ public class StacktraceAnalyzer {
 		for (File file : fileList) {
 			try {
 				fileReader = new FileReader(file);
-			} catch (FileNotFoundException e) {
-				e.printStackTrace();
+			} catch (FileNotFoundException ex) {
+				System.out.println("The file with the specified pathname does not exist");
 			}
 			BufferedReader bfReader = new BufferedReader(fileReader);
 			try {
@@ -84,13 +79,13 @@ public class StacktraceAnalyzer {
 				while ((line = bfReader.readLine()) != null)
 					sb.append(line).append("\n");
 				fileContent.put(file, sb.toString());
-			} catch (IOException e) {
-				e.printStackTrace();
+			} catch (IOException ex) {
+				System.out.println("Failed or interrupted I/O operations.");
 			} finally {
 				try {
 					bfReader.close();
-				} catch (IOException e) {
-					e.printStackTrace();
+				} catch (IOException ex) {
+                                    System.out.println("Failed or interrupted I/O operations.");
 				}
 			}
 		}
@@ -122,35 +117,34 @@ public class StacktraceAnalyzer {
                         StacktraceContent.get(stacktraceData).addCrashLines(stacktraceLine);
                     }
 		}
-
 	}
 
 	public void getStacktraceLineData(String line, StacktraceLine stacktraceLine) {
             try (Scanner scanner = new Scanner(line)) {
                 String word = null;
-                StacktraceData keyword;
+                StacktraceLineDataParser keyword;
                 while (scanner.hasNext()) {
                     String keywordValue = scanner.next();
                     switch (keywordValue) {
                         case "in":
                             word = scanner.next();
                             if (word != null) {
-                                keyword = new Method(word);
-                                stacktraceLine.addKeyword(keyword);
+                                keyword = new MethodNameParser(word);
+                                stacktraceLine.addStacktraceLineData(keyword);
                             }
                             break;
                         case "at":
                             word = scanner.next();
                             if (word != null) {
-                                keyword = new Class(word);
-                                stacktraceLine.addKeyword(keyword);
+                                keyword = new ClassNameParser(word);
+                                stacktraceLine.addStacktraceLineData(keyword);
                             }
                             break;
                         case "from":
                             word = scanner.next();
                             if (word != null) {
-                                keyword = new Library(word);
-                                stacktraceLine.addKeyword(keyword);
+                                keyword = new LibraryNameParser(word);
+                                stacktraceLine.addStacktraceLineData(keyword);
                             }
                             break;
                         default:
@@ -158,13 +152,6 @@ public class StacktraceAnalyzer {
                     }
                 }
             }
-	}
-
-        //888
-        
-	public StacktraceAnalyzer() {
-		this.lineBeginingFrom = -1;
-		this.lineAt = -1;
 	}
 
 	public String getstackTraceLineNumber() {

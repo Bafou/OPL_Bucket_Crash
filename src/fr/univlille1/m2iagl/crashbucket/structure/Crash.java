@@ -1,27 +1,26 @@
 package fr.univlille1.m2iagl.crashbucket.structure;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Crash {
 
     private Bucket bucket;
-    private List<StacktraceLine> crashLines;
+    private List<StacktraceLine> stacktraceLines;
 
     public Crash() {
         super();
-        crashLines = new ArrayList<>();
+        stacktraceLines = new ArrayList<>();
     }
     
     public Bucket getBucket(){
     	return this.bucket;
     }
 
-    public List<StacktraceLine> getCrashLines() {
-        return crashLines;
+    public List<StacktraceLine> getStacktraceLines() {
+        return stacktraceLines;
     }
 
-    public void addCrashLines(StacktraceLine crashLine) {
-        crashLines.add(crashLine);
+    public void addCrashLines(StacktraceLine stacktraceLine) {
+        stacktraceLines.add(stacktraceLine);
     }
 }

@@ -1,11 +1,7 @@
 package fr.univlille1.m2iagl.crashbucket.structure;
 
-import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.StacktraceData;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
+import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.StacktraceLineDataParser;
+import java.util.*;
 
 public class StacktraceLine {
 
@@ -14,13 +10,15 @@ public class StacktraceLine {
     private String offsetValue;
     private String methodName;
     
-    private List<StacktraceData> keywords = new ArrayList<>();
+    private List<StacktraceLineDataParser> stacktraceLineData = new ArrayList<>();
     private Integer lineNumber;
         
     private Map<String,String> methodArguments = new HashMap<>();
     private String className;
     
     private Map<String,String> environmentVariable = new HashMap<>();
+    public StacktraceLine() {
+    }
     
     public boolean isFirstElement() {
         return firstElement;
@@ -30,7 +28,7 @@ public class StacktraceLine {
         this.firstElement = firstElement;
     }
 
-        public int getStackTraceNumber() {
+    public int getStackTraceNumber() {
         return stackTraceLineNumber;
     }
     
@@ -70,11 +68,8 @@ public class StacktraceLine {
         this.className = className;
     }
 
-    public StacktraceLine() {
-    }
-
-    public List<StacktraceData> getKeywords() {
-        return keywords;
+    public List<StacktraceLineDataParser> getStacktraceLineData() {
+        return stacktraceLineData;
     }
 
     public Integer getLineNumber() {
@@ -85,15 +80,15 @@ public class StacktraceLine {
         this.lineNumber = lineNumber;
     }
 
-    public void addKeyword(StacktraceData keyword) {
-        keywords.add(keyword);
+    public void addStacktraceLineData(StacktraceLineDataParser stacktraceLineData) {
+        this.stacktraceLineData.add(stacktraceLineData);
     }
     
-    public Map<String, String> getEnvironmentVariable() {
+    public Map<String,String> getEnvironmentVariable() {
         return environmentVariable;
     }
 
-    public void setEnvironmentVariable(Map<String, String> environmentVariable) {
+    public void setEnvironmentVariable(Map<String,String> environmentVariable) {
         this.environmentVariable = environmentVariable;
     }
 }

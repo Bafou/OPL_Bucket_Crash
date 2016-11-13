@@ -1,18 +1,29 @@
 package fr.univlille1.m2iagl.crashbucket.main;
 
 import fr.univlille1.m2iagl.crashbucket.analyzer.StacktraceAnalyzer;
-import fr.univlille1.m2iagl.crashbucket.constant.Paths;
+import fr.univlille1.m2iagl.crashbucket.constant.Constants;
 import java.io.File;
 
 public class StackTraceToBucketAssignement {
 
     public static void main(String[] args) {
         
-        final File trainingFolder = new File(Paths.NAUTILUS_TRAINING);
-        final File testingFolder = new File(Paths.NAUTILUS_TESTING);
+        final long startTime = System.nanoTime();
+        final File trainingFolder = new File(Constants.NAUTILUS_TRAINING_PATH);
+        final File testingFolder = new File(Constants.NAUTILUS_TESTING_PATH);
+        final String outputFileName = Constants.ANALYSIS_ASSIGNEMENT_OUTPUT_FILE;
+        final String nautilusFolderPath = Constants.NAUTILUS_PATH;
         
         StacktraceAnalyzer stacktraceAnalyzer = new StacktraceAnalyzer();
-	stacktraceAnalyzer.assignStacktraceToBucket(testingFolder, trainingFolder);
+        System.out.println("------------------------------------------------------------------------"+"\n");
+        System.out.println("Stacktrace Analysis started...");
+	stacktraceAnalyzer.assignStacktraceToBucket(testingFolder, trainingFolder, outputFileName);
+        long endTime = System.nanoTime();
+        final long duration = endTime - startTime;
+        final double seconds = ((double)duration / 1000000000);
+        System.out.println("Analysis successfully done in "+seconds+" Seconds. See result in "+nautilusFolderPath+"\\"+outputFileName+".txt"+"\n");
+        System.out.println("------------------------------------------------------------------------");
+        
     }
 }
     
