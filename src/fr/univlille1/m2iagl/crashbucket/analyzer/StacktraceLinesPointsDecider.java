@@ -17,13 +17,13 @@ public class StacktraceLinesPointsDecider {
 	private static double getSimilarityPoints(StacktraceLine crashLine1, StacktraceLine crashLine2) {
 		Double score = 0.0;
 		if (crashLine1.getLineNumber().toString().equals(crashLine2.getLineNumber().toString()))
-			score += 200;
+			score += 500;
 		for (StacktraceData keyword1 : crashLine1.getKeywords())
 			for (StacktraceData keyword2 : crashLine2.getKeywords())
 				if (!keyword1.getValue().equals("??") && !keyword2.getValue().equals("??"))
 					if (keyword1.getClass().getName().equals(keyword2.getClass().getName())
 							&& keyword1.getValue().equals(keyword2.getValue()))
-						score += 200;
+						score += 400;
 		return score;
 	}
 }
