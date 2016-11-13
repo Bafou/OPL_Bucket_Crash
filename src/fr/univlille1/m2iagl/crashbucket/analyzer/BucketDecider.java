@@ -1,6 +1,5 @@
 package fr.univlille1.m2iagl.crashbucket.analyzer;
 
-import fr.univlille1.m2iagl.crashbucket.pointsdecider.StacktraceLinesPointsDecider;
 import fr.univlille1.m2iagl.crashbucket.structure.StacktraceLine;
 import fr.univlille1.m2iagl.crashbucket.structure.Crash;
 import java.io.File;

@@ -1,4 +1,4 @@
-package fr.univlille1.m2iagl.crashbucket.pointsdecider;
+package fr.univlille1.m2iagl.crashbucket.analyzer;
 
 import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.StacktraceData;
 import fr.univlille1.m2iagl.crashbucket.structure.StacktraceLine;
