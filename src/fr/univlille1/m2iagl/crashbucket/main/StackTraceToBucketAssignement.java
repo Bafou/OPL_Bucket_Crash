@@ -1,12 +1,8 @@
 package fr.univlille1.m2iagl.crashbucket.main;
 
+import fr.univlille1.m2iagl.crashbucket.analyzer.StacktraceAnalyzer;
 import fr.univlille1.m2iagl.crashbucket.constant.Paths;
-import static fr.univlille1.m2iagl.crashbucket.helpers.OutputWriter.generateOutputResultFile;
-import static fr.univlille1.m2iagl.crashbucket.helpers.ParsingHelper.listTestingFolder;
-import static fr.univlille1.m2iagl.crashbucket.helpers.ParsingHelper.listTrainingFolder;
 import java.io.File;
-import java.util.List;
-import java.util.Random;
 
 public class StackTraceToBucketAssignement {
 
@@ -15,16 +11,8 @@ public class StackTraceToBucketAssignement {
         final File trainingFolder = new File(Paths.NAUTILUS_TRAINING);
         final File testingFolder = new File(Paths.NAUTILUS_TESTING);
         
-        List<String> bucketChoice = listTrainingFolder(trainingFolder);
-        List<String> stackTraces = listTestingFolder(testingFolder);
-        
-        Random randomGenerator = new Random();
-        
-        for(String stackTrace : stackTraces){
-            int index = randomGenerator.nextInt(bucketChoice.size());
-            String item = bucketChoice.get(index);
-            generateOutputResultFile(stackTrace,item,"HeuristicAssignementOutput",Paths.NAUTILUS);
-        }  
+        StacktraceAnalyzer stacktraceAnalyzer = new StacktraceAnalyzer();
+	stacktraceAnalyzer.assignStacktraceToBucket(testingFolder, trainingFolder);
     }
 }
     
