@@ -29,20 +29,20 @@ public class BucketDecider {
         for (File trainingRessourceFile : trainingRessourcesContent.keySet()) {
             if (!MatchedBucketId.containsKey(trainingRessourceFile.getParentFile().getParent()))
                 MatchedBucketId.put(trainingRessourceFile.getParentFile().getParent(), 0.0);
-            ArrayList<Double> matchedLine = new ArrayList<>();
+            ArrayList<Double> matchedLineTotalScore = new ArrayList<>();
             for (StacktraceLine stacktraceLine : testingRessourcesStacktrace.get(testingRessourcesContent.get(testingRessourceFile))
                     .getStacktraceLines())
                 if (trainingRessourcesStacktrace.get(trainingRessourcesContent.get(trainingRessourceFile)) != null)
                     for (StacktraceLine crashLineTraining : trainingRessourcesStacktrace.get(trainingRessourcesContent.get(trainingRessourceFile))
                             .getStacktraceLines()) {
                         double matchScore = StacktraceLinesPointsDecider.getStacktraceLinesComparaisonScore(stacktraceLine, crashLineTraining);
-                        matchedLine.add(matchScore);
+                        matchedLineTotalScore.add(matchScore);
 					}
-			double scoreResult = 0;
-			for (Double distance : matchedLine)
+			double scoreResult = 0.0;
+			for (Double distance : matchedLineTotalScore)
                             scoreResult += distance;
-                        scoreResult /= matchedLine.size();
-                        if (MatchedBucketId.get(trainingRessourceFile.getParentFile().getParent()) < scoreResult) {
+                        scoreResult /= matchedLineTotalScore.size();
+                        if (MatchedBucketId.get(trainingRessourceFile.getParentFile().getParent()) <= scoreResult) {
                             MatchedBucketId.put(trainingRessourceFile.getParentFile().getParent(), scoreResult);
                         }
         }
