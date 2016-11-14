@@ -26,6 +26,11 @@ public class RandomAssignment {
         
         Random randomGenerator = new Random();
         
+        File file = new File(nautilusFolderPath+File.separator+outputFileName+".txt");
+        if (file.exists()) {
+            file.delete();
+        }
+        
         System.out.println("------------------------------------------------------------------------"+"\n");
         System.out.println("Random Stacktrace Analysis started...");
         for(String stackTrace : stackTraces){

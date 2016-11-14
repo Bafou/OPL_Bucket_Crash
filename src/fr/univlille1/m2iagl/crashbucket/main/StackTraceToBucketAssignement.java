@@ -14,6 +14,10 @@ public class StackTraceToBucketAssignement {
         final String outputFileName = Constants.ANALYSIS_ASSIGNEMENT_OUTPUT_FILE;
         final String nautilusFolderPath = Constants.NAUTILUS_PATH;
         
+        File file = new File(nautilusFolderPath+File.separator+outputFileName+".txt");
+        if (file.exists()) {
+            file.delete();
+        }
         StacktraceAnalyzer stacktraceAnalyzer = new StacktraceAnalyzer();
         System.out.println("------------------------------------------------------------------------"+"\n");
         System.out.println("Stacktrace Analysis started...");
