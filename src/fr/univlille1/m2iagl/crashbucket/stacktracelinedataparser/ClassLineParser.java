@@ -6,4 +6,10 @@ public class ClassLineParser extends StacktraceLineDataParser {
         super();
         setData(classLine);
     }
+
+	@Override
+	public double getScore() {
+		return 0.0;
+	}
+    
 }

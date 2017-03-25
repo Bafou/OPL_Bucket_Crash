@@ -3,6 +3,8 @@ package fr.univlille1.m2iagl.crashbucket.analyzer;
 import fr.univlille1.m2iagl.crashbucket.constant.Constants;
 import static fr.univlille1.m2iagl.crashbucket.helpers.FilesLoader.loadAllFiles;
 import static fr.univlille1.m2iagl.crashbucket.helpers.OutputWriter.generateOutputResultFile;
+
+import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.AdressLineParser;
 import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.ClassLineParser;
 import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.ClassNameParser;
 import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.LibraryNameParser;
@@ -37,7 +39,7 @@ public class StacktraceAnalyzer {
         this.lineAt = -1;
     }
 
-    public void assignStacktraceToBucket(File testingFolder, File trainingFolder, String outputFileName) {
+    public void assignStacktraceToBucket(final File testingFolder, final File trainingFolder, final String outputFileName) {
         loadAllFiles(trainingFolder, trainingRessources);
 	loadAllFiles(testingFolder, testingRessources);
 
@@ -47,7 +49,7 @@ public class StacktraceAnalyzer {
 	getStacktraceContent(testingRessourcesStacktrace, testingRessourcesContent);
 	getStacktraceContent(trainingRessourcesStacktrace, trainingRessourcesContent);
         
-        for (File testingFile : testingRessourcesContent.keySet()) {
+        for (final File testingFile : testingRessourcesContent.keySet()) {
             BucketDecider bucketDecider = 
                     new BucketDecider(trainingRessourcesStacktrace,testingRessourcesStacktrace, trainingRessourcesContent, testingRessourcesContent, testingFile);
             bucketDecider.InitiateAssignment();
@@ -55,32 +57,32 @@ public class StacktraceAnalyzer {
         generateOutputFile(outputFileName);
     }
         
-    public void generateOutputFile(String outputFileName) {
-        SortedSet<String> sortedList = new TreeSet<>(new Comparator<String>() {
+    public void generateOutputFile(final String outputFileName) {
+        final SortedSet<String> sortedList = new TreeSet<>(new Comparator<String>() {
             @Override
             public int compare(String a, String b) {
                 return Integer.valueOf(a).compareTo(Integer.valueOf(b));}});
         sortedList.addAll(assignementResult.keySet());
-        for (String testingFileName : sortedList)
+        for (final String testingFileName : sortedList)
             generateOutputResultFile(testingFileName,assignementResult.get(testingFileName),outputFileName,Constants.NAUTILUS_PATH);
 	}
 
-	public void loadFileContent(List<File> fileList, Map<File,String> fileContent) {
+	public void loadFileContent(final List<File> fileList,  final Map<File,String> fileContent) {
 		FileReader fileReader = null;
-		for (File file : fileList) {
+		for (final File file : fileList) {
 			try {
 				fileReader = new FileReader(file);
-			} catch (FileNotFoundException ex) {
+			} catch (final FileNotFoundException ex) {
 				System.out.println("The file with the specified pathname does not exist");
 			}
 			BufferedReader bfReader = new BufferedReader(fileReader);
 			try {
 				String line = null;
-				StringBuilder sb = new StringBuilder("");
+				final StringBuilder sb = new StringBuilder("");
 				while ((line = bfReader.readLine()) != null)
 					sb.append(line).append("\n");
 				fileContent.put(file, sb.toString());
-			} catch (IOException ex) {
+			} catch (final IOException ex) {
 				System.out.println("Failed or interrupted I/O operations.");
 			} finally {
 				try {
@@ -92,16 +94,16 @@ public class StacktraceAnalyzer {
 		}
 	}
 
-	public void getStacktraceContent(Map<String,Crash> StacktraceContent, Map<File,String> fileContent) {
+	public void getStacktraceContent(final Map<String,Crash> StacktraceContent, final Map<File,String> fileContent) {
 		String stacktraceData = null;
-		for (File file : fileContent.keySet()) {
+		for (final File file : fileContent.keySet()) {
 			stacktraceData = fileContent.get(file);
-			Crash crashReport = new Crash();
+			final Crash crashReport = new Crash();
 			if (!StacktraceContent.containsKey(stacktraceData))
 				StacktraceContent.put(stacktraceData, crashReport);
 			else
 				return;
-                    try (Scanner scanner = new Scanner(stacktraceData)) {
+                    try (final Scanner scanner = new Scanner(stacktraceData)) {
                         String line = null;
                         StacktraceLine stacktraceLine = new StacktraceLine();
                         while (scanner.hasNext()) {
@@ -120,10 +122,11 @@ public class StacktraceAnalyzer {
 		}
 	}
 
-	public void getStacktraceLineData(String line, StacktraceLine stacktraceLine) {
+	public void getStacktraceLineData(final String line, final StacktraceLine stacktraceLine) {
             try (Scanner scanner = new Scanner(line)) {
                 String word = null;
                 StacktraceLineDataParser data;
+                boolean asSeenAdress = false;
                 while (scanner.hasNext()) {
                     String keywordValue = scanner.next();
                     switch (keywordValue) {
@@ -144,7 +147,9 @@ public class StacktraceAnalyzer {
                         case "at":
                             word = scanner.next();
                             if (word != null) {
-                                data = new ClassNameParser(word);
+                            	String[] allPart = word.split("/");
+                            	String lastPart = allPart[allPart.length-1].split(":")[0];
+                                data = new ClassNameParser(lastPart);
                                 stacktraceLine.addStacktraceLineData(data);
                             }
                             break;
@@ -154,7 +159,12 @@ public class StacktraceAnalyzer {
                                 data = new ClassLineParser(word);
                                 stacktraceLine.addStacktraceLineData(data);
                             }
+                            break;
                         default:
+                        	if (!asSeenAdress && keywordValue.startsWith("0x")) {
+                        		data = new AdressLineParser(keywordValue);
+                        		stacktraceLine.addStacktraceLineData(data);
+                        	}
                             break;
                     }
                 }

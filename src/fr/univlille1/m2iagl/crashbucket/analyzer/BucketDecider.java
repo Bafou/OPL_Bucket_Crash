@@ -1,9 +1,15 @@
 package fr.univlille1.m2iagl.crashbucket.analyzer;
 
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import fr.univlille1.m2iagl.crashbucket.structure.Crash;
 import fr.univlille1.m2iagl.crashbucket.structure.StacktraceLine;
-import java.io.File;
-import java.util.*;
 
 public class BucketDecider {
 
@@ -26,7 +32,13 @@ public class BucketDecider {
 
     public void InitiateAssignment() {
         Map<String,Double> MatchedBucketId = new HashMap<>();
-        for (File trainingRessourceFile : trainingRessourcesContent.keySet()) {
+        List<File> listFiles = new ArrayList<File>(trainingRessourcesContent.keySet());
+        listFiles.sort(new Comparator<File>(){
+            public int compare(File f1, File f2)
+            {
+                return Long.valueOf(f1.lastModified()).compareTo(f2.lastModified());
+            } });
+        for (File trainingRessourceFile : listFiles) {
             if (!MatchedBucketId.containsKey(trainingRessourceFile.getParentFile().getParent()))
                 MatchedBucketId.put(trainingRessourceFile.getParentFile().getParent(), 0.0);
             ArrayList<Double> matchedLineTotalScore = new ArrayList<>();
@@ -46,6 +58,10 @@ public class BucketDecider {
                             MatchedBucketId.put(trainingRessourceFile.getParentFile().getParent(), scoreResult);
                         }
         }
+        
+        
+        
+        
         String bucketId = null;
         Double highestMatchedScore = 0.0;
         for (String matchedBucketId : MatchedBucketId.keySet()) {

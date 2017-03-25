@@ -11,4 +11,6 @@ public abstract class StacktraceLineDataParser {
     public void setData(String data) {
         this.data = data;
     }
+    
+    public abstract double getScore();
 }

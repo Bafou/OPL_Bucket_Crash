@@ -21,7 +21,7 @@ public class StackTraceToBucketAssignement {
         StacktraceAnalyzer stacktraceAnalyzer = new StacktraceAnalyzer();
         System.out.println("------------------------------------------------------------------------"+"\n");
         System.out.println("Stacktrace Analysis started...");
-	stacktraceAnalyzer.assignStacktraceToBucket(testingFolder, trainingFolder, outputFileName);
+        stacktraceAnalyzer.assignStacktraceToBucket(testingFolder, trainingFolder, outputFileName);
         long endTime = System.nanoTime();
         final long duration = endTime - startTime;
         final double seconds = ((double)duration / 1000000000);
