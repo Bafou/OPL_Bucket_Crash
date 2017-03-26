@@ -2,25 +2,32 @@ package fr.univlille1.m2iagl.crashbucket.structure;
 
 import java.util.*;
 
+import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.StacktraceLineDataParser;
+
 public class Bucket {
     
     private String bucketId;
-    private List<Crash> crash; 
+    private List<Crash> allCrashes; 
     	
-    public Bucket(String bucketId){
+    public Bucket(final String bucketId){
         this.bucketId=bucketId;
-        this.crash = new ArrayList();  
+        this.allCrashes = new ArrayList<Crash>();  
     }
 
     public String getBucketId() {
         return bucketId;
     }
 
-    public void setBucketId(String bucketId) {
+    public void setBucketId(final String bucketId) {
         this.bucketId = bucketId;
     }
+    
+   public void addCrash(final Crash crash) {
+	   this.allCrashes.add(crash);
+   }
 
     public List<Crash> getCrash() {
-        return crash;
-    }  
+        return allCrashes;
+    }
+
 }

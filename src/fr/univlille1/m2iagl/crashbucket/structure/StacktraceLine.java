@@ -84,6 +84,10 @@ public class StacktraceLine {
         this.stacktraceLineData.add(stacktraceLineData);
     }
     
+    public void addAllStacktraceLineData(Collection<? extends StacktraceLineDataParser> stacktracesLineData) {
+        this.stacktraceLineData.addAll(stacktracesLineData);
+    }
+    
     public Map<String,String> getEnvironmentVariable() {
         return environmentVariable;
     }
