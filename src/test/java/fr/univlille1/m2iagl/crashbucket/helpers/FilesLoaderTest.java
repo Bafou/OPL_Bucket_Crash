@@ -50,7 +50,6 @@ public class FilesLoaderTest {
     public void testListTestingFolder() throws Exception{
         System.out.println("listTestingFolder");
         File folder = new File("fr/univlille1/m2iagl/crashbucket/ressources/testpackage");
-        List<String> expResult = null;
         List<String> result = FilesLoader.listTestingFolder(folder);
         //assertEquals(expResult, result);
         assertEquals("testfile", result.get(0));

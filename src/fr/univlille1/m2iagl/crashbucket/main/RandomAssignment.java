@@ -9,6 +9,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+/**
+ * Random assignement, use to test the random assignement algorithm
+ * @author Antoine PETIT
+ *
+ */
 public class RandomAssignment {
     
     public static List<File> trainingRessources = new ArrayList<>();

@@ -3,6 +3,12 @@ package fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * A StacktraceLineDataParser is a data contain in a stacktrace line, representing a class, a method, etc
+ * It help to give point depending of the type of data seen in the stacktrace line
+ * @author Antoine PETIT
+ *
+ */
 public abstract class StacktraceLineDataParser {
     
     private String data;
@@ -12,20 +18,40 @@ public abstract class StacktraceLineDataParser {
     	apparitionLineNumber = new ArrayList<Integer>();
     }
     
+    /**
+     * Return the "value" of the data (ex : the class name)
+     * @return the "value" of the data (ex : the class name)
+     */
     public String getData() {
         return data;
     }
 
-    public void setData(String data) {
+    /**
+     * Set the "value" of the data
+     * @param data the value
+     */
+    public void setData(final String data) {
         this.data = data;
     }
     
+    /**
+     * Give the score associated to the specific type
+     * @return
+     */
     public abstract double getScore();
     
+    /**
+     * Give the list of all line where the data as been seen
+     * @return all the position of the data
+     */
     public List<Integer> getApparitionLineNumber() {
     	return apparitionLineNumber;
     }
     
+    /**
+     * Add a line to the list of position of this specif data
+     * @param line
+     */
     public void addLineApparition (int line) {
     	apparitionLineNumber.add(line);
     }

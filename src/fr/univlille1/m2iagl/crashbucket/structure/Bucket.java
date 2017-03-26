@@ -1,9 +1,13 @@
 package fr.univlille1.m2iagl.crashbucket.structure;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
-import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.StacktraceLineDataParser;
-
+/**
+ * A bucket containing an group of crash (stacktrace) that represent probably the same issues
+ * @author Antoine PETIT
+ *
+ */
 public class Bucket {
     
     private String bucketId;

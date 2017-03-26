@@ -1,5 +1,10 @@
 package fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser;
 
+/**
+ * A StacktraceLineDataParser representing an adress
+ * @author Antoine PETIT
+ *
+ */
 public class AdressLineParser extends StacktraceLineDataParser {
 
 	

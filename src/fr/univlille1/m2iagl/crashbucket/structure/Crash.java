@@ -4,6 +4,11 @@ import java.util.*;
 
 import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.StacktraceLineDataParser;
 
+/**
+ * A crash (aka stacktrace) represent the log given when a crash occured
+ * @author Antoine PETIT
+ *
+ */
 public class Crash {
 
 	private Bucket bucket;
@@ -28,7 +33,7 @@ public class Crash {
 		return stacktraceLines;
 	}
 
-	public void addCrashLines(StacktraceLine stacktraceLine) {
+	public void addCrashLines(final StacktraceLine stacktraceLine) {
 		stacktraceLines.add(stacktraceLine);
 		for (StacktraceLineDataParser data : stacktraceLine.getStacktraceLineData()) {
 			if (allData.contains(data)) {
@@ -40,7 +45,7 @@ public class Crash {
 		}
 	}
 
-	public void addAllCrashLines(Collection<StacktraceLine> stacktraceLines) {
+	public void addAllCrashLines(final Collection<StacktraceLine> stacktraceLines) {
 		for (StacktraceLine stacktraceLine : stacktraceLines) {
 			this.stacktraceLines.add(stacktraceLine);
 			for (StacktraceLineDataParser data : stacktraceLine.getStacktraceLineData()) {
