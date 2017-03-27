@@ -91,7 +91,7 @@ public class StacktraceAnalyzer {
 		sortedList.addAll(assignementResult.keySet());
 		for (final String testingFileName : sortedList)
 			generateOutputResultFile(testingFileName, assignementResult.get(testingFileName), outputFileName,
-					Constants.NAUTILUS_PATH);
+					Constants.HOME_PATH);
 	}
 
 	/**

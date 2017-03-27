@@ -66,5 +66,6 @@ public class FilesLoader {
 				loadAllFiles(fileEntry, fileList);
 			else if (!fileList.contains(fileEntry))
 				fileList.add(fileEntry);
+		//Collections.sort(fileList);
 	}
 }

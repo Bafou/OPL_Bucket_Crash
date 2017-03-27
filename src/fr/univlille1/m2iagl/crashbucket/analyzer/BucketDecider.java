@@ -80,7 +80,7 @@ public class BucketDecider {
 			
 			double averageTestTrain = (percentTesting + percentTraining) /2.0;
 			
-			score += averageTestTrain /7.0;
+			score += averageTestTrain;
 			
 			if (currentScore < score) {
 				currentScore = score;

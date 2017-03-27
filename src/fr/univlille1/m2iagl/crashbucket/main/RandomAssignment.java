@@ -21,10 +21,10 @@ public class RandomAssignment {
         
     public static void main(String[] args) {
         final long startTime = System.nanoTime();
-        final File trainingFolder = new File(Constants.NAUTILUS_TRAINING_PATH);
-        final File testingFolder = new File(Constants.NAUTILUS_TESTING_PATH);
+        final File trainingFolder = new File(Constants.TRAINING_PATH_1);
+        final File testingFolder = new File(Constants.TESTING_PATH_1);
         final String outputFileName = Constants.RANDOM_ASSIGNEMENT_OUTPUT_FILE;
-        final String nautilusFolderPath = Constants.NAUTILUS_PATH;
+        final String nautilusFolderPath = Constants.HOME_PATH;
         
         List<String> bucketChoice = listTrainingFolder(trainingFolder);
         List<String> stackTraces = listTestingFolder(testingFolder);

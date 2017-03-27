@@ -14,6 +14,6 @@ public class LibraryNameParser extends StacktraceLineDataParser {
 
 	@Override
 	public double getScore() {
-		return 10.0;
+		return 11.0;
 	}
 }
