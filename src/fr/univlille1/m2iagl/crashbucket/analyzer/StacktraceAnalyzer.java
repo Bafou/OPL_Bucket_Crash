@@ -76,6 +76,45 @@ public class StacktraceAnalyzer {
 		bucketDecider.InitiateAssignment();
 		generateOutputFile(outputFileName);
 	}
+	
+	/**
+	 * Assign the stacktrace from testingFolder in the bucket contain in the trainingFolder
+	 * Put the result in the file named outputFileName
+	 * 
+	 * @param trainingFolder the folder that contains the excictent buckets
+	 * @param outputFileName the name of the file where the result will be stored
+	 */
+	public int testBucketDeciderOnBucket(final File trainingFolder) {
+		loadAllFiles(trainingFolder, trainingRessources);
+
+		loadFileContent(trainingRessources, trainingRessourcesContent);
+
+		getStacktraceContentTraining(trainingRessourcesStacktrace, trainingRessourcesContent);
+
+		Map<String,Bucket> alternate = new HashMap<>(trainingRessourcesStacktrace);
+		final BucketDecider bucketDecider = new BucketDecider(alternate);
+		
+		int score =0;
+		int count =0;
+		for (final String bucketId : trainingRessourcesStacktrace.keySet()) {
+			Bucket bucket = trainingRessourcesStacktrace.get(bucketId);
+			if (bucket.getCrash().size() >= 3 ) {
+				final List<Crash> copyCrash = new ArrayList<Crash>(bucket.getCrash());
+				for (final Crash crash : copyCrash) {
+					count++;
+					bucketDecider.removeFromBucket(bucketId, crash);
+					if (bucketId.equals(bucketDecider.decideBucket(crash))) {
+						score++;
+					}
+					bucketDecider.addToBucket(bucketId, crash);
+				}
+				
+			}
+		}
+		System.out.println("Resultat sur : " + count);
+		return score;
+		
+	}
 
 	/**
 	 * Generate the outputfile with the value found in the assignementResult
@@ -173,7 +212,7 @@ public class StacktraceAnalyzer {
 		for (final File file : fileContent.keySet()) {
 			final Crash crashReport = new Crash();
 			stacktraceData = fileContent.get(file);
-			Bucket bucket = stackTraceContent.get(file);
+			Bucket bucket = stackTraceContent.get(file.getParentFile().getParentFile().getName());
 			if (bucket == null) {
 				bucket = new Bucket(file.getParentFile().getParentFile().getName());
 				stackTraceContent.put(file.getParentFile().getParentFile().getName(), bucket);
