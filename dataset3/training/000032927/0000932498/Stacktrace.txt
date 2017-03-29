@@ -1,0 +1,72 @@
+#0  0x00007f8983fed230 in ?? ()
+No symbol table info available.
+#1  0x00007f89be2145a6 in ?? () from /usr/lib/x86_64-linux-gnu/libpixman-1.so.0
+No symbol table info available.
+#2  0x00007f89be2404f2 in ?? () from /usr/lib/x86_64-linux-gnu/libpixman-1.so.0
+No symbol table info available.
+#3  0x00007f89be1db488 in pixman_image_composite32 () from /usr/lib/x86_64-linux-gnu/libpixman-1.so.0
+No symbol table info available.
+#4  0x00007f89be48089d in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#5  0x00007f89be48230c in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#6  0x00007f89be48362b in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#7  0x00007f89be4838a9 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#8  0x00007f89be4a1704 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#9  0x00007f89be47b3ed in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#10 0x00007f89be472290 in cairo_fill_preserve () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#11 0x00007f89be4722a9 in cairo_fill () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#12 0x00007f89b00fe8a5 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#13 0x00007f89b00fb2ca in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#14 0x00007f89b00f2cc3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#15 0x00007f89b00f31b3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#16 0x00007f89b00f2cc3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#17 0x00007f89b00f31b3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#18 0x00007f89b00f2cc3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#19 0x00007f89b00f30cc in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#20 0x00007f89b00f2cc3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#21 0x00007f89b00ff478 in rsvg_handle_render_cairo_sub () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#22 0x00007f89b00ff943 in rsvg_handle_get_pixbuf_sub () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#23 0x00007f898a1e1d2b in ?? () from /usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+No symbol table info available.
+#24 0x00007f89baee46d1 in gdk_pixbuf_loader_close () from /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0
+No symbol table info available.
+#25 0x00007f89baee09d9 in ?? () from /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0
+No symbol table info available.
+#26 0x00007f89baee2221 in gdk_pixbuf_new_from_stream_at_scale () from /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0
+No symbol table info available.
+#27 0x00007f89ba77223b in ?? () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#28 0x00007f89ba774fb2 in gtk_icon_info_load_icon () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#29 0x00007f89bc0d5192 in unity::IconLoader::Impl::LoaderJobFunc(_GIOSchedulerJob*, _GCancellable*, unity::IconLoader::Impl::IconLoaderTask*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#30 0x00007f89c8c913be in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#31 0x00007f89ccce9e38 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#32 0x00007f89ccce95c5 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#33 0x00007f89ce15ce9a in start_thread () from /lib/x86_64-linux-gnu/libpthread.so.0
+No symbol table info available.
+#34 0x00007f89ce46277d in clone () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#35 0x0000000000000000 in ?? ()
+No symbol table info available.

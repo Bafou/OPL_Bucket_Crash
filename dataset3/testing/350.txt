@@ -1,0 +1,44 @@
+#0  0x0024dda3 in gtk_label_set_text_with_mnemonic () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#1  0x00f1aa75 in ?? () from /usr/lib/indicators/4/libappmenu.so
+No symbol table info available.
+#2  0x00fb407f in ?? () from /usr/lib/libdbusmenu-glib.so.3
+No symbol table info available.
+#3  0x00adb4b2 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00aef228 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00af7f65 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00af8142 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00fb2816 in dbusmenu_menuitem_property_set_variant () from /usr/lib/libdbusmenu-glib.so.3
+No symbol table info available.
+#8  0x00fb7ff1 in ?? () from /usr/lib/libdbusmenu-glib.so.3
+No symbol table info available.
+#9  0x00fb7dcb in ?? () from /usr/lib/libdbusmenu-glib.so.3
+No symbol table info available.
+#10 0x00729136 in g_simple_async_result_complete () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#11 0x007829b4 in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#12 0x00729136 in g_simple_async_result_complete () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#13 0x00777763 in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#14 0x00729136 in g_simple_async_result_complete () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#15 0x0072926e in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#16 0x0080f4b1 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#17 0x00813c68 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#18 0x00814430 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#19 0x00814af3 in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#20 0x0025a479 in gtk_main () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#21 0x0804ab29 in main ()
+No symbol table info available.

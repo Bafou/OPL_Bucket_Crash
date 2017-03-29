@@ -1,0 +1,16 @@
+#0  0x00007f0980f7c450 in QList<AbstractX11EventFilter*>::removeAll(AbstractX11EventFilter* const&) () from /usr/lib/libuqpanel.so.0
+No symbol table info available.
+#1  0x00007f0980f7c107 in Unity2dApplication::removeX11EventFilter(AbstractX11EventFilter*) () from /usr/lib/libuqpanel.so.0
+No symbol table info available.
+#2  0x00007f0980f7aef2 in KeyboardModifiersMonitor::~KeyboardModifiersMonitor() () from /usr/lib/libuqpanel.so.0
+No symbol table info available.
+#3  0x00007f0980f7af39 in KeyboardModifiersMonitor::~KeyboardModifiersMonitor() () from /usr/lib/libuqpanel.so.0
+No symbol table info available.
+#4  0x00007f09812ec1e4 in QObjectPrivate::deleteChildren() () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#5  0x00007f09812f0bb4 in QObject::~QObject() () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#6  0x00007f09817d06d5 in QApplication::~QApplication() () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#7  0x0000000000415d6d in main ()
+No symbol table info available.

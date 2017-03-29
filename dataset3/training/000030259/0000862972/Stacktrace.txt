@@ -1,0 +1,18 @@
+#0  0x0086f1b3 in g_type_check_instance_cast () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#1  0x04704371 in BamfLauncherIcon::OnWindowMovedTimeout(BamfLauncherIcon*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x003d192f in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x003d025f in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x003d0990 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x003d0f9b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00150753 in Glib::MainLoop::run() () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#7  0x08070827 in CompScreen::eventLoop() ()
+No symbol table info available.
+#8  0x08063a14 in main ()
+No symbol table info available.

@@ -1,0 +1,18 @@
+#0  0x08c92c34 in ?? () from /usr/lib/indicators/4/libappmenu.so
+No symbol table info available.
+#1  0x00178c0f in g_simple_async_result_complete () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#2  0x00178d2d in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#3  0x0031e461 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00322c18 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#5  0x003233e0 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00323aa3 in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#7  0x005fe9c9 in gtk_main () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#8  0x0804b6d6 in main ()
+No symbol table info available.

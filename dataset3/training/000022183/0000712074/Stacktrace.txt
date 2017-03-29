@@ -1,0 +1,50 @@
+#0  0x00237309 in gtk_label_set_text_with_mnemonic () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#1  0x00e7da75 in ?? () from /usr/lib/indicators/4/libappmenu.so
+No symbol table info available.
+#2  0x00f7d0af in ?? () from /usr/lib/libdbusmenu-glib.so.3
+No symbol table info available.
+#3  0x0058e4b2 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x005a2228 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x005aaf65 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x005ab142 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00f7b846 in dbusmenu_menuitem_property_set_variant () from /usr/lib/libdbusmenu-glib.so.3
+No symbol table info available.
+#8  0x00f81031 in ?? () from /usr/lib/libdbusmenu-glib.so.3
+No symbol table info available.
+#9  0x00f80e1b in ?? () from /usr/lib/libdbusmenu-glib.so.3
+No symbol table info available.
+#10 0x006a40f6 in g_simple_async_result_complete () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#11 0x006fd9b4 in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#12 0x006a40f6 in g_simple_async_result_complete () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#13 0x006f2763 in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#14 0x006a40f6 in g_simple_async_result_complete () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#15 0x006a422e in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#16 0x009f3501 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#17 0x009f7cb8 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#18 0x009f8480 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#19 0x009f8b43 in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#20 0x002429c9 in gtk_main () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#21 0x00f963df in panel_applet_factory_main () from /usr/lib/libpanel-applet-3.so.0
+No symbol table info available.
+#22 0x0804c73c in ?? ()
+No symbol table info available.
+#23 0x00764ce6 in __libc_start_main () from /lib/libc.so.6
+No symbol table info available.
+#24 0x0804a641 in ?? ()
+No symbol table info available.

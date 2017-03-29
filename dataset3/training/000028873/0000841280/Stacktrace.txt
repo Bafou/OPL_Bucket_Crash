@@ -1,0 +1,72 @@
+#0  0x00b5513a in g_str_hash () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00b21498 in g_hash_table_lookup () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0x1828efc4 in ?? () from /usr/lib/control-center-1/panels/libuser-accounts.so
+No symbol table info available.
+#3  0x1828f539 in ?? () from /usr/lib/control-center-1/panels/libuser-accounts.so
+No symbol table info available.
+#4  0x182904d0 in ?? () from /usr/lib/control-center-1/panels/libuser-accounts.so
+No symbol table info available.
+#5  0x18290e62 in ?? () from /usr/lib/control-center-1/panels/libuser-accounts.so
+No symbol table info available.
+#6  0x1828b968 in ?? () from /usr/lib/control-center-1/panels/libuser-accounts.so
+No symbol table info available.
+#7  0x1828bba1 in ?? () from /usr/lib/control-center-1/panels/libuser-accounts.so
+No symbol table info available.
+#8  0x00156f6c in g_cclosure_marshal_VOID__VOID () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#9  0x00155a5c in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#10 0x00169ec0 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x00172b8f in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x00172d03 in g_signal_emit () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x005470b4 in ?? () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#14 0x00547609 in gtk_tree_selection_select_path () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#15 0x005476df in gtk_tree_selection_select_iter () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#16 0x1828c0f2 in ?? () from /usr/lib/control-center-1/panels/libuser-accounts.so
+No symbol table info available.
+#17 0x1828c1f5 in ?? () from /usr/lib/control-center-1/panels/libuser-accounts.so
+No symbol table info available.
+#18 0x00156f6c in g_cclosure_marshal_VOID__VOID () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#19 0x00155a5c in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#20 0x00169ec0 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#21 0x00172b8f in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#22 0x00172d03 in g_signal_emit () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#23 0x1827b072 in ?? () from /usr/lib/control-center-1/panels/libuser-accounts.so
+No symbol table info available.
+#24 0x11fd016d in ?? () from /usr/lib/i386-linux-gnu/libdbus-glib-1.so.2
+No symbol table info available.
+#25 0x11444961 in ?? () from /lib/i386-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#26 0x1142f897 in ?? () from /lib/i386-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#27 0x11433177 in dbus_connection_dispatch () from /lib/i386-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#28 0x11fca95d in ?? () from /usr/lib/i386-linux-gnu/libdbus-glib-1.so.2
+No symbol table info available.
+#29 0x00b3377f in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#30 0x00b33eb0 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#31 0x00b344bb in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#32 0x00417805 in gtk_main () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#33 0x00317b74 in ?? () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#34 0x008a82bc in g_application_run () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#35 0x00ae6d16 in main ()
+No symbol table info available.

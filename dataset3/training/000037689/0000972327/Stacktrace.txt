@@ -1,0 +1,19 @@
+#0  0x00f4e416 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0x00b1a7ae in poll () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x0060434b in g_poll () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x005f5896 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x005f5f9b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x04a4b194 in ?? () from /usr/lib/gio/modules/libdconfsettings.so
+No symbol table info available.
+#6  0x0061c5f4 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x0099fd31 in start_thread () from /lib/i386-linux-gnu/libpthread.so.0
+No symbol table info available.
+#8  0x00b2946e in clone () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+Backtrace stopped: Not enough registers or memory available to unwind further

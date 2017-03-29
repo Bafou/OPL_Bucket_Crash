@@ -1,0 +1,56 @@
+#0  0xb388e0b4 in unity::panel::Style::GetStyleContext() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0xb388538a in unity::PanelMenuView::DrawText(_cairo*, int&, int, int, int, char const*, char const*, int) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0xb3886cfb in unity::PanelMenuView::Refresh() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0xb388b2b8 in unity::PanelMenuView::OnActiveWindowChanged(_BamfMatcher*, _BamfView*, _BamfView*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0xb388ba7d in sigc::internal::slot_call3<sigc::bound_mem_functor3<void, unity::PanelMenuView, _BamfMatcher*, _BamfView*, _BamfView*>, void, _BamfMatcher*, _BamfView*, _BamfView*>::call_it(sigc::internal::slot_rep*, _BamfMatcher* const&, _BamfView* const&, _BamfView* const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#5  0xb388b958 in unity::glib::Signal2<void, _BamfMatcher*, _BamfView*, _BamfView*>::Callback(_BamfMatcher*, _BamfView*, _BamfView*, unity::glib::Signal2<void, _BamfMatcher*, _BamfView*, _BamfView*>*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#6  0xb338dd3a in bamf_marshal_VOID__OBJECT_OBJECT () from /usr/lib/i386-linux-gnu/libbamf3.so.0
+No symbol table info available.
+#7  0xb700ef8c in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#8  0xb7020845 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#9  0xb70280c2 in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#10 0xb7028253 in g_signal_emit () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#11 0xb3386603 in ?? () from /usr/lib/i386-linux-gnu/libbamf3.so.0
+No symbol table info available.
+#12 0xb338dbaa in bamf_marshal_VOID__STRING_STRING () from /usr/lib/i386-linux-gnu/libbamf3.so.0
+No symbol table info available.
+#13 0xb647817a in ?? () from /usr/lib/i386-linux-gnu/libdbus-glib-1.so.2
+No symbol table info available.
+#14 0xb700ef8c in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#15 0xb7020845 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#16 0xb70280c2 in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#17 0xb7028253 in g_signal_emit () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#18 0xb6478820 in ?? () from /usr/lib/i386-linux-gnu/libdbus-glib-1.so.2
+No symbol table info available.
+#19 0xb642e441 in dbus_connection_dispatch () from /lib/i386-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#20 0xb64709ad in ?? () from /usr/lib/i386-linux-gnu/libdbus-glib-1.so.2
+No symbol table info available.
+#21 0xb7104aba in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#22 0xb7104ec5 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#23 0xb710530b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#24 0xb71fe273 in Glib::MainLoop::run() () from /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#25 0xb76860cf in CompScreenImpl::eventLoop() () from /usr/lib/libcompiz_core.so.ABI-20120125
+No symbol table info available.
+#26 0x0804a4e2 in CompManager::run() ()
+No symbol table info available.
+#27 0x0804a16c in main ()
+No symbol table info available.

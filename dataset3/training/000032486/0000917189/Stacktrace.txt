@@ -1,0 +1,72 @@
+#0  0x00007ff98bc17c2b in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007ff98caeda9b in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#2  0x00007ff98c0d3364 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#3  0x00007ff98c0e3615 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00007ff98c0eafeb in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007ff98c0eb6c4 in g_signal_emit_by_name () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00007ff98c0d3364 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00007ff98c0e3615 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#8  0x00007ff98c0eafeb in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#9  0x00007ff98c0eb1b2 in g_signal_emit () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#10 0x00007ff98cae9387 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#11 0x00007ff98c0d3364 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x00007ff98c0e3615 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x00007ff98c0eafeb in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#14 0x00007ff98c0eb1b2 in g_signal_emit () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#15 0x00007ff98cae9387 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#16 0x00007ff98caeb4cb in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#17 0x0000000000408b79 in ?? ()
+No symbol table info available.
+#18 0x00007ff98c0d3364 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#19 0x00007ff98c0e3615 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#20 0x00007ff98c0eafeb in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#21 0x00007ff98c0eb6c4 in g_signal_emit_by_name () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#22 0x00007ff98cd38bde in ?? () from /usr/lib/libunity.so.9
+No symbol table info available.
+#23 0x00007ff98bc026ca in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#24 0x00007ff98bc02a90 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#25 0x00007ff98bc02b54 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#26 0x00007ff98c5c9254 in g_application_run () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#27 0x000000000040bf90 in ?? ()
+No symbol table info available.
+#28 0x00007ff98abcb30d in __libc_start_main (main=0x4074a0, argc=1, ubp_av=0x7fff09ab9028, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fff09ab9018) at libc-start.c:226
+        result = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {0, -7995755162400141561, 4224192, 140733355626528, 0, 0, 7995943621784555271, 7996785943710584583}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x413590, 0x7fff09ab9028}, data = {prev = 0x0, cleanup = 0x0, canceltype = 4273552}}}
+        not_first_call = <optimized out>
+#29 0x00000000004074e9 in ?? ()
+No symbol table info available.
+#30 0x00007fff09ab9018 in ?? ()
+No symbol table info available.
+#31 0x000000000000001c in ?? ()
+No symbol table info available.
+#32 0x0000000000000001 in ?? ()
+No symbol table info available.
+#33 0x00007fff09ab9a0e in ?? ()
+No symbol table info available.
+#34 0x0000000000000000 in ?? ()
+No symbol table info available.

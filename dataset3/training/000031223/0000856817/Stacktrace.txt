@@ -1,0 +1,68 @@
+#0  0x00811416 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0x0033ac8f in raise () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x0033e2b5 in abort () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0x00167b3d in ?? () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#4  0x005143a9 in qt_message_output(QtMsgType, char const*) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#5  0x005148db in ?? () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#6  0x005149f8 in qFatal(char const*, ...) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#7  0x0016767e in ?? () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#8  0x06a57e2f in g_logv () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0x06a581a3 in g_log () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0x048ccec9 in ?? () from /usr/lib/libgdk-3.so.0
+No symbol table info available.
+#11 0x048dac28 in ?? () from /usr/lib/libgdk-3.so.0
+No symbol table info available.
+#12 0x01312d3b in _XError () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#13 0x0130f90d in ?? () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#14 0x0130f967 in ?? () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#15 0x01310820 in _XReply () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#16 0x0130d765 in XTranslateCoordinates () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#17 0x04d6c23c in ?? () from /usr/lib/libwnck-3.so.0
+No symbol table info available.
+#18 0x04d6566b in ?? () from /usr/lib/libwnck-3.so.0
+No symbol table info available.
+#19 0x04d6ce13 in ?? () from /usr/lib/libwnck-3.so.0
+No symbol table info available.
+#20 0x048d6be4 in ?? () from /usr/lib/libgdk-3.so.0
+No symbol table info available.
+#21 0x048d6da2 in ?? () from /usr/lib/libgdk-3.so.0
+No symbol table info available.
+#22 0x048a5f4e in gdk_display_get_event () from /usr/lib/libgdk-3.so.0
+No symbol table info available.
+#23 0x048d6a2a in ?? () from /usr/lib/libgdk-3.so.0
+No symbol table info available.
+#24 0x06a4f2ef in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#25 0x06a4fa20 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#26 0x06a4fcba in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#27 0x00647ada in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#28 0x00a21ada in ?? () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#29 0x006181dd in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#30 0x00618421 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#31 0x0061d19d in QCoreApplication::exec() () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#32 0x009678b4 in QApplication::exec() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#33 0x0804b05b in main ()
+No symbol table info available.

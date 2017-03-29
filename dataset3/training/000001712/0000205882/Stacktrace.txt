@@ -1,0 +1,18 @@
+#0  0xb7d1aeea in gnome_vfs_uri_unref () from /usr/lib/libgnomevfs-2.so.0
+#1  0xb75c9731 in g_list_foreach () from /usr/lib/libglib-2.0.so.0
+#2  0xb7d1ad64 in gnome_vfs_uri_list_unref () from /usr/lib/libgnomevfs-2.so.0
+#3  0x0805d26a in ?? ()
+#4  0x087cc4f8 in ?? ()
+#5  0x080d30f0 in ?? ()
+#6  0x0828cd30 in ?? ()
+#7  0xb7c62d9c in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+#8  0xbfe47804 in ?? ()
+#9  0x0805d1c0 in ?? ()
+#10 0xbfe47518 in ?? ()
+#11 0xb7a38e11 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+#12 0x080f30b0 in ?? ()
+#13 0x086ea3a8 in ?? ()
+#14 0x0000005a in ?? ()
+#15 0x000000b2 in ?? ()
+#16 0xbfe47ff4 in ?? ()
+#17 0x00000000 in ?? ()

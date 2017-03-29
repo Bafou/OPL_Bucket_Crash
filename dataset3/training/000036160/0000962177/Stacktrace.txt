@@ -1,0 +1,20 @@
+#0  0x00007fe23a1cceae in unity::ui::PointerBarrierWrapper::ReleaseBarrier(int) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0x00007fe23a16ddeb in unity::launcher::Launcher::OnPointerBarrierEvent(unity::ui::PointerBarrierWrapper*, std::shared_ptr<unity::ui::BarrierEvent>) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x00007fe23a174393 in sigc::internal::slot_call2<sigc::bound_mem_functor2<void, unity::launcher::Launcher, unity::ui::PointerBarrierWrapper*, std::shared_ptr<unity::ui::BarrierEvent> >, void, unity::ui::PointerBarrierWrapper*, std::shared_ptr<unity::ui::BarrierEvent> >::call_it(sigc::internal::slot_rep*, unity::ui::PointerBarrierWrapper* const&, std::shared_ptr<unity::ui::BarrierEvent> const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x00007fe23a1cdcf6 in unity::ui::PointerBarrierWrapper::EmitCurrentData() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0x00007fe23a1cded9 in ?? () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#5  0x00007fe24d3389cb in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007fe24d337d8a in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00007fe24d338150 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0x00007fe24d33854a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0x00000000004029ae in main ()
+No symbol table info available.

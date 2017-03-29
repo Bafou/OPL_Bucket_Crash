@@ -1,0 +1,12 @@
+#0  0x00007f5f09fa8c85 in g_datalist_id_set_data_full () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007f5f0a5b4c6f in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#2  0x00007f5f0a5b5aed in g_object_unref () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#3  0x00000000004087ea in ?? ()
+No symbol table info available.
+#4  0x00007f5f0a5b5aed in g_object_unref () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x000000000040493d in main ()
+No symbol table info available.

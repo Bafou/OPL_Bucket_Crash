@@ -1,0 +1,40 @@
+#0  0x00007fbbae53dd4b in unity::hud::HudIconTextureSource::ColorForIcon(_GdkPixbuf*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0x00007fbbae5c4054 in ?? () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x00007fbbae67e19f in unity::IconTexture::IconLoaded(std::string const&, unsigned int, _GdkPixbuf*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x00007fbbae565441 in unity::IconLoader::Impl::ProcessGIconTask(unity::IconLoader::Impl::IconLoaderTask*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0x00007fbbae56622b in unity::IconLoader::Impl::ProcessTask(unity::IconLoader::Impl::IconLoaderTask*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#5  0x00007fbbae566de2 in unity::IconLoader::Impl::Iteration() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#6  0x00007fbbae567139 in unity::IconLoader::Impl::Loop(unity::IconLoader::Impl*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#7  0x00007fbbc0418bca in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0x00007fbbc0418f90 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0x00007fbbc0419054 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0x00007fbbbc919c79 in ?? () from /usr/lib/compizconfig/backends/libgconf.so
+No symbol table info available.
+#11 0x00007fbbbe1df59e in CcpScreen::timeout() () from /usr/lib/compiz/libccp.so
+No symbol table info available.
+#12 0x00007fbbc240c42b in CompTimer::triggerCallback() () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#13 0x00007fbbc240c52f in CompTimeoutSource::callback() () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#14 0x00007fbbc240b9dd in CompTimeoutSource::dispatch(sigc::slot_base*) () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#15 0x00007fbbc090e6bf in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/x86_64-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#16 0x00007fbbc0418bca in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#17 0x00007fbbc0418f90 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#18 0x00007fbbc041938a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#19 0x000000000040299e in main ()
+No symbol table info available.

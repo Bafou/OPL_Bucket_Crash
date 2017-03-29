@@ -1,0 +1,48 @@
+#0  0xb7773174 in CompAction::initiate() () from /usr/lib/libcompiz_core.so.ABI-20130125
+No symbol table info available.
+#1  0xb209e352 in unity::MultiActionList::Initiate(std::string const&, std::vector<CompOption, std::allocator<CompOption> > const&, int) const () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0xb209e500 in unity::MultiActionList::InitiateAll(std::vector<CompOption, std::allocator<CompOption> > const&, int) const () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0xb209e5be in unity::PluginAdapter::InitiateExpo() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0xb1f7fa86 in unity::launcher::ExpoLauncherIcon::ActivateLauncherIcon(unity::launcher::ActionArg) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#5  0xb1f3bc9e in unity::launcher::LauncherIcon::Activate(unity::launcher::ActionArg) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#6  0xb1f23e58 in unity::launcher::Controller::HandleLauncherKeyEvent(_XDisplay*, unsigned int, unsigned long, unsigned long, char*, unsigned long) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#7  0xb1ee3ca2 in unity::UnityScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#8  0xb7783d0d in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20130125
+No symbol table info available.
+#9  0xb7783d61 in CompScreenImpl::alwaysHandleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20130125
+No symbol table info available.
+#10 0xb775a1ab in PrivateScreen::processEvents() () from /usr/lib/libcompiz_core.so.ABI-20130125
+No symbol table info available.
+#11 0xb775a4c0 in CompScreenImpl::processEvents() () from /usr/lib/libcompiz_core.so.ABI-20130125
+No symbol table info available.
+#12 0xb7791462 in CompEventSource::callback() () from /usr/lib/libcompiz_core.so.ABI-20130125
+No symbol table info available.
+#13 0xb7791801 in sigc::internal::slot_call0<sigc::bound_mem_functor0<bool, CompEventSource>, bool>::call_it(sigc::internal::slot_rep*) () from /usr/lib/libcompiz_core.so.ABI-20130125
+No symbol table info available.
+#14 0xb7791492 in CompEventSource::dispatch(sigc::slot_base*) () from /usr/lib/libcompiz_core.so.ABI-20130125
+No symbol table info available.
+#15 0xb729d111 in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#16 0xb71974de in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#17 0xb7197888 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#18 0xb7197ceb in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#19 0xb729e273 in Glib::MainLoop::run() () from /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#20 0xb774d46a in compiz::private_screen::EventManager::startEventLoop(_XDisplay*) () from /usr/lib/libcompiz_core.so.ABI-20130125
+No symbol table info available.
+#21 0xb774d4b4 in CompScreenImpl::eventLoop() () from /usr/lib/libcompiz_core.so.ABI-20130125
+No symbol table info available.
+#22 0x08049b22 in CompManager::run() ()
+No symbol table info available.
+#23 0x080492ec in main ()
+No symbol table info available.

@@ -1,0 +1,62 @@
+#0  0x00007f3cf75f6852 in g_slice_alloc () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007f3cf76103d3 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f3cf760d961 in g_variant_builder_end () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f3cf760f173 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f3cf760f4d7 in g_variant_new_va () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f3cf760f5f8 in g_variant_new () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x0000000000408400 in ?? ()
+No symbol table info available.
+#7  0x00007f3cf31acbb8 in ffi_call_unix64 () from /usr/lib/x86_64-linux-gnu/libffi.so.6
+No symbol table info available.
+#8  0x00007f3cf31ac5c0 in ffi_call () from /usr/lib/x86_64-linux-gnu/libffi.so.6
+No symbol table info available.
+#9  0x00007f3cf789ba9b in g_cclosure_marshal_generic () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#10 0x00007f3cf789b140 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x00007f3cf78ac550 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x00007f3cf78b36ab in g_signal_emitv () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x0000000000414e50 in ?? ()
+No symbol table info available.
+#14 0x00007f3cf7dcee46 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#15 0x00007f3cf7db7425 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#16 0x00007f3cf75dbab5 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#17 0x00007f3cf75dbde8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#18 0x00007f3cf75dc1e2 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#19 0x0000000000407ceb in ?? ()
+No symbol table info available.
+#20 0x00007f3cf690d76d in __libc_start_main () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#21 0x0000000000407d41 in ?? ()
+No symbol table info available.
+#22 0x00007fffea86ada8 in ?? ()
+No symbol table info available.
+#23 0x000000000000001c in ?? ()
+No symbol table info available.
+#24 0x0000000000000005 in ?? ()
+No symbol table info available.
+#25 0x00007fffea86c95f in ?? ()
+No symbol table info available.
+#26 0x00007fffea86c996 in ?? ()
+No symbol table info available.
+#27 0x00007fffea86c9a3 in ?? ()
+No symbol table info available.
+#28 0x00007fffea86c9b7 in ?? ()
+No symbol table info available.
+#29 0x00007fffea86ca24 in ?? ()
+No symbol table info available.
+#30 0x0000000000000000 in ?? ()
+No symbol table info available.

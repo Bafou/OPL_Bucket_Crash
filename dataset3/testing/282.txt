@@ -1,0 +1,356 @@
+#0  0x005b647d in cache (engine=0x91dc328, obj=0x9641f48, name=@0xbfa3cc10, local=...) at ../../include/QtDeclarative/private/../../../src/declarative/qml/qdeclarativeengine_p.h:340
+        mo = <value optimized out>
+        rv = <value optimized out>
+#1  QDeclarativePropertyCache::property (engine=0x91dc328, obj=0x9641f48, name=@0xbfa3cc10, local=...) at qml/qdeclarativepropertycache.cpp:401
+        rv = 0x0
+        enginePrivate = 0x91dc388
+        cache = 0x0
+        ddata = 0x9674aa0
+#2  0x005bb492 in QDeclarativeObjectScriptClass::queryProperty (this=0x91fb3d8, obj=0x9641f48, name=@0xbfa3cc10, flags=..., evalContext=0x0, hints=...) at qml/qdeclarativeobjectscriptclass.cpp:167
+        enginePrivate = 0x91dc388
+#3  0x005bb681 in QDeclarativeObjectScriptClass::queryProperty (this=0x91fb3d8, object=0x916eb68, name=@0xbfa3cc10, flags=...) at qml/qdeclarativeobjectscriptclass.cpp:147
+No locals.
+#4  0x0674fee0 in QScript::DeclarativeObjectDelegate::getOwnPropertySlot (this=0x9641dd0, object=0xb3fb3600, exec=0xb3fff048, propertyName=..., slot=...) at bridge/qscriptdeclarativeobject.cpp:74
+        identifier = 0xb44612e0
+        p = 0x91fb450
+        flags = {i = 108330879}
+#5  0x06736c96 in QScriptObject::getOwnPropertySlot (this=0xb3fb3600, exec=0xb3fff048, propertyName=..., slot=...) at bridge/qscriptobject.cpp:61
+No locals.
+#6  0x065c65ad in fastGetOwnPropertySlot (this=0xbfa3cda8, exec=0xb3fff048, propertyName=..., slot=...) at ../3rdparty/javascriptcore/JavaScriptCore/runtime/JSObject.h:382
+No locals.
+#7  QTJSC::JSValue::get (this=0xbfa3cda8, exec=0xb3fff048, propertyName=..., slot=...) at ../3rdparty/javascriptcore/JavaScriptCore/runtime/JSObject.h:618
+        cell = 0xb3fb3600
+#8  0x0660fdd2 in QTJSC::cti_op_get_by_id (args=0xb44c89d8) at ../3rdparty/javascriptcore/JavaScriptCore/jit/JITStubs.cpp:1364
+        callFrame = 0xb3fff048
+        slot = {m_getValue = 0xfffffffe, m_slotBase = {u = {asEncodedJSValue = -5570349568, asDouble = -nan(0xffffeb3fb3600), asBits = {payload = -1275382272, tag = -2}}}, m_data = {getterFunc = 0xfffffffe, valueSlot = 0xfffffffe, registerSlot = 0xfffffffe, index = 4294967294}, m_value = {u = {asEncodedJSValue = -30064771072, asDouble = -nan(0xffff900000000), asBits = {payload = 0, tag = -7}}}, m_offset = 4294967295}
+        stackFrame = @0xbfa3cdc0
+        ident = @0xb44becfc
+        baseValue = {u = {asEncodedJSValue = -5570349568, asDouble = -nan(0xffffeb3fb3600), asBits = {payload = -1275382272, tag = -2}}}
+        codeBlock = 0xb44c89c0
+#9  0x0751b137 in ?? ()
+No symbol table info available.
+#10 0x065b3783 in execute (this=0xb4407360, functionExecutable=0xb44c0120, callFrame=0x91dc70c, function=0xb3fb35c0, thisObj=0xb3f84900, args=..., scopeChain=0xb44bed38, exception=0xb4405e94) at ../3rdparty/javascriptcore/JavaScriptCore/jit/JITCode.h:79
+No locals.
+#11 QTJSC::Interpreter::execute (this=0xb4407360, functionExecutable=0xb44c0120, callFrame=0x91dc70c, function=0xb3fb35c0, thisObj=0xb3f84900, args=..., scopeChain=0xb44bed38, exception=0xb4405e94) at ../3rdparty/javascriptcore/JavaScriptCore/interpreter/Interpreter.cpp:716
+        oldEnd = 0xb3fff048
+        dst = <value optimized out>
+        end = 0x2
+        argc = 1
+        newCallFrame = 0x200
+#12 0x0665f89c in QTJSC::JSFunction::call (this=0xb3fb35c0, exec=0x91dc70c, thisValue=..., args=...) at ../3rdparty/javascriptcore/JavaScriptCore/runtime/JSFunction.cpp:122
+No locals.
+#13 0x066348fe in QTJSC::call (exec=0x91dc70c, functionObject=..., callType=QTJSC::CallTypeJS, callData=..., thisValue=..., args=...) at ../3rdparty/javascriptcore/JavaScriptCore/runtime/CallData.cpp:62
+No locals.
+#14 0x0672e7af in QScriptValue::call (this=0x967fb28, thisObject=..., args=...) at api/qscriptvalue.cpp:1605
+        d = 0x96a4168
+        exec = 0x91dc70c
+        callData = {native = {function = {ptr = 0xb44c0120}}, js = {functionExecutable = 0xb44c0120, scopeChain = 0xb44bed38}}
+        jscThisObject = {u = {asEncodedJSValue = -5570541312, asDouble = -nan(0xffffeb3f84900), asBits = {payload = -1275574016, tag = -2}}}
+        jscArgs = {m_args = 0xbfa3cfc4, m_argCount = 0}
+        callType = QTJSC::CallTypeJS
+        argsVector = {a = 8, s = 0, ptr = 0xbfa3cfc4, {array = "D\367|\006\bУ\277\321C\264\000\364\377\336\000\350\360?\264\bУ\277\327\021u\006(2j\t \376\273\000(У\277\236\273d\006Ђ@\264\363\004\000\000\300\065\373\263\364\337n\000,\373g\t\210\303\035\t(У\277", q_for_alignment_1 = -4637634458374310076, q_for_alignment_2 = -0.038696528236398936}}
+        result = {u = {asEncodedJSValue = -4637633991411511176, asDouble = -0.038699768441717575, asBits = {payload = -1079783304, tag = -1079783308}}}
+#15 0x005261bd in QDeclarativeQtScriptExpression::eval (this=0x967fb00, secondaryScope=0x0, isUndefined=0x0) at qml/qdeclarativeexpression.cpp:479
+        engine = <value optimized out>
+        oldSharedScope = 0x0
+        oldOverride = 0x0
+        svalue = {d_ptr = {d = 0xbfa3d12c}}
+        watcher = {m_wasDeleted = 0xbfa3d0c4, m_wasDeletedStorage = false, m_d = 0x967fb00}
+        ep = 0x91dc388
+        scriptEngine = 0x91dc41c
+        oldSharedContext = 0x0
+        isShared = false
+#16 0x005264a0 in QDeclarativeQtScriptExpression::scriptValue (this=0x967fb00, secondaryScope=0x0, isUndefined=0x0) at qml/qdeclarativeexpression.cpp:434
+        lastCaptureProperties = false
+        value = {d_ptr = {d = 0x0}}
+        watcher = {m_wasDeleted = 0xbfa3d0c4, m_wasDeletedStorage = false, m_d = 0x967fb00}
+        ep = 0x91dc388
+#17 0x0052678a in QDeclarativeExpressionPrivate::scriptValue (this=0x967fab0, secondaryScope=0x0, isUndefined=0x0) at qml/qdeclarativeexpression.cpp:614
+No locals.
+#18 0x005268c9 in QDeclarativeExpressionPrivate::value (this=0x967fab0, secondaryScope=0x0, isUndefined=0x0) at qml/qdeclarativeexpression.cpp:628
+        ep = 0x91dc388
+#19 0x0055db32 in QDeclarativeBoundSignal::qt_metacall (this=0x967fa28, c=QMetaObject::InvokeMetaMethod, id=4, a=0xbfa3d2ac) at qml/qdeclarativeboundsignal.cpp:177
+No locals.
+#20 0x00cba6ea in QMetaObject::metacall (object=0x967fa28, cl=QMetaObject::InvokeMetaMethod, idx=4, argv=0xbfa3d2ac) at kernel/qmetaobject.cpp:237
+        mo = <value optimized out>
+#21 0x00cca52f in QMetaObject::activate (sender=0x92822b0, m=0x92ab8bc, local_signal_index=2, argv=0x0) at kernel/qobject.cpp:3287
+        receiverInSameThread = <value optimized out>
+        previousSender = 0x0
+        receiver = 0x967fa28
+        method = 4
+        currentSender = {sender = 0x92822b0, signal = 96, ref = 1}
+        c = 0x967f9a0
+        last = 0x967f9a0
+        methodOffset = <value optimized out>
+        signal_absolute_index = 96
+        empty_argv = {0x0}
+        currentThreadData = 0x90f1640
+        locker = {val = 153494904}
+        connectionLists = 0x92bd248
+        signalOffset = <value optimized out>
+        signal_index = 70
+#22 0x00ccabfa in QMetaObject::activate (sender=0x92822b0, signal_index=96, argv=0x0) at kernel/qobject.cpp:3341
+        mo = 0x92ab8bc
+#23 0x00511a7b in QDeclarativeVMEMetaObject::metaCall (this=0x92ab8b8, c=QMetaObject::WriteProperty, _id=91, a=0xbfa3d578) at qml/qdeclarativevmemetaobject.cpp:564
+        t = 1
+        needActivate = true
+        id = <value optimized out>
+#24 0x00511551 in QDeclarativeVMEMetaObject::metaCall (this=0x92ad5b0, c=QMetaObject::WriteProperty, _id=91, a=0xbfa3d578) at qml/qdeclarativevmemetaobject.cpp:673
+        id = 91
+#25 0x00cba6ea in QMetaObject::metacall (object=0x92822b0, cl=QMetaObject::WriteProperty, idx=91, argv=0xbfa3d578) at kernel/qmetaobject.cpp:237
+        mo = <value optimized out>
+#26 0x0052de7e in QDeclarativePropertyPrivate::write (object=0x92822b0, property=..., value=..., context=0x92ab440, flags=...) at qml/qdeclarativeproperty.cpp:1152
+        args = {0xbfa3d764, 0x0, 0xbfa3d5f8, 0xbfa3d660}
+        valMo = <value optimized out>
+        o = 0x9690200
+        propMo = <value optimized out>
+        status = -1
+        variantType = 1
+        coreIdx = 91
+        propertyType = 1
+        enginePriv = <value optimized out>
+#27 0x0052e78f in QDeclarativePropertyPrivate::writeValueProperty (this=0x9213f40, value=..., flags=...) at qml/qdeclarativeproperty.cpp:1064
+        rv = false
+#28 0x0052e878 in QDeclarativePropertyPrivate::write (that=..., value=..., flags=...) at qml/qdeclarativeproperty.cpp:1317
+No locals.
+#29 0x005281be in QDeclarativeBinding::update (this=0x92aefa8, flags=...) at qml/qdeclarativebinding.cpp:359
+        ep = 0x91dc388
+        isUndefined = false
+        value = {d = {data = {c = 1 '\001', i = 1, u = 1, b = true, d = 8.9123823221035503e-313, f = 1.40129846e-45, real = 8.9123823221035503e-313, ll = 180388626433, ull = 180388626433, o = 0x1, ptr = 0x1, shared = 0x1}, type = 1, is_shared = 0, is_null = 0}, static handler = 0x18486e0}
+        scriptValue = {d_ptr = {d = 0x96a3c38}}
+        wasDeleted = false
+        d = 0x92ae290
+#30 0x00527164 in update (this=0x92ae290) at ../../include/QtDeclarative/private/../../../src/declarative/qml/qdeclarativebinding_p.h:166
+No locals.
+#31 QDeclarativeBindingPrivate::emitValueChanged (this=0x92ae290) at qml/qdeclarativebinding.cpp:401
+        q = 0x2
+#32 0x0052610b in _q_notify (this=0x92aefa8, _c=QMetaObject::InvokeMetaMethod, _id=<value optimized out>, _a=0xbfa3d9c8) at qml/qdeclarativeexpression.cpp:761
+No locals.
+#33 QDeclarativeExpression::qt_metacall (this=0x92aefa8, _c=QMetaObject::InvokeMetaMethod, _id=<value optimized out>, _a=0xbfa3d9c8) at .moc/release-shared/moc_qdeclarativeexpression.cpp:77
+No locals.
+#34 0x0061a10a in QDeclarativeBinding::qt_metacall (this=0x92aefa8, _c=QMetaObject::InvokeMetaMethod, _id=5, _a=0xbfa3d9c8) at .moc/release-shared/moc_qdeclarativebinding_p.cpp:69
+No locals.
+#35 0x00cba6ea in QMetaObject::metacall (object=0x92aefa8, cl=QMetaObject::InvokeMetaMethod, idx=5, argv=0xbfa3d9c8) at kernel/qmetaobject.cpp:237
+        mo = <value optimized out>
+#36 0x00cca52f in QMetaObject::activate (sender=0x92aede0, m=0x6e8610, local_signal_index=2, argv=0xbfa3d9c8) at kernel/qobject.cpp:3287
+        receiverInSameThread = <value optimized out>
+        previousSender = 0x0
+        receiver = 0x92aefa8
+        method = 5
+        currentSender = {sender = 0x92aede0, signal = 6, ref = 1}
+        c = 0x932c1f8
+        last = 0x932c1f8
+        methodOffset = <value optimized out>
+        signal_absolute_index = 6
+        empty_argv = {0x0}
+        currentThreadData = 0x90f1640
+        locker = {val = 153305544}
+        connectionLists = 0x932b4e0
+        signalOffset = <value optimized out>
+        signal_index = 4
+#37 0x00603599 in QDeclarativeAbstractAnimation::runningChanged (this=0x92aede0, _t1=true) at .moc/release-shared/moc_qdeclarativeanimation_p.cpp:195
+        _a = {0x0, 0xbfa3d9bc}
+#38 0x0042e042 in QDeclarativeAbstractAnimation::setRunning (this=0x92aede0, r=true) at util/qdeclarativeanimation.cpp:233
+        d = 0x92ae520
+#39 0x0060391a in QDeclarativeAbstractAnimation::qt_metacall (this=0x92aede0, _c=QMetaObject::WriteProperty, _id=0, _a=0xbfa3ddb8) at .moc/release-shared/moc_qdeclarativeanimation_p.cpp:156
+        _v = <value optimized out>
+#40 0x006043ed in QDeclarativePropertyAnimation::qt_metacall (this=0x92aede0, _c=QMetaObject::WriteProperty, _id=1, _a=0xbfa3ddb8) at .moc/release-shared/moc_qdeclarativeanimation_p.cpp:634
+No locals.
+#41 0x006049ca in QDeclarativeNumberAnimation::qt_metacall (this=0x92aede0, _c=QMetaObject::WriteProperty, _id=1, _a=0xbfa3ddb8) at .moc/release-shared/moc_qdeclarativeanimation_p.cpp:873
+No locals.
+#42 0x00605ffa in QDeclarativeSmoothedAnimation::qt_metacall (this=0x92aede0, _c=QMetaObject::WriteProperty, _id=1, _a=0xbfa3ddb8) at .moc/release-shared/moc_qdeclarativesmoothedanimation_p.cpp:93
+No locals.
+#43 0x00cba6ea in QMetaObject::metacall (object=0x92aede0, cl=QMetaObject::WriteProperty, idx=1, argv=0xbfa3ddb8) at kernel/qmetaobject.cpp:237
+        mo = <value optimized out>
+#44 0x0058d4e8 in QDeclarativeCompiledBindingsPrivate::run (this=0x92ab498, instrIndex=10, context=0x92ab440, error=0x92afc34, scope=0x92aede0, output=0x92aede0, storeFlags=...) at qml/qdeclarativecompiledbindings.cpp:1450
+        data = <value optimized out>
+        status = -1
+        argv = {0xbfa3dc3c, 0x0, 0xbfa3de14, 0xbfa3defc}
+        engine = 0x91dc388
+        registers = {{type = 136, data = {0x92aed01, 0xbfa3e1a0}}, {type = 1, data = {0x0, 0x3ff00000}}, {type = 152954548, data = {0xbfa3ddc8, 0xbfa3dc98}}, {type = 12450085, data = {0x9693fb0, 0x38}}, {type = -1079780200, data = {0xbdf5e5, 0x20}}, {type = 20, data = {0xbfa3de00, 0x91de6b4}}, {type = 0, data = {0x40508000, 0x0}}, {type = 9216, data = {0x0, 0x3ff00000}}, {type = -1079780352, data = {0xbdf97c, 0xbfa3e2fc}}, {type = 9, data = {0xbfa3dd58, 0x29}}, {type = -1, data = {0x0, 0x0}}, {type = 1075314688, data = {0x0, 0x408f6800}}, {type = 0, data = {0x404b0000, 0x0}}, {type = 1078657024, data = {0x0, 0x0}}, {type = 0, data = {0x0, 0x0}}, {type = 1078657024, data = {0x0, 0x404b0000}}, {type = -1079780072, data = {0x141f55a, 0xbfa3e2fc}}, {type = 9, data = {0x85d2ff4, 0x1867ff4}}, {type = 152954544, data = {0x8, 0xbfa3de28}}, {type = 22691084, data = {0x91de5b0, 0x9377518}}, {type = 0, data = {0xcc91e1, 0x0}}, {type = 1072693248, data = {0x0, 0x3ff00000}}, {type = 0, data = {0x3ff00000, 0x91de6b0}}, {type = -1079778564, data = {0xbfa3e1a0, 0x1}}, {type = 0, data = {0x3ff00000, 0xbfa3df1c}}, {type = 14614516, data = {0xbfa3dda8, 0xbdf925}}, {type = 154791640, data = {0x28, 0xbfa3dda8}}, {type = 12449253, data = {0x10, 0x14}}, {type = -1079779584, data = {0x91de6b4, 0x0}}, {type = 12320288, data = {0xbfa3ddc8, 0x12e362a}}, {type = 152263836, data = {0x92aed50, 0xbfa3e23c}}, {type = 12450259, data = {0xbfa3e2fc, 0x5}}}
+        program = 0x9230870
+        instr = 0x9230e48
+        decode_instr = {0x58cfe8, 0x58cb60, 0x58cc90, 0x58cb68, 0x58cd10, 0x58cdb8, 0x58cfc0, 0x58cf28, 0x58cf58, 0x58cdf0, 0x58ce20, 0x58ced8, 0x58cf00, 0x58d510, 0x58d538, 0x58d578, 0x58d5e0, 0x58d938, 0x58d9b8, 0x58da20, 0x58da88, 0x58d648, 0x58d6c0, 0x58d740, 0x58d7c0, 0x58d818, 0x58d868, 0x58d8d8, 0x58d908, 0x58d4f0, 0x58d2d0, 0x58d300, 0x58d408, 0x58d478, 0x58d348, 0x58cb08, 0x58d378, 0x58cb10, 0x58cb10, 0x58d068, 0x58cff0, 0x58d0e0, 0x58d128, 0x58d178, 0x58d1c0, 0x58d240}
+#45 0x0058ec0d in QDeclarativeCompiledBindingsPrivate::run (this=0x92ab498, binding=0x92afc14, flags=...) at qml/qdeclarativecompiledbindings.cpp:375
+        context = <value optimized out>
+#46 0x0058ee02 in QDeclarativeCompiledBindings::qt_metacall (this=0x92a7a20, c=QMetaObject::InvokeMetaMethod, id=<value optimized out>) at qml/qdeclarativecompiledbindings.cpp:327
+        ii = <value optimized out>
+        reeval = 0x9230930
+        count = 1
+        d = 0x92ab498
+#47 0x00cba6ea in QMetaObject::metacall (object=0x92a7a20, cl=QMetaObject::InvokeMetaMethod, idx=15, argv=0xbfa3e01c) at kernel/qmetaobject.cpp:237
+        mo = <value optimized out>
+#48 0x00cca52f in QMetaObject::activate (sender=0x92aed50, m=0x6eb10c, local_signal_index=0, argv=0x0) at kernel/qobject.cpp:3287
+        receiverInSameThread = <value optimized out>
+        previousSender = 0x0
+        receiver = 0x92a7a20
+        method = 15
+        currentSender = {sender = 0x92aed50, signal = 30, ref = 1}
+        c = 0x9318d58
+        last = 0x9318d58
+        methodOffset = <value optimized out>
+        signal_absolute_index = 30
+        empty_argv = {0x0}
+        currentThreadData = 0x90f1640
+        locker = {val = 153859280}
+        connectionLists = 0x9318d80
+        signalOffset = <value optimized out>
+        signal_index = 23
+#49 0x006102b7 in QDeclarativeMouseArea::hoveredChanged (this=0x92aed50) at .moc/release-shared/moc_qdeclarativemousearea_p.cpp:384
+No locals.
+#50 0x004ca24e in QDeclarativeMouseArea::setHovered (this=0x92aed50, h=true) at graphicsitems/qdeclarativemousearea.cpp:809
+        d = 0x92a9ed8
+#51 0x0155a952 in QGraphicsItem::sceneEvent (this=0x92aed58, event=0xbfa3e23c) at graphicsview/qgraphicsitem.cpp:6706
+No locals.
+#52 0x004bebdc in QDeclarativeItem::sceneEvent (this=0x92aed50, event=0xbfa3e23c) at graphicsitems/qdeclarativeitem.cpp:2709
+        rv = <value optimized out>
+        d = <value optimized out>
+#53 0x004c9e4c in QDeclarativeMouseArea::sceneEvent (this=0x92aed50, event=0xbfa3e23c) at graphicsitems/qdeclarativemousearea.cpp:616
+        rv = <value optimized out>
+#54 0x01583db0 in QGraphicsScenePrivate::sendEvent (this=0x91de3b8, item=0x92aed58, event=0xbfa3e23c) at graphicsview/qgraphicsscene.cpp:1207
+No locals.
+#55 0x01584b67 in QGraphicsScenePrivate::sendHoverEvent (this=0x91de3b8, type=QEvent::GraphicsSceneHoverEnter, item=0x92aed58, hoverEvent=0xbfa3e33c) at graphicsview/qgraphicsscene.cpp:1254
+        event = {<QGraphicsSceneEvent> = {<QEvent> = {_vptr.QEvent = 0x185f888, static staticMetaObject = {d = {superdata = 0x0, stringdata = 0xd87880 "QEvent", data = 0xd88260, extradata = 0x0}}, d = 0x0, t = 160, posted = 0, spont = 0, m_accept = 1, reserved = 293}, d_ptr = {d = 0x9665f68}}, <No data fields>}
+#56 0x01585140 in QGraphicsScenePrivate::dispatchHoverEvent (this=0x91de3b8, hoverEvent=0xbfa3e33c) at graphicsview/qgraphicsscene.cpp:3917
+        i = <value optimized out>
+        parents = {{p = {static shared_null = {ref = {_q_value = 1}, alloc = 0, begin = 0, end = 0, sharable = 1, array = {0x0}}, d = 0x96521d0}, d = 0x96521d0}}
+        parent = 0x92aed58
+        item = <value optimized out>
+        commonAncestorItem = 0x0
+        index = -1
+#57 0x01585565 in QGraphicsScene::mouseMoveEvent (this=0x91d35dc, mouseEvent=0xbfa3e874) at graphicsview/qgraphicsscene.cpp:4076
+        hover = {<QGraphicsSceneEvent> = {<QEvent> = {_vptr.QEvent = 0x185f888, static staticMetaObject = {d = {superdata = 0x0, stringdata = 0xd87880 "QEvent", data = 0xd88260, extradata = 0x0}}, d = 0x0, t = 0, posted = 0, spont = 0, m_accept = 0, reserved = 13}, d_ptr = {d = 0x966b068}}, <No data fields>}
+        d = 0x91de3b8
+#58 0x00420060 in QDeclarativeScene::mouseMoveEvent (this=0x91d35dc, e=0xbfa3e874) at util/qdeclarativeview.cpp:113
+No locals.
+#59 0x01597a3d in QGraphicsScene::event (this=0x91d35dc, event=0xbfa3e874) at graphicsview/qgraphicsscene.cpp:3433
+        mouseEvent = 0xbfa3e874
+        d = <value optimized out>
+#60 0x00f1ed24 in QApplicationPrivate::notify_helper (this=0x90f1540, receiver=0x91d35dc, e=0xbfa3e874) at kernel/qapplication.cpp:4462
+        consumed = <value optimized out>
+#61 0x00f238ce in QApplication::notify (this=0xbfa3f9b0, receiver=0x91d35dc, e=0xbfa3e874) at kernel/qapplication.cpp:3862
+        d = 0x90f1540
+        res = false
+#62 0x00cb40eb in QCoreApplication::notifyInternal (this=0xbfa3f9b0, receiver=0x91d35dc, event=0xbfa3e874) at kernel/qcoreapplication.cpp:731
+        threadData = 0x90f1640
+        returnValue = <value optimized out>
+        result = false
+        cbdata = {0x91d35dc, 0xbfa3e874, 0xbfa3e7bf}
+        d = <value optimized out>
+#63 0x00f1cb3e in sendSpontaneousEvent (receiver=0x91d35dc, event=0xbfa3e874) at ../../include/QtCore/../../src/corelib/kernel/qcoreapplication.h:218
+No locals.
+#64 qt_sendSpontaneousEvent (receiver=0x91d35dc, event=0xbfa3e874) at kernel/qapplication.cpp:5456
+No locals.
+#65 0x015afb4a in QGraphicsViewPrivate::mouseMoveEventHandler (this=0x91d3228, event=0xbfa3f074) at graphicsview/qgraphicsview.cpp:647
+        mouseEvent = {<QGraphicsSceneEvent> = {<QEvent> = {_vptr.QEvent = 0x185f8b8, static staticMetaObject = {d = {superdata = 0x0, stringdata = 0xd87880 "QEvent", data = 0xd88260, extradata = 0x0}}, d = 0x0, t = 155, posted = 0, spont = 1, m_accept = 0, reserved = 23}, d_ptr = {d = 0x916dd00}}, <No data fields>}
+#66 0x015afd56 in QGraphicsView::mouseMoveEvent (this=0x91ea508, event=0xbfa3f074) at graphicsview/qgraphicsview.cpp:3274
+        d = 0x91d3228
+#67 0x00f77182 in QWidget::event (this=0x91ea508, event=0xbfa3f074) at kernel/qwidget.cpp:8244
+        d = 0x91d3228
+#68 0x01369283 in QFrame::event (this=0x91ea508, e=0xbfa3f074) at widgets/qframe.cpp:557
+        result = <value optimized out>
+#69 0x013f7982 in QAbstractScrollArea::viewportEvent (this=0x91ea508, e=0xbfa3f074) at widgets/qabstractscrollarea.cpp:1043
+No locals.
+#70 0x015b480f in QGraphicsView::viewportEvent (this=0x91ea508, event=0xbfa3f074) at graphicsview/qgraphicsview.cpp:2864
+        d = 0x91d3228
+#71 0x013fa275 in viewportEvent (this=0x91dbba0, o=0x91dcb10, e=0xbfa3f074) at widgets/qabstractscrollarea_p.h:100
+No locals.
+#72 QAbstractScrollAreaFilter::eventFilter (this=0x91dbba0, o=0x91dcb10, e=0xbfa3f074) at widgets/qabstractscrollarea_p.h:116
+No locals.
+#73 0x00cb428a in QCoreApplicationPrivate::sendThroughObjectEventFilters (this=0x90f1540, receiver=0x91dcb10, event=0xbfa3f074) at kernel/qcoreapplication.cpp:846
+        obj = 0x2
+        i = <value optimized out>
+#74 0x00f1ed00 in QApplicationPrivate::notify_helper (this=0x90f1540, receiver=0x91dcb10, e=0xbfa3f074) at kernel/qapplication.cpp:4458
+        consumed = <value optimized out>
+#75 0x00f24201 in QApplication::notify (this=0xbfa3f9b0, receiver=0x91dcb10, e=0xbfa3f074) at kernel/qapplication.cpp:4023
+        me = {<QInputEvent> = {<QEvent> = {_vptr.QEvent = 0x184f940, static staticMetaObject = {d = {superdata = 0x0, stringdata = 0xd87880 "QEvent", data = 0xd88260, extradata = 0x0}}, d = 0x0, t = 5, posted = 0, spont = 1, m_accept = 1, reserved = 291}, modState = {i = 0}}, p = {xp = 52, yp = 1}, g = {xp = 52, yp = 25}, b = Qt::NoButton, mouseState = {i = 0}}
+        w = <value optimized out>
+        mouse = 0xbfa3f074
+        eventAccepted = <value optimized out>
+        relpos = {xp = 52, yp = 1}
+        pw = {o = 0x91dcb10}
+        d = 0x90f1540
+        res = <value optimized out>
+#76 0x00cb40eb in QCoreApplication::notifyInternal (this=0xbfa3f9b0, receiver=0x91dcb10, event=0xbfa3f074) at kernel/qcoreapplication.cpp:731
+        threadData = 0x90f1640
+        returnValue = <value optimized out>
+        result = false
+        cbdata = {0x91dcb10, 0xbfa3f074, 0xbfa3ef7f}
+        d = <value optimized out>
+#77 0x00f1fc3b in sendSpontaneousEvent (receiver=0x91dcb10, event=0xbfa3f074, alienWidget=0x91dcb10, nativeWidget=0xbfa3f950, buttonDown=0x186bc60, lastMouseReceiver=..., spontaneous=true) at ../../include/QtCore/../../src/corelib/kernel/qcoreapplication.h:218
+No locals.
+#78 QApplicationPrivate::sendMouseEvent (receiver=0x91dcb10, event=0xbfa3f074, alienWidget=0x91dcb10, nativeWidget=0xbfa3f950, buttonDown=0x186bc60, lastMouseReceiver=..., spontaneous=true) at kernel/qapplication.cpp:3120
+        alienGuard = {o = 0x91dcb10}
+        receiverGuard = {o = 0x91dcb10}
+        nativeGuard = {o = 0xbfa3f950}
+        activePopupWidget = {o = 0x0}
+        graphicsWidget = false
+        wasLeaveAfterRelease = false
+        result = <value optimized out>
+#79 0x00fa936c in QETWidget::translateMouseEvent (this=0xbfa3f950, event=0xbfa3f59c) at kernel/qapplication_x11.cpp:4556
+        alienWidget = 0x91dcb10
+        widget = 0x91dcb10
+        oldOpenPopupCount = 0
+        e = {<QInputEvent> = {<QEvent> = {_vptr.QEvent = 0x184f940, static staticMetaObject = {d = {superdata = 0x0, stringdata = 0xd87880 "QEvent", data = 0xd88260, extradata = 0x0}}, d = 0x0, t = 5, posted = 0, spont = 1, m_accept = 1, reserved = 186}, modState = {i = 0}}, p = {xp = 52, yp = 1}, g = {xp = 52, yp = 25}, b = Qt::NoButton, mouseState = {i = 0}}
+        type = QEvent::MouseMove
+        globalPos = {xp = 52, yp = 25}
+        button = Qt::NoButton
+        nextEvent = {type = 14614516, xany = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, window = 13403941}, xkey = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, window = 13403941, root = 152260072, subwindow = 4, time = 262154, x = 14606280, y = 0, x_root = -1079771125, y_root = 152276552, state = 4294967295, keycode = 52, same_screen = 1}, xbutton = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, window = 13403941, root = 152260072, subwindow = 4, time = 262154, x = 14606280, y = 0, x_root = -1079771125, y_root = 152276552, state = 4294967295, button = 52, same_screen = 1}, xmotion = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, window = 13403941, root = 152260072, subwindow = 4, time = 262154, x = 14606280, y = 0, x_root = -1079771125, y_root = 152276552, state = 4294967295, is_hint = 52 '4', same_screen = 1}, xcrossing = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, window = 13403941, root = 152260072, subwindow = 4, time = 262154, x = 14606280, y = 0, x_root = -1079771125, y_root = 152276552, mode = -1, detail = 52, same_screen = 1, focus = 152947472, state = 152260072}, xfocus = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, window = 13403941, mode = 152260072, detail = 4}, xexpose = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, window = 13403941, x = 152260072, y = 4, width = 262154, height = 14606280, count = 0}, xgraphicsexpose = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, drawable = 13403941, x = 152260072, y = 4, width = 262154, height = 14606280, count = 0, major_code = -1079771125, minor_code = 152276552}, xnoexpose = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, drawable = 13403941, major_code = 152260072, minor_code = 4}, xvisibility = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, window = 13403941, state = 152260072}, xcreatewindow = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, parent = 13403941, window = 152260072, x = 4, y = 262154, width = 14606280, height = 0, border_width = -1079771125, override_redirect = 152276552}, xdestroywindow = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, event = 13403941, window = 152260072}, xunmap = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, event = 13403941, window = 152260072, from_configure = 4}, xmap = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, event = 13403941, window = 152260072, override_redirect = 4}, xmaprequest = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, parent = 13403941, window = 152260072}, xreparent = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, event = 13403941, window = 152260072, parent = 4, x = 262154, y = 14606280, override_redirect = 0}, xconfigure = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, event = 13403941, window = 152260072, x = 4, y = 262154, width = 14606280, height = 0, border_width = -1079771125, above = 152276552, override_redirect = -1}, xgravity = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, event = 13403941, window = 152260072, x = 4, y = 262154}, xresizerequest = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, window = 13403941, width = 152260072, height = 4}, xconfigurerequest = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, parent = 13403941, window = 152260072, x = 4, y = 262154, width = 14606280, height = 0, border_width = -1079771125, above = 152276552, detail = -1, value_mask = 52}, xcirculate = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, event = 13403941, window = 152260072, place = 4}, xcirculaterequest = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, parent = 13403941, window = 152260072, place = 4}, xproperty = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, window = 13403941, atom = 152260072, time = 4, state = 262154}, xselectionclear = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, window = 13403941, selection = 152260072, time = 4}, xselectionrequest = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, owner = 13403941, requestor = 152260072, selection = 4, target = 262154, property = 14606280, time = 0}, xselection = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, requestor = 13403941, selection = 152260072, target = 4, property = 262154, time = 14606280}, xcolormap = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, window = 13403941, colormap = 152260072, c_new = 4, state = 262154}, xclient = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, window = 13403941, message_type = 152260072, format = 4, data = {b = "\n\000\004\000\310\337\336\000\000\000\000\000\v\000\244\277H\216\023\t", s = {10, 4, -8248, 222, 0, 0, 11, -16476, -29112, 2323}, l = {262154, 14606280, 0, -1079771125, 152276552}}}, xmapping = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, window = 13403941, request = 152260072, first_keycode = 4, count = 262154}, xerror = {type = 14614516, display = 0xdefff4, resourceid = 157577880, serial = 3215192552, error_code = 37 '%', request_code = 135 '\207', minor_code = 204 '\314'}, xkeymap = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, window = 13403941, key_vector = "\350M\023\t\004\000\000\000\n\000\004\000\310\337\336\000\000\000\000\000\v\000\244\277H\216\023\t\377\377\377\377"}, xgeneric = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, extension = 13403941, evtype = 152260072}, xcookie = {type = 14614516, serial = 14614516, send_event = 157577880, display = 0xbfa3f1e8, extension = 13403941, evtype = 152260072, cookie = 4, data = 0x4000a}, pad = {14614516, 14614516, 157577880, -1079774744, 13403941, 152260072, 4, 262154, 14606280, 0, -1079771125, 152276552, -1, 52, 1, 152947472, 152260072, 0, 151983424, 13403611, 25591796, 25607268, -1079773796, -1079774712}}
+        d = 0xbfa3f074
+        pos = {xp = 52, yp = 1}
+#80 0x00fa77f6 in QApplication::x11ProcessEvent (this=0xbfa3f9b0, event=0xbfa3f59c) at kernel/qapplication_x11.cpp:3678
+        alien = <value optimized out>
+        enter = <value optimized out>
+        leave = <value optimized out>
+        keywidget = <value optimized out>
+        grabbed = false
+        widget = 0xbfa3f950
+        d = 0x90f1540
+        isXI2Event = false
+#81 0x00fd2c34 in x11EventSourceDispatch (s=0x90f3870, callback=0, user_data=0x0) at kernel/qguieventdispatcher_glib.cpp:146
+        event = {type = 7, xany = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, window = 41943045}, xkey = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, window = 41943045, root = 346, subwindow = 0, time = 44079705, x = 52, y = 1, x_root = 52, y_root = 25, state = 0, keycode = 3, same_screen = 1}, xbutton = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, window = 41943045, root = 346, subwindow = 0, time = 44079705, x = 52, y = 1, x_root = 52, y_root = 25, state = 0, button = 3, same_screen = 1}, xmotion = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, window = 41943045, root = 346, subwindow = 0, time = 44079705, x = 52, y = 1, x_root = 52, y_root = 25, state = 0, is_hint = 3 '\003', same_screen = 1}, xcrossing = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, window = 41943045, root = 346, subwindow = 0, time = 44079705, x = 52, y = 1, x_root = 52, y_root = 25, mode = 0, detail = 3, same_screen = 1, focus = 0, state = 16}, xfocus = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, window = 41943045, mode = 346, detail = 0}, xexpose = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, window = 41943045, x = 346, y = 0, width = 44079705, height = 52, count = 1}, xgraphicsexpose = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, drawable = 41943045, x = 346, y = 0, width = 44079705, height = 52, count = 1, major_code = 52, minor_code = 25}, xnoexpose = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, drawable = 41943045, major_code = 346, minor_code = 0}, xvisibility = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, window = 41943045, state = 346}, xcreatewindow = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, parent = 41943045, window = 346, x = 0, y = 44079705, width = 52, height = 1, border_width = 52, override_redirect = 25}, xdestroywindow = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, event = 41943045, window = 346}, xunmap = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, event = 41943045, window = 346, from_configure = 0}, xmap = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, event = 41943045, window = 346, override_redirect = 0}, xmaprequest = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, parent = 41943045, window = 346}, xreparent = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, event = 41943045, window = 346, parent = 0, x = 44079705, y = 52, override_redirect = 1}, xconfigure = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, event = 41943045, window = 346, x = 0, y = 44079705, width = 52, height = 1, border_width = 52, above = 25, override_redirect = 0}, xgravity = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, event = 41943045, window = 346, x = 0, y = 44079705}, xresizerequest = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, window = 41943045, width = 346, height = 0}, xconfigurerequest = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, parent = 41943045, window = 346, x = 0, y = 44079705, width = 52, height = 1, border_width = 52, above = 25, detail = 0, value_mask = 3}, xcirculate = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, event = 41943045, window = 346, place = 0}, xcirculaterequest = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, parent = 41943045, window = 346, place = 0}, xproperty = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, window = 41943045, atom = 346, time = 0, state = 44079705}, xselectionclear = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, window = 41943045, selection = 346, time = 0}, xselectionrequest = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, owner = 41943045, requestor = 346, selection = 0, target = 44079705, property = 52, time = 1}, xselection = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, requestor = 41943045, selection = 346, target = 0, property = 44079705, time = 52}, xcolormap = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, window = 41943045, colormap = 346, c_new = 0, state = 44079705}, xclient = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, window = 41943045, message_type = 346, format = 0, data = {b = "Y\232\240\002\064\000\000\000\001\000\000\000\064\000\000\000\031\000\000", s = {-26023, 672, 52, 0, 1, 0, 52, 0, 25, 0}, l = {44079705, 52, 1, 52, 25}}}, xmapping = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, window = 41943045, request = 346, first_keycode = 0, count = 44079705}, xerror = {type = 7, display = 0xb5b, resourceid = 0, serial = 152125736, error_code = 5 '\005', request_code = 0 '\000', minor_code = 128 '\200'}, xkeymap = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, window = 41943045, key_vector = "Z\001\000\000\000\000\000\000Y\232\240\002\064\000\000\000\001\000\000\000\064\000\000\000\031\000\000\000\000\000\000"}, xgeneric = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, extension = 41943045, evtype = 346}, xcookie = {type = 7, serial = 2907, send_event = 0, display = 0x9114128, extension = 41943045, evtype = 346, cookie = 0, data = 0x2a09a59}, pad = {7, 2907, 0, 152125736, 41943045, 346, 0, 44079705, 52, 1, 52, 25, 0, 3, 1, 0, 16, -197380, -41975937, -938931959, 452984832, 33554432, 0, 0}}
+        source = 0x90f3870
+        marker = 2908
+#82 0x00197c08 in g_main_dispatch (context=0x90c2d20) at /build/buildd/glib2.0-2.28.1/./glib/gmain.c:2440
+        dispatch = 0xfd2a20 <x11EventSourceDispatch(GSource*, GSourceFunc, gpointer)>
+        was_in_call = 0
+        user_data = 0x0
+        callback = 0
+        cb_funcs = 0x0
+        cb_data = 0x0
+        current_source_link = {data = 0x90f3870, next = 0x0}
+        need_destroy = <value optimized out>
+        source = 0x90f3870
+        current = 0x9129850
+        i = <value optimized out>
+#83 g_main_context_dispatch (context=0x90c2d20) at /build/buildd/glib2.0-2.28.1/./glib/gmain.c:3013
+No locals.
+#84 0x001983d0 in g_main_context_iterate (context=0x90c2d20, block=1738912, dispatch=1, self=<value optimized out>) at /build/buildd/glib2.0-2.28.1/./glib/gmain.c:3091
+        max_priority = 2147483647
+        timeout = 15
+        some_ready = 1
+        nfds = <value optimized out>
+        allocated_nfds = <value optimized out>
+        fds = 0x9511910
+#85 0x00198684 in g_main_context_iteration (context=0x90c2d20, may_block=1) at /build/buildd/glib2.0-2.28.1/./glib/gmain.c:3154
+        retval = <value optimized out>
+#86 0x00ce159c in QEventDispatcherGlib::processEvents (this=0x90960a0, flags=...) at kernel/qeventdispatcher_glib.cpp:422
+        d = 0x90f3658
+        canWait = true
+        result = <value optimized out>
+#87 0x00fd2825 in QGuiEventDispatcherGlib::processEvents (this=0x90960a0, flags=...) at kernel/qguieventdispatcher_glib.cpp:204
+        d = 0x90f3658
+        returnValue = 2
+#88 0x00cb32b9 in QEventLoop::processEvents (this=0xbfa3f864, flags=...) at kernel/qeventloop.cpp:149
+        d = 0x95118b0
+#89 0x00cb3552 in QEventLoop::exec (this=0xbfa3f864, flags=...) at kernel/qeventloop.cpp:201
+        d = 0x95118b0
+        app = 0x9641f48
+#90 0x00cb7efc in QCoreApplication::exec () at kernel/qcoreapplication.cpp:1008
+        threadData = 0x90f1640
+        eventLoop = {<QObject> = {_vptr.QObject = 0xdef448, static staticMetaObject = {d = {superdata = 0x0, stringdata = 0xd751a0 "QObject", data = 0xd75240, extradata = 0xdea240}}, d_ptr = {d = 0x95118b0}, static staticQtMetaObject = {d = {superdata = 0x0, stringdata = 0xd7dee0 "Qt", data = 0xd81760, extradata = 0x0}}}, static staticMetaObject = {d = {superdata = 0x8060600, stringdata = 0xd87680 "QEventLoop", data = 0xd876a0, extradata = 0x0}}}
+        returnCode = <value optimized out>
+#91 0x00f1c8e7 in QApplication::exec () at kernel/qapplication.cpp:3736
+No locals.
+#92 0x08050fbb in main ()
+No symbol table info available.

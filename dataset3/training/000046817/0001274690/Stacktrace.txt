@@ -1,0 +1,26 @@
+#0  __GI___pthread_mutex_lock (mutex=0x1064) at ../nptl/pthread_mutex_lock.c:66
+        __PRETTY_FUNCTION__ = "__pthread_mutex_lock"
+        type = <optimized out>
+        id = <optimized out>
+#1  0xaba6871c in crLockMutex () from /usr/lib/VBoxOGLcrutil.so
+No symbol table info available.
+#2  0xaba5de81 in crHashtableLock () from /usr/lib/VBoxOGLcrutil.so
+No symbol table info available.
+#3  0xabb11431 in ?? () from /usr/lib/i386-linux-gnu/dri/vboxvideo_dri.so
+No symbol table info available.
+#4  0xabb4c710 in rtThreadMain () from /usr/lib/i386-linux-gnu/dri/vboxvideo_dri.so
+No symbol table info available.
+#5  0xabb57c26 in ?? () from /usr/lib/i386-linux-gnu/dri/vboxvideo_dri.so
+No symbol table info available.
+#6  0xb6c1af70 in start_thread (arg=0xab078b40) at pthread_create.c:312
+        __res = <optimized out>
+        pd = 0xab078b40
+        now = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {-1228746752, -1425568960, 4001536, -1425571160, 1279132673, -1067214278}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <optimized out>
+        pagesize_m1 = <optimized out>
+        sp = <optimized out>
+        freesize = <optimized out>
+        __PRETTY_FUNCTION__ = "start_thread"
+#7  0xb6b4fd1e in clone () at ../sysdeps/unix/sysv/linux/i386/clone.S:129
+No locals.

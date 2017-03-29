@@ -1,0 +1,38 @@
+#0  0xb77c8424 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0xb5a3fe71 in raise () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0xb5a4334e in abort () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0xb5a38888 in __assert_fail () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#4  0xb5d30e9a in ?? () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#5  0xb5d31285 in ?? () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#6  0xb5d317ff in _XEventsQueued () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#7  0xb5d22558 in XPending () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#8  0xb62c3ad4 in ?? () from /usr/lib/libgdk-x11-2.0.so.0
+No symbol table info available.
+#9  0xb5e6571d in g_main_context_check () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0xb5e6603a in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0xb5e66524 in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#12 0xb76a053c in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#13 0xb6c81775 in ?? () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#14 0xb7672289 in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#15 0xb7672522 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#16 0xb7676ecc in QCoreApplication::exec() () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#17 0xb6bcb8e7 in QApplication::exec() () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#18 0x0804e6e9 in main ()
+No symbol table info available.

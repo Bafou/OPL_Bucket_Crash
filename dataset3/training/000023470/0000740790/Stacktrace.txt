@@ -1,0 +1,54 @@
+#0  __memcpy_ssse3_rep () at ../sysdeps/i386/i686/multiarch/memcpy-ssse3-rep.S:158
+No locals.
+#1  0x07da921b in nux::Memcpy(void*, void const*, unsigned int) () from /usr/lib/libnux-core-0.9.so.0
+No symbol table info available.
+#2  0x00c2479a in nux::CairoGraphics::GetBitmap() () from /usr/lib/libnux-image-0.9.so.0
+No symbol table info available.
+#3  0x0180d725 in PanelMenuView::Refresh() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0x0180fd54 in PanelMenuView::OnActiveWindowChanged(_BamfView*, _BamfView*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#5  0x0180ff0b in ?? () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#6  0x00fe897f in bamf_marshal_VOID__OBJECT_OBJECT () from /usr/lib/libbamf.so.0
+No symbol table info available.
+#7  0x00b8a372 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#8  0x00b9d048 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#9  0x00ba5b29 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#10 0x00ba5cc2 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x00fe21a2 in ?? () from /usr/lib/libbamf.so.0
+No symbol table info available.
+#12 0x00fe87ef in bamf_marshal_VOID__STRING_STRING () from /usr/lib/libbamf.so.0
+No symbol table info available.
+#13 0x037bfd44 in ?? () from /usr/lib/libdbus-glib-1.so.2
+No symbol table info available.
+#14 0x00b8a372 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#15 0x00b9d048 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#16 0x00ba5b29 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#17 0x00ba5cc2 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#18 0x037c096d in ?? () from /usr/lib/libdbus-glib-1.so.2
+No symbol table info available.
+#19 0x048743ab in dbus_connection_dispatch () from /lib/i386-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#20 0x037b8bad in ?? () from /usr/lib/libdbus-glib-1.so.2
+No symbol table info available.
+#21 0x006eeaa8 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#22 0x006ef270 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#23 0x006ef92b in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#24 0x001b9a35 in Glib::MainLoop::run() () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#25 0x0806e9ab in CompScreen::eventLoop() ()
+No symbol table info available.
+#26 0x08066c98 in main ()
+No symbol table info available.

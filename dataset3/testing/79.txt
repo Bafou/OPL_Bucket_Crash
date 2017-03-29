@@ -1,0 +1,75 @@
+#0  0x00007f6265772433 in std::__detail::_List_node_base::_M_hook(std::__detail::_List_node_base*) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#1  0x00007f625044bc73 in unity::launcher::LauncherIcon::EmitNeedsRedraw() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x00007f625044cca7 in unity::launcher::LauncherIcon::OnDelayedUpdateTimeout(void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x00007f6263a918db in g_timeout_dispatch (source=<optimized out>, callback=<optimized out>, user_data=<optimized out>) at /build/buildd/glib2.0-2.32.0/./glib/gmain.c:3859
+        timeout_source = 0xe943e00
+        again = <optimized out>
+#4  0x00007f6263a90c9a in g_main_dispatch (context=0x1c8bb30) at /build/buildd/glib2.0-2.32.0/./glib/gmain.c:2515
+        dispatch = 0x7f6263a918c0 <g_timeout_dispatch>
+        was_in_call = 0
+        user_data = 0x4458f40
+        callback = 0x7f625044cc80 <unity::launcher::LauncherIcon::OnDelayedUpdateTimeout(void*)>
+        cb_funcs = 0x7f6263d3c9a0
+        cb_data = 0x1d04140
+        current_source_link = {data = 0xe943e00, next = 0x7fff300e50d0}
+        need_destroy = <optimized out>
+        source = 0xe943e00
+        current = 0x1d01e80
+        i = <optimized out>
+#5  g_main_context_dispatch (context=0x1c8bb30) at /build/buildd/glib2.0-2.32.0/./glib/gmain.c:3052
+No locals.
+#6  0x00007f6263a91060 in g_main_context_iterate (dispatch=1, block=<optimized out>, context=0x1c8bb30, self=<optimized out>) at /build/buildd/glib2.0-2.32.0/./glib/gmain.c:3123
+        timeout = 0
+        some_ready = 1
+        fds = <optimized out>
+        max_priority = 0
+        nfds = 13
+        allocated_nfds = <optimized out>
+#7  g_main_context_iterate (context=0x1c8bb30, block=<optimized out>, dispatch=1, self=<optimized out>) at /build/buildd/glib2.0-2.32.0/./glib/gmain.c:3060
+        some_ready = 1
+#8  0x00007f6263a91124 in g_main_context_iteration (context=0x1c8bb30, may_block=0) at /build/buildd/glib2.0-2.32.0/./glib/gmain.c:3184
+        retval = <optimized out>
+#9  0x00007f625bdf9cd9 in ?? () from /usr/lib/compizconfig/backends/libgconf.so
+No symbol table info available.
+#10 0x00007f6260c4559e in CcpScreen::timeout() () from /usr/lib/compiz/libccp.so
+No symbol table info available.
+#11 0x00007f6265a88a0b in CompTimer::triggerCallback() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#12 0x00007f6265a88b0f in CompTimeoutSource::callback() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#13 0x00007f6265a87fbd in CompTimeoutSource::dispatch(sigc::slot_base*) () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#14 0x00007f6263f88f2f in Glib::Source::dispatch_vfunc (callback=<optimized out>, user_data=<optimized out>) at main.cc:956
+        self = <optimized out>
+        callback_data = <optimized out>
+        __PRETTY_FUNCTION__ = "static gboolean Glib::Source::dispatch_vfunc(GSource*, GSourceFunc, void*)"
+#15 0x00007f6263a90c9a in g_main_dispatch (context=0x1c8bb30) at /build/buildd/glib2.0-2.32.0/./glib/gmain.c:2515
+        dispatch = 0x7f6263f88ee0 <Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*)>
+        was_in_call = 0
+        user_data = 0x1d05940
+        callback = 0x7f6263f89010 <(anonymous namespace)::glibmm_dummy_source_callback(void*)>
+        cb_funcs = 0x7f6263d3c9a0
+        cb_data = 0x1d05880
+        current_source_link = {data = 0x1d058d0, next = 0x0}
+        need_destroy = <optimized out>
+        source = 0x1d058d0
+        current = 0x1d01e80
+        i = <optimized out>
+#16 g_main_context_dispatch (context=0x1c8bb30) at /build/buildd/glib2.0-2.32.0/./glib/gmain.c:3052
+No locals.
+#17 0x00007f6263a91060 in g_main_context_iterate (dispatch=1, block=<optimized out>, context=0x1c8bb30, self=<optimized out>) at /build/buildd/glib2.0-2.32.0/./glib/gmain.c:3123
+        timeout = 0
+        some_ready = 1
+        fds = <optimized out>
+        max_priority = 0
+        nfds = 14
+        allocated_nfds = <optimized out>
+#18 g_main_context_iterate (context=0x1c8bb30, block=<optimized out>, dispatch=1, self=<optimized out>) at /build/buildd/glib2.0-2.32.0/./glib/gmain.c:3060
+        some_ready = 1
+#19 0x00007f6263a9145a in g_main_loop_run (loop=0x1c8ccd0) at /build/buildd/glib2.0-2.32.0/./glib/gmain.c:3317
+        __PRETTY_FUNCTION__ = "g_main_loop_run"
+#20 0x00000000004029ae in main ()
+No symbol table info available.

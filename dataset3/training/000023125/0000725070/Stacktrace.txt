@@ -1,0 +1,16 @@
+#0  0x044bbe90 in PlacesGroup::OnIdleRelayout(PlacesGroup*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0x00608451 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#2  0x0060cc08 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#3  0x0060d3d0 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#4  0x0060da93 in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00d5a865 in Glib::MainLoop::run() () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#6  0x0806e85b in CompScreen::eventLoop() ()
+No symbol table info available.
+#7  0x08066ba8 in main ()
+No symbol table info available.

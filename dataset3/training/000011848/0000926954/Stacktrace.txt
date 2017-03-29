@@ -1,0 +1,14 @@
+#0  0xb76f7424 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0xb7146c8f in raise () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0xb714a2b5 in abort () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0xb732f59e in g_assertion_message () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0xb732fb9f in g_assertion_message_expr () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x0809cff4 in nm_manager_new ()
+No symbol table info available.
+#6  0x08062111 in main ()
+No symbol table info available.

@@ -1,0 +1,92 @@
+#0  0x47e48b92 in createNode (left=false, parent=0x0, v=@0x24b1537a: <error reading variable>, k=@0x24b15376: <error reading variable>, this=0x5996b020) at /usr/include/qt5/QtCore/qmap.h:212
+        n = 0x534642c8
+#1  QMapNode<unsigned int, int>::copy (this=0x24b1536a, d=d@entry=0x5996b020) at /usr/include/qt5/QtCore/qmap.h:244
+        n = 0x534642c8
+#2  0x47e48bbe in QMapNode<unsigned int, int>::copy (this=0x40b7c8e9 <QObject::sender() const+44>, d=d@entry=0x5996b020) at /usr/include/qt5/QtCore/qmap.h:247
+        n = 0x58135828
+#3  0x47e48bbe in QMapNode<unsigned int, int>::copy (this=0x58135828, d=d@entry=0x5996b020) at /usr/include/qt5/QtCore/qmap.h:247
+        n = 0x4de4f938
+#4  0x47e48c0a in QMap<unsigned int, int>::detach_helper (this=this@entry=0x4de4f868) at /usr/include/qt5/QtCore/qmap.h:780
+        x = 0x5996b020
+#5  0x47e44d4e in detach (this=0x4de4f868) at /usr/include/qt5/QtCore/qmap.h:357
+No locals.
+#6  find (akey=@0x46d35b2c: 1, this=0x4de4f868) at /usr/include/qt5/QtCore/qmap.h:688
+        n = <optimized out>
+#7  NotificationModel::deleteFromVisible (this=this@entry=0x4de4f698, loc=loc@entry=0) at /build/buildd/unity-notifications-0.1.1+13.10.20131011.2/src/NotificationModel.cpp:222
+        deletePoint = {r = -1, c = -1, i = 0, m = 0x0}
+        n = {value = <optimized out>, d = 0x54d32c98}
+#8  0x47e462d4 in NotificationModel::removeNotification (this=0x4de4f698, id=1) at /build/buildd/unity-notifications-0.1.1+13.10.20131011.2/src/NotificationModel.cpp:204
+        i = 0
+#9  0x47e492a0 in NotificationServer::CloseNotification (this=<optimized out>, id=<optimized out>) at /build/buildd/unity-notifications-0.1.1+13.10.20131011.2/src/NotificationServer.cpp:204
+No locals.
+#10 0x47e42b26 in Notification::~Notification (this=0x54d05c10, __in_chrg=<optimized out>) at /build/buildd/unity-notifications-0.1.1+13.10.20131011.2/src/Notification.cpp:76
+No locals.
+#11 0x47e42cf4 in Notification::~Notification (this=0x54d05c10, __in_chrg=<optimized out>) at /build/buildd/unity-notifications-0.1.1+13.10.20131011.2/src/Notification.cpp:77
+No locals.
+#12 0x47e43202 in destroy (this=0x54d32c98) at /usr/include/qt5/QtCore/qsharedpointer_impl.h:153
+No locals.
+#13 deref (d=0x54d32c98) at /usr/include/qt5/QtCore/qsharedpointer_impl.h:421
+No locals.
+#14 deref (this=<optimized out>) at /usr/include/qt5/QtCore/qsharedpointer_impl.h:416
+No locals.
+#15 ~QSharedPointer (this=0x5996aee8, __in_chrg=<optimized out>) at /usr/include/qt5/QtCore/qsharedpointer_impl.h:307
+No locals.
+#16 node_destruct (this=<optimized out>, to=0x5996aed0, from=0x5996aed0) at /usr/include/qt5/QtCore/qlist.h:421
+No locals.
+#17 QList<QSharedPointer<Notification> >::dealloc (data=0x5996aec0, this=<optimized out>) at /usr/include/qt5/QtCore/qlist.h:763
+No locals.
+#18 0x47e47e6a in QList<QSharedPointer<Notification> >::~QList (this=0x4de4f840, __in_chrg=<optimized out>) at /usr/include/qt5/QtCore/qlist.h:739
+No locals.
+#19 0x47e47d02 in ~NotificationModelPrivate (this=0x4de4f840, __in_chrg=<optimized out>) at /build/buildd/unity-notifications-0.1.1+13.10.20131011.2/src/NotificationModel.cpp:29
+No locals.
+#20 cleanup (pointer=0x4de4f840) at /usr/include/qt5/QtCore/qscopedpointer.h:63
+No locals.
+#21 ~QScopedPointer (this=0x4de4f6a0, __in_chrg=<optimized out>) at /usr/include/qt5/QtCore/qscopedpointer.h:99
+        oldD = 0x4de4f840
+#22 NotificationModel::~NotificationModel (this=0x4de4f698, __in_chrg=<optimized out>) at /build/buildd/unity-notifications-0.1.1+13.10.20131011.2/src/NotificationModel.cpp:47
+No locals.
+#23 0x47e47d9c in NotificationModel::~NotificationModel (this=0x4de4f698, __in_chrg=<optimized out>) at /build/buildd/unity-notifications-0.1.1+13.10.20131011.2/src/NotificationModel.cpp:48
+No locals.
+#24 0x4031a374 in QQmlType::SingletonInstanceInfo::destroy (this=0x1ec2ea8, e=e@entry=0x4de194b8) at qml/qqmlmetatype.cpp:230
+No locals.
+#25 0x402e71a4 in QQmlEngine::~QQmlEngine (this=0x4de194b8, __in_chrg=<optimized out>) at qml/qqmlengine.cpp:784
+        currType = <optimized out>
+        _container_ = {c = {{p = {static shared_null = {ref = {atomic = {_q_value = -1}}, alloc = 0, begin = 0, end = 0, array = {0x0}}, d = 0x53739648}, d = 0x53739648}}, brk = 0, i = {i = 0x53739668}, e = {i = 0x53739698}}
+        singletonTypes = {{p = {static shared_null = {ref = {atomic = {_q_value = -1}}, alloc = 0, begin = 0, end = 0, array = {0x0}}, d = 0x53739648}, d = 0x53739648}}
+#26 0x402e7240 in QQmlEngine::~QQmlEngine (this=0x4de194b8, __in_chrg=<optimized out>) at qml/qqmlengine.cpp:788
+No locals.
+#27 0x40b7dcd4 in QObjectPrivate::deleteChildren (this=this@entry=0x4de1f980) at kernel/qobject.cpp:1764
+        i = 0
+#28 0x40b82220 in QObject::~QObject (this=0x4de1ead0, __in_chrg=<optimized out>) at kernel/qobject.cpp:857
+        d = 0x4de1f980
+        __PRETTY_FUNCTION__ = "virtual QObject::~QObject()"
+#29 0x4077d83e in QWindow::~QWindow (this=0x4de1ead0, __in_chrg=<optimized out>) at kernel/qwindow.cpp:216
+No locals.
+#30 0x40525856 in QQuickWindow::~QQuickWindow (this=0x4de1ead0, __in_chrg=<optimized out>) at items/qquickwindow.cpp:955
+No locals.
+#31 0x4059565e in QQuickView::~QQuickView (this=0x4de1ead0, __in_chrg=<optimized out>) at items/qquickview.cpp:209
+No locals.
+#32 0x4059567c in QQuickView::~QQuickView (this=0x4de1ead0, __in_chrg=<optimized out>) at items/qquickview.cpp:209
+No locals.
+#33 0x0000c63a in startShell (argc=2, argv=<optimized out>, server=<optimized out>) at /build/buildd/unity8-7.82+13.10.20131011.2/main.cpp:180
+        __PRETTY_FUNCTION__ = "int startShell(int, const char**, void*)"
+        qmlArgs = {<QObject> = {_vptr.QObject = 0x17e88 <vtable for ApplicationArguments+8>, static staticMetaObject = {d = {superdata = 0x0, stringdata = 0x40c563e8 <qt_meta_stringdata_QObject>, data = 0x40c56acc <qt_meta_data_QObject>, static_metacall = 0x40b824a5 <QObject::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)>, relatedMetaObjects = 0x0, extradata = 0x0}}, d_ptr = {d = 0x4de19258}, static staticQtMetaObject = {d = {superdata = 0x0, stringdata = 0x40c9ed30 <qt_meta_stringdata_Qt>, data = 0x40c9c794 <qt_meta_data_Qt>, static_metacall = 0x0, relatedMetaObjects = 0x0, extradata = 0x0}}}, static staticMetaObject = {d = {superdata = 0x18270 <QObject::staticMetaObject>, stringdata = 0xf53c <qt_meta_stringdata_ApplicationArguments>, data = 0xf5bc <qt_meta_data_ApplicationArguments>, static_metacall = 0xec8d <ApplicationArguments::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)>, relatedMetaObjects = 0x0, extradata = 0x0}}, m_size = {wd = -1, ht = -1}}
+        view = 0x4de1ead0
+        mouseTouchAdaptor = 0x0
+        source = {d = 0x4de5ced8}
+        application = 0x4de006f0
+        args = {<QList<QString>> = {{p = {static shared_null = {ref = {atomic = {_q_value = -1}}, alloc = 0, begin = 0, end = 0, array = {0x0}}, d = 0x4de189e0}, d = 0x4de189e0}}, <No data fields>}
+        result = 0
+#34 0x40e52b7c in std::(anonymous namespace)::execute_native_thread_routine (__p=<optimized out>) at ../../../../../src/libstdc++-v3/src/c++11/thread.cc:84
+        __t = <optimized out>
+        __local = {<std::__shared_ptr<std::thread::_Impl_base, (__gnu_cxx::_Lock_policy)2>> = {_M_ptr = <optimized out>, _M_refcount = {_M_pi = 0x1e38b80}}, <No data fields>}
+#35 0x41978e64 in start_thread (arg=0x46d36460) at pthread_create.c:313
+        pd = 0x46d36460
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {1188259448, 1188258912, 0, 1188257256, 1100482140, 1077948416, -1095397244, 52765, 1188257256, 1100451395, 0 <repeats 16 times>, 536870928, 0 <repeats 37 times>}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <optimized out>
+        pagesize_m1 = <optimized out>
+        sp = <optimized out>
+        freesize = <optimized out>
+        __PRETTY_FUNCTION__ = "start_thread"
+#36 0x4100fc28 in ?? () at ../ports/sysdeps/unix/sysv/linux/arm/nptl/../clone.S:96 from /home/phablet/dev/retrace/sandbox/lib/arm-linux-gnueabihf/libc.so.6
+Cannot access memory at address 0x82a0142

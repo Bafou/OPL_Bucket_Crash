@@ -1,0 +1,122 @@
+#0  0xb700d598 in g_type_check_instance_cast () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#1  0xb32962bf in unity::launcher::BamfLauncherIcon::OwnsWindow(unsigned long) const () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0xb32963fe in unity::launcher::BamfLauncherIcon::OnWindowMoved(unsigned int) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0xb329f50d in sigc::internal::slot_call1<sigc::bound_mem_functor1<void, unity::launcher::BamfLauncherIcon, unsigned int>, void, unsigned int>::call_it(sigc::internal::slot_rep*, unsigned int const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0xb33b428d in sigc::internal::signal_emit1<void, unsigned int, sigc::nil>::emit(sigc::internal::signal_impl*, unsigned int const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#5  0xb33b19fa in PluginAdapter::NotifyMoved(CompWindow*, int, int) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#6  0xb3206e97 in unity::UnityWindow::moveNotify(int, int, bool) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#7  0xb768a306 in CompWindow::moveNotify(int, int, bool) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#8  0xb7695340 in PrivateWindow::reconfigureXWindow(unsigned int, XWindowChanges*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#9  0xb7695adb in CompWindow::configureXWindow(unsigned int, XWindowChanges*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#10 0xb76ab484 in CompScreenImpl::_handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#11 0xb76a7418 in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#12 0xb4fe4b62 in PrivateCompositeScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libcomposite.so
+No symbol table info available.
+#13 0xb76a743d in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#14 0xb4fa6777 in PrivateGLScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libopengl.so
+No symbol table info available.
+#15 0xb76a743d in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#16 0xb3dcf46a in DecorScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libdecor.so
+No symbol table info available.
+#17 0xb76a743d in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#18 0xb3db16e6 in RegexScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libregex.so
+No symbol table info available.
+#19 0xb76a743d in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#20 0xb3d7f13f in PlaceScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libplace.so
+No symbol table info available.
+#21 0xb76a743d in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#22 0xb3d3accb in SessionScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libsession.so
+No symbol table info available.
+#23 0xb76a743d in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#24 0xb3cc10b8 in WallScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libwall.so
+No symbol table info available.
+#25 0xb76a743d in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#26 0xb39efe9a in resize::CompScreenImpl::handleEvent(_XEvent*) () from /usr/lib/compiz/libresize.so
+No symbol table info available.
+#27 0xb3a0324a in ResizeLogic::handleEvent(_XEvent*) () from /usr/lib/compiz/libresize.so
+No symbol table info available.
+#28 0xb39ecb26 in ResizeScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libresize.so
+No symbol table info available.
+#29 0xb76a743d in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#30 0xb39445fc in MoveScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libmove.so
+No symbol table info available.
+#31 0xb76a743d in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#32 0xb3924ec7 in VPSwitchScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libvpswitch.so
+No symbol table info available.
+#33 0xb76a743d in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#34 0xb39056d1 in WobblyScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libwobbly.so
+No symbol table info available.
+#35 0xb76a743d in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#36 0xb38dc6ac in WorkaroundsScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libworkarounds.so
+No symbol table info available.
+#37 0xb76a743d in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#38 0xb38b42d7 in UnityMTGrabHandlesScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libunitymtgrabhandles.so
+No symbol table info available.
+#39 0xb76a743d in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#40 0xb34c7442 in FadeScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libfade.so
+No symbol table info available.
+#41 0xb76a743d in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#42 0xb34a03f6 in PrivateScaleScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libscale.so
+No symbol table info available.
+#43 0xb76a743d in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#44 0xb321798c in unity::UnityScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#45 0xb76a743d in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#46 0xb76a7491 in CompScreenImpl::alwaysHandleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#47 0xb768312b in PrivateScreen::processEvents() () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#48 0xb7683440 in CompScreenImpl::processEvents() () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#49 0xb76b6122 in CompEventSource::callback() () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#50 0xb76b6491 in sigc::internal::slot_call0<sigc::bound_mem_functor0<bool, CompEventSource>, bool>::call_it(sigc::internal::slot_rep*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#51 0xb76b6152 in CompEventSource::dispatch(sigc::slot_base*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#52 0xb71de071 in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#53 0xb70e09e3 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#54 0xb70e0d80 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#55 0xb70e11db in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#56 0xb71df513 in Glib::MainLoop::run() () from /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#57 0xb7674b8a in compiz::private_screen::EventManager::startEventLoop(_XDisplay*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#58 0xb7674bd4 in CompScreenImpl::eventLoop() () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#59 0x0804a5e2 in CompManager::run() ()
+No symbol table info available.
+#60 0x08049ecc in main ()
+No symbol table info available.

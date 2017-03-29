@@ -1,0 +1,36 @@
+#0  0x00007ff777c00ac5 in gtk_tree_model_get_valist () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#1  0x00007ff777c00d9c in gtk_tree_model_get () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#2  0x00007ff74c8a34e0 in ?? () from /usr/lib/control-center-1/panels/libsoundnua.so
+No symbol table info available.
+#3  0x00007ff7766093c4 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00007ff7766195f5 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007ff776620fcb in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00007ff776621192 in g_signal_emit () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00007ff75320f156 in ?? () from /usr/lib/x86_64-linux-gnu/libpulse.so.0
+No symbol table info available.
+#8  0x00007ff752fc65a3 in ?? () from /usr/lib/x86_64-linux-gnu/libpulsecommon-1.1.so
+No symbol table info available.
+#9  0x00007ff752fc6913 in pa_pdispatch_run () from /usr/lib/x86_64-linux-gnu/libpulsecommon-1.1.so
+No symbol table info available.
+#10 0x00007ff753205bdd in ?? () from /usr/lib/x86_64-linux-gnu/libpulse.so.0
+No symbol table info available.
+#11 0x00007ff752fcb1b9 in ?? () from /usr/lib/x86_64-linux-gnu/libpulsecommon-1.1.so
+No symbol table info available.
+#12 0x00007ff753440ab3 in ?? () from /usr/lib/x86_64-linux-gnu/libpulse-mainloop-glib.so.0
+No symbol table info available.
+#13 0x00007ff77634ddda in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00007ff77634e1a0 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x00007ff77634e264 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0x00007ff7768e66c4 in g_application_run () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#17 0x00007ff778465e55 in main ()
+No symbol table info available.

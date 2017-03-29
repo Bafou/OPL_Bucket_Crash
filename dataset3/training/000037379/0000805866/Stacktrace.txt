@@ -1,0 +1,30 @@
+#0  0x00007f4a77e92010 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#1  0x00007f4a77e92734 in g_settings_backend_path_changed () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#2  0x00007f4a6d2bc8ba in ?? () from /usr/lib/gio/modules/libdconfsettings.so
+No symbol table info available.
+#3  0x00007f4a77e61661 in g_simple_async_result_complete () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#4  0x00007f4a77ea9354 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#5  0x00007f4a77e61661 in g_simple_async_result_complete () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#6  0x00007f4a77e6179c in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#7  0x00007f4a770a385d in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0x00007f4a770a4058 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0x00007f4a770a4592 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0x00007f4a6d2bba0b in ?? () from /usr/lib/gio/modules/libdconfsettings.so
+No symbol table info available.
+#11 0x00007f4a770c9256 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#12 0x00007f4a76bc3d8c in start_thread () from /lib/x86_64-linux-gnu/libpthread.so.0
+No symbol table info available.
+#13 0x00007f4a768fd1bd in clone () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#14 0x0000000000000000 in ?? ()
+No symbol table info available.

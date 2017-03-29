@@ -1,0 +1,187 @@
+#0  0x00007f7e6099a690 in strcmp () from /lib/libc.so.6
+#1  0x00007f7e60cea389 in IA__g_str_equal (v1=0x7f7e563fc0c4, 
+    v2=0x7f7e59c7048b) at /build/buildd/glib2.0-2.19.4/glib/gstring.c:77
+No locals.
+#2  0x00007f7e60cb7f39 in IA__g_hash_table_lookup (hash_table=0x190a450, 
+    key=0x7f7e59c7048b) at /build/buildd/glib2.0-2.19.4/glib/ghash.c:213
+	node = <value optimized out>
+	node_index = 383
+	__PRETTY_FUNCTION__ = "IA__g_hash_table_lookup"
+#3  0x00007f7e60cb0c34 in IA__g_quark_try_string (
+    string=0x7f7e59c7048b "BonoboUIToolbar")
+    at /build/buildd/glib2.0-2.19.4/glib/gdataset.c:611
+	quark = 0
+	__PRETTY_FUNCTION__ = "IA__g_quark_try_string"
+#4  0x00007f7e60f7a858 in IA__g_type_from_name (
+    name=0x7f7e563fc0c4 <Address 0x7f7e563fc0c4 out of bounds>)
+    at /build/buildd/glib2.0-2.19.4/gobject/gtype.c:3094
+	type = <value optimized out>
+	quark = <value optimized out>
+	__PRETTY_FUNCTION__ = "IA__g_type_from_name"
+#5  0x00007f7e59c6f491 in ?? ()
+   from /usr/lib/gtk-2.0/2.10.0/engines/libglide.so
+#6  0x00007f7e59c6a320 in ?? ()
+   from /usr/lib/gtk-2.0/2.10.0/engines/libglide.so
+#7  0x00007f7e622e61a9 in _gtk_button_paint (button=0x1ac8ce0, 
+    area=0x7fff6c1aa0e4, state_type=GTK_STATE_NORMAL, 
+    shadow_type=GTK_SHADOW_OUT, main_detail=<value optimized out>, 
+    default_detail=<value optimized out>)
+    at /build/buildd/gtk+2.0-2.14.5/gtk/gtkbutton.c:1290
+	width = 97
+	height = 31
+	x = 6
+	y = 6
+	border_width = <value optimized out>
+	default_border = {left = 0, right = 0, top = 0, bottom = 0}
+	default_outside_border = {left = 0, right = 0, top = 0, bottom = 0}
+	interior_focus = 0
+	focus_width = 1
+	focus_pad = 0
+#8  0x00007f7e622e62d1 in gtk_button_expose (widget=0x1ac8ce0, 
+    event=0x7fff6c1aa0d0) at /build/buildd/gtk+2.0-2.14.5/gtk/gtkbutton.c:1343
+No locals.
+#9  0x00007f7e6238c868 in _gtk_marshal_BOOLEAN__BOXED (closure=0x194add0, 
+    return_value=0x7fff6c1a9e20, n_param_values=<value optimized out>, 
+    param_values=0x19f2a90, invocation_hint=<value optimized out>, 
+    marshal_data=0x7f7e622e6280)
+    at /build/buildd/gtk+2.0-2.14.5/gtk/gtkmarshalers.c:84
+	data1 = (gpointer) 0x1ac8ce0
+	data2 = (gpointer) 0x7f7e60cea380
+	v_return = <value optimized out>
+	__PRETTY_FUNCTION__ = "_gtk_marshal_BOOLEAN__BOXED"
+#10 0x00007f7e60f5f2cd in IA__g_closure_invoke (closure=0x194add0, 
+    return_value=0x7fff6c1a9e20, n_param_values=2, param_values=0x19f2a90, 
+    invocation_hint=0x7fff6c1a9de0)
+    at /build/buildd/glib2.0-2.19.4/gobject/gclosure.c:767
+	marshal = (GClosureMarshal) 0x7f7e60f5d7d0 <g_type_class_meta_marshal>
+	marshal_data = (gpointer) 0x188
+	__PRETTY_FUNCTION__ = "IA__g_closure_invoke"
+#11 0x00007f7e60f75d94 in signal_emit_unlocked_R (node=0x194ae40, detail=0, 
+    instance=0x1ac8ce0, emission_return=0x7fff6c1a9f60, 
+    instance_and_params=0x19f2a90)
+    at /build/buildd/glib2.0-2.19.4/gobject/gsignal.c:3282
+	accumulator = (SignalAccumulator *) 0x194aec0
+	emission = {next = 0x0, instance = 0x1ac8ce0, ihint = {
+    signal_id = 38, detail = 0, run_type = G_SIGNAL_RUN_LAST}, 
+  state = EMISSION_RUN, chain_type = 26674944}
+	class_closure = (GClosure *) 0x194add0
+	handler_list = (Handler *) 0x0
+	return_accu = (GValue *) 0x7fff6c1a9e20
+	accu = {g_type = 20, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+      v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, 
+      v_pointer = 0x0}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, 
+      v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}}}
+	signal_id = 38
+	max_sequential_handler_number = 51
+	return_value_altered = 0
+#12 0x00007f7e60f77658 in IA__g_signal_emit_valist (instance=0x1ac8ce0, 
+    signal_id=<value optimized out>, detail=0, var_args=0x7fff6c1a9fc0)
+    at /build/buildd/glib2.0-2.19.4/gobject/gsignal.c:2987
+	return_value = {g_type = 20, data = {{v_int = 0, v_uint = 0, 
+      v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, 
+      v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, v_long = 0, 
+      v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, 
+      v_pointer = 0x0}}}
+	error = <value optimized out>
+	signal_return_type = 20
+	param_values = (GValue *) 0x19f2aa8
+	node = (SignalNode *) 0x194ae40
+	i = 1
+	n_params = 1
+	__PRETTY_FUNCTION__ = "IA__g_signal_emit_valist"
+#13 0x00007f7e60f77d13 in IA__g_signal_emit (instance=0x7f7e563fc0c4, 
+    signal_id=1506215051, detail=1624155008)
+    at /build/buildd/glib2.0-2.19.4/gobject/gsignal.c:3034
+	var_args = {{gp_offset = 32, fp_offset = 48, 
+    overflow_arg_area = 0x7fff6c1aa0a0, reg_save_area = 0x7fff6c1a9fe0}}
+#14 0x00007f7e6248f64e in gtk_widget_event_internal (widget=0x1ac8ce0, 
+    event=0x7fff6c1aa0d0) at /build/buildd/gtk+2.0-2.14.5/gtk/gtkwidget.c:4745
+	signal_num = <value optimized out>
+	return_val = 0
+#15 0x000000000042c244 in fake_expose_widget (widget=0x1ac8ce0, 
+    pixmap=<value optimized out>, area=0x7f7e60cea380)
+    at theme-thumbnail.c:114
+	tmp_window = (GdkWindow *) 0x1bc7ab0
+	event = {type = GDK_EXPOSE, window = 0x1aa40d0, send_event = 0 '\0', 
+  area = {x = 6, y = 6, width = 97, height = 31}, region = 0x0, count = 0}
+#16 0x000000000042c6a2 in create_gtk_theme_pixbuf (
+    theme_thumbnail_data=<value optimized out>) at theme-thumbnail.c:441
+	settings = <value optimized out>
+	window = (GtkWidget *) 0x1b22090
+	vbox = <value optimized out>
+	box = <value optimized out>
+	stock_button = (GtkWidget *) 0x1ac8ce0
+	checkbox = (GtkWidget *) 0x1b2aa70
+	radio = (GtkWidget *) 0x1b2a9b0
+	requisition = {width = 170, height = 43}
+	allocation = {x = 0, y = 0, width = 170, height = 43}
+	visual = <value optimized out>
+	pixmap = (GdkPixmap *) 0x1aa40d0
+	pixbuf = <value optimized out>
+	retval = <value optimized out>
+	width = 170
+	height = 43
+	__PRETTY_FUNCTION__ = "create_gtk_theme_pixbuf"
+#17 0x000000000042c93d in message_from_capplet (source=<value optimized out>, 
+    condition=<value optimized out>, data=0x7fff6c1aa8b0)
+    at theme-thumbnail.c:709
+	width = <value optimized out>
+	height = <value optimized out>
+	buffer = "gtk\000Glider\000fg_color:#000\nbg_color:#eae8e3\nbase_color:#fff\ntext_color:#000\nselected_bg_color:#7590ae\nselected_fg_color:#fff\ntooltip_bg_color:#FFF1BE\ntooltip_fg_color:#000\000\000\000Sans 10", '\0' <repeats 13 times>, "Ë\r\223\001\000\000\000\000Ú \231"...
+	status = <value optimized out>
+	bytes_read = 180
+	pixbuf = <value optimized out>
+	i = <value optimized out>
+	rowstride = <value optimized out>
+	pixels = <value optimized out>
+	__PRETTY_FUNCTION__ = "message_from_capplet"
+#18 0x00007f7e60cc61db in IA__g_main_context_dispatch (context=0x1944810)
+    at /build/buildd/glib2.0-2.19.4/glib/gmain.c:1814
+No locals.
+#19 0x00007f7e60cc999d in g_main_context_iterate (context=0x1944810, block=1, 
+    dispatch=1, self=<value optimized out>)
+    at /build/buildd/glib2.0-2.19.4/glib/gmain.c:2448
+	max_priority = 0
+	timeout = 0
+	some_ready = 1
+	nfds = 4
+	allocated_nfds = <value optimized out>
+	fds = (GPollFD *) 0x19daa70
+	__PRETTY_FUNCTION__ = "g_main_context_iterate"
+#20 0x00007f7e60cc9ecd in IA__g_main_loop_run (loop=0x198dfe0)
+    at /build/buildd/glib2.0-2.19.4/glib/gmain.c:2656
+	self = (GThread *) 0x19086f0
+	__PRETTY_FUNCTION__ = "IA__g_main_loop_run"
+#21 0x00007f7e62386707 in IA__gtk_main ()
+    at /build/buildd/gtk+2.0-2.14.5/gtk/gtkmain.c:1200
+	tmp_list = (GList *) 0x0
+	functions = (GList *) 0x0
+	init = (GtkInitFunction *) 0x1990480
+	loop = <value optimized out>
+#22 0x000000000042c018 in theme_thumbnail_factory_init (argc=1, 
+    argv=0x7fff6c1aaae8) at theme-thumbnail.c:1229
+	data = {status = 7, type = 0x1984060, control_theme_name = 0x1984080, 
+  gtk_color_scheme = 0x19840a0, wm_theme_name = 0x19840c0, 
+  icon_theme_name = 0x19840e0, application_font = 0x1984100}
+	channel = <value optimized out>
+	__PRETTY_FUNCTION__ = "theme_thumbnail_factory_init"
+#23 0x00000000004180cc in main (argc=1, argv=0x7fff6c1aaae8)
+    at appearance-main.c:41
+	w = <value optimized out>
+	install_filename = (gchar *) 0x0
+	start_page = (gchar *) 0x0
+	wallpaper_files = (gchar **) 0x0
+	option_context = <value optimized out>
+	option_entries = {{long_name = 0x42f5e8 "install-theme", 
+    short_name = 105 'i', flags = 2, arg = G_OPTION_ARG_FILENAME, 
+    arg_data = 0x7fff6c1aa9e8, 
+    description = 0x42f6c0 "Specify the filename of a theme to install", 
+    arg_description = 0x42f5f6 "filename"}, {
+    long_name = 0x42f5ff "show-page", short_name = 112 'p', flags = 2, 
+    arg = G_OPTION_ARG_STRING, arg_data = 0x7fff6c1aa9e0, 
+    description = 0x42f6f0 "Specify the name of the page to show (theme|background|fonts|interface)", arg_description = 0x42f604 "page"}, {
+    long_name = 0x430dfc "", short_name = 0 '\0', flags = 2, 
+    arg = G_OPTION_ARG_FILENAME_ARRAY, arg_data = 0x7fff6c1aa9d8, 
+    description = 0x0, arg_description = 0x42f609 "[WALLPAPER...]"}, {
+    long_name = 0x0, short_name = 0 '\0', flags = 0, arg = G_OPTION_ARG_NONE, 
+    arg_data = 0x0, description = 0x0, arg_description = 0x0}}

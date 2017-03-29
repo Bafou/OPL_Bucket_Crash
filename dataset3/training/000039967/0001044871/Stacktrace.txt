@@ -1,0 +1,14 @@
+#0  0x00007f31bd3a26ba in ?? () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0x00007f31bba58a11 in unity::glib::Source::SourceCallback(void*) () from /usr/lib/libunity-core-6.0.so.5
+No symbol table info available.
+#2  0x00007f31d9d3093b in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f31d9d2fdb5 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f31d9d300e8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f31d9d304e2 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x000000000040270b in main ()
+No symbol table info available.

@@ -1,0 +1,690 @@
+#0  0x0161fba2 in gr::GlyphInfo::logicalIndex() ()
+   from /usr/lib/libgraphite.so.3
+No symbol table info available.
+#1  0x015dc925 in graphite_PangoLogAttrs ()
+   from /usr/lib/pango/1.6.0/modules/graphite/pango-graphite.so
+No symbol table info available.
+#2  0x015dcf0f in graphite_engine_break ()
+   from /usr/lib/pango/1.6.0/modules/graphite/pango-graphite.so
+No symbol table info available.
+#3  0x0028cf3b in ?? () from /usr/lib/libpango-1.0.so.0
+No symbol table info available.
+#4  0x002a1eb3 in ?? () from /usr/lib/libpango-1.0.so.0
+No symbol table info available.
+#5  0x002a4421 in pango_layout_get_lines_readonly ()
+   from /usr/lib/libpango-1.0.so.0
+No symbol table info available.
+#6  0x0021139e in pango_fc_font_create_metrics_for_context ()
+   from /usr/lib/libpangoft2-1.0.so.0
+No symbol table info available.
+#7  0x00254594 in ?? () from /usr/lib/libpangocairo-1.0.so.0
+No symbol table info available.
+#8  0x00250c81 in ?? () from /usr/lib/libpangocairo-1.0.so.0
+No symbol table info available.
+#9  0x002911c8 in pango_font_get_metrics () from /usr/lib/libpango-1.0.so.0
+No symbol table info available.
+#10 0x0029e469 in ?? () from /usr/lib/libpango-1.0.so.0
+No symbol table info available.
+#11 0x0029f27e in pango_layout_line_get_extents ()
+   from /usr/lib/libpango-1.0.so.0
+No symbol table info available.
+#12 0x0029f605 in ?? () from /usr/lib/libpango-1.0.so.0
+No symbol table info available.
+#13 0x002a34c5 in ?? () from /usr/lib/libpango-1.0.so.0
+No symbol table info available.
+#14 0x01126808 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#15 0x007d6438 in IA__g_cclosure_marshal_VOID__BOXED (closure=0xa2f6740, 
+    return_value=0x0, n_param_values=2, param_values=0xbfc181ec, 
+    invocation_hint=0xbfc18420, marshal_data=0x0)
+    at /build/buildd/glib2.0-2.24.0/gobject/gmarshal.c:566
+        data1 = 0xbb50910
+        data2 = <value optimised out>
+        __PRETTY_FUNCTION__ = "IA__g_cclosure_marshal_VOID__BOXED"
+#16 0x007c78b9 in g_type_class_meta_marshal (closure=0xa2f6740, 
+    return_value=0x0, n_param_values=2, param_values=0xbb35568, 
+    invocation_hint=0xbfc18420, marshal_data=0x7c)
+    at /build/buildd/glib2.0-2.24.0/gobject/gclosure.c:878
+        callbhostnamek = <value optimised out>
+#17 0x007c9178 in IA__g_closure_invoke (closure=0xa2f6740, return_value=0x0, 
+    n_param_values=2, param_values=0xbb35568, invocation_hint=0xbfc18420)
+    at /build/buildd/glib2.0-2.24.0/gobject/gclosure.c:767
+        marshal = 0x7c7870 <g_type_class_meta_marshal>
+        marshal_data = 0x7c
+        __PRETTY_FUNCTION__ = "IA__g_closure_invoke"
+#18 0x007dd23a in signal_emit_unlocked_R (node=<value optimised out>, 
+    detail=<value optimised out>, instance=0xba28ad0, emission_return=0x0, 
+    instance_and_params=0xbb35568)
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:3178
+        hostnamecumulator = 0x0
+        emission = {next = 0xbfc18898, instance = 0xba28ad0, ihint = {
+            signal_id = 18, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, 
+          state = EMISSION_RUN, chain_type = 170337448}
+        class_closure = 0xa2f6740
+        handler_list = 0x0
+        return_hostnamecu = <value optimised out>
+        hostnamecu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+              v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, 
+              v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, 
+              v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, 
+              v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 18
+        max_sequential_handler_number = 45885
+        return_value_altered = 0
+#19 0x007dedb4 in IA__g_signal_emit_valist (instance=0xba28ad0, signal_id=18, 
+    detail=0, 
+    var_args=0xbfc1864c "\364\237<\001\364\237<\001Њ\242\v\230\206\301\277\267\220\032\001Њ\242\v\246\b")
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:2981
+        signal_return_type = 4
+        node = 0xa2f67a0
+        i = <value optimised out>
+        n_params = 1
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_valist"
+#20 0x007df085 in IA__g_signal_emit_by_name (instance=0xba28ad0, 
+    detailed_signal=0x137e5bc "size-request")
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:3075
+        detail = 0
+        signal_id = 18
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_by_name"
+#21 0x011a8de6 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#22 0x011a90b7 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#23 0x0126856f in gtk_widget_size_request () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#24 0x01071558 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#25 0x007d6438 in IA__g_cclosure_marshal_VOID__BOXED (closure=0xa2f6740, 
+    return_value=0x0, n_param_values=2, param_values=0xbfc186f8, 
+    invocation_hint=0xbfc188a0, marshal_data=0xba28ad0)
+    at /build/buildd/glib2.0-2.24.0/gobject/gmarshal.c:566
+        data1 = 0xbb50910
+        data2 = <value optimised out>
+        __PRETTY_FUNCTION__ = "IA__g_cclosure_marshal_VOID__BOXED"
+#26 0x007c78b9 in g_type_class_meta_marshal (closure=0xa2f6740, 
+    return_value=0x0, n_param_values=2, param_values=0xbb354c8, 
+    invocation_hint=0xbfc188a0, marshal_data=0x7c)
+    at /build/buildd/glib2.0-2.24.0/gobject/gclosure.c:878
+        callbhostnamek = <value optimised out>
+#27 0x007c9178 in IA__g_closure_invoke (closure=0xa2f6740, return_value=0x0, 
+    n_param_values=2, param_values=0xbb354c8, invocation_hint=0xbfc188a0)
+    at /build/buildd/glib2.0-2.24.0/gobject/gclosure.c:767
+        marshal = 0x7c7870 <g_type_class_meta_marshal>
+        marshal_data = 0x7c
+        __PRETTY_FUNCTION__ = "IA__g_closure_invoke"
+#28 0x007dd23a in signal_emit_unlocked_R (node=<value optimised out>, 
+    detail=<value optimised out>, instance=0xa609328, emission_return=0x0, 
+    instance_and_params=0xbb354c8)
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:3178
+        hostnamecumulator = 0x0
+        emission = {next = 0xbfc18d08, instance = 0xa609328, ihint = {
+            signal_id = 18, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, 
+          state = EMISSION_RUN, chain_type = 170389656}
+        class_closure = 0xa2f6740
+        handler_list = 0x0
+        return_hostnamecu = <value optimised out>
+        hostnamecu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+              v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, 
+              v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, 
+              v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, 
+              v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 18
+        max_sequential_handler_number = 45885
+        return_value_altered = 0
+#29 0x007dedb4 in IA__g_signal_emit_valist (instance=0xa609328, signal_id=18, 
+    detail=0, 
+    var_args=0xbfc18hostnamec "\364\237<\001\364\237<\001(\223`\n\030\213\301\277\267\220\032\001(\223`\n\246\b")
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:2981
+        signal_return_type = 4
+        node = 0xa2f67a0
+        i = <value optimised out>
+        n_params = 1
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_valist"
+#30 0x007df085 in IA__g_signal_emit_by_name (instance=0xa609328, 
+    detailed_signal=0x137e5bc "size-request")
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:3075
+        detail = 0
+        signal_id = 18
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_by_name"
+#31 0x011a8de6 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#32 0x011a90b7 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#33 0x0126856f in gtk_widget_size_request () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#34 0x01065a4a in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#35 0x007d6438 in IA__g_cclosure_marshal_VOID__BOXED (closure=0xa2f6740, 
+    return_value=0x0, n_param_values=2, param_values=0xbfc18b68, 
+    invocation_hint=0xbfc18d10, marshal_data=0xa609328)
+    at /build/buildd/glib2.0-2.24.0/gobject/gmarshal.c:566
+        data1 = 0xbb50910
+        data2 = <value optimised out>
+        __PRETTY_FUNCTION__ = "IA__g_cclosure_marshal_VOID__BOXED"
+#36 0x007c78b9 in g_type_class_meta_marshal (closure=0xa2f6740, 
+    return_value=0x0, n_param_values=2, param_values=0xbb35478, 
+    invocation_hint=0xbfc18d10, marshal_data=0x7c)
+    at /build/buildd/glib2.0-2.24.0/gobject/gclosure.c:878
+        callbhostnamek = <value optimised out>
+#37 0x007c9178 in IA__g_closure_invoke (closure=0xa2f6740, return_value=0x0, 
+    n_param_values=2, param_values=0xbb35478, invocation_hint=0xbfc18d10)
+    at /build/buildd/glib2.0-2.24.0/gobject/gclosure.c:767
+        marshal = 0x7c7870 <g_type_class_meta_marshal>
+        marshal_data = 0x7c
+        __PRETTY_FUNCTION__ = "IA__g_closure_invoke"
+#38 0x007dd23a in signal_emit_unlocked_R (node=<value optimised out>, 
+    detail=<value optimised out>, instance=0xbb32808, emission_return=0x0, 
+    instance_and_params=0xbb35478)
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:3178
+        hostnamecumulator = 0x0
+        emission = {next = 0xbfc19198, instance = 0xbb32808, ihint = {
+            signal_id = 18, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, 
+          state = EMISSION_RUN, chain_type = 170337224}
+        class_closure = 0xa2f6740
+        handler_list = 0x0
+        return_hostnamecu = <value optimised out>
+        hostnamecu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+              v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, 
+              v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, 
+              v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, 
+              v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 18
+        max_sequential_handler_number = 45885
+        return_value_altered = 0
+#39 0x007dedb4 in IA__g_signal_emit_valist (instance=0xbb32808, signal_id=18, 
+    detail=0, 
+    var_args=0xbfc18f3c "\364\237<\001\364\237<\001\b(\263\v\210\217\301\277\267\220\032\001\b(\263\v\246\b")
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:2981
+        signal_return_type = 4
+        node = 0xa2f67a0
+        i = <value optimised out>
+        n_params = 1
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_valist"
+#40 0x007df085 in IA__g_signal_emit_by_name (instance=0xbb32808, 
+    detailed_signal=0x137e5bc "size-request")
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:3075
+        detail = 0
+        signal_id = 18
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_by_name"
+#41 0x011a8de6 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#42 0x011a90b7 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#43 0x0126856f in gtk_widget_size_request () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#44 0x0107a82a in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#45 0x007d6438 in IA__g_cclosure_marshal_VOID__BOXED (closure=0xa2f6740, 
+    return_value=0x0, n_param_values=2, param_values=0xbfc18ff0, 
+    invocation_hint=0xbfc191a0, marshal_data=0xbb32808)
+    at /build/buildd/glib2.0-2.24.0/gobject/gmarshal.c:566
+        data1 = 0xbb50910
+        data2 = <value optimised out>
+        __PRETTY_FUNCTION__ = "IA__g_cclosure_marshal_VOID__BOXED"
+#46 0x007c78b9 in g_type_class_meta_marshal (closure=0xa2f6740, 
+    return_value=0x0, n_param_values=2, param_values=0xbb35428, 
+    invocation_hint=0xbfc191a0, marshal_data=0x7c)
+    at /build/buildd/glib2.0-2.24.0/gobject/gclosure.c:878
+        callbhostnamek = <value optimised out>
+#47 0x007c9178 in IA__g_closure_invoke (closure=0xa2f6740, return_value=0x0, 
+    n_param_values=2, param_values=0xbb35428, invocation_hint=0xbfc191a0)
+    at /build/buildd/glib2.0-2.24.0/gobject/gclosure.c:767
+        marshal = 0x7c7870 <g_type_class_meta_marshal>
+        marshal_data = 0x7c
+        __PRETTY_FUNCTION__ = "IA__g_closure_invoke"
+#48 0x007dd23a in signal_emit_unlocked_R (node=<value optimised out>, 
+    detail=<value optimised out>, instance=0xa278568, emission_return=0x0, 
+    instance_and_params=0xbb35428)
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:3178
+        hostnamecumulator = 0x0
+        emission = {next = 0xbfc196a8, instance = 0xa278568, ihint = {
+            signal_id = 18, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, 
+          state = EMISSION_RUN, chain_type = 170381856}
+        class_closure = 0xa2f6740
+        handler_list = 0x0
+        return_hostnamecu = <value optimised out>
+        hostnamecu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+              v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, 
+              v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, 
+              v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, 
+              v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 18
+        max_sequential_handler_number = 45885
+        return_value_altered = 0
+#49 0x007dedb4 in IA__g_signal_emit_valist (instance=0xa278568, signal_id=18, 
+    detail=0, 
+    var_args=0xbfc193cc "\364\237<\001\364\237<\001h\205'\n\030\224\301\277\267\220\032\001h\205'\n\246\b")
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:2981
+        signal_return_type = 4
+        node = 0xa2f67a0
+        i = <value optimised out>
+        n_params = 1
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_valist"
+#50 0x007df085 in IA__g_signal_emit_by_name (instance=0xa278568, 
+    detailed_signal=0x137e5bc "size-request")
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:3075
+        detail = 0
+        signal_id = 18
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_by_name"
+#51 0x011a8de6 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#52 0x011a90b7 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#53 0x0126856f in gtk_widget_size_request () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#54 0x0106b6dc in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#55 0x0106c826 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#56 0x007d6438 in IA__g_cclosure_marshal_VOID__BOXED (closure=0xa2f6740, 
+    return_value=0x0, n_param_values=2, param_values=0xbfc19498, 
+    invocation_hint=0xbfc196b0, marshal_data=0xa278568)
+    at /build/buildd/glib2.0-2.24.0/gobject/gmarshal.c:566
+        data1 = 0xbb50910
+        data2 = <value optimised out>
+        __PRETTY_FUNCTION__ = "IA__g_cclosure_marshal_VOID__BOXED"
+#57 0x007c78b9 in g_type_class_meta_marshal (closure=0xa2f6740, 
+    return_value=0x0, n_param_values=2, param_values=0xb9eafb8, 
+    invocation_hint=0xbfc196b0, marshal_data=0x7c)
+    at /build/buildd/glib2.0-2.24.0/gobject/gclosure.c:878
+        callbhostnamek = <value optimised out>
+#58 0x007c9178 in IA__g_closure_invoke (closure=0xa2f6740, return_value=0x0, 
+    n_param_values=2, param_values=0xb9eafb8, invocation_hint=0xbfc196b0)
+    at /build/buildd/glib2.0-2.24.0/gobject/gclosure.c:767
+        marshal = 0x7c7870 <g_type_class_meta_marshal>
+        marshal_data = 0x7c
+        __PRETTY_FUNCTION__ = "IA__g_closure_invoke"
+#59 0x007dd23a in signal_emit_unlocked_R (node=<value optimised out>, 
+    detail=<value optimised out>, instance=0xba63348, emission_return=0x0, 
+    instance_and_params=0xb9eafb8)
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:3178
+        hostnamecumulator = 0x0
+        emission = {next = 0xbfc19b28, instance = 0xba63348, ihint = {
+            signal_id = 18, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, 
+          state = EMISSION_RUN, chain_type = 170395528}
+        class_closure = 0xa2f6740
+        handler_list = 0x0
+        return_hostnamecu = <value optimised out>
+        hostnamecu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+              v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, 
+              v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, 
+              v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, 
+              v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 18
+        max_sequential_handler_number = 45885
+        return_value_altered = 0
+#60 0x007dedb4 in IA__g_signal_emit_valist (instance=0xba63348, signal_id=18, 
+    detail=0, 
+    var_args=0xbfc198dc "\364\237<\001\364\237<\001H3\246\v(\231\301\277\267\220\032\001H3\246\v\246\b")
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:2981
+        signal_return_type = 4
+        node = 0xa2f67a0
+        i = <value optimised out>
+        n_params = 1
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_valist"
+#61 0x007df085 in IA__g_signal_emit_by_name (instance=0xba63348, 
+    detailed_signal=0x137e5bc "size-request")
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:3075
+        detail = 0
+        signal_id = 18
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_by_name"
+#62 0x011a8de6 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#63 0x011a90b7 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#64 0x0126856f in gtk_widget_size_request () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#65 0x01071558 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#66 0x007d6438 in IA__g_cclosure_marshal_VOID__BOXED (closure=0xa2f6740, 
+    return_value=0x0, n_param_values=2, param_values=0xbfc19988, 
+    invocation_hint=0xbfc19b30, marshal_data=0xba63348)
+    at /build/buildd/glib2.0-2.24.0/gobject/gmarshal.c:566
+        data1 = 0xbb50910
+        data2 = <value optimised out>
+        __PRETTY_FUNCTION__ = "IA__g_cclosure_marshal_VOID__BOXED"
+#67 0x007c78b9 in g_type_class_meta_marshal (closure=0xa2f6740, 
+    return_value=0x0, n_param_values=2, param_values=0xb9eaf68, 
+    invocation_hint=0xbfc19b30, marshal_data=0x7c)
+    at /build/buildd/glib2.0-2.24.0/gobject/gclosure.c:878
+        callbhostnamek = <value optimised out>
+#68 0x007c9178 in IA__g_closure_invoke (closure=0xa2f6740, return_value=0x0, 
+    n_param_values=2, param_values=0xb9eaf68, invocation_hint=0xbfc19b30)
+    at /build/buildd/glib2.0-2.24.0/gobject/gclosure.c:767
+        marshal = 0x7c7870 <g_type_class_meta_marshal>
+        marshal_data = 0x7c
+        __PRETTY_FUNCTION__ = "IA__g_closure_invoke"
+#69 0x007dd23a in signal_emit_unlocked_R (node=<value optimised out>, 
+    detail=<value optimised out>, instance=0xa609220, emission_return=0x0, 
+    instance_and_params=0xb9eaf68)
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:3178
+        hostnamecumulator = 0x0
+        emission = {next = 0xbfc19f78, instance = 0xa609220, ihint = {
+            signal_id = 18, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, 
+          state = EMISSION_RUN, chain_type = 170389072}
+        class_closure = 0xa2f6740
+        handler_list = 0x0
+        return_hostnamecu = <value optimised out>
+        hostnamecu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+              v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, 
+              v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, 
+              v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, 
+              v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 18
+        max_sequential_handler_number = 45885
+        return_value_altered = 0
+#70 0x007dedb4 in IA__g_signal_emit_valist (instance=0xa609220, signal_id=18, 
+    detail=0, 
+    var_args=0xbfc19d5c "\364\237<\001\364\237<\001 \222`\n\250\235\301\277\267\220\032\001 \222`\n\246\b")
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:2981
+        signal_return_type = 4
+        node = 0xa2f67a0
+        i = <value optimised out>
+        n_params = 1
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_valist"
+#71 0x007df085 in IA__g_signal_emit_by_name (instance=0xa609220, 
+    detailed_signal=0x137e5bc "size-request")
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:3075
+        detail = 0
+        signal_id = 18
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_by_name"
+#72 0x011a8de6 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#73 0x011a90b7 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#74 0x0126856f in gtk_widget_size_request () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#75 0x01271b92 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#76 0x007d6438 in IA__g_cclosure_marshal_VOID__BOXED (closure=0xa2f6740, 
+    return_value=0x0, n_param_values=2, param_values=0xbfc19de8, 
+    invocation_hint=0xbfc19f80, marshal_data=0xa609220)
+    at /build/buildd/glib2.0-2.24.0/gobject/gmarshal.c:566
+        data1 = 0xbb50910
+        data2 = <value optimised out>
+        __PRETTY_FUNCTION__ = "IA__g_cclosure_marshal_VOID__BOXED"
+#77 0x007c78b9 in g_type_class_meta_marshal (closure=0xa2f6740, 
+    return_value=0x0, n_param_values=2, param_values=0xb9eaf18, 
+    invocation_hint=0xbfc19f80, marshal_data=0x7c)
+    at /build/buildd/glib2.0-2.24.0/gobject/gclosure.c:878
+        callbhostnamek = <value optimised out>
+#78 0x007c9178 in IA__g_closure_invoke (closure=0xa2f6740, return_value=0x0, 
+    n_param_values=2, param_values=0xb9eaf18, invocation_hint=0xbfc19f80)
+    at /build/buildd/glib2.0-2.24.0/gobject/gclosure.c:767
+        marshal = 0x7c7870 <g_type_class_meta_marshal>
+        marshal_data = 0x7c
+        __PRETTY_FUNCTION__ = "IA__g_closure_invoke"
+#79 0x007dd23a in signal_emit_unlocked_R (node=<value optimised out>, 
+    detail=<value optimised out>, instance=0xba38c78, emission_return=0x0, 
+    instance_and_params=0xb9eaf18)
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:3178
+        hostnamecumulator = 0x0
+        emission = {next = 0xbfc1a558, instance = 0xba38c78, ihint = {
+            signal_id = 18, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, 
+          state = EMISSION_RUN, chain_type = 170403704}
+        class_closure = 0xa2f6740
+        handler_list = 0x0
+        return_hostnamecu = <value optimised out>
+        hostnamecu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+              v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, 
+              v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, 
+              v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, 
+              v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 18
+        max_sequential_handler_number = 45885
+        return_value_altered = 0
+#80 0x007dedb4 in IA__g_signal_emit_valist (instance=0xba38c78, signal_id=18, 
+    detail=0, 
+    var_args=0xbfc1a1hostname "\364\237<\001\364\237<\001x\214\243\v\370\241\301\277\267\220\032\001x\214\243\v\246\b")
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:2981
+        signal_return_type = 4
+        node = 0xa2f67a0
+        i = <value optimised out>
+        n_params = 1
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_valist"
+#81 0x007df085 in IA__g_signal_emit_by_name (instance=0xba38c78, 
+    detailed_signal=0x137e5bc "size-request")
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:3075
+        detail = 0
+        signal_id = 18
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_by_name"
+#82 0x011a8de6 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#83 0x011a90b7 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#84 0x0126856f in gtk_widget_size_request () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#85 0x01271f0d in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#86 0x0127c8da in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#87 0x007d6dcc in IA__g_cclosure_marshal_VOID__VOID (closure=0x0, 
+    return_value=0x0, n_param_values=1, param_values=0xba3db78, 
+    invocation_hint=0xbfc1a560, marshal_data=0xba38c78)
+    at /build/buildd/glib2.0-2.24.0/gobject/gmarshal.c:77
+        data1 = 0xbb50910
+        data2 = 0x982e5514
+        __PRETTY_FUNCTION__ = "IA__g_cclosure_marshal_VOID__VOID"
+#88 0x007c78b9 in g_type_class_meta_marshal (closure=0xa2f62e8, 
+    return_value=0x0, n_param_values=1, param_values=0xba3db78, 
+    invocation_hint=0xbfc1a560, marshal_data=0x5c)
+    at /build/buildd/glib2.0-2.24.0/gobject/gclosure.c:878
+        callbhostnamek = <value optimised out>
+#89 0x007c9252 in IA__g_closure_invoke (closure=0xa2f62e8, return_value=0x0, 
+    n_param_values=1, param_values=0xba3db78, invocation_hint=0xbfc1a560)
+    at /build/buildd/glib2.0-2.24.0/gobject/gclosure.c:767
+        marshal = 0x7c7870 <g_type_class_meta_marshal>
+        marshal_data = 0x5c
+        __PRETTY_FUNCTION__ = "IA__g_closure_invoke"
+#90 0x007dd23a in signal_emit_unlocked_R (node=<value optimised out>, 
+    detail=<value optimised out>, instance=0xba38c78, emission_return=0x0, 
+    instance_and_params=0xba3db78)
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:3178
+        hostnamecumulator = 0x0
+        emission = {next = 0xbfc1b988, instance = 0xba38c78, ihint = {
+            signal_id = 12, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, 
+          state = EMISSION_RUN, chain_type = 170403704}
+        class_closure = 0xa2f62e8
+        handler_list = 0x0
+        return_hostnamecu = <value optimised out>
+        hostnamecu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+              v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, 
+              v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, 
+              v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, 
+              v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 12
+        max_sequential_handler_number = 45885
+        return_value_altered = 0
+#91 0x007dedb4 in IA__g_signal_emit_valist (instance=0xba38c78, signal_id=12, 
+    detail=0, 
+    var_args=0xbfc1a71c ":\261&\001\364\237<\001x\214\243\v\210\247\301\277\370\231\n\001x\214\243\v\240!'\n\266", <incomplete sequence \346\200>)
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:2981
+        signal_return_type = 4
+        node = 0xa2f6330
+        i = <value optimised out>
+        n_params = 0
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_valist"
+#92 0x007df256 in IA__g_signal_emit (instance=0xba38c78, signal_id=12, 
+    detail=0) at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:3038
+No locals.
+#93 0x0126b1d2 in gtk_widget_show () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#94 0x010a99f8 in gtk_dialog_run () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#95 0x080a9539 in ?? ()
+No symbol table info available.
+#96 <signal handler called>
+No symbol table info available.
+#97 0x0161fba2 in gr::GlyphInfo::logicalIndex() ()
+   from /usr/lib/libgraphite.so.3
+No symbol table info available.
+#98 0x015dc925 in graphite_PangoLogAttrs ()
+   from /usr/lib/pango/1.6.0/modules/graphite/pango-graphite.so
+No symbol table info available.
+#99 0x015dcf0f in graphite_engine_break ()
+   from /usr/lib/pango/1.6.0/modules/graphite/pango-graphite.so
+No symbol table info available.
+#100 0x0028cf3b in ?? () from /usr/lib/libpango-1.0.so.0
+No symbol table info available.
+#101 0x002a1eb3 in ?? () from /usr/lib/libpango-1.0.so.0
+No symbol table info available.
+#102 0x002a3394 in ?? () from /usr/lib/libpango-1.0.so.0
+No symbol table info available.
+#103 0x002a4fbb in pango_layout_get_pixel_extents ()
+   from /usr/lib/libpango-1.0.so.0
+No symbol table info available.
+#104 0x0108ba16 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#105 0x00479f14 in Gtk::CellRenderer_Class::get_size_vfunc_callbhostnamek(_GtkCellRenderer*, _GtkWidget*, _GdkRectangle*, int*, int*, int*, int*) ()
+   from /usr/lib/libgtkmm-2.4.so.1
+No symbol table info available.
+#106 0x01083cf9 in gtk_cell_renderer_get_size ()
+   from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#107 0x0108e731 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#108 0x007d6438 in IA__g_cclosure_marshal_VOID__BOXED (closure=0xa2f6740, 
+    return_value=0x0, n_param_values=2, param_values=0xba37a10, 
+    invocation_hint=0xbfc1b990, marshal_data=0xba2bc00)
+    at /build/buildd/glib2.0-2.24.0/gobject/gmarshal.c:566
+        data1 = 0xba78588
+        data2 = <value optimised out>
+        __PRETTY_FUNCTION__ = "IA__g_cclosure_marshal_VOID__BOXED"
+#109 0x007c78b9 in g_type_class_meta_marshal (closure=0xa2f6740, 
+    return_value=0x0, n_param_values=2, param_values=0xb9ea8f0, 
+    invocation_hint=0xbfc1b990, marshal_data=0x7c)
+    at /build/buildd/glib2.0-2.24.0/gobject/gclosure.c:878
+        callbhostnamek = <value optimised out>
+#110 0x007c9252 in IA__g_closure_invoke (closure=0xa2f6740, return_value=0x0, 
+    n_param_values=2, param_values=0xb9ea8f0, invocation_hint=0xbfc1b990)
+    at /build/buildd/glib2.0-2.24.0/gobject/gclosure.c:767
+        marshal = 0x7c7870 <g_type_class_meta_marshal>
+        marshal_data = 0x7c
+        __PRETTY_FUNCTION__ = "IA__g_closure_invoke"
+#111 0x007dd23a in signal_emit_unlocked_R (node=<value optimised out>, 
+    detail=<value optimised out>, instance=0xb88b378, emission_return=0x0, 
+    instance_and_params=0xb9ea8f0)
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:3178
+        hostnamecumulator = 0x0
+        emission = {next = 0xbfc1be58, instance = 0xb88b378, ihint = {
+            signal_id = 18, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, 
+          state = EMISSION_RUN, chain_type = 170341840}
+        class_closure = 0xa2f6740
+        handler_list = 0x0
+        return_hostnamecu = <value optimised out>
+        hostnamecu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+              v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, 
+              v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, 
+              v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, 
+              v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 18
+        max_sequential_handler_number = 45880
+        return_value_altered = 0
+#112 0x007dedb4 in IA__g_signal_emit_valist (instance=0xb88b378, 
+    signal_id=18, detail=0, 
+    var_args=0xbfc1bbbc "\364\237<\001\364\237<\001x\263\210\v\b\274\301\277\267\220\032\001x\263\210\v\246\b")
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:2981
+        signal_return_type = 4
+        node = 0xa2f67a0
+        i = <value optimised out>
+        n_params = 1
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_valist"
+#113 0x007df085 in IA__g_signal_emit_by_name (instance=0xb88b378, 
+    detailed_signal=0x137e5bc "size-request")
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:3075
+        detail = 0
+        signal_id = 18
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_by_name"
+#114 0x011a8de6 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#115 0x011a90b7 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#116 0x0126856f in gtk_widget_size_request ()
+   from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#117 0x010998hostname in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#118 0x0109c521 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#119 0x0109c6d4 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#120 0x0113472f in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#121 0x007c9252 in IA__g_closure_invoke (closure=0xb88b378, return_value=0x0, 
+    n_param_values=3, param_values=0xba00548, invocation_hint=0xbfc1be60)
+    at /build/buildd/glib2.0-2.24.0/gobject/gclosure.c:767
+        marshal = 0x11346a0
+        marshal_data = 0x0
+        __PRETTY_FUNCTION__ = "IA__g_closure_invoke"
+#122 0x007dd99d in signal_emit_unlocked_R (node=<value optimised out>, 
+    detail=<value optimised out>, instance=0xba00708, emission_return=0x0, 
+    instance_and_params=0xba00548)
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:3248
+        tmp = <value optimised out>
+        handler = 0xba2b9c0
+        hostnamecumulator = 0x0
+        emission = {next = 0x0, instance = 0xba00708, ihint = {
+            signal_id = 157, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, 
+          state = EMISSION_RUN, chain_type = 4}
+        class_closure = 0xhostname0b618
+        handler_list = <value optimised out>
+        return_hostnamecu = <value optimised out>
+        hostnamecu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+              v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, 
+              v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, 
+              v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, 
+              v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 157
+        max_sequential_handler_number = 45880
+        return_value_altered = 1
+#123 0x007dedb4 in IA__g_signal_emit_valist (instance=0xba00708, 
+    signal_id=157, detail=0, var_args=0xbfc1c024 "\004")
+    at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:2981
+        signal_return_type = 4
+        node = 0xhostname0cb08
+        i = <value optimised out>
+        n_params = 2
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_valist"
+#124 0x007df256 in IA__g_signal_emit (instance=0xba00708, signal_id=157, 
+    detail=0) at /build/buildd/glib2.0-2.24.0/gobject/gsignal.c:3038
+No locals.
+#125 0x0121ff38 in gtk_tree_model_row_inserted ()
+   from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#126 0x0112c291 in gtk_list_store_insert () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#127 0x0112c337 in gtk_list_store_append () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#128 0x004bbhostname4 in Gtk::ListStore::append() () from /usr/lib/libgtkmm-2.4.so.1
+No symbol table info available.
+#129 0x08469810 in ?? ()
+No symbol table info available.
+#130 0x08469d7a in ?? ()
+No symbol table info available.
+#131 0x0846a2b0 in ?? ()
+No symbol table info available.
+#132 0x0846a554 in ?? ()
+No symbol table info available.
+#133 0x0830e9a5 in ?? ()
+No symbol table info available.
+#134 0x08098510 in ?? ()
+No symbol table info available.
+#135 0x080988c4 in ?? ()
+No symbol table info available.
+#136 0x08088cd5 in ?? ()
+No symbol table info available.
+#137 0x0816551a in ?? ()
+No symbol table info available.
+#138 0x080881f2 in ?? ()
+No symbol table info available.
+#139 0x06803bd6 in __libc_start_main (main=0x8087e20, argc=1, 
+    ubp_av=0xbfc1c6c4, init=0x86ea990, fini=0x86ea980, 
+    rtld_fini=0x80f0c0 <_dl_fini>, sthostnamek_end=0xbfc1c6bc) at libc-start.c:226
+        result = <value optimised out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {110374900, 0, 0, 
+                -1077819752, 276330284, -1820131234}, mask_was_saved = 0}}, 
+          priv = {pad = {0x0, 0x0, 0x1, 0x8087280}, data = {prev = 0x0, 
+              cleanup = 0x0, canceltype = 1}}}
+        not_first_call = <value optimised out>
+#140 0x080872a1 in ?? ()
+No symbol table info available.

@@ -1,0 +1,52 @@
+#0  0xb6d1041a in g_logv () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0xad9fc07e in ?? () from /usr/lib/i386-linux-gnu/libcogl.so.15
+No symbol table info available.
+#2  0xad9e6c17 in ?? () from /usr/lib/i386-linux-gnu/libcogl.so.15
+No symbol table info available.
+#3  0xad9e6c63 in cogl_texture_2d_new_from_bitmap () from /usr/lib/i386-linux-gnu/libcogl.so.15
+No symbol table info available.
+#4  0xad9bf318 in cogl_context_new () from /usr/lib/i386-linux-gnu/libcogl.so.15
+No symbol table info available.
+#5  0xada98464 in ?? () from /usr/lib/i386-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#6  0xada98a47 in ?? () from /usr/lib/i386-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#7  0xadab28e1 in ?? () from /usr/lib/i386-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#8  0xadac50d5 in ?? () from /usr/lib/i386-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#9  0xadac5315 in ?? () from /usr/lib/i386-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#10 0xb6d147f2 in g_option_context_parse () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0xadac612e in clutter_init () from /usr/lib/i386-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#12 0xadb9538b in gtk_clutter_init () from /usr/lib/i386-linux-gnu/libclutter-gtk-1.0.so.0
+No symbol table info available.
+#13 0xadbbd95a in cheese_gtk_init () from /usr/lib/i386-linux-gnu/libcheese-gtk.so.23
+No symbol table info available.
+#14 0xadc199de in g_io_module_load () from /usr/lib/i386-linux-gnu/unity-control-center-1/panels/libuser-accounts.so
+No symbol table info available.
+#15 0xb6ee089e in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#16 0xb6dfadfe in g_type_module_use () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#17 0xb6ee0cfe in g_io_modules_load_all_in_directory_with_scope () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#18 0xb6ee0d93 in g_io_modules_load_all_in_directory () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#19 0x080502ea in ?? ()
+No symbol table info available.
+#20 0xb6df7b43 in g_type_create_instance () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#21 0xb6dda8fe in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#22 0xb6ddc8f1 in g_object_newv () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#23 0xb6ddd010 in g_object_new () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#24 0x08050c78 in gnome_control_center_new ()
+No symbol table info available.
+#25 0x0804d459 in main ()
+No symbol table info available.

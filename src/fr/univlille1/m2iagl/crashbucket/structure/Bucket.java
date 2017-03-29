@@ -4,18 +4,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * A bucket containing an group of crash (stacktrace) that represent probably the same issues
+ * A bucket containing a group of stacktrace that represent probably the same issues
  * @author Antoine PETIT
  *
  */
 public class Bucket {
     
     private String bucketId;
-    private List<Crash> allCrashes; 
+    private List<Stacktrace> allStacktraces; 
     	
     public Bucket(final String bucketId){
         this.bucketId=bucketId;
-        this.allCrashes = new ArrayList<Crash>();  
+        this.allStacktraces = new ArrayList<Stacktrace>();  
     }
 
     public String getBucketId() {
@@ -26,12 +26,12 @@ public class Bucket {
         this.bucketId = bucketId;
     }
     
-   public void addCrash(final Crash crash) {
-	   this.allCrashes.add(crash);
+   public void addStacktrace(final Stacktrace crash) {
+	   this.allStacktraces.add(crash);
    }
 
-    public List<Crash> getCrash() {
-        return allCrashes;
+    public List<Stacktrace> getCrash() {
+        return allStacktraces;
     }
 
 	@Override

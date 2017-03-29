@@ -1,0 +1,22 @@
+#0  0x0102a4d8 in ?? () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x0a6f3d28 in ?? ()
+No symbol table info available.
+#2  0x08fc5beb in PanelMenuView::OnPlaceViewShown(_GVariant*, PanelMenuView*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x08fb201f in ?? () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0x003d3311 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x003d7aa8 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x003d8270 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x003d892b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0x00c0ae95 in Glib::MainLoop::run() () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#9  0x0806ecdb in CompScreen::eventLoop() ()
+No symbol table info available.
+#10 0x08066e98 in main ()
+No symbol table info available.

@@ -1,0 +1,107 @@
+#0  theme_get_style (theme=0x0, type=META_FRAME_TYPE_NORMAL, flags=3199)
+    at ui/theme.c:4913
+	state = <value optimized out>
+	resize = <value optimized out>
+	style = <value optimized out>
+	style_set = <value optimized out>
+	__PRETTY_FUNCTION__ = "theme_get_style"
+#1  0xb7b49be9 in meta_preview_get_clip_region (preview=0x811d050, 
+    new_window_width=128, new_window_height=128) at ui/preview-widget.c:477
+	xrect = {x = -1212935104, y = 134703708, width = 134975808, 
+  height = 135040568}
+	corners_xregion = <value optimized out>
+	window_xregion = <value optimized out>
+	fgeom = <value optimized out>
+	frame_style = <value optimized out>
+	__PRETTY_FUNCTION__ = "meta_preview_get_clip_region"
+#2  0x0806faf9 in create_meta_theme_pixbuf (
+    theme_thumbnail_data=<value optimized out>) at theme-thumbnail.c:367
+	window = (GtkWidget *) 0x80f8838
+	preview = (GtkWidget *) 0x811d050
+	vbox = (GtkWidget *) 0x80b1c58
+	align = <value optimized out>
+	box = <value optimized out>
+	stock_button = (GtkWidget *) 0x80b5680
+	checkbox = (GtkWidget *) 0x80efc08
+	radio = (GtkWidget *) 0x80efc80
+	requisition = {width = 80, height = 71}
+	allocation = {x = 0, y = 0, width = 128, height = 128}
+	pixmap = (GdkPixmap *) 0x80c8e38
+	visual = <value optimized out>
+	theme = (MetaTheme *) 0x0
+	pixbuf = (GdkPixbuf *) 0x8142f90
+	icon = (GdkPixbuf *) 0x80ed858
+	icon_width = 48
+	icon_height = 48
+	region = <value optimized out>
+	__PRETTY_FUNCTION__ = "create_meta_theme_pixbuf"
+#3  0x08070be1 in message_from_capplet (source=0x80b5c78, condition=G_IO_IN, 
+    data=0xbf8573f4) at theme-thumbnail.c:705
+	type = <value optimized out>
+	width = <value optimized out>
+	height = <value optimized out>
+	buffer = "Sans 10\000alTango\000hn\205¿U_º·\001\000\000\000HÂb·èn\205¿\0022]·p\213\a\bHÂb·øn\205¿Å\bW·\230\202º· ÕV·\230n\205¿U_º·\001\000\000\000HÂb·\030o\205¿\0022]·p\213\a\b\b\000\000\0001ÕV·¶\030\000\000\001\000\000\000HÂb·8o\205¿¶\030\000\000\000\000\000\000\000\000\000\000àn\205¿\200¦f·\001\000\000\000\fêV·1ÕV·HÂb·ðíV·(D\v\b(o\205¿¶\030\000\000øÆb·\000\000\000\0001ÕV·\2179]·\020D\v\b\fêV·P«c·¶\030\000\000"...
+	status = <value optimized out>
+	bytes_read = 8
+	pixbuf = <value optimized out>
+	i = <value optimized out>
+	rowstride = <value optimized out>
+	pixels = <value optimized out>
+	theme_thumbnail_data = (ThemeThumbnailData *) 0x0
+	__PRETTY_FUNCTION__ = "message_from_capplet"
+#4  0xb75ea33d in g_io_unix_dispatch (source=0x80b5cc0, 
+    callback=0x8070140 <message_from_capplet>, user_data=0xbf8573f4)
+    at /build/buildd/glib2.0-2.15.6/glib/giounix.c:162
+	buffer_condition = 0
+#5  0xb75b5d86 in IA__g_main_context_dispatch (context=0x80b4fe0)
+    at /build/buildd/glib2.0-2.15.6/glib/gmain.c:2065
+No locals.
+#6  0xb75b9143 in g_main_context_iterate (context=0x80b4fe0, block=1, 
+    dispatch=1, self=0x8078490)
+    at /build/buildd/glib2.0-2.15.6/glib/gmain.c:2698
+	got_ownership = <value optimized out>
+	max_priority = 2147483647
+	timeout = -1
+	some_ready = 1
+	nfds = <value optimized out>
+	allocated_nfds = <value optimized out>
+	fds = (GPollFD *) 0x80b4780
+	__PRETTY_FUNCTION__ = "g_main_context_iterate"
+#7  0xb75b9527 in IA__g_main_loop_run (loop=0x80b5380)
+    at /build/buildd/glib2.0-2.15.6/glib/gmain.c:2906
+	got_ownership = -1219046112
+	self = (GThread *) 0x8078490
+	__PRETTY_FUNCTION__ = "IA__g_main_loop_run"
+#8  0xb790f044 in IA__gtk_main ()
+    at /build/buildd/gtk+2.0-2.12.8/gtk/gtkmain.c:1163
+	tmp_list = (GList *) 0x0
+	functions = (GList *) 0x0
+	init = (GtkInitFunction *) 0x80b5c78
+	loop = (GMainLoop *) 0x80b5380
+#9  0x0806f039 in theme_thumbnail_factory_init (argc=1, argv=0xbf857584)
+    at theme-thumbnail.c:1198
+	data = {status = 7, type = 0x8079418, control_theme_name = 0x8079430, 
+  gtk_color_scheme = 0x8079448, wm_theme_name = 0x8079460, 
+  icon_theme_name = 0x8079478, application_font = 0x8079490}
+	channel = (GIOChannel *) 0x80b5c78
+	__PRETTY_FUNCTION__ = "theme_thumbnail_factory_init"
+#10 0x0805c04c in main (argc=1, argv=0xbf857584) at appearance-main.c:50
+	program = (GnomeProgram *) 0x1
+	w = <value optimized out>
+	install_filename = (gchar *) 0x0
+	start_page = (gchar *) 0x0
+	wallpaper_files = (gchar **) 0x0
+	option_context = <value optimized out>
+	option_entries = {{long_name = 0x8072cec "install-theme", 
+    short_name = 105 'i', flags = 2, arg = G_OPTION_ARG_FILENAME, 
+    arg_data = 0xbf8574d4, 
+    description = 0x8072db0 "Specify the filename of a theme to install", 
+    arg_description = 0x8072cfa "filename"}, {
+    long_name = 0x8072d03 "show-page", short_name = 112 'p', flags = 2, 
+    arg = G_OPTION_ARG_STRING, arg_data = 0xbf8574d0, 
+    description = 0x8072ddc "Specify the name of the page to show (theme|background|fonts|interface)", arg_description = 0x8072d08 "page"}, {
+    long_name = 0x80740ec "", short_name = 0 '\0', flags = 2, 
+    arg = G_OPTION_ARG_FILENAME_ARRAY, arg_data = 0xbf8574cc, 
+    description = 0x0, arg_description = 0x8072d0d "[WALLPAPER...]"}, {
+    long_name = 0x0, short_name = 0 '\0', flags = 0, arg = G_OPTION_ARG_NONE, 
+    arg_data = 0x0, description = 0x0, arg_description = 0x0}}

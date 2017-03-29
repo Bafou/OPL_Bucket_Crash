@@ -1,0 +1,68 @@
+#0  0x00d89416 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0x007f9e71 in raise () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x007fd34e in abort () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0x005430b5 in __gnu_cxx::__verbose_terminate_handler() () from /usr/lib/i386-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#4  0x00540fa5 in ?? () from /usr/lib/i386-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#5  0x00540fe2 in std::terminate() () from /usr/lib/i386-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#6  0x0054114e in __cxa_throw () from /usr/lib/i386-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#7  0x0075aa11 in Xapian::QueryParser::parse_query(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned int, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) () from /usr/lib/sse2/libxapian.so.22
+No symbol table info available.
+#8  0x08057900 in ?? ()
+No symbol table info available.
+#9  0x0804f43b in ?? ()
+No symbol table info available.
+#10 0x0804f754 in ?? ()
+No symbol table info available.
+#11 0x0017be48 in g_cclosure_marshal_VOID__PARAM () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x0015f372 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x00172048 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#14 0x0017ab29 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#15 0x0017acc2 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#16 0x001610e1 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#17 0x001603ef in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#18 0x00163379 in g_object_notify () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#19 0x00e8515c in unity_place_entry_info_set_active_global_search () from /usr/lib/libunity.so.3
+No symbol table info available.
+#20 0x00e85232 in ?? () from /usr/lib/libunity.so.3
+No symbol table info available.
+#21 0x00e86f48 in unity_place_entry_service_set_global_search () from /usr/lib/libunity.so.3
+No symbol table info available.
+#22 0x00e87154 in ?? () from /usr/lib/libunity.so.3
+No symbol table info available.
+#23 0x0030a6d2 in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#24 0x003a2311 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#25 0x003a6aa8 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#26 0x003a7270 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#27 0x003a792b in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#28 0x002ee78f in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#29 0x002f0093 in g_application_run () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#30 0x08051ebf in ?? ()
+No symbol table info available.
+#31 0x08051ef0 in ?? ()
+No symbol table info available.
+#32 0x007e5e37 in __libc_start_main () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#33 0x0804d2e1 in ?? ()
+No symbol table info available.

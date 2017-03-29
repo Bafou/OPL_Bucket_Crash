@@ -1,0 +1,50 @@
+#0  0x00007f615243e3f0 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007f615243eb90 in g_variant_type_info_unref () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f61524384b2 in g_variant_unref () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f61523f2fb3 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f61523f396d in g_hash_table_unref () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f6152be4c72 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#6  0x00007f61526c80a8 in g_object_unref () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00007f6152bda45d in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#8  0x00007f6152401108 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0x00007f615240170a in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0x00007f6152403b00 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0x00007f6152403de8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#12 0x00007f61524041e2 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0x0000000000407ceb in ?? ()
+No symbol table info available.
+#14 0x00007f615173376d in __libc_start_main () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#15 0x0000000000407d41 in ?? ()
+No symbol table info available.
+#16 0x00007fff118601f8 in ?? ()
+No symbol table info available.
+#17 0x000000000000001c in ?? ()
+No symbol table info available.
+#18 0x0000000000000005 in ?? ()
+No symbol table info available.
+#19 0x00007fff1186094c in ?? ()
+No symbol table info available.
+#20 0x00007fff11860983 in ?? ()
+No symbol table info available.
+#21 0x00007fff1186098f in ?? ()
+No symbol table info available.
+#22 0x00007fff1186099f in ?? ()
+No symbol table info available.
+#23 0x00007fff118609d7 in ?? ()
+No symbol table info available.
+#24 0x0000000000000000 in ?? ()
+No symbol table info available.

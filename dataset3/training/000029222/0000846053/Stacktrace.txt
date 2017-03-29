@@ -1,0 +1,69 @@
+#0  0xb6785f1d in malloc_consolidate (av=0xb6890400) at malloc.c:5161
+        p = 0x9c760cf
+        first_unsorted = <optimized out>
+        size = 106496
+        nextsize = 3372273672
+        nextinuse = <optimized out>
+        maxfb = 0xb689042c
+        nextp = 0x0
+        unsorted_bin = 0xb6890430
+        nextchunk = 0x9c900cf
+        prevsize = <optimized out>
+        fwd = 0x4e4c46ff
+        fb = 0xb6890420
+        bck = 0x4e4c46ff
+#1  malloc_consolidate (av=0xb6890400) at malloc.c:5089
+No locales.
+#2  0xb6786737 in _int_free (av=0xb6890400, p=0xa551c28) at malloc.c:5034
+        size = 303224
+        fb = <optimized out>
+        nextchunk = <optimized out>
+        nextsize = 280
+        nextinuse = <optimized out>
+        prevsize = <optimized out>
+        bck = <optimized out>
+        fwd = <optimized out>
+        errstr = 0x0
+        __func__ = "_int_free"
+#3  0xb678994d in __GI___libc_free (mem=0xa59bb38) at malloc.c:3738
+        ar_ptr = 0xb6890400
+        p = <optimized out>
+        hook = <optimized out>
+#4  0xb695e80f in operator delete(void*) () from /usr/lib/i386-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#5  0xb6f535f1 in QImage::~QImage() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#6  0xb6f81960 in QRasterPixmapData::~QRasterPixmapData() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#7  0xb6f819b2 in QRasterPixmapData::~QRasterPixmapData() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#8  0xb6f70206 in QPixmap::~QPixmap() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#9  0xb6a46657 in IndicatorEntryWidget::~IndicatorEntryWidget() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#10 0xb6a46722 in IndicatorEntryWidget::~IndicatorEntryWidget() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#11 0xb6c097f1 in QObjectPrivate::deleteChildren() () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#12 0xb6edb4de in QWidget::~QWidget() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#13 0xb6a4cbd6 in IndicatorsWidget::~IndicatorsWidget() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#14 0xb6c097f1 in QObjectPrivate::deleteChildren() () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#15 0xb6edb4de in QWidget::~QWidget() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#16 0xb42c5733 in IndicatorApplet::~IndicatorApplet() () from /usr/lib/unity-2d/plugins/panel/libpanelplugin-indicator.so.0
+No symbol table info available.
+#17 0xb6c097f1 in QObjectPrivate::deleteChildren() () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#18 0xb6edb4de in QWidget::~QWidget() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#19 0xb69e5a1c in Unity2dPanel::~Unity2dPanel() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#20 0xb69e5ac2 in Unity2dPanel::~Unity2dPanel() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#21 0x0804ba46 in PanelManager::~PanelManager() ()
+No symbol table info available.
+#22 0x0804b067 in main ()
+No symbol table info available.

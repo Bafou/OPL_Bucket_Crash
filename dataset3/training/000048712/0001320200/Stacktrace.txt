@@ -1,0 +1,11 @@
+#0  0xb63b28e6 in ?? () from /lib/arm-linux-gnueabihf/libc.so.6
+No symbol table info available.
+#1  0xb63c10fe in raise () from /lib/arm-linux-gnueabihf/libc.so.6
+No symbol table info available.
+#2  0xb63c3956 in abort () from /lib/arm-linux-gnueabihf/libc.so.6
+No symbol table info available.
+#3  0xb64eeef4 in __gnu_cxx::__verbose_terminate_handler() () from /usr/lib/arm-linux-gnueabihf/libstdc++.so.6
+No symbol table info available.
+#4  0xb64ed938 in ?? () from /usr/lib/arm-linux-gnueabihf/libstdc++.so.6
+No symbol table info available.
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)

@@ -1,0 +1,42 @@
+#0  0x01014054 in getenv () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x0100a6de in ?? () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x01009653 in dcgettext () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0x00da170c in g_dgettext () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00db6654 in glib_gettext () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x0035bda7 in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#6  0x004e034f in g_type_class_ref () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x004c3c3f in g_object_new_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#8  0x004c4040 in g_object_new () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#9  0x003590db in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#10 0x003611ce in g_bus_get_sync () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#11 0x0593477c in ?? () from /usr/lib/gio/modules/libdconfsettings.so
+No symbol table info available.
+#12 0x05934be7 in ?? () from /usr/lib/gio/modules/libdconfsettings.so
+No symbol table info available.
+#13 0x00d7c230 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00d800cf in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x00d80800 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0x00d80e0b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#17 0x05934294 in ?? () from /usr/lib/gio/modules/libdconfsettings.so
+No symbol table info available.
+#18 0x00da7644 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#19 0x00b09e99 in start_thread () from /lib/i386-linux-gnu/libpthread.so.0
+No symbol table info available.
+#20 0x010b56ee in clone () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.

@@ -1,0 +1,43 @@
+#0  0x00007fc52cce6593 in pango_layout_check_lines (layout=0x2a5d020)
+    at /build/buildd/pango1.0-1.21.3/pango/pango-layout.c:3005
+	delim_len = 0
+	end = <value optimized out>
+	delimiter_index = 23
+	next_para_index = 23
+	start = 0x2b78750 ""
+	done = 1
+	start_offset = 0
+	attrs = (PangoAttrList *) 0x7fc51c043c00
+	no_shape_attrs = (PangoAttrList *) 0x0
+	iter = (PangoAttrIterator *) 0x7fc51c043d20
+	prev_base_dir = PANGO_DIRECTION_LTR
+	base_dir = PANGO_DIRECTION_LTR
+	state = {line_height = -1, remaining_height = -1, 
+  attrs = 0x7fc51c043c00, items = 0x2b47180, base_dir = PANGO_DIRECTION_LTR, 
+  line_of_par = 1, glyphs = 0x0, start_offset = 0, properties = {
+    uline = PANGO_UNDERLINE_NONE, strikethrough = 0, rise = 0, 
+    letter_spacing = 0, shape_set = 0, shape_ink_rect = 0x0, 
+    shape_logical_rect = 0x0}, log_widths = 0x0, log_widths_offset = 0, 
+  line_start_index = 0, line_start_offset = 0, line_width = -1, 
+  remaining_width = -1}
+	__PRETTY_FUNCTION__ = "pango_layout_check_lines"
+#1  0x00007fc52cce707d in pango_layout_get_extents_internal (layout=0x1, 
+    ink_rect=0x0, logical_rect=0x7fff413a6ae0, line_extents=0x0)
+    at /build/buildd/pango1.0-1.21.3/pango/pango-layout.c:2411
+	line_list = <value optimized out>
+	y_offset = <value optimized out>
+	width = <value optimized out>
+	need_width = <value optimized out>
+	__PRETTY_FUNCTION__ = "pango_layout_get_extents_internal"
+#2  0x00007fc52f5dfdfa in gtk_label_expose (widget=0x2b789d0, 
+    event=<value optimized out>)
+    at /build/buildd/gtk+2.0-2.13.6/gtk/gtklabel.c:2772
+	label = (GtkLabel *) 0x0
+	x = 32767
+	y = 1094348048
+	__PRETTY_FUNCTION__ = "gtk_label_expose"
+#3  0x00007fc53305b570 in ?? () from /lib/libpthread.so.0
+#4  0x0000000002147ca0 in ?? ()
+#5  0x0000000002b789d0 in ?? ()
+#6  0x00007fff413a6e60 in ?? ()
+#7  0x0000000000000000 in ?? ()

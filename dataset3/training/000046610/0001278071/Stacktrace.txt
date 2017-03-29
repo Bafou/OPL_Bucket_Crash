@@ -1,0 +1,54 @@
+#0  0xb6e0a18a in g_logv () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0xb6e0a2a3 in g_log () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0xb6538408 in atspi_dbus_connection_setup_with_g_main () from /usr/lib/i386-linux-gnu/libatspi.so.0
+No symbol table info available.
+#3  0xb65432f1 in atspi_set_main_context () from /usr/lib/i386-linux-gnu/libatspi.so.0
+No symbol table info available.
+#4  0xb6841037 in ?? () from /usr/lib/i386-linux-gnu/libatk-bridge-2.0.so.0
+No symbol table info available.
+#5  0xb68413a3 in ?? () from /usr/lib/i386-linux-gnu/libatk-bridge-2.0.so.0
+No symbol table info available.
+#6  0xb65012eb in ?? () from /lib/i386-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#7  0xb64ed7be in ?? () from /lib/i386-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#8  0xb64f102f in dbus_connection_dispatch () from /lib/i386-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#9  0xb6537e77 in ?? () from /usr/lib/i386-linux-gnu/libatspi.so.0
+No symbol table info available.
+#10 0xb6e02fa3 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0xb6e03228 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#12 0xb6e0352b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0xb6841273 in ?? () from /usr/lib/i386-linux-gnu/libatk-bridge-2.0.so.0
+No symbol table info available.
+#14 0xb75197ce in ?? () from /usr/lib/i386-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#15 0xb7380d90 in gtk_main_do_event () from /usr/lib/i386-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#16 0xb71516cc in ?? () from /usr/lib/i386-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#17 0xb717a0b2 in ?? () from /usr/lib/i386-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#18 0xb6e02fa3 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#19 0xb6e03228 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#20 0xb6e0352b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#21 0xb738021d in gtk_main () from /usr/lib/i386-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#22 0x0807db30 in ?? ()
+No symbol table info available.
+#23 0x08052760 in ?? ()
+No symbol table info available.
+#24 0xb689da73 in __libc_start_main (main=0x8052740, argc=1, argv=0xbff9bec4, init=0x8089cf0, fini=0x8089d60, rtld_fini=0xb77900f0 <_dl_fini>, stack_end=0xbff9bebc) at libc-start.c:287
+        result = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {-1230831616, 0, 0, 0, -72301171, 460898719}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x1, 0x8052762}, data = {prev = 0x0, cleanup = 0x0, canceltype = 1}}}
+        not_first_call = <optimized out>
+#25 0x08052783 in ?? ()
+No symbol table info available.

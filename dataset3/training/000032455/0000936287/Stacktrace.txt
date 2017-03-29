@@ -1,0 +1,60 @@
+#0  0x00007f04eed7297d in g_variant_unref () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007f04efa10ca6 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#2  0x00007f04efa121f2 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#3  0x00007f04efc58182 in ?? () from /usr/lib/libunity.so.9
+No symbol table info available.
+#4  0x00007f04ef210384 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007f04ef220635 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00007f04ef22800b in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00007f04ef2281d2 in g_signal_emit () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#8  0x00007f04efa121e7 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#9  0x00007f04efa1434b in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#10 0x000000000040c6e8 in ?? ()
+No symbol table info available.
+#11 0x00007f04efe9bf43 in ?? () from /usr/lib/libzeitgeist-1.0.so.1
+No symbol table info available.
+#12 0x00007f04ef4bf8ad in g_simple_async_result_complete () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#13 0x00007f04ef51cbd6 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#14 0x00007f04ef4bf8ad in g_simple_async_result_complete () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#15 0x00007f04ef512c8a in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#16 0x00007f04ef4bf8ad in g_simple_async_result_complete () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#17 0x00007f04ef4bf9dc in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#18 0x00007f04eed3fbca in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#19 0x00007f04eed3ff90 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#20 0x00007f04eed40054 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#21 0x00007f04ef4ed6a4 in g_application_run () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#22 0x000000000040ea70 in ?? ()
+No symbol table info available.
+#23 0x00007f04edacf76d in __libc_start_main () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#24 0x0000000000408199 in ?? ()
+No symbol table info available.
+#25 0x00007fff266b72e8 in ?? ()
+No symbol table info available.
+#26 0x000000000000001c in ?? ()
+No symbol table info available.
+#27 0x0000000000000001 in ?? ()
+No symbol table info available.
+#28 0x00007fff266b7a39 in ?? ()
+No symbol table info available.
+#29 0x0000000000000000 in ?? ()
+No symbol table info available.

@@ -1,0 +1,18 @@
+#0  0xb7115470 in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#1  0xb7117f2f in g_dbus_proxy_call () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#2  0xb5a3a116 in ?? () from /usr/lib/i386-linux-gnu/libdbusmenu-glib.so.4
+No symbol table info available.
+#3  0xb6daf1c0 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0xb6db1ef3 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0xb6db2290 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0xb6db26eb in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0xb73f7add in gtk_main () from /usr/lib/i386-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#8  0x0804bbb6 in main ()
+No symbol table info available.

@@ -1,0 +1,84 @@
+#0  0x00007f1f80247d05 in raise (sig=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:64
+        resultvar = 0
+        pid = <value optimized out>
+        selftid = 2183
+#1  0x00007f1f8024bab6 in abort () at abort.c:92
+        save_stage = 2
+        act = {__sigaction_handler = {sa_handler = 0, sa_sigaction = 0}, sa_mask = {__val = {139773276640382, 139773276473744, 139773310615552, 139773270404000, 139773310618064, 4294967295, 0, 4294967295, 139773274173144, 3077960, 139773274173144, 3076632, 0, 139773286860336, 9707232, 139773276385280}}, sa_flags = -2107085532, sa_restorer = 0x7f1f00000005}
+        sigs = {__val = {32, 0 <repeats 15 times>}}
+#2  0x00007f1f8088a6dd in __gnu_cxx::__verbose_terminate_handler() () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#3  0x00007f1f80888926 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#4  0x00007f1f80888953 in std::terminate() () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#5  0x00007f1f80888a5e in __cxa_throw () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#6  0x00007f1f80b21ecf in ?? () from /usr/lib/libxapian.so.22
+No symbol table info available.
+#7  0x00007f1f80b22ccb in Xapian::Database::get_document(unsigned int) const () from /usr/lib/libxapian.so.22
+No symbol table info available.
+#8  0x0000000000411b3c in ?? ()
+No symbol table info available.
+#9  0x000000000040a291 in ?? ()
+No symbol table info available.
+#10 0x00007f1f822299b3 in ?? () from /usr/lib/libzeitgeist-1.0.so.1
+No symbol table info available.
+#11 0x00007f1f819048c5 in reply_cb (connection=<value optimized out>, res=<value optimized out>, user_data=0x940700) at /build/buildd/glib2.0-2.28.4/./gio/gdbusproxy.c:2158
+        simple = 0x940700
+        value = <value optimized out>
+        error = 0x0
+#12 0x00007f1f818fa874 in g_dbus_connection_call_done (source=<value optimized out>, result=<value optimized out>, user_data=0x7f1f6c064240) at /build/buildd/glib2.0-2.28.4/./gio/gdbusconnection.c:4998
+        connection = <value optimized out>
+        state = 0x7f1f6c064240
+        error = 0x0
+        reply = 0x7f1f6c00db20
+        value = <value optimized out>
+#13 0x00007f1f818b7d49 in complete_in_idle_cb (data=<value optimized out>) at /build/buildd/glib2.0-2.28.4/./gio/gsimpleasyncresult.c:757
+        simple = <value optimized out>
+#14 0x00007f1f80f21bcd in g_main_dispatch (context=0x941ee0) at /build/buildd/glib2.0-2.28.4/./glib/gmain.c:2440
+        dispatch = 0x7f1f80f1d4e0 <g_idle_dispatch>
+        was_in_call = 0
+        user_data = 0x9405e0
+        callback = 0x7f1f818b7d40 <complete_in_idle_cb>
+        cb_funcs = 0x7f1f811cc630
+        cb_data = 0xb95190
+        current_source_link = {data = 0xb68090, next = 0x0}
+        need_destroy = <value optimized out>
+        source = 0xb68090
+        current = 0x942e90
+        i = <value optimized out>
+#15 g_main_context_dispatch (context=0x941ee0) at /build/buildd/glib2.0-2.28.4/./glib/gmain.c:3013
+No locals.
+#16 0x00007f1f80f223a8 in g_main_context_iterate (context=0x941ee0, block=<value optimized out>, dispatch=1, self=<value optimized out>) at /build/buildd/glib2.0-2.28.4/./glib/gmain.c:3091
+        max_priority = 2147483647
+        timeout = 3625
+        some_ready = 1
+        nfds = 7
+        allocated_nfds = <value optimized out>
+        fds = <value optimized out>
+#17 0x00007f1f80f229f2 in g_main_loop_run (loop=0xb50240) at /build/buildd/glib2.0-2.28.4/./glib/gmain.c:3299
+        __PRETTY_FUNCTION__ = "g_main_loop_run"
+#18 0x00007f1f818e10fd in g_application_run (application=0x7f1f78008f60, argc=<value optimized out>, argv=0x0) at /build/buildd/glib2.0-2.28.4/./gio/gapplication.c:1322
+        arguments = 0xb50240
+        status = 0
+        i = <value optimized out>
+        __PRETTY_FUNCTION__ = "g_application_run"
+#19 0x000000000040b9d0 in ?? ()
+No symbol table info available.
+#20 0x00007f1f80232eff in __libc_start_main (main=0x40b9e0, argc=1, ubp_av=0x7fff27bd7978, init=<value optimized out>, fini=<value optimized out>, rtld_fini=<value optimized out>, stack_end=0x7fff27bd7968) at libc-start.c:226
+        result = <value optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {0, -312939882562745764, 4224064, 140733860116848, 0, 0, 312571017858615900, 402850700599462492}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x4126d0, 0x7fff27bd7978}, data = {prev = 0x0, cleanup = 0x0, canceltype = 4269776}}}
+        not_first_call = <value optimized out>
+#21 0x0000000000407469 in ?? ()
+No symbol table info available.
+#22 0x00007fff27bd7968 in ?? ()
+No symbol table info available.
+#23 0x000000000000001c in ?? ()
+No symbol table info available.
+#24 0x0000000000000001 in ?? ()
+No symbol table info available.
+#25 0x00007fff27bd89e2 in ?? ()
+No symbol table info available.
+#26 0x0000000000000000 in ?? ()
+No symbol table info available.

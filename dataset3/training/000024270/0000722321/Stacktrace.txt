@@ -1,0 +1,28 @@
+#0  0x009bdf57 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#1  0x009bd0fa in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#2  0x009bd368 in g_variant_new_va () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#3  0x009bd6d2 in g_variant_builder_add () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#4  0x0804c9cf in ?? ()
+No symbol table info available.
+#5  0x0804e444 in panel_service_sync_one ()
+No symbol table info available.
+#6  0x0804bcf1 in ?? ()
+No symbol table info available.
+#7  0x00e0e4c2 in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#8  0x0097a461 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#9  0x0097ec18 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#10 0x0097f3e0 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#11 0x0097faa3 in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#12 0x005779c9 in gtk_main () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#13 0x0804c106 in main ()
+No symbol table info available.

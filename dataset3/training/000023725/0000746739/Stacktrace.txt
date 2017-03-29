@@ -1,0 +1,83 @@
+#0  0x00007f9f634d7d05 in raise (sig=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:64
+        resultvar = 0
+        pid = <value optimized out>
+        selftid = 2271
+#1  0x00007f9f634dbab6 in abort () at abort.c:92
+        save_stage = 2
+        act = {
+          __sigaction_handler = {
+            sa_handler = 0, 
+            sa_sigaction = 0
+          }, 
+          sa_mask = {
+            __val = {140322548601982, 140322548435344, 140322582564864, 140322542365600, 140322582567376, 4294967295, 0, 4294967295, 140322546134744, 3077960, 140322546134744, 3076632, 0, 140322558821936, 31798848, 140322548346880}
+          }, 
+          sa_flags = 1704029476, 
+          sa_restorer = 0x7f9f00000005
+        }
+        sigs = {
+          __val = {32, 0 <repeats 15 times>}
+        }
+#2  0x00007f9f63b1a6dd in __gnu_cxx::__verbose_terminate_handler() () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#3  0x00007f9f63b18926 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#4  0x00007f9f63b18953 in std::terminate() () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#5  0x00007f9f63b18a5e in __cxa_throw () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#6  0x00007f9f63db1ecf in ?? () from /usr/lib/libxapian.so.22
+No symbol table info available.
+#7  0x00007f9f63db2ccb in Xapian::Database::get_document(unsigned int) const () from /usr/lib/libxapian.so.22
+No symbol table info available.
+#8  0x0000000000411b3c in ?? ()
+No symbol table info available.
+#9  0x000000000040a291 in ?? ()
+No symbol table info available.
+#10 0x00007f9f654b99b3 in ?? () from /usr/lib/libzeitgeist-1.0.so.1
+No symbol table info available.
+#11 0x00007f9f64b948c5 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#12 0x00007f9f64b8a874 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#13 0x00007f9f64b47d49 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#14 0x00007f9f641b1bcd in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x00007f9f641b23a8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0x00007f9f641b29f2 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#17 0x00007f9f64b710fd in g_application_run () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#18 0x000000000040b9d0 in ?? ()
+No symbol table info available.
+#19 0x00007f9f634c2eff in __libc_start_main (main=0x40b9e0, argc=1, ubp_av=0x7fffc9562618, init=<value optimized out>, fini=<value optimized out>, rtld_fini=<value optimized out>, stack_end=0x7fffc9562608) at libc-start.c:226
+        result = <value optimized out>
+        unwind_buf = {
+          cancel_jmp_buf = {{
+              jmp_buf = {0, -424026075446125370, 4224064, 140736571254288, 0, 0, 423932288737729734, 370218895324470470}, 
+              mask_was_saved = 0
+            }}, 
+          priv = {
+            pad = {0x0, 0x0, 0x4126d0, 0x7fffc9562618}, 
+            data = {
+              prev = 0x0, 
+              cleanup = 0x0, 
+              canceltype = 4269776
+            }
+          }
+        }
+        not_first_call = <value optimized out>
+#20 0x0000000000407469 in ?? ()
+No symbol table info available.
+#21 0x00007fffc9562608 in ?? ()
+No symbol table info available.
+#22 0x000000000000001c in ?? ()
+No symbol table info available.
+#23 0x0000000000000001 in ?? ()
+No symbol table info available.
+#24 0x00007fffc9563a7f in ?? ()
+No symbol table info available.
+#25 0x0000000000000000 in ?? ()
+No symbol table info available.

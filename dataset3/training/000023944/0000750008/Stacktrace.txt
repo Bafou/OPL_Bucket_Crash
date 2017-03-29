@@ -1,0 +1,40 @@
+#0  0x08087af5 in CompAction::initiate() ()
+No symbol table info available.
+#1  0x05815e1f in MultiActionList::InitiateAll(std::vector<CompOption, std::allocator<CompOption> >&, int) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x0581600b in PluginAdapter::InitiateExpo() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x057d204d in LauncherController::OnExpoClicked(int) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0x057d3768 in sigc::internal::slot_call1<sigc::bound_mem_functor1<void, LauncherController, int>, void, int>::call_it(sigc::internal::slot_rep*, int const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#5  0x057d1460 in sigc::internal::signal_emit1<void, int, sigc::nil>::emit(sigc::internal::signal_impl*, int const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#6  0x057c91ec in Launcher::MouseUpLogic(int, int, unsigned long, unsigned long) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#7  0x057cb986 in Launcher::RecvMouseUp(int, int, unsigned long, unsigned long) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#8  0x057cf550 in sigc::internal::slot_call4<sigc::bound_mem_functor4<void, Launcher, int, int, unsigned long, unsigned long>, void, int, int, unsigned long, unsigned long>::call_it(sigc::internal::slot_rep*, int const&, int const&, unsigned long const&, unsigned long const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#9  0x030322b1 in nux::InputArea::OnEvent(nux::Event&, long, long) () from /usr/lib/libnux-0.9.so.0
+No symbol table info available.
+#10 0x030feced in nux::WindowCompositor::DispatchEventToArea(nux::Event&, nux::Area*, long, long) () from /usr/lib/libnux-0.9.so.0
+No symbol table info available.
+#11 0x03108908 in nux::WindowCompositor::ProcessEvent(nux::Event&) () from /usr/lib/libnux-0.9.so.0
+No symbol table info available.
+#12 0x0310edb1 in nux::WindowThread::ExecutionLoop(unsigned int) () from /usr/lib/libnux-0.9.so.0
+No symbol table info available.
+#13 0x0310f66f in nux::nux_event_dispatch(_GSource*, int (*)(void*), void*) () from /usr/lib/libnux-0.9.so.0
+No symbol table info available.
+#14 0x004fdaa8 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x004fe270 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0x004fe92b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#17 0x001e0e95 in Glib::MainLoop::run() () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#18 0x0806ebab in CompScreen::eventLoop() ()
+No symbol table info available.
+#19 0x08066e58 in main ()
+No symbol table info available.

@@ -1,0 +1,26 @@
+#0  0x00007fcb1c818445 in raise () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00007fcb1c81bbab in abort () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x00007fcafc64792e in pa_memblock_acquire () from /usr/lib/x86_64-linux-gnu/libpulsecommon-1.1.so
+No symbol table info available.
+#3  0x00007fcafc8a9373 in pa_stream_peek () from /usr/lib/x86_64-linux-gnu/libpulse.so.0
+No symbol table info available.
+#4  0x00007fcafccd8200 in ?? () from /usr/lib/control-center-1/panels/libsoundnua.so
+No symbol table info available.
+#5  0x00007fcafc88cb73 in ?? () from /usr/lib/x86_64-linux-gnu/libpulse.so.0
+No symbol table info available.
+#6  0x00007fcafc65338a in ?? () from /usr/lib/x86_64-linux-gnu/libpulsecommon-1.1.so
+No symbol table info available.
+#7  0x00007fcafcac8ab3 in ?? () from /usr/lib/x86_64-linux-gnu/libpulse-mainloop-glib.so.0
+No symbol table info available.
+#8  0x00007fcb1d135dda in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0x00007fcb1d1361a0 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0x00007fcb1d136264 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0x00007fcb1d6ce894 in g_application_run () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#12 0x00007fcb1f24a7ba in main ()
+No symbol table info available.

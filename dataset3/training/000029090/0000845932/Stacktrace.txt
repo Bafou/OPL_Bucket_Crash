@@ -1,0 +1,40 @@
+#0  0x00007f4c6001e3a5 in raise () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00007f4c60021b0b in abort () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x00007f4c60056113 in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0x00007f4c60060a96 in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#4  0x00007f4c600618b3 in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#5  0x00007f4c60064d7c in free () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#6  0x00007f4c6095e8ab in IndicatorsWidget::onEntryRemoved(std::string const&) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#7  0x00007f4c5a0a373d in unity::indicator::Indicator::~Indicator() () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#8  0x00007f4c5a0a81f2 in boost::detail::sp_counted_impl_p<unity::indicator::Indicator>::dispose() () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#9  0x00007f4c6095ec8c in QList<boost::shared_ptr<unity::indicator::Indicator> >::~QList() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#10 0x00007f4c6095edf2 in IndicatorsWidget::~IndicatorsWidget() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#11 0x00007f4c60f20d15 in QObjectPrivate::deleteChildren() () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#12 0x00007f4c61488d8a in QWidget::~QWidget() () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#13 0x00007f4c50da5599 in IndicatorApplet::~IndicatorApplet() () from /usr/lib/unity-2d/plugins/panel/libpanelplugin-indicator.so.0
+No symbol table info available.
+#14 0x00007f4c60f20d15 in QObjectPrivate::deleteChildren() () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#15 0x00007f4c61488d8a in QWidget::~QWidget() () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#16 0x00007f4c6090095c in Unity2dPanel::~Unity2dPanel() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#17 0x00007f4c609009f9 in Unity2dPanel::~Unity2dPanel() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#18 0x000000000040470e in PanelManager::~PanelManager() ()
+No symbol table info available.
+#19 0x0000000000403d5b in main ()
+No symbol table info available.

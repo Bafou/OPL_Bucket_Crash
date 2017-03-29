@@ -1,0 +1,80 @@
+#0  0x00000000000000a1 in ?? ()
+No symbol table info available.
+#1  0x00007fa5eb4d9bd0 in geis_filter_delete () from /usr/lib/x86_64-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#2  0x00007fa5eb4d9cc5 in ?? () from /usr/lib/x86_64-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#3  0x00007fa5eb4dbda2 in ?? () from /usr/lib/x86_64-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#4  0x00007fa5eb4dbdea in ?? () from /usr/lib/x86_64-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#5  0x00007fa5eb4de022 in geis_delete () from /usr/lib/x86_64-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#6  0x00007fa5eb4dd7a5 in geis_finish () from /usr/lib/x86_64-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#7  0x00007fa5ebbaaaa7 in GeisAdapter::RegisterRootInstance() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#8  0x00007fa5ebbaabf3 in GeisAdapter::GeisAdapter() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#9  0x00007fa5ebbaad45 in GeisAdapter::Default() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#10 0x00007fa5ebbdd43a in unity::launcher::Launcher::Launcher(nux::BaseWindow*, char const*, int) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#11 0x00007fa5ebbe6f44 in unity::launcher::Controller::Impl::CreateLauncher(int) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#12 0x00007fa5ebbe78b0 in unity::launcher::Controller::Impl::EnsureLaunchers(int, std::vector<nux::Rect, std::allocator<nux::Rect> > const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#13 0x00007fa5ebbe7f80 in unity::launcher::Controller::Impl::Impl(_XDisplay*, unity::launcher::Controller*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#14 0x00007fa5ebbe9151 in unity::launcher::Controller::Controller(_XDisplay*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#15 0x00007fa5ebcb0bfa in unity::UnityScreen::initLauncher() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#16 0x00007fa5ebcb17d4 in unity::UnityScreen::initUnity(nux::NThread*, void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#17 0x00007fa5eb8110ac in nux::WindowThread::Run(void*) () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#18 0x00007fa5ebcb54e4 in unity::UnityScreen::UnityScreen(CompScreen*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#19 0x00007fa5ebcc30d8 in PluginClassHandler<unity::UnityScreen, CompScreen, 0>::get(CompScreen*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#20 0x00007fa5ebcc327c in CompPlugin::VTableForScreenAndWindow<unity::UnityScreen, unity::UnityWindow>::initScreen(CompScreen*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#21 0x00007fa6010ca6dc in CompManager::initPlugin(CompPlugin*) () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#22 0x00007fa6010cb181 in CompPlugin::push(CompPlugin*) () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#23 0x00007fa60109a02a in compiz::private_screen::PluginManager::updatePlugins() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#24 0x00007fa60109c024 in PrivateScreen::processEvents() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#25 0x00007fa6010d02c7 in CompEventSource::callback() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#26 0x00007fa5ff5d785f in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/x86_64-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#27 0x00007fa5ff0dfd8a in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#28 0x00007fa5ff0e0150 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#29 0x00007fa5ff0e0214 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#30 0x00007fa5f7598c79 in ?? () from /usr/lib/compizconfig/backends/libgconf.so
+No symbol table info available.
+#31 0x00007fa5fc29259e in CcpScreen::timeout() () from /usr/lib/compiz/libccp.so
+No symbol table info available.
+#32 0x00007fa6010d8d0b in CompTimer::triggerCallback() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#33 0x00007fa6010d8e0f in CompTimeoutSource::callback() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#34 0x00007fa6010d82bd in CompTimeoutSource::dispatch(sigc::slot_base*) () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#35 0x00007fa5ff5d785f in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/x86_64-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#36 0x00007fa5ff0dfd8a in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#37 0x00007fa5ff0e0150 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#38 0x00007fa5ff0e054a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#39 0x00000000004029ae in main ()
+No symbol table info available.

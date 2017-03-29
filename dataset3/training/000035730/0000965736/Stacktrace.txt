@@ -1,0 +1,171 @@
+#0  _int_malloc (av=0x7fab55df6720, bytes=513) at malloc.c:3598
+        iters = <optimized out>
+        nb = 528
+        idx = <optimized out>
+        bin = <optimized out>
+        victim = 0x7fab31507b40
+        size = 16528
+        victim_index = <optimized out>
+        remainder = <optimized out>
+        remainder_size = <optimized out>
+        block = <optimized out>
+        bit = <optimized out>
+        map = <optimized out>
+        fwd = <optimized out>
+        bck = <optimized out>
+        errstr = 0x0
+        __func__ = "_int_malloc"
+#1  0x00007fab55ac16a9 in _int_realloc (av=0x7fab55df6720, oldp=0x7fab31d94db0, oldsize=272, nb=<optimized out>) at malloc.c:4370
+        newp = <optimized out>
+        newsize = <optimized out>
+        newmem = <optimized out>
+        next = 0x7fab31d94ec0
+        remainder = <optimized out>
+        remainder_size = <optimized out>
+        bck = <optimized out>
+        fwd = <optimized out>
+        copysize = <optimized out>
+        ncopies = <optimized out>
+        s = <optimized out>
+        d = <optimized out>
+        errstr = 0x0
+        __func__ = "_int_realloc"
+        nextsize = <optimized out>
+#2  0x00007fab55ac31fe in __GI___libc_realloc (oldmem=0x7fab31d94dc0, bytes=512) at malloc.c:3060
+        ar_ptr = 0x7fab55df6720
+        nb = 528
+        newp = <optimized out>
+        hook = <optimized out>
+        oldp = 0x7fab31d94db0
+        oldsize = 272
+        __func__ = "__libc_realloc"
+#3  0x00007fab5439bc37 in g_realloc () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007fab5035fb66 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#5  0x00007fab5036033b in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#6  0x00007fab50367414 in g_output_stream_write () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#7  0x00007fab50367414 in g_output_stream_write () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#8  0x00007fab50367561 in g_output_stream_write_all () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#9  0x00007fab50337a89 in g_data_output_stream_put_string () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#10 0x00007fab503c4731 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#11 0x00007fab503c815d in g_dbus_message_to_blob () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#12 0x00007fab503bc812 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#13 0x00007fab503bf840 in g_dbus_connection_send_message () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#14 0x00007fab503bfcb2 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#15 0x00007fab503c3619 in g_dbus_connection_call () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#16 0x00007fab3b8fdbe7 in ?? () from /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+No symbol table info available.
+#17 0x00007fab3b8fdda3 in ?? () from /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+No symbol table info available.
+#18 0x00007fab503ade1d in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#19 0x00007fab533de1e3 in g_object_unref () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#20 0x00007fab3f830fe2 in unity::dash::HomeLens::Impl::~Impl() () from /usr/lib/libunity-core-5.0.so.5
+No symbol table info available.
+#21 0x00007fab3f8311c6 in unity::dash::HomeLens::~HomeLens() () from /usr/lib/libunity-core-5.0.so.5
+No symbol table info available.
+#22 0x00007fab3f831289 in unity::dash::HomeLens::~HomeLens() () from /usr/lib/libunity-core-5.0.so.5
+No symbol table info available.
+#23 0x00007fab4248a98a in unity::dash::LensView::~LensView() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#24 0x00007fab4248ab59 in unity::dash::LensView::~LensView() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#25 0x00007fab43f07f3e in nux::Object::Destroy() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#26 0x00007fab43f082a9 in nux::Object::UnReference() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#27 0x00007fab420350ed in nux::Layout::~Layout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#28 0x00007fab4207ff79 in nux::VLayout::~VLayout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#29 0x00007fab43f07f3e in nux::Object::Destroy() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#30 0x00007fab43f082a9 in nux::Object::UnReference() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#31 0x00007fab420350ed in nux::Layout::~Layout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#32 0x00007fab42405317 in unity::dash::DashLayout::~DashLayout() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#33 0x00007fab43f07f3e in nux::Object::Destroy() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#34 0x00007fab43f082a9 in nux::Object::UnReference() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#35 0x00007fab420350ed in nux::Layout::~Layout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#36 0x00007fab4207ff79 in nux::VLayout::~VLayout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#37 0x00007fab43f07f3e in nux::Object::Destroy() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#38 0x00007fab43f082a9 in nux::Object::UnReference() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#39 0x00007fab42031189 in nux::View::RemoveLayout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#40 0x00007fab420312c3 in nux::View::~View() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#41 0x00007fab424018fd in unity::dash::DashView::~DashView() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#42 0x00007fab42401a59 in unity::dash::DashView::~DashView() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#43 0x00007fab43f07f3e in nux::Object::Destroy() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#44 0x00007fab43f082a9 in nux::Object::UnReference() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#45 0x00007fab420350ed in nux::Layout::~Layout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#46 0x00007fab420294c9 in nux::HLayout::~HLayout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#47 0x00007fab43f07f3e in nux::Object::Destroy() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#48 0x00007fab43f082a9 in nux::Object::UnReference() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#49 0x00007fab42031189 in nux::View::RemoveLayout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#50 0x00007fab420312c3 in nux::View::~View() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#51 0x00007fab42003859 in nux::BaseWindow::~BaseWindow() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#52 0x00007fab43f07f3e in nux::Object::Destroy() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#53 0x00007fab43f082a9 in nux::Object::UnReference() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#54 0x00007fab423eba61 in unity::dash::Controller::~Controller() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#55 0x00007fab423ebc29 in unity::dash::Controller::~Controller() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#56 0x00007fab425329e1 in unity::UnityScreen::~UnityScreen() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#57 0x00007fab42532e69 in unity::UnityScreen::~UnityScreen() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#58 0x00007fab5637fac8 in CompManager::finiPlugin(CompPlugin*) () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#59 0x00007fab56380ffe in CompPlugin::pop() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#60 0x00007fab5635076e in compiz::private_screen::PluginManager::updatePlugins() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#61 0x00007fab56352024 in PrivateScreen::processEvents() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#62 0x00007fab563862c7 in CompEventSource::callback() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#63 0x00007fab5488d85f in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/x86_64-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#64 0x00007fab54395d8a in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#65 0x00007fab54396150 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#66 0x00007fab5439654a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#67 0x00000000004029ae in main ()
+No symbol table info available.

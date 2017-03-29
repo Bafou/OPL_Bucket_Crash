@@ -1,0 +1,20 @@
+#0  0x0011f197 in QList<AbstractX11EventFilter*>::removeAll(AbstractX11EventFilter* const&) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#1  0x0011ed97 in Unity2dApplication::removeX11EventFilter(AbstractX11EventFilter*) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#2  0x0011edd6 in AbstractX11EventFilter::~AbstractX11EventFilter() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#3  0x0011bde1 in KeyboardModifiersMonitor::~KeyboardModifiersMonitor() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#4  0x0011be42 in KeyboardModifiersMonitor::~KeyboardModifiersMonitor() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#5  0x00fad047 in QObject::QObject(QObjectPrivate&, QObject*) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#6  0x00fb185f in QObject::setProperty(char const*, QVariant const&) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#7  0x00f9c412 in QCoreApplication::postEvent(QObject*, QEvent*, int) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#8  0x005036e9 in QBoxLayout::addStrut(int) () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#9  0x0805afd9 in main ()
+No symbol table info available.

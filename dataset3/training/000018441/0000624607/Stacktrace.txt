@@ -1,0 +1,30 @@
+#0  0x00007f83ee8cfcde in g_hash_table_lookup () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007f83e669e62d in ?? ()
+   from /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+No symbol table info available.
+#2  0x00007f83e669e815 in ?? ()
+   from /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+No symbol table info available.
+#3  0x00007f83ef90247e in gtk_menu_shell_insert ()
+   from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#4  0x00007f83ef851734 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#5  0x00007f83ef851e31 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#6  0x00007f83eeb8d6ce in g_closure_invoke ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00007f83eeba5f59 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#8  0x00007f83eeba76d6 in g_signal_emit_valist ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#9  0x00007f83eeba7f43 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#10 0x00007f83ef8e6fd3 in gtk_list_store_insert_with_values ()
+   from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#11 0x00000000004079ca in _start ()
+No symbol table info available.

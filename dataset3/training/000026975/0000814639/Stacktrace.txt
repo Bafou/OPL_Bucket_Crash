@@ -1,0 +1,111 @@
+#0  __strlen_sse2_bsf () at ../sysdeps/i386/i686/multiarch/strlen-sse2-bsf.S:52
+No locales.
+#1  0xb4929d6a in SimpleLauncherIcon::SetIconName(char const*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0xb489f473 in BamfLauncherIcon::BamfLauncherIcon(Launcher*, _BamfApplication*, CompScreen*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0xb48c79b6 in LauncherController::OnViewOpened(_BamfMatcher*, _BamfView*, void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0xb6a13c3a in g_cclosure_marshal_VOID__OBJECT (closure=0x8c1f4d8, return_value=0x0, n_param_values=2, param_values=0x88ac8c8, invocation_hint=0xbf8079a0, marshal_data=0x0) at /build/buildd/glib2.0-2.29.10/./gobject/gmarshal.c:644
+        callback = 0xb48c78f0 <LauncherController::OnViewOpened(_BamfMatcher*, _BamfView*, void*)>
+        cc = 0x8c1f4d8
+        data1 = 0x87dcd20
+        data2 = 0x87ae428
+        __PRETTY_FUNCTION__ = "g_cclosure_marshal_VOID__OBJECT"
+#5  0xb6a11a2c in g_closure_invoke (closure=0x8c1f4d8, return_value=0x0, n_param_values=2, param_values=0x88ac8c8, invocation_hint=0xbf8079a0) at /build/buildd/glib2.0-2.29.10/./gobject/gclosure.c:773
+        marshal = 0xb6a13b90 <g_cclosure_marshal_VOID__OBJECT>
+        marshal_data = 0x0
+        in_marshal = 0
+        __PRETTY_FUNCTION__ = "g_closure_invoke"
+#6  0xb6a25e50 in signal_emit_unlocked_R (node=0x88f1c18, detail=0, instance=0x87dcd20, emission_return=0x0, instance_and_params=0x88ac8c8) at /build/buildd/glib2.0-2.29.10/./gobject/gsignal.c:3256
+        tmp = <value optimized out>
+        handler = 0x8bb7320
+        accumulator = 0x0
+        emission = {next = 0xbf807ce8, instance = 0x87dcd20, ihint = {signal_id = 134, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, state = EMISSION_RUN, chain_type = 4}
+        class_closure = 0x0
+        hlist = 0x8bfc458
+        handler_list = 0x8bb7320
+        return_accu = 0x0
+        accu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 134
+        max_sequential_handler_number = 2817
+        return_value_altered = 0
+#7  0xb6a2eb0f in g_signal_emit_valist (instance=0x87dcd20, signal_id=134, detail=0, var_args=0xbf807b50 "\030G\374\b\364OM\264\030G\374\b\372\370L\264\020\060\210\b0\221\370\b\330\356\375\b \315}\b\020\060\210\b ^J\261\020\060\210\b") at /build/buildd/glib2.0-2.29.10/./gobject/gsignal.c:2987
+        instance_and_params = 0x88ac8c8
+        signal_return_type = 4
+        param_values = 0x88ac8dc
+        node = 0x88f1c18
+        i = <value optimized out>
+        n_params = 1
+        __PRETTY_FUNCTION__ = "g_signal_emit_valist"
+#8  0xb6a2ec83 in g_signal_emit (instance=0x87dcd20, signal_id=134, detail=0) at /build/buildd/glib2.0-2.29.10/./gobject/gsignal.c:3044
+        var_args = 0xbf807b4c "0\243K\261\030G\374\b\364OM\264\030G\374\b\372\370L\264\020\060\210\b0\221\370\b\330\356\375\b \315}\b\020\060\210\b ^J\261\020\060\210\b"
+#9  0xb44c9393 in ?? () from /usr/lib/i386-linux-gnu/libbamf3.so.0
+No symbol table info available.
+#10 0xb44cf8fa in bamf_marshal_VOID__STRING_STRING () from /usr/lib/i386-linux-gnu/libbamf3.so.0
+No symbol table info available.
+#11 0xb5f47dba in ?? () from /usr/lib/i386-linux-gnu/libdbus-glib-1.so.2
+No symbol table info available.
+#12 0xb6a11a2c in g_closure_invoke (closure=0x88f2440, return_value=0x0, n_param_values=3, param_values=0x89b2358, invocation_hint=0xbf807cf0) at /build/buildd/glib2.0-2.29.10/./gobject/gclosure.c:773
+        marshal = 0xb5f47c10
+        marshal_data = 0x0
+        in_marshal = 0
+        __PRETTY_FUNCTION__ = "g_closure_invoke"
+#13 0xb6a25e50 in signal_emit_unlocked_R (node=0x88e9500, detail=966, instance=0x8883010, emission_return=0x0, instance_and_params=0x89b2358) at /build/buildd/glib2.0-2.29.10/./gobject/gsignal.c:3256
+        tmp = <value optimized out>
+        handler = 0x87dcae0
+        accumulator = 0x0
+        emission = {next = 0x0, instance = 0x8883010, ihint = {signal_id = 139, detail = 966, run_type = G_SIGNAL_RUN_FIRST}, state = EMISSION_RUN, chain_type = 4}
+        class_closure = 0x0
+        hlist = 0x88e3638
+        handler_list = 0x87dcae0
+        return_accu = 0x0
+        accu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 139
+        max_sequential_handler_number = 2817
+        return_value_altered = 0
+#14 0xb6a2eb0f in g_signal_emit_valist (instance=0x8883010, signal_id=139, detail=966, var_args=0xbf807ea4 "") at /build/buildd/glib2.0-2.29.10/./gobject/gsignal.c:2987
+        instance_and_params = 0x89b2358
+        signal_return_type = 4
+        param_values = 0x89b236c
+        node = 0x88e9500
+        i = <value optimized out>
+        n_params = 2
+        __PRETTY_FUNCTION__ = "g_signal_emit_valist"
+#15 0xb6a2ec83 in g_signal_emit (instance=0x8883010, signal_id=139, detail=966) at /build/buildd/glib2.0-2.29.10/./gobject/gsignal.c:3044
+        var_args = 0xbf807e9c "\300Z\375\bH\342\005\264"
+#16 0xb5f48460 in ?? () from /usr/lib/i386-linux-gnu/libdbus-glib-1.so.2
+No symbol table info available.
+#17 0xb6245411 in dbus_connection_dispatch () from /lib/i386-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#18 0xb5f4095d in ?? () from /usr/lib/i386-linux-gnu/libdbus-glib-1.so.2
+No symbol table info available.
+#19 0xb715254f in g_main_dispatch (context=0x81c8400) at /build/buildd/glib2.0-2.29.10/./glib/gmain.c:2473
+        dispatch = 0xb5f40930
+        was_in_call = 0
+        user_data = 0x0
+        callback = 0
+        cb_funcs = 0x0
+        cb_data = 0x0
+        current_source_link = {data = 0x88f2ee8, next = 0x0}
+        need_destroy = <value optimized out>
+        source = 0x88f2ee8
+        current = 0x81d2a80
+        i = <value optimized out>
+#20 g_main_context_dispatch (context=0x81c8400) at /build/buildd/glib2.0-2.29.10/./glib/gmain.c:3046
+No locales.
+#21 0xb7152c80 in g_main_context_iterate (context=0x81c8400, block=-1223289264, dispatch=1, self=<value optimized out>) at /build/buildd/glib2.0-2.29.10/./glib/gmain.c:3124
+        max_priority = 0
+        timeout = 0
+        some_ready = 1
+        nfds = <value optimized out>
+        allocated_nfds = <value optimized out>
+        fds = 0x8cc25a0
+#22 0xb715328b in g_main_loop_run (loop=0x8246290) at /build/buildd/glib2.0-2.29.10/./glib/gmain.c:3332
+        __PRETTY_FUNCTION__ = "g_main_loop_run"
+#23 0xb7244373 in Glib::MainLoop::run() () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#24 0x0806f1a0 in CompScreen::eventLoop() ()
+No symbol table info available.
+#25 0x08062d04 in main ()
+No symbol table info available.

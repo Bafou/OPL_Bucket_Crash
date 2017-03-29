@@ -1,0 +1,40 @@
+#0  0x00007f9e2cfd23e0 in CompWindow::wmType() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#1  0x00007f9e18f9ef4d in WorkaroundsWindow::getFixedWindowType() () from /usr/lib/compiz/libworkarounds.so
+No symbol table info available.
+#2  0x00007f9e18f9f998 in WorkaroundsScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libworkarounds.so
+No symbol table info available.
+#3  0x00007f9e2cfedb53 in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#4  0x00007f9e1ad39f8c in SessionScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libsession.so
+No symbol table info available.
+#5  0x00007f9e2cfedb53 in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#6  0x00007f9e1a403dd2 in FadeScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libfade.so
+No symbol table info available.
+#7  0x00007f9e2cfedb53 in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#8  0x00007f9e18d74947 in PrivateScaleScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libscale.so
+No symbol table info available.
+#9  0x00007f9e2cfedb53 in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#10 0x00007f9e183764fb in unity::UnityScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#11 0x00007f9e2cfedb53 in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#12 0x00007f9e2cfedb8b in CompScreenImpl::alwaysHandleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#13 0x00007f9e2cfc5edb in PrivateScreen::processEvents() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#14 0x00007f9e2cffa2c7 in CompEventSource::callback() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#15 0x00007f9e2b5018af in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/x86_64-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#16 0x00007f9e2b009c9a in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#17 0x00007f9e2b00a060 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#18 0x00007f9e2b00a45a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#19 0x00000000004029ae in main ()
+No symbol table info available.

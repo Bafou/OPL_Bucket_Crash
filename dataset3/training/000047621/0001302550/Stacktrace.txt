@@ -1,0 +1,34 @@
+#0  0x08d1f844 in ?? ()
+No symbol table info available.
+#1  0xb6260b34 in glDeleteTextures () from /usr/lib/arm-linux-gnueabihf/libhybris-egl/libGLESv2.so.2
+No symbol table info available.
+#2  0xb43cc36c in mir::scene::GLPixelBuffer::~GLPixelBuffer() () from /usr/lib/arm-linux-gnueabihf/libmirserver.so.17
+No symbol table info available.
+#3  0xb43d3bae in mir::scene::ThreadedSnapshotStrategy::~ThreadedSnapshotStrategy() () from /usr/lib/arm-linux-gnueabihf/libmirserver.so.17
+No symbol table info available.
+#4  0xb43cf866 in mir::scene::SessionManager::~SessionManager() () from /usr/lib/arm-linux-gnueabihf/libmirserver.so.17
+No symbol table info available.
+#5  0xabfdbee6 in unitymir::ApplicationManager::~ApplicationManager() () from /usr/lib/arm-linux-gnueabihf/unity8/qml/Unity/Application/libunityapplicationplugin.so
+No symbol table info available.
+#6  0xabfdbf3c in unitymir::ApplicationManager::~ApplicationManager() () from /usr/lib/arm-linux-gnueabihf/unity8/qml/Unity/Application/libunityapplicationplugin.so
+No symbol table info available.
+#7  0xb6b5c244 in QQmlType::SingletonInstanceInfo::destroy(QQmlEngine*) () from /usr/lib/arm-linux-gnueabihf/libQt5Qml.so.5
+No symbol table info available.
+#8  0xb6b2a978 in QQmlEngine::~QQmlEngine() () from /usr/lib/arm-linux-gnueabihf/libQt5Qml.so.5
+No symbol table info available.
+#9  0xb6b2aa0c in QQmlEngine::~QQmlEngine() () from /usr/lib/arm-linux-gnueabihf/libQt5Qml.so.5
+No symbol table info available.
+#10 0xb6648da0 in QObjectPrivate::deleteChildren() () from /usr/lib/arm-linux-gnueabihf/libQt5Core.so.5
+No symbol table info available.
+#11 0xb664cfee in QObject::~QObject() () from /usr/lib/arm-linux-gnueabihf/libQt5Core.so.5
+No symbol table info available.
+#12 0xb6cf5774 in QWindow::~QWindow() () from /usr/lib/arm-linux-gnueabihf/libQt5Gui.so.5
+No symbol table info available.
+#13 0xb68b8396 in QQuickWindow::~QQuickWindow() () from /usr/lib/arm-linux-gnueabihf/libQt5Quick.so.5
+No symbol table info available.
+#14 0xb691d1a6 in QQuickView::~QQuickView() () from /usr/lib/arm-linux-gnueabihf/libQt5Quick.so.5
+No symbol table info available.
+#15 0xb691d1c4 in QQuickView::~QQuickView() () from /usr/lib/arm-linux-gnueabihf/libQt5Quick.so.5
+No symbol table info available.
+#16 0x0000c374 in _start ()
+No symbol table info available.

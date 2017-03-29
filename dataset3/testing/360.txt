@@ -1,0 +1,71 @@
+#0  0x001ae389 in g_logv () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x001ae6c3 in g_log () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0x0804af75 in ?? ()
+No symbol table info available.
+#3  0x0804b2d2 in ?? ()
+No symbol table info available.
+#4  0x0804bb96 in ?? ()
+No symbol table info available.
+#5  0x0804c219 in ?? ()
+No symbol table info available.
+#6  0x0804c72f in ?? ()
+No symbol table info available.
+#7  0x0011e9fa in g_cclosure_marshal_VOID__PARAM () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#8  0x0011ca5c in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#9  0x00130ec0 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#10 0x00139b8f in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x00139d03 in g_signal_emit () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x0011fe1f in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x0011f17f in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#14 0x00122392 in g_object_notify () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#15 0x005b5297 in unity_scope_set_active_global_search () from /usr/lib/libunity.so.5
+No symbol table info available.
+#16 0x005bb724 in ?? () from /usr/lib/libunity.so.5
+No symbol table info available.
+#17 0x005ba0db in unity_scope_service_global_search () from /usr/lib/libunity.so.5
+No symbol table info available.
+#18 0x005b48e8 in unity_scope_global_search () from /usr/lib/libunity.so.5
+No symbol table info available.
+#19 0x005bdf53 in ?? () from /usr/lib/libunity.so.5
+No symbol table info available.
+#20 0x005bd0c3 in unity_scope_proxy_global_search () from /usr/lib/libunity.so.5
+No symbol table info available.
+#21 0x005aecc3 in ?? () from /usr/lib/libunity.so.5
+No symbol table info available.
+#22 0x005ab3b3 in unity_lens_service_global_search () from /usr/lib/libunity.so.5
+No symbol table info available.
+#23 0x005abf69 in ?? () from /usr/lib/libunity.so.5
+No symbol table info available.
+#24 0x0040432a in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#25 0x001a16e0 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#26 0x001a581f in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#27 0x001a5f50 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#28 0x001a655b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#29 0x003e5e90 in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#30 0x003e808c in g_application_run () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#31 0x0804f0f7 in ?? ()
+No symbol table info available.
+#32 0x0804a760 in ?? ()
+No symbol table info available.
+#33 0x00631113 in __libc_start_main () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#34 0x0804a785 in ?? ()
+No symbol table info available.
+Backtrace stopped: Not enough registers or memory available to unwind further

@@ -1,0 +1,93 @@
+#0  0x00007ff9eaa93445 in __GI_raise (sig=<optimised out>) at ../nptl/sysdeps/unix/sysv/linux/raise.c:64
+        resultvar = 0
+        pid = <optimised out>
+        selftid = 3442
+#1  0x00007ff9eaa96bab in __GI_abort () at abort.c:91
+        save_stage = 2
+        act = {__sigaction_handler = {sa_handler = 0x18, sa_sigaction = 0x18}, sa_mask = {__val = {140711369283561, 140711360347208, 140711387078656, 1024, 0, 50514080, 4294967296, 4294967295, 0, 114, 53652592, 3092568, 0, 34998768, 0, 140711368744960}}, sa_flags = -333437068, sa_restorer = 0x5}
+        sigs = {__val = {32, 0 <repeats 15 times>}}
+#2  0x00007ff9eb2cddad in g_assertion_message (domain=<optimised out>, file=<optimised out>, line=<optimised out>, func=0x7ff9ebb43aa0 "gee_hash_map_node_iterator_next", message=0x30a1630 "assertion failed: (_tmp0_ == _tmp2_)") at /build/buildd/glib2.0-2.31.20/./glib/gtestutils.c:1860
+        lstr = "2621\000\177\000\000@\262\213A\377\177\000\000\230\000\000\000\000\000\000\000l*\264\353\371\177\000"
+        s = 0x332ac70 ""
+#3  0x00007ff9eb2ce2d2 in g_assertion_message_expr (domain=0x0, file=0x7ff9ebb43449 "hashmap.c", line=2621, func=0x7ff9ebb43aa0 "gee_hash_map_node_iterator_next", expr=<optimised out>) at /build/buildd/glib2.0-2.31.20/./glib/gtestutils.c:1871
+        s = <optimised out>
+#4  0x00007ff9ebb1ec2a in ?? () from /usr/lib/x86_64-linux-gnu/libgee.so.2
+No symbol table info available.
+#5  0x00007ff9eb04d26d in ?? () from /usr/lib/libgwibber.so.2
+No symbol table info available.
+#6  0x00007ff9eb56ae72 in g_closure_invoke (closure=0x21afc20, return_value=0x0, n_param_values=2, param_values=0x2ad4400, invocation_hint=<optimised out>) at /build/buildd/glib2.0-2.31.20/./gobject/gclosure.c:777
+        marshal = 0x7ff9eb56e110 <g_cclosure_marshal_VOID__BOXED>
+        marshal_data = <optimised out>
+        in_marshal = <optimised out>
+        real_closure = 0x21afc00
+        __PRETTY_FUNCTION__ = "g_closure_invoke"
+#7  0x00007ff9eb57c943 in signal_emit_unlocked_R (node=<optimised out>, detail=0, instance=<optimised out>, emission_return=0x0, instance_and_params=0x2ad4400) at /build/buildd/glib2.0-2.31.20/./gobject/gsignal.c:3547
+        tmp = <optimised out>
+        handler = 0x2ad4c00
+        accumulator = 0x0
+        emission = {next = 0x0, instance = 0x21a6730, ihint = {signal_id = 49, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, state = EMISSION_RUN, chain_type = 4}
+        class_closure = 0x2187320
+        hlist = 0x21bbea8
+        handler_list = 0x2ad4c00
+        return_accu = 0x0
+        accu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 49
+        max_sequential_handler_number = 149
+        return_value_altered = 0
+#8  0x00007ff9eb5850ad in g_signal_emit_valist (instance=<optimised out>, signal_id=<optimised out>, detail=0, var_args=<optimised out>) at /build/buildd/glib2.0-2.31.20/./gobject/gsignal.c:3295
+        instance_and_params = 0x2ad4400
+        signal_return_type = 4
+        param_values = 0x2ad4418
+        node = 0x2187350
+        i = <optimised out>
+        n_params = 1
+        __PRETTY_FUNCTION__ = "g_signal_emit_valist"
+#9  0x00007ff9eb5852e2 in g_signal_emit (instance=<optimised out>, signal_id=<optimised out>, detail=<optimised out>) at /build/buildd/glib2.0-2.31.20/./gobject/gsignal.c:3352
+        var_args = {{gp_offset = 32, fp_offset = 48, overflow_arg_area = 0x7fff418bb7c0, reg_save_area = 0x7fff418bb700}}
+#10 0x00007ff9ebd7396d in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#11 0x00007ff9ebd75bd0 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#12 0x00007ff9eb05479b in ?? () from /usr/lib/libgwibber.so.2
+No symbol table info available.
+#13 0x00007ff9eb2aea1b in g_timeout_dispatch (source=<optimised out>, callback=<optimised out>, user_data=<optimised out>) at /build/buildd/glib2.0-2.31.20/./glib/gmain.c:3854
+        timeout_source = 0x384c4a0
+        again = <optimised out>
+#14 0x00007ff9eb2addda in g_main_dispatch (context=0x21604d0) at /build/buildd/glib2.0-2.31.20/./glib/gmain.c:2510
+        dispatch = 0x7ff9eb2aea00 <g_timeout_dispatch>
+        was_in_call = 0
+        user_data = 0x37f2800
+        callback = 0x7ff9eb054750
+        cb_funcs = 0x7ff9eb5599a0
+        cb_data = 0x21aa4c0
+        current_source_link = {data = 0x384c4a0, next = 0x0}
+        need_destroy = <optimised out>
+        source = 0x384c4a0
+        current = 0x2168400
+        i = <optimised out>
+#15 g_main_context_dispatch (context=0x21604d0) at /build/buildd/glib2.0-2.31.20/./glib/gmain.c:3047
+No locals.
+#16 0x00007ff9eb2ae1a0 in g_main_context_iterate (dispatch=1, block=<optimised out>, context=0x21604d0, self=<optimised out>) at /build/buildd/glib2.0-2.31.20/./glib/gmain.c:3118
+        timeout = 77
+        some_ready = 1
+        fds = <optimised out>
+        max_priority = 2147483647
+        nfds = 2
+        allocated_nfds = <optimised out>
+#17 g_main_context_iterate (context=0x21604d0, block=<optimised out>, dispatch=1, self=<optimised out>) at /build/buildd/glib2.0-2.31.20/./glib/gmain.c:3055
+        some_ready = 1
+#18 0x00007ff9eb2ae264 in g_main_context_iteration (context=0x21604d0, may_block=1) at /build/buildd/glib2.0-2.31.20/./glib/gmain.c:3179
+        retval = <optimised out>
+#19 0x00007ff9eb84b994 in g_application_run (application=0x21ac0b0, argc=<optimised out>, argv=0x0) at /build/buildd/glib2.0-2.31.20/./gio/gapplication.c:1496
+        arguments = 0x374fa90
+        status = 0
+        i = <optimised out>
+        __PRETTY_FUNCTION__ = "g_application_run"
+#20 0x0000000000406800 in unity_gwibber_main ()
+No symbol table info available.
+#21 0x00007ff9eaa7e76d in __libc_start_main (main=0x403b60 <main>, argc=1, ubp_av=0x7fff418bbad8, init=<optimised out>, fini=<optimised out>, rtld_fini=<optimised out>, stack_end=0x7fff418bbac8) at libc-start.c:226
+        result = <optimised out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {0, 6776895237070908054, 4209536, 140734293064400, 0, 0, -6777111190320059754, -6773542345859798378}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x406900, 0x7fff418bbad8}, data = {prev = 0x0, cleanup = 0x0, canceltype = 4221184}}}
+        not_first_call = <optimised out>
+#22 0x0000000000403ba9 in _start ()
+No symbol table info available.

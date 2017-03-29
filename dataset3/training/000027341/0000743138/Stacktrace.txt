@@ -1,0 +1,66 @@
+#0  0x011176d1 in QMetaObject::changeGuard(QObject**, QObject*) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#1  0x05a16636 in LauncherApplication::setBamfApplication(BamfApplication*) () from /usr/lib/qt4/imports/UnityApplications/libUnityApplications.so.1.0.0
+No symbol table info available.
+#2  0x05a1a698 in LauncherApplicationsList::insertBamfApplication(BamfApplication*) () from /usr/lib/qt4/imports/UnityApplications/libUnityApplications.so.1.0.0
+No symbol table info available.
+#3  0x05a1a9b0 in LauncherApplicationsList::onBamfViewOpened(BamfView*) () from /usr/lib/qt4/imports/UnityApplications/libUnityApplications.so.1.0.0
+No symbol table info available.
+#4  0x05a4001f in LauncherApplicationsList::qt_metacall(QMetaObject::Call, int, void**) () from /usr/lib/qt4/imports/UnityApplications/libUnityApplications.so.1.0.0
+No symbol table info available.
+#5  0x011096ba in QMetaObject::metacall(QObject*, QMetaObject::Call, int, void**) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#6  0x011194ff in QMetaObject::activate(QObject*, QMetaObject const*, int, void**) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#7  0x01955d73 in BamfMatcher::ViewOpened(BamfView*) () from /usr/lib/libQtBamf.so.1
+No symbol table info available.
+#8  0x01949bc9 in BamfMatcher::OnViewOpened(QString const&, QString const&) () from /usr/lib/libQtBamf.so.1
+No symbol table info available.
+#9  0x01955f6c in BamfMatcher::qt_metacall(QMetaObject::Call, int, void**) () from /usr/lib/libQtBamf.so.1
+No symbol table info available.
+#10 0x011096ba in QMetaObject::metacall(QObject*, QMetaObject::Call, int, void**) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#11 0x011194ff in QMetaObject::activate(QObject*, QMetaObject const*, int, void**) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#12 0x01956259 in OrgAyatanaBamfMatcherInterface::ViewOpened(QString const&, QString const&) () from /usr/lib/libQtBamf.so.1
+No symbol table info available.
+#13 0x01956661 in OrgAyatanaBamfMatcherInterface::qt_metacall(QMetaObject::Call, int, void**) () from /usr/lib/libQtBamf.so.1
+No symbol table info available.
+#14 0x0099eacd in ?? () from /usr/lib/libQtDBus.so.4
+No symbol table info available.
+#15 0x009a91d7 in ?? () from /usr/lib/libQtDBus.so.4
+No symbol table info available.
+#16 0x011183b7 in QObject::event(QEvent*) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#17 0x02c03d24 in QApplicationPrivate::notify_helper(QObject*, QEvent*) () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#18 0x02c088ce in QApplication::notify(QObject*, QEvent*) () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#19 0x011030bb in QCoreApplication::notifyInternal(QObject*, QEvent*) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#20 0x01106c79 in QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#21 0x01106e0d in QCoreApplication::sendPostedEvents(QObject*, int) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#22 0x011303c4 in ?? () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#23 0x00a39aa8 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#24 0x00a3a270 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#25 0x00a3a524 in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#26 0x0113053c in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#27 0x02cb7775 in ?? () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#28 0x01102289 in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#29 0x01102522 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#30 0x01106ecc in QCoreApplication::exec() () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#31 0x02c018e7 in QApplication::exec() () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#32 0x0805180d in main ()
+No symbol table info available.

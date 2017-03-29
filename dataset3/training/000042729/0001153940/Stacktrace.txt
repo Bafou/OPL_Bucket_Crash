@@ -1,0 +1,38 @@
+#0  0x00007fd634475c71 in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00007fd632d4d8e0 in g_strdup () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007fd632d4f3ec in g_strdupv () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007fd6129ff1b5 in bamf_application_get_supported_mime_types () from /usr/lib/x86_64-linux-gnu/libbamf3.so.1
+No symbol table info available.
+#4  0x00007fd615501b90 in unity::bamf::Application::GetSupportedMimeTypes() const () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#5  0x00007fd6153e87c2 in unity::launcher::ApplicationLauncherIcon::GetSupportedTypes() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#6  0x00007fd6153e89bf in unity::launcher::ApplicationLauncherIcon::OnShouldHighlightOnDrag(unity::DndData const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#7  0x00007fd615396873 in unity::launcher::Launcher::DndStarted(std::string const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#8  0x00007fd6153dea32 in unity::XdndManagerImp::OnDndDataCollected(std::vector<std::string, std::allocator<std::string> > const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#9  0x00007fd6153de09a in ?? () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#10 0x00007fd613aa4a18 in nux::InputArea::HandleDndMove(nux::Event&) () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#11 0x00007fd613ad2b0f in nux::WindowCompositor::DndEventCycle(nux::Event&) () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#12 0x00007fd613ad4845 in nux::WindowCompositor::ProcessEvent(nux::Event&) () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#13 0x00007fd613ad9d4f in nux::WindowThread::DoProcessEvent(nux::Event&) () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#14 0x00007fd613aaf969 in nux::nux_event_dispatch(_GSource*, int (*)(void*), void*) () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#15 0x00007fd632d30e85 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0x00007fd632d311c8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#17 0x00007fd632d3163a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#18 0x000000000040195b in main ()
+No symbol table info available.

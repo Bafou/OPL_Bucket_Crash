@@ -1,0 +1,106 @@
+#0  0x00007f06a3ccde20 in ?? () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#1  0x00007f06a3cd099f in ?? () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#2  0x00007f06a3cccccc in ?? () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#3  0x00007f06a3cd141f in ?? () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#4  0x00007f06a3c924f7 in FT_Load_Glyph () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#5  0x00007f06a9c14454 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#6  0x00007f06a9bd9eb7 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#7  0x00007f06a9bdb545 in cairo_scaled_font_glyph_extents () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#8  0x00007f06aa2c4209 in ?? () from /usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0
+No symbol table info available.
+#9  0x00007f06a415cb22 in pango_ot_buffer_output () from /usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0
+No symbol table info available.
+#10 0x00007f067a3fc2fc in ?? () from /usr/lib/x86_64-linux-gnu/pango/1.6.0/modules/pango-basic-fc.so
+No symbol table info available.
+#11 0x00007f06a9e7f1aa in pango_shape () from /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0
+No symbol table info available.
+#12 0x00007f06a9e62871 in ?? () from /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0
+No symbol table info available.
+#13 0x00007f06a9e62b29 in ?? () from /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0
+No symbol table info available.
+#14 0x00007f06a9e75697 in ?? () from /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0
+No symbol table info available.
+#15 0x00007f06a9e764e6 in ?? () from /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0
+No symbol table info available.
+#16 0x00007f06a9e7687e in pango_layout_get_size () from /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0
+No symbol table info available.
+#17 0x00007f06887e7299 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#18 0x00007f06887e7224 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#19 0x00007f06887e760d in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#20 0x00007f06887e1cd3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#21 0x00007f06887e21c3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#22 0x00007f06887e1cd3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#23 0x00007f06887e21c3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#24 0x00007f06887e1cd3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#25 0x00007f06887e21c3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#26 0x00007f06887e1cd3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#27 0x00007f06887e21c3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#28 0x00007f06887e1cd3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#29 0x00007f06887e21c3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#30 0x00007f06887e1cd3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#31 0x00007f06887e21c3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#32 0x00007f06887e1cd3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#33 0x00007f06887e21c3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#34 0x00007f06887e1cd3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#35 0x00007f06887e20dc in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#36 0x00007f06887e1cd3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#37 0x00007f06887ee478 in rsvg_handle_render_cairo_sub () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#38 0x00007f06887ee943 in rsvg_handle_get_pixbuf_sub () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#39 0x00007f06889f9d2b in ?? () from /usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+No symbol table info available.
+#40 0x00007f06aa0aa6f1 in gdk_pixbuf_loader_close () from /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0
+No symbol table info available.
+#41 0x00007f06aa0a69f9 in ?? () from /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0
+No symbol table info available.
+#42 0x00007f06aa0a8241 in gdk_pixbuf_new_from_stream_at_scale () from /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0
+No symbol table info available.
+#43 0x00007f06aaaba098 in ?? () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#44 0x00007f06aaabcc72 in gtk_icon_info_load_icon () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#45 0x00007f06b0c9b43d in ?? () from /usr/lib/gnome-shell/libgnome-shell.so
+No symbol table info available.
+#46 0x00007f06b006ce3c in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#47 0x00007f06b005c12e in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#48 0x00007f06afb26218 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#49 0x00007f06afb259b5 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#50 0x00007f06af8a6e9a in start_thread () from /lib/x86_64-linux-gnu/libpthread.so.0
+No symbol table info available.
+#51 0x00007f06af5d44bd in clone () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#52 0x0000000000000000 in ?? ()
+No symbol table info available.

@@ -1,0 +1,14 @@
+#0  0x00007f7c83f4f007 in unity::launcher::Controller::Impl::OnLauncherAddRequestSpecial(std::string const&, std::string const&, std::string const&, int, int, int) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0x00007f7c83f4f6e4 in unity::launcher::Controller::Impl::OnDBusMethodCall(_GDBusConnection*, char const*, char const*, char const*, char const*, _GVariant*, _GDBusMethodInvocation*, void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x00007f7c97d68425 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#3  0x00007f7ca0146ab5 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f7ca0146de8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f7ca01471e2 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x000000000040270b in main ()
+No symbol table info available.

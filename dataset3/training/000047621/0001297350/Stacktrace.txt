@@ -1,0 +1,48 @@
+#0  0x08d1f844 in ?? ()
+No symbol table info available.
+#1  0xb6289b34 in glDeleteTextures () from /usr/lib/arm-linux-gnueabihf/libhybris-egl/libGLESv2.so.2
+No symbol table info available.
+#2  0xb43f536c in mir::scene::GLPixelBuffer::~GLPixelBuffer() () from /usr/lib/arm-linux-gnueabihf/libmirserver.so.17
+No symbol table info available.
+#3  0xb43fcbae in mir::scene::ThreadedSnapshotStrategy::~ThreadedSnapshotStrategy() () from /usr/lib/arm-linux-gnueabihf/libmirserver.so.17
+No symbol table info available.
+#4  0xb43f8866 in mir::scene::SessionManager::~SessionManager() () from /usr/lib/arm-linux-gnueabihf/libmirserver.so.17
+No symbol table info available.
+#5  0xabb909b2 in unitymir::ApplicationManager::~ApplicationManager() () from /usr/lib/arm-linux-gnueabihf/qt5/imports/Unity-Mir/Unity/Application/libunityapplicationplugin.so
+No symbol table info available.
+#6  0xabb90a08 in unitymir::ApplicationManager::~ApplicationManager() () from /usr/lib/arm-linux-gnueabihf/qt5/imports/Unity-Mir/Unity/Application/libunityapplicationplugin.so
+No symbol table info available.
+#7  0xb6b851cc in QQmlType::SingletonInstanceInfo::destroy (this=0xaba10f10, e=e@entry=0xafa23ce0) at qml/qqmlmetatype.cpp:250
+No locals.
+#8  0xb6b53900 in QQmlEngine::~QQmlEngine (this=0xafa23ce0, __in_chrg=<optimized out>) at qml/qqmlengine.cpp:914
+        currType = <optimized out>
+        _container_ = {c = {{p = {static shared_null = {ref = {atomic = {_q_value = -1}}, alloc = 0, begin = 0, end = 0, array = {0x0}}, d = 0x9dfc8d00}, d = 0x9dfc8d00}}, brk = 0, i = {i = 0x9dfc8d14}, e = {i = 0x9dfc8d58}}
+        singletonTypes = {{p = {static shared_null = {ref = {atomic = {_q_value = -1}}, alloc = 0, begin = 0, end = 0, array = {0x0}}, d = 0x9dfc8d00}, d = 0x9dfc8d00}}
+#9  0xb6b53994 in QQmlEngine::~QQmlEngine (this=0xafa23ce0, __in_chrg=<optimized out>) at qml/qqmlengine.cpp:915
+No locals.
+#10 0xb6671d80 in QObjectPrivate::deleteChildren (this=this@entry=0xafa23280) at kernel/qobject.cpp:1841
+        i = 0
+#11 0xb6675fce in QObject::~QObject (this=<optimized out>, __in_chrg=<optimized out>) at kernel/qobject.cpp:934
+        d = <optimized out>
+        __PRETTY_FUNCTION__ = "virtual QObject::~QObject()"
+#12 0xb6d1e774 in QWindow::~QWindow (this=0xafa22338, __in_chrg=<optimized out>) at kernel/qwindow.cpp:234
+No locals.
+#13 0xb68e1396 in QQuickWindow::~QQuickWindow (this=0xafa22338, __in_chrg=<optimized out>) at items/qquickwindow.cpp:1047
+No locals.
+#14 0xb69461a6 in QQuickView::~QQuickView (this=0xafa22338, __in_chrg=<optimized out>) at items/qquickview.cpp:209
+No locals.
+#15 0xb69461c4 in QQuickView::~QQuickView (this=0xafa22338, __in_chrg=<optimized out>) at items/qquickview.cpp:209
+No locals.
+#16 0x0000c2c8 in startShell (argc=1, argv=<optimized out>, server=<optimized out>) at /build/buildd/unity8-7.84+14.04.20140324.4/src/main.cpp:139
+        __PRETTY_FUNCTION__ = "int startShell(int, const char**, void*)"
+        indicatorProfile = {static null = {<No data fields>}, d = 0xafa11a38}
+        qmlArgs = {<QObject> = {_vptr.QObject = 0x18ea0 <vtable for ApplicationArguments+8>, static staticMetaObject = {d = {superdata = 0x0, stringdata = 0xb6766158 <qt_meta_stringdata_QObject>, data = 0xb6766978 <qt_meta_data_QObject>, static_metacall = 0xb6676265 <QObject::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)>, relatedMetaObjects = 0x0, extradata = 0x0}}, d_ptr = {d = 0xafa1bb70}, static staticQtMetaObject = {d = {superdata = 0x0, stringdata = 0xb67af1c8 <qt_meta_stringdata_Qt>, data = 0xb67acb14 <qt_meta_data_Qt>, static_metacall = 0x0, relatedMetaObjects = 0x0, extradata = 0x0}}}, static staticMetaObject = {d = {superdata = 0x19278 <QObject::staticMetaObject>, stringdata = 0xf8bc <qt_meta_stringdata_ApplicationArguments>, data = 0xf93c <qt_meta_data_ApplicationArguments>, static_metacall = 0xf0f9 <ApplicationArguments::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)>, relatedMetaObjects = 0x0, extradata = 0x0}}, m_size = {wd = -1, ht = -1}}
+        view = 0xafa22338
+        mouseTouchAdaptor = 0x0
+        source = {d = 0xafa9a008}
+        application = 0xafa00628
+        args = {<QList<QString>> = {{p = {static shared_null = {ref = {atomic = {_q_value = -1}}, alloc = 0, begin = 0, end = 0, array = {0x0}}, d = 0xafa1bbe0}, d = 0xafa1bbe0}}, <No data fields>}
+        result = 0
+#17 0xb6499a2c in ?? () from /usr/lib/arm-linux-gnueabihf/libstdc++.so.6
+No symbol table info available.
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)

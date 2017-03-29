@@ -1,0 +1,26 @@
+#0  0x00007f225cd1a3a5 in raise () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00007f225cd1db0b in abort () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x00007f225cd52113 in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0x00007f225cd5ca96 in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#4  0x00007f225cd60d7c in free () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#5  0x00007f2241687503 in ?? () from /usr/lib/control-center-1/panels/libindicator-datetime.so
+No symbol table info available.
+#6  0x00007f225d2e634b in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00007f225d2e4b6d in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0x00007f225d2e5368 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0x00007f225d2e58a2 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0x00007f225ec7110d in gtk_main () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#11 0x00007f225da8a34e in g_application_run () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#12 0x00007f225f5ca76c in main ()
+No symbol table info available.

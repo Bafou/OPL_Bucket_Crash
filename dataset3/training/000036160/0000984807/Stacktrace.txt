@@ -1,0 +1,50 @@
+#0  0xb45e9ece in unity::ui::EdgeBarrierController::Impl::OnPointerBarrierEvent(unity::ui::PointerBarrierWrapper*, std::shared_ptr<unity::ui::BarrierEvent>) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0xb45ebeb5 in sigc::internal::slot_call2<sigc::bound_mem_functor2<void, unity::ui::EdgeBarrierController::Impl, unity::ui::PointerBarrierWrapper*, std::shared_ptr<unity::ui::BarrierEvent> >, void, unity::ui::PointerBarrierWrapper*, std::shared_ptr<unity::ui::BarrierEvent> >::call_it(sigc::internal::slot_rep*, unity::ui::PointerBarrierWrapper* const&, std::shared_ptr<unity::ui::BarrierEvent> const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0xb46b3f59 in unity::ui::PointerBarrierWrapper::EmitCurrentData() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0xb46b4132 in ?? () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0xb70f0a3f in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0xb70efcda in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0xb70f00e5 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0xb70f01c1 in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0xb77062ec in ?? () from /usr/lib/compizconfig/backends/libgconf.so
+No symbol table info available.
+#9  0xb6737c2f in ccsProcessEvents () from /usr/lib/libcompizconfig.so.0
+No symbol table info available.
+#10 0xb676234b in CcpScreen::timeout() () from /usr/lib/compiz/libccp.so
+No symbol table info available.
+#11 0xb6762621 in boost::detail::function::function_obj_invoker0<boost::_bi::bind_t<bool, boost::_mfi::mf0<bool, CcpScreen>, boost::_bi::list1<boost::_bi::value<CcpScreen*> > >, bool>::invoke(boost::detail::function::function_buffer&) () from /usr/lib/compiz/libccp.so
+No symbol table info available.
+#12 0xb76c23c3 in CompTimer::triggerCallback() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#13 0xb76c24d1 in CompTimeoutSource::callback() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#14 0xb76c25e2 in sigc::internal::slot_call0<sigc::bound_mem_functor0<bool, CompTimeoutSource>, bool>::call_it(sigc::internal::slot_rep*) () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#15 0xb76c175f in CompTimeoutSource::dispatch(sigc::slot_base*) () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#16 0xb71ea471 in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#17 0xb70efcda in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#18 0xb70f00e5 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#19 0xb70f052b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#20 0xb71eb983 in Glib::MainLoop::run() () from /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#21 0xb7676816 in compiz::private_screen::EventManager::startEventLoop() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#22 0xb7676852 in CompScreenImpl::eventLoop() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#23 0x0804a4f2 in CompManager::run() ()
+No symbol table info available.
+#24 0x0804a17c in main ()
+No symbol table info available.

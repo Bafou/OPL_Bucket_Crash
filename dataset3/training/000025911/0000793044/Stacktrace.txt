@@ -1,0 +1,323 @@
+#0  0x002f3191 in disconnect (this=0x8b95d00, instrIndex=146378636, context=0x8b95b90, error=0x8b99194, scope=0x8b9a3f0, output=0x8b9a3f0, storeFlags=...) at ../../include/QtDeclarative/private/../../../src/declarative/qml/qdeclarativenotifier_p.h:206
+No locals.
+#1  unsubscribe (this=0x8b95d00, instrIndex=146378636, context=0x8b95b90, error=0x8b99194, scope=0x8b9a3f0, output=0x8b9a3f0, storeFlags=...) at qml/qdeclarativecompiledbindings.cpp:664
+        sub = 0x8b98f8c
+#2  subscribeId (this=0x8b95d00, instrIndex=146378636, context=0x8b95b90, error=0x8b99194, scope=0x8b9a3f0, output=0x8b9a3f0, storeFlags=...) at qml/qdeclarativecompiledbindings.cpp:671
+No locals.
+#3  QDeclarativeCompiledBindingsPrivate::run (this=0x8b95d00, instrIndex=146378636, context=0x8b95b90, error=0x8b99194, scope=0x8b9a3f0, output=0x8b9a3f0, storeFlags=...) at qml/qdeclarativecompiledbindings.cpp:1150
+        engine = 0x88aeb28
+        registers = {{type = -1078527336, data = {0xb5784900, 0xfffffffe}}, {type = 136, data = {0x8ba1140, 0xb5796b40}}, {type = -1250045880, data = {0x8b95e20, 0x5}}, {type = 4497152, data = {0xbfb6fbb0, 0x0}}, {type = -1078527392, data = {0xbfb6fb0c, 0xb5c055d0}}, {type = 11783200, data = {0x4, 0xb3c9b0}}, {type = 146573664, data = {0xbfb6fa68, 0x1c055d0}}, {type = 0, data = {0x0, 0x0}}, {type = 2, data = {0xbfb6fab4, 0x8bde218}}, {type = 29892596, data = {0xffffffff, 0xb5bfd0e8}}, {type = -1245720344, data = {0xb3bc27, 0xbfb6fbd4}}, {type = 0, data = {0x0, 0x449ff4}}, {type = 4497396, data = {0x449ff4, 0x88aeb28}}, {type = 2657848, data = {0xbfb6fabc, 0xbfb6fabc}}, {type = 0, data = {0x1c81ff4, 0x1c828e8}}, {type = -1245720344, data = {0xb5c055d0, 0x449ff4}}, {type = 146381288, data = {0x0, 0xbfb6fb4c}}, {type = 2691896, data = {0x8b95dc0, 0x8b99a08}}, {type = -1078527056, data = {0x8b95b90, 0xbfb6fb0c}}, {type = -1250045880, data = {0x0, 0xffffffff}}, {type = -1078526968, data = {0x8b99978, 0x0}}, {type = 4497396, data = {0x88aeb28, 0x8b999d8}}, {type = -1078526856, data = {0x283607, 0xbfb6fbd4}}, {type = -1078526968, data = {0x0, 0x2}}, {type = 6, data = {0xb3c9b0, 0xfffffffe}}, {type = 4497396, data = {0x8b999d8, 0x0}}, {type = -1078526856, data = {0x29141d, 0x8b999e8}}, {type = -1078527056, data = {0xbfb6fb4c, 0xc5748d}}, {type = 0, data = {0xffffffff, 0x2835a9}}, {type = 2, data = {0x449ff4, 0x449ff4}}, {type = 4497396, data = {0x28af38, 0xbfb6fbb0}}, {type = -1078527056, data = {0xbfb6fc34, 0x6}}}
+        program = 0x8b155e0
+        decode_instr = {0x2f2648, 0x2f2280, 0x2f23a0, 0x2f2288, 0x2f2400, 0x2f2498, 0x2f25e0, 0x2f2560, 0x2f2580, 0x2f24c8, 0x2f2500, 0x2f2608, 0x2f2628, 0x2f2b50, 0x2f2b70, 0x2f2bb0, 0x2f2c00, 0x2f2e90, 0x2f2ef0, 0x2f2f40, 0x2f2f88, 0x2f2c50, 0x2f2ca0, 0x2f2cf0, 0x2f2d40, 0x2f2d88, 0x2f2de0, 0x2f2e38, 0x2f2e60, 0x2f2b30, 0x2f2900, 0x2f2930, 0x2f2a38, 0x2f2aa8, 0x2f2970, 0x2f2228, 0x2f2998, 0x2f2238, 0x2f2238, 0x2f26b8, 0x2f2650, 0x2f2730, 0x2f2770, 0x2f27b0, 0x2f27f0, 0x2f2870}
+#4  0x002f41e1 in QDeclarativeCompiledBindingsPrivate::run (this=0x8b95d00, binding=0x8b99174, flags=...) at qml/qdeclarativecompiledbindings.cpp:375
+        context = 0x8bc5544
+#5  0x002f4401 in QDeclarativeCompiledBindings::qt_metacall (this=0x8b95cd8, c=QMetaObject::InvokeMetaMethod, id=<value optimized out>) at qml/qdeclarativecompiledbindings.cpp:327
+        ii = <value optimized out>
+        reeval = 0x8b15654
+        count = 1
+        d = 0x8b95d00
+#6  0x00c3e8dd in metacall (object=0x8b95cd8, cl=QMetaObject::InvokeMetaMethod, idx=8, argv=0xbfb6fda4) at kernel/qmetaobject.cpp:237
+No locals.
+#7  QMetaObject::metacall (object=0x8b95cd8, cl=QMetaObject::InvokeMetaMethod, idx=8, argv=0xbfb6fda4) at kernel/qmetaobject.cpp:232
+No locals.
+#8  0x00c4d73a in QMetaObject::activate (sender=0x8ba1140, m=0x445f28, local_signal_index=0, argv=0x0) at kernel/qobject.cpp:3278
+        receiverInSameThread = <value optimized out>
+        previousSender = 0x0
+        receiver = 0x8b95cd8
+        method = 8
+        currentSender = {sender = 0x8ba1140, signal = 56, ref = 1}
+        c = 0x8bc1740
+        last = 0x8bc1610
+        methodOffset = 56
+        signal_absolute_index = 56
+        empty_argv = {0x0}
+        currentThreadData = 0x87be9d0
+        locker = {val = 144847152}
+        connectionLists = 0x8ba19e8
+        signalOffset = 46
+        signal_index = 46
+#9  0x00373965 in QDeclarativeGridView::countChanged (this=0x8ba1140) at .moc/release-shared/moc_qdeclarativegridview_p.cpp:319
+No locals.
+#10 0x0020ee84 in QDeclarativeGridView::setModel (this=0x8ba1140, model=...) at graphicsitems/qdeclarativegridview.cpp:1278
+        d = 0x8ba11a0
+        object = <value optimized out>
+        vim = <value optimized out>
+#11 0x00374435 in QDeclarativeGridView::qt_metacall (this=0x8ba1140, _c=QMetaObject::WriteProperty, _id=0, _a=0xbfb701a8) at .moc/release-shared/moc_qdeclarativegridview_p.cpp:280
+        _v = <value optimized out>
+#12 0x002749c9 in QDeclarativeVMEMetaObject::metaCall (this=0x8ba1c50, c=QMetaObject::WriteProperty, _id=65, a=0xbfb701a8) at qml/qdeclarativevmemetaobject.cpp:673
+No locals.
+#13 0x002749c9 in QDeclarativeVMEMetaObject::metaCall (this=0x8ba2868, c=QMetaObject::WriteProperty, _id=65, a=0xbfb701a8) at qml/qdeclarativevmemetaobject.cpp:673
+No locals.
+#14 0x00c3e8dd in metacall (object=0x8ba1140, cl=QMetaObject::WriteProperty, idx=65, argv=0xbfb701a8) at kernel/qmetaobject.cpp:237
+No locals.
+#15 QMetaObject::metacall (object=0x8ba1140, cl=QMetaObject::WriteProperty, idx=65, argv=0xbfb701a8) at kernel/qmetaobject.cpp:232
+No locals.
+#16 0x00290954 in QDeclarativePropertyPrivate::write (object=0x8ba1140, property=..., value=..., context=0x8b95b90, flags=...) at qml/qdeclarativeproperty.cpp:1152
+        args = {0xbfb70340, 0x0, 0xbfb701f0, 0xbfb7029c}
+        valMo = 0x6
+        o = 0x8bc5b18
+        propMo = 0x88aeb28
+        status = -1
+        variantType = 136
+        coreIdx = 65
+        propertyType = 138
+        enginePriv = 0x88aeb28
+#17 0x00291338 in QDeclarativePropertyPrivate::writeValueProperty (this=0x8ba2a68, value=..., flags=...) at qml/qdeclarativeproperty.cpp:1064
+        rv = false
+#18 0x0029141d in QDeclarativePropertyPrivate::write (that=..., value=..., flags=...) at qml/qdeclarativeproperty.cpp:1317
+No locals.
+#19 0x0028ab64 in QDeclarativeBinding::update (this=0x8ba2978, flags=...) at qml/qdeclarativebinding.cpp:359
+        ep = 0x88aeb28
+        isUndefined = false
+        value = {d = {data = {c = -24 '\350', i = 146427880, u = 146427880, b = 232, d = 7.2344985101364548e-316, f = 1.12132537e-33, real = 7.2344985101364548e-316, ll = 146427880, ull = 146427880, o = 0x8ba4fe8, ptr = 0x8ba4fe8, shared = 0x8ba4fe8}, type = 136, is_shared = 0, is_null = 0}, static handler = 0xd693e0}
+        scriptValue = {d_ptr = {d = 0x8bc5418}}
+        wasDeleted = false
+        d = 0x8ba29a8
+#20 0x0028b872 in QDeclarativeBinding::setEnabled (this=0x8ba2978, e=true, flags=...) at qml/qdeclarativebinding.cpp:411
+        d = <value optimized out>
+#21 0x002930bf in QDeclarativeComponentPrivate::complete (enginePriv=0x88aeb28, state=0x8acaa28) at qml/qdeclarativecomponent.cpp:876
+        jj = <value optimized out>
+        bv = {count = 26, values = 0x8b95be8}
+        ii = <value optimized out>
+#22 0x002934f4 in completeCreate (this=0x8aca9b8) at qml/qdeclarativecomponent.cpp:949
+        ep = <value optimized out>
+#23 QDeclarativeComponentPrivate::completeCreate (this=0x8aca9b8) at qml/qdeclarativecomponent.cpp:945
+No locals.
+#24 0x0024ffae in QDeclarativeVisualDataModel::completeItem (this=0x8acaa90) at graphicsitems/qdeclarativevisualitemmodel.cpp:1123
+        d = 0x8acaaa0
+#25 0x0025a2ab in QDeclarativeListViewPrivate::createItem (this=0x8ac8e70, modelIndex=0) at graphicsitems/qdeclarativelistview.cpp:577
+        itemPrivate = 0x8ba53f8
+        item = 0x8b95dc0
+        listItem = 0x8ba5f00
+#26 0x0025e910 in QDeclarativeListViewPrivate::refill (this=0x8ac8e70, from=-0, to=-1, doBuffer=true) at graphicsitems/qdeclarativelistview.cpp:655
+        bufferTo = 2147483646
+        itemEnd = <value optimized out>
+        pos = 0
+        fillFrom = -2147483647
+        fillTo = 2147483646
+        modelIndex = 0
+        item = 0x0
+        bufferFrom = -2147483647
+        changed = false
+#27 0x0025e8cb in QDeclarativeListViewPrivate::refill (this=0x8ac8e70, from=-0, to=-1, doBuffer=false) at graphicsitems/qdeclarativelistview.cpp:721
+        bufferTo = 2147483646
+        itemEnd = <value optimized out>
+        pos = 0
+        fillFrom = -0
+        fillTo = -1
+        modelIndex = <value optimized out>
+        item = 0x0
+        bufferFrom = -2147483647
+        changed = false
+#28 0x0025ed2a in QDeclarativeListView::refill (this=0x8ad0828) at graphicsitems/qdeclarativelistview.cpp:2724
+        d = 0x8ac8e70
+#29 0x00263322 in QDeclarativeListView::componentComplete (this=0x8ad0828) at graphicsitems/qdeclarativelistview.cpp:2693
+        d = 0x8ac8e70
+#30 0x00293158 in QDeclarativeComponentPrivate::complete (enginePriv=0x88aeb28, state=0x879d5a8) at qml/qdeclarativecomponent.cpp:890
+        status = 0x8bc5544
+        jj = 1
+        ps = {count = 2, values = 0x8ad02c8}
+        ii = <value optimized out>
+#31 0x002934f4 in completeCreate (this=0x879d538) at qml/qdeclarativecomponent.cpp:949
+        ep = <value optimized out>
+#32 QDeclarativeComponentPrivate::completeCreate (this=0x879d538) at qml/qdeclarativecomponent.cpp:945
+No locals.
+#33 0x0022a67d in QDeclarativeLoaderPrivate::_q_sourceLoaded (this=0x89c6ce8) at graphicsitems/qdeclarativeloader.cpp:404
+        creationContext = 0x8b98f8c
+        ctxt = 0x8abbbf8
+        c = {_vptr.QDeclarativeGuard = 0x43fe10, o = 0x8aa5348, next = 0x0, prev = 0x8ae95a0}
+        obj = 0x8abbb60
+#34 0x0022af04 in QDeclarativeLoader::qt_metacall (this=0x89c4268, _c=QMetaObject::WriteProperty, _id=0, _a=0xbfb70948) at .moc/release-shared/moc_qdeclarativeloader_p.cpp:136
+        _v = <value optimized out>
+#35 0x00c3e8dd in metacall (object=0x89c4268, cl=QMetaObject::WriteProperty, idx=39, argv=0xbfb70948) at kernel/qmetaobject.cpp:237
+No locals.
+#36 QMetaObject::metacall (object=0x89c4268, cl=QMetaObject::WriteProperty, idx=39, argv=0xbfb70948) at kernel/qmetaobject.cpp:232
+No locals.
+#37 0x00290a9a in QDeclarativePropertyPrivate::write (object=0x89c4268, property=..., value=..., context=0x89785c8, flags=...) at qml/qdeclarativeproperty.cpp:1118
+        u = {d = 0x8ab59e0}
+        status = -1
+        argv = {0xbfb70994, 0x0, 0xbfb709b4, 0xbfb70aa0}
+        status = -1
+        variantType = 10
+        coreIdx = 39
+        propertyType = 17
+        enginePriv = 0xbfb70994
+#38 0x003243dd in QDeclarativeObjectScriptClass::setProperty (this=0x88c1dd8, obj=0x89c4268, name=@0x6, value=..., context=0xb57dd048, evalContext=0x89785c8) at qml/qdeclarativeobjectscriptclass.cpp:387
+        v = {d = {data = {c = -80 '\260', i = 145383856, u = 145383856, b = 176, d = 1.0343753650208533e-307, f = 1.02544691e-33, real = 1.0343753650208533e-307, ll = 14241196870885808, ull = 14241196870885808, o = 0x8aa61b0, ptr = 0x8aa61b0, shared = 0x8aa61b0}, type = 10, is_shared = 0, is_null = 0}, static handler = 0xd693e0}
+        enginePriv = 0x88aeb28
+        delBinding = 0x8bc5544
+#39 0x00324888 in QDeclarativeObjectScriptClass::setProperty (this=0x88c1dd8, object=0x8aac3c0, name=@0xbfb70b40, value=...) at qml/qdeclarativeobjectscriptclass.cpp:315
+No locals.
+#40 0x01c0712a in QScript::DeclarativeObjectDelegate::put (this=0x8aaef98, object=0x8bc5544, exec=0xbfb70b4c, propertyName=..., value=..., slot=...) at bridge/qscriptdeclarativeobject.cpp:99
+        engine = 0x88aee48
+        flags = {i = 3}
+        identifier = 0xb5c091a0
+        p = 0x88c1e50
+#41 0x01bed9e4 in QScriptObject::put (this=0xb578af00, exec=0xb57dd048, propertyName=..., value=..., slot=...) at bridge/qscriptobject.cpp:80
+No locals.
+#42 0x01acfb46 in put (args=0xb5c52258) at ../3rdparty/javascriptcore/JavaScriptCore/runtime/JSObject.h:658
+No locals.
+#43 QTJSC::cti_op_put_by_id (args=0xb5c52258) at ../3rdparty/javascriptcore/JavaScriptCore/jit/JITStubs.cpp:1243
+        callFrame = 0xb57dd048
+        slot = {m_type = QTJSC::PutPropertySlot::Uncachable, m_base = 0x0, m_offset = 3044585216}
+        vl_args = 0xbfb70c24 ""
+        stackFrame = @0xbfb70c20
+        codeBlock = 0xb5c52180
+#44 0x063f92d9 in ?? ()
+No symbol table info available.
+#45 0x01a82927 in execute (this=0xb5c05360, functionExecutable=0xb5c46e58, callFrame=0x88af184, function=0xb578ae00, thisObj=0xb57dd048, args=..., scopeChain=0xb5c48b58, exception=0xb5c03e94) at ../3rdparty/javascriptcore/JavaScriptCore/jit/JITCode.h:79
+No locals.
+#46 QTJSC::Interpreter::execute (this=0xb5c05360, functionExecutable=0xb5c46e58, callFrame=0x88af184, function=0xb578ae00, thisObj=0xb57dd048, args=..., scopeChain=0xb5c48b58, exception=0xb5c03e94) at ../3rdparty/javascriptcore/JavaScriptCore/interpreter/Interpreter.cpp:716
+        oldEnd = 0xb57dd000
+        end = 0x6
+        newCallFrame = 0x200
+#47 0x01b1f132 in QTJSC::JSFunction::call (this=0xb578ae00, exec=0x88af184, thisValue=..., args=...) at ../3rdparty/javascriptcore/JavaScriptCore/runtime/JSFunction.cpp:122
+No locals.
+#48 0x01af29c9 in QTJSC::call (exec=0x88af184, functionObject=..., callType=QTJSC::CallTypeJS, callData=..., thisValue=..., args=...) at ../3rdparty/javascriptcore/JavaScriptCore/runtime/CallData.cpp:62
+No locals.
+#49 0x01be6dfc in QScriptValue::call (this=0x8bc5544, thisObject=..., args=...) at api/qscriptvalue.cpp:1605
+        exec = 0x88af184
+        callData = {native = {function = {ptr = 0xb5c46e58}}, js = {functionExecutable = 0xb5c46e58, scopeChain = 0xb5c48b58}}
+        jscThisObject = {u = {asEncodedJSValue = -5545355008, asDouble = -nan(0xffffeb5789900), asBits = {payload = -1250387712, tag = -2}}}
+        jscArgs = {m_args = 0xbfb70e04, m_argCount = 0}
+        callType = QTJSC::CallTypeJS
+        argsVector = {a = 8, s = 0, ptr = 0xbfb70e04, {array = "\364\237D\000\230\224\214\bq%'\000L\017\267\277$\032\215\b\250\024\216\b\243\"2\000\\\017\267\277\030\301\223\b", '\000' <repeats 16 times>, "I\000\000\000\030\032\215\b\274\353\212\b\000\000\000\000\200a\252\b", q_for_alignment_1 = 616030629603352564, q_for_alignment_2 = 1.7311824472141534e-267}}
+        result = {u = {asEncodedJSValue = -4632216855443705621, asDouble = -0.090077400370720248, asBits = {payload = 11759851, tag = -1078522032}}}
+#50 0x002748b3 in QDeclarativeVMEMetaObject::metaCall (this=0x88c9498, c=3216445272, _id=-1078522020, a=0xbfb71058) at qml/qdeclarativevmemetaobject.cpp:660
+        function = {d_ptr = {d = 0x8a64280}}
+        data = 0x88c2720
+        rv = {d_ptr = {d = 0x0}}
+        ep = 0x88aeb28
+        args = {{p = {static shared_null = {ref = {_q_value = 4935}, alloc = 0, begin = 0, end = 0, sharable = 1, array = {0x0}}, d = 0xd70f14}, d = 0xd70f14}}
+        plainSignals = 146378636
+#51 0x00c3e8dd in metacall (object=0x88e14a8, cl=QMetaObject::InvokeMetaMethod, idx=34, argv=0xbfb71058) at kernel/qmetaobject.cpp:237
+No locals.
+#52 QMetaObject::metacall (object=0x88e14a8, cl=QMetaObject::InvokeMetaMethod, idx=34, argv=0xbfb71058) at kernel/qmetaobject.cpp:232
+No locals.
+#53 0x00c40370 in QMetaMethod::invoke (this=0xbfb711bc, object=0x88e14a8, connectionType=Qt::DirectConnection, returnValue=..., val0=..., val1=..., val2=..., val3=..., val4=..., val5=..., val6=..., val7=..., val8=..., val9=...) at kernel/qmetaobject.cpp:1578
+        paramCount = 1
+        currentThread = 0x87c0450
+        param = {0x0 <repeats 11 times>}
+        methodIndex = 34
+        typeNames = {0x0 <repeats 11 times>}
+        metaMethodArgumentCount = 6
+        objectThread = 0x87c0450
+#54 0x00c427e7 in QMetaObject::invokeMethod (obj=0x88e14a8, member=0x8052929 "activateHome", type=Qt::AutoConnection, ret=..., val0=..., val1=..., val2=..., val3=..., val4=..., val5=..., val6=..., val7=..., val8=..., val9=...) at kernel/qmetaobject.cpp:1151
+        sig = {a = 512, s = 15, ptr = 0xbfb711d4 "activateHome()", {array = "activateHome()\000\000\000\000\000\000\320\350{\bۅ\303\000\034\237\201\b\330\362\225\b\244\025\267\277", '\000' <repeats 16 times>"\364, \037\240\001\330\362\225\b\244\025\267\277t\221\253\000\062a\257\000Ξ\004\b\244\025\267\277\244\025\267\277", '\000' <repeats 20 times>"\364, Ϭ\000\070`\255\000\001\000\000\000\330\022\267\277\362\226\253\000\320\350{\b\244\025\267\277p\026\v\001\320\350{\b\330\362\225\b\244\025\267\277\000\000\000\000\001\000\000\000n\207g\a\000\000\000\000\314~\255\000\224\244\254\000\000\000\000\000\211\031\253\001l\t\256\000\000\000\000\000>1c5\270\264{\bE\000\000\000\030٬\000\000\000\000\000\000\000\000\000\005\000\000\000\252\b\000\000\000\000\000\000Ph\206\267Ξ\004\b\274\203\256\000\350\207\004\b\001\000\000\000\364Ϭ\000\320\023\267\277\320ڬ\000\240\023\267\277y\231\253\000\220\023\267\277\350\207\004\b\204\023\267\277tڬ\000\000\000\000\000\000\000\000\000\005\000\000\000\000\000\000\000\001\000\000\000\030٬", '\000' <repeats 13 times>..., q_for_alignment_1 = 7310575256332428129, q_for_alignment_2 = 5.2856303875029792e+180}}
+        len = <value optimized out>
+        paramCount = <value optimized out>
+        idx = 34
+        typeNames = {0x0 <repeats 11 times>}
+        method = {mobj = 0x88c949c, handle = 33}
+#55 0x0805078b in invokeMethod (this=0xbfb720f8) at /usr/include/qt4/QtCore/qobjectdefs.h:408
+No locals.
+#56 DashDeclarativeView::activateHome (this=0xbfb720f8) at /build/buildd/unity-2d-3.8.6/places/app/dashdeclarativeview.cpp:288
+        dash = <value optimized out>
+#57 0x08051c50 in DashAdaptor::qt_metacall (this=0x895f2d8, _c=QMetaObject::InvokeMetaMethod, _id=2, _a=0xbfb7158c) at /build/buildd/unity-2d-3.8.6/obj-i686-linux-gnu/places/app/dashadaptor.moc:119
+No locals.
+#58 0x004da788 in QDBusConnectionPrivate::deliverCall (this=0x8945f40, object=0x895f2d8, msg=..., metaTypes=..., slotIdx=146560324) at qdbusintegrator.cpp:942
+        context = {connection = {static staticMetaObject = {d = {superdata = 0x0, stringdata = 0x520220 "QDBusConnection", data = 0x520440, extradata = 0x0}}, d = 0x8945f40}, message = @0x8aa60c8}
+        old = 0x0
+        ptr = {o = 0x895f2d8}
+        params = {a = 10, s = 1, ptr = 0xbfb7158c, {array = "\000\000\000\000\001\000\000\000\005\000\000\000\000\000\000\000\354\000\000\000P\026\267\277x\320\326\000\000\000\000\000\252\000L\000\330`\252\b8\361\252\b8\361\252\b", q_for_alignment_1 = 4294967296, q_for_alignment_2 = 2.1219957909652723e-314}}
+        i = -1078520488
+        outputArgs = {{p = {static shared_null = {ref = {_q_value = 4935}, alloc = 0, begin = 0, end = 0, sharable = 1, array = {0x0}}, d = 0xd70f14}, d = 0xd70f14}}
+        fail = 88
+        auxParameters = {{p = {static shared_null = {ref = {_q_value = 4935}, alloc = 0, begin = 0, end = 0, sharable = 1, array = {0x0}}, d = 0xd70f14}, d = 0xd70f14}}
+        pCount = 0
+#59 0x004db8e6 in QDBusConnectionPrivate::activateCall (this=0x8945f40, object=0x895f2d8, flags=273, msg=...) at qdbusintegrator.cpp:845
+        mo = 0x8a66474
+        memberName = {static shared_null = {ref = {_q_value = 1173}, alloc = 0, size = 0, data = 0xd70ed8 "", array = ""}, static shared_empty = {ref = {_q_value = 72}, alloc = 0, size = 0, data = 0xd70ec4 "", array = ""}, d = 0x884b680}
+        slotData = {flags = 273, slotIdx = 6, metaTypes = {{p = {static shared_null = {ref = {_q_value = 4935}, alloc = 0, begin = 0, end = 0, sharable = 1, array = {0x0}}, d = 0x8aabf08}, d = 0x8aabf08}}}
+        cachePropertyName = "_qdbus_slotCache"
+        slotCache = {hash = {<QHash<QString, QDBusSlotCache::Data>> = {{d = 0x8aa5320, e = 0x8aa5320}}, <No data fields>}}
+        cacheKey = {static null = {<No data fields>}, static shared_null = {ref = {_q_value = 1}, alloc = 0, size = 0, data = 0x8056572, clean = 0, simpletext = 0, righttoleft = 0, asciiCache = 0, capacity = 0, reserved = 0, array = {0}}, static shared_empty = {ref = {_q_value = 41}, alloc = 0, size = 0, data = 0xd70f9e, clean = 0, simpletext = 0, righttoleft = 0, asciiCache = 0, capacity = 0, reserved = 0, array = {0}}, d = 0x8aa5fe8, static codecForCStrings = 0x0}
+        signature = {static null = {<No data fields>}, static shared_null = {ref = {_q_value = 1}, alloc = 0, size = 0, data = 0x8056572, clean = 0, simpletext = 0, righttoleft = 0, asciiCache = 0, capacity = 0, reserved = 0, array = {0}}, static shared_empty = {ref = {_q_value = 41}, alloc = 0, size = 0, data = 0xd70f9e, clean = 0, simpletext = 0, righttoleft = 0, asciiCache = 0, capacity = 0, reserved = 0, array = {0}}, d = 0xd70f8c, static codecForCStrings = 0x0}
+#60 0x004dc264 in QDBusConnectionPrivate::activateObject (this=0x8945f40, node=..., msg=..., pathStartPos=-1078520096) at qdbusintegrator.cpp:1430
+        interfaceFound = true
+        connector = 0x895f498
+#61 0x004dc478 in QDBusActivateObjectEvent::placeMetaCall (this=0x8aa6088) at qdbusintegrator.cpp:1524
+No locals.
+#62 0x00c5081f in QObject::event (this=0xbfb720f8, e=0x8aa6088) at kernel/qobject.cpp:1217
+        mce = 0x8aa6088
+        currentSender = {sender = 0x8945f40, signal = -1, ref = 1}
+        previousSender = 0x0
+#63 0x011061c2 in QWidget::event (this=0xbfb720f8, event=0x8aa6088) at kernel/qwidget.cpp:8718
+No locals.
+#64 0x01505435 in QFrame::event (this=0xbfb720f8, e=0x8aa6088) at widgets/qframe.cpp:557
+        result = <value optimized out>
+#65 0x015995d4 in QAbstractScrollArea::event (this=0xbfb720f8, e=0x8aa6088) at widgets/qabstractscrollarea.cpp:996
+        d = 0x889c158
+#66 0x01754a78 in QGraphicsView::event (this=0xbfb720f8, event=0x8aa6088) at graphicsview/qgraphicsview.cpp:2741
+        d = <value optimized out>
+#67 0x010ac2b4 in notify_helper (this=0x87be8d0, receiver=0xbfb720f8, e=0x8aa6088) at kernel/qapplication.cpp:4467
+        consumed = <value optimized out>
+#68 QApplicationPrivate::notify_helper (this=0x87be8d0, receiver=0xbfb720f8, e=0x8aa6088) at kernel/qapplication.cpp:4439
+No locals.
+#69 0x010b1718 in QApplication::notify (this=0x87be8d0, receiver=0xbfb720f8, e=0x8aa6088) at kernel/qapplication.cpp:4432
+        res = true
+#70 0x00c3850e in QCoreApplication::notifyInternal (this=0xbfb72138, receiver=0xbfb720f8, event=0x8aa6088) at kernel/qcoreapplication.cpp:731
+        threadData = 0x87be9d0
+        returnValue = <value optimized out>
+        result = false
+        cbdata = {0xbfb720f8, 0x8aa6088, 0xbfb71d6f}
+        d = <value optimized out>
+#71 0x00c3bc68 in sendEvent (receiver=0x0, event_type=0, data=0x87be9d0) at ../../include/QtCore/../../src/corelib/kernel/qcoreapplication.h:215
+No locals.
+#72 QCoreApplicationPrivate::sendPostedEvents (receiver=0x0, event_type=0, data=0x87be9d0) at kernel/qcoreapplication.cpp:1372
+        r = 0xbfb720f8
+        locker = {val = 142338552}
+        startOffset = 0
+#73 0x00c3be2c in QCoreApplication::sendPostedEvents (receiver=0x0, event_type=0) at kernel/qcoreapplication.cpp:1265
+        data = <value optimized out>
+#74 0x00c662e4 in sendPostedEvents (s=0x87c0b10) at ../../include/QtCore/../../src/corelib/kernel/qcoreapplication.h:220
+No locals.
+#75 postEventSourceDispatch (s=0x87c0b10) at kernel/qeventdispatcher_glib.cpp:277
+        source = 0x87c0b10
+#76 0x0861eaa8 in g_main_dispatch (context=0x87a5ac8) at /build/buildd/glib2.0-2.28.6/./glib/gmain.c:2440
+        dispatch = 0xc662b0 <postEventSourceDispatch(GSource*, GSourceFunc, gpointer)>
+        was_in_call = 0
+        user_data = 0x0
+        callback = 0
+        cb_funcs = 0x0
+        cb_data = 0x0
+        current_source_link = {data = 0x87c0b10, next = 0x0}
+        need_destroy = <value optimized out>
+        source = 0x87c0b10
+        current = 0x87f9010
+        i = <value optimized out>
+#77 g_main_context_dispatch (context=0x87a5ac8) at /build/buildd/glib2.0-2.28.6/./glib/gmain.c:3013
+No locals.
+#78 0x0861f270 in g_main_context_iterate (context=0x87a5ac8, block=140703776, dispatch=1, self=<value optimized out>) at /build/buildd/glib2.0-2.28.6/./glib/gmain.c:3091
+        max_priority = 0
+        timeout = 0
+        some_ready = 1
+        nfds = <value optimized out>
+        allocated_nfds = <value optimized out>
+        fds = 0x8a649f8
+#79 0x0861f524 in g_main_context_iteration (context=0x87a5ac8, may_block=1) at /build/buildd/glib2.0-2.28.6/./glib/gmain.c:3154
+        retval = <value optimized out>
+#80 0x00c66717 in QEventDispatcherGlib::processEvents (this=0x8779650, flags=...) at kernel/qeventdispatcher_glib.cpp:422
+        d = 0x87c09d8
+        canWait = true
+        savedFlags = {i = 0}
+        result = <value optimized out>
+#81 0x0116168a in QGuiEventDispatcherGlib::processEvents (this=0x8779650, flags=...) at kernel/qguieventdispatcher_glib.cpp:204
+        d = 0x87c09d8
+        saved_flags = {i = 0}
+        returnValue = 68
+#82 0x00c3754d in QEventLoop::processEvents (this=0xbfb72084, flags=...) at kernel/qeventloop.cpp:149
+        d = 0x8a64998
+#83 0x00c37791 in QEventLoop::exec (this=0xbfb72084, flags=...) at kernel/qeventloop.cpp:201
+        d = 0x8a64998
+        app = 0xbfb7203c
+#84 0x00c3beda in QCoreApplication::exec () at kernel/qcoreapplication.cpp:1008
+        threadData = 0x87be9d0
+        eventLoop = {<QObject> = {_vptr.QObject = 0xd6e468, static staticMetaObject = {d = {superdata = 0x0, stringdata = 0xcfa260 "QObject", data = 0xcfa300, extradata = 0xd693c0}}, d_ptr = {d = 0x8a64998}, static staticQtMetaObject = {d = {superdata = 0x0, stringdata = 0xd02e40 "Qt", data = 0xd066c0, extradata = 0x0}}}, static staticMetaObject = {d = {superdata = 0xd693b0, stringdata = 0xd0c5c0 "QEventLoop", data = 0xd0c5e0, extradata = 0x0}}}
+        returnCode = <value optimized out>
+#85 0x010a9e54 in QApplication::exec () at kernel/qapplication.cpp:3741
+No locals.
+#86 0x0804e7b7 in main (argc=-1078517512, argv=0xbfb721e0) at /build/buildd/unity-2d-3.8.6/places/app/places.cpp:102
+        application = {<QCoreApplication> = {<QObject> = {_vptr.QObject = 0x19e98c8, static staticMetaObject = {d = {superdata = 0x0, stringdata = 0xcfa260 "QObject", data = 0xcfa300, extradata = 0xd693c0}}, d_ptr = {d = 0x87be8d0}, static staticQtMetaObject = {d = {superdata = 0x0, stringdata = 0xd02e40 "Qt", data = 0xd066c0, extradata = 0x0}}}, static staticMetaObject = {d = {superdata = 0xd693b0, stringdata = 0xd0c660 "QCoreApplication", data = 0xd0c700, extradata = 0x0}}, static self = 0xbfb72138}, static staticMetaObject = {d = {superdata = 0xd6e500, stringdata = 0x17c7e20 "QApplication", data = 0x17c8060, extradata = 0x0}}}
+        arguments = {q_hash = {{d = 0x8896d98, e = 0x8896d98}}}
+        view = {<Unity2DDeclarativeView> = {<QDeclarativeView> = {<QGraphicsView> = {<QAbstractScrollArea> = {<QFrame> = {<QWidget> = {<QObject> = {_vptr.QObject = 0x8053808, static staticMetaObject = {d = {superdata = 0x0, stringdata = 0xcfa260 "QObject", data = 0xcfa300, extradata = 0xd693c0}}, d_ptr = {d = 0x889c158}, static staticQtMetaObject = {d = {superdata = 0x0, stringdata = 0xd02e40 "Qt", data = 0xd066c0, extradata = 0x0}}}, <QPaintDevice> = {_vptr.QPaintDevice = 0x8053900, painters = 0}, static staticMetaObject = {d = {superdata = 0xd693b0, stringdata = 0x17cba80 "QWidget", data = 0x17cc000, extradata = 0x0}}, data = 0x889c210}, static staticMetaObject = {d = {superdata = 0x19ea89c, stringdata = 0x181fe20 "QFrame", data = 0x181fee0, extradata = 0x0}}}, static staticMetaObject = {d = {superdata = 0x19fd6dc, stringdata = 0x17fc460 "QAbstractScrollArea", data = 0x17fc580, extradata = 0x0}}}, static staticMetaObject = {d = {superdata = 0x19f1d68, stringdata = 0x1817bc0 "QGraphicsView", data = 0x1817f60, extradata = 0x19e96e0}}}, static staticMetaObject = {d = {superdata = 0x19f9ef0, stringdata = 0x39df60 "QDeclarativeView", data = 0x39e040, extradata = 0x0}}}, static staticMetaObject = {d = {superdata = 0x444454, stringdata = 0x4655e0 "Unity2DDeclarativeView", data = 0x465620, extradata = 0x0}}, m_useOpenGL = false}, static staticMetaObject = {d = {superdata = 0x80564d4, stringdata = 0x8053320 "DashDeclarativeView", data = 0x80535c0, extradata = 0x0}}, m_launcherClient = 0x889c878, m_mode = DashDeclarativeView::HiddenMode, m_expanded = true, m_activePlaceEntry = {static null = {<No data fields>}, static shared_null = {ref = {_q_value = 1}, alloc = 0, size = 0, data = 0x8056572, clean = 0, simpletext = 0, righttoleft = 0, asciiCache = 0, capacity = 0, reserved = 0, array = {0}}, static shared_empty = {ref = {_q_value = 41}, alloc = 0, size = 0, data = 0xd70f9e, clean = 0, simpletext = 0, righttoleft = 0, asciiCache = 0, capacity = 0, reserved = 0, array = {0}}, d = 0x8056560, static codecForCStrings = 0x0}}

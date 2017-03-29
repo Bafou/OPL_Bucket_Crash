@@ -1,0 +1,192 @@
+#0  0x002ffe4e in get_alignment (layout=0x9605180, line=0x9410540)
+    at /build/buildd/pango1.0-1.26.0/pango/pango-layout.c:2293
+	alignment = PANGO_ALIGN_LEFT
+#1  0x00305219 in pango_layout_get_extents_internal (layout=0x9605180, 
+    ink_rect=<value optimized out>, logical_rect=0xbf90cd50, line_extents=0x0)
+    at /build/buildd/pango1.0-1.26.0/pango/pango-layout.c:2450
+	line_list = (GSList *) 0x96207d8
+	y_offset = -1081029296
+	width = -1
+	need_width = <value optimized out>
+	__PRETTY_FUNCTION__ = "pango_layout_get_extents_internal"
+#2  0x010e2ad8 in gtk_label_size_request (widget=0x9601750, 
+    requisition=0x960176c) at /build/buildd/gtk+2.0-2.18.0/gtk/gtklabel.c:3074
+	width = <value optimized out>
+	height = <value optimized out>
+	logical_rect = {x = 157470096, y = 157470096, width = -1081029256, 
+  height = 12375340}
+	aux_info = <value optimized out>
+#3  0x00bb7fb8 in g_cclosure_marshal_VOID__BOXED ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00ba9719 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00baafb8 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00bc0000 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00bc1a7d in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#8  0x00bc1d92 in g_signal_emit_by_name () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#9  0x011621b6 in do_size_request (widget=0x9601750)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtksizegroup.c:628
+No locals.
+#10 0x0116246f in _gtk_size_group_compute_requisition (widget=0x9601750, 
+    requisition=0xbf90d1b8)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtksizegroup.c:828
+	width = 20778996
+	height = <value optimized out>
+#11 0x012166ef in IA__gtk_widget_size_request (widget=0x9601750, 
+    requisition=0xbf90d1b8)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtkwidget.c:3704
+	__PRETTY_FUNCTION__ = "IA__gtk_widget_size_request"
+#12 0x0102b1b3 in gtk_box_size_request (widget=0x95eeb78, 
+    requisition=0x95eeb94) at /build/buildd/gtk+2.0-2.18.0/gtk/gtkbox.c:280
+	child_requisition = {width = -1081028136, height = 12375340}
+	private = (GtkBoxPrivate *) 0x95eebc8
+	child = <value optimized out>
+	children = (GList *) 0x931d0c0
+	nvis_children = 0
+#13 0x00bb7fb8 in g_cclosure_marshal_VOID__BOXED ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#14 0x00ba9719 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#15 0x00baafb8 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#16 0x00bc0000 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#17 0x00bc1a7d in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#18 0x00bc1d92 in g_signal_emit_by_name () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#19 0x011621b6 in do_size_request (widget=0x95eeb78)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtksizegroup.c:628
+No locals.
+#20 0x0116246f in _gtk_size_group_compute_requisition (widget=0x95eeb78, 
+    requisition=0xbf90d618)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtksizegroup.c:828
+	width = 20778996
+	height = <value optimized out>
+#21 0x012166ef in IA__gtk_widget_size_request (widget=0x95eeb78, 
+    requisition=0xbf90d618)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtkwidget.c:3704
+	__PRETTY_FUNCTION__ = "IA__gtk_widget_size_request"
+#22 0x0102b1b3 in gtk_box_size_request (widget=0x95ee968, 
+    requisition=0x95ee984) at /build/buildd/gtk+2.0-2.18.0/gtk/gtkbox.c:280
+	child_requisition = {width = 95, height = 39}
+	private = (GtkBoxPrivate *) 0x95ee9b8
+	child = <value optimized out>
+	children = (GList *) 0x0
+	nvis_children = 1
+#23 0x00bb7fb8 in g_cclosure_marshal_VOID__BOXED ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#24 0x00ba9719 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#25 0x00baafb8 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#26 0x00bc0000 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#27 0x00bc1a7d in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#28 0x00bc1d92 in g_signal_emit_by_name () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#29 0x011621b6 in do_size_request (widget=0x95ee968)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtksizegroup.c:628
+No locals.
+#30 0x0116246f in _gtk_size_group_compute_requisition (widget=0x95ee968, 
+    requisition=0xbf90da48)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtksizegroup.c:828
+	width = 20778996
+	height = <value optimized out>
+#31 0x012166ef in IA__gtk_widget_size_request (widget=0x95ee968, 
+    requisition=0xbf90da48)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtkwidget.c:3704
+	__PRETTY_FUNCTION__ = "IA__gtk_widget_size_request"
+#32 0x0121fd2a in gtk_window_size_request (widget=0x919db80, 
+    requisition=0x919db9c)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtkwindow.c:4915
+	child_requisition = {width = -1081025944, height = 12375468}
+#33 0x00bb7fb8 in g_cclosure_marshal_VOID__BOXED ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#34 0x00ba9719 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#35 0x00bab092 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#36 0x00bc0000 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#37 0x00bc1a7d in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#38 0x00bc1d92 in g_signal_emit_by_name () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#39 0x011621b6 in do_size_request (widget=0x919db80)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtksizegroup.c:628
+No locals.
+#40 0x0116246f in _gtk_size_group_compute_requisition (widget=0x919db80, 
+    requisition=0x0) at /build/buildd/gtk+2.0-2.18.0/gtk/gtksizegroup.c:828
+	width = 20778996
+	height = <value optimized out>
+#41 0x012166ef in IA__gtk_widget_size_request (widget=0x919db80, 
+    requisition=0x0) at /build/buildd/gtk+2.0-2.18.0/gtk/gtkwidget.c:3704
+	__PRETTY_FUNCTION__ = "IA__gtk_widget_size_request"
+#42 0x0122009d in gtk_window_compute_configure_request (window=0x919db80, 
+    request=<value optimized out>, geometry=0xbf90e010, flags=0xbf90e06c)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtkwindow.c:5784
+	new_geometry = {min_width = -1233037136, min_height = 12228304, 
+  max_width = 12337294, max_height = -1081024560, base_width = 1, 
+  base_height = -1081024696, width_inc = 12468212, height_inc = -1081024540, 
+  min_aspect = -0.016476750373840401, max_aspect = -0.016479074997930093, 
+  win_gravity = 4286578688}
+	new_flags = <value optimized out>
+	w = <value optimized out>
+	h = <value optimized out>
+	pos = 2576980378
+	info = <value optimized out>
+	screen = (GdkScreen *) 0x911a0c8
+	x = <value optimized out>
+	y = <value optimized out>
+	__PRETTY_FUNCTION__ = "gtk_window_compute_configure_request"
+#43 0x01228b5e in gtk_window_check_resize (container=0x919db80)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtkwindow.c:5996
+No locals.
+#44 0x00bb894c in g_cclosure_marshal_VOID__VOID ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#45 0x00ba9719 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#46 0x00bab092 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#47 0x00bc03ee in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#48 0x00bc1a7d in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#49 0x00bc1f06 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#50 0x0105e21a in IA__gtk_container_check_resize (container=0x919db80)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtkcontainer.c:1424
+	__PRETTY_FUNCTION__ = "IA__gtk_container_check_resize"
+#51 0x0105e270 in gtk_container_idle_sizer (data=0x0)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtkcontainer.c:1350
+	widget = (GtkWidget *) 0x919db80
+#52 0x005b2ed8 in gdk_threads_dispatch (data=0x9316b00)
+    at /build/buildd/gtk+2.0-2.18.0/gdk/gdk.c:506
+	ret = 0
+#53 0x00e780f1 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#54 0x00e79e78 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#55 0x00e7d720 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#56 0x00e7db8f in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#57 0x010ec2d9 in IA__gtk_main ()
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtkmain.c:1205
+	tmp_list = (GList *) 0x90ef008
+	functions = (GList *) 0x0
+	init = (GtkInitFunction *) 0x91a4f00
+	loop = (GMainLoop *) 0x90f7788
+#58 0x0805d129 in main ()
+No symbol table info available.

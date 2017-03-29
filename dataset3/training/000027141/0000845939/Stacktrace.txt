@@ -1,0 +1,36 @@
+#0  0x00312af2 in g_type_instance_get_private () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#1  0x07fab99b in ?? () from /usr/lib/libgnome-bluetooth.so.8
+No symbol table info available.
+#2  0x07fb1a7a in ?? () from /usr/lib/libgnome-bluetooth.so.8
+No symbol table info available.
+#3  0x1102bdba in ?? () from /usr/lib/i386-linux-gnu/libdbus-glib-1.so.2
+No symbol table info available.
+#4  0x002ead8c in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x002ff1f0 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00307ebf in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00308033 in g_signal_emit () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#8  0x1102c460 in ?? () from /usr/lib/i386-linux-gnu/libdbus-glib-1.so.2
+No symbol table info available.
+#9  0x0a541441 in dbus_connection_dispatch () from /lib/i386-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#10 0x1102495d in ?? () from /usr/lib/i386-linux-gnu/libdbus-glib-1.so.2
+No symbol table info available.
+#11 0x0048430f in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#12 0x00484a40 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0x0048504b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00d89d45 in gtk_main () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#15 0x00c891c4 in ?? () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#16 0x00625adc in g_application_run () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#17 0x00803c66 in main ()
+No symbol table info available.

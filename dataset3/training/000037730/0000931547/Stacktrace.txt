@@ -1,0 +1,42 @@
+#0  0x000000000043faa0 in CompWindow::wmType() ()
+No symbol table info available.
+#1  0x00007fd423cf947d in WorkaroundsWindow::getFixedWindowType() () from /usr/lib/compiz/libworkarounds.so
+No symbol table info available.
+#2  0x00007fd423cf9ec3 in WorkaroundsScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libworkarounds.so
+No symbol table info available.
+#3  0x0000000000457be8 in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#4  0x0000000000457be8 in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#5  0x00007fd417cf496e in WobblyScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libwobbly.so
+No symbol table info available.
+#6  0x0000000000457be8 in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#7  0x00007fd4236955c2 in FadeScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libfade.so
+No symbol table info available.
+#8  0x0000000000457be8 in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#9  0x00007fd422fcf797 in PrivateScaleScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libscale.so
+No symbol table info available.
+#10 0x0000000000457be8 in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#11 0x00007fd422d354cd in unity::UnityScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#12 0x0000000000457be8 in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#13 0x000000000043196a in PrivateScreen::processEvents() ()
+No symbol table info available.
+#14 0x000000000045eac1 in CompEventSource::callback() ()
+No symbol table info available.
+#15 0x00007fd4340806bf in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/x86_64-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#16 0x00007fd433b8abca in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#17 0x00007fd433b8af90 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#18 0x00007fd433b8b38a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#19 0x000000000042e856 in CompScreen::eventLoop() ()
+No symbol table info available.
+#20 0x000000000042221a in main ()
+No symbol table info available.

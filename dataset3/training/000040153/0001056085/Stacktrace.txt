@@ -1,0 +1,8 @@
+#0  0xb77f5db8 in ?? ()
+No symbol table info available.
+#1  0xb77f74ff in ?? ()
+No symbol table info available.
+#2  0xb77abb8c in cc_shell_set_active_panel_from_id () from /usr/lib/libgnome-control-center.so.1
+No symbol table info available.
+#3  0xb77f4d6e in _start ()
+No symbol table info available.

@@ -1,0 +1,38 @@
+#0  0x00cce416 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0x0437cdd1 in raise () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x043802ae in abort () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0x043757e8 in __assert_fail () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#4  0x0620fa64 in ?? () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#5  0x0620faf4 in ?? () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#6  0x0621022f in _XEventsQueued () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#7  0x06200d28 in XPending () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#8  0x029d90be in ?? () from /usr/lib/i386-linux-gnu/libgdk-x11-2.0.so.0
+No symbol table info available.
+#9  0x03d26b6c in g_main_context_prepare () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0x03d27927 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0x03d27f1a in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#12 0x002a51aa in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#13 0x00edce0a in ?? () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#14 0x00275f5d in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#15 0x002761a1 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#16 0x0027a8fd in QCoreApplication::exec() () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#17 0x00e22f14 in QApplication::exec() () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#18 0x0804e3f6 in main ()
+No symbol table info available.

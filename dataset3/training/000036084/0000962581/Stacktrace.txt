@@ -1,0 +1,12 @@
+#0  0x00007fe9ec1f940e in ?? () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0x00007fe9ec1f9c2c in ?? () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x00007fe9fc9d7d8a in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007fe9fc9d8150 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007fe9fc9d854a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00000000004029ae in main ()
+No symbol table info available.

@@ -1,0 +1,26 @@
+#0  0xb337d958 in unity::launcher::LauncherModel::end() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0xb33607ff in unity::launcher::Controller::Impl::OnLauncherAddRequestSpecial(std::string const&, std::string const&, std::string const&, int, int, int) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0xb3361085 in unity::launcher::Controller::Impl::OnDBusMethodCall(_GDBusConnection*, char const*, char const*, char const*, char const*, _GVariant*, _GDBusMethodInvocation*, void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0xb627900b in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#4  0xb70c4c30 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0xb70c79e3 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0xb70c7d80 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0xb70c81db in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0xb71c6513 in Glib::MainLoop::run() () from /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#9  0xb7660c1a in compiz::private_screen::EventManager::startEventLoop(_XDisplay*) () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#10 0xb7660c64 in CompScreenImpl::eventLoop() () from /usr/lib/libcompiz_core.so.ABI-20120927
+No symbol table info available.
+#11 0x0804a5e2 in CompManager::run() ()
+No symbol table info available.
+#12 0x08049ecc in main ()
+No symbol table info available.

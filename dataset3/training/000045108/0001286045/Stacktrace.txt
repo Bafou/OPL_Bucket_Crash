@@ -1,0 +1,24 @@
+#0  0x00000000 in ?? ()
+No symbol table info available.
+#1  0xb6c7b94b in eglGetDisplay () from /usr/lib/i386-linux-gnu/libhybris-egl/libEGL.so.1
+No symbol table info available.
+#2  0xb4e442b1 in mir::graphics::mesa::helpers::EGLHelper::setup_internal(mir::graphics::mesa::helpers::GBMHelper const&, bool) () from /usr/lib/i386-linux-gnu/libmirplatformgraphics.so
+No symbol table info available.
+#3  0xb4e4458d in mir::graphics::mesa::helpers::EGLHelper::setup(mir::graphics::mesa::helpers::GBMHelper const&) () from /usr/lib/i386-linux-gnu/libmirplatformgraphics.so
+No symbol table info available.
+#4  0xb4e47952 in mir::graphics::mesa::Display::Display(std::shared_ptr<mir::graphics::mesa::Platform> const&, std::shared_ptr<mir::graphics::DisplayConfigurationPolicy> const&, std::shared_ptr<mir::graphics::DisplayReport> const&) () from /usr/lib/i386-linux-gnu/libmirplatformgraphics.so
+No symbol table info available.
+#5  0xb4e38e65 in mir::graphics::mesa::Platform::create_display(std::shared_ptr<mir::graphics::DisplayConfigurationPolicy> const&) () from /usr/lib/i386-linux-gnu/libmirplatformgraphics.so
+No symbol table info available.
+#6  0xb7603db8 in ?? () from /usr/lib/i386-linux-gnu/libmirserver.so.15
+No symbol table info available.
+#7  0xb7603575 in mir::DefaultServerConfiguration::the_display() () from /usr/lib/i386-linux-gnu/libmirserver.so.15
+No symbol table info available.
+#8  0xb75c23d4 in mir::DisplayServer::DisplayServer(mir::ServerConfiguration&) () from /usr/lib/i386-linux-gnu/libmirserver.so.15
+No symbol table info available.
+#9  0xb75bd5fb in mir::run_mir(mir::ServerConfiguration&, std::function<void (mir::DisplayServer&)>) () from /usr/lib/i386-linux-gnu/libmirserver.so.15
+No symbol table info available.
+#10 0x080672c1 in SystemCompositor::run(int, char**) ()
+No symbol table info available.
+#11 0x08060077 in main ()
+No symbol table info available.

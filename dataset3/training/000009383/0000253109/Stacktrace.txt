@@ -1,0 +1,59 @@
+#0  0x00007efffd97b6a8 in pthread_join () from /lib/libpthread.so.0
+#1  0x00007effef97bc62 in pa_thread_free (t=0x48504950) at pulsecore/thread-posix.c:114
+	__func__ = "pa_thread_free"
+	__PRETTY_FUNCTION__ = "pa_thread_free"
+#2  0x00007effef960789 in pa_threaded_mainloop_free (m=0xae3fd0) at pulse/thread-mainloop.c:127
+	__func__ = "pa_threaded_mainloop_free"
+	__PRETTY_FUNCTION__ = "pa_threaded_mainloop_free"
+#3  0x00007effefb981e1 in gst_pulsesink_finalize (object=0x82a800) at pulsesink.c:217
+	pulsesink = <value optimized out>
+#4  0x00007efffbb3f9a0 in g_object_unref () from /usr/lib/libgobject-2.0.so.0
+#5  0x00007efffeee74b9 in gst_bin_remove_func (bin=0x854bd0, element=0x82a800) at gstbin.c:1244
+	elem_name = (gchar *) 0x6d88b0 "\220jj"
+	it = <value optimized out>
+	is_sink = <value optimized out>
+	othersink = <value optimized out>
+	found = 1
+	clock_message = (GstMessage *) 0x0
+	walk = (GList *) 0x1
+	next = (GList *) 0x0
+	other_async = 0
+	this_async = 0
+	have_no_preroll = 0
+	ret = <value optimized out>
+	__PRETTY_FUNCTION__ = "gst_bin_remove_func"
+#6  0x00007efffeeeabfc in gst_bin_dispose (object=0x854bd0) at gstbin.c:504
+	bin = (GstBin *) 0x854bd0
+	__PRETTY_FUNCTION__ = "gst_bin_dispose"
+#7  0x00007efffbb3f92f in g_object_unref () from /usr/lib/libgobject-2.0.so.0
+#8  0x00007efff0603a51 in ?? () from /usr/lib/gstreamer-0.10/libgstgconfelements.so
+#9  0x00007efff060157e in ?? () from /usr/lib/gstreamer-0.10/libgstgconfelements.so
+#10 0x00007efff0601626 in ?? () from /usr/lib/gstreamer-0.10/libgstgconfelements.so
+#11 0x00007efffeef734e in gst_element_change_state (element=0xab1020, transition=0) at gstelement.c:2425
+	ret = GST_STATE_CHANGE_FAILURE
+	__PRETTY_FUNCTION__ = "gst_element_change_state"
+#12 0x00007efffeef7874 in gst_element_set_state_func (element=0xab1020, state=<value optimized out>) at gstelement.c:2375
+	current = GST_STATE_READY
+	next = 17
+	old_pending = GST_STATE_NULL
+	ret = <value optimized out>
+	old_ret = <value optimized out>
+	__PRETTY_FUNCTION__ = "gst_element_set_state_func"
+#13 0x000000000044135c in bacon_video_widget_new (width=<value optimized out>, height=<value optimized out>, type=BVW_USE_TYPE_VIDEO, err=0x7fff09d34418)
+    at /build/buildd/totem-2.22.1/src/backend/bacon-video-widget-gst-0.10.c:5217
+	confvalue = <value optimized out>
+	bvw = (BaconVideoWidget *) 0xaa6200
+	audio_sink = (GstElement *) 0xab1020
+	video_sink = (GstElement *) 0x89ecf0
+	version_str = <value optimized out>
+	__FUNCTION__ = "bacon_video_widget_new"
+#14 0x0000000000420317 in video_widget_create (totem=0x7f2070) at /build/buildd/totem-2.22.1/src/totem.c:2962
+	err = (GError *) 0x0
+	source_table = {{target = 0x44c8eb "text/uri-list", flags = 0, info = 0}}
+#15 0x00000000004235e2 in main (argc=2, argv=0x7fff09d34598) at /build/buildd/totem-2.22.1/src/totem.c:3210
+	totem = (Totem *) 0x7f2070
+	gc = <value optimized out>
+	program = (GnomeProgram *) 0x674050
+	context = <value optimized out>
+	baconoptiongroup = <value optimized out>
+	sidebar_pageid = 0x9f3530 "playlist"

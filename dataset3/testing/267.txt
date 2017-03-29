@@ -1,0 +1,80 @@
+#0  0x00007f258acd0179 in g_logv (log_domain=0x7f258ad0bfae "GLib", log_level=G_LOG_LEVEL_ERROR, format=<optimized out>, args=args@entry=0x7f2585e62988) at /build/buildd/glib2.0-2.37.3/./glib/gmessages.c:989
+        domain = 0x0
+        data = 0x0
+        depth = 1
+        log_func = 0x7f258accf910 <g_log_default_handler>
+        domain_fatal_mask = <optimized out>
+        masquerade_fatal = 0
+        test_level = <optimized out>
+        was_fatal = <optimized out>
+        was_recursion = <optimized out>
+        msg = 0x7f2580aabb40 "Creating pipes for GWakeup: Za dużo otwartych plików\n"
+        msg_alloc = 0x7f2580aabb40 "Creating pipes for GWakeup: Za dużo otwartych plików\n"
+        i = 2
+#1  0x00007f258acd02c2 in g_log (log_domain=log_domain@entry=0x7f258ad0bfae "GLib", log_level=log_level@entry=G_LOG_LEVEL_ERROR, format=format@entry=0x7f258ad5ef78 "Creating pipes for GWakeup: %s\n") at /build/buildd/glib2.0-2.37.3/./glib/gmessages.c:1025
+        args = {{gp_offset = 32, fp_offset = 48, overflow_arg_area = 0x7f2585e62a60, reg_save_area = 0x7f2585e629a0}}
+#2  0x00007f258ad0803b in g_wakeup_new () at /build/buildd/glib2.0-2.37.3/./glib/gwakeup.c:163
+        error = 0x7f25680274b0
+        wakeup = 0x1da3490
+#3  0x00007f258b209baf in g_cancellable_make_pollfd (cancellable=cancellable@entry=0x1ae22b0, pollfd=pollfd@entry=0x7f2580a21b20) at /build/buildd/glib2.0-2.37.3/./gio/gcancellable.c:402
+        __PRETTY_FUNCTION__ = "g_cancellable_make_pollfd"
+#4  0x00007f258b246010 in socket_source_new (cancellable=0x1ae22b0, condition=(G_IO_IN | G_IO_ERR | G_IO_HUP), socket=0x1b09130) at /build/buildd/glib2.0-2.37.3/./gio/gsocket.c:3264
+        source = 0x7f2580a21aa0
+        socket_source = 0x7f2580a21aa0
+#5  g_socket_create_source (socket=0x1b09130, condition=condition@entry=(G_IO_IN | G_IO_ERR | G_IO_HUP), cancellable=cancellable@entry=0x1ae22b0) at /build/buildd/glib2.0-2.37.3/./gio/gsocket.c:3329
+        __PRETTY_FUNCTION__ = "g_socket_create_source"
+#6  0x00007f258b2a448a in _g_socket_read_with_control_messages (socket=0x1b09130, buffer=0x7f2580589f10, count=16, messages=0x1b0cb00, num_messages=0x1b0cb08, io_priority=<optimized out>, cancellable=0x1ae22b0, callback=0x7f258b2a6160 <_g_dbus_worker_do_read_cb>, user_data=0x1b0ca70) at /build/buildd/glib2.0-2.37.3/./gio/gdbusprivate.c:201
+        source = <optimized out>
+        data = 0x7f25804ed330
+#7  0x00007f258b2a457a in _g_dbus_worker_do_read_unlocked (worker=worker@entry=0x1b0ca70) at /build/buildd/glib2.0-2.37.3/./gio/gdbusprivate.c:861
+No locals.
+#8  0x00007f258b2a6656 in _g_dbus_worker_do_read_cb (input_stream=<optimized out>, res=<optimized out>, user_data=user_data@entry=0x1b0ca70) at /build/buildd/glib2.0-2.37.3/./gio/gdbusprivate.c:810
+        message = 0x34462d0
+        worker = 0x1b0ca70
+        error = 0x0
+        bytes_read = 76
+#9  0x00007f258b243d0e in g_simple_async_result_complete (simple=0x202d000) at /build/buildd/glib2.0-2.37.3/./gio/gsimpleasyncresult.c:777
+        current_source = <optimized out>
+        current_context = <optimized out>
+        __PRETTY_FUNCTION__ = "g_simple_async_result_complete"
+#10 0x00007f258b243d7c in complete_in_idle_cb (data=0x202d000) at /build/buildd/glib2.0-2.37.3/./gio/gsimpleasyncresult.c:789
+        simple = <optimized out>
+#11 0x00007f258acc90a6 in g_main_dispatch (context=0x1b0d190) at /build/buildd/glib2.0-2.37.3/./glib/gmain.c:3058
+        dispatch = 0x7f258acc60f0 <g_idle_dispatch>
+        was_in_call = 0
+        user_data = 0x202d000
+        callback = 0x7f258b243d60 <complete_in_idle_cb>
+        cb_funcs = 0x7f258af7f940 <g_source_callback_funcs>
+        cb_data = 0x7f2581ba18b0
+        need_destroy = <optimized out>
+        current_source_link = {data = 0x7f2581bda640, next = 0x0}
+        source = 0x7f2581bda640
+        current = 0x1b06fb0
+        i = 0
+#12 g_main_context_dispatch (context=context@entry=0x1b0d190) at /build/buildd/glib2.0-2.37.3/./glib/gmain.c:3634
+No locals.
+#13 0x00007f258acc93f8 in g_main_context_iterate (context=0x1b0d190, block=block@entry=1, dispatch=dispatch@entry=1, self=<optimized out>) at /build/buildd/glib2.0-2.37.3/./glib/gmain.c:3705
+        max_priority = 0
+        timeout = 0
+        some_ready = 1
+        nfds = <optimized out>
+        allocated_nfds = 895
+        fds = 0x7f2582118810
+#14 0x00007f258acc97fa in g_main_loop_run (loop=0x1b0d120) at /build/buildd/glib2.0-2.37.3/./glib/gmain.c:3899
+        __PRETTY_FUNCTION__ = "g_main_loop_run"
+#15 0x00007f258b2a4646 in gdbus_shared_thread_func (user_data=0x1b0d160) at /build/buildd/glib2.0-2.37.3/./gio/gdbusprivate.c:278
+        data = 0x1b0d160
+#16 0x00007f258acedc25 in g_thread_proxy (data=0x1ae45e0) at /build/buildd/glib2.0-2.37.3/./glib/gthread.c:798
+        thread = 0x1ae45e0
+#17 0x00007f258aa6bf8e in start_thread (arg=0x7f2585e63700) at pthread_create.c:311
+        __res = <optimized out>
+        pd = 0x7f2585e63700
+        now = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {139799136974592, 1600733500699735399, 0, 139799251656800, 140737368002288, 4096, -1693923629355076249, -1693942874495224473}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = 0
+        pagesize_m1 = <optimized out>
+        sp = <optimized out>
+        freesize = <optimized out>
+        __PRETTY_FUNCTION__ = "start_thread"
+#18 0x00007f258a795e1d in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:113
+No locals.

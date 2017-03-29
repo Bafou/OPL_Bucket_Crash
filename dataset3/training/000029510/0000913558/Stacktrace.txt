@@ -1,0 +1,30 @@
+#0  0x00007fc65e17acf2 in UnityScreen::~UnityScreen() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0x00007fc65e17b3d9 in UnityScreen::~UnityScreen() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x00007fc65e189601 in PluginClassHandler<UnityScreen, CompScreen, 0>::get(CompScreen*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x00007fc65e18978c in CompPlugin::VTableForScreenAndWindow<UnityScreen, UnityWindow>::initScreen(CompScreen*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0x0000000000459f9a in CompManager::initPlugin(CompPlugin*) ()
+No symbol table info available.
+#5  0x000000000045bb5e in CompPlugin::push(CompPlugin*) ()
+No symbol table info available.
+#6  0x00000000004315ef in PrivateScreen::updatePlugins() ()
+No symbol table info available.
+#7  0x0000000000431ab3 in PrivateScreen::processEvents() ()
+No symbol table info available.
+#8  0x000000000045eac1 in CompEventSource::callback() ()
+No symbol table info available.
+#9  0x00007fc66c8aa9df in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#10 0x00007fc66c3b0a5d in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0x00007fc66c3b1258 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#12 0x00007fc66c3b1792 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0x000000000042e856 in CompScreen::eventLoop() ()
+No symbol table info available.
+#14 0x000000000042221a in main ()
+No symbol table info available.

@@ -1,0 +1,31 @@
+#0  0x00000000004063bd in ?? ()
+No symbol table info available.
+#1  0x00007faf3734b47c in ?? () from /usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0
+No symbol table info available.
+#2  0x00007faf38baecd5 in g_main_dispatch (context=0x1c27cd0) at /build/buildd/glib2.0-2.33.8/./glib/gmain.c:2707
+        dispatch = 0x7faf38bac120 <g_idle_dispatch>
+        was_in_call = 0
+        user_data = 0x1d45920
+        callback = 0x7faf3734b280
+        cb_funcs = 0x7faf38e5b9a0
+        cb_data = 0x20c5610
+        current_source_link = {data = 0x20b65f0, next = 0x0}
+        need_destroy = <optimized out>
+        source = 0x20b65f0
+        current = 0x1c39350
+        i = <optimized out>
+#3  g_main_context_dispatch (context=context@entry=0x1c27cd0) at /build/buildd/glib2.0-2.33.8/./glib/gmain.c:3211
+No locals.
+#4  0x00007faf38baf008 in g_main_context_iterate (context=0x1c27cd0, block=block@entry=1, dispatch=dispatch@entry=1, self=<error reading variable: Unhandled dwarf expression opcode 0xfa>) at /build/buildd/glib2.0-2.33.8/./glib/gmain.c:3282
+        max_priority = 200
+        timeout = 0
+        some_ready = 1
+        nfds = <optimized out>
+        allocated_nfds = <optimized out>
+        fds = 0x1ec7300
+#5  0x00007faf38baf402 in g_main_loop_run (loop=0x1ec6e70) at /build/buildd/glib2.0-2.33.8/./glib/gmain.c:3476
+        __PRETTY_FUNCTION__ = "g_main_loop_run"
+#6  0x00007faf3a1e1d45 in gtk_main () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#7  0x0000000000404fc2 in main ()
+No symbol table info available.

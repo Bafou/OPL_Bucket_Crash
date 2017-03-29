@@ -1,0 +1,41 @@
+#0  0x00007f676f3e6674 in g_slice_alloc () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007f676f3e6d36 in g_slice_alloc0 () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f676f3cddd5 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f676f3cde0c in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f676f3cdf67 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f676f3d086f in g_markup_parse_context_parse ()
+   from /lib/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f67703c119c in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#7  0x00007f67703c386d in gtk_label_set_markup ()
+   from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#8  0x00007f67704c52b4 in gtk_tooltip_set_markup ()
+   from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#9  0x00007f67704c5319 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#10 0x00007f67704c5617 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#11 0x00007f67703d25c8 in gtk_main_do_event ()
+   from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#12 0x00007f677002ce9c in ?? () from /usr/lib/libgdk-x11-2.0.so.0
+No symbol table info available.
+#13 0x00007f676f3c87e2 in g_main_context_dispatch ()
+   from /lib/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00007f676f3cc748 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#15 0x00007f676f3ccc55 in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#16 0x00007f6770349324 in gtk_dialog_run () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#17 0x000000000040a82c in main ()
+No symbol table info available.

@@ -1,0 +1,28 @@
+#0  0x001ca17b in gdk_window_focus () from /usr/lib/i386-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#1  0x0805f0fa in ?? ()
+No symbol table info available.
+#2  0x001e21b4 in ?? () from /usr/lib/i386-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#3  0x001e2397 in ?? () from /usr/lib/i386-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#4  0x001b01ee in gdk_display_get_event () from /usr/lib/i386-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#5  0x001e1ffa in ?? () from /usr/lib/i386-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#6  0x00416d8a in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00417195 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0x004175db in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0x00703155 in gtk_main () from /usr/lib/i386-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#10 0x08061723 in ?? ()
+No symbol table info available.
+#11 0x0804f3a0 in ?? ()
+No symbol table info available.
+#12 0x00ba84d3 in __libc_start_main () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#13 0x0804f3c5 in ?? ()
+No symbol table info available.

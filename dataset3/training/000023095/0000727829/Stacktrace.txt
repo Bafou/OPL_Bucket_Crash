@@ -1,0 +1,52 @@
+#0  0x00007fb02da72aa0 in ?? () from /lib/libc.so.6
+No symbol table info available.
+#1  0x00007fb01d3bb040 in nux::CairoGraphics::GetBitmap() () from /usr/lib/libnux-image-0.9.so.0
+No symbol table info available.
+#2  0x00007fb01dd13ce0 in PanelMenuView::Refresh() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x00007fb01dd141e6 in PanelMenuView::PostLayoutManagement(long) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0x00007fb01d99a442 in nux::View::ComputeChildLayout() () from /usr/lib/libnux-0.9.so.0
+No symbol table info available.
+#5  0x00007fb01d9918b4 in nux::HLayout::ComputeLayout2() () from /usr/lib/libnux-0.9.so.0
+No symbol table info available.
+#6  0x00007fb01d99a3a4 in nux::View::ComputeChildLayout() () from /usr/lib/libnux-0.9.so.0
+No symbol table info available.
+#7  0x00007fb01d9918b4 in nux::HLayout::ComputeLayout2() () from /usr/lib/libnux-0.9.so.0
+No symbol table info available.
+#8  0x00007fb01d99a3a4 in nux::View::ComputeChildLayout() () from /usr/lib/libnux-0.9.so.0
+No symbol table info available.
+#9  0x00007fb01d9653bf in nux::BaseWindow::SetLayout(nux::Layout*) () from /usr/lib/libnux-0.9.so.0
+No symbol table info available.
+#10 0x00007fb01dd53d04 in UnityScreen::initLauncher(nux::NThread*, void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#11 0x00007fb01dd53f00 in UnityScreen::initUnity(nux::NThread*, void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#12 0x00007fb01da22952 in nux::WindowThread::Run(void*) () from /usr/lib/libnux-0.9.so.0
+No symbol table info available.
+#13 0x00007fb01dd55aa0 in UnityScreen::UnityScreen(CompScreen*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#14 0x00007fb01dd5a099 in CompPlugin::VTableForScreenAndWindow<UnityScreen, UnityWindow>::initScreen(CompScreen*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#15 0x0000000000450faa in CompManager::initPlugin(CompPlugin*) ()
+No symbol table info available.
+#16 0x00000000004520ae in CompPlugin::push(CompPlugin*) ()
+No symbol table info available.
+#17 0x000000000042de6f in PrivateScreen::updatePlugins() ()
+No symbol table info available.
+#18 0x000000000042e238 in PrivateScreen::processEvents() ()
+No symbol table info available.
+#19 0x0000000000455318 in CompEventSource::callback() ()
+No symbol table info available.
+#20 0x00007fb02ec789df in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#21 0x00007fb02cc10c2d in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#22 0x00007fb02cc11418 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#23 0x00007fb02cc11a5a in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#24 0x0000000000429eca in CompScreen::eventLoop() ()
+No symbol table info available.
+#25 0x0000000000422e80 in main ()
+No symbol table info available.

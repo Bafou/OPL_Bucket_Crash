@@ -1,0 +1,26 @@
+#0  0x00007f05d110bd60 in QScriptValue::engine() const () from /usr/lib/libQtScript.so.4
+No symbol table info available.
+#1  0x00007f05d4668d7f in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#2  0x00007f05d45d1f55 in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#3  0x00007f05d466a156 in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#4  0x00007f05d466fe4d in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#5  0x00007f05d1131a50 in ?? () from /usr/lib/libQtScript.so.4
+No symbol table info available.
+#6  0x00007f05d0ffe39a in ?? () from /usr/lib/libQtScript.so.4
+No symbol table info available.
+#7  0x00007f05b39cfcf0 in ?? ()
+No symbol table info available.
+#8  0x00007f05d4a8c478 in ?? ()
+No symbol table info available.
+#9  0x00007f05b3a214e8 in ?? ()
+No symbol table info available.
+#10 0x00007f0500000001 in ?? ()
+No symbol table info available.
+#11 0x8ef19143124e2100 in ?? ()
+No symbol table info available.
+#12 0x0000000000000000 in ?? ()
+No symbol table info available.

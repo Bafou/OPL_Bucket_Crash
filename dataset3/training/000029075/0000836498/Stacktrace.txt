@@ -1,0 +1,65 @@
+#0  0xb5ed1583 in QScriptValue::call(QScriptValue const&, QList<QScriptValue> const&) () from /usr/lib/i386-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#1  0xb691fca9 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#2  0xb691ffb2 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#3  0xb69202b6 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#4  0xb6920434 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#5  0xb6958e30 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#6  0xb778dbed in QMetaObject::metacall(QObject*, QMetaObject::Call, int, void**) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#7  0xb779ca1a in QMetaObject::activate(QObject*, QMetaObject const*, int, void**) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#8  0xb779d0d8 in QMetaObject::activate(QObject*, int, void**) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#9  0xb690c268 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#10 0xb690bbb1 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#11 0xb778dbed in QMetaObject::metacall(QObject*, QMetaObject::Call, int, void**) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#12 0xb69bcd2f in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#13 0xb69be5e6 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#14 0xb69bf4ae in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#15 0xb5ef127c in ?? () from /usr/lib/i386-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#16 0xb5ddcb43 in ?? () from /usr/lib/i386-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#17 0xb5db10ff in ?? () from /usr/lib/i386-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#18 0xb1ca57f1 in ?? ()
+No symbol table info available.
+#19 0xb5d6c967 in ?? () from /usr/lib/i386-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#20 0xb5e09312 in ?? () from /usr/lib/i386-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#21 0xb5ddcba9 in ?? () from /usr/lib/i386-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#22 0xb5ed149c in QScriptValue::call(QScriptValue const&, QList<QScriptValue> const&) () from /usr/lib/i386-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#23 0xb691fca9 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#24 0xb691ffb2 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#25 0xb69202b6 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#26 0xb6920434 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#27 0xb6958e30 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#28 0xb778dbed in QMetaObject::metacall(QObject*, QMetaObject::Call, int, void**) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#29 0xb779ca1a in QMetaObject::activate(QObject*, QMetaObject const*, int, void**) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#30 0xb65ff105 in BlendedImageProvider::requestImage(QString const&, QSize*, QSize const&) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#31 0x406ba000 in ?? ()
+No symbol table info available.
+Backtrace stopped: Not enough registers or memory available to unwind further

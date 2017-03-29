@@ -1,0 +1,18 @@
+#0  0x00007f7ba2654453 in unity::hud::HudIconTextureSource::ColorForIcon(_GdkPixbuf*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0x00007f7ba26da014 in ?? () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x00007f7ba27950ef in unity::IconTexture::IconLoaded(std::string const&, unsigned int, _GdkPixbuf*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x00007f7ba267d593 in unity::IconLoader::Impl::CoalesceTasksCb(unity::IconLoader::Impl*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0x00007f7bb47f4a1b in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f7bb47f3dda in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f7bb47f41a0 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00007f7bb47f459a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0x00000000004029ae in main ()
+No symbol table info available.

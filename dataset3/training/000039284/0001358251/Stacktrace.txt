@@ -1,0 +1,18 @@
+#0  0x0804d0b8 in ?? ()
+No symbol table info available.
+#1  0xb7206ab6 in atk_object_get_n_accessible_children () from /usr/lib/i386-linux-gnu/libatk-1.0.so.0
+No symbol table info available.
+#2  0xb52dd749 in ?? () from /usr/lib/i386-linux-gnu/gtk-3.0/modules/libatk-bridge.so
+No symbol table info available.
+#3  0xb6e1d850 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0xb6e1fd86 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0xb6e20125 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0xb6e2056b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0xb741bfe5 in gtk_main () from /usr/lib/i386-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#8  0x0804bbb6 in main ()
+No symbol table info available.

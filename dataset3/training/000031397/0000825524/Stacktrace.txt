@@ -1,0 +1,63 @@
+#0  0x006f5416 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0x00861c7f in __GI_raise (sig=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:64
+        resultvar = <optimized out>
+        resultvar = <optimized out>
+        pid = 10141684
+        selftid = 10888
+#2  0x008652a5 in __GI_abort () at abort.c:92
+        save_stage = 2
+        act = {__sigaction_handler = {sa_handler = 0xbfb4dec8, sa_sigaction = 0xbfb4dec8}, sa_mask = {__val = {12445641, 3216301748, 7595400, 3216301724, 12536436, 0, 3078877840, 5, 0, 1, 3078910680, 152320112, 7883035, 152320112, 3216301820, 4, 8597492, 148709488, 7883014, 8597492, 0, 152320112, 3216301808, 147987392, 0, 3078910680, 7635833, 9056979, 8007646, 152320112, 0, 3216301820}}, sa_flags = 4, sa_restorer = 0x9149628}
+        sigs = {__val = {32, 0 <repeats 31 times>}}
+#3  0x007a351e in g_assertion_message () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x007a3b1f in g_assertion_message_expr () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x007c16cf in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x007c1f27 in g_variant_type_info_unref () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x007bb26a in g_variant_unref () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0x042599fb in ?? () from /usr/lib/libdbusmenu-glib.so.4
+No symbol table info available.
+#9  0x0076b748 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0x0076bbd2 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0x0425b1f3 in dbusmenu_menuitem_property_set_variant () from /usr/lib/libdbusmenu-glib.so.4
+No symbol table info available.
+#12 0x04264720 in ?? () from /usr/lib/libdbusmenu-glib.so.4
+No symbol table info available.
+#13 0x0426539a in ?? () from /usr/lib/libdbusmenu-glib.so.4
+No symbol table info available.
+#14 0x00d2435a in ffi_call_SYSV () from /usr/lib/i386-linux-gnu/libffi.so.6
+No symbol table info available.
+#15 0x00d2408f in ffi_call () from /usr/lib/i386-linux-gnu/libffi.so.6
+No symbol table info available.
+#16 0x009dbede in g_cclosure_marshal_generic () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#17 0x009dba2c in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#18 0x009efe80 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#19 0x009f8b4f in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#20 0x009f8cc3 in g_signal_emit () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#21 0x00e3faaa in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#22 0x00e2d295 in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#23 0x00779c30 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#24 0x0077de1f in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#25 0x0077e550 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#26 0x0077eb5b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#27 0x0027a6e5 in gtk_main () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#28 0x0804af46 in main ()
+No symbol table info available.

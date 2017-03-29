@@ -1,0 +1,222 @@
+#0  0xb74877b4 in *__GI_getenv (name=0xb7c470d8 "GTK_DEBUG") at getenv.c:84
+	ep = (char **) 0xa163d20
+	name_start = <value optimized out>
+#1  0xb761e481 in g_getenv () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#2  0xb7a51cd8 in gtk_rc_parse_assignment (scanner=0xa107080, 
+    style=<value optimized out>, prop=0xbf9dd618)
+    at /build/buildd/gtk+2.0-2.18.1/gtk/gtkrc.c:2679
+	negate = 14
+	is_color = <value optimized out>
+	token = 61
+#3  0xb7a52d0d in gtk_rc_parse_style (context=<value optimized out>, 
+    scanner=0xa107080) at /build/buildd/gtk+2.0-2.18.1/gtk/gtkrc.c:3223
+	prop = {type_name = 157, property_name = 158, origin = 0x0, value = {
+    g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, 
+        v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, 
+        v_pointer = 0x0}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, 
+        v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, 
+        v_pointer = 0x0}}}}
+	rc_style = (GtkRcStyle *) 0xa22cbd0
+	orig_style = <value optimized out>
+	parent_style = <value optimized out>
+	rc_priv = (GtkRcStylePrivate *) 0xa22cd18
+	token = <value optimized out>
+	i = <value optimized out>
+	our_factory = (GtkIconFactory *) 0x0
+	our_hash = (GHashTable *) 0xa0b0230
+	__PRETTY_FUNCTION__ = "gtk_rc_parse_style"
+#4  0xb7a53688 in gtk_rc_parse_any (context=<value optimized out>, 
+    input_name=<value optimized out>, input_fd=11, input_string=0x0)
+    at /build/buildd/gtk+2.0-2.18.1/gtk/gtkrc.c:2941
+	expected_token = <value optimized out>
+	scanner = (GScanner *) 0xa107080
+	__PRETTY_FUNCTION__ = "gtk_rc_parse_any"
+#5  0xb7a53d0d in gtk_rc_context_parse_one_file (context=0xa02b200, 
+    filename=0xa079d20 "/home/manrico/.themes/XPLuna/gtk-2.0/panel.rc", 
+    priority=12, reload=0) at /build/buildd/gtk+2.0-2.18.1/gtk/gtkrc.c:1055
+	fd = 1
+	rc_file = <value optimized out>
+	statbuf = {st_dev = 2067, __pad1 = 0, __st_ino = 2215043, 
+  st_mode = 33256, st_nlink = 1, st_uid = 1000, st_gid = 1000, st_rdev = 0, 
+  __pad2 = 0, st_size = 4914, st_blksize = 4096, st_blocks = 16, st_atim = {
+    tv_sec = 1254601345, tv_nsec = 0}, st_mtim = {tv_sec = 1199739690, 
+    tv_nsec = 0}, st_ctim = {tv_sec = 1252218167, tv_nsec = 0}, 
+  st_ino = 2215043}
+	saved_priority = 12
+	__PRETTY_FUNCTION__ = "gtk_rc_context_parse_one_file"
+#6  0xb7a53e8c in gtk_rc_context_parse_file (context=<value optimized out>, 
+    filename=<value optimized out>, priority=12, reload=0)
+    at /build/buildd/gtk+2.0-2.18.1/gtk/gtkrc.c:1121
+	locale_suffixes = {0xa1b50d8 "it_IT", 0xa1a0620 "it"}
+	n_locale_suffixes = 2
+	p = <value optimized out>
+	locale = <value optimized out>
+	length = 11
+	j = 0
+	found = 0
+#7  0xb7a539de in gtk_rc_parse_any (context=<value optimized out>, 
+    input_name=<value optimized out>, input_fd=10, input_string=0x0)
+    at /build/buildd/gtk+2.0-2.18.1/gtk/gtkrc.c:2909
+	expected_token = <value optimized out>
+	scanner = (GScanner *) 0xa079d20
+	__PRETTY_FUNCTION__ = "gtk_rc_parse_any"
+#8  0xb7a53d0d in gtk_rc_context_parse_one_file (context=0xa02b200, 
+    filename=0xa1dc8d0 "/home/manrico/.themes/XPLuna/gtk-2.0/gtkrc", 
+    priority=12, reload=0) at /build/buildd/gtk+2.0-2.18.1/gtk/gtkrc.c:1055
+	fd = 1
+	rc_file = <value optimized out>
+	statbuf = {st_dev = 2067, __pad1 = 0, __st_ino = 2214962, 
+  st_mode = 33188, st_nlink = 1, st_uid = 1000, st_gid = 1000, st_rdev = 0, 
+  __pad2 = 0, st_size = 40605, st_blksize = 4096, st_blocks = 80, st_atim = {
+    tv_sec = 1254601345, tv_nsec = 0}, st_mtim = {tv_sec = 1214079878, 
+    tv_nsec = 0}, st_ctim = {tv_sec = 1252218167, tv_nsec = 0}, 
+  st_ino = 2214962}
+	saved_priority = 12
+	__PRETTY_FUNCTION__ = "gtk_rc_context_parse_one_file"
+#9  0xb7a53e8c in gtk_rc_context_parse_file (context=<value optimized out>, 
+    filename=<value optimized out>, priority=12, reload=0)
+    at /build/buildd/gtk+2.0-2.18.1/gtk/gtkrc.c:1121
+	locale_suffixes = {0xa079b28 "it_IT", 0xa107e48 "it"}
+	n_locale_suffixes = 2
+	p = <value optimized out>
+	locale = <value optimized out>
+	length = 11
+	j = 0
+	found = 0
+#10 0xb7a539de in gtk_rc_parse_any (context=<value optimized out>, 
+    input_name=<value optimized out>, input_fd=5, input_string=0x0)
+    at /build/buildd/gtk+2.0-2.18.1/gtk/gtkrc.c:2909
+	expected_token = <value optimized out>
+	scanner = (GScanner *) 0xa0aff78
+	__PRETTY_FUNCTION__ = "gtk_rc_parse_any"
+#11 0xb7a53d0d in gtk_rc_context_parse_one_file (context=0xa02b200, 
+    filename=0xa0081b0 "/home/manrico/.gtkrc-2.0", priority=12, reload=0)
+    at /build/buildd/gtk+2.0-2.18.1/gtk/gtkrc.c:1055
+	fd = 1
+	rc_file = <value optimized out>
+	statbuf = {st_dev = 2067, __pad1 = 0, __st_ino = 2172192, 
+  st_mode = 33188, st_nlink = 1, st_uid = 1000, st_gid = 1000, st_rdev = 0, 
+  __pad2 = 0, st_size = 276, st_blksize = 4096, st_blocks = 8, st_atim = {
+    tv_sec = 1254601345, tv_nsec = 0}, st_mtim = {tv_sec = 1252224785, 
+    tv_nsec = 0}, st_ctim = {tv_sec = 1252224785, tv_nsec = 0}, 
+  st_ino = 2172192}
+	saved_priority = 12
+	__PRETTY_FUNCTION__ = "gtk_rc_context_parse_one_file"
+#12 0xb7a53e8c in gtk_rc_context_parse_file (context=<value optimized out>, 
+    filename=<value optimized out>, priority=12, reload=0)
+    at /build/buildd/gtk+2.0-2.18.1/gtk/gtkrc.c:1121
+	locale_suffixes = {0xa161af0 "it_IT", 0xa17d470 "it"}
+	n_locale_suffixes = 2
+	p = <value optimized out>
+	locale = <value optimized out>
+	length = 11
+	j = 0
+	found = 0
+#13 0xb7a542ae in IA__gtk_rc_reparse_all_for_settings (settings=0xa009f20, 
+    force_load=1) at /build/buildd/gtk+2.0-2.18.1/gtk/gtkrc.c:884
+	rc_file = <value optimized out>
+	tmp_list = <value optimized out>
+	context = (GtkRcContext *) 0xa02b200
+	statbuf = {st_dev = 0, __pad1 = 0, __st_ino = 0, st_mode = 0, 
+  st_nlink = 0, st_uid = 0, st_gid = 0, st_rdev = 0, __pad2 = 0, st_size = 0, 
+  st_blksize = 0, st_blocks = 0, st_atim = {tv_sec = 168464256, 
+    tv_nsec = 838}, st_mtim = {tv_sec = 0, tv_nsec = -1217662988}, st_ctim = {
+    tv_sec = 167812896, tv_nsec = 169548608}, st_ino = 13216000327357946920}
+	__PRETTY_FUNCTION__ = "IA__gtk_rc_reparse_all_for_settings"
+#14 0xb7a54563 in gtk_rc_settings_changed (settings=0xa009f20, 
+    pspec=0xa0209a8, context=0xa02b200)
+    at /build/buildd/gtk+2.0-2.18.1/gtk/gtkrc.c:682
+	new_theme_name = (gchar *) 0xa107fb0 "H2O-gtk2-Saphire"
+	new_key_theme_name = (gchar *) 0xa0892d8 "Default"
+#15 0xb7693068 in g_cclosure_marshal_VOID__PARAM ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#16 0xb7686092 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#17 0xb769b6f8 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#18 0xb769ca7d in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#19 0xb769cf06 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#20 0xb768a3b1 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#21 0xb7686dcf in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#22 0xb768b432 in g_object_set_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#23 0xb768b596 in g_object_set () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#24 0x080721f1 in create_gtk_theme_pixbuf (theme_thumbnail_data=0xbf9de884)
+    at theme-thumbnail.c:364
+	settings = (GtkSettings *) 0x5447
+	window = <value optimized out>
+	vbox = (GtkWidget *) 0x8
+	box = (GtkWidget *) 0x8
+	stock_button = <value optimized out>
+	checkbox = (GtkWidget *) 0xa070718
+	radio = (GtkWidget *) 0xb75c46fa
+	requisition = {width = 167719312, height = -1080170364}
+	allocation = {x = 167929032, y = 168455016, width = 168235008, 
+  height = 134733812}
+	visual = (GdkVisual *) 0x5447
+	pixmap = (GdkPixmap *) 0x8
+	pixbuf = <value optimized out>
+	retval = (GdkPixbuf *) 0x5447
+	width = <value optimized out>
+	height = <value optimized out>
+	__PRETTY_FUNCTION__ = "create_gtk_theme_pixbuf"
+#25 0x08072bfb in message_from_capplet (source=0xa070510, condition=G_IO_IN, 
+    data=0xbf9de884) at theme-thumbnail.c:680
+	pixbuf = (GdkPixbuf *) 0xa04bb90
+	i = <value optimized out>
+	rowstride = 169548892
+	type = <value optimized out>
+	pixels = <value optimized out>
+	width = <value optimized out>
+	height = <value optimized out>
+	buffer = "H2O-gtk2-Saphire\000\000\000\000Sans 10\000\\\034\033\n\004\000\000\000°9\035\nôOg·øâ\235¿tÖp· (ÿ\t\020\000\000\000¸â\235¿\000\000\000\000\224ä\235¿P\034\033\n8ã\235¿tÖp·ô\177E·\b\000\000\000øâ\235¿\024\aj·\000\202\f\n0º\025\nèâ\235¿UOE·\001", '\0' <repeats 11 times>, "\024\aj·\001\000\000\000ôOg·hã\235¿\036^\207·\001\000\000\000\001\000\000\000Xã\235¿ôïk·\b\000\002\n\b\000\002\nHã\235¿æ\200h·\f\000\002\nt\000\000\000s\000\000\000ô\217\214·\030\215\033\n0"...
+	status = <value optimized out>
+	bytes_read = 28
+	__PRETTY_FUNCTION__ = "message_from_capplet"
+#26 0xb7620d5b in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#27 0xb75e9e78 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#28 0xb75ed720 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#29 0xb75edb8f in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#30 0xb7a01379 in IA__gtk_main ()
+    at /build/buildd/gtk+2.0-2.18.1/gtk/gtkmain.c:1205
+	tmp_list = (GList *) 0xa070510
+	functions = (GList *) 0x0
+	init = (GtkInitFunction *) 0xbf9de950
+	loop = (GMainLoop *) 0xa0704e0
+#31 0x08071e12 in theme_thumbnail_factory_init (argc=1, argv=0xbf9dea24)
+    at theme-thumbnail.c:1201
+	data = {status = 7, type = 0x9ff32b0, control_theme_name = 0x9ff3280, 
+  gtk_color_scheme = 0x9ff3250, wm_theme_name = 0x9ff3220, 
+  icon_theme_name = 0x9ff31c0, application_font = 0x9ff3190}
+	channel = (GIOChannel *) 0xa070510
+	__PRETTY_FUNCTION__ = "theme_thumbnail_factory_init"
+#32 0x0805ce8a in main (argc=1, argv=0xbf9dea24) at appearance-main.c:42
+	w = <value optimized out>
+	install_filename = (gchar *) 0x0
+	start_page = (gchar *) 0x0
+	wallpaper_files = (gchar **) 0x0
+	option_context = (GOptionContext *) 0x9ff2008
+	option_entries = {{long_name = 0x8075b98 "install-theme", 
+    short_name = 105 'i', flags = 2, arg = G_OPTION_ARG_FILENAME, 
+    arg_data = 0xbf9de95c, 
+    description = 0x8075c78 "Specify the filename of a theme to install", 
+    arg_description = 0x8075ba6 "filename"}, {
+    long_name = 0x8075baf "show-page", short_name = 112 'p', flags = 2, 
+    arg = G_OPTION_ARG_STRING, arg_data = 0xbf9de958, 
+    description = 0x8075ca4 "Specify the name of the page to show (theme|background|fonts|interface)", arg_description = 0x8075bb4 "page"}, {
+    long_name = 0x8077310 "", short_name = 0 '\0', flags = 2, 
+    arg = G_OPTION_ARG_FILENAME_ARRAY, arg_data = 0xbf9de954, 
+    description = 0x0, arg_description = 0x8075bb9 "[WALLPAPER...]"}, {
+    long_name = 0x0, short_name = 0 '\0', flags = 0, arg = G_OPTION_ARG_NONE, 
+    arg_data = 0x0, description = 0x0, arg_description = 0x0}}

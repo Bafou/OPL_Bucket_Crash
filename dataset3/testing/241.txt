@@ -1,0 +1,34 @@
+#0  0x0039e32c in ?? ()
+No symbol table info available.
+#1  0x0039e56f in ?? ()
+No symbol table info available.
+#2  0x0804d19e in find_section (model=0x5b7ff4, iter=0xbfca549c, 
+    title=<value optimized out>) at gnome-keybinding-properties.c:537
+	description = 0x0
+	success = <value optimized out>
+	found = -1077259284
+#3  0x0804f1aa in append_keys_to_tree (builder=<value optimized out>, 
+    title=<value optimized out>, keys_list=0x894d880)
+    at gnome-keybinding-properties.c:466
+	key_value = <value optimized out>
+	command = <value optimized out>
+	entry = (GConfEntry *) 0xbfca5554
+	key_string = (const gchar *) 0x8896b83 ""
+	description = (gchar *) 0xb3f5e5 <Address 0xb3f5e5 out of bounds>
+	client = (GConfClient *) 0x8910788
+	parent_iter = {stamp = 143201968, user_data = 0xb71ff4, 
+  user_data2 = 0x8910390, user_data3 = 0x8948e78}
+	iter = {stamp = 0, user_data = 0x8891748, user_data2 = 0x0, 
+  user_data3 = 0x0}
+	model = (GtkTreeModel *) 0x890a0e0
+	i = 143541632
+	rows_before = 143541584
+#4  0x0804fdd7 in reload_key_entries (wm_name=0x88d8b18, builder=0x88e3f68)
+    at gnome-keybinding-properties.c:909
+	dir = (GDir *) 0x8910390
+	name = 0x88d7e78 "À\216\224\b"
+	list = (GList *) 0x8948e78
+	l = (GList *) 0x8910390
+#5  0x080504c3 in main (argc=1, argv=0xbfca5724)
+    at gnome-keybinding-properties.c:1864
+	builder = (GtkBuilder *) 0x88e3f68

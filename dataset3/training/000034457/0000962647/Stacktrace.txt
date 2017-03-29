@@ -1,0 +1,80 @@
+#0  0x00007f109487a4dd in QDBusAbstractInterface::asyncCallWithArgumentList(QString const&, QList<QVariant> const&) () from /usr/lib/x86_64-linux-gnu/libQtDBus.so.4
+No symbol table info available.
+#1  0x00007f10939e93b2 in BamfView::icon() const () from /usr/lib/libQtBamf.so.1
+No symbol table info available.
+#2  0x00007f109340b52d in WindowInfo::icon() const () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#3  0x00007f109340c317 in WindowInfo::qt_metacall(QMetaObject::Call, int, void**) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#4  0x00007f10944f6538 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#5  0x00007f10944f67cb in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#6  0x00007f1090206fd0 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#7  0x00007f10900ab1d5 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#8  0x00007f10900dd3cf in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#9  0x00007f103c480685 in ?? ()
+No symbol table info available.
+#10 0x00007f108000ce10 in ?? ()
+No symbol table info available.
+#11 0x00007f103cf06040 in ?? ()
+No symbol table info available.
+#12 0x00007f107dcfc748 in ?? ()
+No symbol table info available.
+#13 0x00007f1093e71164 in g_type_instance_get_private () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#14 0x00007f1090487d78 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#15 0x00007f107d8170a0 in ?? ()
+No symbol table info available.
+#16 0x00007f107d8170f8 in ?? ()
+No symbol table info available.
+#17 0x00007f107dc1a738 in ?? ()
+No symbol table info available.
+#18 0x00007f109009b3a1 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#19 0x00007f1090132557 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#20 0x00007f10901079a2 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#21 0x00007f10901ea6be in QScriptValue::call(QScriptValue const&, QList<QScriptValue> const&) () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#22 0x00007f1094462dd5 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#23 0x00007f1094463141 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#24 0x00007f1094463449 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#25 0x00007f1094464e25 in QDeclarativeBinding::update(QFlags<QDeclarativePropertyPrivate::WriteFlag>) () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#26 0x00007f1094463d3b in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#27 0x00007f1094462cbb in QDeclarativeExpression::qt_metacall(QMetaObject::Call, int, void**) () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#28 0x00007f109455efa0 in QDeclarativeBinding::qt_metacall(QMetaObject::Call, int, void**) () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#29 0x00007f1095921af9 in QMetaObject::activate(QObject*, QMetaObject const*, int, void**) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#30 0x00007f109455d381 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#31 0x00007f10944f71b0 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#32 0x00007f10902072c2 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#33 0x00007f10900e6258 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#34 0x00007f103c01330a in ?? ()
+No symbol table info available.
+#35 0x7fffffff00000000 in ?? ()
+No symbol table info available.
+#36 0x00007f103cf06000 in ?? ()
+No symbol table info available.
+#37 0x00007f1035bfb878 in ?? ()
+No symbol table info available.
+#38 0xffff000000000000 in ?? ()
+No symbol table info available.
+#39 0x0000000000000000 in ?? ()
+No symbol table info available.

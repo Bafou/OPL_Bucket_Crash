@@ -1,0 +1,40 @@
+#0  0x052970ba in nux::Area::SetVisible(bool) () from /usr/lib/libnux-0.9.so.0
+No symbol table info available.
+#1  0x0115cb3e in PlacesGroup::Refresh() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x0115cc4e in PlacesGroup::OnIdleRelayout(PlacesGroup*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x00cfe451 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00d02c08 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00d033d0 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00d03684 in g_main_context_iteration () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#7  0x0072d194 in ?? () from /usr/lib/compizconfig/backends/libgconf.so
+No symbol table info available.
+#8  0x00b67c7e in ccsProcessEvents () from /usr/lib/libcompizconfig.so.0
+No symbol table info available.
+#9  0x003415cc in CcpScreen::timeout() () from /usr/lib/compiz/libccp.so
+No symbol table info available.
+#10 0x00341b7d in boost::detail::function::function_obj_invoker0<boost::_bi::bind_t<bool, boost::_mfi::mf0<bool, CcpScreen>, boost::_bi::list1<boost::_bi::value<CcpScreen*> > >, bool>::invoke(boost::detail::function::function_buffer&) () from /usr/lib/compiz/libccp.so
+No symbol table info available.
+#11 0x08065686 in CompTimeoutSource::callback() ()
+No symbol table info available.
+#12 0x080650c1 in CompTimeoutSource::dispatch(sigc::slot_base*) ()
+No symbol table info available.
+#13 0x00471329 in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#14 0x00d02c08 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#15 0x00d033d0 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#16 0x00d03a93 in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#17 0x00472865 in Glib::MainLoop::run() () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#18 0x0806e8bb in CompScreen::eventLoop() ()
+No symbol table info available.
+#19 0x08066ba8 in main ()
+No symbol table info available.

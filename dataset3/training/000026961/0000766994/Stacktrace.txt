@@ -1,0 +1,46 @@
+#0  0x0068b416 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0x031b1e71 in raise () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x031b534e in abort () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0x031aa888 in __assert_fail () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#4  0x00d74b98 in ?? () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#5  0x00d75c13 in _XReply () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#6  0x00d72e32 in XTranslateCoordinates () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#7  0x022036c0 in ?? () from /usr/lib/libwnck-1.so.22
+No symbol table info available.
+#8  0x021fcc5e in ?? () from /usr/lib/libwnck-1.so.22
+No symbol table info available.
+#9  0x02203e23 in ?? () from /usr/lib/libwnck-1.so.22
+No symbol table info available.
+#10 0x007f2713 in ?? () from /usr/lib/libgdk-x11-2.0.so.0
+No symbol table info available.
+#11 0x007f4920 in ?? () from /usr/lib/libgdk-x11-2.0.so.0
+No symbol table info available.
+#12 0x007f49df in ?? () from /usr/lib/libgdk-x11-2.0.so.0
+No symbol table info available.
+#13 0x00ca7aa8 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00ca8270 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x00ca8524 in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0x00b1053c in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#17 0x01075775 in ?? () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#18 0x00ae2289 in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#19 0x00ae2522 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#20 0x00ae6ecc in QCoreApplication::exec() () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#21 0x00fbf8e7 in QApplication::exec() () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#22 0x0804e6e9 in main ()
+No symbol table info available.

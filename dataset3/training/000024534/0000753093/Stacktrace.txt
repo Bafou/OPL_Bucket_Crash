@@ -1,0 +1,42 @@
+#0  0xb772b424 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0xb5978e71 in raise () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0xb597c34e in abort () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0xb5971888 in __assert_fail () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#4  0xb5c68b58 in ?? () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#5  0xb5c69bd3 in _XReply () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#6  0xb5c4eb86 in XGetWindowProperty () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#7  0xb5c4d8a0 in XGetWMHints () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#8  0xb248d8ba in ?? () from /usr/lib/libwnck-1.so.22
+No symbol table info available.
+#9  0xb248e218 in ?? () from /usr/lib/libwnck-1.so.22
+No symbol table info available.
+#10 0xb5d99311 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0xb5d9daa8 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#12 0xb5d9e270 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0xb5d9e524 in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0xb760953c in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#15 0xb6bea775 in ?? () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#16 0xb75db289 in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#17 0xb75db522 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#18 0xb75dfecc in QCoreApplication::exec() () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#19 0xb6b348e7 in QApplication::exec() () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#20 0x0804e4da in main ()
+No symbol table info available.

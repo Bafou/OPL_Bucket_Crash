@@ -1,0 +1,113 @@
+#0  0x405d3fe6 in __libc_do_syscall () from /lib/arm-linux-gnueabihf/libpthread.so.0
+No symbol table info available.
+#1  0x405d32de in raise () from /lib/arm-linux-gnueabihf/libpthread.so.0
+No symbol table info available.
+#2  0x404c2aba in g_logv (log_domain=0x404ede50 "GLib", log_level=log_level@entry=G_LOG_LEVEL_ERROR, format=format@entry=0x4053e5d8 "Creating pipes for GWakeup: %s\n", args=..., args@entry=...) at /build/buildd/glib2.0-2.37.93/./glib/gmessages.c:989
+        domain = 0x0
+        data = <optimized out>
+        depth = 1
+        log_func = <optimized out>
+        domain_fatal_mask = <optimized out>
+        masquerade_fatal = <optimized out>
+        test_level = 6
+        was_fatal = 0
+        was_recursion = 0
+        msg = 0x273ea40 "Creating pipes for GWakeup: Too many open files\n"
+        msg_alloc = 0x273ea40 "Creating pipes for GWakeup: Too many open files\n"
+        i = 2
+#3  0x404c2b74 in g_log (log_domain=<optimized out>, log_level=log_level@entry=G_LOG_LEVEL_ERROR, format=0x4053e5d8 "Creating pipes for GWakeup: %s\n") at /build/buildd/glib2.0-2.37.93/./glib/gmessages.c:1025
+        args = {__ap = 0xbeea057c}
+#4  0x404ea40a in g_wakeup_new () at /build/buildd/glib2.0-2.37.93/./glib/gwakeup.c:163
+        error = 0x2741f70
+        wakeup = 0x271ecd8
+#5  0x40ae8b5a in g_cancellable_make_pollfd (cancellable=cancellable@entry=0x453d4370, pollfd=pollfd@entry=0x2743628) at /build/buildd/glib2.0-2.37.93/./gio/gcancellable.c:402
+        __PRETTY_FUNCTION__ = "g_cancellable_make_pollfd"
+#6  0x40b134d4 in socket_source_new (cancellable=0x453d4370, condition=(G_IO_IN | G_IO_ERR | G_IO_HUP | G_IO_NVAL), socket=0x272fad8) at /build/buildd/glib2.0-2.37.93/./gio/gsocket.c:3363
+        source = 0x27435e0
+        socket_source = 0x27435e0
+#7  g_socket_create_source (socket=0x272fad8, condition=condition@entry=G_IO_IN, cancellable=cancellable@entry=0x453d4370) at /build/buildd/glib2.0-2.37.93/./gio/gsocket.c:3428
+        __PRETTY_FUNCTION__ = "g_socket_create_source"
+#8  0x40b186d2 in add_sources (listener=listener@entry=0x272c208, callback=0x40b18729 <accept_ready>, callback_data=callback_data@entry=0x2713418, cancellable=cancellable@entry=0x453d4370, context=0x0) at /build/buildd/glib2.0-2.37.93/./gio/gsocketlistener.c:515
+        socket = <optimized out>
+        source = <optimized out>
+        sources = 0x0
+        i = 0
+#9  0x40b18d96 in g_socket_listener_accept_socket_async (listener=listener@entry=0x272c208, cancellable=0x453d4370, callback=<optimized out>, user_data=<optimized out>) at /build/buildd/glib2.0-2.37.93/./gio/gsocketlistener.c:743
+        task = 0x2713418
+        sources = <optimized out>
+        error = 0x0
+#10 0x40b18e78 in g_socket_listener_accept_async (listener=listener@entry=0x272c208, cancellable=<optimized out>, callback=<optimized out>, user_data=<optimized out>) at /build/buildd/glib2.0-2.37.93/./gio/gsocketlistener.c:801
+No locals.
+#11 0x40b199ce in g_socket_service_changed (listener=0x272c208) at /build/buildd/glib2.0-2.37.93/./gio/gsocketservice.c:134
+        service = 0x272c208
+#12 0x40b18948 in g_socket_listener_add_socket (listener=listener@entry=0x272c208, socket=socket@entry=0x272fad8, source_object=source_object@entry=0x0, error=error@entry=0xbeea0690) at /build/buildd/glib2.0-2.37.93/./gio/gsocketlistener.c:241
+No locals.
+#13 0x40b18a26 in g_socket_listener_add_address (listener=0x272c208, address=address@entry=0x45368a20, type=type@entry=G_SOCKET_TYPE_STREAM, protocol=protocol@entry=G_SOCKET_PROTOCOL_DEFAULT, source_object=source_object@entry=0x0, effective_address=effective_address@entry=0x0, error=error@entry=0xbeea0690) at /build/buildd/glib2.0-2.37.93/./gio/gsocketlistener.c:321
+        local_address = 0x0
+        family = <optimized out>
+        socket = 0x272fad8
+#14 0x40b5b178 in try_unix (address_entry=<optimized out>, error=0xbeea0690, key_value_pairs=<optimized out>, server=<optimized out>) at /build/buildd/glib2.0-2.37.93/./gio/gdbusserver.c:721
+        ret = 0
+        tmpdir = 0x0
+        abstract = <optimized out>
+        path = <optimized out>
+        address = 0x45368a20
+#15 initable_init (initable=<optimized out>, cancellable=<optimized out>, error=0xbeea074c) at /build/buildd/glib2.0-2.37.93/./gio/gdbusserver.c:1073
+        address_entry = <optimized out>
+        key_value_pairs = 0x453d5ab0
+        transport_name = 0x2741b50 "unix"
+        this_error = 0x0
+        server = 0x272c260
+        ret = 0
+        n = <optimized out>
+        addr_array = <optimized out>
+        last_error = 0x0
+        __FUNCTION__ = "initable_init"
+#16 0x40b0277c in g_initable_new_valist (object_type=<optimized out>, first_property_name=first_property_name@entry=0x40b77ef0 "address", var_args=var_args@entry=..., cancellable=cancellable@entry=0x0, error=error@entry=0xbeea074c) at /build/buildd/glib2.0-2.37.93/./gio/ginitable.c:231
+        obj = 0x272c260
+        __PRETTY_FUNCTION__ = "g_initable_new_valist"
+#17 0x40b027cc in g_initable_new (object_type=<optimized out>, cancellable=cancellable@entry=0x0, error=error@entry=0xbeea074c, first_property_name=0x40b77ef0 "address") at /build/buildd/glib2.0-2.37.93/./gio/ginitable.c:149
+        object = 0x0
+        var_args = {__ap = 0xbeea0700}
+#18 0x40b5ba92 in g_dbus_server_new_sync (address=address@entry=0x2742650 "unix:abstract=username-com.canonical.Unity.Scope.runningapps.T14812139467493", flags=flags@entry=G_DBUS_SERVER_FLAGS_AUTHENTICATION_ALLOW_ANONYMOUS, guid=guid@entry=0x2743520 "b383ef3da406a00d7c40a2f35242d286", observer=observer@entry=0x0, cancellable=cancellable@entry=0x0, error=error@entry=0xbeea074c) at /build/buildd/glib2.0-2.37.93/./gio/gdbusserver.c:492
+        __PRETTY_FUNCTION__ = "g_dbus_server_new_sync"
+#19 0x409b2b3e in get_server_for_address (error=0xbeea074c, bus_address=0x2742650 "unix:abstract=username-com.canonical.Unity.Scope.runningapps.T14812139467493") at dee-server.c:234
+        guid = 0x2743520 "b383ef3da406a00d7c40a2f35242d286"
+        address = <optimized out>
+        server = 0x0
+        server_flags = G_DBUS_SERVER_FLAGS_AUTHENTICATION_ALLOW_ANONYMOUS
+#20 initialize_server (self=0x26f7a28) at dee-server.c:269
+        priv = 0x26f79b0
+        connections = <optimized out>
+        error = 0x0
+#21 0x404bdbea in g_main_dispatch (context=0x1f7b0a0) at /build/buildd/glib2.0-2.37.93/./glib/gmain.c:3065
+        dispatch = 0x404bbab1 <g_idle_dispatch>
+        was_in_call = 0
+        user_data = 0x26f7a28
+        callback = 0x409b2ac9 <initialize_server>
+        cb_funcs = 0x405485b8 <g_source_callback_funcs>
+        cb_data = 0x27426a0
+        need_destroy = <optimized out>
+        current_source_link = {data = 0x27430c8, next = 0x0}
+        source = 0x27430c8
+        current = 0x1f75808
+        i = 0
+#22 g_main_context_dispatch (context=context@entry=0x1f7b0a0) at /build/buildd/glib2.0-2.37.93/./glib/gmain.c:3641
+No locals.
+#23 0x404bde4a in g_main_context_iterate (context=0x1f7b0a0, block=block@entry=1, dispatch=dispatch@entry=1, self=<optimized out>) at /build/buildd/glib2.0-2.37.93/./glib/gmain.c:3712
+        max_priority = 0
+        timeout = 0
+        some_ready = 1
+        nfds = <optimized out>
+        allocated_nfds = <optimized out>
+        fds = 0x2730000
+#24 0x404be168 in g_main_loop_run (loop=0x207fbf8) at /build/buildd/glib2.0-2.37.93/./glib/gmain.c:3906
+        __PRETTY_FUNCTION__ = "g_main_loop_run"
+#25 0x402cf45e in unity_scope_dbus_connector_run () from /usr/lib/arm-linux-gnueabihf/libunity.so.9
+No symbol table info available.
+#26 0x00008ce6 in _vala_main ()
+No symbol table info available.
+#27 0x406b9452 in __libc_start_main () from /lib/arm-linux-gnueabihf/libc.so.6
+No symbol table info available.
+#28 0x00008ba2 in _start ()
+Cannot access memory at address 0x9475

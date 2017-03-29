@@ -1,0 +1,56 @@
+#0  0xb47133ab in unity::hud::HudIconTextureSource::ColorForIcon(_GdkPixbuf*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0xb4712a0b in ?? () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0xb472b121 in unity::IconTexture::IconLoaded(std::string const&, unsigned int, _GdkPixbuf*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0xb472b2c6 in sigc::internal::slot_call3<sigc::bound_mem_functor3<void, unity::IconTexture, std::string const&, unsigned int, _GdkPixbuf*>, void, std::string const&, unsigned int, _GdkPixbuf*>::call_it(sigc::internal::slot_rep*, std::string const&, unsigned int const&, _GdkPixbuf* const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0xb471dc30 in unity::IconLoader::Impl::ProcessGIconTask(unity::IconLoader::Impl::IconLoaderTask*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#5  0xb471ebbb in unity::IconLoader::Impl::ProcessTask(unity::IconLoader::Impl::IconLoaderTask*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#6  0xb471f776 in unity::IconLoader::Impl::Iteration() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#7  0xb471fb7b in unity::IconLoader::Impl::Loop(unity::IconLoader::Impl*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#8  0xb71ae7f0 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0xb71b0d8a in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0xb71b1195 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0xb71b1271 in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#12 0xb703b2ac in ?? () from /usr/lib/compizconfig/backends/libgconf.so
+No symbol table info available.
+#13 0xb7008c2f in ccsProcessEvents () from /usr/lib/libcompizconfig.so.0
+No symbol table info available.
+#14 0xb77c134b in CcpScreen::timeout() () from /usr/lib/compiz/libccp.so
+No symbol table info available.
+#15 0xb77c1621 in boost::detail::function::function_obj_invoker0<boost::_bi::bind_t<bool, boost::_mfi::mf0<bool, CcpScreen>, boost::_bi::list1<boost::_bi::value<CcpScreen*> > >, bool>::invoke(boost::detail::function::function_buffer&) () from /usr/lib/compiz/libccp.so
+No symbol table info available.
+#16 0xb7781c03 in CompTimer::triggerCallback() () from /usr/lib/libcompiz_core.so.ABI-20120228
+No symbol table info available.
+#17 0xb7781d11 in CompTimeoutSource::callback() () from /usr/lib/libcompiz_core.so.ABI-20120228
+No symbol table info available.
+#18 0xb7781e22 in sigc::internal::slot_call0<sigc::bound_mem_functor0<bool, CompTimeoutSource>, bool>::call_it(sigc::internal::slot_rep*) () from /usr/lib/libcompiz_core.so.ABI-20120228
+No symbol table info available.
+#19 0xb7780f9f in CompTimeoutSource::dispatch(sigc::slot_base*) () from /usr/lib/libcompiz_core.so.ABI-20120228
+No symbol table info available.
+#20 0xb72aad71 in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#21 0xb71b0d8a in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#22 0xb71b1195 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#23 0xb71b15db in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#24 0xb72ac3f3 in Glib::MainLoop::run() () from /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#25 0xb7733b42 in CompScreenImpl::eventLoop() () from /usr/lib/libcompiz_core.so.ABI-20120228
+No symbol table info available.
+#26 0x0804a4f2 in CompManager::run() ()
+No symbol table info available.
+#27 0x0804a17c in main ()
+No symbol table info available.

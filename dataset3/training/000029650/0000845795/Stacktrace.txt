@@ -1,0 +1,11 @@
+#0  0x006f0b3a in geis_finish () from /usr/lib/libutouch-geis.so.1
+No symbol table info available.
+#1  0x08055c69 in GestureHandler::geisInitialize() ()
+No symbol table info available.
+#2  0xbf9c8984 in ?? ()
+No symbol table info available.
+#3  0x00873113 in __libc_start_main () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#4  0x0043dff4 in ?? () from /lib/ld-linux.so.2
+No symbol table info available.
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)

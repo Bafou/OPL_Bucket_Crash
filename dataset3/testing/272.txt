@@ -1,0 +1,44 @@
+#0  gtk_menu_tracker_item_get_attribute_value (self=0x0, attribute=0x549e6b88 "x-canonical-wifi-ap-is-adhoc", expected_type=0x0) at /build/buildd/qmenumodel-0.2.7+13.10.20131011/libqmenumodel/src/gtk/gtkmenutrackeritem.c:920
+No locals.
+#1  0x4a1e51de in UnityMenuModel::loadExtendedAttributes (this=<optimized out>, position=<optimized out>, schema=...) at /build/buildd/qmenumodel-0.2.7+13.10.20131011/libqmenumodel/src/unitymenumodel.cpp:617
+        name = {static null = {<No data fields>}, d = 0x5a242de8}
+        type = {static null = {<No data fields>}, d = 0x549c7fa0}
+        value = <optimized out>
+        qvalue = {d = {data = {c = 232 '\350', uc = 232 '\350', s = -28952, sc = -24 '\350', us = 36584, i = 1187286760, u = 1187286760, l = 1187286760, ul = 1187286760, b = 232, d = 1,3292486286197196e+36, f = 25159,4531, real = 25159,4531, ll = 5147614443991240424, ull = 5147614443991240424, o = 0x46c48ee8, ptr = 0x46c48ee8, shared = 0x46c48ee8}, type = 10939420, is_shared = 1, is_null = 0}}
+        it = {i = 0x5a242e70}
+        item = 0x0
+        extendedAttrs = 0x598df8c0
+        __PRETTY_FUNCTION__ = "bool UnityMenuModel::loadExtendedAttributes(int, const QVariantMap&)"
+#2  0x4a1e9ca0 in UnityMenuModel::qt_static_metacall (_o=_o@entry=0x541875a0, _c=_c@entry=QMetaObject::InvokeMetaMethod, _id=_id@entry=10, _a=_a@entry=0x46c49018) at /build/buildd/qmenumodel-0.2.7+13.10.20131011/obj-arm-linux-gnueabihf/libqmenumodel/src/moc_unitymenumodel.cpp:164
+        _r = <optimized out>
+        _t = 0x541875a0
+#3  0x4a1ea5b6 in UnityMenuModel::qt_metacall (this=0x541875a0, _c=QMetaObject::InvokeMetaMethod, _id=10, _a=0x46c49018) at /build/buildd/qmenumodel-0.2.7+13.10.20131011/obj-arm-linux-gnueabihf/libqmenumodel/src/moc_unitymenumodel.cpp:229
+No locals.
+#4  0x402f49e8 in CallMethod (object=object@entry=0x541875a0, index=<optimized out>, returnType=returnType@entry=1, argCount=<optimized out>, argTypes=0x54a59da4, engine=engine@entry=0x47719b28, callArgs=...) at qml/v8/qv8qobjectwrapper.cpp:1587
+        valueTypeValue = {d = {data = {c = 0 '\000', uc = 0 '\000', s = 0, sc = 0 '\000', us = 0, i = 0, u = 0, l = 0, ul = 0, b = false, d = 8,0635840056680348e-313, f = 0, real = 0, ll = 163208757248, ull = 163208757248, o = 0x0, ptr = 0x0, shared = 0x0}, type = 0, is_shared = 0, is_null = 1}}
+        args = {a = 9, s = 3, ptr = 0x46c49050, {array = "AFS\\uzl4!ׂ*\f\000\000\000\000\000\000\000\001\000\000\000\377\377\377\377\254\223\304F!w\201*\000\000\000\000\000\000\000\000\002\000\000\000`c\216Y&\000\000\000\b\000\000@\002\000\000\000\200\220\304F\377\377\377\377=\262\351>\300\220\304F\bـ*\221\200P\\P\000\000\000\345\323\360>AFS\\\004\000\000\000uzl4\020\000\000\000\344\220\304F\350ׂ*P\000\000\000\345\323\360>AFS\\uzl4!ׂ*\f\000\000\000\000\000\000\000\020\221\304F\bx\201*$\224\304F!w\201*", '\000' <repeats 16 times>, "\260\223\304F\002\000\000\000\002\000\000\000\377\377\377\377", '\000' <repeats 12 times>..., q_for_alignment_1 = 3777528831935727169, q_for_alignment_2 = 3,6294907403895569e-56}}
+        argData = {a = 9, s = 3, ptr = 0x46c49018, {array = "P\220\304Fh\220\304Fhc\216Y\221\200P\\\016\000\000\000\031\212l4AFS\\\004\000\000\000uzl4", q_for_alignment_1 = 5099359455628529744, q_for_alignment_2 = 8,3417863893832438e+32}}
+#5  0x402f5c16 in CallPrecise (object=object@entry=0x541875a0, data=..., engine=0x47719b28, callArgs=...) at qml/v8/qv8qobjectwrapper.cpp:1834
+        args = <optimized out>
+        dummy = {a = 9, s = 0, ptr = 0x46c49190, {array = "\204n.A\002\000\000\000\000\060.A\314\372sGԔ\304F\260\223\304F<\225\361\062;\222\304F\310GtG", q_for_alignment_1 = 9683496580, q_for_alignment_2 = 4,7842829917992021e-314}}
+        unknownTypeError = {d = 0x40a6d710 <QArrayData::shared_null>}
+        returnType = 1
+#6  0x402f62da in QV8QObjectWrapper::Invoke (args=...) at qml/v8/qv8qobjectwrapper.cpp:2052
+        argCount = 2
+        arguments = {val_ = 0x46c493a0}
+        index = 40
+        method = {<QQmlPropertyRawData> = {{propType = 1, propTypeName = 0x1 <Address 0x1 out of bounds>}, coreIndex = 40, {notifyIndex = 1420139920, arguments = 0x54a59d90}, {{revision = 0, metaObjectOffset = 3, {{valueTypeFlags = 65534, valueTypePropType = 65535, valueTypeCoreIndex = 8202}, {overrideIndexIsProperty = 0, overrideIndex = -1}}}, {accessors = 0x30000, accessorData = -2}}, flags = 524608}, <No data fields>}
+        callArgs = {_length = 2, _args = 0x46c49220}
+#7  0x4109489a in HandleApiCallHelper<false> (isolate=0x4771aac0, args=...) at ../3rdparty/v8/src/builtins.cc:1120
+        new_args = {static kIsolateIndex = 0, static kDataIndex = -1, static kCalleeIndex = -2, static kHolderIndex = -3, implicit_args_ = 0x46c4935c, values_ = 0x46c493b0, length_ = 5, is_construct_call_ = false}
+        value = {val_ = 0x0}
+        result = <optimized out>
+        custom = {<v8::internal::Relocatable> = {_vptr.Relocatable = 0x412d4bd0 <vtable for v8::internal::CustomArguments+8>, isolate_ = 0x4771aac0, prev_ = 0x0}, values_ = {0x5c534641, 0x5c534c89, 0x5c508091, 0x4771aac0}}
+        function = {location_ = 0x46c4939c}
+#8  v8::internal::Builtin_HandleApiCall (args=..., isolate=0x4771aac0) at ../3rdparty/v8/src/builtins.cc:1137
+No locals.
+#9  0x4f10a09c in ?? ()
+No symbol table info available.
+#10 0x4f10a09c in ?? ()
+No symbol table info available.
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)

@@ -1,0 +1,21 @@
+#0  0xb69d2ab7 in QList<AbstractX11EventFilter*>::removeAll(AbstractX11EventFilter* const&) () from /usr/lib/libuqpanel.so.0
+No symbol table info available.
+#1  0xb69d26b7 in Unity2dApplication::removeX11EventFilter(AbstractX11EventFilter*) () from /usr/lib/libuqpanel.so.0
+No symbol table info available.
+#2  0xb69d26f6 in AbstractX11EventFilter::~AbstractX11EventFilter() () from /usr/lib/libuqpanel.so.0
+No symbol table info available.
+#3  0xb69d1321 in KeyboardModifiersMonitor::~KeyboardModifiersMonitor() () from /usr/lib/libuqpanel.so.0
+No symbol table info available.
+#4  0xb69d1382 in KeyboardModifiersMonitor::~KeyboardModifiersMonitor() () from /usr/lib/libuqpanel.so.0
+No symbol table info available.
+#5  0xb6b3f0a7 in QObjectPrivate::deleteChildren (this=0x838abb8) at kernel/qobject.cpp:1957
+        i = <value optimised out>
+        reallyWasDeleted = true
+#6  0xb6b4385f in QObject::~QObject (this=0xbf940cb4, __in_chrg=<value optimised out>) at kernel/qobject.cpp:945
+        d = 0x838abb8
+#7  0xb6b2e4c2 in QCoreApplication::~QCoreApplication (this=0xbf940cb4, __in_chrg=<value optimised out>) at kernel/qcoreapplication.cpp:616
+No locales.
+#8  0xb6d9f23d in QApplication::~QApplication (this=0xbf940cb4, __in_chrg=<value optimised out>) at kernel/qapplication.cpp:1071
+No locales.
+#9  0x08059a23 in main ()
+No symbol table info available.

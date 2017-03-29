@@ -1,0 +1,8 @@
+#0  0x00007f737ace7b92 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007f737ace1f2c in g_variant_new_tuple () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f735d3f3e52 in ?? ()
+No symbol table info available.
+#3  0x0000000000000000 in ?? ()
+No symbol table info available.

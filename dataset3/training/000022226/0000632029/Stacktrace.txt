@@ -1,0 +1,51 @@
+#0  0x00007f284e359749 in gee_list_list_iterator () from /usr/lib/libgee.so.2
+No symbol table info available.
+#1  0x000000000040b844 in ?? ()
+No symbol table info available.
+#2  0x000000000040b5bb in ?? ()
+No symbol table info available.
+#3  0x000000000040b5bb in ?? ()
+No symbol table info available.
+#4  0x000000000040c13c in ?? ()
+No symbol table info available.
+#5  0x0000000000407d0f in ?? ()
+No symbol table info available.
+#6  0x00007f284d76a13a in g_object_newv (object_type=<value optimised out>, 
+    n_parameters=0, parameters=0x0)
+    at /build/buildd/glib2.0-2.25.15/gobject/gobject.c:1266
+        oparams = 0x401d1d
+        nqueue = 0x7fffe9c52a00
+        object = <value optimised out>
+        class = 0xc21c00
+        unref_class = 0xc21c00
+        slist = 0x0
+        n_total_cparams = 0
+        n_cparams = <value optimised out>
+        n_oparams = <value optimised out>
+        n_cvalues = <value optimised out>
+        clist = 0x0
+        newly_constructed = 12713712
+        i = <value optimised out>
+        __PRETTY_FUNCTION__ = "g_object_newv"
+#7  0x00007f284d76a86c in g_object_new (object_type=12713712, 
+    first_property_name=0x0)
+    at /build/buildd/glib2.0-2.25.15/gobject/gobject.c:1178
+        var_args = {{gp_offset = 6362856, fp_offset = 0, 
+            overflow_arg_area = 0xffffffff, reg_save_area = 0x0}}
+        __PRETTY_FUNCTION__ = "g_object_new"
+#8  0x0000000000409dc1 in ?? ()
+No symbol table info available.
+#9  0x00007f284c996d8e in __libc_start_main () from /lib/libc.so.6
+No symbol table info available.
+#10 0x00000000004060a9 in ?? ()
+No symbol table info available.
+#11 0x00007fffe9c52c38 in ?? ()
+No symbol table info available.
+#12 0x000000000000001c in ?? ()
+No symbol table info available.
+#13 0x0000000000000001 in ?? ()
+No symbol table info available.
+#14 0x00007fffe9c53ab3 in ?? ()
+No symbol table info available.
+#15 0x0000000000000000 in ?? ()
+No symbol table info available.

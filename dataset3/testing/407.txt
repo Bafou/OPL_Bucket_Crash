@@ -1,0 +1,8 @@
+#0  0x00007f5669ac469c in g_type_check_instance_is_a () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#1  0x00007f565bc713d6 in unity::launcher::BamfLauncherIcon::UpdateIconGeometries(std::vector<nux::Point3D<float>, std::allocator<nux::Point3D<float> > >) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x00007f565bc72002 in unity::launcher::BamfLauncherIcon::UpdateDesktopQuickList() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x0000000000000000 in ?? ()
+No symbol table info available.

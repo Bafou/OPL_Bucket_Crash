@@ -1,0 +1,28 @@
+#0  0x00c58fd7 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00c5817a in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00c583e8 in g_variant_new_va () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00c58752 in g_variant_builder_add () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x0804e26f in ?? ()
+No symbol table info available.
+#5  0x0804fee4 in panel_service_sync_one ()
+No symbol table info available.
+#6  0x0804d3c6 in ?? ()
+No symbol table info available.
+#7  0x001b76e2 in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#8  0x00c15311 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0x00c19aa8 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0x00c1a270 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0x00c1a92b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#12 0x00932bd9 in gtk_main () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#13 0x0804d5d6 in main ()
+No symbol table info available.

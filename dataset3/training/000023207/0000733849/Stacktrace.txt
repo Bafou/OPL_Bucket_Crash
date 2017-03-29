@@ -1,0 +1,32 @@
+#0  0x00293197 in QList<AbstractX11EventFilter*>::removeAll(AbstractX11EventFilter* const&) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#1  0x00292d97 in Unity2dApplication::removeX11EventFilter(AbstractX11EventFilter*) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#2  0x00292dd6 in AbstractX11EventFilter::~AbstractX11EventFilter() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#3  0x0028fde1 in KeyboardModifiersMonitor::~KeyboardModifiersMonitor() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#4  0x0028fe42 in KeyboardModifiersMonitor::~KeyboardModifiersMonitor() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#5  0x00d64bb7 in QObjectPrivate::deleteChildren (this=0x89cfa10) at kernel/qobject.cpp:1968
+        reallyWasDeleted = true
+#6  0x00d693cf in QObject::~QObject (this=0xbfd7a9f0, __in_chrg=<value optimized out>) at kernel/qobject.cpp:953
+        d = 0x89cfa10
+#7  0x00d53f32 in QCoreApplication::~QCoreApplication (this=0xbfd7a9f0, __in_chrg=<value optimized out>) at kernel/qcoreapplication.cpp:629
+        globalThreadPool = 0x0
+#8  0x00fc5a36 in ref (window=0xbfd7a9f0, deviceType=3218581904, touchPoints=...) at ../../include/QtCore/../../src/corelib/arch/qatomic_i386.h:120
+No locals.
+#9  internalSet (window=0xbfd7a9f0, deviceType=3218581904, touchPoints=...) at ../../include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h:657
+No locals.
+#10 operator= (window=0xbfd7a9f0, deviceType=3218581904, touchPoints=...) at ../../include/QtCore/../../src/corelib/tools/qsharedpointer_impl.h:584
+No locals.
+#11 QApplicationPrivate::translateRawTouchEvent (window=0xbfd7a9f0, deviceType=3218581904, touchPoints=...) at kernel/qapplication.cpp:5718
+        previousTouchPoint = {d = 0xbfd7a8c8}
+        touchPoint = {d = 0x8060580}
+        widget = {d = 0xfc6540, value = 0x1}
+        maskAndPoints = @0x1908a86
+        i = <value optimized out>
+        widgetsNeedingEvents = {{d = 0x8a0bc30, e = 0x8a0bc30}}
+        d = 0x1
+#12 0x08051041 in main ()
+No symbol table info available.

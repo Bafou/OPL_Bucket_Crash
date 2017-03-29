@@ -1,0 +1,48 @@
+#0  0x00007fb80db76cf0 in g_logv () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007fb80db76f2f in g_log () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007fb7ef16a93b in ?? () from /usr/lib/x86_64-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#3  0x00007fb7ef173311 in ?? () from /usr/lib/x86_64-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#4  0x00007fb80eb207ed in _XError () from /usr/lib/x86_64-linux-gnu/libX11.so.6
+No symbol table info available.
+#5  0x00007fb80eb1d7e7 in ?? () from /usr/lib/x86_64-linux-gnu/libX11.so.6
+No symbol table info available.
+#6  0x00007fb80eb1e8b1 in _XReply () from /usr/lib/x86_64-linux-gnu/libX11.so.6
+No symbol table info available.
+#7  0x00007fb80eb054c6 in XGetWindowProperty () from /usr/lib/x86_64-linux-gnu/libX11.so.6
+No symbol table info available.
+#8  0x00007fb80eb0472d in XGetClassHint () from /usr/lib/x86_64-linux-gnu/libX11.so.6
+No symbol table info available.
+#9  0x00007fb7f022513b in ?? () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#10 0x00007fb7f0227710 in unity::decoration::ForceQuitDialog::ForceQuitDialog(CompWindow*, unsigned long) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#11 0x00007fb7f020042c in unity::decoration::Window::Impl::ShowForceQuitDialog(bool, unsigned long) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#12 0x00007fb7f01f865b in unity::decoration::Manager::Impl::HandleEventBefore(_XEvent*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#13 0x00007fb7f0170651 in unity::UnityScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#14 0x00007fb80f98c9e6 in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20140123
+No symbol table info available.
+#15 0x00007fb80f98ca44 in CompScreenImpl::alwaysHandleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20140123
+No symbol table info available.
+#16 0x00007fb80f96678d in PrivateScreen::processEvents() () from /usr/lib/libcompiz_core.so.ABI-20140123
+No symbol table info available.
+#17 0x00007fb80f99af87 in CompEventSource::callback() () from /usr/lib/libcompiz_core.so.ABI-20140123
+No symbol table info available.
+#18 0x00007fb80de7e35f in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/x86_64-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#19 0x00007fb80db6fb2d in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#20 0x00007fb80db6ff08 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#21 0x00007fb80db70232 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#22 0x00007fb80f95a96b in compiz::private_screen::EventManager::startEventLoop(_XDisplay*) () from /usr/lib/libcompiz_core.so.ABI-20140123
+No symbol table info available.
+#23 0x0000000000401931 in main ()
+No symbol table info available.

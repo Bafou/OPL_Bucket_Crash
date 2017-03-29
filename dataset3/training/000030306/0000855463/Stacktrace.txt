@@ -1,0 +1,22 @@
+#0  QDeclarativeObjectScriptClass::newQObject (this=<optimized out>, object=0x7fd3400bc3c0, type=136) at qml/qdeclarativeobjectscriptclass.cpp:110
+        scriptEngine = 0x1acabe0
+        ddata = 0x7fff21d4f6e0
+#1  0x00007fd35be2b834 in QDeclarativeEnginePrivate::scriptValueFromVariant (this=0x1acaad0, val=...) at qml/qdeclarativeengine.cpp:2082
+        objOk = true
+        obj = <optimized out>
+#2  0x00007fd35becd445 in QDeclarativeObjectScriptClass::property (this=<optimized out>, obj=0x7fd340045b90, name=<optimized out>) at qml/qdeclarativeobjectscriptclass.cpp:312
+        var = {d = {data = {c = -64 '\300', i = 1074512832, u = 1074512832, b = 192, d = 6.9438599147632913e-310, f = 2.18382263, real = 6.9438599147632913e-310, ll = 140545289339840, ull = 140545289339840, o = 0x7fd3400bc3c0, ptr = 0x7fd3400bc3c0, shared = 0x7fd3400bc3c0}, type = 528, is_shared = 0, is_null = 0}, static handler = 0x7fd35d5f3500}
+        scriptEngine = 0x1acabe0
+        enginePriv = 0x1acaad0
+#3  0x00007fd35bed283e in QDeclarativeContextScriptClass::property (this=0x1b0a5b0, object=<optimized out>, name=<optimized out>) at qml/qdeclarativecontextscriptclass.cpp:289
+        bindContext = 0x7fd3400c61a0
+        ep = 0x1acaad0
+        scriptEngine = 0x1acabe0
+#4  0x00007fd354c51a20 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#5  0x00007fd354b2a295 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#6  0x00007fd335983be0 in ?? ()
+No symbol table info available.
+#7  0x0000000000000000 in ?? ()
+No symbol table info available.

@@ -1,0 +1,44 @@
+#0  0x00007f7b3f843ded in CompAction::initiate() () from /usr/lib/libcompiz_core.so.ABI-20121210
+No symbol table info available.
+#1  0x00007f7b21d56505 in unity::MultiActionList::Initiate(std::string const&, std::vector<CompOption, std::allocator<CompOption> > const&, int) const () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x00007f7b21d56735 in unity::MultiActionList::InitiateAll(std::vector<CompOption, std::allocator<CompOption> > const&, int) const () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x00007f7b21d5708c in unity::PluginAdapter::InitiateScale(std::string const&, int) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0x00007f7b21d5719b in unity::PluginAdapter::ScaleWindowGroup(std::vector<unsigned long, std::allocator<unsigned long> > const&, int, bool) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#5  0x00007f7b21c3deb0 in unity::launcher::ApplicationLauncherIcon::Spread(bool, int, bool) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#6  0x00007f7b21c3e085 in unity::launcher::ApplicationLauncherIcon::ActivateLauncherIcon(unity::launcher::ActionArg) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#7  0x00007f7b21c0feca in unity::launcher::LauncherIcon::Activate(unity::launcher::ActionArg) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#8  0x00007f7b21c0cdee in unity::launcher::LauncherIcon::RecvMouseClick(int, int, unsigned long) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#9  0x00007f7b21bf5b53 in sigc::internal::signal_emit3<void, int, int, unsigned long, sigc::nil>::emit(sigc::internal::signal_impl*, int const&, int const&, unsigned long const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#10 0x00007f7b21bed190 in unity::launcher::Launcher::MouseUpLogic(int, int, unsigned long, unsigned long) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#11 0x00007f7b21bf14a2 in unity::launcher::Launcher::RecvMouseUp(int, int, unsigned long, unsigned long) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#12 0x00007f7b20306cae in nux::InputArea::EmitMouseUpSignal(int, int, unsigned long, unsigned long) () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#13 0x00007f7b20336d4f in nux::WindowCompositor::UpdateMouseOwner(nux::Event const&, bool) () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#14 0x00007f7b203386d6 in nux::WindowCompositor::MouseEventCycle(nux::Event&) () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#15 0x00007f7b203387eb in nux::WindowCompositor::ProcessEvent(nux::Event&) () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#16 0x00007f7b2033cd3f in nux::WindowThread::DoProcessEvent(nux::Event&) () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#17 0x00007f7b20312999 in nux::nux_event_dispatch(_GSource*, int (*)(void*), void*) () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#18 0x00007f7b3d8485a5 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#19 0x00007f7b3d8488e8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#20 0x00007f7b3d848d52 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#21 0x000000000040240b in main ()
+No symbol table info available.

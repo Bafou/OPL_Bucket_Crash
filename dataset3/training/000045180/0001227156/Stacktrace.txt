@@ -1,0 +1,91 @@
+#0  0xb77a6424 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0xb7451aff in __GI_raise (sig=sig@entry=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:56
+        resultvar = <optimized out>
+        resultvar = <optimized out>
+        pid = -1218633728
+        selftid = 3106
+#2  0xb7455083 in __GI_abort () at abort.c:90
+        save_stage = 2
+        act = {__sigaction_handler = {sa_handler = 0xa289990, sa_sigaction = 0xa289990}, sa_mask = {__val = {173716616, 3072475136, 3072475136, 3078389760, 3072504536, 5, 3072475904, 3078313436, 3072504976, 3069998192, 1, 5, 0, 9997, 94, 3076334704, 95, 3218122104, 3218122100, 3071452052, 1, 3076334656, 0, 3074593000, 1, 57, 0, 3072475136, 173716616, 3072478112, 95, 3078338944}}, sa_flags = -1218632592, sa_restorer = 0xb7454f40 <__GI_abort>}
+        sigs = {__val = {32, 0 <repeats 31 times>}}
+#3  0xb716d8ba in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0xb718c078 in g_assertion_message () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0xb718c116 in g_assertion_message_expr () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0xac70de66 in ibus_config_get_value () from /usr/lib/i386-linux-gnu/libibus-1.0.so.5
+No symbol table info available.
+#7  0xacb97b0f in nux::IBusIMEContext::UpdateHotkeys() () from /usr/lib/i386-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#8  0xacb97dcd in nux::IBusIMEContext::CreateContext() () from /usr/lib/i386-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#9  0xacb97eaa in nux::IBusIMEContext::IBusIMEContext(nux::TextEntry*) () from /usr/lib/i386-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#10 0xacb2eb20 in nux::TextEntry::TextEntry(char const*, char const*, int) () from /usr/lib/i386-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#11 0xad5d8768 in unity::IMTextEntry::IMTextEntry() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#12 0xad5b6990 in unity::SearchBar::Init() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#13 0xad5b8ac2 in unity::SearchBar::SearchBar(bool, char const*, int) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#14 0xad52da71 in unity::hud::View::SetupViews() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#15 0xad52e208 in unity::hud::View::View() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#16 0xad522d7b in ?? () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#17 0xad5239a9 in unity::hud::Controller::SetupHudView() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#18 0xad524075 in unity::hud::Controller::EnsureHud() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#19 0xad524cc9 in unity::hud::Controller::Controller(std::function<unity::hud::AbstractView* ()> const&, std::function<unity::ResizingBaseWindow* ()> const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#20 0xad423763 in unity::UnityScreen::initLauncher() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#21 0xad4245c4 in unity::UnityScreen::initUnity(nux::NThread*, void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#22 0xacb4a11b in nux::WindowThread::Run(void*) () from /usr/lib/i386-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#23 0xad42554b in unity::UnityScreen::UnityScreen(CompScreen*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#24 0xad4144ad in PluginClassHandler<unity::UnityScreen, CompScreen, 0>::get(CompScreen*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#25 0xad43857b in CompPlugin::VTableForScreenAndWindow<unity::UnityScreen, unity::UnityWindow, 0>::initScreen(CompScreen*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#26 0xb774c5b5 in CompManager::initPlugin(CompPlugin*) () from /usr/lib/libcompiz_core.so.ABI-20130415
+No symbol table info available.
+#27 0xb774d0b1 in CompPlugin::push(CompPlugin*) () from /usr/lib/libcompiz_core.so.ABI-20130415
+No symbol table info available.
+#28 0xb771e29f in compiz::private_screen::PluginManager::updatePlugins(CompScreen*, std::vector<CompOption::Value, std::allocator<CompOption::Value> > const&) () from /usr/lib/libcompiz_core.so.ABI-20130415
+No symbol table info available.
+#29 0xb771e8be in PrivateScreen::processEvents() () from /usr/lib/libcompiz_core.so.ABI-20130415
+No symbol table info available.
+#30 0xb771ea40 in CompScreenImpl::processEvents() () from /usr/lib/libcompiz_core.so.ABI-20130415
+No symbol table info available.
+#31 0xb7754322 in CompEventSource::callback() () from /usr/lib/libcompiz_core.so.ABI-20130415
+No symbol table info available.
+#32 0xb7754682 in sigc::internal::slot_call0<sigc::bound_mem_functor0<bool, CompEventSource>, bool>::call_it(sigc::internal::slot_rep*) () from /usr/lib/libcompiz_core.so.ABI-20130415
+No symbol table info available.
+#33 0xb7754352 in CompEventSource::dispatch(sigc::slot_base*) () from /usr/lib/libcompiz_core.so.ABI-20130415
+No symbol table info available.
+#34 0xb726de41 in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#35 0xb716682e in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#36 0xb7166bd8 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#37 0xb716703b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#38 0xb726f2a3 in Glib::MainLoop::run() () from /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#39 0xb7712a48 in compiz::private_screen::EventManager::startEventLoop(_XDisplay*) () from /usr/lib/libcompiz_core.so.ABI-20130415
+No symbol table info available.
+#40 0xb7712aae in CompScreenImpl::eventLoop() () from /usr/lib/libcompiz_core.so.ABI-20130415
+No symbol table info available.
+#41 0x08049b52 in CompManager::run() ()
+No symbol table info available.
+#42 0x0804930c in main ()
+No symbol table info available.

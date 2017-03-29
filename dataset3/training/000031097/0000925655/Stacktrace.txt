@@ -1,0 +1,48 @@
+#0  0x00007f1d6c6b80cf in ?? () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#1  0x00007f1d6c6bf5e8 in QObject::QObject(QObjectPrivate&, QObject*) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#2  0x00007f1d6b641ba7 in QDBusServiceWatcher::QDBusServiceWatcher(QObject*) () from /usr/lib/x86_64-linux-gnu/libQtDBus.so.4
+No symbol table info available.
+#3  0x00007f1d6ca77d26 in LauncherApplication::setDynamicQuicklistImporter(QString const&) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#4  0x00007f1d6ca790d1 in LauncherApplication::updateOverlaysState(QString const&, QMap<QString, QVariant> const&) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#5  0x00007f1d6ca8329f in LauncherApplicationsList::onRemoteEntryUpdated(QString, QMap<QString, QVariant>) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#6  0x00007f1d6ca840ac in ?? () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#7  0x00007f1d6ca842ab in LauncherApplicationsList::qt_metacall(QMetaObject::Call, int, void**) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#8  0x00007f1d6b60535b in ?? () from /usr/lib/x86_64-linux-gnu/libQtDBus.so.4
+No symbol table info available.
+#9  0x00007f1d6c6c09c6 in QObject::event(QEvent*) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#10 0x00007f1d6ba2a5e4 in QApplicationPrivate::notify_helper(QObject*, QEvent*) () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#11 0x00007f1d6ba2f463 in QApplication::notify(QObject*, QEvent*) () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#12 0x00007f1d6c6a741c in QCoreApplication::notifyInternal(QObject*, QEvent*) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#13 0x00007f1d6c6ab1ea in QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#14 0x00007f1d6c6d6513 in ?? () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#15 0x00007f1d68a2d7da in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0x00007f1d68a2dba0 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#17 0x00007f1d68a2dc64 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#18 0x00007f1d6c6d693f in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#19 0x00007f1d6bad21ce in ?? () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#20 0x00007f1d6c6a6202 in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#21 0x00007f1d6c6a6457 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#22 0x00007f1d6c6ab4e7 in QCoreApplication::exec() () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#23 0x00000000004094f9 in main ()
+No symbol table info available.

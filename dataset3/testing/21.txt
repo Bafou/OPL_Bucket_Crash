@@ -1,0 +1,58 @@
+#0  0x00007f2612675405 in raise () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00007f2612678b6b in abort () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x00007f261266e0ce in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0x00007f261266e172 in __assert_fail () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#4  0x00007f260864975b in intel_resolve_map_set () from /usr/lib/x86_64-linux-gnu/dri/i965_dri.so
+No symbol table info available.
+#5  0x00007f260865ae81 in brw_draw_prims () from /usr/lib/x86_64-linux-gnu/dri/i965_dri.so
+No symbol table info available.
+#6  0x00007f26081c17f4 in ?? () from /usr/lib/x86_64-linux-gnu/libdricore8.1.0.so.1
+No symbol table info available.
+#7  0x00007f26120b785b in ?? () from /usr/lib/x86_64-linux-gnu/libcogl.so.9
+No symbol table info available.
+#8  0x00007f26120b7533 in ?? () from /usr/lib/x86_64-linux-gnu/libcogl.so.9
+No symbol table info available.
+#9  0x00007f26120b73c6 in ?? () from /usr/lib/x86_64-linux-gnu/libcogl.so.9
+No symbol table info available.
+#10 0x00007f26120b85ac in ?? () from /usr/lib/x86_64-linux-gnu/libcogl.so.9
+No symbol table info available.
+#11 0x00007f2612083178 in cogl_flush () from /usr/lib/x86_64-linux-gnu/libcogl.so.9
+No symbol table info available.
+#12 0x00007f26120bb010 in cogl_framebuffer_set_dither_enabled () from /usr/lib/x86_64-linux-gnu/libcogl.so.9
+No symbol table info available.
+#13 0x00007f2612398fa7 in ?? () from /usr/lib/x86_64-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#14 0x00007f26148d1078 in ?? () from /usr/lib/x86_64-linux-gnu/libclutter-gtk-1.0.so.0
+No symbol table info available.
+#15 0x00007f2613f93d4b in ?? () from /usr/lib/x86_64-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#16 0x00007f2612f20040 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#17 0x00007f2612f31d10 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#18 0x00007f2612f3971a in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#19 0x00007f2612f3a1f2 in g_signal_emit () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#20 0x00007f2613f8ab8e in ?? () from /usr/lib/x86_64-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#21 0x00007f2613f8ac74 in ?? () from /usr/lib/x86_64-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#22 0x00007f2613f8d0ba in ?? () from /usr/lib/x86_64-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#23 0x00007f2613f74ef0 in ?? () from /usr/lib/x86_64-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#24 0x00007f2612c60db5 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#25 0x00007f2612c610e8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#26 0x00007f2612c611a4 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#27 0x00007f2613960efc in g_application_run () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#28 0x00007f261532b8da in main ()
+No symbol table info available.

@@ -1,0 +1,2 @@
+#0  0x00007fe3fc86c0f2 in strchr () from /lib/libc.so.6
+#1  0x0000000000408dcb in _start ()

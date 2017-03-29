@@ -1,0 +1,64 @@
+#0  __GI_getenv (name=0x7f813b5ef117 "NGUAGE") at getenv.c:90
+        ep_start = <error reading variable ep_start (Cannot access memory at address 0x110)>
+        len = 6
+        ep = 0xc7f190
+        name_start = 16716
+#1  0x00007f813b4c49fc in guess_category_value (category=5, categoryname=<optimized out>) at dcigettext.c:1359
+        language = <optimized out>
+        retval = <optimized out>
+#2  __dcigettext (domainname=0x7f813b8c0f60 "glib20", msgid1=0x7f813c2aa0e8 "GUID", msgid2=0x0, plural=0, n=0, category=5) at dcigettext.c:575
+        domain = <optimized out>
+        binding = <optimized out>
+        categoryname = 0x7f813b5db0f3 "LC_MESSAGES"
+        categoryvalue = <optimized out>
+        dirname = 0x7f813b5f6770 "/usr/share/locale"
+        xdomainname = <optimized out>
+        retval = <optimized out>
+        retlen = <optimized out>
+        saved_errno = 0
+        search = {domainname = 0x7f813b8c0f60 "glib20", category = 5, localename = 0x7f8132d916c0 "en_US.UTF-8", counter = 1950863360, domain = 0x0, translation = 0xd7ad80 "\260\300", <incomplete sequence \311>, translation_length = 14244608, msgid = {appended = 0x7f8132d91788 "\350\240*<\201\177", ptr = 0x7f813c2aa0e8 "GUID"}}
+        foundp = 0x0
+        localename = 0x7f8132d916c0 "en_US.UTF-8"
+        domainname_len = <optimized out>
+        tree_lock = {__data = {__lock = 0, __nr_readers = 0, __readers_wakeup = 0, __writer_wakeup = 0, __nr_readers_queued = 0, __nr_writers_queued = 0, __writer = 0, __shared = 0, __pad1 = 0, __pad2 = 0, __flags = 0}, __size = '\000' <repeats 55 times>, __align = 0}
+#3  0x00007f813c254630 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#4  0x00007f813bd5edd7 in g_type_class_ref () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007f813bd4403d in g_object_new_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00007f813bd444a4 in g_object_new () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00007f813c251b6f in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#8  0x00007f813c25980b in g_bus_get_sync () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#9  0x00007f81339f011f in ?? () from /usr/lib/gio/modules/libdconfsettings.so
+No symbol table info available.
+#10 0x00007f81339f04a7 in ?? () from /usr/lib/gio/modules/libdconfsettings.so
+No symbol table info available.
+#11 0x00007f813b877efd in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#12 0x00007f813b8786f8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0x00007f813b878c32 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00007f81339efc7b in ?? () from /usr/lib/gio/modules/libdconfsettings.so
+No symbol table info available.
+#15 0x00007f813b89d9a6 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0x00007f813affaedc in start_thread (arg=0x7f8132d92700) at pthread_create.c:304
+        __res = <optimized out>
+        pd = 0x7f8132d92700
+        now = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {0, 8610190039905061077, 140734988899104, 140192880601536, 0, 3, -8610900583298774827, -8610882729587652395}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = 0
+        robust = <optimized out>
+        pagesize_m1 = <optimized out>
+        sp = <optimized out>
+        freesize = <optimized out>
+        __PRETTY_FUNCTION__ = "start_thread"
+#17 0x00007f813b57589d in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:112
+No locals.
+#18 0x0000000000000000 in ?? ()
+No symbol table info available.

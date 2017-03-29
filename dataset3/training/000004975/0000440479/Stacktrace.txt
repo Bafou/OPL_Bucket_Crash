@@ -1,0 +1,177 @@
+#0  0x002f44f5 in pango_glyph_string_extents_range (glyphs=0x89a6ac0, 
+    start=0, end=29, font=0x899e0a8, ink_rect=0xbfe8c590, 
+    logical_rect=0xbfe8c580)
+    at /build/buildd/pango1.0-1.26.0/pango/glyphstring.c:218
+	glyph_ink = {x = 1024, y = -4096, width = 4096, height = 4096}
+	glyph_logical = {x = 0, y = -15360, width = 6144, height = 19456}
+	x_pos = 242688
+	i = <value optimized out>
+	__PRETTY_FUNCTION__ = "pango_glyph_string_extents_range"
+#1  0x002f46f0 in pango_glyph_string_extents (glyphs=0x89a6ac0, 
+    font=0x899e0a8, ink_rect=0xbfe8c590, logical_rect=0xbfe8c580)
+    at /build/buildd/pango1.0-1.26.0/pango/glyphstring.c:288
+No locals.
+#2  0x002ff16d in pango_layout_run_get_extents (run=<value optimized out>, 
+    run_ink=0xbfe8c590, run_logical=0xbfe8c580)
+    at /build/buildd/pango1.0-1.26.0/pango/pango-layout.c:4451
+	logical = {x = 30, y = 0, width = 0, height = 145466040}
+	properties = {uline = PANGO_UNDERLINE_NONE, strikethrough = 0, 
+  rise = 0, letter_spacing = 0, shape_set = 0, shape_ink_rect = 0x0, 
+  shape_logical_rect = 0x0}
+#3  0x002ffe5e in pango_layout_line_get_extents (line=0x8dd5b98, 
+    ink_rect=0x8dd5bb4, logical_rect=0xbfe8c5ec)
+    at /build/buildd/pango1.0-1.26.0/pango/pango-layout.c:4612
+	run = (PangoLayoutRun *) 0xbfe8c450
+	new_pos = <value optimized out>
+	run_ink = {x = 0, y = -12288, width = 241664, height = 15360}
+	run_logical = {x = 0, y = -15360, width = 242688, height = 19456}
+	tmp_list = (GSList *) 0x8aba0e0
+	x_pos = 0
+	caching = 1
+	__PRETTY_FUNCTION__ = "pango_layout_line_get_extents"
+#4  0x003001e5 in get_line_extents_layout_coords (
+    layout=<value optimized out>, line=<value optimized out>, 
+    layout_width=-1, y_offset=0, baseline=0xbfe8c6ac, line_ink_layout=0x0, 
+    line_logical_layout=0xbfe8c68c)
+    at /build/buildd/pango1.0-1.26.0/pango/pango-layout.c:2378
+	x_offset = <value optimized out>
+	line_ink = {x = 3141238, y = 144195584, width = -1, height = 29}
+	line_logical = {x = 0, y = 0, width = 0, height = 0}
+#5  0x0030407d in pango_layout_get_extents_internal (
+    layout=<value optimized out>, ink_rect=0x0, logical_rect=0xbfe8c710, 
+    line_extents=0x0)
+    at /build/buildd/pango1.0-1.26.0/pango/pango-layout.c:2489
+	baseline = 3162911
+	line_ink_layout = {x = 17183596, y = 146544200, width = 196, 
+  height = 146544200}
+	line_logical_layout = {x = 19030004, y = 146544200, 
+  width = 146544228, height = -1075263800}
+	new_pos = <value optimized out>
+	line_list = <value optimized out>
+	y_offset = 0
+	width = -1
+	need_width = <value optimized out>
+	__PRETTY_FUNCTION__ = "pango_layout_get_extents_internal"
+#6  0x00f37ad8 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#7  0x0050bfb8 in g_cclosure_marshal_VOID__BOXED ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#8  0x004fd719 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#9  0x004fefb8 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#10 0x00514000 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x00515a7d in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x00515d92 in g_signal_emit_by_name () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x00fb71b6 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#14 0x00fb746f in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#15 0x0106b6ef in gtk_widget_render_icon () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#16 0x00e801b3 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#17 0x0050bfb8 in g_cclosure_marshal_VOID__BOXED ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#18 0x004fd719 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#19 0x004fefb8 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#20 0x00514000 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#21 0x00515a7d in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#22 0x00515d92 in g_signal_emit_by_name () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#23 0x00fb71b6 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#24 0x00fb746f in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#25 0x0106b6ef in gtk_widget_render_icon () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#26 0x00e801b3 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#27 0x0050bfb8 in g_cclosure_marshal_VOID__BOXED ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#28 0x004fd719 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#29 0x004fefb8 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#30 0x00514000 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#31 0x00515a7d in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#32 0x00515d92 in g_signal_emit_by_name () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#33 0x00fb71b6 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#34 0x00fb746f in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#35 0x0106b6ef in gtk_widget_render_icon () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#36 0x01074d2a in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#37 0x0050bfb8 in g_cclosure_marshal_VOID__BOXED ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#38 0x004fd719 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#39 0x004ff092 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#40 0x00514000 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#41 0x00515a7d in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#42 0x00515d92 in g_signal_emit_by_name () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#43 0x00fb71b6 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#44 0x00fb746f in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#45 0x0106b6ef in gtk_widget_render_icon () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#46 0x0107509d in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#47 0x0107db5e in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#48 0x0050c94c in g_cclosure_marshal_VOID__VOID ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#49 0x004fd719 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#50 0x004ff092 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#51 0x005143ee in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#52 0x00515a7d in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#53 0x00515f06 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#54 0x00eb321a in gtk_container_child_get_property ()
+   from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#55 0x00eb3270 in gtk_container_child_get_property ()
+   from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#56 0x003bbed8 in gdk_cairo_set_source_pixbuf ()
+   from /usr/lib/libgdk-x11-2.0.so.0
+No symbol table info available.
+#57 0x006830f1 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#58 0x00684e78 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#59 0x00688720 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#60 0x00688b8f in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#61 0x00f412d9 in gtk_marshal_VOID__POINTER_POINTER_UINT_UINT ()
+   from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#62 0x0805d129 in main ()
+No symbol table info available.

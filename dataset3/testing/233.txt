@@ -1,0 +1,15 @@
+#0  0x00007f93cb43ad2e in g_value_init () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#1  0x00007f93cb42e8d0 in g_signal_emit_valist ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#2  0x00007f93cb42f353 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#3  0x00007f93cb418fe9 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00007f93cb41c564 in g_object_notify () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007f93cc0e6248 in gtk_dialog_run () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#6  0x000000000040a82c in main ()
+No symbol table info available.

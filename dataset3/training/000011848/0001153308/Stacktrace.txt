@@ -1,0 +1,22 @@
+#0  0x00007fcc22209037 in raise () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00007fcc2220c698 in abort () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x00007fcc22822576 in g_assertion_message () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007fcc22822ad4 in g_assertion_message_expr () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x000000000043bc5c in ?? ()
+No symbol table info available.
+#5  0x000000000043bd18 in ?? ()
+No symbol table info available.
+#6  0x000000000042e8e8 in ?? ()
+No symbol table info available.
+#7  0x00007fcc227ffe85 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0x00007fcc228001c8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0x00007fcc2280063a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0x0000000000424edd in main ()
+No symbol table info available.

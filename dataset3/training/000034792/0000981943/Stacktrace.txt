@@ -1,0 +1,37 @@
+#0  0x0804d078 in ?? ()
+No symbol table info available.
+#1  0x0011aab6 in atk_object_get_n_accessible_children () from /usr/lib/i386-linux-gnu/libatk-1.0.so.0
+No symbol table info available.
+#2  0x039a1749 in ?? () from /usr/lib/i386-linux-gnu/gtk-3.0/modules/libatk-bridge.so
+No symbol table info available.
+#3  0x001a2740 in g_idle_dispatch (source=0x9094028, callback=0x39a1530, user_data=0x8df30a0) at /build/buildd/glib2.0-2.32.0/./glib/gmain.c:4634
+No locals.
+#4  0x001a4cda in g_main_dispatch (context=0x8d3fb58) at /build/buildd/glib2.0-2.32.0/./glib/gmain.c:2515
+        dispatch = 0x1a2720 <g_idle_dispatch>
+        was_in_call = 0
+        user_data = 0x8df30a0
+        callback = 0x39a1530
+        cb_funcs = 0x2564d8
+        cb_data = 0x9161310
+        current_source_link = {data = 0x9094028, next = 0x0}
+        need_destroy = <optimized out>
+        source = 0x9094028
+        current = 0x8e24130
+        i = <optimized out>
+#5  g_main_context_dispatch (context=0x8d3fb58) at /build/buildd/glib2.0-2.32.0/./glib/gmain.c:3052
+No locals.
+#6  0x001a50e5 in g_main_context_iterate (dispatch=1, block=1780320, context=0x8d3fb58, self=<optimized out>) at /build/buildd/glib2.0-2.32.0/./glib/gmain.c:3123
+        timeout = 0
+        some_ready = 1
+        fds = 0x8de4168
+        max_priority = 200
+        nfds = <optimized out>
+        allocated_nfds = <optimized out>
+#7  g_main_context_iterate (context=0x8d3fb58, block=1780320, dispatch=1, self=<optimized out>) at /build/buildd/glib2.0-2.32.0/./glib/gmain.c:3060
+        some_ready = 1
+#8  0x001a552b in g_main_loop_run (loop=0x8f02250) at /build/buildd/glib2.0-2.32.0/./glib/gmain.c:3317
+        __PRETTY_FUNCTION__ = "g_main_loop_run"
+#9  0x004f0a35 in gtk_main () from /usr/lib/i386-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#10 0x0804bb76 in main ()
+No symbol table info available.

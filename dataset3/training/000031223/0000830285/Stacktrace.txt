@@ -1,0 +1,30 @@
+#0  0x00007f054fddf107 in ?? () from /usr/lib/libgdk-3.so.0
+No symbol table info available.
+#1  0x00007f054fddf8ea in ?? () from /usr/lib/libgdk-3.so.0
+No symbol table info available.
+#2  0x00007f054fdec1b0 in ?? () from /usr/lib/libgdk-3.so.0
+No symbol table info available.
+#3  0x00007f054fdebccf in ?? () from /usr/lib/libgdk-3.so.0
+No symbol table info available.
+#4  0x00007f054fdbf021 in gdk_display_get_event () from /usr/lib/libgdk-3.so.0
+No symbol table info available.
+#5  0x00007f054fdeb7e2 in ?? () from /usr/lib/libgdk-3.so.0
+No symbol table info available.
+#6  0x00007f055392defd in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00007f055392e6f8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0x00007f055392e8c9 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0x00007f0556b38ee6 in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#10 0x00007f0555f6a7ae in ?? () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#11 0x00007f0556b0cd52 in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#12 0x00007f0556b0cf57 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#13 0x00007f0556b117e9 in QCoreApplication::exec() () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#14 0x0000000000407af2 in main ()
+No symbol table info available.

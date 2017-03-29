@@ -1,0 +1,66 @@
+#0  0x00007faa56fecff0 in ?? ()
+No symbol table info available.
+#1  0x00007faa8d1335a6 in ?? () from /usr/lib/x86_64-linux-gnu/libpixman-1.so.0
+No symbol table info available.
+#2  0x00007faa8d15f4f2 in ?? () from /usr/lib/x86_64-linux-gnu/libpixman-1.so.0
+No symbol table info available.
+#3  0x00007faa8d0fa488 in pixman_image_composite32 () from /usr/lib/x86_64-linux-gnu/libpixman-1.so.0
+No symbol table info available.
+#4  0x00007faa9540889d in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#5  0x00007faa9540a30c in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#6  0x00007faa9540b62b in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#7  0x00007faa9540b8a9 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#8  0x00007faa95429704 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#9  0x00007faa954033ed in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#10 0x00007faa953fa290 in cairo_fill_preserve () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#11 0x00007faa953fa2a9 in cairo_fill () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#12 0x00007faa851158a5 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#13 0x00007faa851122ca in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#14 0x00007faa85109cc3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#15 0x00007faa8510a0cc in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#16 0x00007faa85109cc3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#17 0x00007faa85116478 in rsvg_handle_render_cairo_sub () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#18 0x00007faa85116943 in rsvg_handle_get_pixbuf_sub () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#19 0x00007faa85321d2b in ?? () from /usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+No symbol table info available.
+#20 0x00007faa905a96d1 in gdk_pixbuf_loader_close () from /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0
+No symbol table info available.
+#21 0x00007faa905a59d9 in ?? () from /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0
+No symbol table info available.
+#22 0x00007faa905a7221 in gdk_pixbuf_new_from_stream_at_scale () from /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0
+No symbol table info available.
+#23 0x00007faa95a8dfab in ?? () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#24 0x00007faa95a90d22 in gtk_icon_info_load_icon () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#25 0x00007faa96e7c095 in ?? () from /usr/lib/gnome-shell/libgnome-shell.so
+No symbol table info available.
+#26 0x00007faa9082e7cc in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#27 0x00007faa9081c3fe in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#28 0x00007faa94f05058 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#29 0x00007faa94f047f5 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#30 0x00007faa94c85e9a in start_thread () from /lib/x86_64-linux-gnu/libpthread.so.0
+No symbol table info available.
+#31 0x00007faa949b374d in clone () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#32 0x0000000000000000 in ?? ()
+No symbol table info available.

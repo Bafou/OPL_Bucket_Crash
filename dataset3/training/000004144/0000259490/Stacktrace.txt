@@ -1,0 +1,77 @@
+#0  0x00007fad7569cb0b in pango_default_break (text=<value optimized out>, 
+    length=29, analysis=<value optimized out>, attrs=0xaaaaaaaaaaaaaaaa, 
+    attrs_len=<value optimized out>)
+    at /build/buildd/pango1.0-1.21.3/pango/break.c:643
+	type = G_UNICODE_PARAGRAPH_SEPARATOR
+	break_type = <value optimized out>
+	is_word_boundary = <value optimized out>
+	break_op = <value optimized out>
+	jamo = NO_JAMO
+	makes_hangul_syllable = 0
+	next = (const gchar *) 0x7fad640015b0 ""
+	i = 0
+	prev_wc = 0
+	next_wc = 8233
+	prev_jamo = NO_JAMO
+	next_break_type = G_UNICODE_BREAK_MANDATORY
+	prev_type = G_UNICODE_PARAGRAPH_SEPARATOR
+	prev_break_type = G_UNICODE_BREAK_UNKNOWN
+	prev_was_break_space = 0
+	prev_GB_type = GB_Other
+	prev_prev_WB_type = WB_Other
+	prev_WB_type = WB_Other
+	prev_WB_i = -1
+	current_word_type = WordNone
+	last_word_letter = 0
+	base_character = 0
+	sentence_state = STATE_SENTENCE_OUTSIDE
+	possible_sentence_end = -1
+	possible_sentence_boundary = -1
+	almost_done = 1
+	done = 1
+	__PRETTY_FUNCTION__ = "pango_default_break"
+#1  0x00007fad7569e62b in pango_break (text=0x7fad640015b0 "", length=29, 
+    analysis=0x7fad75205780, attrs=0x1c, attrs_len=30)
+    at /build/buildd/pango1.0-1.21.3/pango/break.c:1697
+	__PRETTY_FUNCTION__ = "pango_break"
+#2  0x00007fad756aef00 in pango_layout_check_lines (layout=0x2aa0520)
+    at /build/buildd/pango1.0-1.21.3/pango/pango-layout.c:3612
+	delim_len = 0
+	end = <value optimized out>
+	delimiter_index = 29
+	next_para_index = 29
+	start = <value optimized out>
+	done = 1
+	start_offset = <value optimized out>
+	attrs = (PangoAttrList *) 0x2afc560
+	no_shape_attrs = (PangoAttrList *) 0x0
+	iter = (PangoAttrIterator *) 0x2c41c80
+	prev_base_dir = PANGO_DIRECTION_LTR
+	base_dir = PANGO_DIRECTION_LTR
+	state = {line_height = -1, remaining_height = -1, attrs = 0x2afc560, 
+  items = 0x26bcd20, base_dir = PANGO_DIRECTION_RTL, line_of_par = 0, 
+  glyphs = 0x2580c50, start_offset = 1967496487, properties = {
+    uline = 1677728544, strikethrough = 32685, rise = 39324752, 
+    letter_spacing = 1, shape_set = 38719760, shape_ink_rect = 0x0, 
+    shape_logical_rect = 0x8000001}, log_widths = 0x7fff803b0a00, 
+  log_widths_offset = -2143612368, line_start_index = 32767, 
+  line_start_offset = 2, line_width = 0, remaining_width = -2143614464}
+	__PRETTY_FUNCTION__ = "pango_layout_check_lines"
+#3  0x00007fad756b007d in pango_layout_get_extents_internal (layout=0x2029, 
+    ink_rect=0x0, logical_rect=0x7fff803b0bc0, line_extents=0x0)
+    at /build/buildd/pango1.0-1.21.3/pango/pango-layout.c:2411
+	line_list = <value optimized out>
+	y_offset = <value optimized out>
+	width = <value optimized out>
+	need_width = <value optimized out>
+	__PRETTY_FUNCTION__ = "pango_layout_get_extents_internal"
+#4  0x00007fad756b1bd6 in pango_layout_get_pixel_extents (layout=0x2aa0520, 
+    ink_rect=0x0, logical_rect=0x7fff803b0bc0)
+    at /build/buildd/pango1.0-1.21.3/pango/pango-layout.c:2615
+	__PRETTY_FUNCTION__ = "pango_layout_get_pixel_extents"
+#5  0x00007fad763c1a8d in gtk_label_recalculate (label=0x7fff803b0d60)
+    at /build/buildd/gtk+2.0-2.13.6/gtk/gtklabel.c:2981
+	keyval = 37802144
+#6  0x0000000000001e00 in ?? ()
+#7  0x0000000002580c50 in ?? ()
+#8  0x0000000000000000 in ?? ()

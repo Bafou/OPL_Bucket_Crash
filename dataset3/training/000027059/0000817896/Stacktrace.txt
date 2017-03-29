@@ -1,0 +1,42 @@
+#0  0x0000000100000083 in ?? ()
+No symbol table info available.
+#1  0x00007ff636ec7d58 in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#2  0x00007ff636e438d2 in QDeclarativePropertyPrivate::initProperty(QObject*, QString const&) () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#3  0x00007ff636e4457b in QDeclarativeProperty::QDeclarativeProperty(QObject*, QString const&) () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#4  0x00007ff636d8d647 in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#5  0x00007ff636f14738 in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#6  0x00007ff636e44ad7 in QDeclarativePropertyPrivate::write(QObject*, QDeclarativePropertyCache::Data const&, QVariant const&, QDeclarativeContextData*, QFlags<QDeclarativePropertyPrivate::WriteFlag>) () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#7  0x00007ff636e45351 in QDeclarativePropertyPrivate::writeValueProperty(QVariant const&, QFlags<QDeclarativePropertyPrivate::WriteFlag>) () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#8  0x00007ff636e45421 in QDeclarativePropertyPrivate::write(QDeclarativeProperty const&, QVariant const&, QFlags<QDeclarativePropertyPrivate::WriteFlag>) () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#9  0x00007ff636e3f2ab in QDeclarativeBinding::update(QFlags<QDeclarativePropertyPrivate::WriteFlag>) () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#10 0x00007ff636e3e1eb in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#11 0x00007ff636e3d193 in QDeclarativeExpression::qt_metacall(QMetaObject::Call, int, void**) () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#12 0x00007ff636f228c8 in QDeclarativeBinding::qt_metacall(QMetaObject::Call, int, void**) () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#13 0x00007ff6382cb6ea in QMetaObject::activate(QObject*, QMetaObject const*, int, void**) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#14 0x00007ff636e2b02f in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#15 0x00007ff636e44ad7 in QDeclarativePropertyPrivate::write(QObject*, QDeclarativePropertyCache::Data const&, QVariant const&, QDeclarativeContextData*, QFlags<QDeclarativePropertyPrivate::WriteFlag>) () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#16 0x00007ff636ece5df in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#17 0x00007ff6331cd902 in ?? () from /usr/lib/libQtScript.so.4
+No symbol table info available.
+#18 0x00007ff6330a3b6f in ?? () from /usr/lib/libQtScript.so.4
+No symbol table info available.
+#19 0x00007ff622a4e164 in ?? ()
+No symbol table info available.
+#20 0x0000000000000000 in ?? ()
+No symbol table info available.

@@ -1,0 +1,44 @@
+#0  0x00007ff4fd32f4d9 in g_logv () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007ff4fd32f622 in g_log () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007ff4fcc1becf in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#3  0x00007ff4fd5f68a9 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00007ff4fd5f8634 in g_object_new_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007ff4fd5f8a14 in g_object_new () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00007ff4fc966adc in ffi_call_unix64 () from /usr/lib/x86_64-linux-gnu/libffi.so.6
+No symbol table info available.
+#7  0x00007ff4fc96640c in ffi_call () from /usr/lib/x86_64-linux-gnu/libffi.so.6
+No symbol table info available.
+#8  0x00007ff4fd83dd19 in g_callable_info_invoke () from /usr/lib/libgirepository-1.0.so.1
+No symbol table info available.
+#9  0x00007ff4fd83f057 in g_function_info_invoke () from /usr/lib/libgirepository-1.0.so.1
+No symbol table info available.
+#10 0x00007ff4fda7b027 in ?? () from /usr/lib/python2.7/dist-packages/gi/_gi.so
+No symbol table info available.
+#11 0x00007ff4fda7136e in ?? () from /usr/lib/python2.7/dist-packages/gi/_gi.so
+No symbol table info available.
+#12 0x000000000052e3cb in PyEval_EvalFrameEx ()
+No symbol table info available.
+#13 0x000000000052e672 in PyEval_EvalFrameEx ()
+No symbol table info available.
+#14 0x0000000000567cdc in PyEval_EvalCode ()
+No symbol table info available.
+#15 0x0000000000451adb in ?? ()
+No symbol table info available.
+#16 0x0000000000451e5b in PyRun_FileExFlags ()
+No symbol table info available.
+#17 0x0000000000452394 in PyRun_SimpleFileExFlags ()
+No symbol table info available.
+#18 0x0000000000453ead in Py_Main ()
+No symbol table info available.
+#19 0x00007ff4fecb5de5 in __libc_start_main (main=0x453f6b <main>, argc=2, ubp_av=0x7fff28e38cf8, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fff28e38ce8) at libc-start.c:260
+        result = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {0, -6437214440187057535, 5736085, 140733879389424, 0, 0, 6436833906680572545, 6432149637655210625}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x5bb340 <__libc_csu_init>, 0x7fff28e38cf8}, data = {prev = 0x0, cleanup = 0x0, canceltype = 6009664}}}
+        not_first_call = <optimized out>
+#20 0x00000000005786be in _start ()
+No symbol table info available.

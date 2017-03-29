@@ -1,0 +1,137 @@
+#0  *__GI_getenv (name=0x7f3581e4443a "K_DEBUG") at getenv.c:84
+	len = 7
+	ep = (char **) 0x1260a58
+	name_start = 21575
+#1  0x00007f3581c6773c in gtk_rc_parse_assignment (scanner=0x1326550, 
+    style=<value optimized out>, prop=<value optimized out>)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtkrc.c:2679
+	negate = -2141503101
+	is_color = <value optimized out>
+	token = 1
+#2  0x00007f3581c68883 in gtk_rc_parse_style (context=0xfe1410, 
+    scanner=0x1326550) at /build/buildd/gtk+2.0-2.18.0/gtk/gtkrc.c:3223
+	prop = {type_name = 150, property_name = 151, origin = 0x0, value = {
+    g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, 
+        v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, 
+        v_pointer = 0x0}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, 
+        v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, 
+        v_pointer = 0x0}}}}
+	rc_style = (GtkRcStyle *) 0xfeb640
+	orig_style = (GtkRcStyle *) 0x0
+	parent_style = <value optimized out>
+	rc_priv = (GtkRcStylePrivate *) 0xfeb7c0
+	token = <value optimized out>
+	i = <value optimized out>
+	our_factory = (GtkIconFactory *) 0x0
+	our_hash = (GHashTable *) 0xfecca0
+	__PRETTY_FUNCTION__ = "gtk_rc_parse_style"
+#3  0x00007f3581c69156 in gtk_rc_parse_any (context=<value optimized out>, 
+    input_name=<value optimized out>, input_fd=<value optimized out>, 
+    input_string=<value optimized out>)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtkrc.c:2941
+	expected_token = 256
+	scanner = (GScanner *) 0x1326550
+	__PRETTY_FUNCTION__ = "gtk_rc_parse_any"
+#4  0x00007f3581c69cd0 in IA__gtk_rc_reparse_all_for_settings (
+    settings=<value optimized out>, force_load=1)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtkrc.c:945
+	rc_file = (GtkRcFile *) 0xd
+	tmp_list = (GSList *) 0xf98cc0
+	context = (GtkRcContext *) 0xfe1410
+	statbuf = {st_dev = 140734640091232, st_ino = 139867763273055, 
+  st_nlink = 16652304, st_mode = 2153279374, st_uid = 32565, 
+  st_gid = 19122976, __pad0 = 0, st_rdev = 139865609994364, 
+  st_size = 16652288, st_blksize = 0, st_blocks = 19122976, st_atim = {
+    tv_sec = 139867787382749, tv_nsec = 17480288}, st_mtim = {tv_sec = 0, 
+    tv_nsec = 17480288}, st_ctim = {tv_sec = 0, tv_nsec = 17480288}, 
+  __unused = {139867768337653, 16638464, 16652288}}
+	__PRETTY_FUNCTION__ = "IA__gtk_rc_reparse_all_for_settings"
+#5  0x00007f3580a3960e in g_closure_invoke ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00007f3580a4e933 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00007f3580a4fce9 in g_signal_emit_valist ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#8  0x00007f3580a50233 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#9  0x00007f3580a3d569 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#10 0x00007f3580a3e53d in g_object_set_valist ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x00007f3580a3e6b4 in g_object_set () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x000000000042c7ef in create_gtk_theme_pixbuf (
+    theme_thumbnail_data=0x7fff563afd40) at theme-thumbnail.c:364
+	settings = <value optimized out>
+	window = <value optimized out>
+	vbox = (GtkWidget *) 0x7fff563af700
+	box = <value optimized out>
+	stock_button = <value optimized out>
+	checkbox = <value optimized out>
+	radio = <value optimized out>
+	requisition = {width = 1446704896, height = 32767}
+	allocation = {x = 0, y = 0, width = 16884896, height = 0}
+	visual = <value optimized out>
+	pixmap = <value optimized out>
+	pixbuf = <value optimized out>
+	retval = <value optimized out>
+	width = <value optimized out>
+	height = <value optimized out>
+	__PRETTY_FUNCTION__ = "create_gtk_theme_pixbuf"
+#13 0x000000000042d020 in message_from_capplet (source=<value optimized out>, 
+    condition=<value optimized out>, data=0x7fff563afd40)
+    at theme-thumbnail.c:680
+	pixbuf = <value optimized out>
+	i = <value optimized out>
+	rowstride = <value optimized out>
+	type = <value optimized out>
+	pixels = <value optimized out>
+	width = <value optimized out>
+	height = <value optimized out>
+	buffer = "gtk\000Glossy\000base_color:#ffffff\nfg_color:#000000\ntooltip_fg_color:#000000\nselected_bg_color:#5598d7\nselected_fg_color:#ffffff\ntext_color:#000000\nbg_color:#ede9e3\ntooltip_bg_color:#FFFFBF\000\000\000Sans 10\000\2005\177\000\000"...
+	status = <value optimized out>
+	bytes_read = 195
+	__PRETTY_FUNCTION__ = "message_from_capplet"
+#14 0x00007f358059cbbe in g_main_context_dispatch ()
+   from /lib/libglib-2.0.so.0
+No symbol table info available.
+#15 0x00007f35805a0588 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#16 0x00007f35805a09e5 in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#17 0x00007f3581c1cfc7 in IA__gtk_main ()
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtkmain.c:1205
+	tmp_list = (GList *) 0x101a4a0
+	functions = (GList *) 0x0
+	init = (GtkInitFunction *) 0x0
+	loop = <value optimized out>
+#18 0x000000000042c448 in theme_thumbnail_factory_init (argc=1, 
+    argv=0x7fff563aff88) at theme-thumbnail.c:1201
+	data = {status = 7, type = 0x100c900, control_theme_name = 0x100c920, 
+  gtk_color_scheme = 0x100c940, wm_theme_name = 0x100c960, 
+  icon_theme_name = 0x100c980, application_font = 0x100c9a0}
+	channel = <value optimized out>
+	__PRETTY_FUNCTION__ = "theme_thumbnail_factory_init"
+#19 0x0000000000418908 in main (argc=1, argv=0x7fff563aff88)
+    at appearance-main.c:42
+	w = <value optimized out>
+	install_filename = (gchar *) 0x0
+	start_page = (gchar *) 0x0
+	wallpaper_files = (gchar **) 0x0
+	option_context = <value optimized out>
+	option_entries = {{long_name = 0x42fab8 "install-theme", 
+    short_name = 105 'i', flags = 2, arg = G_OPTION_ARG_FILENAME, 
+    arg_data = 0x7fff563afe78, 
+    description = 0x42fb98 "Specify the filename of a theme to install", 
+    arg_description = 0x42fac6 "filename"}, {
+    long_name = 0x42facf "show-page", short_name = 112 'p', flags = 2, 
+    arg = G_OPTION_ARG_STRING, arg_data = 0x7fff563afe70, 
+    description = 0x42fbc8 "Specify the name of the page to show (theme|background|fonts|interface)", arg_description = 0x42fad4 "page"}, {
+    long_name = 0x43134c "", short_name = 0 '\0', flags = 2, 
+    arg = G_OPTION_ARG_FILENAME_ARRAY, arg_data = 0x7fff563afe68, 
+    description = 0x0, arg_description = 0x42fad9 "[WALLPAPER...]"}, {
+    long_name = 0x0, short_name = 0 '\0', flags = 0, arg = G_OPTION_ARG_NONE, 
+    arg_data = 0x0, description = 0x0, arg_description = 0x0}}

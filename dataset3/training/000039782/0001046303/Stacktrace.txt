@@ -1,0 +1,92 @@
+#0  0xb7721424 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0xb75311cf in raise () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0xb7534815 in abort () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0xb7021b78 in g_assertion_message () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0xb702217f in g_assertion_message_expr () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0xb3f1b284 in ?? () from /usr/lib/i386-linux-gnu/gio/modules/libgiognutls.so
+No symbol table info available.
+#6  0xb6ec84a7 in g_tls_backend_get_default_database () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#7  0xb52ad8c3 in ?? () from /usr/lib/i386-linux-gnu/libsoup-2.4.so.1
+No symbol table info available.
+#8  0xb70c74e2 in g_object_newv () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#9  0xb70c7aea in g_object_new_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#10 0xb52b0673 in soup_session_sync_new_with_options () from /usr/lib/i386-linux-gnu/libsoup-2.4.so.1
+No symbol table info available.
+#11 0xb531e6d8 in ?? () from /usr/lib/libgdata.so.13
+No symbol table info available.
+#12 0xb531e7f9 in ?? () from /usr/lib/libgdata.so.13
+No symbol table info available.
+#13 0xb70e46b7 in g_type_create_instance () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#14 0xb70c5ab1 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#15 0xb70c72ad in g_object_newv () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#16 0xb6d9721a in ?? () from /usr/lib/python3/dist-packages/gi/_gobject/_gobject.cpython-32mu.so
+No symbol table info available.
+#17 0xb6da1134 in ?? () from /usr/lib/python3/dist-packages/gi/_gobject/_gobject.cpython-32mu.so
+No symbol table info available.
+#18 0x080b68d3 in ?? ()
+No symbol table info available.
+#19 0x080d3241 in PyObject_Call ()
+No symbol table info available.
+#20 0x080f08eb in PyEval_EvalFrameEx ()
+No symbol table info available.
+#21 0x0811505a in PyEval_EvalCodeEx ()
+No symbol table info available.
+#22 0x08115a49 in ?? ()
+No symbol table info available.
+#23 0x080d3241 in PyObject_Call ()
+No symbol table info available.
+#24 0x080d4224 in ?? ()
+No symbol table info available.
+#25 0x080d3241 in PyObject_Call ()
+No symbol table info available.
+#26 0x080d4746 in ?? ()
+No symbol table info available.
+#27 0x080b68d3 in ?? ()
+No symbol table info available.
+#28 0x080d3241 in PyObject_Call ()
+No symbol table info available.
+#29 0x080f08eb in PyEval_EvalFrameEx ()
+No symbol table info available.
+#30 0x080f06ea in PyEval_EvalFrameEx ()
+No symbol table info available.
+#31 0x0811505a in PyEval_EvalCodeEx ()
+No symbol table info available.
+#32 0x08115a49 in ?? ()
+No symbol table info available.
+#33 0x080d3241 in PyObject_Call ()
+No symbol table info available.
+#34 0x080d4224 in ?? ()
+No symbol table info available.
+#35 0x080d3241 in PyObject_Call ()
+No symbol table info available.
+#36 0x080d4746 in ?? ()
+No symbol table info available.
+#37 0x080b68d3 in ?? ()
+No symbol table info available.
+#38 0x080d3241 in PyObject_Call ()
+No symbol table info available.
+#39 0x080f08eb in PyEval_EvalFrameEx ()
+No symbol table info available.
+#40 0x0811505a in PyEval_EvalCodeEx ()
+No symbol table info available.
+#41 0x081995f5 in ?? ()
+No symbol table info available.
+#42 0x080a3008 in PyRun_FileExFlags ()
+No symbol table info available.
+#43 0x080a33a7 in PyRun_SimpleFileExFlags ()
+No symbol table info available.
+#44 0x0809bb6d in Py_Main ()
+No symbol table info available.
+#45 0x080a8dde in main ()
+No symbol table info available.

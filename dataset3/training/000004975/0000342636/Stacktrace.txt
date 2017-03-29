@@ -1,0 +1,54 @@
+#0  0x00007ff25cb08a6b in pango_layout_check_lines (layout=0x1e68320)
+    at /build/buildd/pango1.0-1.22.4/pango/pango-layout.c:3038
+	delim_len = 0
+	end = <value optimized out>
+	delimiter_index = 39
+	next_para_index = 39
+	start = 0x1e99250 "–Ó…\001"
+	done = 1
+	start_offset = 0
+	attrs = (PangoAttrList *) 0x1ebdcc0
+	no_shape_attrs = (PangoAttrList *) 0x0
+	iter = (PangoAttrIterator *) 0x1703700
+	prev_base_dir = PANGO_DIRECTION_LTR
+	base_dir = PANGO_DIRECTION_LTR
+	state = {line_height = -1, remaining_height = -1, attrs = 0x1ebdcc0, 
+  items = 0x1b459a0, base_dir = PANGO_DIRECTION_LTR, line_of_par = 1, 
+  glyphs = 0x0, start_offset = 0, properties = {uline = PANGO_UNDERLINE_NONE, 
+    strikethrough = 0, rise = 0, letter_spacing = 0, shape_set = 0, 
+    shape_ink_rect = 0x0, shape_logical_rect = 0x0}, log_widths = 0x0, 
+  log_widths_offset = 0, line_start_index = 0, line_start_offset = 0, 
+  line_width = -1, remaining_width = -1}
+	__PRETTY_FUNCTION__ = "pango_layout_check_lines"
+#1  0x00007ff25cb0955d in pango_layout_get_extents_internal (
+    layout=0x1e68320, ink_rect=0x0, logical_rect=0x7fff67936480, 
+    line_extents=0x0)
+    at /build/buildd/pango1.0-1.22.4/pango/pango-layout.c:2443
+	line_list = <value optimized out>
+	y_offset = <value optimized out>
+	width = <value optimized out>
+	need_width = <value optimized out>
+	__PRETTY_FUNCTION__ = "pango_layout_get_extents_internal"
+#2  0x00007ff25dac9fda in gtk_menu_item_position_menu (menu=0x0, x=0x1426800, 
+    y=0x1e6d380, push_in=<value optimized out>, user_data=0x191ee00)
+    at /build/buildd/gtk+2.0-2.16.0/gtk/gtkmenuitem.c:1750
+	parent_menu_item = <value optimized out>
+	screen = <value optimized out>
+	twidth = 0
+	theight = 1550288848
+	tx = 0
+	ty = 917763
+	direction = 32754
+	monitor = {x = 31904640, y = 0, width = 1550295583, height = 32754}
+	monitor_num = 1
+	horizontal_offset = 32754
+	vertical_offset = 1550237152
+	parent_xthickness = 4
+	available_left = 0
+	available_right = 1737713184
+	__PRETTY_FUNCTION__ = "gtk_menu_item_position_menu"
+#3  0x00007ff25c1955b0 in ?? () from /lib/libpthread.so.0
+#4  0x000000000141ef80 in ?? ()
+#5  0x000000000191ee00 in ?? ()
+#6  0x00007fff67936800 in ?? ()
+#7  0x0000000000000000 in ?? ()

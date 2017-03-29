@@ -1,0 +1,36 @@
+#0  0x00007f5849ad8c20 in ?? () from /usr/lib/control-center-1/panels/libcolor.so
+No symbol table info available.
+#1  0x00007f5849ad9106 in ?? () from /usr/lib/control-center-1/panels/libcolor.so
+No symbol table info available.
+#2  0x00007f585319bee1 in g_simple_async_result_complete () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#3  0x00007f585319c01c in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#4  0x00007f5852a27b6d in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f5852a28368 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f5852a288a2 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00007f58498baafd in cd_device_connect_sync () from /usr/lib/x86_64-linux-gnu/libcolord.so.1
+No symbol table info available.
+#8  0x00007f5849ad8c29 in ?? () from /usr/lib/control-center-1/panels/libcolor.so
+No symbol table info available.
+#9  0x00007f5849ad9106 in ?? () from /usr/lib/control-center-1/panels/libcolor.so
+No symbol table info available.
+#10 0x00007f585319bee1 in g_simple_async_result_complete () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#11 0x00007f585319c01c in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#12 0x00007f5852a27b6d in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0x00007f5852a28368 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00007f5852a288a2 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x00007f58543b410d in gtk_main () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#16 0x00007f58531cd34e in g_application_run () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#17 0x00007f5854d0d76c in main ()
+No symbol table info available.

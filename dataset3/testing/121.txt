@@ -1,0 +1,18 @@
+#0  0x0937efbe in LauncherIcon::OpenQuicklist(bool) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0x093b2b2f in Launcher::SingleFingerHoldTimeout(void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x0068e52c in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#3  0x0068cc08 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#4  0x0068d3d0 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#5  0x0068da93 in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#6  0x0026ba35 in Glib::MainLoop::run() () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#7  0x0806e9ab in CompScreen::eventLoop() ()
+No symbol table info available.
+#8  0x08066c98 in main ()
+No symbol table info available.

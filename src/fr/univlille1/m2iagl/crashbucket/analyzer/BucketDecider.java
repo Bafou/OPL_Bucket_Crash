@@ -6,10 +6,10 @@ import java.util.Map;
 
 import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.StacktraceLineDataParser;
 import fr.univlille1.m2iagl.crashbucket.structure.Bucket;
-import fr.univlille1.m2iagl.crashbucket.structure.Crash;
+import fr.univlille1.m2iagl.crashbucket.structure.Stacktrace;
 
 /**
- * Class that will calculate the score between a stacktrace and all the bucket
+ * Class that will calculate the score between a stacktrace and all the buckets
  * existing in the actual environment
  * 
  * @author Antoine PETIT
@@ -18,10 +18,10 @@ import fr.univlille1.m2iagl.crashbucket.structure.Crash;
 public class BucketDecider {
 
 	private final Map<String, Bucket> trainingRessourcesStacktrace;
-	private final Map<String, Crash> testingRessourcesStacktrace;
+	private final Map<String, Stacktrace> testingRessourcesStacktrace;
 
 	public BucketDecider(final Map<String, Bucket> trainingRessourcesStacktrace,
-			Map<String, Crash> testingRessourcesStacktrace) {
+			Map<String, Stacktrace> testingRessourcesStacktrace) {
 		super();
 		this.trainingRessourcesStacktrace = trainingRessourcesStacktrace;
 		this.testingRessourcesStacktrace = testingRessourcesStacktrace;
@@ -30,10 +30,15 @@ public class BucketDecider {
 	public BucketDecider(final Map<String, Bucket> trainingRessourcesStacktrace) {
 		super();
 		this.trainingRessourcesStacktrace = trainingRessourcesStacktrace;
-		this.testingRessourcesStacktrace = new HashMap<String, Crash>();
+		this.testingRessourcesStacktrace = new HashMap<String, Stacktrace>();
 	}
 
-	public String decideBucket(final Crash crash) {
+	/**
+	 * Return the bucket where the crash should be set
+	 * @param crash the crash treated
+	 * @return the bucket where the crash should be set
+	 */
+	public String decideBucket(final Stacktrace crash) {
 		Double highestMatchedScore = 0.0;
 		String selectedBucket = "";
 		for (final String bucketId : trainingRessourcesStacktrace.keySet()) {
@@ -55,7 +60,7 @@ public class BucketDecider {
 	 */
 	public void InitiateAssignment() {
 		for (final String crashId : testingRessourcesStacktrace.keySet()) {
-			final Crash testingCrash = testingRessourcesStacktrace.get(crashId);
+			final Stacktrace testingCrash = testingRessourcesStacktrace.get(crashId);
 
 			StacktraceAnalyzer.assignementResult.put(crashId, decideBucket(testingCrash));
 		}
@@ -71,9 +76,9 @@ public class BucketDecider {
 	 *            the bucket that will be compared
 	 * @return the score of "match" between the stacktrace and the bucket
 	 */
-	public static double getStacktraceBucketComparaisonScore(final Crash testingCrash, final Bucket bucket) {
+	public static double getStacktraceBucketComparaisonScore(final Stacktrace testingCrash, final Bucket bucket) {
 		double currentScore = 0.0;
-		for (final Crash crash : bucket.getCrash()) {
+		for (final Stacktrace crash : bucket.getCrash()) {
 			int score = 0;
 			int nbMatch = 0;
 			for (StacktraceLineDataParser data : testingCrash.getAllData()) {
@@ -105,11 +110,11 @@ public class BucketDecider {
 
 	}
 	
-	public void addToBucket(final String bucketId, final Crash crash) {
-		trainingRessourcesStacktrace.get(bucketId).addCrash(crash);	
+	public void addToBucket(final String bucketId, final Stacktrace crash) {
+		trainingRessourcesStacktrace.get(bucketId).addStacktrace(crash);	
 	}
 	
-	public void removeFromBucket(final String bucketId, final Crash crash) {
+	public void removeFromBucket(final String bucketId, final Stacktrace crash) {
 		trainingRessourcesStacktrace.get(bucketId).getCrash().remove(crash);	
 	}
 }

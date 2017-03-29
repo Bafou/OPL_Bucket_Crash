@@ -1,0 +1,44 @@
+#0  0x00007f3fe0eef32e in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00007f3fe0ef231e in malloc () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x00007f3fe1471a63 in g_malloc () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f3fe148a06e in g_strdup () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f3fd890ec08 in g_vfs_uri_mount_info_set_with_len () from /usr/lib/gio/modules/libgvfsdbus.so
+No symbol table info available.
+#5  0x00007f3fd890ec9c in g_vfs_uri_mount_info_new () from /usr/lib/gio/modules/libgvfsdbus.so
+No symbol table info available.
+#6  0x00007f3fd890fabc in ?? () from /usr/lib/gio/modules/libgvfsdbus.so
+No symbol table info available.
+#7  0x00007f3fd88fe5ac in ?? () from /usr/lib/gio/modules/libgvfsdbus.so
+No symbol table info available.
+#8  0x000000000040a868 in ?? ()
+No symbol table info available.
+#9  0x00007f3fe146c4eb in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0x00007f3fe146abcd in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0x00007f3fe146b3a8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#12 0x00007f3fe146b9f2 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0x00007f3fe41a5af7 in gtk_main () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#14 0x0000000000408b5e in ?? ()
+No symbol table info available.
+#15 0x00007f3fe0e94eff in __libc_start_main () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#16 0x0000000000406f69 in ?? ()
+No symbol table info available.
+#17 0x00007fff24f2c448 in ?? ()
+No symbol table info available.
+#18 0x000000000000001c in ?? ()
+No symbol table info available.
+#19 0x0000000000000001 in ?? ()
+No symbol table info available.
+#20 0x00007fff24f2dadf in ?? ()
+No symbol table info available.
+#21 0x0000000000000000 in ?? ()
+No symbol table info available.

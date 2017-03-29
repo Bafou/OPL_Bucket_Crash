@@ -1,0 +1,83 @@
+#0  0x40b1c16e in isSignalConnected (signal_index=28, this=0x0) at kernel/qobject_p.h:233
+No locals.
+#1  QMetaObject::activate (sender=sender@entry=0x475cd828, signalOffset=<optimized out>, local_signal_index=local_signal_index@entry=1, argv=argv@entry=0x0) at kernel/qobject.cpp:3330
+        signal_index = 28
+        empty_argv = {0x20c}
+        currentThreadId = <optimized out>
+        __PRETTY_FUNCTION__ = "static void QMetaObject::activate(QObject*, int, int, void**)"
+#2  0x40b1c956 in QMetaObject::activate (sender=sender@entry=0x475cd828, m=<optimized out>, local_signal_index=local_signal_index@entry=1, argv=argv@entry=0x0) at kernel/qobject.cpp:3320
+No locals.
+#3  0x46c095d4 in InputArea::surfaceChanged (this=this@entry=0x475cd828) at moc_inputarea.cpp:196
+No locals.
+#4  0x46c062d0 in InputArea::doSetSurface (this=0x475cd828, surface=0x0) at inputarea.cpp:105
+No locals.
+#5  0x40b1c31e in call (a=0x46befaf8, r=<optimized out>, this=0x543022d8) at ../../include/QtCore/../../src/corelib/kernel/qobject_impl.h:127
+No locals.
+#6  QMetaObject::activate (sender=sender@entry=0x543021f8, signalOffset=<optimized out>, local_signal_index=local_signal_index@entry=0, argv=argv@entry=0x46befaf8) at kernel/qobject.cpp:3437
+        obj = {d = 0x543022d8}
+        receiverInSameThread = <optimized out>
+        sw = {receiver = 0x543021f8, previousSender = 0x0, currentSender = {sender = 0x543021f8, signal = 0, ref = 1}, switched = true}
+        callFunction = <optimized out>
+        receiver = <optimized out>
+        method_relative = 0
+        c = 0x54301c78
+        last = 0x54302550
+        locker = <optimized out>
+        connectionLists = {connectionLists = 0x543022e8}
+        list = 0x54302310
+        signal_index = 0
+        empty_argv = {0x0}
+        currentThreadId = 0x46bf0460
+        __PRETTY_FUNCTION__ = "static void QMetaObject::activate(QObject*, int, int, void**)"
+#7  0x40b1c956 in QMetaObject::activate (sender=sender@entry=0x543021f8, m=<optimized out>, local_signal_index=local_signal_index@entry=0, argv=argv@entry=0x46befaf8) at kernel/qobject.cpp:3320
+No locals.
+#8  0x40b1c9b0 in QObject::destroyed (this=this@entry=0x543021f8, _t1=_t1@entry=0x543021f8) at .moc/release-shared/moc_qobject.cpp:202
+        _a = {0x0, 0x46befaf4}
+#9  0x40b213dc in QObject::~QObject (this=0x543021f8, __in_chrg=<optimized out>) at kernel/qobject.cpp:771
+        d = 0x54302220
+        __PRETTY_FUNCTION__ = "virtual QObject::~QObject()"
+#10 0x404e49a0 in QQuickItem::~QQuickItem (this=0x543021f8, __in_chrg=<optimized out>) at items/qquickitem.cpp:1997
+No locals.
+#11 0x46c04c34 in MirSurface::~MirSurface (this=0x543021f8, __in_chrg=<optimized out>) at mirsurface.cpp:42
+No locals.
+#12 0x46c04cec in MirSurface::~MirSurface (this=0x543021f8, __in_chrg=<optimized out>) at mirsurface.cpp:42
+No locals.
+#13 0x46c05d08 in MirSurfaceManager::~MirSurfaceManager (this=0x475cd108, __in_chrg=<optimized out>) at mirsurfacemanager.cpp:80
+No locals.
+#14 0x46c05ddc in MirSurfaceManager::~MirSurfaceManager (this=0x475cd108, __in_chrg=<optimized out>) at mirsurfacemanager.cpp:81
+No locals.
+#15 0x4026b374 in QQmlType::SingletonInstanceInfo::destroy (this=0x4e1a31b8, e=e@entry=0x475195d8) at qml/qqmlmetatype.cpp:230
+No locals.
+#16 0x402381a4 in QQmlEngine::~QQmlEngine (this=0x475195d8, __in_chrg=<optimized out>) at qml/qqmlengine.cpp:784
+        currType = <optimized out>
+        _container_ = {c = {{p = {static shared_null = {ref = {atomic = {_q_value = -1}}, alloc = 0, begin = 0, end = 0, array = {0x0}}, d = 0x5873bf00}, d = 0x5873bf00}}, brk = 0, i = {i = 0x5873bf4c}, e = {i = 0x5873bf54}}
+        singletonTypes = {{p = {static shared_null = {ref = {atomic = {_q_value = -1}}, alloc = 0, begin = 0, end = 0, array = {0x0}}, d = 0x5873bf00}, d = 0x5873bf00}}
+#17 0x40238240 in QQmlEngine::~QQmlEngine (this=0x475195d8, __in_chrg=<optimized out>) at qml/qqmlengine.cpp:788
+No locals.
+#18 0x40b1cd94 in QObjectPrivate::deleteChildren (this=this@entry=0x47518cc0) at kernel/qobject.cpp:1764
+        i = 0
+#19 0x40b212e0 in QObject::~QObject (this=0x47518380, __in_chrg=<optimized out>) at kernel/qobject.cpp:857
+        d = 0x47518cc0
+        __PRETTY_FUNCTION__ = "virtual QObject::~QObject()"
+#20 0x4071086e in QWindow::~QWindow (this=0x47518380, __in_chrg=<optimized out>) at kernel/qwindow.cpp:216
+No locals.
+#21 0x404e7856 in QQuickWindow::~QQuickWindow (this=0x47518380, __in_chrg=<optimized out>) at items/qquickwindow.cpp:955
+No locals.
+#22 0x4055765e in QQuickView::~QQuickView (this=0x47518380, __in_chrg=<optimized out>) at items/qquickview.cpp:209
+No locals.
+#23 0x4055767c in QQuickView::~QQuickView (this=0x47518380, __in_chrg=<optimized out>) at items/qquickview.cpp:209
+No locals.
+#24 0x0000c638 in startShell (argc=1, argv=<optimized out>, server=<optimized out>) at /build/buildd/unity8-7.83+14.04.20131106/main.cpp:172
+        __PRETTY_FUNCTION__ = "int startShell(int, const char**, void*)"
+        qmlArgs = {<QObject> = {_vptr.QObject = 0x17e88 <vtable for ApplicationArguments+8>, static staticMetaObject = {d = {superdata = 0x0, stringdata = 0x40bf54a8 <qt_meta_stringdata_QObject>, data = 0x40bf5b8c <qt_meta_data_QObject>, static_metacall = 0x40b21565 <QObject::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)>, relatedMetaObjects = 0x0, extradata = 0x0}}, d_ptr = {d = 0x47518be0}, static staticQtMetaObject = {d = {superdata = 0x0, stringdata = 0x40c3ddf0 <qt_meta_stringdata_Qt>, data = 0x40c3b854 <qt_meta_data_Qt>, static_metacall = 0x0, relatedMetaObjects = 0x0, extradata = 0x0}}}, static staticMetaObject = {d = {superdata = 0x18270 <QObject::staticMetaObject>, stringdata = 0xf534 <qt_meta_stringdata_ApplicationArguments>, data = 0xf5b4 <qt_meta_data_ApplicationArguments>, static_metacall = 0xec8d <ApplicationArguments::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)>, relatedMetaObjects = 0x0, extradata = 0x0}}, m_size = {wd = -1, ht = -1}}
+        view = 0x47518380
+        mouseTouchAdaptor = 0x0
+        source = {d = 0x47556180}
+        application = 0x47500678
+        args = {<QList<QString>> = {{p = {static shared_null = {ref = {atomic = {_q_value = -1}}, alloc = 0, begin = 0, end = 0, array = {0x0}}, d = 0x475177f8}, d = 0x475177f8}}, <No data fields>}
+        result = 0
+#25 0x40dd6b34 in ?? () from /home/michal/.apport/sandbox/usr/lib/arm-linux-gnueabihf/libstdc++.so.6
+No symbol table info available.
+#26 0x40dd6b34 in ?? () from /home/michal/.apport/sandbox/usr/lib/arm-linux-gnueabihf/libstdc++.so.6
+No symbol table info available.
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)

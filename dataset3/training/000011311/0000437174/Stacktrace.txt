@@ -1,0 +1,60 @@
+#0  IA__gtk_icon_view_get_item_at_pos (icon_view=0x906e130, x=392, y=128, 
+    path=0x0, cell=0xbfb15dac)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtkiconview.c:4864
+	item = (GtkIconViewItem *) 0x0
+	info = (GtkIconViewCellInfo *) 0x188
+	__PRETTY_FUNCTION__ = "IA__gtk_icon_view_get_item_at_pos"
+#1  0x08058bce in ?? ()
+No symbol table info available.
+#2  0x427bb254 in _gtk_marshal_BOOLEAN__BOXED (closure=0x93bc2d8, 
+    return_value=0xbfb15f34, n_param_values=2, param_values=0x90f9a78, 
+    invocation_hint=0xbfb15f20, marshal_data=0x8058b40)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtkmarshalers.c:84
+	data1 = (gpointer) 0x0
+	data2 = <value optimized out>
+	v_return = <value optimized out>
+	__PRETTY_FUNCTION__ = "_gtk_marshal_BOOLEAN__BOXED"
+#3  0x0032e092 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x003436f8 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00344908 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00344f06 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x428d767e in gtk_widget_event_internal (widget=<value optimized out>, 
+    event=0x95921a8) at /build/buildd/gtk+2.0-2.18.0/gtk/gtkwidget.c:4767
+	signal_num = <value optimized out>
+	return_val = 0
+#8  0x427b3ae0 in IA__gtk_propagate_event (widget=0x906e130, event=0x95921a8)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtkmain.c:2404
+	tmp = (GtkWidget *) 0x8bbd66
+	handled_event = <value optimized out>
+	__PRETTY_FUNCTION__ = "IA__gtk_propagate_event"
+#9  0x427b4d69 in IA__gtk_main_do_event (event=0x95921a8)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtkmain.c:1609
+	event_widget = (GtkWidget *) 0x906e130
+	grab_widget = (GtkWidget *) 0x0
+	window_group = (GtkWindowGroup *) 0x9426c00
+	rewritten_event = (GdkEvent *) 0x0
+	tmp_list = <value optimized out>
+	__PRETTY_FUNCTION__ = "IA__gtk_main_do_event"
+#10 0x4262e53a in gdk_event_dispatch (source=0x8fd4018, callback=0, 
+    user_data=0x0)
+    at /build/buildd/gtk+2.0-2.18.0/gdk/x11/gdkevents-x11.c:2369
+	display = <value optimized out>
+	event = <value optimized out>
+#11 0x008bde78 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#12 0x008c1720 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#13 0x008c1b8f in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#14 0x427b52d9 in IA__gtk_main ()
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtkmain.c:1205
+	tmp_list = (GList *) 0x8fa2008
+	functions = (GList *) 0x0
+	init = (GtkInitFunction *) 0x90ab968
+	loop = (GMainLoop *) 0x8fac078
+#15 0x0805d129 in main ()
+No symbol table info available.

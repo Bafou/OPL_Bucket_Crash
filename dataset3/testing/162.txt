@@ -1,0 +1,129 @@
+#0  0xb74d6078 in strcmp () from /lib/tls/i686/cmov/libc.so.6
+#1  0xb7639e24 in g_str_equal () from /usr/lib/libglib-2.0.so.0
+#2  0xb76063d1 in g_hash_table_lookup () from /usr/lib/libglib-2.0.so.0
+#3  0xb75fec29 in g_quark_try_string () from /usr/lib/libglib-2.0.so.0
+#4  0xb76b978b in g_type_from_name () from /usr/lib/libgobject-2.0.so.0
+#5  0xb6cae339 in ge_object_is_a (object=0x0, 
+    type_name=0xb6caf423 "BonoboUIToolbar")
+    at /build/buildd/gtk2-engines-2.17.3/./engines/support/./widget-information.c:208
+	tmp = <value optimized out>
+	result = <value optimized out>
+#6  0xb6ca8dce in redmond_draw_box (style=0x8c0a8f0, window=0x8a1b3c0, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0xbfa34d04, 
+    widget=0x8a4c748, detail=0xb7cae709 "button", x=6, y=6, width=52, 
+    height=33)
+    at /build/buildd/gtk2-engines-2.17.3/./engines/redmond/./src/redmond_gtk2_drawing.c:1065
+	cr = <value optimized out>
+	__PRETTY_FUNCTION__ = "redmond_draw_box"
+#7  0xb7ae480e in IA__gtk_paint_box (style=0x8c0a8f0, window=0x8a1b3c0, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0xbfa34d04, 
+    widget=0x8a4c748, detail=0xb7cae709 "button", x=6, y=6, width=52, 
+    height=33) at /build/buildd/gtk+2.0-2.15.3/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#8  0xb79887b8 in _gtk_button_paint (button=0x8a4c748, area=0xbfa34d04, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, 
+    main_detail=0xb7cae709 "button", 
+    default_detail=0xb7cd22a8 "buttondefault")
+    at /build/buildd/gtk+2.0-2.15.3/gtk/gtkbutton.c:1501
+	widget = (GtkWidget *) 0x8a4c748
+	width = 52
+	height = 33
+	x = 6
+	y = 6
+	border_width = <value optimized out>
+	default_border = {left = 1, right = 1, top = 1, bottom = 1}
+	default_outside_border = {left = 0, right = 0, top = 0, bottom = 0}
+	interior_focus = 1
+	focus_width = 1
+	focus_pad = 1
+#9  0xb7989857 in gtk_button_expose (widget=0x8a4c748, event=0xbfa34cf8)
+    at /build/buildd/gtk+2.0-2.15.3/gtk/gtkbutton.c:1554
+	button = (GtkButton *) 0x8a4c748
+#10 0xb7a59ec2 in _gtk_marshal_BOOLEAN__BOXED (closure=0x89e5920, 
+    return_value=0xbfa34b20, n_param_values=2, param_values=0x8a66968, 
+    invocation_hint=0xbfa34b0c, marshal_data=0xb7989790)
+    at /build/buildd/gtk+2.0-2.15.3/gtk/gtkmarshalers.c:84
+	data1 = (gpointer) 0x8a4c748
+	data2 = (gpointer) 0x89e10c0
+	v_return = <value optimized out>
+	__PRETTY_FUNCTION__ = "_gtk_marshal_BOOLEAN__BOXED"
+#11 0xb769c409 in ?? () from /usr/lib/libgobject-2.0.so.0
+#12 0xb769dcab in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+#13 0xb76b5067 in ?? () from /usr/lib/libgobject-2.0.so.0
+#14 0xb76b68df in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+#15 0xb76b6ec6 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+#16 0xb7b8e3ae in gtk_widget_event_internal (widget=0x8a4c748, 
+    event=0xbfa34cf8) at /build/buildd/gtk+2.0-2.15.3/gtk/gtkwidget.c:4761
+	signal_num = <value optimized out>
+	return_val = 0
+#17 0x08071b7b in fake_expose_widget (widget=0x8a4c748, pixmap=0xb6caf423, 
+    area=0xb6a2a0e4) at theme-thumbnail.c:114
+	tmp_window = (GdkWindow *) 0x89cbea0
+	event = {type = GDK_EXPOSE, window = 0x8a1b3c0, send_event = 0 '\0', 
+  area = {x = 6, y = 6, width = 52, height = 33}, region = 0x0, count = 0}
+#18 0x080720c5 in create_gtk_theme_pixbuf (
+    theme_thumbnail_data=<value optimized out>) at theme-thumbnail.c:441
+	settings = <value optimized out>
+	window = (GtkWidget *) 0x8a38228
+	vbox = (GtkWidget *) 0x8a02168
+	box = <value optimized out>
+	stock_button = (GtkWidget *) 0x8a4c748
+	checkbox = (GtkWidget *) 0x8a3ca18
+	radio = (GtkWidget *) 0x8a3c998
+	requisition = {width = 142, height = 45}
+	allocation = {x = 0, y = 0, width = 142, height = 45}
+	visual = (GdkVisual *) 0xb6a2a0e4
+	pixmap = (GdkPixmap *) 0x8a1b3c0
+	pixbuf = <value optimized out>
+	retval = <value optimized out>
+	width = 142
+	height = 45
+	__PRETTY_FUNCTION__ = "create_gtk_theme_pixbuf"
+#19 0x080723c9 in message_from_capplet (source=0x8a00720, condition=G_IO_IN, 
+    data=0xbfa35484) at theme-thumbnail.c:709
+	width = <value optimized out>
+	height = <value optimized out>
+	buffer = "gtk\000Redmond\000\000\000\000Sans 10\000·à#i·\000\000\000\000øN£¿ô\037m·\200À½\bà½\234\b\030O£¿\b%j·Î\231\\·\000\000\000\000\030O£¿\225Ï\\·ôßE·\001\000\000\000\000\000\000\000¥¯E·\\°\\·ô\037i·\220\030\000\000\000\000\000\000\001\000\000\000P\000\000\000hO£¿ô\037i· ´\\·\001\000\000\000hO£¿\aó_·Î\231\\·\200À½\bh\000\000\000\225Ï\\·ôßE·\001\000\000\000\000\000\000\000¥¯E·\\°\\·ô\037i·\220\030\000\000\000\000\000\000\001\000\000\000\200À½\bh\000\000\000ô\037i·"...
+	status = <value optimized out>
+	bytes_read = 23
+	pixbuf = <value optimized out>
+	i = <value optimized out>
+	rowstride = <value optimized out>
+	pixels = <value optimized out>
+	__PRETTY_FUNCTION__ = "message_from_capplet"
+#20 0xb764bf0d in ?? () from /usr/lib/libglib-2.0.so.0
+#21 0xb7614af8 in g_main_context_dispatch () from /usr/lib/libglib-2.0.so.0
+#22 0xb761805b in ?? () from /usr/lib/libglib-2.0.so.0
+#23 0xb761852a in g_main_loop_run () from /usr/lib/libglib-2.0.so.0
+#24 0xb7a53499 in IA__gtk_main ()
+    at /build/buildd/gtk+2.0-2.15.3/gtk/gtkmain.c:1205
+	tmp_list = (GList *) 0xbfa3554c
+	functions = (GList *) 0x0
+	init = (GtkInitFunction *) 0x8a00720
+	loop = (GMainLoop *) 0x8a006e0
+#25 0x080718da in theme_thumbnail_factory_init (argc=1, argv=0xbfa35604)
+    at theme-thumbnail.c:1229
+	data = {status = 7, type = 0x899f620, control_theme_name = 0x899f638, 
+  gtk_color_scheme = 0x899f650, wm_theme_name = 0x899f668, 
+  icon_theme_name = 0x899f680, application_font = 0x899f698}
+	channel = (GIOChannel *) 0x8a00720
+	__PRETTY_FUNCTION__ = "theme_thumbnail_factory_init"
+#26 0x0805c571 in main (argc=1, argv=0xbfa35604) at appearance-main.c:41
+	w = <value optimized out>
+	install_filename = (gchar *) 0x0
+	start_page = (gchar *) 0x0
+	wallpaper_files = (gchar **) 0x0
+	option_context = (GOptionContext *) 0x899e190
+	option_entries = {{long_name = 0x80756b8 "install-theme", 
+    short_name = 105 'i', flags = 2, arg = G_OPTION_ARG_FILENAME, 
+    arg_data = 0xbfa35554, 
+    description = 0x807578c "Specify the filename of a theme to install", 
+    arg_description = 0x80756c6 "filename"}, {
+    long_name = 0x80756cf "show-page", short_name = 112 'p', flags = 2, 
+    arg = G_OPTION_ARG_STRING, arg_data = 0xbfa35550, 
+    description = 0x80757b8 "Specify the name of the page to show (theme|background|fonts|interface)", arg_description = 0x80756d4 "page"}, {
+    long_name = 0x8076d9c "", short_name = 0 '\0', flags = 2, 
+    arg = G_OPTION_ARG_FILENAME_ARRAY, arg_data = 0xbfa3554c, 
+    description = 0x0, arg_description = 0x80756d9 "[WALLPAPER...]"}, {
+    long_name = 0x0, short_name = 0 '\0', flags = 0, arg = G_OPTION_ARG_NONE, 
+    arg_data = 0x0, description = 0x0, arg_description = 0x0}}

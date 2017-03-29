@@ -1,0 +1,44 @@
+#0  0x00007faef76c23a5 in __GI_raise (sig=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:64
+        resultvar = 0
+        pid = <optimized out>
+        selftid = <optimized out>
+#1  0x00007faef76c5b0b in __GI_abort () at abort.c:92
+        save_stage = 2
+        act = {__sigaction_handler = {sa_handler = 0x18d5cb0, sa_sigaction = 0x18d5cb0}, sa_mask = {__val = {140389455644672, 140389451901856, 140389492586960, 12, 26994832, 1, 140389452886235, 4294967295, 206158430248, 140736293202448, 140389455646376, 2932088, 0, 12, 26994832, 140389461032960}}, sa_flags = -105390188, sa_restorer = 0x5}
+        sigs = {__val = {32, 0 <repeats 15 times>}}
+#2  0x00007faef7f9775b in ?? () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#3  0x00007faef974b27e in qt_message_output(QtMsgType, char const*) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#4  0x00007faef974b71f in ?? () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#5  0x00007faef974b8c4 in qFatal(char const*, ...) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#6  0x00007faef1476dbc in QConfSchema::QConfSchema(QString const&) () from /usr/lib/libdconf-qt.so.0
+No symbol table info available.
+#7  0x00007faef1476e95 in QConfSchema::getSchema(QString const&) () from /usr/lib/libdconf-qt.so.0
+No symbol table info available.
+#8  0x00007faef1475405 in QConf::setSchema(QString const&) () from /usr/lib/libdconf-qt.so.0
+No symbol table info available.
+#9  0x00007faef1475a64 in QConf::qt_metacall(QMetaObject::Call, int, void**) () from /usr/lib/libdconf-qt.so.0
+No symbol table info available.
+#10 0x00007faef83d2895 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#11 0x00007faef83d61d0 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#12 0x00007fffb8c3c0a0 in ?? ()
+No symbol table info available.
+#13 0x000000000000000a in ?? ()
+No symbol table info available.
+#14 0x00007faef4644e9b in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#15 0x00007faef46d1567 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#16 0x00007faef46d15b2 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#17 0x00007faef46d15f6 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#18 0x00007faee6bbcf38 in ?? ()
+No symbol table info available.
+#19 0x0000000000000000 in ?? ()
+No symbol table info available.

@@ -1,0 +1,60 @@
+#0  0x00b82416 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0x003a3c7f in raise () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x003a72a5 in abort () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0x00e4351e in g_assertion_message () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00e43b1f in g_assertion_message_expr () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00e616cf in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00e61f27 in g_variant_type_info_unref () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00e5b26a in g_variant_unref () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0x07b7e9fb in ?? () from /usr/lib/libdbusmenu-glib.so.4
+No symbol table info available.
+#9  0x00e0b60c in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0x00e0c4bb in g_hash_table_remove_all () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0x00e0c556 in g_hash_table_destroy () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#12 0x07b7f331 in ?? () from /usr/lib/libdbusmenu-glib.so.4
+No symbol table info available.
+#13 0x07b870cf in ?? () from /usr/lib/libdbusmenu-glib.so.4
+No symbol table info available.
+#14 0x0030a6ba in g_object_unref () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#15 0x07b8118c in dbusmenu_menuitem_child_delete () from /usr/lib/libdbusmenu-glib.so.4
+No symbol table info available.
+#16 0x07b8abef in ?? () from /usr/lib/libdbusmenu-glib.so.4
+No symbol table info available.
+#17 0x07b8afa0 in ?? () from /usr/lib/libdbusmenu-glib.so.4
+No symbol table info available.
+#18 0x001f73a2 in g_simple_async_result_complete () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#19 0x0025210b in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#20 0x001f73a2 in g_simple_async_result_complete () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#21 0x002470c8 in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#22 0x001f73a2 in g_simple_async_result_complete () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#23 0x001f74dc in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#24 0x00e19c30 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#25 0x00e1de1f in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#26 0x00e1e550 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#27 0x00e1eb5b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#28 0x006996e5 in gtk_main () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#29 0x0804af46 in main ()
+No symbol table info available.

@@ -1,0 +1,34 @@
+#0  0x00a36399 in g_atomic_int_exchange_and_add () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00aa101d in g_variant_unref () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#2  0x0475a8ac in ?? () from /usr/lib/libdbusmenu-glib.so.3
+No symbol table info available.
+#3  0x0475a693 in ?? () from /usr/lib/libdbusmenu-glib.so.3
+No symbol table info available.
+#4  0x00927cbf in g_simple_async_result_complete () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#5  0x0097dcc1 in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#6  0x00927cbf in g_simple_async_result_complete () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#7  0x00972d03 in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#8  0x00927cbf in g_simple_async_result_complete () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#9  0x00927ddd in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#10 0x00a5d311 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#11 0x00a61aa8 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#12 0x00a62270 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#13 0x00a6292b in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#14 0x004dfb99 in gtk_main () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#15 0x0804d426 in main (argc=1, argv=0xbfcc8614) at /build/buildd/unity-3.6.6/services/panel-main.c:384
+        service = 0x9a0b030
+        owner_id = 2
+        __PRETTY_FUNCTION__ = "main"

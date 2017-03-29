@@ -1,0 +1,29 @@
+#0  0x405d0ff4 in QTouchEvent::TouchPoint::pos() const () from /usr/lib/arm-linux-gnueabihf/libQt5Gui.so.5
+No symbol table info available.
+#1  0x45c5de6a in DirectionalDragArea::touchEvent_undecided(QTouchEvent*) () from /usr/lib/arm-linux-gnueabihf/unity8/qml/Ubuntu/Gestures/libUbuntuGestureQml.so
+No symbol table info available.
+#2  0x4041be6e in QQuickWindowPrivate::deliverMatchingPointsToItem(QQuickItem*, QTouchEvent*, QSet<int>*, QSet<int> const&, QList<QTouchEvent::TouchPoint> const&) () from /usr/lib/arm-linux-gnueabihf/libQt5Quick.so.5
+No symbol table info available.
+#3  0x4041c3f4 in QQuickWindowPrivate::deliverTouchPoints(QQuickItem*, QTouchEvent*, QList<QTouchEvent::TouchPoint> const&, QSet<int>*, QHash<QQuickItem*, QList<QTouchEvent::TouchPoint> >*) () from /usr/lib/arm-linux-gnueabihf/libQt5Quick.so.5
+No symbol table info available.
+#4  0x4041c318 in QQuickWindowPrivate::deliverTouchPoints(QQuickItem*, QTouchEvent*, QList<QTouchEvent::TouchPoint> const&, QSet<int>*, QHash<QQuickItem*, QList<QTouchEvent::TouchPoint> >*) () from /usr/lib/arm-linux-gnueabihf/libQt5Quick.so.5
+No symbol table info available.
+#5  0x4041c318 in QQuickWindowPrivate::deliverTouchPoints(QQuickItem*, QTouchEvent*, QList<QTouchEvent::TouchPoint> const&, QSet<int>*, QHash<QQuickItem*, QList<QTouchEvent::TouchPoint> >*) () from /usr/lib/arm-linux-gnueabihf/libQt5Quick.so.5
+No symbol table info available.
+#6  0x4041c318 in QQuickWindowPrivate::deliverTouchPoints(QQuickItem*, QTouchEvent*, QList<QTouchEvent::TouchPoint> const&, QSet<int>*, QHash<QQuickItem*, QList<QTouchEvent::TouchPoint> >*) () from /usr/lib/arm-linux-gnueabihf/libQt5Quick.so.5
+No symbol table info available.
+#7  0x4041c318 in QQuickWindowPrivate::deliverTouchPoints(QQuickItem*, QTouchEvent*, QList<QTouchEvent::TouchPoint> const&, QSet<int>*, QHash<QQuickItem*, QList<QTouchEvent::TouchPoint> >*) () from /usr/lib/arm-linux-gnueabihf/libQt5Quick.so.5
+No symbol table info available.
+#8  0x4041c6f6 in QQuickWindowPrivate::deliverTouchEvent(QTouchEvent*) () from /usr/lib/arm-linux-gnueabihf/libQt5Quick.so.5
+No symbol table info available.
+#9  0x408f0b62 in QCoreApplication::notify(QObject*, QEvent*) () from /usr/lib/arm-linux-gnueabihf/libQt5Core.so.5
+No symbol table info available.
+#10 0x408f0946 in QCoreApplication::notifyInternal(QObject*, QEvent*) () from /usr/lib/arm-linux-gnueabihf/libQt5Core.so.5
+No symbol table info available.
+#11 0x405c89b4 in QGuiApplicationPrivate::processTouchEvent(QWindowSystemInterfacePrivate::TouchEvent*) () from /usr/lib/arm-linux-gnueabihf/libQt5Gui.so.5
+No symbol table info available.
+#12 0x01b2be20 in ?? ()
+No symbol table info available.
+#13 0x01b2be20 in ?? ()
+No symbol table info available.
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)

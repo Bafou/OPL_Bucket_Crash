@@ -1,0 +1,669 @@
+#0  0x00007f151bdb040a in _int_free (av=0x7f151c0a3e40, p=0x180c490)
+    at malloc.c:4912
+        size = 256
+        nextchunk = 0x180c590
+        nextsize = 96
+        prevsize = <value optimized out>
+        bck = 0x0
+        fwd = 0x100000000011
+        errstr = <value optimized out>
+        __PRETTY_FUNCTION__ = "_int_free"
+#1  0x00007f151bdb374c in *__GI___libc_free (mem=<value optimized out>)
+    at malloc.c:3716
+        ar_ptr = 0x7f151c0a3e40
+        p = 0x0
+#2  0x00007f150fbe4fed in graphite_PangoGlyphString (text=0x180a606 "", 
+    length=1, xftfont=0x1398ed0, glyphs=0x1529200, 
+    language=<value optimized out>, rtl=0) at pangographite.cpp:223
+        logical_rect = {x = 25, y = 32533, width = 19586968, height = 0}
+        pTextSrc = 0x180a330
+        pgrFont = 0x180c4a0
+        cachedglyphs = <value optimized out>
+        n_glyphs = 32533
+        grseg = 0x7f151cd2f46e
+        grIterators = {
+          first = {<std::iterator<std::random_access_iterator_tag, gr::GlyphInfo, long, gr::GlyphInfo*, gr::GlyphInfo&>> = {<No data fields>}, _itr = 0x0}, 
+          second = {<std::iterator<std::random_access_iterator_tag, gr::GlyphInfo, long, gr::GlyphInfo*, gr::GlyphInfo&>> = {<No data fields>}, 
+            _itr = 0x1808a50}}
+        prgchGlyphs = <value optimized out>
+        prgxd = <value optimized out>
+        prgyd = <value optimized out>
+        prgadv = <value optimized out>
+        maxWidth = <value optimized out>
+        sorted = <value optimized out>
+        prg1stCharInClust = <value optimized out>
+        first_char_in_cluster = <value optimized out>
+        first_glyph_in_cluster = <value optimized out>
+        gRange = {
+          first = {<std::iterator<std::random_access_iterator_tag, gr::GlyphInfo, long, gr::GlyphInfo*, gr::GlyphInfo&>> = {<No data fields>}, 
+            _itr = 0x7f150efd27e0}, 
+          second = {<std::iterator<std::random_access_iterator_tag, gr::GlyphInfo, long, gr::GlyphInfo*, gr::GlyphInfo&>> = {<No data fields>}, 
+            _itr = 0x7f1500000003}}
+        lastGlyph = <value optimized out>
+        nextChar = <value optimized out>
+        currGlyph = <value optimized out>
+        i = <value optimized out>
+        next_shift = <value optimized out>
+#3  0x00007f151cf92d3a in pango_shape (text=0x180a606 "", length=1, 
+    analysis=0x1808a50, glyphs=0x1529200)
+    at /build/buildd/pango1.0-1.26.0/pango/shape.c:55
+        i = <value optimized out>
+        last_cluster = <value optimized out>
+#4  0x00007f151cf864bb in shape_run (line=0x1536050, state=0x7fff3916f180, 
+    item=0x1808a40) at /build/buildd/pango1.0-1.26.0/pango/pango-layout.c:3120
+        layout = 0x18060c0
+        glyphs = 0x1529200
+#5  0x00007f151cf86e31 in process_item (layout=0x18060c0, 
+    line=<value optimized out>, state=0x7fff3916f180, force_fit=0, 
+    no_break_at_end=0)
+    at /build/buildd/pango1.0-1.26.0/pango/pango-layout.c:3231
+        item = 0x1808a40
+        width = <value optimized out>
+        i = <value optimized out>
+        processing_new_item = <value optimized out>
+#6  0x00007f151cf88955 in process_line (layout=<value optimized out>)
+    at /build/buildd/pango1.0-1.26.0/pango/pango-layout.c:3526
+        item = 0x1808a40
+        result = <value optimized out>
+        old_num_chars = 1
+        have_break = 1
+        break_remaining_width = -1
+        break_start_offset = <value optimized out>
+        break_link = 0x0
+        wrapped = -1
+#7  pango_layout_check_lines (layout=<value optimized out>)
+    at /build/buildd/pango1.0-1.26.0/pango/pango-layout.c:3847
+        delim_len = <value optimized out>
+        end = 0x180a607 ""
+        delimiter_index = 55
+        next_para_index = 55
+        start = <value optimized out>
+        done = 1
+        start_offset = <value optimized out>
+        attrs = 0x1529100
+        no_shape_attrs = <value optimized out>
+        iter = 0x1529120
+        prev_base_dir = PANGO_DIRECTION_LTR
+        base_dir = PANGO_DIRECTION_LTR
+        state = {line_height = -1, remaining_height = -1, attrs = 0x1529100, 
+          items = 0x1529160, base_dir = PANGO_DIRECTION_LTR, line_of_par = 1, 
+          glyphs = 0x0, start_offset = 54, properties = {
+            uline = PANGO_UNDERLINE_NONE, strikethrough = 0, rise = 0, 
+            letter_spacing = 0, shape_set = 0, shape_ink_rect = 0x0, 
+            shape_logical_rect = 0x0}, log_widths = 0x0, 
+          log_widths_offset = 0, line_start_index = 0, line_start_offset = 0, 
+          line_width = -1, remaining_width = -1}
+        __PRETTY_FUNCTION__ = "pango_layout_check_lines"
+#8  0x00007f151cf898fc in pango_layout_get_extents_internal (
+    layout=0x18060c0, ink_rect=0x0, logical_rect=0x7fff3916f3b0, 
+    line_extents=0x0)
+    at /build/buildd/pango1.0-1.26.0/pango/pango-layout.c:2431
+        line_list = <value optimized out>
+        y_offset = <value optimized out>
+        width = 0
+        need_width = <value optimized out>
+        __PRETTY_FUNCTION__ = "pango_layout_get_extents_internal"
+#9  0x00007f151dd3f597 in gtk_label_size_request (widget=0x14f3ad0, 
+    requisition=0x14f3b08) at /build/buildd/gtk+2.0-2.18.3/gtk/gtklabel.c:3074
+        width = 0
+        height = 0
+        logical_rect = {x = 22255856, y = 0, width = 483718485, 
+          height = 32533}
+        aux_info = 0x0
+#10 0x00007f151cd2d4f9 in IA__g_closure_invoke (closure=0x1290680, 
+    return_value=0x0, n_param_values=2, param_values=0x15398f0, 
+    invocation_hint=0x7fff3916f530)
+    at /build/buildd/glib2.0-2.22.3/gobject/gclosure.c:767
+        marshal = 0x100000000011
+        marshal_data = 0x679e
+        __PRETTY_FUNCTION__ = "IA__g_closure_invoke"
+#11 0x00007f151cd4229c in signal_emit_unlocked_R (node=0x1290730, 
+    detail=<value optimized out>, instance=<value optimized out>, 
+    emission_return=<value optimized out>, 
+    instance_and_params=<value optimized out>)
+    at /build/buildd/glib2.0-2.22.3/gobject/gsignal.c:3177
+        accumulator = 0x1
+        emission = {next = 0x7fff3916fa10, instance = 0x14f3ad0, ihint = {
+            signal_id = 18, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, 
+          state = EMISSION_RUN, chain_type = 19561648}
+        class_closure = 0x1290680
+        handler_list = 0x0
+        return_accu = <value optimized out>
+        accu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+              v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, 
+              v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, 
+              v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, 
+              v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 18
+        max_sequential_handler_number = 0
+        return_value_altered = 0
+#12 0x00007f151cd43d39 in IA__g_signal_emit_valist (instance=0x14f3ad0, 
+    signal_id=<value optimized out>, detail=0, var_args=0x7fff3916f730)
+    at /build/buildd/glib2.0-2.22.3/gobject/gsignal.c:2980
+        signal_return_type = 4
+        param_values = <value optimized out>
+        node = 0x1290730
+        i = <value optimized out>
+        n_params = <value optimized out>
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_valist"
+#13 0x00007f151cd440a4 in IA__g_signal_emit_by_name (instance=0x14f3ad0, 
+    detailed_signal=0x7f151df64ef0 "size-request")
+    at /build/buildd/glib2.0-2.22.3/gobject/gsignal.c:3074
+        var_args = {{gp_offset = 24, fp_offset = 48, 
+            overflow_arg_area = 0x7fff3916f870, 
+            reg_save_area = 0x7fff3916f780}}
+        detail = 0
+        signal_id = 18
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_by_name"
+#14 0x00007f151ddb4d28 in _gtk_size_group_compute_requisition (
+    widget=0x14f3ad0, requisition=0x7fff3916f8a0)
+    at /build/buildd/gtk+2.0-2.18.3/gtk/gtksizegroup.c:828
+        width = <value optimized out>
+        height = <value optimized out>
+#15 0x00007f151dc986aa in gtk_box_size_request (widget=0x14ec6a0, 
+    requisition=0x14ec6d8) at /build/buildd/gtk+2.0-2.18.3/gtk/gtkbox.c:280
+        child_requisition = {width = 22255760, height = 0}
+        private = 0x14ec720
+        child = 0x14f5ec0
+        children = 0x0
+        nvis_children = 0
+#16 0x00007f151cd2d4f9 in IA__g_closure_invoke (closure=0x1290680, 
+    return_value=0x0, n_param_values=2, param_values=0x1539890, 
+    invocation_hint=0x7fff3916fa20)
+    at /build/buildd/glib2.0-2.22.3/gobject/gclosure.c:767
+        marshal = 0x100000000011
+        marshal_data = 0x679e
+        __PRETTY_FUNCTION__ = "IA__g_closure_invoke"
+#17 0x00007f151cd4229c in signal_emit_unlocked_R (node=0x1290730, 
+    detail=<value optimized out>, instance=<value optimized out>, 
+    emission_return=<value optimized out>, 
+    instance_and_params=<value optimized out>)
+    at /build/buildd/glib2.0-2.22.3/gobject/gsignal.c:3177
+        accumulator = 0x14f5e98
+        emission = {next = 0x7fff3916ff60, instance = 0x14ec6a0, ihint = {
+            signal_id = 18, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, 
+          state = EMISSION_RUN, chain_type = 19807840}
+        class_closure = 0x1290680
+        handler_list = 0x0
+        return_accu = <value optimized out>
+        accu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+              v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, 
+              v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, 
+              v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, 
+              v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 18
+        max_sequential_handler_number = 1
+        return_value_altered = 0
+#18 0x00007f151cd43d39 in IA__g_signal_emit_valist (instance=0x14ec6a0, 
+    signal_id=<value optimized out>, detail=0, var_args=0x7fff3916fc20)
+    at /build/buildd/glib2.0-2.22.3/gobject/gsignal.c:2980
+        signal_return_type = 4
+        param_values = <value optimized out>
+        node = 0x1290730
+        i = <value optimized out>
+        n_params = <value optimized out>
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_valist"
+#19 0x00007f151cd440a4 in IA__g_signal_emit_by_name (instance=0x14ec6a0, 
+    detailed_signal=0x7f151df64ef0 "size-request")
+    at /build/buildd/glib2.0-2.22.3/gobject/gsignal.c:3074
+        var_args = {{gp_offset = 24, fp_offset = 48, 
+            overflow_arg_area = 0x7fff3916fd60, 
+            reg_save_area = 0x7fff3916fc70}}
+        detail = 0
+        signal_id = 18
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_by_name"
+#20 0x00007f151ddb4d28 in _gtk_size_group_compute_requisition (
+    widget=0x14ec6a0, requisition=0x7fff3916fde0)
+    at /build/buildd/gtk+2.0-2.18.3/gtk/gtksizegroup.c:828
+        width = <value optimized out>
+        height = <value optimized out>
+#21 0x00007f151dd6bdb7 in gtk_notebook_size_request (widget=0x14b3000, 
+    requisition=<value optimized out>)
+    at /build/buildd/gtk+2.0-2.18.3/gtk/gtknotebook.c:1832
+        page = 0x14e7ed0
+        children = 0x14f2ac0
+        child_requisition = {width = 293, height = 168}
+        switch_page = 0
+        vis_pages = 5
+        focus_width = <value optimized out>
+        tab_overlap = <value optimized out>
+        tab_curvature = <value optimized out>
+        arrow_spacing = <value optimized out>
+        scroll_arrow_hlength = <value optimized out>
+        scroll_arrow_vlength = <value optimized out>
+#22 0x00007f151cd2d4f9 in IA__g_closure_invoke (closure=0x1290680, 
+    return_value=0x0, n_param_values=2, param_values=0x1511d60, 
+    invocation_hint=0x7fff3916ff70)
+    at /build/buildd/glib2.0-2.22.3/gobject/gclosure.c:767
+        marshal = 0x100000000011
+        marshal_data = 0x679e
+        __PRETTY_FUNCTION__ = "IA__g_closure_invoke"
+#23 0x00007f151cd4229c in signal_emit_unlocked_R (node=0x1290730, 
+    detail=<value optimized out>, instance=<value optimized out>, 
+    emission_return=<value optimized out>, 
+    instance_and_params=<value optimized out>)
+    at /build/buildd/glib2.0-2.22.3/gobject/gsignal.c:3177
+        accumulator = 0x14b0358
+        emission = {next = 0x7fff39170450, instance = 0x14b3000, ihint = {
+            signal_id = 18, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, 
+          state = EMISSION_RUN, chain_type = 19593216}
+        class_closure = 0x1290680
+        handler_list = 0x0
+        return_accu = <value optimized out>
+        accu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+              v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, 
+              v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, 
+              v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, 
+              v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 18
+        max_sequential_handler_number = 1
+        return_value_altered = 0
+#24 0x00007f151cd43d39 in IA__g_signal_emit_valist (instance=0x14b3000, 
+    signal_id=<value optimized out>, detail=0, var_args=0x7fff39170170)
+    at /build/buildd/glib2.0-2.22.3/gobject/gsignal.c:2980
+        signal_return_type = 4
+        param_values = <value optimized out>
+        node = 0x1290730
+        i = <value optimized out>
+        n_params = <value optimized out>
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_valist"
+#25 0x00007f151cd440a4 in IA__g_signal_emit_by_name (instance=0x14b3000, 
+    detailed_signal=0x7f151df64ef0 "size-request")
+    at /build/buildd/glib2.0-2.22.3/gobject/gsignal.c:3074
+        var_args = {{gp_offset = 24, fp_offset = 48, 
+            overflow_arg_area = 0x7fff391702b0, 
+            reg_save_area = 0x7fff391701c0}}
+        detail = 0
+        signal_id = 18
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_by_name"
+#26 0x00007f151ddb4d28 in _gtk_size_group_compute_requisition (
+    widget=0x14b3000, requisition=0x7fff391702e0)
+    at /build/buildd/gtk+2.0-2.18.3/gtk/gtksizegroup.c:828
+        width = <value optimized out>
+        height = <value optimized out>
+#27 0x00007f151dc986aa in gtk_box_size_request (widget=0x12ee060, 
+    requisition=0x12ee098) at /build/buildd/gtk+2.0-2.18.3/gtk/gtkbox.c:280
+        child_requisition = {width = 422, height = 26}
+        private = 0x12ee0e0
+        child = 0x14b03c0
+        children = 0x0
+        nvis_children = 3
+#28 0x00007f151cd2d4f9 in IA__g_closure_invoke (closure=0x1290680, 
+    return_value=0x0, n_param_values=2, param_values=0x14f52d0, 
+    invocation_hint=0x7fff39170460)
+    at /build/buildd/glib2.0-2.22.3/gobject/gclosure.c:767
+        marshal = 0x100000000011
+        marshal_data = 0x679e
+        __PRETTY_FUNCTION__ = "IA__g_closure_invoke"
+#29 0x00007f151cd4229c in signal_emit_unlocked_R (node=0x1290730, 
+    detail=<value optimized out>, instance=<value optimized out>, 
+    emission_return=<value optimized out>, 
+    instance_and_params=<value optimized out>)
+    at /build/buildd/glib2.0-2.22.3/gobject/gsignal.c:3177
+        accumulator = 0x1
+        emission = {next = 0x7fff39170900, instance = 0x12ee060, ihint = {
+            signal_id = 18, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, 
+          state = EMISSION_RUN, chain_type = 19807840}
+        class_closure = 0x1290680
+        handler_list = 0x0
+        return_accu = <value optimized out>
+        accu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+              v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, 
+              v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, 
+              v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, 
+              v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 18
+        max_sequential_handler_number = 0
+        return_value_altered = 0
+#30 0x00007f151cd43d39 in IA__g_signal_emit_valist (instance=0x12ee060, 
+    signal_id=<value optimized out>, detail=0, var_args=0x7fff39170660)
+    at /build/buildd/glib2.0-2.22.3/gobject/gsignal.c:2980
+        signal_return_type = 4
+        param_values = <value optimized out>
+        node = 0x1290730
+        i = <value optimized out>
+        n_params = <value optimized out>
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_valist"
+#31 0x00007f151cd440a4 in IA__g_signal_emit_by_name (instance=0x12ee060, 
+    detailed_signal=0x7f151df64ef0 "size-request")
+    at /build/buildd/glib2.0-2.22.3/gobject/gsignal.c:3074
+        var_args = {{gp_offset = 24, fp_offset = 48, 
+            overflow_arg_area = 0x7fff391707a0, 
+            reg_save_area = 0x7fff391706b0}}
+        detail = 0
+        signal_id = 18
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_by_name"
+#32 0x00007f151ddb4d28 in _gtk_size_group_compute_requisition (
+    widget=0x12ee060, requisition=0x7fff391707c0)
+    at /build/buildd/gtk+2.0-2.18.3/gtk/gtksizegroup.c:828
+        width = <value optimized out>
+        height = <value optimized out>
+#33 0x00007f151de65220 in gtk_window_size_request (
+    widget=<value optimized out>, requisition=0x12ea098)
+    at /build/buildd/gtk+2.0-2.18.3/gtk/gtkwindow.c:4915
+        child_requisition = {width = 0, height = 0}
+#34 0x00007f151cd2d5ae in IA__g_closure_invoke (closure=0x1290680, 
+    return_value=0x0, n_param_values=2, param_values=0x14f5270, 
+    invocation_hint=0x7fff39170910)
+    at /build/buildd/glib2.0-2.22.3/gobject/gclosure.c:767
+        marshal = 0x100000000011
+        marshal_data = 0x679e
+        __PRETTY_FUNCTION__ = "IA__g_closure_invoke"
+#35 0x00007f151cd4229c in signal_emit_unlocked_R (node=0x1290730, 
+    detail=<value optimized out>, instance=<value optimized out>, 
+    emission_return=<value optimized out>, 
+    instance_and_params=<value optimized out>)
+    at /build/buildd/glib2.0-2.22.3/gobject/gsignal.c:3177
+        accumulator = 0x12d3fc8
+        emission = {next = 0x7fff39170f40, instance = 0x12ea060, ihint = {
+            signal_id = 18, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, 
+          state = EMISSION_RUN, chain_type = 19803040}
+        class_closure = 0x1290680
+        handler_list = 0x0
+        return_accu = <value optimized out>
+        accu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+              v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, 
+              v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, 
+              v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, 
+              v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 18
+        max_sequential_handler_number = 0
+        return_value_altered = 0
+#36 0x00007f151cd43d39 in IA__g_signal_emit_valist (instance=0x12ea060, 
+    signal_id=<value optimized out>, detail=0, var_args=0x7fff39170b10)
+    at /build/buildd/glib2.0-2.22.3/gobject/gsignal.c:2980
+        signal_return_type = 4
+        param_values = <value optimized out>
+        node = 0x1290730
+        i = <value optimized out>
+        n_params = <value optimized out>
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_valist"
+#37 0x00007f151cd440a4 in IA__g_signal_emit_by_name (instance=0x12ea060, 
+    detailed_signal=0x7f151df64ef0 "size-request")
+    at /build/buildd/glib2.0-2.22.3/gobject/gsignal.c:3074
+        var_args = {{gp_offset = 24, fp_offset = 48, 
+            overflow_arg_area = 0x7fff39170c50, 
+            reg_save_area = 0x7fff39170b60}}
+        detail = 0
+        signal_id = 18
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_by_name"
+#38 0x00007f151ddb4d28 in _gtk_size_group_compute_requisition (
+    widget=0x12ea060, requisition=0x0)
+    at /build/buildd/gtk+2.0-2.18.3/gtk/gtksizegroup.c:828
+        width = <value optimized out>
+        height = <value optimized out>
+#39 0x00007f151de65581 in gtk_window_compute_configure_request (
+    window=0x12ea060, request=0x7fff39170dd0, geometry=0x7fff39170d90, 
+    flags=0x7fff39170dfc) at /build/buildd/gtk+2.0-2.18.3/gtk/gtkwindow.c:5791
+        new_geometry = {min_width = 12, min_height = 0, max_width = 224, 
+          max_height = 0, base_width = 21965024, base_height = 0, 
+          width_inc = 0, height_inc = 0, 
+          min_aspect = 4.9406564584124654e-324, 
+          max_aspect = 9.0908078834789364e-322, win_gravity = 184}
+        new_flags = <value optimized out>
+        w = <value optimized out>
+        h = <value optimized out>
+        pos = <value optimized out>
+        info = <value optimized out>
+        screen = 0x125c940
+        x = <value optimized out>
+        y = <value optimized out>
+        __PRETTY_FUNCTION__ = "gtk_window_compute_configure_request"
+#40 0x00007f151de6e9ec in gtk_window_show (widget=0x12ea060)
+    at /build/buildd/gtk+2.0-2.18.3/gtk/gtkwindow.c:4465
+        info = 0x14f40e0
+        allocation = {x = 0, y = 0, width = 0, height = 0}
+        configure_request = {x = 21964800, y = 0, width = 501672336, 
+          height = 32533}
+        new_geometry = {min_width = 21947136, min_height = 0, 
+          max_width = 483718485, max_height = 32533, base_width = 19247104, 
+          base_height = 0, width_inc = 483632066, height_inc = 32533, 
+          min_aspect = 1.0852053097773812e-316, max_aspect = 0, 
+          win_gravity = GDK_GRAVITY_NORTH_WEST}
+        new_flags = 32533
+#41 0x00007f151cd2d5ae in IA__g_closure_invoke (closure=0x125b000, 
+    return_value=0x0, n_param_values=1, param_values=0x14f2800, 
+    invocation_hint=0x7fff39170f50)
+    at /build/buildd/glib2.0-2.22.3/gobject/gclosure.c:767
+        marshal = 0x100000000011
+        marshal_data = 0x679e
+        __PRETTY_FUNCTION__ = "IA__g_closure_invoke"
+#42 0x00007f151cd4229c in signal_emit_unlocked_R (node=0x1284590, 
+    detail=<value optimized out>, instance=<value optimized out>, 
+    emission_return=<value optimized out>, 
+    instance_and_params=<value optimized out>)
+    at /build/buildd/glib2.0-2.22.3/gobject/gsignal.c:3177
+        accumulator = 0x12d3fc8
+        emission = {next = 0x7fff39171750, instance = 0x12ea060, ihint = {
+            signal_id = 12, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, 
+          state = EMISSION_RUN, chain_type = 19803040}
+        class_closure = 0x125b000
+        handler_list = 0x0
+        return_accu = <value optimized out>
+        accu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+              v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, 
+              v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, 
+              v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, 
+              v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 12
+        max_sequential_handler_number = 0
+        return_value_altered = 0
+#43 0x00007f151cd43d39 in IA__g_signal_emit_valist (instance=0x12ea060, 
+    signal_id=<value optimized out>, detail=0, var_args=0x7fff39171140)
+    at /build/buildd/glib2.0-2.22.3/gobject/gsignal.c:2980
+        signal_return_type = 4
+        param_values = <value optimized out>
+        node = 0x1284590
+        i = <value optimized out>
+        n_params = <value optimized out>
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_valist"
+#44 0x00007f151cd44283 in IA__g_signal_emit (instance=0x7f151c0a3e40, 
+    signal_id=0, detail=0)
+    at /build/buildd/glib2.0-2.22.3/gobject/gsignal.c:3037
+        var_args = {{gp_offset = 24, fp_offset = 48, 
+            overflow_arg_area = 0x7fff39171220, 
+            reg_save_area = 0x7fff39171160}}
+#45 0x00007f151de5f385 in IA__gtk_widget_show (widget=0x12ea060)
+    at /build/buildd/gtk+2.0-2.18.3/gtk/gtkwidget.c:3012
+        __PRETTY_FUNCTION__ = "IA__gtk_widget_show"
+#46 0x000000000040f96a in gvc_mixer_dialog_constructor (
+    type=<value optimized out>, n_construct_properties=<value optimized out>, 
+    construct_params=<value optimized out>) at gvc-mixer-dialog.c:1834
+        object = 0x12ea060
+        self = 0x12ea060
+        main_vbox = <value optimized out>
+        label = 0x14f3a00
+        alignment = 0x14ebb60
+        box = <value optimized out>
+        sbox = 0x14ebb60
+        ebox = 0x14ebb60
+        streams = <value optimized out>
+        cards = <value optimized out>
+        l = <value optimized out>
+        selection = <value optimized out>
+        accel_group = <value optimized out>
+        closure = <value optimized out>
+#47 0x00007f151cd3399f in IA__g_object_newv (
+    object_type=<value optimized out>, n_parameters=19815392, 
+    parameters=<value optimized out>)
+    at /build/buildd/glib2.0-2.22.3/gobject/gobject.c:1252
+        oparams = 0x12da3e0
+        nqueue = 0x12dc100
+        object = <value optimized out>
+        class = 0x12dbd40
+        unref_class = 0x0
+        slist = <value optimized out>
+        n_total_cparams = 3
+        n_cparams = 3
+        n_oparams = <value optimized out>
+        n_cvalues = <value optimized out>
+        clist = 0x0
+        newly_constructed = 19803040
+        i = 19604480
+        __PRETTY_FUNCTION__ = "IA__g_object_newv"
+#48 0x00007f151cd34241 in IA__g_object_new_valist (object_type=19803040, 
+    first_property_name=0x0, var_args=0x7fff391714e0)
+    at /build/buildd/glib2.0-2.22.3/gobject/gobject.c:1364
+        params = <value optimized out>
+        name = 0x0
+        object = <value optimized out>
+        n_params = <value optimized out>
+        n_alloced_params = 16
+        __PRETTY_FUNCTION__ = "IA__g_object_new_valist"
+#49 0x00007f151cd344ac in IA__g_object_new (object_type=19803040, 
+    first_property_name=0x424021 "icon-name")
+    at /build/buildd/glib2.0-2.22.3/gobject/gobject.c:1086
+        var_args = {{gp_offset = 48, fp_offset = 48, 
+            overflow_arg_area = 0x7fff391715f0, 
+            reg_save_area = 0x7fff39171500}}
+        __PRETTY_FUNCTION__ = "IA__g_object_new"
+#50 0x000000000040b2b2 in gvc_mixer_dialog_new (control=0x12d5810)
+    at gvc-mixer-dialog.c:1934
+No locals.
+#51 0x0000000000412698 in on_control_ready (control=0x12d5810, app=0x12c7cf0)
+    at dialog-main.c:91
+No locals.
+#52 0x00007f151cd2d5ae in IA__g_closure_invoke (closure=0x12d5750, 
+    return_value=0x0, n_param_values=1, param_values=0x12e7ee0, 
+    invocation_hint=0x7fff39171760)
+    at /build/buildd/glib2.0-2.22.3/gobject/gclosure.c:767
+        marshal = 0x100000000011
+        marshal_data = 0x679e
+        __PRETTY_FUNCTION__ = "IA__g_closure_invoke"
+#53 0x00007f151cd42983 in signal_emit_unlocked_R (node=0x12d3dc0, 
+    detail=<value optimized out>, instance=<value optimized out>, 
+    emission_return=<value optimized out>, 
+    instance_and_params=<value optimized out>)
+    at /build/buildd/glib2.0-2.22.3/gobject/gsignal.c:3247
+        tmp = 0x12d4df8
+        handler = 0x12c6b80
+        accumulator = 0x0
+        emission = {next = 0x0, instance = 0x12d5810, ihint = {
+            signal_id = 146, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, 
+          state = EMISSION_RUN, chain_type = 4}
+        class_closure = 0x12d4730
+        handler_list = 0x12c6b80
+        return_accu = <value optimized out>
+        accu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+              v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, 
+              v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, 
+              v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, 
+              v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 146
+        max_sequential_handler_number = <value optimized out>
+        return_value_altered = 0
+#54 0x00007f151cd43d39 in IA__g_signal_emit_valist (instance=0x12d5810, 
+    signal_id=<value optimized out>, detail=0, var_args=0x7fff39171950)
+    at /build/buildd/glib2.0-2.22.3/gobject/gsignal.c:2980
+        signal_return_type = 4
+        param_values = <value optimized out>
+        node = 0x12d3dc0
+        i = <value optimized out>
+        n_params = <value optimized out>
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_valist"
+#55 0x00007f151cd44283 in IA__g_signal_emit (instance=0x7f151c0a3e40, 
+    signal_id=0, detail=0)
+    at /build/buildd/glib2.0-2.22.3/gobject/gsignal.c:3037
+        var_args = {{gp_offset = 24, fp_offset = 48, 
+            overflow_arg_area = 0x7fff39171a30, 
+            reg_save_area = 0x7fff39171970}}
+#56 0x0000000000418df5 in _pa_context_get_card_info_by_index_cb (
+    context=0x12d6fd0, i=0x0, eol=1, userdata=0x12d5810)
+    at gvc-mixer-control.c:1233
+No locals.
+#57 0x00007f151c5a407d in context_get_card_info_callback (
+    pd=<value optimized out>, command=<value optimized out>, 
+    tag=<value optimized out>, t=0x12d40e0, userdata=0x12db710)
+    at pulse/introspect.c:778
+        eol = 0
+        __func__ = "context_get_card_info_callback"
+        __PRETTY_FUNCTION__ = "context_get_card_info_callback"
+#58 0x00007f1516367683 in run_action (pd=0x12d6d90, r=0x12db880, command=2, 
+    ts=0x12d40e0) at pulsecore/pdispatch.c:274
+        callback = 0x7f151c5a4010 <context_get_card_info_callback>
+        userdata = <value optimized out>
+        tag = 9
+        __func__ = "run_action"
+        __PRETTY_FUNCTION__ = "run_action"
+#59 0x00007f1516367b79 in pa_pdispatch_run (pd=0x12d6d90, 
+    packet=<value optimized out>, creds=0x12d7d60, userdata=0x12d6fd0)
+    at pulsecore/pdispatch.c:326
+        r = 0x0
+        tag = 9
+        command = 2
+        ts = 0x12d40e0
+        ret = <value optimized out>
+        __func__ = "pa_pdispatch_run"
+        __PRETTY_FUNCTION__ = "pa_pdispatch_run"
+#60 0x00007f151c59b91d in pstream_packet_callback (p=<value optimized out>, 
+    packet=0x12e7310, creds=0x12d7d60, userdata=0x12d6fd0)
+    at pulse/context.c:357
+        __func__ = "pstream_packet_callback"
+        __PRETTY_FUNCTION__ = "pstream_packet_callback"
+#61 0x00007f151636c224 in do_read (p=0x12d7c10) at pulsecore/pstream.c:816
+        release_memblock = 0x0
+        d = <value optimized out>
+        l = 2296
+        r = 2296
+#62 do_something (p=0x12d7c10) at pulsecore/pstream.c:184
+        __func__ = "do_something"
+        __PRETTY_FUNCTION__ = "do_something"
+#63 0x00007f151c7ccfca in dispatch_func (source=<value optimized out>, 
+    callback=<value optimized out>, userdata=<value optimized out>)
+    at pulse/glib-mainloop.c:585
+        g = 0x12d5630
+        e = 0x12d6800
+        __PRETTY_FUNCTION__ = "dispatch_func"
+#64 0x00007f151c2ffbce in g_main_dispatch (context=0x128d650)
+    at /build/buildd/glib2.0-2.22.3/glib/gmain.c:1960
+        dispatch = 0x7f151c7cce50 <dispatch_func>
+        user_data = 0x0
+        callback = 0
+        cb_funcs = 0x0
+        cb_data = 0x0
+        current_source_link = {data = 0x12d5630, next = 0x0}
+        source = 0x12d5630
+        current = 0x12d1200
+        i = 0
+#65 IA__g_main_context_dispatch (context=0x128d650)
+    at /build/buildd/glib2.0-2.22.3/glib/gmain.c:2513
+No locals.
+#66 0x00007f151c303598 in g_main_context_iterate (context=0x128d650, 
+    block=<value optimized out>, dispatch=<value optimized out>, 
+    self=<value optimized out>)
+    at /build/buildd/glib2.0-2.22.3/glib/gmain.c:2591
+        max_priority = 2147483647
+        timeout = 2915
+        some_ready = 1
+        nfds = 3
+        allocated_nfds = 472973632
+        fds = <value optimized out>
+        __PRETTY_FUNCTION__ = "g_main_context_iterate"
+#67 0x00007f151c3039f5 in IA__g_main_loop_run (loop=0x12ae440)
+    at /build/buildd/glib2.0-2.22.3/glib/gmain.c:2799
+        self = 0x1272480
+        __PRETTY_FUNCTION__ = "IA__g_main_loop_run"
+#68 0x00007f151dd48177 in IA__gtk_main ()
+    at /build/buildd/gtk+2.0-2.18.3/gtk/gtkmain.c:1218
+        tmp_list = 0x12d5810
+        functions = 0x0
+        init = 0x12c7cf0
+        loop = <value optimized out>
+#69 0x000000000041259d in main (argc=1, argv=0x7fff39172068)
+    at dialog-main.c:204
+        error = 0x0
+        control = 0x12d5810
+        app = <value optimized out>
+        entries = {{long_name = 0x421db6 "page", short_name = 112 'p', 
+            flags = 0, arg = G_OPTION_ARG_STRING, arg_data = 0x629e20, 
+            description = 0x421dae "Startup page", 
+            arg_description = 0x421e20 "playback|recording|effects|applications"}, {long_name = 0x421dbb "debug", short_name = 0 '\000', flags = 0, 
+            arg = G_OPTION_ARG_NONE, arg_data = 0x629e1c, 
+            description = 0x421dc1 "Enable debugging code", 
+            arg_description = 0x0}, {long_name = 0x4238d4 "version", 
+            short_name = 0 '\000', flags = 0, arg = G_OPTION_ARG_NONE, 
+            arg_data = 0x629e18, 
+            description = 0x421dd7 "Version of this application", 
+            arg_description = 0x0}, {long_name = 0x0, short_name = 0 '\000', 
+            flags = 0, arg = G_OPTION_ARG_NONE, arg_data = 0x0, 
+            description = 0x0, arg_description = 0x0}}

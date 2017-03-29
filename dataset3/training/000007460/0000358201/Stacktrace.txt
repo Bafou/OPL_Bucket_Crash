@@ -1,0 +1,30 @@
+#0  QGtkStyle::drawPrimitive (this=0xa220dc8, 
+    element=QStyle::PE_PanelButtonCommand, option=0xbf462688, 
+    painter=0xbf4655b8, widget=0xa214360)
+    at ../../include/QtCore/../../src/corelib/tools/qstring.h:680
+	style = <value optimized out>
+	gtkPainter = $2 = -99
+.
+Thread 1 (process 20848):
+#0  QGtkStyle::drawPrimitive (this=0xa220dc8, 
+    element=QStyle::PE_PanelButtonCommand, option=0xbf462688, 
+    painter=0xbf4655b8, widget=0xa214360)
+    at ../../include/QtCore/../../src/corelib/tools/qstring.h:680
+	style = <value optimized out>
+	gtkPainter = $3 = -99
+eax            0xb61b1ea8	-1239736664
+ecx            0xbf4655b8	-1085909576
+edx            0xa214360	169952096
+ebx            0xb61b6ff4	-1239715852
+esp            0xbf461e50	0xbf461e50
+ebp            0xbf4621e8	0xbf4621e8
+esi            0xbf462688	-1085921656
+edi            0xa220dc8	170003912
+eip            0xb5ca59a7	0xb5ca59a7 <QGtkStyle::drawPrimitive(QStyle::PrimitiveElement, QStyleOption const*, QPainter*, QWidget const*) const+23>
+eflags         0x10286	[ PF SF IF RF ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x33	51

@@ -1,0 +1,34 @@
+#0  0x00007f36ff1aa433 in std::__detail::_List_node_base::_M_hook(std::__detail::_List_node_base*) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#1  0x00007f36ec9a9c39 in unity::ui::PointerBarrierWrapper::EmitCurrentData() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x00007f36ec9a9e69 in ?? () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x00007f36fd4caa1b in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f36fd4c9dda in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f36fd4ca1a0 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f36fd4ca264 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00007f36f99cac79 in ?? () from /usr/lib/compizconfig/backends/libgconf.so
+No symbol table info available.
+#8  0x00007f36fb29059e in CcpScreen::timeout() () from /usr/lib/compiz/libccp.so
+No symbol table info available.
+#9  0x00007f36ff4be42b in CompTimer::triggerCallback() () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#10 0x00007f36ff4be52f in CompTimeoutSource::callback() () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#11 0x00007f36ff4bd9dd in CompTimeoutSource::dispatch(sigc::slot_base*) () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#12 0x00007f36fd9c06df in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/x86_64-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#13 0x00007f36fd4c9dda in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00007f36fd4ca1a0 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x00007f36fd4ca59a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0x000000000040299e in main ()
+No symbol table info available.

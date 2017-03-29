@@ -1,0 +1,128 @@
+#0  0x0088d2a4 in QDeclarativeError::isValid() const () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#1  0x00838ab1 in QDeclarativeExpression::hasError() const () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#2  0x00875672 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#3  0x0056fb7d in QMetaObject::metacall(QObject*, QMetaObject::Call, int, void**) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#4  0x0057ea6a in QMetaObject::activate(QObject*, QMetaObject const*, int, void**) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#5  0x0057f128 in QMetaObject::activate(QObject*, int, void**) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#6  0x008243d8 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#7  0x00823d21 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#8  0x0056fb7d in QMetaObject::metacall(QObject*, QMetaObject::Call, int, void**) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#9  0x008dd6df in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#10 0x008def96 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#11 0x008dfcfe in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#12 0x01c4832c in ?? () from /usr/lib/i386-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#13 0x01b33c23 in ?? () from /usr/lib/i386-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#14 0x01b081df in ?? () from /usr/lib/i386-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#15 0x030b7009 in ?? ()
+No symbol table info available.
+#16 0x01ac3a47 in ?? () from /usr/lib/i386-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#17 0x01b603f2 in ?? () from /usr/lib/i386-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#18 0x01b33c89 in ?? () from /usr/lib/i386-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#19 0x01c2863c in QScriptValue::call(QScriptValue const&, QList<QScriptValue> const&) () from /usr/lib/i386-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#20 0x008396f8 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#21 0x00839a12 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#22 0x00839d1e in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#23 0x00839ea4 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#24 0x00875658 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#25 0x0056fb7d in QMetaObject::metacall(QObject*, QMetaObject::Call, int, void**) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#26 0x0057ea6a in QMetaObject::activate(QObject*, QMetaObject const*, int, void**) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#27 0x002a82e5 in DeclarativeDragItem::released() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#28 0x002a831b in DeclarativeDragItem::mouseReleaseEvent(QGraphicsSceneMouseEvent*) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#29 0x017434df in QGraphicsItem::sceneEvent(QEvent*) () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#30 0x007c39d3 in QDeclarativeItem::sceneEvent(QEvent*) () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#31 0x0176c94e in ?? () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#32 0x0176d57b in ?? () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#33 0x0176df97 in QGraphicsScene::mouseReleaseEvent(QGraphicsSceneMouseEvent*) () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#34 0x007199df in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#35 0x0177c7bc in QGraphicsScene::event(QEvent*) () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#36 0x010e1d54 in QApplicationPrivate::notify_helper(QObject*, QEvent*) () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#37 0x010e7103 in QApplication::notify(QObject*, QEvent*) () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#38 0x0056919e in QCoreApplication::notifyInternal(QObject*, QEvent*) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#39 0x010dfb6d in ?? () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#40 0x0179b648 in QGraphicsView::mouseReleaseEvent(QMouseEvent*) () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#41 0x0113bf98 in QWidget::event(QEvent*) () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#42 0x01540ee5 in QFrame::event(QEvent*) () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#43 0x015d3481 in QAbstractScrollArea::viewportEvent(QEvent*) () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#44 0x0179e984 in QGraphicsView::viewportEvent(QEvent*) () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#45 0x015d5bb6 in ?? () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#46 0x00569336 in QCoreApplicationPrivate::sendThroughObjectEventFilters(QObject*, QEvent*) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#47 0x010e1d22 in QApplicationPrivate::notify_helper(QObject*, QEvent*) () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#48 0x010e7dbb in QApplication::notify(QObject*, QEvent*) () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#49 0x0056919e in QCoreApplication::notifyInternal(QObject*, QEvent*) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#50 0x010e2d15 in QApplicationPrivate::sendMouseEvent(QWidget*, QMouseEvent*, QWidget*, QWidget*, QWidget**, QPointer<QWidget>&, bool) () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#51 0x0116efd4 in ?? () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#52 0x0116db5d in QApplication::x11ProcessEvent(_XEvent*) () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#53 0x01199f2c in ?? () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#54 0x077dc2ef in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#55 0x077dca20 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#56 0x077dccba in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#57 0x00597ada in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#58 0x01199b1a in ?? () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#59 0x005681dd in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#60 0x00568421 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#61 0x0056d19d in QCoreApplication::exec() () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#62 0x010df8f4 in QApplication::exec() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#63 0x0804e3ff in main ()
+No symbol table info available.

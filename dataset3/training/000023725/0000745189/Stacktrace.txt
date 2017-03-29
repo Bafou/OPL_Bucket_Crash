@@ -1,0 +1,52 @@
+#0  0x00007fd4e45e3d05 in raise () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00007fd4e45e7ab6 in abort () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x00007fd4e4c266dd in __gnu_cxx::__verbose_terminate_handler() () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#3  0x00007fd4e4c24926 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#4  0x00007fd4e4c24953 in std::terminate() () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#5  0x00007fd4e4c24a5e in __cxa_throw () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#6  0x00007fd4e4ebdecf in ?? () from /usr/lib/libxapian.so.22
+No symbol table info available.
+#7  0x00007fd4e4ebeccb in Xapian::Database::get_document(unsigned int) const () from /usr/lib/libxapian.so.22
+No symbol table info available.
+#8  0x0000000000411b3c in ?? ()
+No symbol table info available.
+#9  0x000000000040a291 in ?? ()
+No symbol table info available.
+#10 0x00007fd4e65c59b3 in ?? () from /usr/lib/libzeitgeist-1.0.so.1
+No symbol table info available.
+#11 0x00007fd4e5ca08c5 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#12 0x00007fd4e5c96874 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#13 0x00007fd4e5c53d49 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#14 0x00007fd4e52bdbcd in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x00007fd4e52be3a8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0x00007fd4e52be9f2 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#17 0x00007fd4e5c7d0fd in g_application_run () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#18 0x000000000040b9d0 in ?? ()
+No symbol table info available.
+#19 0x00007fd4e45ceeff in __libc_start_main () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#20 0x0000000000407469 in ?? ()
+No symbol table info available.
+#21 0x00007fff46637c78 in ?? ()
+No symbol table info available.
+#22 0x000000000000001c in ?? ()
+No symbol table info available.
+#23 0x0000000000000001 in ?? ()
+No symbol table info available.
+#24 0x00007fff46639ac5 in ?? ()
+No symbol table info available.
+#25 0x0000000000000000 in ?? ()
+No symbol table info available.

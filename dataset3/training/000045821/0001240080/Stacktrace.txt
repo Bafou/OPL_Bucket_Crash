@@ -1,0 +1,9 @@
+#0  0x4ac44250 in gtk_menu_tracker_item_get_attribute_value () from /usr/lib/arm-linux-gnueabihf/libqmenumodel.so.0
+No symbol table info available.
+#1  0x4ac401de in UnityMenuModel::loadExtendedAttributes(int, QMap<QString, QVariant> const&) () from /usr/lib/arm-linux-gnueabihf/libqmenumodel.so.0
+No symbol table info available.
+#2  0x4ac44ca0 in ?? () from /usr/lib/arm-linux-gnueabihf/libqmenumodel.so.0
+No symbol table info available.
+#3  0x4ac44ca0 in ?? () from /usr/lib/arm-linux-gnueabihf/libqmenumodel.so.0
+No symbol table info available.
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)

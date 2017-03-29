@@ -1,0 +1,6 @@
+#0  0xb77a2db8 in ?? ()
+No symbol table info available.
+#1  0xb77a2f5b in ?? ()
+No symbol table info available.
+#2  0xb77a1e28 in _start ()
+No symbol table info available.

@@ -1,0 +1,40 @@
+#0  0xb707ea39 in g_logv () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0xb707eb43 in g_log () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0xb6f6fd70 in g_settings_get_mapped () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#3  0xb6eb748e in ffi_call_SYSV () from /usr/lib/i386-linux-gnu/libffi.so.6
+No symbol table info available.
+#4  0xb6eb71ef in ffi_call () from /usr/lib/i386-linux-gnu/libffi.so.6
+No symbol table info available.
+#5  0xb7191577 in g_callable_info_invoke () from /usr/lib/libgirepository-1.0.so.1
+No symbol table info available.
+#6  0xb7192ab4 in g_function_info_invoke () from /usr/lib/libgirepository-1.0.so.1
+No symbol table info available.
+#7  0xb71e4418 in ?? () from /usr/lib/python2.7/dist-packages/gi/_gi.so
+No symbol table info available.
+#8  0xb71e4eaa in ?? () from /usr/lib/python2.7/dist-packages/gi/_gi.so
+No symbol table info available.
+#9  0xb71d960d in ?? () from /usr/lib/python2.7/dist-packages/gi/_gi.so
+No symbol table info available.
+#10 0x0815ee75 in PyEval_EvalFrameEx ()
+No symbol table info available.
+#11 0x0815ea98 in PyEval_EvalFrameEx ()
+No symbol table info available.
+#12 0x0815ea98 in PyEval_EvalFrameEx ()
+No symbol table info available.
+#13 0x0817b822 in PyEval_EvalCodeEx ()
+No symbol table info available.
+#14 0x081ec327 in PyEval_EvalCode ()
+No symbol table info available.
+#15 0x0808722d in ?? ()
+No symbol table info available.
+#16 0x08087fd2 in PyRun_FileExFlags ()
+No symbol table info available.
+#17 0x0808859f in PyRun_SimpleFileExFlags ()
+No symbol table info available.
+#18 0x080892fc in Py_Main ()
+No symbol table info available.
+#19 0x080893db in main ()
+No symbol table info available.

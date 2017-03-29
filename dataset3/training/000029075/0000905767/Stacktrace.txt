@@ -1,0 +1,42 @@
+#0  0x00007f2cd3e0f18b in QScriptValue::call(QScriptValue const&, QList<QScriptValue> const&) () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#1  0x00007f2cd7b63a15 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#2  0x00007f2cd7b63d81 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#3  0x00007f2cd7b64089 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#4  0x00007f2cd7b64222 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#5  0x00007f2cd7b9c628 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#6  0x00007f2cd8fafe8a in QMetaObject::activate(QObject*, QMetaObject const*, int, void**) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#7  0x00007f2cd7b501ea in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#8  0x00007f2cd7b4fc2c in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#9  0x00007f2cd7bfd0e5 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#10 0x00007f2cd7bfe8bb in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#11 0x00007f2cd7bff5bb in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#12 0x00007f2cd3e2b7d9 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#13 0x00007f2cd3d2c450 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#14 0x00007f2cd3d02f96 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#15 0x00007f2cc47cbd31 in ?? ()
+No symbol table info available.
+#16 0x7fffffff00000001 in ?? ()
+No symbol table info available.
+#17 0x00007f2cc4ea3340 in ?? ()
+No symbol table info available.
+#18 0x00007f2c0000000a in ?? ()
+No symbol table info available.
+#19 0x0000000000000001 in ?? ()
+No symbol table info available.
+#20 0x0000000000000000 in ?? ()
+No symbol table info available.

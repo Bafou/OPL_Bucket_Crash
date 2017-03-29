@@ -1,0 +1,54 @@
+#0  0xb49f6d04 in unity::panel::Style::GetStyleContext() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0xb4ab4ba4 in unity::PanelIndicatorEntryView::Refresh() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0xb4ab60b2 in sigc::internal::slot_call0<sigc::bound_mem_functor0<void, unity::PanelIndicatorEntryView>, void>::call_it(sigc::internal::slot_rep*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0xb454b3e9 in unity::indicator::Entry::setLabel(std::string const&, bool, bool) () from /usr/lib/libunity-core-5.0.so.5
+No symbol table info available.
+#4  0xb452577e in ?? () from /usr/lib/libunity-core-5.0.so.5
+No symbol table info available.
+#5  0xb697abd0 in g_simple_async_result_complete () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#6  0xb69e297b in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#7  0xb697abd0 in g_simple_async_result_complete () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#8  0xb69d7ac8 in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#9  0xb697abd0 in g_simple_async_result_complete () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#10 0xb697acfc in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#11 0xb6f774b0 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#12 0xb6f79a4a in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0xb6f79e55 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0xb6f79f31 in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0xb61f72ac in ?? () from /usr/lib/compizconfig/backends/libgconf.so
+No symbol table info available.
+#16 0xb61f72eb in ?? () from /usr/lib/compizconfig/backends/libgconf.so
+No symbol table info available.
+#17 0xb61be2aa in ccsContextDestroy () from /usr/lib/libcompizconfig.so.0
+No symbol table info available.
+#18 0xb620285a in CcpScreen::~CcpScreen() () from /usr/lib/compiz/libccp.so
+No symbol table info available.
+#19 0xb6202922 in CcpScreen::~CcpScreen() () from /usr/lib/compiz/libccp.so
+No symbol table info available.
+#20 0xb6203957 in CompPlugin::VTableForScreen<CcpScreen>::finiScreen(CompScreen*) () from /usr/lib/compiz/libccp.so
+No symbol table info available.
+#21 0x0809e142 in CompManager::finiPlugin(CompPlugin*) ()
+No symbol table info available.
+#22 0x0809fb31 in CompPlugin::pop() ()
+No symbol table info available.
+#23 0x0806dd4d in CompScreen::~CompScreen() ()
+No symbol table info available.
+#24 0x0806df90 in CompScreen::~CompScreen() ()
+No symbol table info available.
+#25 0x0806902b in CompManager::fini() ()
+No symbol table info available.
+#26 0x0806563c in main ()
+No symbol table info available.

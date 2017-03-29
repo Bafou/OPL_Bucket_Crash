@@ -1,0 +1,42 @@
+#0  0xb742a035 in g_dbus_connection_unregister_object () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#1  0xb754be35 in ?? () from /usr/lib/i386-linux-gnu/libdee-1.0.so.4
+No symbol table info available.
+#2  0xb731f498 in g_object_unref () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#3  0xb75919f0 in unity_internal_results_synchronizer_remove_provider () from /usr/lib/i386-linux-gnu/libunity.so.9
+No symbol table info available.
+#4  0xb75921e4 in unity_internal_results_synchronizer_add_provider () from /usr/lib/i386-linux-gnu/libunity.so.9
+No symbol table info available.
+#5  0xb75ba4c9 in ?? () from /usr/lib/i386-linux-gnu/libunity.so.9
+No symbol table info available.
+#6  0xb73cbed8 in g_simple_async_result_complete () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#7  0xb763eada in ?? () from /usr/lib/i386-linux-gnu/libunity/libunity-protocol-private.so.0
+No symbol table info available.
+#8  0xb73cbed8 in g_simple_async_result_complete () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#9  0xb761f2ae in ?? () from /usr/lib/i386-linux-gnu/libunity/libunity-protocol-private.so.0
+No symbol table info available.
+#10 0xb73cbed8 in g_simple_async_result_complete () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#11 0xb73cbf4c in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#12 0xb724d2d0 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0xb72505ce in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0xb7250978 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0xb7250a38 in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0xb73ff144 in g_application_run () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#17 0x08053bf1 in ?? ()
+No symbol table info available.
+#18 0x0804fa30 in ?? ()
+No symbol table info available.
+#19 0xb7054935 in __libc_start_main () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#20 0x0804fa55 in ?? ()
+No symbol table info available.

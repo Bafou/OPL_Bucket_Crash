@@ -1,0 +1,70 @@
+#0  0x00007f415e0f87f0 in ?? () from /usr/lib/nvidia-319-updates/libnvidia-glcore.so.319.49
+No symbol table info available.
+#1  0x00007f415dff2c3f in ?? () from /usr/lib/nvidia-319-updates/libnvidia-glcore.so.319.49
+No symbol table info available.
+#2  0x00007f415dff8c6d in ?? () from /usr/lib/nvidia-319-updates/libnvidia-glcore.so.319.49
+No symbol table info available.
+#3  0x00007f415dfc29dc in ?? () from /usr/lib/nvidia-319-updates/libnvidia-glcore.so.319.49
+No symbol table info available.
+#4  0x00007f415e0276b5 in ?? () from /usr/lib/nvidia-319-updates/libnvidia-glcore.so.319.49
+No symbol table info available.
+#5  0x00007f415e0eb331 in ?? () from /usr/lib/nvidia-319-updates/libnvidia-glcore.so.319.49
+No symbol table info available.
+#6  0x00007f415dd90048 in ?? () from /usr/lib/nvidia-319-updates/libnvidia-glcore.so.319.49
+No symbol table info available.
+#7  0x00007f415e0f5a4b in ?? () from /usr/lib/nvidia-319-updates/libnvidia-glcore.so.319.49
+No symbol table info available.
+#8  0x00007f415e0ff608 in ?? () from /usr/lib/nvidia-319-updates/libnvidia-glcore.so.319.49
+No symbol table info available.
+#9  0x00007f415dfea499 in ?? () from /usr/lib/nvidia-319-updates/libnvidia-glcore.so.319.49
+No symbol table info available.
+#10 0x00007f415dcd6389 in ?? () from /usr/lib/nvidia-319-updates/libnvidia-glcore.so.319.49
+No symbol table info available.
+#11 0x00007f415dfa0d1c in ?? () from /usr/lib/nvidia-319-updates/libnvidia-glcore.so.319.49
+No symbol table info available.
+#12 0x00007f415dfa10db in ?? () from /usr/lib/nvidia-319-updates/libnvidia-glcore.so.319.49
+No symbol table info available.
+#13 0x00007f415df47633 in ?? () from /usr/lib/nvidia-319-updates/libnvidia-glcore.so.319.49
+No symbol table info available.
+#14 0x00007f415df49fe8 in ?? () from /usr/lib/nvidia-319-updates/libnvidia-glcore.so.319.49
+No symbol table info available.
+#15 0x00007f415dd33ef1 in ?? () from /usr/lib/nvidia-319-updates/libnvidia-glcore.so.319.49
+No symbol table info available.
+#16 0x00007f414eeaf583 in nux::IOpenGLTexture2D::~IOpenGLTexture2D() () from /usr/lib/x86_64-linux-gnu/libnux-graphics-4.0.so.0
+No symbol table info available.
+#17 0x00007f414eeaf649 in nux::IOpenGLTexture2D::~IOpenGLTexture2D() () from /usr/lib/x86_64-linux-gnu/libnux-graphics-4.0.so.0
+No symbol table info available.
+#18 0x00007f414ec27382 in nux::Object::Destroy() () from /usr/lib/x86_64-linux-gnu/libnux-core-4.0.so.0
+No symbol table info available.
+#19 0x00007f414ec27d0c in nux::Object::UnReference() () from /usr/lib/x86_64-linux-gnu/libnux-core-4.0.so.0
+No symbol table info available.
+#20 0x00007f414c85596e in unity::UnityScreen::paintDisplay() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#21 0x00007f414c855e44 in unity::UnityScreen::glPaintOutput(GLScreenPaintAttrib const&, GLMatrix const&, CompRegion const&, CompOutput*, unsigned int) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#22 0x00007f415f5e8900 in GLScreen::glPaintOutput(GLScreenPaintAttrib const&, GLMatrix const&, CompRegion const&, CompOutput*, unsigned int) () from /usr/lib/compiz/libopengl.so
+No symbol table info available.
+#23 0x00007f415f5d62a9 in PrivateGLScreen::paintOutputs(std::list<CompOutput*, std::allocator<CompOutput*> >&, unsigned int, CompRegion const&) () from /usr/lib/compiz/libopengl.so
+No symbol table info available.
+#24 0x00007f4164481c4f in CompositeScreen::paint(std::list<CompOutput*, std::allocator<CompOutput*> >&, unsigned int) () from /usr/lib/compiz/libcomposite.so
+No symbol table info available.
+#25 0x00007f41644835b8 in CompositeScreen::handlePaintTimeout() () from /usr/lib/compiz/libcomposite.so
+No symbol table info available.
+#26 0x00007f416b7cc4cd in CompTimer::triggerCallback() () from /usr/lib/libcompiz_core.so.ABI-20130415
+No symbol table info available.
+#27 0x00007f416b7cc57f in CompTimeoutSource::callback() () from /usr/lib/libcompiz_core.so.ABI-20130415
+No symbol table info available.
+#28 0x00007f416b7cbadd in CompTimeoutSource::dispatch(sigc::slot_base*) () from /usr/lib/libcompiz_core.so.ABI-20130415
+No symbol table info available.
+#29 0x00007f4169cb3fff in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/x86_64-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#30 0x00007f41697af3a6 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#31 0x00007f41697af6f8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#32 0x00007f41697afafa in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#33 0x00007f416b787e4b in compiz::private_screen::EventManager::startEventLoop(_XDisplay*) () from /usr/lib/libcompiz_core.so.ABI-20130415
+No symbol table info available.
+#34 0x0000000000401981 in main ()
+No symbol table info available.

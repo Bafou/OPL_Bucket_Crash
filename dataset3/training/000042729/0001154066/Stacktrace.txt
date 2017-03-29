@@ -1,0 +1,34 @@
+#0  0x00007f42b8998396 in g_strdupv () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007f42973091b5 in bamf_application_get_supported_mime_types () from /usr/lib/x86_64-linux-gnu/libbamf3.so.1
+No symbol table info available.
+#2  0x00007f42999b43a0 in unity::bamf::Application::GetSupportedMimeTypes() const () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x00007f42998966f2 in unity::launcher::ApplicationLauncherIcon::GetSupportedTypes() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0x00007f42998968ef in unity::launcher::ApplicationLauncherIcon::OnShouldHighlightOnDrag(unity::DndData const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#5  0x00007f4299845263 in unity::launcher::Launcher::DndStarted(std::string const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#6  0x00007f429988c9a2 in unity::XdndManagerImp::OnDndDataCollected(std::vector<std::string, std::allocator<std::string> > const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#7  0x00007f429988c00a in ?? () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#8  0x00007f42983aaa18 in nux::InputArea::HandleDndMove(nux::Event&) () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#9  0x00007f42983d8b0f in nux::WindowCompositor::DndEventCycle(nux::Event&) () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#10 0x00007f42983da845 in nux::WindowCompositor::ProcessEvent(nux::Event&) () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#11 0x00007f42983dfd4f in nux::WindowThread::DoProcessEvent(nux::Event&) () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#12 0x00007f42983b5969 in nux::nux_event_dispatch(_GSource*, int (*)(void*), void*) () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#13 0x00007f42b8979e85 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00007f42b897a1c8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x00007f42b897a63a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0x000000000040195b in main ()
+No symbol table info available.

@@ -1,0 +1,216 @@
+#0  node_get_pos (node=0x864ffb0) at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./glib/gsequence.c:1639
+        n_smaller = 0
+#1  0xb7719fcc in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#2  0xb7711b8c in dee_model_get_position () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#3  0xb771747e in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#4  0xb7711b8c in dee_model_get_position () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#5  0xb771fe19 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#6  0xb750d09a in g_cclosure_marshal_VOID__BOXED (closure=0xb2d05448, return_value=0x0, n_param_values=2, param_values=0x864c168, invocation_hint=0xbff43db0, marshal_data=0x0) at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./gobject/gmarshal.c:574
+        callback = 0xb771fdd0
+        cc = 0xb2d05448
+        data1 = 0x8638580
+        data2 = 0x0
+        __PRETTY_FUNCTION__ = "g_cclosure_marshal_VOID__BOXED"
+#7  0xb750af8c in g_closure_invoke (closure=0xb2d05448, return_value=0x0, n_param_values=2, param_values=0x864c168, invocation_hint=0xbff43db0) at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./gobject/gclosure.c:774
+        marshal = 0xb750cff0 <g_cclosure_marshal_VOID__BOXED>
+        marshal_data = 0x0
+        in_marshal = 0
+        __PRETTY_FUNCTION__ = "g_closure_invoke"
+#8  0xb751c845 in signal_emit_unlocked_R (node=0x873c9b8, detail=0, instance=0x8638580, emission_return=0x0, instance_and_params=0x864c168) at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./gobject/gsignal.c:3302
+        tmp = <optimized out>
+        handler = 0xb2d03ee0
+        accumulator = 0x0
+        emission = {next = 0xbff44138, instance = 0x8638580, ihint = {signal_id = 24, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, state = EMISSION_RUN, chain_type = 4}
+        class_closure = 0x86cf700
+        hlist = 0xb2d05490
+        handler_list = 0xb2d03ee0
+        return_accu = 0x0
+        accu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 24
+        max_sequential_handler_number = 296
+        return_value_altered = 0
+#9  0xb75240c2 in g_signal_emit_valist (instance=0x8638580, signal_id=24, detail=0, var_args=0xbff43fec "y\364Z\267\364\257T\267\246pq\267\364\257T\267\232\320P\267\200\205c\b\260\377d\b0\225\262\264~\245P\267p\230\262\264tA\364\277\004") at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./gobject/gsignal.c:3033
+        instance_and_params = 0x864c168
+        signal_return_type = 4
+        param_values = 0x864c17c
+        node = 0x873c9b8
+        i = <optimized out>
+        n_params = 1
+        __PRETTY_FUNCTION__ = "g_signal_emit_valist"
+#10 0xb75246af in g_signal_emit_by_name (instance=0x8638580, detailed_signal=0xb772746b "row-removed") at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./gobject/gsignal.c:3127
+        var_args = 0xbff43fe8 "\260\377d\by\364Z\267\364\257T\267\246pq\267\364\257T\267\232\320P\267\200\205c\b\260\377d\b0\225\262\264~\245P\267p\230\262\264tA\364\277\004"
+        detail = <optimized out>
+        signal_id = 24
+        __PRETTY_FUNCTION__ = "g_signal_emit_by_name"
+#11 0xb77170cd in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#12 0xb750d09a in g_cclosure_marshal_VOID__BOXED (closure=0xb2d054b8, return_value=0x0, n_param_values=2, param_values=0x864c250, invocation_hint=0xbff44140, marshal_data=0x0) at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./gobject/gmarshal.c:574
+        callback = 0xb77170a0
+        cc = 0xb2d054b8
+        data1 = 0x8638580
+        data2 = 0xb4b29530
+        __PRETTY_FUNCTION__ = "g_cclosure_marshal_VOID__BOXED"
+#13 0xb750af8c in g_closure_invoke (closure=0xb2d054b8, return_value=0x0, n_param_values=2, param_values=0x864c250, invocation_hint=0xbff44140) at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./gobject/gclosure.c:774
+        marshal = 0xb750cff0 <g_cclosure_marshal_VOID__BOXED>
+        marshal_data = 0x0
+        in_marshal = 0
+        __PRETTY_FUNCTION__ = "g_closure_invoke"
+#14 0xb751c845 in signal_emit_unlocked_R (node=0x873c9b8, detail=0, instance=0xb4b29530, emission_return=0x0, instance_and_params=0x864c250) at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./gobject/gsignal.c:3302
+        tmp = <optimized out>
+        handler = 0xb2d03f40
+        accumulator = 0x0
+        emission = {next = 0xbff444f8, instance = 0xb4b29530, ihint = {signal_id = 24, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, state = EMISSION_RUN, chain_type = 4}
+        class_closure = 0x86cf700
+        hlist = 0xb2d05500
+        handler_list = 0xb2d03f40
+        return_accu = 0x0
+        accu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 24
+        max_sequential_handler_number = 296
+        return_value_altered = 0
+#15 0xb75240c2 in g_signal_emit_valist (instance=0xb4b29530, signal_id=24, detail=0, var_args=0xbff442f0 "\364_s\267\060\225\262\264\200?n\b\025\nq\267\060\225\262\264\260\377d\b\200\205c\b0\236R\267\326\323R\267") at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./gobject/gsignal.c:3033
+        instance_and_params = 0x864c250
+        signal_return_type = 4
+        param_values = 0x864c264
+        node = 0x873c9b8
+        i = <optimized out>
+        n_params = 1
+        __PRETTY_FUNCTION__ = "g_signal_emit_valist"
+#16 0xb7524253 in g_signal_emit (instance=0xb4b29530, signal_id=24, detail=0) at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./gobject/gsignal.c:3090
+        var_args = 0xbff442ec "\260\377d\b\364_s\267\060\225\262\264\200?n\b\025\nq\267\060\225\262\264\260\377d\b\200\205c\b0\236R\267\326\323R\267"
+#17 0xb771af3e in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#18 0xb7710a15 in dee_model_remove () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#19 0xb7718036 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#20 0xb7710a15 in dee_model_remove () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#21 0xb77618d9 in ?? () from /usr/lib/libunity.so.9
+No symbol table info available.
+#22 0xb750d09a in g_cclosure_marshal_VOID__BOXED (closure=0x873fbe8, return_value=0x0, n_param_values=2, param_values=0x864c078, invocation_hint=0xbff44500, marshal_data=0x0) at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./gobject/gmarshal.c:574
+        callback = 0xb7761860
+        cc = 0x873fbe8
+        data1 = 0x86bd588
+        data2 = 0x86e3f80
+        __PRETTY_FUNCTION__ = "g_cclosure_marshal_VOID__BOXED"
+#23 0xb750af8c in g_closure_invoke (closure=0x873fbe8, return_value=0x0, n_param_values=2, param_values=0x864c078, invocation_hint=0xbff44500) at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./gobject/gclosure.c:774
+        marshal = 0xb750cff0 <g_cclosure_marshal_VOID__BOXED>
+        marshal_data = 0x0
+        in_marshal = 0
+        __PRETTY_FUNCTION__ = "g_closure_invoke"
+#24 0xb751c845 in signal_emit_unlocked_R (node=0x873c9b8, detail=0, instance=0x86bd588, emission_return=0x0, instance_and_params=0x864c078) at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./gobject/gsignal.c:3302
+        tmp = <optimized out>
+        handler = 0xb2d07340
+        accumulator = 0x0
+        emission = {next = 0xbff448b8, instance = 0x86bd588, ihint = {signal_id = 24, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, state = EMISSION_RUN, chain_type = 4}
+        class_closure = 0x86cf700
+        hlist = 0x871d130
+        handler_list = 0xb2d07340
+        return_accu = 0x0
+        accu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 24
+        max_sequential_handler_number = 296
+        return_value_altered = 0
+#25 0xb75240c2 in g_signal_emit_valist (instance=0x86bd588, signal_id=24, detail=0, var_args=0xbff446b0 "\364_s\267\210\325k\b\300<\260\264\025\nq\267\210\325k\b\300<\260\264\300<\260\264\354\032q\267\210\325k\b\300<\260\264\330\021p\b\364_s\267\207\tq\267\364_s\267\210\325k\b\224\323q\267\210\325k\b\300<\260\264\330\021p\b(\323q\267\364_s\267\210\325k\b\001") at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./gobject/gsignal.c:3033
+        instance_and_params = 0x864c078
+        signal_return_type = 4
+        param_values = 0x864c08c
+        node = 0x873c9b8
+        i = <optimized out>
+        n_params = 1
+        __PRETTY_FUNCTION__ = "g_signal_emit_valist"
+#26 0xb7524253 in g_signal_emit (instance=0x86bd588, signal_id=24, detail=0) at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./gobject/gsignal.c:3090
+        var_args = 0xbff446ac "\300<\260\264\364_s\267\210\325k\b\300<\260\264\025\nq\267\210\325k\b\300<\260\264\300<\260\264\354\032q\267\210\325k\b\300<\260\264\330\021p\b\364_s\267\207\tq\267\364_s\267\210\325k\b\224\323q\267\210\325k\b\300<\260\264\330\021p\b(\323q\267\364_s\267\210\325k\b\001"
+#27 0xb771af3e in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#28 0xb7710a15 in dee_model_remove () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#29 0xb771d394 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#30 0xb7710aed in dee_model_clear () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#31 0x08052b1c in ?? ()
+No symbol table info available.
+#32 0xb776421c in ?? () from /usr/lib/libunity.so.9
+No symbol table info available.
+#33 0xb750af8c in g_closure_invoke (closure=0x86d4470, return_value=0x0, n_param_values=4, param_values=0x8757d48, invocation_hint=0xbff448c0) at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./gobject/gclosure.c:774
+        marshal = 0xb7764150
+        marshal_data = 0x0
+        in_marshal = 0
+        __PRETTY_FUNCTION__ = "g_closure_invoke"
+#34 0xb751c845 in signal_emit_unlocked_R (node=0x86fc218, detail=0, instance=0x8646ca0, emission_return=0x0, instance_and_params=0x8757d48) at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./gobject/gsignal.c:3302
+        tmp = <optimized out>
+        handler = 0x86b6740
+        accumulator = 0x0
+        emission = {next = 0x0, instance = 0x8646ca0, ihint = {signal_id = 19, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, state = EMISSION_RUN, chain_type = 4}
+        class_closure = 0x0
+        hlist = 0x86f9d18
+        handler_list = 0x86b6740
+        return_accu = 0x0
+        accu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 19
+        max_sequential_handler_number = 296
+        return_value_altered = 0
+#35 0xb75240c2 in g_signal_emit_valist (instance=0x8646ca0, signal_id=19, detail=0, var_args=0xbff44b04 "\237\v\366\266\330\301e\b\031\033\366\266\320\177c\b\246\063G\267\364?N\267\364?N\267\300\202p\b\220", <incomplete sequence \364\277>) at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./gobject/gsignal.c:3033
+        instance_and_params = 0x8757d48
+        signal_return_type = 4
+        param_values = 0x8757d5c
+        node = 0x86fc218
+        i = <optimized out>
+        n_params = 3
+        __PRETTY_FUNCTION__ = "g_signal_emit_valist"
+#36 0xb75246af in g_signal_emit_by_name (instance=0x8646ca0, detailed_signal=0xb7788595 "search-changed") at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./gobject/gsignal.c:3127
+        var_args = 0xbff44af8 ""
+        detail = <optimized out>
+        signal_id = 19
+        __PRETTY_FUNCTION__ = "g_signal_emit_by_name"
+#37 0xb776cebd in ?? () from /usr/lib/libunity.so.9
+No symbol table info available.
+#38 0xb74314b0 in g_idle_dispatch (source=0x87082c0, callback=0xb776d850, user_data=0x8725860) at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./glib/gmain.c:4629
+No locals.
+#39 0xb7433a4a in g_main_dispatch (context=0x8638800) at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./glib/gmain.c:2510
+        dispatch = 0xb7431490 <g_idle_dispatch>
+        was_in_call = 0
+        user_data = 0x8725860
+        callback = 0xb776d850
+        cb_funcs = 0xb74e44d8
+        cb_data = 0x86b8ab0
+        current_source_link = {data = 0x87082c0, next = 0x0}
+        need_destroy = <optimized out>
+        source = 0x87082c0
+        current = 0x863c880
+        i = <optimized out>
+#40 g_main_context_dispatch (context=0x8638800) at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./glib/gmain.c:3047
+No locals.
+#41 0xb7433e55 in g_main_context_iterate (dispatch=1, block=-1220274208, context=0x8638800, self=<optimized out>) at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./glib/gmain.c:3118
+        timeout = 0
+        some_ready = 1
+        fds = 0x878b040
+        max_priority = 200
+        nfds = <optimized out>
+        allocated_nfds = <optimized out>
+#42 g_main_context_iterate (context=0x8638800, block=-1220274208, dispatch=1, self=<optimized out>) at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./glib/gmain.c:3055
+        some_ready = 1
+#43 0xb7433f31 in g_main_context_iteration (context=0x8638800, may_block=1) at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./glib/gmain.c:3179
+        retval = <optimized out>
+#44 0xb75e9f0c in g_application_run (application=0x8646e60, argc=0, argv=0x0) at /build/buildd/glib2.0-2.31.17+git20120205.b98b6318/./gio/gapplication.c:1496
+        arguments = 0x8789aa8
+        status = 0
+        i = <optimized out>
+        __PRETTY_FUNCTION__ = "g_application_run"
+#45 0x08055017 in ?? ()
+No symbol table info available.
+#46 0x0804df70 in ?? ()
+No symbol table info available.
+#47 0xb6df2113 in __libc_start_main (main=0x804df50, argc=1, ubp_av=0xbff44d74, init=0x805c610, fini=0x805c680, rtld_fini=0xb77e5b90 <_dl_fini>, stack_end=0xbff44d6c) at libc-start.c:226
+        result = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {-1225441292, 0, 0, 0, 1152162297, 309657067}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x1, 0x804df74}, data = {prev = 0x0, cleanup = 0x0, canceltype = 1}}}
+        not_first_call = <optimized out>
+#48 0x0804df95 in ?? ()
+No symbol table info available.

@@ -1,0 +1,21 @@
+#0  __GI___pthread_mutex_lock (mutex=0x0) at ../nptl/pthread_mutex_lock.c:66
+        __PRETTY_FUNCTION__ = "__pthread_mutex_lock"
+        type = 0
+#1  0x00007f71ca271630 in ?? () from /usr/lib/x86_64-linux-gnu/dri/vboxvideo_dri.so
+No symbol table info available.
+#2  0x00007f71ca2a7cdc in ?? () from /usr/lib/x86_64-linux-gnu/dri/vboxvideo_dri.so
+No symbol table info available.
+#3  0x00007f71ca2b3f8d in ?? () from /usr/lib/x86_64-linux-gnu/dri/vboxvideo_dri.so
+No symbol table info available.
+#4  0x00007f71eb43a182 in start_thread (arg=0x7f71c9453700) at pthread_create.c:312
+        __res = <optimized out>
+        pd = 0x7f71c9453700
+        now = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140126684788480, 1876462185095617958, 0, 0, 140126684789184, 140126684788480, -1951999414107906650, -1951924591026119258}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <optimized out>
+        pagesize_m1 = <optimized out>
+        sp = <optimized out>
+        freesize = <optimized out>
+        __PRETTY_FUNCTION__ = "start_thread"
+#5  0x00007f71eb16712d in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:111
+No locals.

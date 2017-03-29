@@ -1,0 +1,74 @@
+#0  0x00007f85d80fa0c0 in ?? ()
+No symbol table info available.
+#1  0x00007f85e386f3d8 in unity::FilterBar::RemoveFilter(std::shared_ptr<unity::dash::Filter>) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x00007f85e38ec129 in unity::dash::LensView::OnFilterRemoved(std::shared_ptr<unity::dash::Filter>) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x00007f85e38f03df in sigc::internal::slot_call1<sigc::bound_mem_functor1<void, unity::dash::LensView, std::shared_ptr<unity::dash::Filter> >, void, std::shared_ptr<unity::dash::Filter> >::call_it(sigc::internal::slot_rep*, std::shared_ptr<unity::dash::Filter> const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0x00007f85e14de925 in unity::dash::Filters::OnRowRemoved(unity::dash::FilterAdaptor&) () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#5  0x00007f85e14df25d in unity::dash::Model<unity::dash::FilterAdaptor>::OnRowRemoved(_DeeModel*, _DeeModelIter*) () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#6  0x00007f85e14c752f in unity::glib::Signal1<void, _DeeModel*, _DeeModelIter*>::Callback(_DeeModel*, _DeeModelIter*, unity::glib::Signal1<void, _DeeModel*, _DeeModelIter*>*) () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#7  0x00007f85f23a0254 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#8  0x00007f85f23b34fb in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#9  0x00007f85f23bcb17 in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#10 0x00007f85f23bcecd in g_signal_emit_by_name () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x00007f85f23a0254 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x00007f85f23b34fb in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x00007f85f23bcb17 in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#14 0x00007f85f23bcecd in g_signal_emit_by_name () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#15 0x00007f85e25ca0d6 in ?? () from /usr/lib/libdee-1.0.so.1
+No symbol table info available.
+#16 0x00007f85e25ce2bb in ?? () from /usr/lib/libdee-1.0.so.1
+No symbol table info available.
+#17 0x00007f85e14dffbc in unity::dash::Model<unity::dash::FilterAdaptor>::OnSwarmNameChanged(std::string const&) () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#18 0x00007f85e14f3505 in nux::Property<std::string>::operator=(std::string const&) () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#19 0x00007f85e14eec8e in unity::dash::Lens::Impl::UpdateProperties(bool, bool, std::string const&, std::string const&, std::string const&, std::string const&, std::string const&, std::string const&) () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#20 0x00007f85e14ef551 in unity::dash::Lens::Impl::OnChanged(_GVariant*) () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#21 0x00007f85e14e3467 in unity::glib::DBusProxy::Impl::OnProxySignal(_GDBusProxy*, char*, char*, _GVariant*) () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#22 0x00007f85e14d1a44 in unity::glib::Signal3<void, _GDBusProxy*, char*, char*, _GVariant*>::Callback(_GDBusProxy*, char*, char*, _GVariant*, unity::glib::Signal3<void, _GDBusProxy*, char*, char*, _GVariant*>*) () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#23 0x00007f85ef555a14 in ffi_call_unix64 () from /usr/lib/x86_64-linux-gnu/libffi.so.6
+No symbol table info available.
+#24 0x00007f85ef555435 in ffi_call () from /usr/lib/x86_64-linux-gnu/libffi.so.6
+No symbol table info available.
+#25 0x00007f85f23a0717 in g_cclosure_marshal_generic () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#26 0x00007f85f23a0254 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#27 0x00007f85f23b34fb in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#28 0x00007f85f23bcb17 in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#29 0x00007f85f23bcce2 in g_signal_emit () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#30 0x00007f85f2d5028e in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#31 0x00007f85f2d3f30e in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#32 0x00007f85f5756b6d in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#33 0x00007f85f5757368 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#34 0x00007f85f57578a2 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#35 0x000000000042b846 in CompScreen::eventLoop() ()
+No symbol table info available.
+#36 0x000000000041f61a in main ()
+No symbol table info available.

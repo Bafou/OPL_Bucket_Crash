@@ -1,0 +1,225 @@
+#0  0x041caa24 in getenv () from /lib/libc.so.6
+No symbol table info available.
+#1  0x0062d691 in IA__g_getenv (
+    variable=0x5447 <Address 0x5447 out of bounds>)
+    at /build/buildd/glib2.0-2.21.6/glib/gutils.c:1083
+        __PRETTY_FUNCTION__ = "IA__g_getenv"
+#2  0x010d09a8 in gtk_rc_parse_assignment (scanner=0x9b96b78, 
+    style=<value optimized out>, prop=0xbff8a008)
+    at /build/buildd/gtk+2.0-2.17.11/gtk/gtkrc.c:2679
+        negate = 17
+        is_color = <value optimized out>
+        token = 61
+#3  0x010d242a in gtk_rc_parse_statement (context=<value optimized out>, 
+    input_name=<value optimized out>, input_fd=10, input_string=0x0)
+    at /build/buildd/gtk+2.0-2.17.11/gtk/gtkrc.c:2973
+        prop = {type_name = 0, property_name = 0, origin = 0x0, value = {
+            g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+                v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, 
+                v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, 
+                v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, 
+                v_float = 0, v_double = 0, v_pointer = 0x0}}}}
+        name = 0x9af5a78 "gtk_color_scheme"
+        token = <value optimized out>
+#4  gtk_rc_parse_any (context=<value optimized out>, 
+    input_name=<value optimized out>, input_fd=10, input_string=0x0)
+    at /build/buildd/gtk+2.0-2.17.11/gtk/gtkrc.c:2297
+        expected_token = <value optimized out>
+        scanner = 0x9b96b78
+        __PRETTY_FUNCTION__ = "gtk_rc_parse_any"
+#5  0x010d29dd in gtk_rc_context_parse_one_file (context=0x9a2a700, 
+    filename=0x9b850c8 "/home/bvidinli/.config/xfce4/panel/xfce4-notes-plugin.gtkrc", priority=12, reload=0)
+    at /build/buildd/gtk+2.0-2.17.11/gtk/gtkrc.c:1055
+        fd = 1
+        rc_file = <value optimized out>
+        statbuf = {st_dev = 2050, __pad1 = 0, __st_ino = 124824, 
+          st_mode = 33188, st_nlink = 1, st_uid = 1000, st_gid = 1000, 
+          st_rdev = 0, __pad2 = 0, st_size = 1172, st_blksize = 4096, 
+          st_blocks = 8, st_atim = {tv_sec = 1252981151, tv_nsec = 0}, 
+          st_mtim = {tv_sec = 1252507140, tv_nsec = 0}, st_ctim = {
+            tv_sec = 1252507140, tv_nsec = 0}, st_ino = 124824}
+        saved_priority = 12
+        __PRETTY_FUNCTION__ = "gtk_rc_context_parse_one_file"
+#6  0x010d2b5c in gtk_rc_context_parse_file (context=<value optimized out>, 
+    filename=<value optimized out>, priority=12, reload=0)
+    at /build/buildd/gtk+2.0-2.17.11/gtk/gtkrc.c:1121
+        locale_suffixes = {0x9a66be8 "tr_TR", 0x9b8faf0 "tr"}
+        n_locale_suffixes = 2
+        p = <value optimized out>
+        locale = <value optimized out>
+        length = 11
+        j = 0
+        found = 0
+#7  0x010d26ae in parse_include_file (context=<value optimized out>, 
+    input_name=<value optimized out>, input_fd=5, input_string=0x0)
+    at /build/buildd/gtk+2.0-2.17.11/gtk/gtkrc.c:2909
+        to_parse = 0x9b850c8 "/home/bvidinli/.config/xfce4/panel/xfce4-notes-plugin.gtkrc"
+#8  gtk_rc_parse_statement (context=<value optimized out>, 
+    input_name=<value optimized out>, input_fd=5, input_string=0x0)
+    at /build/buildd/gtk+2.0-2.17.11/gtk/gtkrc.c:2937
+        token = <value optimized out>
+#9  gtk_rc_parse_any (context=<value optimized out>, 
+    input_name=<value optimized out>, input_fd=5, input_string=0x0)
+    at /build/buildd/gtk+2.0-2.17.11/gtk/gtkrc.c:2297
+        expected_token = <value optimized out>
+        scanner = 0x9afd668
+        __PRETTY_FUNCTION__ = "gtk_rc_parse_any"
+#10 0x010d29dd in gtk_rc_context_parse_one_file (context=0x9a2a700, 
+    filename=0x9a0c468 "/home/bvidinli/.gtkrc-2.0", priority=12, reload=0)
+    at /build/buildd/gtk+2.0-2.17.11/gtk/gtkrc.c:1055
+        fd = 1
+        rc_file = <value optimized out>
+        statbuf = {st_dev = 2050, __pad1 = 0, __st_ino = 124817, 
+          st_mode = 33188, st_nlink = 1, st_uid = 1000, st_gid = 1000, 
+          st_rdev = 0, __pad2 = 0, st_size = 147, st_blksize = 4096, 
+          st_blocks = 8, st_atim = {tv_sec = 1252938497, tv_nsec = 0}, 
+          st_mtim = {tv_sec = 1252491974, tv_nsec = 0}, st_ctim = {
+            tv_sec = 1252491974, tv_nsec = 0}, st_ino = 124817}
+        saved_priority = 12
+        __PRETTY_FUNCTION__ = "gtk_rc_context_parse_one_file"
+#11 0x010d2b5c in gtk_rc_context_parse_file (context=<value optimized out>, 
+    filename=<value optimized out>, priority=12, reload=0)
+    at /build/buildd/gtk+2.0-2.17.11/gtk/gtkrc.c:1121
+        locale_suffixes = {0x9b00aa0 "tr_TR", 0x9b8a328 "tr"}
+        n_locale_suffixes = 2
+        p = <value optimized out>
+        locale = <value optimized out>
+        length = 11
+        j = 0
+        found = 0
+#12 0x010d2f7e in gtk_rc_parse_default_files (settings=0x9a0f320, 
+    force_load=1) at /build/buildd/gtk+2.0-2.17.11/gtk/gtkrc.c:884
+No locals.
+#13 IA__gtk_rc_reparse_all_for_settings (settings=0x9a0f320, force_load=1)
+    at /build/buildd/gtk+2.0-2.17.11/gtk/gtkrc.c:1831
+        rc_file = <value optimized out>
+        tmp_list = <value optimized out>
+        context = 0x9a2a700
+        statbuf = {st_dev = 0, __pad1 = 0, __st_ino = 0, st_mode = 161911544, 
+          st_nlink = 161911544, st_uid = 3220743032, st_gid = 6012916, 
+          st_rdev = 694301117330289440, __pad2 = 41864, 
+          st_size = 693821661385355126, st_blksize = 19820665, 
+          st_blocks = 25825280794338200, st_atim = {tv_sec = 20479988, 
+            tv_nsec = 161542944}, st_mtim = {tv_sec = -1074224200, 
+            tv_nsec = 17641808}, st_ctim = {tv_sec = 161542944, 
+            tv_nsec = 19820665}, st_ino = 161654576}
+        __PRETTY_FUNCTION__ = "IA__gtk_rc_reparse_all_for_settings"
+#14 0x005908ac in IA__g_cclosure_marshal_VOID__PARAM (closure=0x9a2ad80, 
+    return_value=0x0, n_param_values=2, param_values=0x9be8600, 
+    invocation_hint=0xbff8a510, marshal_data=0x10d3100)
+    at /build/buildd/glib2.0-2.21.6/gobject/gmarshal.c:531
+        data1 = 0x9a0f320
+        data2 = 0x9a2a700
+        __PRETTY_FUNCTION__ = "IA__g_cclosure_marshal_VOID__PARAM"
+#15 0x005820f2 in IA__g_closure_invoke (closure=0x9a2ad80, return_value=0x0, 
+    n_param_values=2, param_values=0x9be8600, invocation_hint=0xbff8a510)
+    at /build/buildd/glib2.0-2.21.6/gobject/gclosure.c:767
+        marshal = 0x590810 <IA__g_cclosure_marshal_VOID__PARAM>
+        marshal_data = 0x0
+        __PRETTY_FUNCTION__ = "IA__g_closure_invoke"
+#16 0x00598af8 in signal_emit_unlocked_R (node=<value optimized out>, 
+    detail=<value optimized out>, instance=0x9a0f320, emission_return=0x0, 
+    instance_and_params=0x9be8600)
+    at /build/buildd/glib2.0-2.21.6/gobject/gsignal.c:3247
+        tmp = 0x4b5080
+        handler = 0x9a0f3a0
+        accumulator = 0x0
+        emission = {next = 0x0, instance = 0x9a0f320, ihint = {signal_id = 1, 
+            detail = 133, run_type = G_SIGNAL_RUN_FIRST}, 
+          state = EMISSION_RUN, chain_type = 4}
+        class_closure = 0x9a0c450
+        handler_list = 0x4b5080
+        return_accu = <value optimized out>
+        accu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+              v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, 
+              v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, 
+              v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, 
+              v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 1
+        max_sequential_handler_number = 43
+        return_value_altered = 1
+#17 0x00599edd in IA__g_signal_emit_valist (instance=0x9a0f320, signal_id=1, 
+    detail=133, var_args=0xbff8a6d0 "\274Dh")
+    at /build/buildd/glib2.0-2.21.6/gobject/gsignal.c:2980
+        signal_return_type = 4
+        node = 0x9a0c5b8
+        i = <value optimized out>
+        n_params = 1
+        __PRETTY_FUNCTION__ = "IA__g_signal_emit_valist"
+#18 0x0059a396 in IA__g_signal_emit (instance=0x9a0f320, signal_id=1, 
+    detail=133) at /build/buildd/glib2.0-2.21.6/gobject/gsignal.c:3037
+No locals.
+#19 0x00586691 in g_object_dispatch_properties_changed (object=0x9a0f320, 
+    n_pspecs=3, pspecs=0xbff8a778)
+    at /build/buildd/glib2.0-2.21.6/gobject/gobject.c:770
+        i = 2
+#20 0x00582e7f in g_object_notify_dispatcher (object=0x9a0f320, n_pspecs=3, 
+    pspecs=0xbff8a778) at /build/buildd/glib2.0-2.21.6/gobject/gobject.c:312
+No locals.
+#21 0x00587a72 in g_object_notify_queue_thaw (object=0x9a0f320, 
+    first_property_name=0x80751da "gtk-theme-name", 
+    var_args=0xbff8a868 "\300C\246\t\301Q\a\b\330\221\271\t")
+    at /build/buildd/glib2.0-2.21.6/gobject/gobjectnotifyqueue.c:125
+        context = 0x5bc334
+        pspecs_mem = {0x9a23c90, 0x9a0eac8, 0x9a1fd90, 0x1, 0xbff8a7c8, 
+          0x5e279b, 0x6844bc, 0x12ecb7a, 0x42f53cc, 0x683ff4, 0x42f53cc, 
+          0x42f53a0, 0x9a0f320, 0x4b3ba0, 0x42f53d0, 0x42f3ff4}
+        free_me = 0xbff8a778
+        slist = <value optimized out>
+        n_pspecs = 3
+#22 IA__g_object_set_valist (object=0x9a0f320, 
+    first_property_name=0x80751da "gtk-theme-name", 
+    var_args=0xbff8a868 "\300C\246\t\301Q\a\b\330\221\271\t")
+    at /build/buildd/glib2.0-2.21.6/gobject/gobject.c:1437
+        nqueue = 0x9a2cc30
+        name = <value optimized out>
+        __PRETTY_FUNCTION__ = "IA__g_object_set_valist"
+#23 0x00587bd6 in IA__g_object_set (_object=0x9a0f320, 
+    first_property_name=0x80751da "gtk-theme-name")
+    at /build/buildd/glib2.0-2.21.6/gobject/gobject.c:1537
+        __PRETTY_FUNCTION__ = "IA__g_object_set"
+#24 0x08071231 in ?? ()
+No symbol table info available.
+#25 0x08071c3b in ?? ()
+No symbol table info available.
+#26 0x0062ff6b in g_io_unix_dispatch (source=0x9a5e0d8, callback=0x8071ae0, 
+    user_data=0xbff8afc4) at /build/buildd/glib2.0-2.21.6/glib/giounix.c:162
+        buffer_condition = <value optimized out>
+#27 0x005f8f18 in g_main_dispatch (context=0x9a25278)
+    at /build/buildd/glib2.0-2.21.6/glib/gmain.c:1960
+        dispatch = 0x62ff20 <g_io_unix_dispatch>
+        user_data = 0xbff8afc4
+        callback = 0x8071ae0
+        cb_funcs = 0x68431c
+        cb_data = 0x9a5c6e8
+        current_source_link = {data = 0x9a5e0d8, next = 0x0}
+        source = 0x9a5e0d8
+        current = 0x9a49548
+        i = 1
+#28 IA__g_main_context_dispatch (context=0x9a25278)
+    at /build/buildd/glib2.0-2.21.6/glib/gmain.c:2513
+No locals.
+#29 0x005fc7c0 in g_main_context_iterate (context=0x9a25278, 
+    block=<value optimized out>, dispatch=1, self=0x99f60e8)
+    at /build/buildd/glib2.0-2.21.6/glib/gmain.c:2591
+        max_priority = 0
+        timeout = 0
+        some_ready = 1
+        nfds = <value optimized out>
+        allocated_nfds = <value optimized out>
+        fds = <value optimized out>
+        __PRETTY_FUNCTION__ = "g_main_context_iterate"
+#30 0x005fcc2f in IA__g_main_loop_run (loop=0x9a5e060)
+    at /build/buildd/glib2.0-2.21.6/glib/gmain.c:2799
+        self = 0x99f60e8
+        __PRETTY_FUNCTION__ = "IA__g_main_loop_run"
+#31 0x010746f9 in IA__gtk_main ()
+    at /build/buildd/gtk+2.0-2.17.11/gtk/gtkmain.c:1205
+        tmp_list = 0x9a5e090
+        functions = 0x0
+        init = 0xbff8b090
+        loop = 0x9a5e060
+#32 0x08070e52 in theme_thumbnail_factory_init ()
+No symbol table info available.
+#33 0x0805c20a in main ()
+No symbol table info available.

@@ -1,0 +1,16 @@
+#0  0x00007f6dfeecd4e6 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#1  0x00007f6dfeecfe34 in g_dbus_proxy_call () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#2  0x00007f6df4ed7f39 in ?? () from /usr/lib/x86_64-linux-gnu/libdbusmenu-glib.so.4
+No symbol table info available.
+#3  0x00007f6dfe6dbdb5 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f6dfe6dc0e8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f6dfe6dc4e2 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f6dff7a9955 in gtk_main () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#7  0x0000000000404e72 in main ()
+No symbol table info available.

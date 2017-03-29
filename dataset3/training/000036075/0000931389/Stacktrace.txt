@@ -1,0 +1,54 @@
+#0  0x00007f1ac798b9e1 in ?? () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#1  0x00007f1ac798d7bd in ?? () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#2  0x00007f1ac7989b0c in ?? () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#3  0x00007f1ac798e24f in ?? () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#4  0x00007f1ac794f4c7 in FT_Load_Glyph () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#5  0x00007f1ac9f2f454 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#6  0x00007f1ac9ef4eb7 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#7  0x00007f1ac9ef6545 in cairo_scaled_font_glyph_extents () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#8  0x00007f1aca9b6369 in ?? () from /usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0
+No symbol table info available.
+#9  0x00007f1ac971b0f2 in pango_ot_buffer_output () from /usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0
+No symbol table info available.
+#10 0x00007f1ab52db3bc in ?? () from /usr/lib/x86_64-linux-gnu/pango/1.6.0/modules/pango-basic-fc.so
+No symbol table info available.
+#11 0x00007f1ac94ee39a in pango_shape () from /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0
+No symbol table info available.
+#12 0x00007f1ac94d1811 in ?? () from /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0
+No symbol table info available.
+#13 0x00007f1ac94d1ac9 in ?? () from /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0
+No symbol table info available.
+#14 0x00007f1ac94e4867 in ?? () from /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0
+No symbol table info available.
+#15 0x00007f1ac94e6c10 in pango_layout_get_iter () from /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0
+No symbol table info available.
+#16 0x00007f1ac94ebe15 in pango_renderer_draw_layout () from /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0
+No symbol table info available.
+#17 0x00007f1aca9b8338 in ?? () from /usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0
+No symbol table info available.
+#18 0x00007f1abb334b6b in unity::dash::ResultRendererTile::LoadText(unity::dash::Result&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#19 0x00007f1abb33adf9 in unity::dash::ResultViewGrid::DoLazyLoad() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#20 0x00007f1abb33ae99 in unity::dash::ResultViewGrid::OnLazyLoad(void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#21 0x00007f1acc6b080b in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#22 0x00007f1acc6afbca in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#23 0x00007f1acc6aff90 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#24 0x00007f1acc6b038a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#25 0x000000000042e856 in CompScreen::eventLoop() ()
+No symbol table info available.
+#26 0x000000000042221a in main ()
+No symbol table info available.

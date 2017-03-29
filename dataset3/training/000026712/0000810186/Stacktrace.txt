@@ -1,0 +1,48 @@
+#0  0x00007f503f57ccbe in ?? () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#1  0x00007f503f73cfbe in ?? () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#2  0x00007f503f73ea38 in ?? () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#3  0x00007f503f6cdcf3 in QPainter::fillRect(QRect const&, QBrush const&) () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#4  0x00007f503f5cdfc6 in QWidgetPrivate::paintBackground(QPainter*, QRegion const&, int) const () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#5  0x00007f503f5d3c0c in QWidgetPrivate::drawWidget(QPaintDevice*, QRegion const&, QPoint const&, int, QPainter*, QWidgetBackingStore*) () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#6  0x00007f503f794473 in ?? () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#7  0x00007f503f5c9f70 in QWidgetPrivate::syncBackingStore() () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#8  0x00007f503f5d6d6c in QWidget::event(QEvent*) () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#9  0x00007f503f9bdb9b in QMenu::event(QEvent*) () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#10 0x00007f503f586134 in QApplicationPrivate::notify_helper(QObject*, QEvent*) () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#11 0x00007f503f58afa1 in QApplication::notify(QObject*, QEvent*) () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#12 0x00007f50403f70fc in QCoreApplication::notifyInternal(QObject*, QEvent*) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#13 0x00007f50403fa48f in QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#14 0x00007f5040421973 in ?? () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#15 0x00007f503e2c985d in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0x00007f503e2ca058 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#17 0x00007f503e2ca229 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#18 0x00007f5040421dd6 in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#19 0x00007f503f62d70e in ?? () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#20 0x00007f50403f62f2 in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#21 0x00007f50403f64f7 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#22 0x00007f50403fa70b in QCoreApplication::exec() () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#23 0x0000000000409d6c in main ()
+No symbol table info available.

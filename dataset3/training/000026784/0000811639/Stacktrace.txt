@@ -1,0 +1,96 @@
+#0  0x0022e416 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0x00d8edd1 in raise (sig=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:64
+        resultvar = <value optimized out>
+        resultvar = <value optimized out>
+        pid = 15474676
+        selftid = 10460
+#2  0x00d922ae in abort () at abort.c:92
+        save_stage = 2
+        act = {__sigaction_handler = {sa_handler = 0x232558, sa_sigaction = 0x232558}, sa_mask = {__val = {2986880052, 13224564, 0, 3077626384, 5, 0, 1, 3077666952, 1, 8, 3272692, 2977030152, 2977024336, 2588747, 2977030152, 2986880140, 4, 3272692, 0, 0, 2986880128, 2589206, 3077666952, 2343512, 3077660672, 14486597, 3272692, 3272692, 174, 2712782, 2977030152, 0}}, sa_flags = -1308087156, sa_restorer = 0x4}
+        sigs = {__val = {32, 0 <repeats 31 times>}}
+#3  0x00296a0e in g_assertion_message (domain=0x2b9d06 "GLib", file=0x3021a8 "/build/buildd/glib2.0-2.29.10/./glib/gvarianttypeinfo.c", line=172, func=0x3023f0 "g_variant_type_info_check", message=<value optimized out>) at /build/buildd/glib2.0-2.29.10/./glib/gtestutils.c:1425
+        lstr = "172\000\250\267\210!\000\000\000\000 8\254!p\021p\261\364\357\061\000PP\254!\364\357\061"
+        s = 0xb171c950 "@"
+#4  0x00296e81 in g_assertion_message_cmpnum (domain=0x2b9d06 "GLib", file=0x3021a8 "/build/buildd/glib2.0-2.29.10/./glib/gvarianttypeinfo.c", line=172, func=0x3023f0 "g_variant_type_info_check", expr=0x302157 "container->ref_count > 0", arg1=0, cmp=0x2bad42 ">", arg2=0, numtype=105 'i') at /build/buildd/glib2.0-2.29.10/./glib/gtestutils.c:1459
+        s = <value optimized out>
+#5  0x002b4561 in g_variant_type_info_check (info=<value optimized out>, container_class=<value optimized out>) at /build/buildd/glib2.0-2.29.10/./glib/gvarianttypeinfo.c:172
+        __n1 = 0
+        __n2 = 0
+        container = <value optimized out>
+        __PRETTY_FUNCTION__ = "g_variant_type_info_check"
+#6  0x002b4ca7 in g_variant_type_info_unref (info=0x21ac8ee0) at /build/buildd/glib2.0-2.29.10/./glib/gvarianttypeinfo.c:831
+No locals.
+#7  0x002ae04a in g_variant_unref (value=0x21ac77b0) at /build/buildd/glib2.0-2.29.10/./glib/gvariant-core.c:625
+No locals.
+#8  0x00aad40f in g_dbus_message_finalize (object=0x219898f0) at /build/buildd/glib2.0-2.29.10/./gio/gdbusmessage.c:125
+        message = 0x219898f0
+#9  0x001696ba in g_object_unref (_object=0x219898f0) at /build/buildd/glib2.0-2.29.10/./gobject/gobject.c:2746
+        object = 0x219898f0
+        old_ref = <value optimized out>
+        __PRETTY_FUNCTION__ = "g_object_unref"
+#10 0x00ab85b3 in message_to_write_data_free (data=0x21ac6f98) at /build/buildd/glib2.0-2.29.10/./gio/gdbusprivate.c:828
+No locals.
+#11 0x00aba2fe in write_message_cb (source_object=0x0, res=0x21ac5050, user_data=0x21ac6f98) at /build/buildd/glib2.0-2.29.10/./gio/gdbusprivate.c:1218
+        data = 0x21ac6f98
+        error = 0x0
+#12 0x00a590e2 in g_simple_async_result_complete (simple=0x21ac5050) at /build/buildd/glib2.0-2.29.10/./gio/gsimpleasyncresult.c:749
+        current_source = <value optimized out>
+        current_context = <value optimized out>
+        __PRETTY_FUNCTION__ = "g_simple_async_result_complete"
+#13 0x00ab9ad3 in write_message_continue_writing (data=<value optimized out>) at /build/buildd/glib2.0-2.29.10/./gio/gdbusprivate.c:1009
+        ostream = <value optimized out>
+        simple = 0x21ac5050
+        fd_list = 0x0
+        __PRETTY_FUNCTION__ = "write_message_continue_writing"
+#14 0x00ab9f3f in maybe_write_next_message (worker=0x2190fa28) at /build/buildd/glib2.0-2.29.10/./gio/gdbusprivate.c:1291
+        old_message = <value optimized out>
+        new_blob = <value optimized out>
+        new_blob_size = 3272692
+        error = 0x299df2
+        data = 0x21ac6f98
+#15 0x00aba065 in write_message_in_idle_cb (user_data=0x2190fa28) at /build/buildd/glib2.0-2.29.10/./gio/gdbusprivate.c:1304
+No locals.
+#16 write_message_in_idle_cb (user_data=0x2190fa28) at /build/buildd/glib2.0-2.29.10/./gio/gdbusprivate.c:1300
+        worker = 0x2190fa28
+#17 0x0026d370 in g_idle_dispatch (source=0x21ac74d0, callback=0xaba040 <write_message_in_idle_cb>, user_data=0x2190fa28) at /build/buildd/glib2.0-2.29.10/./glib/gmain.c:4822
+No locals.
+#18 0x0027154f in g_main_dispatch (context=0x2188b708) at /build/buildd/glib2.0-2.29.10/./glib/gmain.c:2473
+        dispatch = 0x26d350 <g_idle_dispatch>
+        was_in_call = 0
+        user_data = 0x2190fa28
+        callback = 0xaba040 <write_message_in_idle_cb>
+        cb_funcs = 0x31f35c
+        cb_data = 0x21ac7e30
+        current_source_link = {data = 0x21ac74d0, next = 0x0}
+        need_destroy = <value optimized out>
+        source = 0x21ac74d0
+        current = 0x21834888
+        i = <value optimized out>
+#19 g_main_context_dispatch (context=0x2188b708) at /build/buildd/glib2.0-2.29.10/./glib/gmain.c:3046
+No locals.
+#20 0x00271c80 in g_main_context_iterate (context=0x2188b708, block=2623056, dispatch=1, self=<value optimized out>) at /build/buildd/glib2.0-2.29.10/./glib/gmain.c:3124
+        max_priority = 2147483647
+        timeout = -1
+        some_ready = 1
+        nfds = <value optimized out>
+        allocated_nfds = <value optimized out>
+        fds = 0x218ea7e0
+#21 0x0027228b in g_main_loop_run (loop=0x218aaf50) at /build/buildd/glib2.0-2.29.10/./glib/gmain.c:3332
+        __PRETTY_FUNCTION__ = "g_main_loop_run"
+#22 0x00ab7eba in gdbus_shared_thread_func (user_data=0x218aafa8) at /build/buildd/glib2.0-2.29.10/./gio/gdbusprivate.c:276
+        data = 0x218aafa8
+#23 0x00298934 in g_thread_create_proxy (data=0x2188b798) at /build/buildd/glib2.0-2.29.10/./glib/gthread.c:1954
+        thread = 0x2188b798
+        __PRETTY_FUNCTION__ = "g_thread_create_proxy"
+#24 0x003e8e99 in start_thread (arg=0xb2083b70) at pthread_create.c:304
+        pd = 0xb2083b70
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {4169716, 0, 4001536, -1308085496, -453684708, -1987198600}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <value optimized out>
+        robust = <value optimized out>
+        pagesize_m1 = <value optimized out>
+        sp = <value optimized out>
+        freesize = <value optimized out>
+        __PRETTY_FUNCTION__ = "start_thread"
+#25 0x00e346de in clone () at ../sysdeps/unix/sysv/linux/i386/clone.S:130
+No locals.

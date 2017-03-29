@@ -1,0 +1,8 @@
+#0  0x00007f31010f84b5 in raise () from /lib/libc.so.6
+No symbol table info available.
+#1  0x00007f31010fbf50 in abort () from /lib/libc.so.6
+No symbol table info available.
+#2  0x00007f3101495540 in g_assertion_message () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00000000004089b4 in _start ()
+No symbol table info available.

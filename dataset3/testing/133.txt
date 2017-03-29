@@ -1,0 +1,28 @@
+#0  0x00007f413d2f8ef5 in unity::indicator::DBusIndicators::Impl::RequestSyncAll() () from /usr/lib/libunity-core-5.0.so.5
+No symbol table info available.
+#1  0x00007f413d2f98df in unity::indicator::DBusIndicators::Impl::OnRemoteProxyReady(_GDBusProxy*) () from /usr/lib/libunity-core-5.0.so.5
+No symbol table info available.
+#2  0x00007f413d2f9e8e in ?? () from /usr/lib/libunity-core-5.0.so.5
+No symbol table info available.
+#3  0x00007f413eda596d in g_simple_async_result_complete () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#4  0x00007f413eda5a9c in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#5  0x00007f41427c07da in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f41427c0ba0 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00007f41427c0c64 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0x00007f414402993f in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#9  0x00007f41445c51ce in ?? () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#10 0x00007f4143ff9202 in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#11 0x00007f4143ff9457 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#12 0x00007f4143ffe4e7 in QCoreApplication::exec() () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#13 0x0000000000403faa in main ()
+No symbol table info available.

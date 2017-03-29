@@ -1,0 +1,58 @@
+#0  refresh_ui (panel=0xb8c2e010) at cc-network-panel.c:2205
+No locals.
+#1  0xb705635c in g_cclosure_marshal_VOID__VOID () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#2  0xb7054dac in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#3  0xb70660c5 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#4  0xb706d942 in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0xb706dad3 in g_signal_emit () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#6  0xb0059dc3 in net_object_emit_changed (object=0xb8c9f7b8) at net-object.c:51
+        __PRETTY_FUNCTION__ = "net_object_emit_changed"
+#7  0xb005a13c in state_changed_cb (device=0xb8a7fc18, new_state=NM_DEVICE_STATE_PREPARE, old_state=NM_DEVICE_STATE_DISCONNECTED, reason=NM_DEVICE_STATE_REASON_NONE, net_device=0xb8c9f7b8) at net-device.c:45
+No locals.
+#8  0xaffc2511 in ?? () from /usr/lib/libnm-glib.so.4
+No symbol table info available.
+#9  0xb7054dac in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#10 0xb70660c5 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#11 0xb706d942 in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#12 0xb706dad3 in g_signal_emit () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#13 0xaffad99c in ?? () from /usr/lib/libnm-glib.so.4
+No symbol table info available.
+#14 0xaffc2511 in ?? () from /usr/lib/libnm-glib.so.4
+No symbol table info available.
+#15 0xb63a917a in ?? () from /usr/lib/i386-linux-gnu/libdbus-glib-1.so.2
+No symbol table info available.
+#16 0xb7054dac in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#17 0xb70660c5 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#18 0xb706d942 in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#19 0xb706dad3 in g_signal_emit () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#20 0xb63a9820 in ?? () from /usr/lib/i386-linux-gnu/libdbus-glib-1.so.2
+No symbol table info available.
+#21 0xb65e9441 in dbus_connection_dispatch () from /lib/i386-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#22 0xb63a19ad in ?? () from /usr/lib/i386-linux-gnu/libdbus-glib-1.so.2
+No symbol table info available.
+#23 0xb6f9741a in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#24 0xb6f97825 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#25 0xb6f97901 in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#26 0xb712d87c in g_application_run () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#27 0xb78dc9a6 in main (argc=1, argv=0xbfcfa294) at control-center.c:201
+        shell = <optimized out>
+        application = 0xb8a80978
+        status = <optimized out>

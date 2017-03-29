@@ -1,0 +1,68 @@
+#0  0xb77a031f in pango_shape () from /usr/lib/libpango-1.0.so.0
+#1  0xb7791e82 in ?? () from /usr/lib/libpango-1.0.so.0
+#2  0xb7792891 in ?? () from /usr/lib/libpango-1.0.so.0
+#3  0xb77945fc in ?? () from /usr/lib/libpango-1.0.so.0
+#4  0xb779579b in ?? () from /usr/lib/libpango-1.0.so.0
+#5  0xb77973ee in pango_layout_get_pixel_extents ()
+   from /usr/lib/libpango-1.0.so.0
+#6  0xb7a51ddf in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+#7  0xb7a5786d in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+#8  0xb7a66f26 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+#9  0xb77403c9 in ?? () from /usr/lib/libgobject-2.0.so.0
+#10 0xb7741b78 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+#11 0xb7757d3d in ?? () from /usr/lib/libgobject-2.0.so.0
+#12 0xb775962b in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+#13 0xb7759c26 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+#14 0xb7b7c0fe in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+#15 0xb79dd163 in gtk_container_propagate_expose ()
+   from /usr/lib/libgtk-x11-2.0.so.0
+#16 0xb79dd191 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+#17 0xb79ab856 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+#18 0xb79ddd36 in gtk_container_forall () from /usr/lib/libgtk-x11-2.0.so.0
+#19 0xb79df420 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+#20 0xb7a66f26 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+#21 0xb77403c9 in ?? () from /usr/lib/libgobject-2.0.so.0
+#22 0xb7741b78 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+#23 0xb7757d3d in ?? () from /usr/lib/libgobject-2.0.so.0
+#24 0xb775962b in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+#25 0xb7759c26 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+#26 0xb7b7c0fe in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+#27 0xb79dd163 in gtk_container_propagate_expose ()
+   from /usr/lib/libgtk-x11-2.0.so.0
+#28 0xb79dd191 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+#29 0xb79ab856 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+#30 0xb79ddd36 in gtk_container_forall () from /usr/lib/libgtk-x11-2.0.so.0
+#31 0xb79df420 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+#32 0xb7a66f26 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+#33 0xb77403c9 in ?? () from /usr/lib/libgobject-2.0.so.0
+#34 0xb7741b78 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+#35 0xb7757d3d in ?? () from /usr/lib/libgobject-2.0.so.0
+#36 0xb775962b in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+#37 0xb7759c26 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+#38 0xb7b7c0fe in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+#39 0xb79dd163 in gtk_container_propagate_expose ()
+   from /usr/lib/libgtk-x11-2.0.so.0
+#40 0xb79dd191 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+#41 0xb79a78ad in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+#42 0xb79ddd36 in gtk_container_forall () from /usr/lib/libgtk-x11-2.0.so.0
+#43 0xb79df420 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+#44 0xb7b95c51 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+#45 0xb7a66f26 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+#46 0xb77403c9 in ?? () from /usr/lib/libgobject-2.0.so.0
+#47 0xb7741c4b in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+#48 0xb7757d3d in ?? () from /usr/lib/libgobject-2.0.so.0
+#49 0xb775962b in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+#50 0xb7759c26 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+#51 0xb7b7c0fe in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+#52 0xb7a6102d in gtk_main_do_event () from /usr/lib/libgtk-x11-2.0.so.0
+#53 0xb78df9c5 in ?? () from /usr/lib/libgdk-x11-2.0.so.0
+#54 0xb78dffdf in gdk_window_process_all_updates ()
+   from /usr/lib/libgdk-x11-2.0.so.0
+#55 0xb79ddecf in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+#56 0xb78c346b in ?? () from /usr/lib/libgdk-x11-2.0.so.0
+#57 0xb76b77c1 in ?? () from /usr/lib/libglib-2.0.so.0
+#58 0xb76b96f8 in g_main_context_dispatch () from /usr/lib/libglib-2.0.so.0
+#59 0xb76bcda3 in ?? () from /usr/lib/libglib-2.0.so.0
+#60 0xb76bd2c2 in g_main_loop_run () from /usr/lib/libglib-2.0.so.0
+#61 0xb7a61299 in gtk_main () from /usr/lib/libgtk-x11-2.0.so.0
+#62 0x0805c617 in main ()

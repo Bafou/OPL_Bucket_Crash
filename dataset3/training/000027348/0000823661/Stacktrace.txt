@@ -1,0 +1,18 @@
+#0  0x0000000001eb6698 in ?? ()
+No symbol table info available.
+#1  0x00007ff217662f37 in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#2  0x00007ff217667a01 in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#3  0x00007ff217667beb in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#4  0x00007ff210fc359e in ?? () from /usr/lib/libQtScript.so.4
+No symbol table info available.
+#5  0x00007ff210e67065 in ?? () from /usr/lib/libQtScript.so.4
+No symbol table info available.
+#6  0x00007ff210ea27c8 in ?? () from /usr/lib/libQtScript.so.4
+No symbol table info available.
+#7  0x00007ff1f87652ba in ?? ()
+No symbol table info available.
+#8  0x0000000000000000 in ?? ()
+No symbol table info available.

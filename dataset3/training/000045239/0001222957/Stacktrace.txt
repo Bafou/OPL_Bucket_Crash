@@ -1,0 +1,174 @@
+#0  0x00007fcb01e17369 in g_logv () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007fcb01e174b2 in g_log () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007fcb0170452f in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#3  0x00007fcb020de8a9 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00007fcb020e0634 in g_object_new_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007fcb020e0a14 in g_object_new () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00007fcb0144fadc in ffi_call_unix64 () from /usr/lib/x86_64-linux-gnu/libffi.so.6
+No symbol table info available.
+#7  0x00007fcb0144f40c in ffi_call () from /usr/lib/x86_64-linux-gnu/libffi.so.6
+No symbol table info available.
+#8  0x00007fcb02325d19 in g_callable_info_invoke () from /usr/lib/libgirepository-1.0.so.1
+No symbol table info available.
+#9  0x00007fcb02327057 in g_function_info_invoke () from /usr/lib/libgirepository-1.0.so.1
+No symbol table info available.
+#10 0x00007fcb02563027 in _invoke_callable (function_ptr=0x0, callable_info=0x1ef9770, cache=0x1cf3b60, state=0x7fffb8ebe700) at ../../gi/pygi-invoke.c:64
+        _save = 0x1bc10a0
+        error = 0x0
+        retval = <optimized out>
+#11 pygi_callable_info_invoke (info=<optimized out>, py_args=py_args@entry=0x1ce45a8, kwargs=<optimized out>, cache=<optimized out>, function_ptr=function_ptr@entry=0x0, user_data=user_data@entry=0x0) at ../../gi/pygi-invoke.c:652
+        state = {py_in_args = 0x7fcb04368790, n_py_in_args = 1, current_arg = 0, implementor_gtype = 0, args = 0x1cf5110, in_args = 0x1cf5140, args_data = 0x1cf5120, out_args = 0x0, out_values = 0x0, return_arg = {v_boolean = 0, v_int8 = 0 '\000', v_uint8 = 0 '\000', v_int16 = 0, v_uint16 = 0, v_int32 = 0, v_uint32 = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_short = 0, v_ushort = 0, v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_ssize = 0, v_size = 0, v_string = 0x0, v_pointer = 0x0}, error = 0x0, failed = 0, user_data = 0x0}
+        ret = 0x0
+#12 0x00007fcb025639bd in _wrap_g_callable_info_invoke (self=<optimized out>, py_args=py_args@entry=0x1ce45a8, kwargs=kwargs@entry=0x0) at ../../gi/pygi-invoke.c:675
+No locales.
+#13 0x00007fcb0255936e in _callable_info_call (self=0x1dbffb8, args=0x7fcb04368750, kwargs=0x0) at ../../gi/pygi-info.c:428
+        i = <optimized out>
+        result = <optimized out>
+        argcount = 1
+        newargs = 0x1ce45a8
+        kwargs = 0x0
+        args = 0x7fcb04368750
+        self = 0x1dbffb8
+#14 0x00000000004fe720 in PyObject_Call (kw=0x0, arg=0x7fcb04368750, func=0x1dbffb8) at ../Objects/abstract.c:2529
+        result = <optimized out>
+        call = 0x7fcb02559400 <_function_info_call>
+#15 do_call (nk=<optimized out>, na=<optimized out>, pp_stack=0x7fffb8ebe8f0, func=0x1dbffb8) at ../Python/ceval.c:4239
+        callargs = <optimized out>
+        kwdict = 0x0
+        result = 0x0
+#16 call_function (oparg=<optimized out>, pp_stack=0x7fffb8ebe8f0) at ../Python/ceval.c:4044
+        func = 0x1dbffb8
+        w = <optimized out>
+        na = <optimized out>
+        nk = <optimized out>
+        n = <optimized out>
+        pfunc = 0x1e0f3e8
+        x = <optimized out>
+#17 PyEval_EvalFrameEx (f=f@entry=0x1e0f220, throwflag=throwflag@entry=0) at ../Python/ceval.c:2666
+        sp = 0x1e0f3f0
+        stack_pointer = <optimized out>
+        next_instr = 0x1ca3144 "}\001"
+        opcode = <optimized out>
+        oparg = <optimized out>
+        why = WHY_NOT
+        err = <optimized out>
+        x = <optimized out>
+        v = <optimized out>
+        w = <optimized out>
+        u = <optimized out>
+        t = <optimized out>
+        stream = 0x0
+        fastlocals = 0x1e0f398
+        freevars = <optimized out>
+        retval = <optimized out>
+        tstate = <optimized out>
+        co = <optimized out>
+        instr_ub = -1
+        instr_lb = 0
+        instr_prev = -1
+        first_instr = <optimized out>
+        names = <optimized out>
+        consts = <optimized out>
+        enter = 0x7fcb0444ade0
+        exit = 0x7fcb0444ae10
+#18 0x00000000004fea32 in fast_function (nk=<optimized out>, na=<optimized out>, n=0, pp_stack=0x7fffb8ebea30, func=0x1ecb668) at ../Python/ceval.c:4107
+        retval = 0x0
+        fastlocals = 0x1e0f398
+        i = <optimized out>
+        f = 0x1e0f220
+        tstate = 0x1bc10a0
+        stack = <optimized out>
+        co = <optimized out>
+        nd = 0
+        globals = <optimized out>
+        argdefs = <optimized out>
+        d = 0x0
+#19 call_function (oparg=<optimized out>, pp_stack=0x7fffb8ebea30) at ../Python/ceval.c:4042
+        func = 0x1ecb668
+        w = <optimized out>
+        na = <optimized out>
+        nk = <optimized out>
+        n = 0
+        pfunc = 0x1c8f838
+        x = <optimized out>
+#20 PyEval_EvalFrameEx (f=f@entry=0x1c8f6c0, throwflag=throwflag@entry=0) at ../Python/ceval.c:2666
+        sp = 0x1c8f840
+        stack_pointer = <optimized out>
+        next_instr = 0x7fcb043bb5c2 "\001n"
+        opcode = <optimized out>
+        oparg = <optimized out>
+        why = WHY_NOT
+        err = <optimized out>
+        x = <optimized out>
+        v = <optimized out>
+        w = <optimized out>
+        u = <optimized out>
+        t = <optimized out>
+        stream = 0x0
+        fastlocals = 0x1c8f838
+        freevars = <optimized out>
+        retval = <optimized out>
+        tstate = <optimized out>
+        co = <optimized out>
+        instr_ub = -1
+        instr_lb = 0
+        instr_prev = -1
+        first_instr = <optimized out>
+        names = <optimized out>
+        consts = <optimized out>
+        enter = 0x7fcb0444ade0
+        exit = 0x7fcb0444ae10
+#21 0x000000000056c414 in PyEval_EvalCodeEx (co=0x7fcb043bae30, globals=<optimized out>, locals=<optimized out>, args=<optimized out>, argcount=<optimized out>, kws=<optimized out>, kwcount=0, defs=0x0, defcount=0, closure=0x0) at ../Python/ceval.c:3253
+        f = <optimized out>
+        retval = 0x0
+        fastlocals = <optimized out>
+        freevars = <optimized out>
+        tstate = <optimized out>
+        x = <optimized out>
+        u = <optimized out>
+#22 0x00000000005ba3b2 in PyEval_EvalCode (co=<optimized out>, globals=<optimized out>, locals=<optimized out>) at ../Python/ceval.c:667
+No locales.
+#23 0x00000000005abe1b in run_mod.42564 (mod=<optimized out>, filename=<optimized out>, globals=0x1bfe690, locals=0x1bfe690, flags=<optimized out>, arena=<optimized out>) at ../Python/pythonrun.c:1365
+        co = 0x7fcb043bae30
+        v = <optimized out>
+#24 0x000000000045270b in PyRun_FileExFlags (fp=fp@entry=0x1c8f6a0, filename=filename@entry=0x7fffb8ec0871 "/usr/share/session-migration/scripts/install-default-webapps-in-launcher.py", start=start@entry=257, globals=globals@entry=0x1bfe690, locals=locals@entry=0x1bfe690, closeit=closeit@entry=1, flags=flags@entry=0x7fffb8ebec70) at ../Python/pythonrun.c:1351
+        ret = <optimized out>
+        mod = 0x1c89998
+        arena = 0x1c658f0
+#25 0x0000000000452f05 in PyRun_SimpleFileExFlags (fp=fp@entry=0x1c8f6a0, filename=<optimized out>, filename@entry=0x7fffb8ec0871 "/usr/share/session-migration/scripts/install-default-webapps-in-launcher.py", closeit=closeit@entry=1, flags=flags@entry=0x7fffb8ebec70) at ../Python/pythonrun.c:943
+        m = 0x7fcb04468cc8
+        d = 0x1bfe690
+        v = <optimized out>
+        ext = 0x7fffb8ec08b8 "r.py"
+        set_file_name = 1
+        len = <optimized out>
+        ret = -1
+#26 0x0000000000453001 in PyRun_AnyFileExFlags (fp=fp@entry=0x1c8f6a0, filename=filename@entry=0x7fffb8ec0871 "/usr/share/session-migration/scripts/install-default-webapps-in-launcher.py", closeit=closeit@entry=1, flags=flags@entry=0x7fffb8ebec70) at ../Python/pythonrun.c:747
+No locales.
+#27 0x0000000000453b6a in Py_Main (argc=<optimized out>, argv=0x7fffb8ebee28) at ../Modules/main.c:640
+        c = <optimized out>
+        sts = <optimized out>
+        command = 0x0
+        filename = 0x7fffb8ec0871 "/usr/share/session-migration/scripts/install-default-webapps-in-launcher.py"
+        module = 0x0
+        fp = 0x1c8f6a0
+        p = <optimized out>
+        unbuffered = <optimized out>
+        skipfirstline = <optimized out>
+        stdin_is_interactive = 0
+        help = <optimized out>
+        version = <optimized out>
+        saw_unbuffered_flag = <optimized out>
+        cf = {cf_flags = 0}
+#28 0x00007fcb0339bde5 in __libc_start_main (main=0x453c28 <main>, argc=2, ubp_av=0x7fffb8ebee28, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fffb8ebee18) at libc-start.c:260
+        result = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {0, -6919379665972385154, 5744344, 140736295857696, 0, 0, 6919249821136562814, 6948890027705084542}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x5bb4e0 <__libc_csu_init>, 0x7fffb8ebee28}, data = {prev = 0x0, cleanup = 0x0, canceltype = 6010080}}}
+        not_first_call = <optimized out>
+#29 0x000000000057a701 in _start ()
+No symbol table info available.

@@ -1,0 +1,64 @@
+#0  0x00007f5cdeca8852 in g_slice_alloc () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007f5cdecc884f in g_variant_type_info_get () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f5cdecc23de in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f5cdecbf961 in g_variant_builder_end () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f5cdf47106f in g_dbus_message_to_blob () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#5  0x00007f5cdf466343 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#6  0x00007f5cdf468ee0 in g_dbus_connection_send_message () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#7  0x00007f5cdf46ca13 in g_dbus_connection_emit_signal () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#8  0x0000000000407f69 in ?? ()
+No symbol table info available.
+#9  0x00007f5cdef4f189 in g_cclosure_marshal_VOID__BOOLEANv () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#10 0x00007f5cdef4d407 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x00007f5cdef65df6 in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x00007f5cdef66642 in g_signal_emit () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x00007f5cdf473693 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#14 0x00007f5cdf473ba3 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#15 0x00007f5cdf464705 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#16 0x00007f5cdec8dab5 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#17 0x00007f5cdec8dde8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#18 0x00007f5cdec8e1e2 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#19 0x0000000000407ceb in ?? ()
+No symbol table info available.
+#20 0x00007f5cddfbf76d in __libc_start_main (main=0x407c00, argc=5, ubp_av=0x7fff5b602ff8, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fff5b602fe8) at libc-start.c:226
+        result = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {0, 5457722624237144432, 4226328, 140734726418416, 0, 0, -5457501765773260432, -5403191210945509008}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x41fda0, 0x7fff5b602ff8}, data = {prev = 0x0, cleanup = 0x0, canceltype = 4324768}}}
+        not_first_call = <optimized out>
+#21 0x0000000000407d41 in ?? ()
+No symbol table info available.
+#22 0x00007fff5b602fe8 in ?? ()
+No symbol table info available.
+#23 0x000000000000001c in ?? ()
+No symbol table info available.
+#24 0x0000000000000005 in ?? ()
+No symbol table info available.
+#25 0x00007fff5b604ae2 in ?? ()
+No symbol table info available.
+#26 0x00007fff5b604b19 in ?? ()
+No symbol table info available.
+#27 0x00007fff5b604b20 in ?? ()
+No symbol table info available.
+#28 0x00007fff5b604b27 in ?? ()
+No symbol table info available.
+#29 0x00007fff5b604b49 in ?? ()
+No symbol table info available.
+#30 0x0000000000000000 in ?? ()
+No symbol table info available.

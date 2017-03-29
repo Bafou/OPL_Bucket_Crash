@@ -1,0 +1,26 @@
+#0  QCleanlooksStyle::drawControl (this=0x95e9960, 
+    element=QStyle::CE_PushButtonBevel, option=0xbf3e1500, 
+    painter=0xbf3e1578, widget=0x95ed618) at styles/qcleanlooksstyle.cpp:1388
+	button = $2 = -99
+.
+Thread 1 (process 5657):
+#0  QCleanlooksStyle::drawControl (this=0x95e9960, 
+    element=QStyle::CE_PushButtonBevel, option=0xbf3e1500, 
+    painter=0xbf3e1578, widget=0x95ed618) at styles/qcleanlooksstyle.cpp:1388
+	button = $3 = -99
+eax            0xbf3e1500	-1086450432
+ecx            0xbf3e1500	-1086450432
+edx            0xbf3e1578	-1086450312
+ebx            0xb6134ff4	-1240248332
+esp            0xbf3df5a0	0xbf3df5a0
+ebp            0xbf3e0338	0xbf3e0338
+esi            0x1	1
+edi            0x95e9960	157194592
+eip            0xb5c4775f	0xb5c4775f <QCleanlooksStyle::drawControl(QStyle::ControlElement, QStyleOption const*, QPainter*, QWidget const*) const+15>
+eflags         0x10286	[ PF SF IF RF ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x33	51

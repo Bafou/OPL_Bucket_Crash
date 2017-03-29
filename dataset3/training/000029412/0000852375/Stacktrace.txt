@@ -1,0 +1,28 @@
+#0  0x00007fd98e1ce823 in IndicatorsWidget::onEntryRemoved(std::string const&) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#1  0x00007fd98bb3673d in unity::indicator::Indicator::~Indicator() () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#2  0x00007fd98bb3b1f2 in boost::detail::sp_counted_impl_p<unity::indicator::Indicator>::dispose() () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#3  0x00007fd98e1cec8c in QList<boost::shared_ptr<unity::indicator::Indicator> >::~QList() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#4  0x00007fd98e1cedf2 in IndicatorsWidget::~IndicatorsWidget() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#5  0x00007fd98e583d75 in QObjectPrivate::deleteChildren() () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#6  0x00007fd98eaee08a in QWidget::~QWidget() () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#7  0x00007fd987200599 in IndicatorApplet::~IndicatorApplet() () from /usr/lib/unity-2d/plugins/panel/libpanelplugin-indicator.so.0
+No symbol table info available.
+#8  0x00007fd98e583d75 in QObjectPrivate::deleteChildren() () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#9  0x00007fd98eaee08a in QWidget::~QWidget() () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#10 0x00007fd98e17095c in Unity2dPanel::~Unity2dPanel() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#11 0x00007fd98e1709f9 in Unity2dPanel::~Unity2dPanel() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#12 0x000000000040470e in PanelManager::~PanelManager() ()
+No symbol table info available.
+#13 0x0000000000403d5b in main ()
+No symbol table info available.

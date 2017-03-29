@@ -1,0 +1,54 @@
+#0  0x00007fc2654d7bd9 in g_variant_unref () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007fc266064598 in g_settings_get_boolean () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#2  0x00007fc25bd1e92a in ?? () from /usr/lib/nautilus/extensions-3.0/libnautilus-ubuntuone.so
+No symbol table info available.
+#3  0x00007fc265986373 in g_type_create_instance () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00007fc2659665ac in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007fc265969502 in g_object_newv () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00007fc26596a08c in g_object_new () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00007fc25bd1f497 in location_widget_new () from /usr/lib/nautilus/extensions-3.0/libnautilus-ubuntuone.so
+No symbol table info available.
+#8  0x00007fc25bd211f3 in ?? () from /usr/lib/nautilus/extensions-3.0/libnautilus-ubuntuone.so
+No symbol table info available.
+#9  0x000000000048169b in ?? ()
+No symbol table info available.
+#10 0x0000000000472338 in ?? ()
+No symbol table info available.
+#11 0x0000000000496ca2 in ?? ()
+No symbol table info available.
+#12 0x000000000049ae4c in ?? ()
+No symbol table info available.
+#13 0x00007fc26549da5d in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00007fc26549e258 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x00007fc26549e792 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0x00007fc267bc0e1d in gtk_main () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#17 0x00007fc26605ba4e in g_application_run () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#18 0x000000000042af90 in ?? ()
+No symbol table info available.
+#19 0x00007fc264a2030d in __libc_start_main () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#20 0x000000000042afd1 in ?? ()
+No symbol table info available.
+#21 0x00007fffc97d13d8 in ?? ()
+No symbol table info available.
+#22 0x000000000000001c in ?? ()
+No symbol table info available.
+#23 0x0000000000000002 in ?? ()
+No symbol table info available.
+#24 0x00007fffc97d1a52 in ?? ()
+No symbol table info available.
+#25 0x00007fffc97d1a5b in ?? ()
+No symbol table info available.
+#26 0x0000000000000000 in ?? ()
+No symbol table info available.

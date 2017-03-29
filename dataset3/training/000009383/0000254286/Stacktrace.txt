@@ -1,0 +1,82 @@
+#0  0x00007f5d47bb1bd8 in pthread_join () from /lib/libpthread.so.0
+#1  0x00007f5d3bdbe342 in pa_thread_free (t=0x49949950)
+    at pulsecore/thread-posix.c:114
+	__func__ = "pa_thread_free"
+	__PRETTY_FUNCTION__ = "pa_thread_free"
+#2  0x00007f5d3bda1dd4 in pa_threaded_mainloop_free (m=0xc6ca30)
+    at pulse/thread-mainloop.c:127
+	__func__ = "pa_threaded_mainloop_free"
+	__PRETTY_FUNCTION__ = "pa_threaded_mainloop_free"
+#3  0x00007f5d3bff29f4 in gst_pulseprobe_close (c=0xc6c9e0) at pulseprobe.c:255
+	__PRETTY_FUNCTION__ = "gst_pulseprobe_close"
+#4  0x00007f5d4a2237f0 in gst_property_probe_probe_and_get_values (
+    probe=0xc6d0c0, pspec=0xc5f660) at propertyprobe.c:310
+	__PRETTY_FUNCTION__ = "gst_property_probe_probe_and_get_values"
+#5  0x00007f5d4a0059ce in gst_audio_default_registry_mixer_filter (
+    filter_func=0x4094b0 <_filter_func>, first=0, data=0x7fff529072a0)
+    at mixerutils.c:130
+	factory = (GstElementFactory *) 0xb93240
+	klass = <value optimized out>
+	mixer_list = (GList *) 0xc616a0
+	feature_list = (GList *) 0xc31da0
+	walk = (GList *) 0xc31e20
+	__PRETTY_FUNCTION__ = "gst_audio_default_registry_mixer_filter"
+#6  0x0000000000409473 in gnome_volume_applet_toplevel_configure_handler (
+    widget=<value optimized out>, event=<value optimized out>, data=0x932040)
+    at load.c:129
+	elements = <value optimized out>
+	init = 1
+#7  0x00007f5d48fc7a73 in _gtk_marshal_BOOLEAN__BOXED (closure=0x9c7980, 
+    return_value=0x7fff529074a0, n_param_values=<value optimized out>, 
+    param_values=0x974260, invocation_hint=<value optimized out>, 
+    marshal_data=0x409410)
+    at /build/buildd/gtk+2.0-2.13.5/gtk/gtkmarshalers.c:84
+	data1 = (gpointer) 0x9c5000
+	data2 = (gpointer) 0x932040
+	v_return = <value optimized out>
+	__PRETTY_FUNCTION__ = "_gtk_marshal_BOOLEAN__BOXED"
+#8  0x00007f5d4809828d in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+#9  0x00007f5d480af020 in ?? () from /usr/lib/libgobject-2.0.so.0
+#10 0x00007f5d480b05c8 in g_signal_emit_valist ()
+   from /usr/lib/libgobject-2.0.so.0
+#11 0x00007f5d480b0c83 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+#12 0x00007f5d490e3b0e in gtk_widget_event_internal (widget=0x9c5000, 
+    event=0xa169f0) at /build/buildd/gtk+2.0-2.13.5/gtk/gtkwidget.c:4743
+	signal_num = <value optimized out>
+	return_val = 0
+#13 0x00007f5d48fc005b in IA__gtk_main_do_event (event=0xa169f0)
+    at /build/buildd/gtk+2.0-2.13.5/gtk/gtkmain.c:1588
+	event_widget = (GtkWidget *) 0x9c5000
+	grab_widget = (GtkWidget *) 0x9c5000
+	window_group = (GtkWindowGroup *) 0x97e040
+	rewritten_event = (GdkEvent *) 0x0
+	tmp_list = <value optimized out>
+	__PRETTY_FUNCTION__ = "IA__gtk_main_do_event"
+#14 0x00007f5d48c24a3c in gdk_event_dispatch (source=<value optimized out>, 
+    callback=<value optimized out>, user_data=<value optimized out>)
+    at /build/buildd/gtk+2.0-2.13.5/gdk/x11/gdkevents-x11.c:2365
+	display = <value optimized out>
+	event = <value optimized out>
+#15 0x00007f5d47dffe62 in g_main_context_dispatch ()
+   from /usr/lib/libglib-2.0.so.0
+#16 0x00007f5d47e035fd in ?? () from /usr/lib/libglib-2.0.so.0
+#17 0x00007f5d47e03b2d in g_main_loop_run () from /usr/lib/libglib-2.0.so.0
+#18 0x00007f5d465df896 in bonobo_main () at bonobo-main.c:311
+	loop = (GMainLoop *) 0x0
+#19 0x00007f5d465ddc61 in bonobo_generic_factory_main_timeout (
+    act_iid=<value optimized out>, factory_cb=<value optimized out>, 
+    user_data=<value optimized out>, quit_timeout=<value optimized out>)
+    at bonobo-generic-factory.c:411
+	context = <value optimized out>
+	factory = <value optimized out>
+#20 0x00007f5d49df6581 in panel_applet_factory_main_closure (
+    iid=0x40aec0 "OAFIID:GNOME_MixerApplet_Factory", applet_type=9625296, 
+    closure=<value optimized out>) at panel-applet.c:1754
+	retval = <value optimized out>
+	display_iid = 0x92e100 ":0.0,OAFIID:GNOME_MixerApplet_Factory"
+	__PRETTY_FUNCTION__ = "panel_applet_factory_main_closure"
+#21 0x00000000004093ab in main (argc=3, argv=<value optimized out>)
+    at load.c:340
+	program = (GnomeProgram *) 0x8c9850
+	context = (GOptionContext *) 0x8bb610
+	retval = <value optimized out>

@@ -1,0 +1,321 @@
+#0  0x00e38c0f in gr::PangoGrFont::operator!= (this=0x1000, font=@0xbadb050)
+    at PangoGrFont.cpp:97
+	fSize = <value optimized out>
+	fMySize = <value optimized out>
+#1  0x00e39542 in glyphstring_compare (a=0xb9e1970, b=0xb068600)
+    at graphitecache.cpp:188
+No locals.
+#2  0x0054c9ee in g_list_find_custom () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00e39a2a in graphite_GetGlyphString (text=0xa6b6630, pFont=0xbadb050)
+    at graphitecache.cpp:201
+	found = <value optimized out>
+	pglyphs = <value optimized out>
+	cachecomp = (gr::GlyphStringCache *) 0xb068600
+#4  0x00e39c0b in graphite_PangoGlyphString (
+    text=0x157515 ", au zéphyr, préfère les jattes de kiwis.", length=2, 
+    xftfont=0xa22f938, glyphs=0xbad2850, language=0xa1c7674 "fr-fr", rtl=0)
+    at pangographite.cpp:172
+	pTextSrc = (class gr::PangoTextSrc *) 0xa6b6630
+	pgrFont = (class gr::PangoGrFont *) 0xbadb050
+	cachedglyphs = <value optimized out>
+	grseg = <value optimized out>
+	prgchGlyphs = <value optimized out>
+	prgyd = <value optimized out>
+	prgadv = <value optimized out>
+	k = <value optimized out>
+	maxWidth = <value optimized out>
+	sorted = <value optimized out>
+	first_char_in_cluster = <value optimized out>
+	first_glyph_in_cluster = <value optimized out>
+	lastGlyph = <value optimized out>
+	nextChar = <value optimized out>
+	currGlyph = <value optimized out>
+	i = <value optimized out>
+	next_shift = <value optimized out>
+#5  0x00e3acb9 in ?? ()
+   from /usr/lib/pango/1.6.0/modules/graphite/pango-graphite.so
+No locals.
+#6  0x0013b57a in _pango_engine_shape_shape (engine=0xa1ecf60, 
+    font=0xa22f938, 
+    text=0x157515 ", au zéphyr, préfère les jattes de kiwis.", length=2, 
+    analysis=0xbb7419c, glyphs=0xbad2850)
+    at /build/buildd/pango1.0-1.26.0/pango/pango-engine.c:71
+No locals.
+#7  0x0014de8a in pango_shape (
+    text=0x157515 ", au zéphyr, préfère les jattes de kiwis.", length=2, 
+    analysis=0xbb7419c, glyphs=0xbad2850)
+    at /build/buildd/pango1.0-1.26.0/pango/shape.c:55
+	i = <value optimized out>
+	last_cluster = 8
+#8  0x0013a738 in pango_context_get_metrics (context=0xabd8af0, 
+    desc=0xaf96080, language=0xa1c7674)
+    at /build/buildd/pango1.0-1.26.0/pango/pango-context.c:1664
+	current_fonts = (PangoFontset *) 0xa1722c8
+	metrics = (PangoFontMetrics *) 0xb61d6f0
+	sample_str = <value optimized out>
+	items = (GList *) 0xbb896c0
+	__PRETTY_FUNCTION__ = "pango_context_get_metrics"
+#9  0x00b14c48 in get_label_char_width (label=0xaac6ab0)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtklabel.c:2816
+	priv = (GtkLabelPrivate *) 0xaac6b20
+	context = (PangoContext *) 0xabd8af0
+	metrics = <value optimized out>
+	char_width = <value optimized out>
+	char_pixels = <value optimized out>
+	w = <value optimized out>
+#10 0x00b1bc15 in gtk_label_size_request (widget=0xaac6ab0, 
+    requisition=0xaac6acc) at /build/buildd/gtk+2.0-2.18.2/gtk/gtklabel.c:3082
+	width = <value optimized out>
+	height = <value optimized out>
+	logical_rect = {x = 0, y = 0, width = 518142, height = 32768}
+	aux_info = <value optimized out>
+#11 0x00453fb8 in g_cclosure_marshal_VOID__BOXED ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x00445719 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x00446fb8 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#14 0x0045c000 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#15 0x0045da7d in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#16 0x0045dd92 in g_signal_emit_by_name () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#17 0x00b9b356 in do_size_request (widget=0xaac6ab0)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtksizegroup.c:628
+No locals.
+#18 0x00b9b60f in _gtk_size_group_compute_requisition (widget=0xaac6ab0, 
+    requisition=0xbfd921e8)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtksizegroup.c:828
+	width = 14725108
+	height = <value optimized out>
+#19 0x00c4f8ef in IA__gtk_widget_size_request (widget=0xaac6ab0, 
+    requisition=0xbfd921e8)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtkwidget.c:3704
+	__PRETTY_FUNCTION__ = "IA__gtk_widget_size_request"
+#20 0x00a64283 in gtk_box_size_request (widget=0xadb8780, 
+    requisition=0xadb879c) at /build/buildd/gtk+2.0-2.18.2/gtk/gtkbox.c:280
+	child_requisition = {width = 68, height = 20}
+	private = (GtkBoxPrivate *) 0xadb87d0
+	child = <value optimized out>
+	children = (GList *) 0xaf7add0
+	nvis_children = 3
+#21 0x00453fb8 in g_cclosure_marshal_VOID__BOXED ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#22 0x00445719 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#23 0x00446fb8 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#24 0x0045c000 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#25 0x0045da7d in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#26 0x0045dd92 in g_signal_emit_by_name () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#27 0x00b9b356 in do_size_request (widget=0xadb8780)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtksizegroup.c:628
+No locals.
+#28 0x00b9b60f in _gtk_size_group_compute_requisition (widget=0xadb8780, 
+    requisition=0xbfd92618)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtksizegroup.c:828
+	width = 14725108
+	height = <value optimized out>
+#29 0x00c4f8ef in IA__gtk_widget_size_request (widget=0xadb8780, 
+    requisition=0xbfd92618)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtkwidget.c:3704
+	__PRETTY_FUNCTION__ = "IA__gtk_widget_size_request"
+#30 0x00ae426f in gtk_frame_size_request (widget=0xb040348, 
+    requisition=0xb040364) at /build/buildd/gtk+2.0-2.18.2/gtk/gtkframe.c:625
+	child_requisition = {width = -1076287864, height = 5693378}
+#31 0x00453fb8 in g_cclosure_marshal_VOID__BOXED ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#32 0x00445719 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#33 0x00446fb8 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#34 0x0045c000 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#35 0x0045da7d in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#36 0x0045dd92 in g_signal_emit_by_name () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#37 0x00b9b356 in do_size_request (widget=0xb040348)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtksizegroup.c:628
+No locals.
+#38 0x00b9b60f in _gtk_size_group_compute_requisition (widget=0xb040348, 
+    requisition=0xbfd92a68)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtksizegroup.c:828
+	width = 14725108
+	height = <value optimized out>
+#39 0x00c4f8ef in IA__gtk_widget_size_request (widget=0xb040348, 
+    requisition=0xbfd92a68)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtkwidget.c:3704
+	__PRETTY_FUNCTION__ = "IA__gtk_widget_size_request"
+#40 0x00a64283 in gtk_box_size_request (widget=0xa32d1a0, 
+    requisition=0xa32d1bc) at /build/buildd/gtk+2.0-2.18.2/gtk/gtkbox.c:280
+	child_requisition = {width = -1076286840, height = 12884598}
+	private = (GtkBoxPrivate *) 0xa32d2b0
+	child = <value optimized out>
+	children = (GList *) 0x0
+	nvis_children = 0
+#41 0x00ba2b50 in gtk_statusbar_size_request (widget=0xa32d1a0, 
+    requisition=0xa32d1bc)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtkstatusbar.c:816
+	shadow_type = GTK_SHADOW_IN
+#42 0x00453fb8 in g_cclosure_marshal_VOID__BOXED ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#43 0x00445719 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#44 0x00446fb8 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#45 0x0045c000 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#46 0x0045da7d in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#47 0x0045dd92 in g_signal_emit_by_name () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#48 0x00b9b356 in do_size_request (widget=0xa32d1a0)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtksizegroup.c:628
+No locals.
+#49 0x00b9b60f in _gtk_size_group_compute_requisition (widget=0xa32d1a0, 
+    requisition=0xbfd92ef8)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtksizegroup.c:828
+	width = 14725108
+	height = <value optimized out>
+#50 0x00c4f8ef in IA__gtk_widget_size_request (widget=0xa32d1a0, 
+    requisition=0xbfd92ef8)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtkwidget.c:3704
+	__PRETTY_FUNCTION__ = "IA__gtk_widget_size_request"
+#51 0x00a64283 in gtk_box_size_request (widget=0xadb85c8, 
+    requisition=0xadb85e4) at /build/buildd/gtk+2.0-2.18.2/gtk/gtkbox.c:280
+	child_requisition = {width = 98, height = 170}
+	private = (GtkBoxPrivate *) 0xadb8618
+	child = <value optimized out>
+	children = (GList *) 0x0
+	nvis_children = 2
+#52 0x00453fb8 in g_cclosure_marshal_VOID__BOXED ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#53 0x00445719 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#54 0x00446fb8 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#55 0x0045c000 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#56 0x0045da7d in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#57 0x0045dd92 in g_signal_emit_by_name () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#58 0x00b9b356 in do_size_request (widget=0xadb85c8)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtksizegroup.c:628
+No locals.
+#59 0x00b9b60f in _gtk_size_group_compute_requisition (widget=0xadb85c8, 
+    requisition=0xbfd93328)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtksizegroup.c:828
+	width = 14725108
+	height = <value optimized out>
+#60 0x00c4f8ef in IA__gtk_widget_size_request (widget=0xadb85c8, 
+    requisition=0xbfd93328)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtkwidget.c:3704
+	__PRETTY_FUNCTION__ = "IA__gtk_widget_size_request"
+#61 0x00c58f2a in gtk_window_size_request (widget=0xabc48e0, 
+    requisition=0xabc48fc)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtkwindow.c:4915
+	child_requisition = {width = -1076284520, height = 5693378}
+#62 0x00453fb8 in g_cclosure_marshal_VOID__BOXED ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#63 0x00445719 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#64 0x00447092 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#65 0x0045c000 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#66 0x0045da7d in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#67 0x0045dd92 in g_signal_emit_by_name () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#68 0x00b9b356 in do_size_request (widget=0xabc48e0)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtksizegroup.c:628
+No locals.
+#69 0x00b9b60f in _gtk_size_group_compute_requisition (widget=0xabc48e0, 
+    requisition=0x0) at /build/buildd/gtk+2.0-2.18.2/gtk/gtksizegroup.c:828
+	width = 14725108
+	height = <value optimized out>
+#70 0x00c4f8ef in IA__gtk_widget_size_request (widget=0xabc48e0, 
+    requisition=0x0) at /build/buildd/gtk+2.0-2.18.2/gtk/gtkwidget.c:3704
+	__PRETTY_FUNCTION__ = "IA__gtk_widget_size_request"
+#71 0x00c5929d in gtk_window_compute_configure_request (window=0xabc48e0, 
+    request=<value optimized out>, geometry=0xbfd938f0, flags=0xbfd9394c)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtkwindow.c:5791
+	new_geometry = {min_width = 169266880, min_height = 134217728, 
+  max_width = -1076283200, max_height = 189377800, base_width = 6078452, 
+  base_height = -1076283368, width_inc = 5503962, height_inc = 5184791, 
+  min_aspect = 3.4702015783082034e-307, max_aspect = 9.395590853984393e-316, 
+  win_gravity = 0}
+	new_flags = <value optimized out>
+	w = <value optimized out>
+	h = <value optimized out>
+	pos = 3218683884
+	info = <value optimized out>
+	screen = (GdkScreen *) 0xa156158
+	x = <value optimized out>
+	y = <value optimized out>
+	__PRETTY_FUNCTION__ = "gtk_window_compute_configure_request"
+#72 0x00c61dbe in gtk_window_check_resize (container=0xabc48e0)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtkwindow.c:6003
+No locals.
+#73 0x0045494c in g_cclosure_marshal_VOID__VOID ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#74 0x00445719 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#75 0x00447092 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#76 0x0045c3ee in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#77 0x0045da7d in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#78 0x0045df06 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#79 0x00a972ea in IA__gtk_container_check_resize (container=0xabc48e0)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtkcontainer.c:1424
+	__PRETTY_FUNCTION__ = "IA__gtk_container_check_resize"
+#80 0x00a97340 in gtk_container_idle_sizer (data=0x0)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtkcontainer.c:1350
+	widget = (GtkWidget *) 0xabc48e0
+#81 0x00e54f98 in gdk_threads_dispatch (data=0xba8c470)
+    at /build/buildd/gtk+2.0-2.18.2/gdk/gdk.c:506
+	ret = 0
+#82 0x0054d0f1 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#83 0x0054ee78 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#84 0x00552720 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#85 0x00552b8f in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#86 0x080a59da in app_run (full_prog_name=0xbfd95b65 "gimp-2.6", 
+    filenames=0xa115978, alternate_system_gimprc=0x0, alternate_gimprc=0x0, 
+    session_name=0x0, batch_interpreter=0x0, batch_commands=0x0, as_new=0, 
+    no_interface=0, no_data=0, no_fonts=0, no_splash=0, be_verbose=0, 
+    use_shm=1, use_cpu_accel=1, console_messages=0, use_debug_handler=0, 
+    stack_trace_mode=GIMP_STACK_TRACE_NEVER, 
+    pdb_compat_mode=GIMP_PDB_COMPAT_ON)
+    at /build/buildd/gimp-2.6.7/./app/app.c:246
+	update_status_func = <value optimized out>
+	gimp = (Gimp *) 0xa18e0d0
+	config = (GimpBaseConfig *) 0xa1a0070
+	loop = (GMainLoop *) 0xb2bcf00
+	swap_is_ok = 1
+#87 0x080a6a4a in main (argc=1, argv=0xbfd94044)
+    at /build/buildd/gimp-2.6.7/./app/main.c:406
+	context = (GOptionContext *) 0xa111300
+	error = (GError *) 0x0
+	abort_message = <value optimized out>
+	i = <value optimized out>

@@ -1,0 +1,18 @@
+#0  0x00007f04575688dc in XGetSelectionOwner () from /usr/lib/x86_64-linux-gnu/libX11.so.6
+No symbol table info available.
+#1  0x00007f043744d8de in unity::XdndStartStopNotifierImp::OnTimeout() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x00007f043564723a in unity::glib::Source::SourceCallback(void*) () from /usr/lib/libunity-core-6.0.so.9
+No symbol table info available.
+#3  0x00007f04565cf5e3 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f04565ceb4d in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f04565cef20 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f04565cf242 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00007f04583c38bb in compiz::private_screen::EventManager::startEventLoop(_XDisplay*) () from /usr/lib/x86_64-linux-gnu/libcompiz_core.so.ABI-20140123
+No symbol table info available.
+#8  0x0000000000401911 in main ()
+No symbol table info available.

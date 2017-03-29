@@ -1,0 +1,52 @@
+#0  apply_settings (app=0x94be80, effects_enabled=<value optimized out>) at appearance-effects.c:315
+	idList = (GSList *) 0xf34dc0
+	chunk = <value optimized out>
+	session_file = <value optimized out>
+	vsize = <value optimized out>
+	hsize = <value optimized out>
+	workspaces = 2
+	rows = <value optimized out>
+#1  0x00000000004158c4 in show_dialog_timeout (data=<value optimized out>) at appearance-effects.c:720
+	info = (TimedDialogInfo *) 0xe0c370
+#2  0x00002b6c15d2a70b in g_timeout_dispatch (source=0xdc90c0, callback=0, user_data=0x9a4720)
+    at /build/buildd/glib2.0-2.14.1/glib/gmain.c:3488
+No locals.
+#3  0x00002b6c15d29fd3 in IA__g_main_context_dispatch (context=0x6706d0) at /build/buildd/glib2.0-2.14.1/glib/gmain.c:2061
+No locals.
+#4  0x00002b6c15d2d2dd in g_main_context_iterate (context=0x6706d0, block=1, dispatch=1, self=<value optimized out>)
+    at /build/buildd/glib2.0-2.14.1/glib/gmain.c:2694
+	got_ownership = <value optimized out>
+	max_priority = 0
+	timeout = 0
+	some_ready = 1
+	nfds = <value optimized out>
+	allocated_nfds = <value optimized out>
+	fds = (GPollFD *) 0xa236e0
+	__PRETTY_FUNCTION__ = "g_main_context_iterate"
+#5  0x00002b6c15d2d5ea in IA__g_main_loop_run (loop=0xa236c0) at /build/buildd/glib2.0-2.14.1/glib/gmain.c:2898
+	got_ownership = <value optimized out>
+	self = (GThread *) 0x636540
+	__PRETTY_FUNCTION__ = "IA__g_main_loop_run"
+#6  0x00002b6c13c9a883 in IA__gtk_main () at /build/buildd/gtk+2.0-2.12.0/gtk/gtkmain.c:1144
+	tmp_list = (GList *) 0x94be80
+	functions = (GList *) 0x0
+	init = (GtkInitFunction *) 0x6c81f0
+	loop = (GMainLoop *) 0xa236c0
+#7  0x000000000041778d in main (argc=1, argv=0x7fff9887f568) at appearance-main.c:191
+	data = <value optimized out>
+	program = (GnomeProgram *) 0x935680
+	w = (GtkWidget *) 0x6c81f0
+	install_filename = (gchar *) 0x0
+	start_page = (gchar *) 0x0
+	wallpaper_files = (gchar **) 0x0
+	option_context = <value optimized out>
+	option_entries = {{long_name = 0x42caca "install-theme", short_name = 105 'i', flags = 2, 
+    arg = G_OPTION_ARG_FILENAME, arg_data = 0x7fff9887f458, 
+    description = 0x42cb90 "Specify the filename of a theme to install", arg_description = 0x42cad8 "filename"}, {
+    long_name = 0x42cae1 "show-page", short_name = 112 'p', flags = 2, arg = G_OPTION_ARG_STRING, 
+    arg_data = 0x7fff9887f450, 
+    description = 0x42cbc0 "Specify the name of the page to show (theme|background|fonts|interface)", 
+    arg_description = 0x42cae6 "page"}, {long_name = 0x42bf35 "", short_name = 0 '\0', flags = 2, 
+    arg = G_OPTION_ARG_FILENAME_ARRAY, arg_data = 0x7fff9887f448, description = 0x0, 
+    arg_description = 0x42caeb "[WALLPAPER...]"}, {long_name = 0x0, short_name = 0 '\0', flags = 0, 
+    arg = G_OPTION_ARG_NONE, arg_data = 0x0, description = 0x0, arg_description = 0x0}}

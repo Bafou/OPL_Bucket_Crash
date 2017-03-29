@@ -1,0 +1,52 @@
+#0  0x00007f81b7ab1ee9 in QMetaObject::changeGuard(QObject**, QObject*) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#1  0x00007f81b55ac0e6 in Application::setBamfApplication(BamfApplication*) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#2  0x00007f81b55b0d38 in ApplicationsList::insertBamfApplication(BamfApplication*) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#3  0x00007f81b7aaf8f1 in QMetaObject::activate(QObject*, QMetaObject const*, int, void**) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#4  0x00007f81b5b7e672 in BamfMatcher::ViewOpened(BamfView*) () from /usr/lib/libQtBamf.so.1
+No symbol table info available.
+#5  0x00007f81b5b72136 in BamfMatcher::OnViewOpened(QString const&, QString const&) () from /usr/lib/libQtBamf.so.1
+No symbol table info available.
+#6  0x00007f81b5b7e7e8 in BamfMatcher::qt_metacall(QMetaObject::Call, int, void**) () from /usr/lib/libQtBamf.so.1
+No symbol table info available.
+#7  0x00007f81b7aafaf9 in QMetaObject::activate(QObject*, QMetaObject const*, int, void**) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#8  0x00007f81b5b7e9ea in ?? () from /usr/lib/libQtBamf.so.1
+No symbol table info available.
+#9  0x00007f81b5b7ed68 in ?? () from /usr/lib/libQtBamf.so.1
+No symbol table info available.
+#10 0x00007f81b69f937b in ?? () from /usr/lib/x86_64-linux-gnu/libQtDBus.so.4
+No symbol table info available.
+#11 0x00007f81b7ab4ab6 in QObject::event(QEvent*) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#12 0x00007f81b6e1e6b4 in QApplicationPrivate::notify_helper(QObject*, QEvent*) () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#13 0x00007f81b6e23533 in QApplication::notify(QObject*, QEvent*) () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#14 0x00007f81b7a9b50c in QCoreApplication::notifyInternal(QObject*, QEvent*) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#15 0x00007f81b7a9f2da in QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#16 0x00007f81b7aca603 in ?? () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#17 0x00007f81b415ad8a in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#18 0x00007f81b415b150 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#19 0x00007f81b415b214 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#20 0x00007f81b7acaa2f in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#21 0x00007f81b6ec6b1e in ?? () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#22 0x00007f81b7a9a2f2 in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#23 0x00007f81b7a9a547 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#24 0x00007f81b7a9f5d7 in QCoreApplication::exec() () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#25 0x000000000040b55d in main ()
+No symbol table info available.

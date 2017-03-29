@@ -1,0 +1,26 @@
+#0  0x00007f82408a5f40 in g_type_check_instance_is_a () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#1  0x00007f824122b196 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#2  0x00007f824122d244 in g_dbus_proxy_call () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#3  0x00007f823120c9f3 in unity::indicator::DBusIndicators::Impl::RequestSyncAll() () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#4  0x00007f823120d38f in unity::indicator::DBusIndicators::Impl::OnRemoteProxyReady(_GDBusProxy*) () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#5  0x00007f823120d93e in ?? () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#6  0x00007f82411d6c17 in g_simple_async_result_complete () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#7  0x00007f82411d6d29 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#8  0x00007f8243c22a5d in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0x00007f8243c23258 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0x00007f8243c23792 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0x000000000042c836 in CompScreen::eventLoop() ()
+No symbol table info available.
+#12 0x000000000042022a in main ()
+No symbol table info available.

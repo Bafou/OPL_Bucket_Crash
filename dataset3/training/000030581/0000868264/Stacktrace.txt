@@ -1,0 +1,24 @@
+#0  0x00007f72343f63a5 in raise () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00007f72343f9b0b in abort () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x00007f723687f3db in ?? () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#3  0x00007f72363f834e in qt_message_output(QtMsgType, char const*) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#4  0x00007f72363f87ef in ?? () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#5  0x00007f72363f8994 in qFatal(char const*, ...) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#6  0x00007f7234c82dbc in QConfSchema::QConfSchema(QString const&) () from /usr/lib/libdconf-qt.so.0
+No symbol table info available.
+#7  0x00007f7234c82e95 in QConfSchema::getSchema(QString const&) () from /usr/lib/libdconf-qt.so.0
+No symbol table info available.
+#8  0x00007f7234c81405 in QConf::setSchema(QString const&) () from /usr/lib/libdconf-qt.so.0
+No symbol table info available.
+#9  0x00007f7234c81d5a in QConf::QConf(QString const&) () from /usr/lib/libdconf-qt.so.0
+No symbol table info available.
+#10 0x000000000040a20f in VisibilityController::VisibilityController(Unity2dPanel*) ()
+No symbol table info available.
+#11 0x0000000000408e1b in main ()
+No symbol table info available.

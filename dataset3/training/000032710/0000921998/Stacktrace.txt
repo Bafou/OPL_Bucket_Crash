@@ -1,0 +1,30 @@
+#0  0xb77b2090 in indicator_object_get_entries () from /usr/lib/libindicator3.so.7
+No symbol table info available.
+#1  0x08053a47 in ?? ()
+No symbol table info available.
+#2  0xb7015759 in g_object_newv () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#3  0xb7015fa3 in g_object_new_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#4  0xb7016200 in g_object_new () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x0805316b in ?? ()
+No symbol table info available.
+#6  0x08053df8 in ?? ()
+No symbol table info available.
+#7  0x0805ae58 in ?? ()
+No symbol table info available.
+#8  0x0805c600 in ?? ()
+No symbol table info available.
+#9  0x080565dd in ?? ()
+No symbol table info available.
+#10 0x080571e0 in ?? ()
+No symbol table info available.
+#11 0x08057f34 in ?? ()
+No symbol table info available.
+#12 0x0804e0d0 in ?? ()
+No symbol table info available.
+#13 0xb6cad113 in __libc_start_main () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#14 0x0804e0f5 in ?? ()
+No symbol table info available.

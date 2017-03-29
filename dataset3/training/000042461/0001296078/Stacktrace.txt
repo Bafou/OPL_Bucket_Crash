@@ -1,0 +1,56 @@
+#0  0x0973bff8 in ?? ()
+No symbol table info available.
+#1  0xb1637f30 in unity::MultiActionList::InitiateAll(std::vector<CompOption, std::allocator<CompOption> > const&, int) const () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0xb1638b58 in unity::PluginAdapter::InitiateScale(std::string const&, int) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0xb1638e4e in unity::PluginAdapter::ScaleWindowGroup(std::vector<unsigned long, std::allocator<unsigned long> > const&, int, bool) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0xb1521cb5 in unity::launcher::ApplicationLauncherIcon::Spread(bool, int, bool) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#5  0xb1521eab in unity::launcher::ApplicationLauncherIcon::ActivateLauncherIcon(unity::launcher::ActionArg) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#6  0xb14e7def in unity::launcher::LauncherIcon::Activate(unity::launcher::ActionArg) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#7  0xb14e7074 in unity::launcher::LauncherIcon::RecvMouseClick(int, int, unsigned long) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#8  0xb14ef4e4 in sigc::internal::slot_call3<sigc::bound_mem_functor3<void, unity::launcher::LauncherIcon, int, int, unsigned long>, void, int, int, unsigned long>::call_it(sigc::internal::slot_rep*, int const&, int const&, unsigned long const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#9  0xb14cf839 in sigc::internal::signal_emit3<void, int, int, unsigned long, sigc::nil>::emit(sigc::internal::signal_impl*, int const&, int const&, unsigned long const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#10 0xb14c8342 in unity::launcher::Launcher::MouseUpLogic(int, int, unsigned long, unsigned long) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#11 0xb14c87de in unity::launcher::Launcher::RecvMouseUp(int, int, unsigned long, unsigned long) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#12 0xb14cd896 in sigc::internal::slot_call4<sigc::bound_mem_functor4<void, unity::launcher::Launcher, int, int, unsigned long, unsigned long>, void, int, int, unsigned long, unsigned long>::call_it(sigc::internal::slot_rep*, int const&, int const&, unsigned long const&, unsigned long const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#13 0xb0a62e79 in nux::InputArea::EmitMouseUpSignal(int, int, unsigned long, unsigned long) () from /usr/lib/i386-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#14 0xb0a99a08 in nux::WindowCompositor::UpdateMouseOwner(nux::Event const&, bool) () from /usr/lib/i386-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#15 0xb0a9a799 in nux::WindowCompositor::MouseEventCycle(nux::Event&) () from /usr/lib/i386-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#16 0xb0a9b784 in nux::WindowCompositor::ProcessEvent(nux::Event&) () from /usr/lib/i386-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#17 0xb0aa03c2 in nux::WindowThread::DoProcessEvent(nux::Event&) () from /usr/lib/i386-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#18 0xb0aa0a10 in nux::WindowThread::ProcessEvent(nux::Event&) () from /usr/lib/i386-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#19 0xb0a6f858 in nux::nux_event_dispatch(_GSource*, int (*)(void*), void*) () from /usr/lib/i386-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#20 0xb71840a7 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#21 0xb7184468 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#22 0xb718476b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#23 0xb7294aa3 in Glib::MainLoop::run() () from /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#24 0xb7734858 in compiz::private_screen::EventManager::startEventLoop(_XDisplay*) () from /usr/lib/libcompiz_core.so.ABI-20140123
+No symbol table info available.
+#25 0xb77348be in CompScreenImpl::eventLoop() () from /usr/lib/libcompiz_core.so.ABI-20140123
+No symbol table info available.
+#26 0x08049b52 in CompManager::run() ()
+No symbol table info available.
+#27 0x0804930c in main ()
+No symbol table info available.

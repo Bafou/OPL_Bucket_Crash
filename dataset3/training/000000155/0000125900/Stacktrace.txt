@@ -1,0 +1,6 @@
+#0  0x0000000000417fde in gnome_wp_item_new (filename=0x0, wallpapers=0x902c20, thumbnails=<value optimized out>) at gnome-wp-item.c:82
+	item = (GnomeWPItem *) 0x90a800
+	color1 = {pixel = 6831120, red = 0, green = 0, blue = 25808}
+	color2 = {pixel = 9503440, red = 0, green = 0, blue = 720}
+	client = (GConfClient *) 0x67e7d0
+#1  0x0000000000000000 in ?? ()

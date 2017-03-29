@@ -1,0 +1,6 @@
+#0  0x08061bd9 in cursor_size_scale_value_changed_cb (range=Cannot access memory at address 0xbfc196c0
+)
+    at appearance-style.c:474
+	theme = (GnomeThemeCursorInfo *) 0xa05a5f0
+	name = <value optimized out>
+Cannot access memory at address 0xbfc196bc

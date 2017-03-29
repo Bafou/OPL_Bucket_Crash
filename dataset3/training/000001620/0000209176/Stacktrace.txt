@@ -1,0 +1,16 @@
+#0  0xb7c4873f in ?? () from /usr/lib/libmetacity-private.so.0
+#1  0xffffffff in ?? ()
+#2  0xb7f9fff4 in ?? () from /lib/ld-linux.so.2
+#3  0xb781dcb0 in ?? () from /usr/lib/libgdk_pixbuf-2.0.so.0
+#4  0xb7c48a0f in meta_theme_get_frame_style ()
+   from /usr/lib/libmetacity-private.so.0
+#5  0xb7c3abe9 in meta_preview_get_clip_region ()
+   from /usr/lib/libmetacity-private.so.0
+#6  0x0806fd59 in ?? ()
+#7  0x081a7830 in ?? ()
+#8  0x00000080 in ?? ()
+#9  0x00000080 in ?? ()
+#10 0x0000004b in ?? ()
+#11 0x00000030 in ?? ()
+#12 0x00000030 in ?? ()
+#13 0x00000000 in ?? ()

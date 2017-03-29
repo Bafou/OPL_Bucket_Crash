@@ -1,0 +1,22 @@
+#0  0xb36e61a3 in unity::switcher::SwitcherController::~SwitcherController() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0xb36e6332 in unity::switcher::SwitcherController::~SwitcherController() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0xb371130a in UnityScreen::~UnityScreen() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0xb37119a2 in UnityScreen::~UnityScreen() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0xb37204e7 in CompPlugin::VTableForScreenAndWindow<UnityScreen, UnityWindow>::finiScreen(CompScreen*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#5  0x08099572 in CompManager::finiPlugin(CompPlugin*) ()
+No symbol table info available.
+#6  0x0809af61 in CompPlugin::pop() ()
+No symbol table info available.
+#7  0x0806c12d in CompScreen::~CompScreen() ()
+No symbol table info available.
+#8  0x0806c370 in CompScreen::~CompScreen() ()
+No symbol table info available.
+#9  0x0806740b in CompManager::fini() ()
+No symbol table info available.
+#10 0x08063a1c in main ()
+No symbol table info available.

@@ -1,0 +1,2897 @@
+#0  0xb54c388f in ?? () from /usr/lib/libQtGui.so.4
+#1  0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#2  0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#3  0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#4  0xb54d6aa8 in QCleanlooksStyle::drawControl () from /usr/lib/libQtGui.so.4
+#5  0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#6  0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#7  0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#8  0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#9  0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#10 0xb79ae30e in IA__gtk_paint_box (style=0xbf00a918, window=0x996c678, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#11 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#12 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#13 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#14 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#15 0xb54d6aa8 in QCleanlooksStyle::drawControl () from /usr/lib/libQtGui.so.4
+#16 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#17 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#18 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#19 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#20 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#21 0xb79ae30e in IA__gtk_paint_box (style=0xbf00e388, window=0x996c660, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#22 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#23 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#24 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#25 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#26 0xb54d6aa8 in QCleanlooksStyle::drawControl () from /usr/lib/libQtGui.so.4
+#27 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#28 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#29 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#30 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#31 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#32 0xb79ae30e in IA__gtk_paint_box (style=0xbf011df8, window=0x996c648, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#33 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#34 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#35 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#36 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#37 0xb54d6aa8 in QCleanlooksStyle::drawControl () from /usr/lib/libQtGui.so.4
+#38 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#39 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#40 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#41 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#42 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#43 0xb79ae30e in IA__gtk_paint_box (style=0xbf015868, window=0x996c630, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#44 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#45 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#46 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#47 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#48 0xb54d6aa8 in QCleanlooksStyle::drawControl () from /usr/lib/libQtGui.so.4
+#49 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#50 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#51 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#52 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#53 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#54 0xb79ae30e in IA__gtk_paint_box (style=0xbf0192d8, window=0x996c618, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#55 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#56 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#57 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#58 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#59 0xb54d6aa8 in QCleanlooksStyle::drawControl () from /usr/lib/libQtGui.so.4
+#60 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#61 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#62 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#63 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#64 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#65 0xb79ae30e in IA__gtk_paint_box (style=0xbf01cd48, window=0x996c600, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#66 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#67 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#68 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#69 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#70 0xb54d6aa8 in QCleanlooksStyle::drawControl () from /usr/lib/libQtGui.so.4
+#71 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#72 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#73 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#74 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#75 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#76 0xb79ae30e in IA__gtk_paint_box (style=0xbf0207b8, window=0x996c5c8, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#77 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#78 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#79 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#80 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#81 0xb54d6aa8 in QCleanlooksStyle::drawControl () from /usr/lib/libQtGui.so.4
+#82 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#83 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#84 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#85 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#86 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#87 0xb79ae30e in IA__gtk_paint_box (style=0xbf024228, window=0x996c5b0, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#88 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#89 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#90 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#91 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#92 0xb54d6aa8 in QCleanlooksStyle::drawControl () from /usr/lib/libQtGui.so.4
+#93 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#94 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#95 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#96 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#97 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#98 0xb79ae30e in IA__gtk_paint_box (style=0xbf027c98, window=0x996c598, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#99 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#100 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#101 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#102 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#103 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#104 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#105 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#106 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#107 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#108 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#109 0xb79ae30e in IA__gtk_paint_box (style=0xbf02b708, window=0x996c580, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#110 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#111 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#112 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#113 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#114 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#115 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#116 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#117 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#118 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#119 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#120 0xb79ae30e in IA__gtk_paint_box (style=0xbf02f178, window=0x996c568, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#121 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#122 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#123 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#124 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#125 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#126 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#127 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#128 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#129 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#130 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#131 0xb79ae30e in IA__gtk_paint_box (style=0xbf032be8, window=0x996c550, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#132 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#133 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#134 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#135 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#136 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#137 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#138 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#139 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#140 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#141 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#142 0xb79ae30e in IA__gtk_paint_box (style=0xbf036658, window=0x996c538, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#143 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#144 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#145 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#146 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#147 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#148 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#149 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#150 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#151 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#152 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#153 0xb79ae30e in IA__gtk_paint_box (style=0xbf03a0c8, window=0x996c520, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#154 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#155 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#156 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#157 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#158 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#159 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#160 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#161 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#162 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#163 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#164 0xb79ae30e in IA__gtk_paint_box (style=0xbf03db38, window=0x996c508, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#165 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#166 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#167 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#168 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#169 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#170 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#171 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#172 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#173 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#174 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#175 0xb79ae30e in IA__gtk_paint_box (style=0xbf0415a8, window=0x996c4c0, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#176 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#177 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#178 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#179 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#180 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#181 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#182 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#183 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#184 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#185 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#186 0xb79ae30e in IA__gtk_paint_box (style=0xbf045018, window=0x996c4a8, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#187 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#188 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#189 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#190 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#191 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#192 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#193 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#194 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#195 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#196 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#197 0xb79ae30e in IA__gtk_paint_box (style=0xbf048a88, window=0x996c490, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#198 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#199 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#200 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#201 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#202 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#203 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#204 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#205 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#206 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#207 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#208 0xb79ae30e in IA__gtk_paint_box (style=0xbf04c4f8, window=0x996c478, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#209 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#210 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#211 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#212 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#213 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#214 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#215 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#216 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#217 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#218 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#219 0xb79ae30e in IA__gtk_paint_box (style=0xbf04ff68, window=0x996c460, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#220 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#221 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#222 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#223 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#224 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#225 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#226 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#227 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#228 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#229 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#230 0xb79ae30e in IA__gtk_paint_box (style=0xbf0539d8, window=0x996c448, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#231 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#232 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#233 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#234 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#235 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#236 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#237 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#238 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#239 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#240 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#241 0xb79ae30e in IA__gtk_paint_box (style=0xbf057448, window=0x996c430, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#242 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#243 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#244 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#245 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#246 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#247 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#248 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#249 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#250 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#251 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#252 0xb79ae30e in IA__gtk_paint_box (style=0xbf05aeb8, window=0x996c418, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#253 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#254 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#255 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#256 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#257 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#258 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#259 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#260 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#261 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#262 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#263 0xb79ae30e in IA__gtk_paint_box (style=0xbf05e928, window=0x996c400, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#264 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#265 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#266 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#267 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#268 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#269 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#270 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#271 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#272 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#273 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#274 0xb79ae30e in IA__gtk_paint_box (style=0xbf062398, window=0x996c3c8, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#275 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#276 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#277 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#278 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#279 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#280 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#281 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#282 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#283 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#284 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#285 0xb79ae30e in IA__gtk_paint_box (style=0xbf065e08, window=0x996c3b0, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#286 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#287 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#288 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#289 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#290 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#291 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#292 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#293 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#294 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#295 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#296 0xb79ae30e in IA__gtk_paint_box (style=0xbf069878, window=0x996c398, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#297 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#298 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#299 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#300 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#301 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#302 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#303 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#304 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#305 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#306 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#307 0xb79ae30e in IA__gtk_paint_box (style=0xbf06d2e8, window=0x996c380, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#308 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#309 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#310 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#311 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#312 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#313 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#314 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#315 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#316 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#317 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#318 0xb79ae30e in IA__gtk_paint_box (style=0xbf070d58, window=0x996c368, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#319 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#320 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#321 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#322 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#323 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#324 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#325 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#326 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#327 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#328 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#329 0xb79ae30e in IA__gtk_paint_box (style=0xbf0747c8, window=0x996c350, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#330 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#331 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#332 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#333 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#334 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#335 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#336 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#337 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#338 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#339 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#340 0xb79ae30e in IA__gtk_paint_box (style=0xbf078238, window=0x996c338, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#341 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#342 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#343 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#344 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#345 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#346 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#347 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#348 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#349 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#350 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#351 0xb79ae30e in IA__gtk_paint_box (style=0xbf07bca8, window=0x996c320, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#352 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#353 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#354 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#355 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#356 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#357 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#358 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#359 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#360 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#361 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#362 0xb79ae30e in IA__gtk_paint_box (style=0xbf07f718, window=0x996c308, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#363 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#364 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#365 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#366 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#367 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#368 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#369 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#370 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#371 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#372 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#373 0xb79ae30e in IA__gtk_paint_box (style=0xbf083188, window=0x996c2c0, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#374 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#375 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#376 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#377 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#378 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#379 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#380 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#381 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#382 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#383 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#384 0xb79ae30e in IA__gtk_paint_box (style=0xbf086bf8, window=0x996c2a8, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#385 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#386 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#387 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#388 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#389 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#390 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#391 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#392 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#393 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#394 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#395 0xb79ae30e in IA__gtk_paint_box (style=0xbf08a668, window=0x996c290, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#396 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#397 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#398 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#399 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#400 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#401 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#402 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#403 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#404 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#405 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#406 0xb79ae30e in IA__gtk_paint_box (style=0xbf08e0d8, window=0x996c278, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#407 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#408 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#409 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#410 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#411 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#412 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#413 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#414 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#415 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#416 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#417 0xb79ae30e in IA__gtk_paint_box (style=0xbf091b48, window=0x996c260, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#418 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#419 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#420 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#421 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#422 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#423 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#424 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#425 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#426 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#427 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#428 0xb79ae30e in IA__gtk_paint_box (style=0xbf0955b8, window=0x996c248, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#429 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#430 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#431 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#432 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#433 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#434 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#435 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#436 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#437 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#438 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#439 0xb79ae30e in IA__gtk_paint_box (style=0xbf099028, window=0x996c230, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#440 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#441 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#442 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#443 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#444 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#445 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#446 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#447 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#448 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#449 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#450 0xb79ae30e in IA__gtk_paint_box (style=0xbf09ca98, window=0x996c218, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#451 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#452 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#453 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#454 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#455 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#456 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#457 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#458 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#459 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#460 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#461 0xb79ae30e in IA__gtk_paint_box (style=0xbf0a0508, window=0x996c200, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#462 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#463 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#464 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#465 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#466 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#467 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#468 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#469 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#470 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#471 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#472 0xb79ae30e in IA__gtk_paint_box (style=0xbf0a3f78, window=0x991f6c0, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#473 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#474 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#475 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#476 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#477 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#478 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#479 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#480 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#481 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#482 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#483 0xb79ae30e in IA__gtk_paint_box (style=0xbf0a79e8, window=0x991f6a8, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#484 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#485 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#486 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#487 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#488 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#489 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#490 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#491 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#492 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#493 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#494 0xb79ae30e in IA__gtk_paint_box (style=0xbf0ab458, window=0x991f690, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#495 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#496 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#497 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#498 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#499 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#500 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#501 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#502 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#503 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#504 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#505 0xb79ae30e in IA__gtk_paint_box (style=0xbf0aeec8, window=0x991f678, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#506 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#507 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#508 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#509 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#510 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#511 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#512 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#513 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#514 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#515 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#516 0xb79ae30e in IA__gtk_paint_box (style=0xbf0b2938, window=0x991f660, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#517 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#518 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#519 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#520 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#521 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#522 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#523 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#524 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#525 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#526 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#527 0xb79ae30e in IA__gtk_paint_box (style=0xbf0b63a8, window=0x991f648, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#528 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#529 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#530 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#531 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#532 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#533 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#534 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#535 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#536 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#537 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#538 0xb79ae30e in IA__gtk_paint_box (style=0xbf0b9e18, window=0x991f630, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#539 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#540 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#541 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#542 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#543 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#544 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#545 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#546 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#547 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#548 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#549 0xb79ae30e in IA__gtk_paint_box (style=0xbf0bd888, window=0x991f618, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#550 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#551 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#552 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#553 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#554 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#555 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#556 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#557 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#558 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#559 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#560 0xb79ae30e in IA__gtk_paint_box (style=0xbf0c12f8, window=0x991f600, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#561 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#562 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#563 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#564 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#565 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#566 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#567 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#568 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#569 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#570 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#571 0xb79ae30e in IA__gtk_paint_box (style=0xbf0c4d68, window=0x991f5c8, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#572 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#573 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#574 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#575 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#576 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#577 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#578 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#579 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#580 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#581 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#582 0xb79ae30e in IA__gtk_paint_box (style=0xbf0c87d8, window=0x991f5b0, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#583 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#584 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#585 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#586 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#587 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#588 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#589 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#590 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#591 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#592 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#593 0xb79ae30e in IA__gtk_paint_box (style=0xbf0cc248, window=0x991f598, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#594 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#595 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#596 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#597 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#598 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#599 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#600 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#601 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#602 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#603 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#604 0xb79ae30e in IA__gtk_paint_box (style=0xbf0cfcb8, window=0x991f580, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#605 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#606 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#607 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#608 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#609 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#610 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#611 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#612 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#613 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#614 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#615 0xb79ae30e in IA__gtk_paint_box (style=0xbf0d3728, window=0x991f568, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#616 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#617 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#618 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#619 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#620 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#621 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#622 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#623 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#624 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#625 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#626 0xb79ae30e in IA__gtk_paint_box (style=0xbf0d7198, window=0x991f550, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#627 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#628 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#629 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#630 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#631 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#632 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#633 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#634 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#635 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#636 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#637 0xb79ae30e in IA__gtk_paint_box (style=0xbf0dac08, window=0x991f538, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#638 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#639 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#640 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#641 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#642 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#643 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#644 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#645 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#646 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#647 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#648 0xb79ae30e in IA__gtk_paint_box (style=0xbf0de678, window=0x991f520, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#649 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#650 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#651 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#652 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#653 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#654 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#655 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#656 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#657 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#658 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#659 0xb79ae30e in IA__gtk_paint_box (style=0xbf0e20e8, window=0x991f508, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#660 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#661 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#662 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#663 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#664 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#665 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#666 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#667 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#668 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#669 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#670 0xb79ae30e in IA__gtk_paint_box (style=0xbf0e5b58, window=0x991f4c0, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#671 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#672 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#673 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#674 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#675 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#676 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#677 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#678 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#679 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#680 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#681 0xb79ae30e in IA__gtk_paint_box (style=0xbf0e95c8, window=0x991f4a8, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#682 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#683 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#684 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#685 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#686 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#687 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#688 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#689 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#690 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#691 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#692 0xb79ae30e in IA__gtk_paint_box (style=0xbf0ed038, window=0x991f490, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#693 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#694 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#695 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#696 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#697 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#698 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#699 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#700 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#701 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#702 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#703 0xb79ae30e in IA__gtk_paint_box (style=0xbf0f0aa8, window=0x991f478, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#704 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#705 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#706 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#707 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#708 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#709 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#710 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#711 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#712 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#713 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#714 0xb79ae30e in IA__gtk_paint_box (style=0xbf0f4518, window=0x991f460, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#715 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#716 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#717 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#718 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#719 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#720 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#721 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#722 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#723 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#724 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#725 0xb79ae30e in IA__gtk_paint_box (style=0xbf0f7f88, window=0x991f448, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#726 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#727 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#728 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#729 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#730 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#731 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#732 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#733 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#734 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#735 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#736 0xb79ae30e in IA__gtk_paint_box (style=0xbf0fb9f8, window=0x991f430, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#737 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#738 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#739 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#740 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#741 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#742 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#743 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#744 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#745 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#746 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#747 0xb79ae30e in IA__gtk_paint_box (style=0xbf0ff468, window=0x991f418, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#748 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#749 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#750 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#751 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#752 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#753 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#754 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#755 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#756 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#757 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#758 0xb79ae30e in IA__gtk_paint_box (style=0xbf102ed8, window=0x991f400, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#759 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#760 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#761 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#762 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#763 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#764 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#765 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#766 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#767 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#768 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#769 0xb79ae30e in IA__gtk_paint_box (style=0xbf106948, window=0x991f3c8, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#770 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#771 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#772 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#773 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#774 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#775 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#776 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#777 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#778 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#779 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#780 0xb79ae30e in IA__gtk_paint_box (style=0xbf10a3b8, window=0x991f3b0, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#781 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#782 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#783 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#784 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#785 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#786 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#787 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#788 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#789 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#790 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#791 0xb79ae30e in IA__gtk_paint_box (style=0xbf10de28, window=0x991f398, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#792 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#793 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#794 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#795 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#796 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#797 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#798 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#799 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#800 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#801 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#802 0xb79ae30e in IA__gtk_paint_box (style=0xbf111898, window=0x991f380, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#803 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#804 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#805 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#806 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#807 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#808 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#809 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#810 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#811 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#812 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#813 0xb79ae30e in IA__gtk_paint_box (style=0xbf115308, window=0x991f368, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#814 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#815 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#816 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#817 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#818 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#819 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#820 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#821 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#822 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#823 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#824 0xb79ae30e in IA__gtk_paint_box (style=0xbf118d78, window=0x991f350, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#825 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#826 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#827 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#828 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#829 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#830 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#831 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#832 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#833 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#834 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#835 0xb79ae30e in IA__gtk_paint_box (style=0xbf11c7e8, window=0x991f338, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#836 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#837 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#838 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#839 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#840 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#841 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#842 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#843 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#844 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#845 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#846 0xb79ae30e in IA__gtk_paint_box (style=0xbf120258, window=0x991f320, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#847 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#848 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#849 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#850 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#851 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#852 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#853 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#854 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#855 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#856 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#857 0xb79ae30e in IA__gtk_paint_box (style=0xbf123cc8, window=0x991f308, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#858 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#859 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#860 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#861 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#862 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#863 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#864 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#865 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#866 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#867 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#868 0xb79ae30e in IA__gtk_paint_box (style=0xbf127738, window=0x991f2c0, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#869 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#870 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#871 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#872 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#873 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#874 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#875 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#876 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#877 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#878 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#879 0xb79ae30e in IA__gtk_paint_box (style=0xbf12b1a8, window=0x991f2a8, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#880 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#881 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#882 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#883 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#884 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#885 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#886 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#887 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#888 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#889 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#890 0xb79ae30e in IA__gtk_paint_box (style=0xbf12ec18, window=0x991f290, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#891 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#892 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#893 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#894 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#895 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#896 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#897 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#898 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#899 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#900 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#901 0xb79ae30e in IA__gtk_paint_box (style=0xbf132688, window=0x991f278, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#902 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#903 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#904 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#905 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#906 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#907 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#908 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#909 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#910 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#911 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#912 0xb79ae30e in IA__gtk_paint_box (style=0xbf1360f8, window=0x991f260, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#913 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#914 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#915 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#916 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#917 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#918 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#919 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#920 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#921 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#922 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#923 0xb79ae30e in IA__gtk_paint_box (style=0xbf139b68, window=0x991f248, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#924 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#925 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#926 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#927 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#928 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#929 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#930 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#931 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#932 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#933 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#934 0xb79ae30e in IA__gtk_paint_box (style=0xbf13d5d8, window=0x991f230, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#935 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#936 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#937 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#938 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#939 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#940 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#941 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#942 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#943 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#944 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#945 0xb79ae30e in IA__gtk_paint_box (style=0xbf141048, window=0x991f218, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#946 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#947 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#948 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#949 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#950 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#951 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#952 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#953 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#954 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#955 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#956 0xb79ae30e in IA__gtk_paint_box (style=0xbf144ab8, window=0x991f200, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#957 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#958 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#959 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#960 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#961 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#962 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#963 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#964 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#965 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#966 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#967 0xb79ae30e in IA__gtk_paint_box (style=0xbf148528, window=0x991f1c8, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#968 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#969 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#970 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#971 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#972 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#973 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#974 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#975 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#976 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#977 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#978 0xb79ae30e in IA__gtk_paint_box (style=0xbf14bf98, window=0x991f1b0, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#979 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#980 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#981 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#982 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#983 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#984 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#985 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#986 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#987 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#988 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#989 0xb79ae30e in IA__gtk_paint_box (style=0xbf14fa08, window=0x991f198, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#990 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#991 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#992 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#993 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#994 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#995 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#996 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#997 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#998 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#999 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1000 0xb79ae30e in IA__gtk_paint_box (style=0xbf153478, window=0x991f180, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1001 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1002 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1003 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1004 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1005 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1006 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1007 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1008 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1009 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1010 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1011 0xb79ae30e in IA__gtk_paint_box (style=0xbf156ee8, window=0x991f168, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1012 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1013 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1014 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1015 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1016 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1017 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1018 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1019 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1020 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1021 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1022 0xb79ae30e in IA__gtk_paint_box (style=0xbf15a958, window=0x991f150, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1023 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1024 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1025 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1026 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1027 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1028 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1029 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1030 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1031 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1032 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1033 0xb79ae30e in IA__gtk_paint_box (style=0xbf15e3c8, window=0x991f138, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1034 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1035 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1036 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1037 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1038 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1039 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1040 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1041 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1042 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1043 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1044 0xb79ae30e in IA__gtk_paint_box (style=0xbf161e38, window=0x991f120, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1045 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1046 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1047 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1048 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1049 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1050 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1051 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1052 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1053 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1054 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1055 0xb79ae30e in IA__gtk_paint_box (style=0xbf1658a8, window=0x991f108, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1056 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1057 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1058 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1059 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1060 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1061 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1062 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1063 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1064 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1065 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1066 0xb79ae30e in IA__gtk_paint_box (style=0xbf169318, window=0x98d1cc8, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1067 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1068 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1069 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1070 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1071 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1072 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1073 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1074 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1075 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1076 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1077 0xb79ae30e in IA__gtk_paint_box (style=0xbf16cd88, window=0x98d1cb0, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1078 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1079 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1080 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1081 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1082 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1083 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1084 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1085 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1086 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1087 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1088 0xb79ae30e in IA__gtk_paint_box (style=0xbf1707f8, window=0x98d1c98, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1089 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1090 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1091 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1092 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1093 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1094 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1095 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1096 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1097 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1098 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1099 0xb79ae30e in IA__gtk_paint_box (style=0xbf174268, window=0x98d1c80, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1100 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1101 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1102 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1103 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1104 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1105 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1106 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1107 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1108 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1109 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1110 0xb79ae30e in IA__gtk_paint_box (style=0xbf177cd8, window=0x98d1c68, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1111 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1112 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1113 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1114 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1115 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1116 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1117 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1118 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1119 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1120 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1121 0xb79ae30e in IA__gtk_paint_box (style=0xbf17b748, window=0x98d1c50, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1122 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1123 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1124 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1125 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1126 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1127 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1128 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1129 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1130 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1131 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1132 0xb79ae30e in IA__gtk_paint_box (style=0xbf17f1b8, window=0x98d1c38, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1133 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1134 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1135 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1136 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1137 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1138 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1139 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1140 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1141 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1142 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1143 0xb79ae30e in IA__gtk_paint_box (style=0xbf182c28, window=0x98d1c20, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1144 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1145 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1146 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1147 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1148 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1149 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1150 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1151 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1152 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1153 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1154 0xb79ae30e in IA__gtk_paint_box (style=0xbf186698, window=0x98d1c08, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1155 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1156 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1157 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1158 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1159 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1160 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1161 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1162 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1163 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1164 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1165 0xb79ae30e in IA__gtk_paint_box (style=0xbf18a108, window=0x98d1bc0, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1166 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1167 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1168 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1169 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1170 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1171 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1172 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1173 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1174 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1175 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1176 0xb79ae30e in IA__gtk_paint_box (style=0xbf18db78, window=0x98d1ba8, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1177 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1178 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1179 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1180 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1181 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1182 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1183 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1184 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1185 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1186 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1187 0xb79ae30e in IA__gtk_paint_box (style=0xbf1915e8, window=0x98d1b90, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1188 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1189 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1190 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1191 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1192 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1193 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1194 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1195 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1196 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1197 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1198 0xb79ae30e in IA__gtk_paint_box (style=0xbf195058, window=0x98d1b78, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1199 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1200 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1201 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1202 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1203 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1204 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1205 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1206 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1207 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1208 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1209 0xb79ae30e in IA__gtk_paint_box (style=0xbf198ac8, window=0x98d1b60, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1210 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1211 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1212 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1213 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1214 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1215 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1216 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1217 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1218 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1219 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1220 0xb79ae30e in IA__gtk_paint_box (style=0xbf19c538, window=0x98d1b48, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1221 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1222 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1223 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1224 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1225 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1226 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1227 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1228 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1229 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1230 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1231 0xb79ae30e in IA__gtk_paint_box (style=0xbf19ffa8, window=0x98d1b30, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1232 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1233 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1234 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1235 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1236 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1237 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1238 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1239 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1240 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1241 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1242 0xb79ae30e in IA__gtk_paint_box (style=0xbf1a3a18, window=0x98d1b18, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1243 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1244 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1245 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1246 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1247 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1248 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1249 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1250 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1251 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1252 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1253 0xb79ae30e in IA__gtk_paint_box (style=0xbf1a7488, window=0x98d1b00, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1254 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1255 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1256 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1257 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1258 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1259 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1260 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1261 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1262 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1263 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1264 0xb79ae30e in IA__gtk_paint_box (style=0xbf1aaef8, window=0x98d1ac8, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1265 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1266 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1267 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1268 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1269 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1270 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1271 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1272 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1273 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1274 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1275 0xb79ae30e in IA__gtk_paint_box (style=0xbf1ae968, window=0x98d1ab0, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1276 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1277 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1278 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1279 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1280 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1281 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1282 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1283 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1284 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1285 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1286 0xb79ae30e in IA__gtk_paint_box (style=0xbf1b23d8, window=0x98d1a98, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1287 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1288 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1289 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1290 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1291 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1292 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1293 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1294 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1295 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1296 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1297 0xb79ae30e in IA__gtk_paint_box (style=0xbf1b5e48, window=0x98d1a80, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1298 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1299 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1300 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1301 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1302 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1303 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1304 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1305 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1306 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1307 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1308 0xb79ae30e in IA__gtk_paint_box (style=0xbf1b98b8, window=0x98d1a68, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1309 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1310 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1311 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1312 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1313 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1314 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1315 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1316 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1317 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1318 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1319 0xb79ae30e in IA__gtk_paint_box (style=0xbf1bd328, window=0x98d1a50, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1320 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1321 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1322 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1323 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1324 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1325 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1326 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1327 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1328 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1329 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1330 0xb79ae30e in IA__gtk_paint_box (style=0xbf1c0d98, window=0x98d1a38, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1331 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1332 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1333 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1334 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1335 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1336 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1337 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1338 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1339 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1340 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1341 0xb79ae30e in IA__gtk_paint_box (style=0xbf1c4808, window=0x98d1a20, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1342 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1343 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1344 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1345 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1346 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1347 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1348 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1349 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1350 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1351 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1352 0xb79ae30e in IA__gtk_paint_box (style=0xbf1c8278, window=0x98d1a08, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1353 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1354 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1355 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1356 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1357 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1358 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1359 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1360 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1361 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1362 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1363 0xb79ae30e in IA__gtk_paint_box (style=0xbf1cbce8, window=0x98d19c0, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1364 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1365 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1366 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1367 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1368 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1369 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1370 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1371 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1372 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1373 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1374 0xb79ae30e in IA__gtk_paint_box (style=0xbf1cf758, window=0x98d19a8, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1375 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1376 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1377 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1378 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1379 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1380 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1381 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1382 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1383 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1384 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1385 0xb79ae30e in IA__gtk_paint_box (style=0xbf1d31c8, window=0x98d1990, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1386 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1387 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1388 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1389 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1390 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1391 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1392 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1393 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1394 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1395 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1396 0xb79ae30e in IA__gtk_paint_box (style=0xbf1d6c38, window=0x98d1978, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1397 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1398 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1399 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1400 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1401 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1402 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1403 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1404 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1405 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1406 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1407 0xb79ae30e in IA__gtk_paint_box (style=0xbf1da6a8, window=0x98d1960, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1408 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1409 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1410 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1411 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1412 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1413 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1414 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1415 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1416 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1417 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1418 0xb79ae30e in IA__gtk_paint_box (style=0xbf1de118, window=0x98d1948, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1419 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1420 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1421 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1422 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1423 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1424 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1425 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1426 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1427 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1428 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1429 0xb79ae30e in IA__gtk_paint_box (style=0xbf1e1b88, window=0x98d1930, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1430 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1431 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1432 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1433 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1434 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1435 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1436 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1437 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1438 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1439 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1440 0xb79ae30e in IA__gtk_paint_box (style=0xbf1e55f8, window=0x98d1918, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1441 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1442 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1443 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1444 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1445 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1446 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1447 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1448 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1449 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1450 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1451 0xb79ae30e in IA__gtk_paint_box (style=0xbf1e9068, window=0x98d1900, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1452 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1453 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1454 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1455 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1456 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1457 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1458 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1459 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1460 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1461 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1462 0xb79ae30e in IA__gtk_paint_box (style=0xbf1ecad8, window=0x98d18c8, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1463 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1464 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1465 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1466 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1467 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1468 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1469 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1470 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1471 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1472 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1473 0xb79ae30e in IA__gtk_paint_box (style=0xbf1f0548, window=0x98d18b0, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1474 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1475 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1476 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1477 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1478 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1479 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1480 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1481 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1482 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1483 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1484 0xb79ae30e in IA__gtk_paint_box (style=0xbf1f3fb8, window=0x98d1898, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1485 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1486 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1487 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1488 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1489 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1490 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1491 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1492 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1493 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1494 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1495 0xb79ae30e in IA__gtk_paint_box (style=0xbf1f7a28, window=0x98d1880, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1496 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1497 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1498 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1499 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1500 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1501 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1502 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1503 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1504 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1505 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1506 0xb79ae30e in IA__gtk_paint_box (style=0xbf1fb498, window=0x98d1868, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1507 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1508 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1509 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1510 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1511 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1512 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1513 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1514 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1515 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1516 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1517 0xb79ae30e in IA__gtk_paint_box (style=0xbf1fef08, window=0x98d1850, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1518 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1519 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1520 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1521 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1522 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1523 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1524 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1525 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1526 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1527 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1528 0xb79ae30e in IA__gtk_paint_box (style=0xbf202978, window=0x98d1838, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1529 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1530 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1531 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1532 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1533 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1534 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1535 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1536 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1537 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1538 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1539 0xb79ae30e in IA__gtk_paint_box (style=0xbf2063e8, window=0x98d1820, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1540 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1541 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1542 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1543 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1544 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1545 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1546 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1547 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1548 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1549 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1550 0xb79ae30e in IA__gtk_paint_box (style=0xbf209e58, window=0x98d1808, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1551 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1552 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1553 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1554 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1555 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1556 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1557 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1558 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1559 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1560 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1561 0xb79ae30e in IA__gtk_paint_box (style=0xbf20d8c8, window=0x9884ac0, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1562 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1563 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1564 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1565 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1566 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1567 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1568 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1569 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1570 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1571 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1572 0xb79ae30e in IA__gtk_paint_box (style=0xbf211338, window=0x9884aa8, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1573 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1574 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1575 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1576 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1577 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1578 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1579 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1580 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1581 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1582 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1583 0xb79ae30e in IA__gtk_paint_box (style=0xbf214da8, window=0x9884a90, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1584 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1585 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1586 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1587 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1588 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1589 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1590 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1591 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1592 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1593 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1594 0xb79ae30e in IA__gtk_paint_box (style=0xbf218818, window=0x9884a78, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1595 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1596 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1597 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1598 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1599 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1600 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1601 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1602 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1603 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1604 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1605 0xb79ae30e in IA__gtk_paint_box (style=0xbf21c288, window=0x9884a60, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1606 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1607 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1608 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1609 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1610 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1611 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1612 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1613 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1614 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1615 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1616 0xb79ae30e in IA__gtk_paint_box (style=0xbf21fcf8, window=0x9884a48, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1617 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1618 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1619 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1620 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1621 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1622 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1623 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1624 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1625 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1626 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1627 0xb79ae30e in IA__gtk_paint_box (style=0xbf223768, window=0x9884a30, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1628 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1629 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1630 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1631 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1632 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1633 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1634 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1635 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1636 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1637 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1638 0xb79ae30e in IA__gtk_paint_box (style=0xbf2271d8, window=0x9884a18, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1639 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1640 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1641 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1642 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1643 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1644 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1645 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1646 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1647 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1648 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1649 0xb79ae30e in IA__gtk_paint_box (style=0xbf22ac48, window=0x9884a00, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1650 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1651 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1652 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1653 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1654 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1655 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1656 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1657 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1658 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1659 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1660 0xb79ae30e in IA__gtk_paint_box (style=0xbf22e6b8, window=0x98849c8, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1661 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1662 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1663 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1664 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1665 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1666 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1667 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1668 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1669 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1670 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1671 0xb79ae30e in IA__gtk_paint_box (style=0xbf232128, window=0x98849b0, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1672 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1673 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1674 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1675 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1676 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1677 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1678 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1679 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1680 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1681 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1682 0xb79ae30e in IA__gtk_paint_box (style=0xbf235b98, window=0x9884998, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1683 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1684 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1685 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1686 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1687 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1688 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1689 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1690 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1691 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1692 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1693 0xb79ae30e in IA__gtk_paint_box (style=0xbf239608, window=0x9884980, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1694 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1695 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1696 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1697 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1698 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1699 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1700 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1701 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1702 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1703 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1704 0xb79ae30e in IA__gtk_paint_box (style=0xbf23d078, window=0x9884968, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1705 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1706 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1707 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1708 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1709 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1710 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1711 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1712 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1713 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1714 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1715 0xb79ae30e in IA__gtk_paint_box (style=0xbf240ae8, window=0x9884950, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1716 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1717 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1718 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1719 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1720 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1721 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1722 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1723 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1724 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1725 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1726 0xb79ae30e in IA__gtk_paint_box (style=0xbf244558, window=0x9884938, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1727 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1728 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1729 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1730 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1731 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1732 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1733 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1734 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1735 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1736 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1737 0xb79ae30e in IA__gtk_paint_box (style=0xbf247fc8, window=0x9884920, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1738 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1739 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1740 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1741 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1742 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1743 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1744 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1745 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1746 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1747 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1748 0xb79ae30e in IA__gtk_paint_box (style=0xbf24ba38, window=0x9884908, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1749 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1750 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1751 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1752 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1753 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1754 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1755 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1756 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1757 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1758 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1759 0xb79ae30e in IA__gtk_paint_box (style=0xbf24f4a8, window=0x98848c0, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1760 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1761 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1762 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1763 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1764 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1765 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1766 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1767 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1768 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1769 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1770 0xb79ae30e in IA__gtk_paint_box (style=0xbf252f18, window=0x98848a8, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1771 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1772 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1773 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1774 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1775 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1776 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1777 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1778 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1779 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1780 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1781 0xb79ae30e in IA__gtk_paint_box (style=0xbf256988, window=0x9884890, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1782 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1783 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1784 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1785 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1786 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1787 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1788 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1789 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1790 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1791 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1792 0xb79ae30e in IA__gtk_paint_box (style=0xbf25a3f8, window=0x9884878, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1793 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1794 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1795 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1796 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1797 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1798 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1799 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1800 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1801 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1802 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1803 0xb79ae30e in IA__gtk_paint_box (style=0xbf25de68, window=0x9884860, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1804 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1805 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1806 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1807 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1808 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1809 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1810 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1811 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1812 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1813 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1814 0xb79ae30e in IA__gtk_paint_box (style=0xbf2618d8, window=0x9884848, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1815 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1816 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1817 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1818 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1819 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1820 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1821 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1822 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1823 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1824 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1825 0xb79ae30e in IA__gtk_paint_box (style=0xbf265348, window=0x9884830, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1826 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1827 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1828 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1829 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1830 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1831 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1832 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1833 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1834 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1835 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1836 0xb79ae30e in IA__gtk_paint_box (style=0xbf268db8, window=0x9884818, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1837 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1838 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1839 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1840 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1841 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1842 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1843 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1844 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1845 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1846 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1847 0xb79ae30e in IA__gtk_paint_box (style=0xbf26c828, window=0x9884800, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1848 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1849 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1850 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1851 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1852 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1853 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1854 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1855 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1856 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1857 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1858 0xb79ae30e in IA__gtk_paint_box (style=0xbf270298, window=0x98847c8, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1859 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1860 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1861 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1862 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1863 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1864 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1865 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1866 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1867 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1868 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1869 0xb79ae30e in IA__gtk_paint_box (style=0xbf273d08, window=0x98847b0, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1870 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1871 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1872 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1873 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1874 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1875 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1876 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1877 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1878 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1879 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1880 0xb79ae30e in IA__gtk_paint_box (style=0xbf277778, window=0x9884798, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1881 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1882 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1883 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1884 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1885 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1886 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1887 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1888 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1889 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1890 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1891 0xb79ae30e in IA__gtk_paint_box (style=0xbf27b1e8, window=0x9884780, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1892 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1893 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1894 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1895 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1896 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1897 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1898 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1899 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1900 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1901 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1902 0xb79ae30e in IA__gtk_paint_box (style=0xbf27ec58, window=0x9884768, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1903 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1904 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1905 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1906 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1907 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1908 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1909 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1910 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1911 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1912 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1913 0xb79ae30e in IA__gtk_paint_box (style=0xbf2826c8, window=0x9884750, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1914 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1915 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1916 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1917 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1918 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1919 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1920 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1921 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1922 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1923 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1924 0xb79ae30e in IA__gtk_paint_box (style=0xbf286138, window=0x9884738, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1925 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1926 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1927 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1928 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1929 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1930 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1931 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1932 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1933 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1934 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1935 0xb79ae30e in IA__gtk_paint_box (style=0xbf289ba8, window=0x9884720, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1936 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1937 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1938 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1939 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1940 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1941 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1942 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1943 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1944 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1945 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1946 0xb79ae30e in IA__gtk_paint_box (style=0xbf28d618, window=0x9884708, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1947 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1948 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1949 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1950 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1951 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1952 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1953 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1954 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1955 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1956 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1957 0xb79ae30e in IA__gtk_paint_box (style=0xbf291088, window=0x98846c0, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1958 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1959 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1960 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1961 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1962 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1963 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1964 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1965 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1966 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1967 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1968 0xb79ae30e in IA__gtk_paint_box (style=0xbf294af8, window=0x98846a8, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1969 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1970 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1971 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1972 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1973 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1974 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1975 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1976 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1977 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1978 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1979 0xb79ae30e in IA__gtk_paint_box (style=0xbf298568, window=0x9884690, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1980 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1981 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1982 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1983 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1984 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1985 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1986 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1987 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1988 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1989 0xb5c1a0a0 in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1990 0xb79ae30e in IA__gtk_paint_box (style=0xbf29bfd8, window=0x9884678, 
+    state_type=GTK_STATE_NORMAL, shadow_type=GTK_SHADOW_OUT, area=0x0, 
+    widget=0x947e500, detail=0xb5805793 "button", x=0, y=0, width=59, 
+    height=34) at /build/buildd/gtk+2.0-2.15.5/gtk/gtkstyle.c:6090
+	__PRETTY_FUNCTION__ = "IA__gtk_paint_box"
+#1991 0xb54c3b49 in ?? () from /usr/lib/libQtGui.so.4
+#1992 0xb54b2c2e in QGtkStyle::drawPrimitive () from /usr/lib/libQtGui.so.4
+#1993 0xb543c9a5 in QCommonStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1994 0xb54ec746 in QWindowsStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1995 0xb54d6aa8 in QCleanlooksStyle::drawControl ()
+   from /usr/lib/libQtGui.so.4
+#1996 0xb54b4e76 in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1997 0xb54b62bd in QGtkStyle::drawControl () from /usr/lib/libQtGui.so.4
+#1998 0xb5c224fe in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so
+#1999 0xb5c1b66a in ?? () from /usr/lib/gtk-2.0/2.10.0/engines/libqt4engine.so

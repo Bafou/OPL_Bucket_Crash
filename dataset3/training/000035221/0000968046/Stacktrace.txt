@@ -1,0 +1,76 @@
+#0  0x00007fc48db82c2a in QDBusError::message() const () from /usr/lib/x86_64-linux-gnu/libQtDBus.so.4
+No symbol table info available.
+#1  0x00007fc48dbc6436 in QDBusPendingCall::fromError(QDBusError const&) () from /usr/lib/x86_64-linux-gnu/libQtDBus.so.4
+No symbol table info available.
+#2  0x00007fc48db9a4f5 in QDBusAbstractInterface::asyncCallWithArgumentList(QString const&, QList<QVariant> const&) () from /usr/lib/x86_64-linux-gnu/libQtDBus.so.4
+No symbol table info available.
+#3  0x00007fc48cd093b2 in BamfView::icon() const () from /usr/lib/libQtBamf.so.1
+No symbol table info available.
+#4  0x00007fc48c7283dd in WindowInfo::icon() const () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#5  0x00007fc48c7291c7 in WindowInfo::qt_metacall(QMetaObject::Call, int, void**) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#6  0x00007fc48d816538 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#7  0x00007fc48d8167cb in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#8  0x00007fc489521fd0 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#9  0x00007fc4893c61d5 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#10 0x00007fc4893f83cf in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#11 0x00007fc4403ce5bd in ?? ()
+No symbol table info available.
+#12 0x00007fc47400d250 in ?? ()
+No symbol table info available.
+#13 0x00007fc478838540 in ?? ()
+No symbol table info available.
+#14 0x00007fc478d4f798 in ?? ()
+No symbol table info available.
+#15 0x00007fc48d191164 in g_type_instance_get_private () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#16 0x00007fc4897a2d78 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#17 0x00007fc4788670a0 in ?? ()
+No symbol table info available.
+#18 0x00007fc4788670f8 in ?? ()
+No symbol table info available.
+#19 0x00007fc478c6a738 in ?? ()
+No symbol table info available.
+#20 0x00007fc4893b63a1 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#21 0x00007fc48944d557 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#22 0x00007fc4894229a2 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#23 0x00007fc4895056be in QScriptValue::call(QScriptValue const&, QList<QScriptValue> const&) () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#24 0x00007fc48d782dd5 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#25 0x00007fc48d783141 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#26 0x00007fc48d783449 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#27 0x00007fc48d784e25 in QDeclarativeBinding::update(QFlags<QDeclarativePropertyPrivate::WriteFlag>) () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#28 0x00007fc48d783d3b in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#29 0x00007fc48d782cbb in QDeclarativeExpression::qt_metacall(QMetaObject::Call, int, void**) () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#30 0x00007fc48d87efa0 in QDeclarativeBinding::qt_metacall(QMetaObject::Call, int, void**) () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#31 0x00007fc48ec41af9 in QMetaObject::activate(QObject*, QMetaObject const*, int, void**) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#32 0x00007fc48d87d381 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#33 0x00007fc48d8171b0 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#34 0x00007fc4895222c2 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#35 0x00007fc489401258 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#36 0x00007fc440038b4a in ?? ()
+No symbol table info available.
+#37 0x0000000000000000 in ?? ()
+No symbol table info available.

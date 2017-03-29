@@ -1,0 +1,30 @@
+#0  0x00007fb621b166d5 in g_logv () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007fb621b16a63 in g_log () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007fb6225c7f8f in ?? () from /usr/lib/libgdk-x11-2.0.so.0
+No symbol table info available.
+#3  0x00007fb6217d5027 in _XError () from /usr/lib/libX11.so.6
+No symbol table info available.
+#4  0x00007fb6217dc178 in _XReply () from /usr/lib/libX11.so.6
+No symbol table info available.
+#5  0x00007fb6217c9990 in XQueryPointer () from /usr/lib/libX11.so.6
+No symbol table info available.
+#6  0x0000000000403c64 in ?? ()
+No symbol table info available.
+#7  0x00007fb6225bd13e in ?? () from /usr/lib/libgdk-x11-2.0.so.0
+No symbol table info available.
+#8  0x00007fb6225bf698 in ?? () from /usr/lib/libgdk-x11-2.0.so.0
+No symbol table info available.
+#9  0x00007fb6225bf73e in ?? () from /usr/lib/libgdk-x11-2.0.so.0
+No symbol table info available.
+#10 0x00007fb621b0dadd in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#11 0x00007fb621b0e2c8 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#12 0x00007fb621b0e90a in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#13 0x00007fb62296a7c7 in gtk_main () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#14 0x00000000004030a8 in main ()
+No symbol table info available.

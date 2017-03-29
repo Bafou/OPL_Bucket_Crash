@@ -1,0 +1,30 @@
+#0  0x00007fb7e32c16ca in PluginClassHandler<unity::UnityWindow, CompWindow, 0>::getInstance(CompWindow*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0x00007fb7e32c1918 in PluginClassHandler<unity::UnityWindow, CompWindow, 0>::get(CompWindow*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x00007fb7e32b6385 in unity::UnityScreen::OnTerminateSpread() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x00007fb7e32b9eaa in sigc::internal::signal_emit0<void, sigc::nil>::emit(sigc::internal::signal_impl*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0x00007fb7e3456330 in unity::PluginAdapter::OnScreenUngrabbed() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#5  0x00007fb7e32b53a8 in unity::UnityScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#6  0x00007fb80186653d in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20130125
+No symbol table info available.
+#7  0x00007fb80186657b in CompScreenImpl::alwaysHandleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20130125
+No symbol table info available.
+#8  0x00007fb80183f442 in PrivateScreen::processEvents() () from /usr/lib/libcompiz_core.so.ABI-20130125
+No symbol table info available.
+#9  0x00007fb8018730b7 in CompEventSource::callback() () from /usr/lib/libcompiz_core.so.ABI-20130125
+No symbol table info available.
+#10 0x00007fb7ffd52f0f in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/x86_64-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#11 0x00007fb7ff853fe5 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#12 0x00007fb7ff854328 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0x00007fb7ff85479a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x000000000040195b in main ()
+No symbol table info available.

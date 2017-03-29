@@ -1,0 +1,32 @@
+#0  0x00007f95331bdf77 in __GI_raise (sig=sig@entry=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:56
+        resultvar = 0
+        pid = 1659
+        selftid = 1659
+#1  0x00007f95331c15e8 in __GI_abort () at abort.c:90
+        save_stage = 2
+        act = {__sigaction_handler = {sa_handler = 0x7fff1b427f7f, sa_sigaction = 0x7fff1b427f7f}, sa_mask = {__val = {140278785677316, 140278800268798, 65, 140277926854656, 140278784296913, 140277926854656, 140733650724128, 38856037168, 4, 140733650723856, 0, 0, 0, 140278785676659, 140278808326144, 140278785692760}}, sa_flags = 873412591, sa_restorer = 0x7f95340f38c0 <__PRETTY_FUNCTION__.8369>}
+        sigs = {__val = {32, 0 <repeats 15 times>}}
+#2  0x00007f95331b6d43 in __assert_fail_base (fmt=0x7f953330d458 "%s%s%s:%u: %s%sAssertion `%s' failed.\n%n", assertion=assertion@entry=0x7f95340f37ef "mutex->__data.__owner == 0", file=file@entry=0x7f95340f3dfe "pthread_mutex_lock.c", line=line@entry=65, function=function@entry=0x7f95340f38c0 <__PRETTY_FUNCTION__.8369> "__pthread_mutex_lock") at assert.c:92
+        str = 0x1071f80 "\360#\a\001"
+        total = 4096
+#3  0x00007f95331b6df2 in __GI___assert_fail (assertion=0x7f95340f37ef "mutex->__data.__owner == 0", file=0x7f95340f3dfe "pthread_mutex_lock.c", line=65, function=0x7f95340f38c0 <__PRETTY_FUNCTION__.8369> "__pthread_mutex_lock") at assert.c:101
+No locals.
+#4  0x00007f95340ebfe9 in __GI___pthread_mutex_lock (mutex=0xfefefefefefefeff) at pthread_mutex_lock.c:65
+        __PRETTY_FUNCTION__ = "__pthread_mutex_lock"
+        type = 0
+#5  0x00007f95343da590 in boost::asio::detail::epoll_reactor::deregister_descriptor(int, boost::asio::detail::epoll_reactor::descriptor_state*&, bool) () from /usr/lib/x86_64-linux-gnu/libmirserver.so.4
+No symbol table info available.
+#6  0x00007f95343f289e in boost::asio::detail::reactive_socket_service_base::do_assign(boost::asio::detail::reactive_socket_service_base::base_implementation_type&, int, int const&, boost::system::error_code&) () from /usr/lib/x86_64-linux-gnu/libmirserver.so.4
+No symbol table info available.
+#7  0x000000000041c580 in ?? ()
+No symbol table info available.
+#8  0x0000000000416a80 in mir::DefaultServerConfiguration::the_graphics_platform ()
+No symbol table info available.
+#9  0x00007f950c0009b0 in ?? ()
+No symbol table info available.
+#10 0x00007fff1b426680 in ?? ()
+No symbol table info available.
+#11 0x00007fff1b4267c0 in ?? ()
+No symbol table info available.
+#12 0x0000000000000000 in ?? ()
+No symbol table info available.

@@ -1,0 +1,51 @@
+#0  __libc_free (mem=0xaaaaaaaaaaaaaaaa) at malloc.c:3709
+        ar_ptr = <value optimized out>
+        p = <value optimized out>
+#1  0x00007f6b435f5a4d in ?? () from /usr/lib/libbamf.so.0
+No symbol table info available.
+#2  0x00007f6b506d676f in ?? () from /usr/lib/libdbus-glib-1.so.2
+No symbol table info available.
+#3  0x00007f6b5431b99e in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00007f6b5432dfb9 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007f6b543373b6 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00007f6b54337573 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00007f6b506d788e in ?? () from /usr/lib/libdbus-glib-1.so.2
+No symbol table info available.
+#8  0x00007f6b50492446 in dbus_connection_dispatch () from /lib/libdbus-1.so.3
+No symbol table info available.
+#9  0x00007f6b506cda45 in ?? () from /usr/lib/libdbus-glib-1.so.2
+No symbol table info available.
+#10 0x00007f6b5406538d in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#11 0x00007f6b54065b78 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#12 0x00007f6b540661ba in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#13 0x00007f6b558472b6 in bonobo_main () from /usr/lib/libbonobo-2.so.0
+No symbol table info available.
+#14 0x00007f6b55845692 in bonobo_generic_factory_main_timeout () from /usr/lib/libbonobo-2.so.0
+No symbol table info available.
+#15 0x00007f6b55a989bc in panel_applet_factory_main_closure () from /usr/lib/libpanel-applet-2.so.0
+No symbol table info available.
+#16 0x0000000000403645 in ?? ()
+No symbol table info available.
+#17 0x00007f6b53aa1d8e in __libc_start_main (main=<value optimized out>, argc=<value optimized out>, ubp_av=<value optimized out>, init=<value optimized out>, fini=<value optimized out>, rtld_fini=<value optimized out>, stack_end=0x7fff22fddab8) at libc-start.c:226
+        result = <value optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {0, 7843477721833762530, 4207680, 140733780449984, 0, 0, -7843048894111453470, -7922106372017787166}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x4064a0, 0x7fff22fddac8}, data = {prev = 0x0, cleanup = 0x0, canceltype = 4220064}}}
+        not_first_call = <value optimized out>
+#18 0x0000000000403469 in ?? ()
+No symbol table info available.
+#19 0x00007fff22fddab8 in ?? ()
+No symbol table info available.
+#20 0x000000000000001c in ?? ()
+No symbol table info available.
+#21 0x0000000000000003 in ?? ()
+No symbol table info available.
+#22 0x00007fff22fdea33 in ?? ()
+No symbol table info available.
+#23 0x0000000000000000 in ?? ()
+No symbol table info available.

@@ -1,0 +1,34 @@
+#0  strlen () at ../sysdeps/x86_64/strlen.S:106
+No locals.
+#1  0x00007fd17759f3de in g_variant_new_bytestring () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007fd152f5abe6 in g_mount_spec_to_dbus_with_path () from /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+No symbol table info available.
+#3  0x00007fd153192f54 in ?? () from /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+No symbol table info available.
+#4  0x00007fd153198549 in ?? () from /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+No symbol table info available.
+#5  0x00007fd153199657 in ?? () from /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+No symbol table info available.
+#6  0x00007fd16d5ce0ea in g_file_load_contents () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#7  0x00007fd15d2f2983 in unity::IconLoader::Impl::IconLoaderTask::LoaderJobFunc(_GTask*, void*, void*, _GCancellable*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#8  0x00007fd16d606575 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#9  0x00007fd1775922e8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0x00007fd177591955 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0x00007fd176efc0a5 in start_thread (arg=0x7fd1217fa700) at pthread_create.c:309
+        __res = <optimized out>
+        pd = 0x7fd1217fa700
+        now = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140536186906368, 4553307840360642415, 0, 0, 140536186907072, 140536186906368, -4570349174323513489, -4570462558432495761}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <optimized out>
+        pagesize_m1 = <optimized out>
+        sp = <optimized out>
+        freesize = <optimized out>
+        __PRETTY_FUNCTION__ = "start_thread"
+#12 0x00007fd178b2657d in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:111
+No locals.

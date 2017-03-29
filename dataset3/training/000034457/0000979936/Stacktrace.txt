@@ -1,0 +1,22 @@
+#0  0x00007ff55e1c44d3 in QDBusAbstractInterface::asyncCallWithArgumentList(QString const&, QList<QVariant> const&) () from /usr/lib/x86_64-linux-gnu/libQtDBus.so.4
+No symbol table info available.
+#1  0x00007ff55d3363b2 in BamfView::icon() const () from /usr/lib/libQtBamf.so.1
+No symbol table info available.
+#2  0x00007ff55cd553dd in WindowInfo::icon() const () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#3  0x00007ff55cd561c7 in WindowInfo::qt_metacall(QMetaObject::Call, int, void**) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#4  0x00007ff55de407c8 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#5  0x00007ff55de40a5b in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#6  0x00007ff559b4efe0 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#7  0x00007ff5599f31d5 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#8  0x00007ff559a253cf in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#9  0x00007ff4f0d244f5 in ?? ()
+No symbol table info available.
+#10 0x0000000000000000 in ?? ()
+No symbol table info available.

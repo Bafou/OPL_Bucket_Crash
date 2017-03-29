@@ -1,0 +1,117 @@
+#0  0xb73038c0 in ?? ()
+#1  0xb7c5e1b5 in ?? ()
+#2  0x080557a4 in peditor_tree_view_value_changed (client=0x85c0028, cnxn_id=0, entry=0x0, peditor=0x859b040)
+    at gconf-property-editor.c:1750
+	path = (GtkTreePath *) 0x81ac100
+	selection = (GtkTreeSelection *) 0x1ad97e0
+	value_wid = <value optimized out>
+	value = <value optimized out>
+#3  0x0805581f in peditor_select_radio_widget_changed (peditor=0x8389608, tb=0xb7fd741c)
+    at gconf-property-editor.c:994
+	group = <value optimized out>
+	value = <value optimized out>
+	value_wid = <value optimized out>
+#4  0x08053e84 in xkl_layout_chooser_add_default_switcher_if_necessary (layouts_list=0x8389608)
+    at gnome-keyboard-properties-xkbltadd.c:336
+No locals.
+#5  0x08054374 in xkb_options_load_options (dialog=0x859b040) at gnome-keyboard-properties-xkbot.c:348
+	opts_vbox = (GtkWidget *) 0x0
+	expanders_list = <value optimized out>
+#6  0xb7ab43e4 in ?? ()
+#7  0xb7aa6c53 in ?? ()
+#8  0xb7abd0c5 in ?? ()
+#9  0xb7abe7e4 in ?? ()
+#10 0xb7abec66 in ?? ()
+#11 0xb7cff599 in ?? ()
+#12 0xb7d00ecf in ?? ()
+#13 0xb7d00fce in ?? ()
+#14 0xb7ab43e4 in ?? ()
+#15 0xb7aa6c53 in ?? ()
+#16 0xb7abd0c5 in ?? ()
+#17 0xb7abe7e4 in ?? ()
+#18 0xb7abec66 in ?? ()
+#19 0xb7eac2e7 in ?? ()
+#20 0xb7d9eba0 in ?? ()
+#21 0xb7d9f79b in ?? ()
+#22 0xb7ab433c in ?? ()
+#23 0xb7aa53c9 in ?? ()
+#24 0xb7aa6c53 in ?? ()
+#25 0xb7abcd4d in ?? ()
+#26 0xb7cd2900 in ?? ()
+#27 0xb7cd2eac in ?? ()
+#28 0xb7cd311d in ?? ()
+#29 0xb7cd328e in ?? ()
+#30 0xb7cfe2b9 in ?? ()
+#31 0xb7d90c36 in ?? ()
+#32 0xb7aa6c53 in ?? ()
+#33 0xb7abd0c5 in ?? ()
+#34 0xb7abe65b in ?? ()
+#35 0xb7abec66 in ?? ()
+#36 0xb7ea61ee in ?? ()
+#37 0xb7d897c7 in ?? ()
+#38 0xb7d8aae7 in ?? ()
+#39 0xb7c0b82a in ?? ()
+#40 0xb7a1d6b1 in ?? ()
+#41 0xb7a20d53 in ?? ()
+#42 0xb7a21272 in ?? ()
+#43 0xb7d0e185 in ?? ()
+#44 0x080545c8 in xkb_options_add_group (config_registry=0xbfce82c8, config_item=0x0, dialog=0x0)
+    at gnome-keyboard-properties-xkbot.c:278
+	expander = (GtkWidget *) 0x8389608
+	align = <value optimized out>
+	vbox = (GtkWidget *) 0x0
+	expanders_list = <value optimized out>
+	utf_group_name = (
+    gchar *) 0x8054220 "U\211åWVS\203ì,\213E\b\211EèÇD$\004 ¨\005\b\211\004$è!®ÿÿÇ\005ì×\005\b"
+#45 0xb7ab43e4 in ?? ()
+#46 0xb7aa6c53 in ?? ()
+#47 0xb7abd0c5 in ?? ()
+#48 0xb7abe7e4 in ?? ()
+#49 0xb7abec66 in ?? ()
+#50 0xb7cdcf2a in ?? ()
+#51 0xb7cddff0 in ?? ()
+#52 0xb7ab43e4 in ?? ()
+#53 0xb7aa53c9 in ?? ()
+#54 0xb7aa6c53 in ?? ()
+#55 0xb7abc8fe in ?? ()
+#56 0xb7abe7e4 in ?? ()
+#57 0xb7abec66 in ?? ()
+#58 0xb7cdcfca in ?? ()
+#59 0xb7cdd003 in ?? ()
+#60 0xb7d90c36 in ?? ()
+#61 0xb7aa53c9 in ?? ()
+#62 0xb7aa6c53 in ?? ()
+#63 0xb7abcd4d in ?? ()
+#64 0xb7abe65b in ?? ()
+#65 0xb7abec66 in ?? ()
+#66 0xb7ea61ee in ?? ()
+#67 0xb7d8972a in ?? ()
+#68 0xb7d8aae7 in ?? ()
+#69 0xb7c0b82a in ?? ()
+#70 0xb7a1d6b1 in ?? ()
+#71 0xb7a20d53 in ?? ()
+#72 0xb7a21272 in ?? ()
+#73 0xb7d8afc9 in ?? ()
+#74 0x0805075a in mousekeys_accel_time_from_widget (peditor=0x8059ff0, value=0x804ffe0)
+    at gnome-keyboard-properties-a11y.c:170
+	range_value = -8.1611129885250649e-41
+	range_upper = 5.1758125718522761e-270
+	new_value = <value optimized out>
+#75 0xb7883685 in ?? ()
+#76 0x08050001 in main (argc=) at gnome-keyboard-properties.c:133
+	client = <value optimized out>
+	dialog = (GladeXML *) 0x819a690
+	context = <value optimized out>
+	apply_only = 0
+	get_legacy = 0
+	switch_to_typing_break_page = 0
+	switch_to_a11y_page = 0
+	cap_options = {{long_name = 0x0, short_name = 0 '\0', flags = 0, arg = G_OPTION_ARG_NONE, arg_data = 0x0, 
+    description = 0x0, arg_description = 0x0}, {long_name = 0x0, short_name = 0 '\0', flags = 0, 
+    arg = G_OPTION_ARG_NONE, arg_data = 0x0, description = 0x0, arg_description = 0x0}, {long_name = 0x0, 
+    short_name = 0 '\0', flags = 0, arg = G_OPTION_ARG_NONE, arg_data = 0x0, description = 0x0, 
+    arg_description = 0x0}, {long_name = 0x0, short_name = 0 '\0', flags = 0, arg = G_OPTION_ARG_NONE, 
+    arg_data = 0x0, description = 0x0, arg_description = 0x0}, {long_name = 0x0, short_name = 0 '\0', flags = 0, 
+    arg = G_OPTION_ARG_NONE, arg_data = 0x0, description = 0x0, arg_description = 0x0}, {long_name = 0x0, 
+    short_name = 0 '\0', flags = 0, arg = G_OPTION_ARG_NONE, arg_data = 0x0, description = 0x0, 
+    arg_description = 0x0}}

@@ -1,0 +1,22 @@
+#0  0xb209a771 in ?? () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0xb157c5e3 in unity::glib::Source::SourceCallback(void*) () from /usr/lib/libunity-core-6.0.so.5
+No symbol table info available.
+#2  0xb718fd1f in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0xb718f043 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0xb718f3e0 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0xb718f83b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0xb728d2c3 in Glib::MainLoop::run() () from /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#7  0xb7721b7a in compiz::private_screen::EventManager::startEventLoop(_XDisplay*) () from /usr/lib/libcompiz_core.so.ABI-20120603
+No symbol table info available.
+#8  0xb7721bc4 in CompScreenImpl::eventLoop() () from /usr/lib/libcompiz_core.so.ABI-20120603
+No symbol table info available.
+#9  0x0804a5e2 in CompManager::run() ()
+No symbol table info available.
+#10 0x08049ecc in main ()
+No symbol table info available.

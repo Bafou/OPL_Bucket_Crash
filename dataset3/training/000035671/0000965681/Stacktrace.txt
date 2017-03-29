@@ -1,0 +1,48 @@
+#0  0xb717d266 in g_variant_unref () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0xb466add3 in unity::launcher::SoftwareCenterLauncherIcon::OnPropertyChanged(_GVariant*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0xb466b5bd in sigc::internal::slot_call1<sigc::bound_mem_functor1<void, unity::launcher::SoftwareCenterLauncherIcon, _GVariant*>, void, _GVariant*>::call_it(sigc::internal::slot_rep*, _GVariant* const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0xb3baae07 in unity::glib::DBusProxy::Impl::OnProxySignal(_GDBusProxy*, char*, char*, _GVariant*) () from /usr/lib/libunity-core-5.0.so.5
+No symbol table info available.
+#4  0xb3bab56c in sigc::internal::slot_call4<sigc::bound_mem_functor4<void, unity::glib::DBusProxy::Impl, _GDBusProxy*, char*, char*, _GVariant*>, void, _GDBusProxy*, char*, char*, _GVariant*>::call_it(sigc::internal::slot_rep*, _GDBusProxy* const&, char* const&, char* const&, _GVariant* const&) () from /usr/lib/libunity-core-5.0.so.5
+No symbol table info available.
+#5  0xb3bab4b0 in unity::glib::Signal3<void, _GDBusProxy*, char*, char*, _GVariant*>::Callback(_GDBusProxy*, char*, char*, _GVariant*, unity::glib::Signal3<void, _GDBusProxy*, char*, char*, _GVariant*>*) () from /usr/lib/libunity-core-5.0.so.5
+No symbol table info available.
+#6  0xb6fde35a in ffi_call_SYSV () from /usr/lib/i386-linux-gnu/libffi.so.6
+No symbol table info available.
+#7  0xb6fde08f in ffi_call () from /usr/lib/i386-linux-gnu/libffi.so.6
+No symbol table info available.
+#8  0xb704ff34 in g_cclosure_marshal_generic () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#9  0xb704f624 in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#10 0xb7062029 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#11 0xb706a87f in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#12 0xb706aa83 in g_signal_emit () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#13 0xb6334827 in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#14 0xb63224c6 in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#15 0xb71447e0 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0xb7146d7a in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#17 0xb7147185 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#18 0xb71475cb in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#19 0xb72423f3 in Glib::MainLoop::run() () from /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#20 0xb76ce9e6 in compiz::private_screen::EventManager::startEventLoop() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#21 0xb76cea22 in CompScreenImpl::eventLoop() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#22 0x0804a4f2 in CompManager::run() ()
+No symbol table info available.
+#23 0x0804a17c in main ()
+No symbol table info available.

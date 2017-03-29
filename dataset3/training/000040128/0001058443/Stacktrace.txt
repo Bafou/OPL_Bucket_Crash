@@ -1,0 +1,56 @@
+#0  0x37838dff in ?? ()
+No symbol table info available.
+#1  0xb4cca4ae in intelDestroyContext () from /usr/lib/i386-linux-gnu/dri/i915_dri.so
+No symbol table info available.
+#2  0xb4ccaf38 in ?? () from /usr/lib/i386-linux-gnu/dri/i915_dri.so
+No symbol table info available.
+#3  0xb4ce91dd in ?? () from /usr/lib/i386-linux-gnu/dri/i915_dri.so
+No symbol table info available.
+#4  0xb4ce9367 in ?? () from /usr/lib/i386-linux-gnu/dri/i915_dri.so
+No symbol table info available.
+#5  0xb4ce939f in ?? () from /usr/lib/i386-linux-gnu/dri/i915_dri.so
+No symbol table info available.
+#6  0xb4ed395e in ?? () from /usr/lib/i386-linux-gnu/mesa/libGL.so.1
+No symbol table info available.
+#7  0xb4ea8fe9 in ?? () from /usr/lib/i386-linux-gnu/mesa/libGL.so.1
+No symbol table info available.
+#8  0xb4ea9263 in glXCreateNewContext () from /usr/lib/i386-linux-gnu/mesa/libGL.so.1
+No symbol table info available.
+#9  0xb686a2b5 in ?? () from /usr/lib/i386-linux-gnu/libcogl.so.9
+No symbol table info available.
+#10 0xb6823dd4 in cogl_display_setup () from /usr/lib/i386-linux-gnu/libcogl.so.9
+No symbol table info available.
+#11 0xb682359e in cogl_renderer_check_onscreen_template () from /usr/lib/i386-linux-gnu/libcogl.so.9
+No symbol table info available.
+#12 0xb68b6652 in ?? () from /usr/lib/i386-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#13 0xb68e5efc in ?? () from /usr/lib/i386-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#14 0xb68e6547 in ?? () from /usr/lib/i386-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#15 0xb6901a42 in ?? () from /usr/lib/i386-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#16 0xb6915ced in ?? () from /usr/lib/i386-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#17 0xb691623d in ?? () from /usr/lib/i386-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#18 0xb6bf392a in g_option_context_parse () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#19 0xb6915f4e in clutter_init () from /usr/lib/i386-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#20 0xb76b4a42 in gtk_clutter_init () from /usr/lib/i386-linux-gnu/libclutter-gtk-1.0.so.0
+No symbol table info available.
+#21 0xb77219eb in ?? ()
+No symbol table info available.
+#22 0xb6ccd1e4 in g_type_create_instance () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#23 0xb6caf6b1 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#24 0xb6cb1399 in g_object_newv () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#25 0xb6cb1938 in g_object_new () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#26 0xb7722a04 in gnome_control_center_new ()
+No symbol table info available.
+#27 0xb771f886 in main ()
+No symbol table info available.

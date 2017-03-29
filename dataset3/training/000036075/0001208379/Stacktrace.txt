@@ -1,0 +1,98 @@
+#0  0x00007fd2e2400a10 in ?? () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#1  0x00007fd2e240159d in ?? () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#2  0x00007fd2e23ff965 in ?? () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#3  0x00007fd2e240334d in ?? () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#4  0x00007fd2e23c153e in FT_Load_Glyph () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#5  0x00007fd2e573cc69 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#6  0x00007fd2e56ec180 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#7  0x00007fd2e56bbfb9 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#8  0x00007fd2e57051f3 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#9  0x00007fd2e570541e in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#10 0x00007fd2e56afe51 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#11 0x00007fd2e56c069f in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#12 0x00007fd2e56f42d2 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#13 0x00007fd2e56b89e1 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#14 0x00007fd2e56aaf93 in cairo_show_glyphs () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#15 0x00007fd2ea26bda3 in ?? () from /usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0
+No symbol table info available.
+#16 0x00007fd2ea26c0b4 in ?? () from /usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0
+No symbol table info available.
+#17 0x00007fd2e59b6bcf in pango_renderer_draw_glyphs () from /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0
+No symbol table info available.
+#18 0x00007fd2e59b7558 in pango_renderer_draw_layout_line () from /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0
+No symbol table info available.
+#19 0x00007fd2e59b78b5 in pango_renderer_draw_layout () from /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0
+No symbol table info available.
+#20 0x00007fd2ea26c25a in ?? () from /usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0
+No symbol table info available.
+#21 0x00007fd2c4085ba7 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#22 0x00007fd2c40809a7 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#23 0x00007fd2c4080838 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#24 0x00007fd2c4080c32 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#25 0x00007fd2c407b483 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#26 0x00007fd2c407b503 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#27 0x00007fd2c407b483 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#28 0x00007fd2c407b503 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#29 0x00007fd2c407b483 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#30 0x00007fd2c407b883 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#31 0x00007fd2c407b483 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#32 0x00007fd2c40876a3 in rsvg_handle_render_cairo_sub () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#33 0x00007fd2c4087ad4 in rsvg_handle_get_pixbuf_sub () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#34 0x00007fd2c4293e46 in ?? () from /usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+No symbol table info available.
+#35 0x00007fd2e5be7e8d in gdk_pixbuf_loader_close () from /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0
+No symbol table info available.
+#36 0x00007fd2e5be4065 in ?? () from /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0
+No symbol table info available.
+#37 0x00007fd2e5be5d3d in gdk_pixbuf_new_from_stream_at_scale () from /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0
+No symbol table info available.
+#38 0x00007fd2ea93b1f9 in ?? () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#39 0x00007fd2ea93b5ae in ?? () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#40 0x00007fd2ea4ef385 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#41 0x00007fd2e9d7f5e6 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#42 0x00007fd2e9d7ec25 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#43 0x00007fd2e9afcf6e in start_thread (arg=0x7fd2ae3fc700) at pthread_create.c:311
+        __res = <optimized out>
+        pd = 0x7fd2ae3fc700
+        now = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140542843275008, 5215845913519344479, 0, 61800992, 140733766148304, 23, -5204133367915852961, -5203984794956838049}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = 0
+        pagesize_m1 = <optimized out>
+        sp = <optimized out>
+        freesize = <optimized out>
+        __PRETTY_FUNCTION__ = "start_thread"
+#44 0x00007fd2e9827e2d in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:113
+No locals.

@@ -1,0 +1,30 @@
+#0  0x00bf1416 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0x00338c8f in raise () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x0033c2b5 in abort () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0x0015bb98 in ?? () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#4  0x007b64c9 in qt_message_output(QtMsgType, char const*) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#5  0x007b69fb in ?? () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#6  0x007b6b18 in qFatal(char const*, ...) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#7  0x00628ca4 in QConfSchema::QConfSchema(QString const&) () from /usr/lib/libdconf-qt.so.0
+No symbol table info available.
+#8  0x00628d8d in QConfSchema::getSchema(QString const&) () from /usr/lib/libdconf-qt.so.0
+No symbol table info available.
+#9  0x0062716d in QConf::setSchema(QString const&) () from /usr/lib/libdconf-qt.so.0
+No symbol table info available.
+#10 0x00627b1a in QConf::QConf(QString const&) () from /usr/lib/libdconf-qt.so.0
+No symbol table info available.
+#11 0x0804b9c0 in PanelManager::loadPanelConfiguration() const ()
+No symbol table info available.
+#12 0x0804c395 in PanelManager::instantiatePanel(int) ()
+No symbol table info available.
+#13 0x0804efa7 in PanelManager::PanelManager(QObject*) ()
+No symbol table info available.
+#14 0x0804b232 in main ()
+No symbol table info available.

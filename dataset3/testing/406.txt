@@ -1,0 +1,16 @@
+#0  0x00007fd9e504d5f2 in boost::asio::detail::epoll_reactor::deregister_descriptor(int, boost::asio::detail::epoll_reactor::descriptor_state*&, bool) () from /usr/lib/x86_64-linux-gnu/libmirserver.so.4
+No symbol table info available.
+#1  0x00007fd9e506589e in boost::asio::detail::reactive_socket_service_base::do_assign(boost::asio::detail::reactive_socket_service_base::base_implementation_type&, int, int const&, boost::system::error_code&) () from /usr/lib/x86_64-linux-gnu/libmirserver.so.4
+No symbol table info available.
+#2  0x000000000041c580 in ?? ()
+No symbol table info available.
+#3  0x0000000000416a80 in mir::DefaultServerConfiguration::the_graphics_platform ()
+No symbol table info available.
+#4  0x00007fd9b8003db0 in ?? ()
+No symbol table info available.
+#5  0x00007fffd726e000 in ?? ()
+No symbol table info available.
+#6  0x00007fffd726e140 in ?? ()
+No symbol table info available.
+#7  0x0000000000000000 in ?? ()
+No symbol table info available.

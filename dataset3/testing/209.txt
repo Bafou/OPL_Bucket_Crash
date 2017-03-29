@@ -1,0 +1,70 @@
+#0  0x00007f6c0c59085a in g_settings_backend_dispatch_signal (backend=0x6d1010, function_offset=8, name=0x9e9510 "/org/gnome/deja-dup/", data1=0x0, data1_copy=0x7f6c0c590340 <pointer_id>, data1_free=0x7f6c0c590350 <pointer_ignore>, data2=0x0) at /build/buildd/glib2.0-2.31.20/./gio/gsettingsbackend.c:340
+        closure = <optimized out>
+        suffix = 0x168a620
+        watch = <optimized out>
+        next = <optimized out>
+#1  0x00007f6c0c590de4 in g_settings_backend_path_changed (backend=0x6d1010, path=0x9e9510 "/org/gnome/deja-dup/", origin_tag=0x0) at /build/buildd/glib2.0-2.31.20/./gio/gsettingsbackend.c:496
+        __PRETTY_FUNCTION__ = "g_settings_backend_path_changed"
+#2  0x00007f6c099195da in ?? () from /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+No symbol table info available.
+#3  0x00007f6c0c55498d in g_simple_async_result_complete (simple=0xc30670) at /build/buildd/glib2.0-2.31.20/./gio/gsimpleasyncresult.c:767
+        current_source = <optimized out>
+        current_context = <optimized out>
+        __PRETTY_FUNCTION__ = "g_simple_async_result_complete"
+#4  0x00007f6c0c5a812a in g_dbus_connection_call_done (source=0x7f6c04008830, result=<optimized out>, user_data=0x7f6c04120090) at /build/buildd/glib2.0-2.31.20/./gio/gdbusconnection.c:5303
+        simple = 0xc30670
+        connection = <optimized out>
+        state = 0x7f6c04120090
+        error = 0x0
+        reply = 0x7f6c0448b000
+#5  0x00007f6c0c55498d in g_simple_async_result_complete (simple=0xc30600) at /build/buildd/glib2.0-2.31.20/./gio/gsimpleasyncresult.c:767
+        current_source = <optimized out>
+        current_context = <optimized out>
+        __PRETTY_FUNCTION__ = "g_simple_async_result_complete"
+#6  0x00007f6c0c554abc in complete_in_idle_cb (data=0xc30600) at /build/buildd/glib2.0-2.31.20/./gio/gsimpleasyncresult.c:779
+        simple = <optimized out>
+#7  0x00007f6c0bdc2dda in g_main_dispatch (context=0x6d19c0) at /build/buildd/glib2.0-2.31.20/./glib/gmain.c:2510
+        dispatch = 0x7f6c0bdc0a30 <g_idle_dispatch>
+        was_in_call = 0
+        user_data = 0xc30600
+        callback = 0x7f6c0c554aa0 <complete_in_idle_cb>
+        cb_funcs = 0x7f6c0c06e9a0
+        cb_data = 0x7f6bfc417a70
+        current_source_link = {data = 0x7f6bfc417bb0, next = 0x0}
+        need_destroy = <optimized out>
+        source = 0x7f6bfc417bb0
+        current = 0x6c69c0
+        i = <optimized out>
+#8  g_main_context_dispatch (context=0x6d19c0) at /build/buildd/glib2.0-2.31.20/./glib/gmain.c:3047
+No locals.
+#9  0x00007f6c0bdc31a0 in g_main_context_iterate (dispatch=1, block=<optimized out>, context=0x6d19c0, self=<optimized out>) at /build/buildd/glib2.0-2.31.20/./glib/gmain.c:3118
+        timeout = 0
+        some_ready = 1
+        fds = <optimized out>
+        max_priority = 0
+        nfds = 1
+        allocated_nfds = <optimized out>
+#10 g_main_context_iterate (context=0x6d19c0, block=<optimized out>, dispatch=1, self=<optimized out>) at /build/buildd/glib2.0-2.31.20/./glib/gmain.c:3055
+        some_ready = 1
+#11 0x00007f6c0bdc359a in g_main_loop_run (loop=0x7f6c040010c0) at /build/buildd/glib2.0-2.31.20/./glib/gmain.c:3312
+        __PRETTY_FUNCTION__ = "g_main_loop_run"
+#12 0x00007f6c0991896b in ?? () from /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+No symbol table info available.
+#13 0x00000000006ca230 in ?? ()
+No symbol table info available.
+#14 0x00007f6c0bde47f5 in g_thread_proxy (data=0x6d19c0) at /build/buildd/glib2.0-2.31.20/./glib/gthread.c:801
+        thread = 0x6d19c0
+#15 0x00007f6c0bb65e9a in start_thread (arg=0x7f6c090d7700) at pthread_create.c:308
+        __res = <optimized out>
+        pd = 0x7f6c090d7700
+        now = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {0, -501623115956139733, 140735673429040, 140101985073600, 0, 3, 563498016316541227, 563503023717828907}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = 0
+        pagesize_m1 = <optimized out>
+        sp = <optimized out>
+        freesize = <optimized out>
+        __PRETTY_FUNCTION__ = "start_thread"
+#16 0x00007f6c0b89374d in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:112
+No locals.
+#17 0x0000000000000000 in ?? ()
+No symbol table info available.

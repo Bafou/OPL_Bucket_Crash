@@ -1,0 +1,17 @@
+#0  0xb7824424 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0xb675bc8f in raise () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0xb675f2b5 in abort () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0xb6791dfc in ?? () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#4  0xb679cbc2 in ?? () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#5  0xb679da28 in ?? () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#6  0xb67a094d in free () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#7  0xb48b58df in ?? () from /usr/lib/nvidia-current/tls/libnvidia-tls.so.280.13
+No symbol table info available.
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)

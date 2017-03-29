@@ -1,0 +1,42 @@
+#0  0x00007fa5a4708767 in FcitxConfigFree () from /usr/lib/x86_64-linux-gnu/libfcitx-config.so.4
+No symbol table info available.
+#1  0x00007fa5a4d9a809 in ?? () from /usr/lib/x86_64-linux-gnu/unity-control-center-1/panels/libregion.so
+No symbol table info available.
+#2  0x00007fa5b7be412f in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#3  0x00007fa5b7be5225 in g_object_unref () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00007fa5a4d9516a in ?? () from /usr/lib/x86_64-linux-gnu/unity-control-center-1/panels/libregion.so
+No symbol table info available.
+#5  0x00007fa5b7be529a in g_object_unref () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00007fa5b98f7814 in cc_shell_set_active_panel () from /usr/lib/x86_64-linux-gnu/libunity-control-center.so.1
+No symbol table info available.
+#7  0x00007fa5b98f788e in ?? () from /usr/lib/x86_64-linux-gnu/libunity-control-center.so.1
+No symbol table info available.
+#8  0x00007fa5b7be5225 in g_object_unref () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#9  0x00007fa5b8ac4219 in ?? () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#10 0x00007fa5b7be0504 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x00007fa5b7bf9a50 in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x00007fa5b7bfa8ff in g_signal_emit () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x00007fa5b8bf5434 in ?? () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#14 0x00007fa5b8ac3762 in gtk_main_do_event () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#15 0x00007fa5b8660a22 in ?? () from /usr/lib/x86_64-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#16 0x00007fa5b790ac3d in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#17 0x00007fa5b790af20 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#18 0x00007fa5b790afcc in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#19 0x00007fa5b7ecafac in g_application_run () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#20 0x00000000004075c6 in main ()
+No symbol table info available.

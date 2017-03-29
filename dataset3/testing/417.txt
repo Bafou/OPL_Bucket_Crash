@@ -1,0 +1,48 @@
+#0  0x00007fbddf4bff79 in __GI_raise (sig=sig@entry=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:56
+        resultvar = 0
+        pid = 1358
+        selftid = 1358
+#1  0x00007fbddf4c3388 in __GI_abort () at abort.c:89
+        save_stage = 2
+        act = {__sigaction_handler = {sa_handler = 0x0, sa_sigaction = 0x0}, sa_mask = {__val = {0, 42638520, 140453503874391, 140449725546501, 0, 1, 140453471649064, 140453475555432, 42638520, 41618656, 140453503902997, 140453505853320, 18446744073709551615, 1, 140453505855696, 43504384}}, sa_flags = 10, sa_restorer = 0x7fbde152e7c0}
+        sigs = {__val = {32, 0 <repeats 15 times>}}
+#2  0x00007fbddfac56b5 in __gnu_cxx::__verbose_terminate_handler() () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#3  0x00007fbddfac3836 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#4  0x00007fbddfac28f9 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#5  0x00007fbddfac34aa in __gxx_personality_v0 () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#6  0x00007fbddf85f1c3 in ?? () from /lib/x86_64-linux-gnu/libgcc_s.so.1
+No symbol table info available.
+#7  0x00007fbddf85f6e7 in _Unwind_Resume () from /lib/x86_64-linux-gnu/libgcc_s.so.1
+No symbol table info available.
+#8  0x00007fbde1063119 in mir::scene::SessionManager::close_session(std::shared_ptr<mir::frontend::Session> const&) () from /usr/lib/x86_64-linux-gnu/libmirserver.so.16
+No symbol table info available.
+#9  0x000000000042950c in SystemCompositorShell::close_session(std::shared_ptr<mir::frontend::Session> const&) ()
+No symbol table info available.
+#10 0x00007fbde10286b4 in mir::frontend::SessionMediator::~SessionMediator() () from /usr/lib/x86_64-linux-gnu/libmirserver.so.16
+No symbol table info available.
+#11 0x00007fbde102dec2 in mir::frontend::detail::ProtobufMessageProcessor::~ProtobufMessageProcessor() () from /usr/lib/x86_64-linux-gnu/libmirserver.so.16
+No symbol table info available.
+#12 0x00007fbde103476a in mir::frontend::detail::SocketSession::~SocketSession() () from /usr/lib/x86_64-linux-gnu/libmirserver.so.16
+No symbol table info available.
+#13 0x00007fbde1034373 in std::_Rb_tree<int, std::pair<int const, std::shared_ptr<mir::frontend::detail::SocketSession> >, std::_Select1st<std::pair<int const, std::shared_ptr<mir::frontend::detail::SocketSession> > >, std::less<int>, std::allocator<std::pair<int const, std::shared_ptr<mir::frontend::detail::SocketSession> > > >::_M_erase(std::_Rb_tree_node<std::pair<int const, std::shared_ptr<mir::frontend::detail::SocketSession> > >*) () from /usr/lib/x86_64-linux-gnu/libmirserver.so.16
+No symbol table info available.
+#14 0x00007fbde10335af in mir::frontend::ProtobufSessionCreator::~ProtobufSessionCreator() () from /usr/lib/x86_64-linux-gnu/libmirserver.so.16
+No symbol table info available.
+#15 0x00007fbde0ffa899 in std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release() () from /usr/lib/x86_64-linux-gnu/libmirserver.so.16
+No symbol table info available.
+#16 0x00007fbde10307f8 in mir::frontend::BasicConnector::~BasicConnector() () from /usr/lib/x86_64-linux-gnu/libmirserver.so.16
+No symbol table info available.
+#17 0x00007fbde1030994 in mir::frontend::PublishedSocketConnector::~PublishedSocketConnector() () from /usr/lib/x86_64-linux-gnu/libmirserver.so.16
+No symbol table info available.
+#18 0x00007fbde0ffec92 in mir::DisplayServer::~DisplayServer() () from /usr/lib/x86_64-linux-gnu/libmirserver.so.16
+No symbol table info available.
+#19 0x00007fbde0ffa5e0 in mir::run_mir(mir::ServerConfiguration&, std::function<void (mir::DisplayServer&)>) () from /usr/lib/x86_64-linux-gnu/libmirserver.so.16
+No symbol table info available.
+#20 0x0000000000422d77 in SystemCompositor::run(int, char**) ()
+No symbol table info available.
+#21 0x000000000041c017 in main ()
+No symbol table info available.

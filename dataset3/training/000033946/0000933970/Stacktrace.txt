@@ -1,0 +1,30 @@
+#0  0x00007ffef0ba949b in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007ffef0baa9ae in g_sequence_get () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007ffef04d7662 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#3  0x00007ffef04d7b90 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#4  0x00007ffef093a0fd in ?? () from /usr/lib/libgwibber.so.2
+No symbol table info available.
+#5  0x00007ffef093a8f5 in ?? () from /usr/lib/libgwibber.so.2
+No symbol table info available.
+#6  0x00007ffef093aa10 in ?? () from /usr/lib/libgwibber.so.2
+No symbol table info available.
+#7  0x00007ffef0b9480b in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0x00007ffef0b93bca in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0x00007ffef0b93f90 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0x00007ffef0b94054 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0x00007ffef13e96a4 in g_application_run () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#12 0x000000000040b1f9 in _vala_main ()
+No symbol table info available.
+#13 0x00007ffeeff0776d in __libc_start_main () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#14 0x0000000000408839 in _start ()
+No symbol table info available.

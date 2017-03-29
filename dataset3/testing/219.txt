@@ -1,0 +1,30 @@
+#0  0x00007f544cca2711 in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x0000000000584253 in PyUnicode_FromString ()
+No symbol table info available.
+#2  0x00007f544c134985 in pyglib_error_marshal () from /usr/lib/x86_64-linux-gnu/libpyglib-gi-2.0-python3.3.so.0
+No symbol table info available.
+#3  0x00007f544c134a54 in pyglib_error_check () from /usr/lib/x86_64-linux-gnu/libpyglib-gi-2.0-python3.3.so.0
+No symbol table info available.
+#4  0x00007f544bec39c2 in ?? () from /usr/lib/python3/dist-packages/gi/_gi.cpython-33m-x86_64-linux-gnu.so
+No symbol table info available.
+#5  0x0000000000591b92 in PyEval_EvalFrameEx ()
+No symbol table info available.
+#6  0x00000000005ac017 in PyEval_EvalCodeEx ()
+No symbol table info available.
+#7  0x00000000005905b9 in PyEval_EvalFrameEx ()
+No symbol table info available.
+#8  0x000000000058f85d in PyEval_EvalFrameEx ()
+No symbol table info available.
+#9  0x00000000005ac873 in PyEval_EvalCode ()
+No symbol table info available.
+#10 0x000000000041d263 in ?? ()
+No symbol table info available.
+#11 0x0000000000462d2e in PyRun_FileExFlags ()
+No symbol table info available.
+#12 0x000000000046310b in PyRun_SimpleFileExFlags ()
+No symbol table info available.
+#13 0x00000000004657b5 in Py_Main ()
+No symbol table info available.
+#14 0x000000000047ac58 in main ()
+No symbol table info available.

@@ -1,0 +1,20 @@
+#0  0xb6f4627b in ?? () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0xacb03006 in ?? () from /usr/lib/control-center-1/panels/libnetwork.so
+No symbol table info available.
+#2  0xb6ffe110 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0xb700225f in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0xb7002990 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0xb7002f9b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0xb757af95 in gtk_main () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#7  0xb748efe4 in ?? () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#8  0xb71a150c in g_application_run () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#9  0xb78e69a6 in main ()
+No symbol table info available.

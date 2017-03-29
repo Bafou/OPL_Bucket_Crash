@@ -1,0 +1,32 @@
+#0  0xb750ffc2 in g_type_check_instance_cast () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#1  0xb76bd67c in zeitgeist_events_to_variant () from /usr/lib/libzeitgeist-1.0.so.1
+No symbol table info available.
+#2  0xb76be89a in ?? () from /usr/lib/libzeitgeist-1.0.so.1
+No symbol table info available.
+#3  0xb76bf0c5 in ?? () from /usr/lib/libzeitgeist-1.0.so.1
+No symbol table info available.
+#4  0xb7581ccf in g_simple_async_result_complete () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#5  0xb7581ded in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#6  0xb7442311 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0xb7446aa8 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0xb7447270 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0xb744792b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0xb75af79f in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#11 0xb75b10a3 in g_application_run () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#12 0x08055b2f in ?? ()
+No symbol table info available.
+#13 0x08055b60 in ?? ()
+No symbol table info available.
+#14 0xb72a1e37 in __libc_start_main () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#15 0x0804c611 in ?? ()
+No symbol table info available.

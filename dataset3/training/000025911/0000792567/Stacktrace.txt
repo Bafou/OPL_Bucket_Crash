@@ -1,0 +1,122 @@
+#0  0x0000000000000000 in ?? ()
+No symbol table info available.
+#1  0x00007f3c24639ff1 in ?? () from /usr/lib/libQtScript.so.4
+No symbol table info available.
+#2  0x00007f3c2460f2c2 in ?? () from /usr/lib/libQtScript.so.4
+No symbol table info available.
+#3  0x00007f3c246f1d0e in QScriptValue::call(QScriptValue const&, QList<QScriptValue> const&) () from /usr/lib/libQtScript.so.4
+No symbol table info available.
+#4  0x00007f3c289ac662 in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#5  0x00007f3c289ac9d1 in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#6  0x00007f3c289accd6 in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#7  0x00007f3c289ae583 in QDeclarativeBinding::update(QFlags<QDeclarativePropertyPrivate::WriteFlag>) () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#8  0x00007f3c289af30c in QDeclarativeBinding::setEnabled(bool, QFlags<QDeclarativePropertyPrivate::WriteFlag>) () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#9  0x00007f3c289b25c2 in QDeclarativePropertyPrivate::setBinding(QObject*, int, int, QDeclarativeAbstractBinding*, QFlags<QDeclarativePropertyPrivate::WriteFlag>) () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#10 0x00007f3c289b273f in QDeclarativePropertyPrivate::setBinding(QDeclarativeProperty const&, QDeclarativeAbstractBinding*, QFlags<QDeclarativePropertyPrivate::WriteFlag>) () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#11 0x00007f3c288d3a65 in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#12 0x00007f3c288cf131 in QDeclarativeState::apply(QDeclarativeStateGroup*, QDeclarativeTransition*, QDeclarativeState*) () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#13 0x00007f3c288e742a in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#14 0x00007f3c288e84be in QDeclarativeStateGroup::componentComplete() () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#15 0x00007f3c2894d1be in QDeclarativeItem::componentComplete() () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#16 0x00007f3c289b65d3 in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#17 0x00007f3c289b69af in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#18 0x00007f3c2897714d in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#19 0x00007f3c28935899 in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#20 0x00007f3c28935c7f in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#21 0x00007f3c28937f7e in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#22 0x00007f3c28a86a59 in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#23 0x00007f3c28999cfc in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#24 0x00007f3c29e2d75a in QMetaObject::activate(QObject*, QMetaObject const*, int, void**) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#25 0x00007f3c28a8f86f in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#26 0x00007f3c289777f9 in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#27 0x00007f3c28a900b3 in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#28 0x00007f3c29e2d75a in QMetaObject::activate(QObject*, QMetaObject const*, int, void**) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#29 0x00007f3c29e76104 in QAbstractItemModel::rowsInserted(QModelIndex const&, int, int) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#30 0x00007f3c29e151ed in QAbstractItemModel::endInsertRows() () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#31 0x00007f3c297601e7 in ?? () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#32 0x00007f3c297642e3 in ?? () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#33 0x00007f3c297645ff in ?? () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#34 0x00007f3c297665ac in QSortFilterProxyModel::qt_metacall(QMetaObject::Call, int, void**) () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#35 0x00007f3c1293a3d5 in QSortFilterProxyModelQML::qt_metacall(QMetaObject::Call, int, void**) () from /usr/lib/qt4/imports/Unity2d/libunity-2d-private-qml.so
+No symbol table info available.
+#36 0x00007f3c29e2d75a in QMetaObject::activate(QObject*, QMetaObject const*, int, void**) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#37 0x00007f3c29e76104 in QAbstractItemModel::rowsInserted(QModelIndex const&, int, int) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#38 0x00007f3c29e151ed in QAbstractItemModel::endInsertRows() () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#39 0x00007f3c297601e7 in ?? () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#40 0x00007f3c297642e3 in ?? () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#41 0x00007f3c297645ff in ?? () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#42 0x00007f3c297665ac in QSortFilterProxyModel::qt_metacall(QMetaObject::Call, int, void**) () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#43 0x00007f3c1293a3d5 in QSortFilterProxyModelQML::qt_metacall(QMetaObject::Call, int, void**) () from /usr/lib/qt4/imports/Unity2d/libunity-2d-private-qml.so
+No symbol table info available.
+#44 0x00007f3c29e2d75a in QMetaObject::activate(QObject*, QMetaObject const*, int, void**) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#45 0x00007f3c29e76104 in QAbstractItemModel::rowsInserted(QModelIndex const&, int, int) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#46 0x00007f3c29e151ed in QAbstractItemModel::endInsertRows() () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#47 0x00007f3c1293853f in WindowsList::load() () from /usr/lib/qt4/imports/Unity2d/libunity-2d-private-qml.so
+No symbol table info available.
+#48 0x00007f3c1293ad8c in WindowsList::qt_metacall(QMetaObject::Call, int, void**) () from /usr/lib/qt4/imports/Unity2d/libunity-2d-private-qml.so
+No symbol table info available.
+#49 0x00007f3c28a3f515 in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#50 0x00007f3c28a40ceb in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#51 0x00007f3c28a41b1b in ?? () from /usr/lib/libQtDeclarative.so.4
+No symbol table info available.
+#52 0x00007f3c2470e3b9 in ?? () from /usr/lib/libQtScript.so.4
+No symbol table info available.
+#53 0x00007f3c2460f290 in ?? () from /usr/lib/libQtScript.so.4
+No symbol table info available.
+#54 0x00007f3c245e5ea6 in ?? () from /usr/lib/libQtScript.so.4
+No symbol table info available.
+#55 0x00007f3c2a20ff97 in ?? ()
+No symbol table info available.
+#56 0x7fffffff00000001 in ?? ()
+No symbol table info available.
+#57 0x00007f3c2a1cce80 in ?? ()
+No symbol table info available.
+#58 0x00007f3c0000000a in ?? ()
+No symbol table info available.
+#59 0xffff000000000001 in ?? ()
+No symbol table info available.
+#60 0x0000000000000000 in ?? ()
+No symbol table info available.

@@ -1,0 +1,108 @@
+#0  0x00837832 in ?? () from /lib/ld-linux.so.2
+No symbol table info available.
+#1  0x00b97dd1 in raise () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x00b9b2ae in abort () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0x0099351e in g_assertion_message (domain=0x9b6f86 "GLib", file=0xa056e8 "/build/buildd/glib2.0-2.29.14/./glib/gvarianttypeinfo.c", line=165, func=0xa05930 "g_variant_type_info_check", message=<value optimized out>) at /build/buildd/glib2.0-2.29.14/./glib/gtestutils.c:1425
+        lstr = "165\000'I\227\000\364/\242\000\364/\242\000\\͘\000\227\071z\263\313\n\234\000h\a\265\277"
+        s = 0xb37a6690 "@\337z\263@"
+#4  0x00993b1f in g_assertion_message_expr (domain=0x9b6f86 "GLib", file=0xa056e8 "/build/buildd/glib2.0-2.29.14/./glib/gvarianttypeinfo.c", line=165, func=0xa05930 "g_variant_type_info_check", expr=0xa05760 "info->alignment == 0 || info->alignment == 1 || info->alignment == 3 || info->alignment == 7") at /build/buildd/glib2.0-2.29.14/./glib/gtestutils.c:1436
+        s = <value optimized out>
+#5  0x009b16cf in g_variant_type_info_check (info=<value optimized out>, container_class=<value optimized out>) at /build/buildd/glib2.0-2.29.14/./glib/gvarianttypeinfo.c:164
+        __PRETTY_FUNCTION__ = "g_variant_type_info_check"
+#6  0x009b1f27 in g_variant_type_info_unref (info=0xb6afed30) at /build/buildd/glib2.0-2.29.14/./glib/gvarianttypeinfo.c:831
+No locals.
+#7  0x009ab26a in g_variant_unref (value=0x88b4db0) at /build/buildd/glib2.0-2.29.14/./glib/gvariant-core.c:625
+No locals.
+#8  0x0400b9fb in ?? () from /usr/lib/libdbusmenu-glib.so.4
+No symbol table info available.
+#9  0x0095b748 in g_hash_table_insert_node (hash_table=0x892e8e0, node_index=<value optimized out>, key_hash=265827749, key=0xb481d880, value=0x8cf6608, keep_new_key=0) at /build/buildd/glib2.0-2.29.14/./glib/ghash.c:868
+        old_hash = 265827749
+        old_key = <value optimized out>
+        old_value = 0x88b4db0
+#10 0x0095bbd2 in g_hash_table_insert_internal (hash_table=0x892e8e0, key=0xb481d880, value=0x8cf6608, keep_new_key=0) at /build/buildd/glib2.0-2.29.14/./glib/ghash.c:1101
+        key_hash = 265827749
+#11 0x0400d1f3 in dbusmenu_menuitem_property_set_variant () from /usr/lib/libdbusmenu-glib.so.4
+No symbol table info available.
+#12 0x04016720 in ?? () from /usr/lib/libdbusmenu-glib.so.4
+No symbol table info available.
+#13 0x0401739a in ?? () from /usr/lib/libdbusmenu-glib.so.4
+No symbol table info available.
+#14 0x0082d35a in ffi_call_SYSV () from /usr/lib/i386-linux-gnu/libffi.so.6
+No symbol table info available.
+#15 0x0082d08f in ffi_call () from /usr/lib/i386-linux-gnu/libffi.so.6
+No symbol table info available.
+#16 0x0079bede in g_cclosure_marshal_generic (closure=0xb4812520, return_gvalue=0x0, n_param_values=4, param_values=0x8995378, invocation_hint=0xbfb50d20, marshal_data=0x0) at /build/buildd/glib2.0-2.29.14/./gobject/gclosure.c:1146
+        rtype = 0x82d5e4
+        rvalue = 0xbfb50ba0
+        n_args = 5
+        atypes = 0xbfb50b70
+        args = 0xbfb50b40
+        i = <value optimized out>
+        cif = {abi = FFI_SYSV, nargs = 5, arg_types = 0xbfb50b70, rtype = 0x82d5e4, bytes = 20, flags = 0}
+        cc = 0xb4812520
+#17 0x0079ba2c in g_closure_invoke (closure=0xb4812520, return_value=0x0, n_param_values=4, param_values=0x8995378, invocation_hint=0xbfb50d20) at /build/buildd/glib2.0-2.29.14/./gobject/gclosure.c:773
+        marshal = 0x79bd70 <g_cclosure_marshal_generic>
+        marshal_data = 0x0
+        in_marshal = 0
+        __PRETTY_FUNCTION__ = "g_closure_invoke"
+#18 0x007afe80 in signal_emit_unlocked_R (node=0x88a2ff0, detail=0, instance=0x889f1d0, emission_return=0x0, instance_and_params=0x8995378) at /build/buildd/glib2.0-2.29.14/./gobject/gsignal.c:3271
+        tmp = <value optimized out>
+        handler = 0xb4811aa0
+        accumulator = 0x0
+        emission = {next = 0x0, instance = 0x889f1d0, ihint = {signal_id = 178, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, state = EMISSION_RUN, chain_type = 4}
+        class_closure = 0x88a1eb8
+        hlist = 0xb4811d68
+        handler_list = 0xb4811aa0
+        return_accu = 0x0
+        accu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 178
+        max_sequential_handler_number = 32582
+        return_value_altered = 0
+#19 0x007b8b4f in g_signal_emit_valist (instance=0x889f1d0, signal_id=178, detail=0, var_args=0xbfb50ed8 "\021") at /build/buildd/glib2.0-2.29.14/./gobject/gsignal.c:3002
+        instance_and_params = 0x8995378
+        signal_return_type = 4
+        param_values = 0x899538c
+        node = 0x88a2ff0
+        i = <value optimized out>
+        n_params = 3
+        __PRETTY_FUNCTION__ = "g_signal_emit_valist"
+#20 0x007b8cc3 in g_signal_emit (instance=0x889f1d0, signal_id=178, detail=0) at /build/buildd/glib2.0-2.29.14/./gobject/gsignal.c:3059
+        var_args = 0xbfb50ecc "X\352\317\bH\220\220\b0\325z\263\021"
+#21 0x00ae4aaa in on_signal_received (connection=0x88a0048, sender_name=0x8cfea58 ":1.670", object_path=0x8cff738 "/com/canonical/indicators/sound/menu", interface_name=0x8d005d8 "com.canonical.dbusmenu", signal_name=0x8909048 "ItemsPropertiesUpdated", parameters=0xb37ad530, user_data=0x88fd550) at /build/buildd/glib2.0-2.29.14/./gio/gdbusproxy.c:867
+        data = 0x88fd550
+        proxy = 0x889f1d0
+#22 0x00ad2295 in emit_signal_instance_in_idle_cb (data=0x89608b0) at /build/buildd/glib2.0-2.29.14/./gio/gdbusconnection.c:3417
+        signal_instance = 0x89608b0
+        parameters = 0xb37ad530
+        has_subscription = 1
+#23 0x00969c30 in g_idle_dispatch (source=0x883c340, callback=0xad21f0 <emit_signal_instance_in_idle_cb>, user_data=0x89608b0) at /build/buildd/glib2.0-2.29.14/./glib/gmain.c:4867
+No locals.
+#24 0x0096de1f in g_main_dispatch (context=0x8839ef8) at /build/buildd/glib2.0-2.29.14/./glib/gmain.c:2500
+        dispatch = 0x969c10 <g_idle_dispatch>
+        was_in_call = 0
+        user_data = 0x89608b0
+        callback = 0xad21f0 <emit_signal_instance_in_idle_cb>
+        cb_funcs = 0xa2335c
+        cb_data = 0x8cf76f8
+        current_source_link = {data = 0x883c340, next = 0x0}
+        need_destroy = <value optimized out>
+        source = 0x883c340
+        current = 0xb6a05a30
+        i = <value optimized out>
+#25 g_main_context_dispatch (context=0x8839ef8) at /build/buildd/glib2.0-2.29.14/./glib/gmain.c:3083
+No locals.
+#26 0x0096e550 in g_main_context_iterate (context=0x8839ef8, block=9948960, dispatch=1, self=<value optimized out>) at /build/buildd/glib2.0-2.29.14/./glib/gmain.c:3161
+        max_priority = 0
+        timeout = 0
+        some_ready = 1
+        nfds = <value optimized out>
+        allocated_nfds = <value optimized out>
+        fds = 0xb4804188
+#27 0x0096eb5b in g_main_loop_run (loop=0xb4800a90) at /build/buildd/glib2.0-2.29.14/./glib/gmain.c:3369
+        __PRETTY_FUNCTION__ = "g_main_loop_run"
+#28 0x0027a275 in gtk_main () at /build/buildd/gtk+3.0-3.1.10/./gtk/gtkmain.c:1367
+        loop = 0xb4800a90
+#29 0x0804af86 in main ()
+No symbol table info available.

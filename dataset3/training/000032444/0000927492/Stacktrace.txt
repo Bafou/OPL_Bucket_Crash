@@ -1,0 +1,68 @@
+#0  0x00007f0ffe9b2c85 in g_datalist_id_set_data_full () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007f0ffb3ffc6f in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#2  0x00007f0ffb400aed in g_object_unref () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#3  0x00007f0feefc3443 in unity::PanelTray::~PanelTray() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0x00007f0feefc3509 in unity::PanelTray::~PanelTray() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#5  0x00007f0fedf5c54e in nux::Object::Destroy() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#6  0x00007f0fedf5c8b9 in nux::Object::UnReference() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#7  0x00007f0feeb640cd in nux::Layout::~Layout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#8  0x00007f0feeb58599 in nux::HLayout::~HLayout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#9  0x00007f0fedf5c54e in nux::Object::Destroy() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#10 0x00007f0fedf5c8b9 in nux::Object::UnReference() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#11 0x00007f0feeb60199 in nux::View::RemoveLayout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#12 0x00007f0feeb60303 in nux::View::~View() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#13 0x00007f0feefbe326 in unity::PanelView::~PanelView() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#14 0x00007f0feefbe589 in unity::PanelView::~PanelView() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#15 0x00007f0fedf5c54e in nux::Object::Destroy() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#16 0x00007f0fedf5c8b9 in nux::Object::UnReference() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#17 0x00007f0feeb640cd in nux::Layout::~Layout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#18 0x00007f0feeb58599 in nux::HLayout::~HLayout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#19 0x00007f0fedf5c54e in nux::Object::Destroy() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#20 0x00007f0fedf5c8b9 in nux::Object::UnReference() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#21 0x00007f0feeb60199 in nux::View::RemoveLayout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#22 0x00007f0feeb60303 in nux::View::~View() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#23 0x00007f0feeb40b29 in nux::BaseWindow::~BaseWindow() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#24 0x00007f0fedf5c54e in nux::Object::Destroy() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#25 0x00007f0fedf5c8b9 in nux::Object::UnReference() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#26 0x00007f0feefb44b8 in unity::panel::Controller::Impl::OnScreenChanged(int, std::vector<nux::Rect, std::allocator<nux::Rect> >&, unity::debug::Introspectable*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#27 0x00007f0feefb4f70 in UScreen::Refresh() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#28 0x00007f0feefb50c0 in UScreen::OnIdleChanged(UScreen*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#29 0x00007f0ffe9cdb2a in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#30 0x00007f0ffe9cdef0 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#31 0x00007f0ffe9ce2ea in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#32 0x000000000042e856 in CompScreen::eventLoop() ()
+No symbol table info available.
+#33 0x000000000042221a in main ()
+No symbol table info available.

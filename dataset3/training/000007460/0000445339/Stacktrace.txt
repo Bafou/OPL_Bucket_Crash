@@ -1,0 +1,6 @@
+#0  QGtkStyle::drawControl (this=0x235dbf0, 
+    element=QStyle::CE_PushButtonBevel, option=0x7ffffbd82220, 
+    painter=0x7ffffbd82310, widget=0x23ba5f0)
+    at ../../include/QtCore/../../src/corelib/tools/qstring.h:680
+	style = <value optimized out>
+	gtkPainter = Cannot access memory at address 0x7ffffbd80b80

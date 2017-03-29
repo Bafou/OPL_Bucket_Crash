@@ -1,0 +1,77 @@
+#0  malloc_consolidate (av=0x97b2400) at malloc.c:5155
+        p = 0x9d14551
+        first_unsorted = <optimized out>
+        size = 268435456
+        nextsize = <optimized out>
+        nextinuse = <optimized out>
+        maxfb = 0x97b242c
+        nextp = 0x110a2801
+        unsorted_bin = 0x97b2430
+        nextchunk = 0x19d14551
+        prevsize = <optimized out>
+        fwd = <optimized out>
+        fb = 0x97b2420
+        bck = <optimized out>
+#1  malloc_consolidate (av=0x97b2400) at malloc.c:5089
+No locals.
+#2  0x096a8eac in _int_malloc (av=0x97b2400, bytes=636262388) at malloc.c:4373
+        nb = 636262392
+        idx = 126
+        bin = <optimized out>
+        victim = <optimized out>
+        size = <optimized out>
+        victim_index = <optimized out>
+        remainder = <optimized out>
+        remainder_size = <optimized out>
+        block = <optimized out>
+        bit = <optimized out>
+        map = <optimized out>
+        fwd = <optimized out>
+        bck = <optimized out>
+        errstr = 0x0
+        __func__ = "_int_malloc"
+#3  0x096ab498 in __GI___libc_malloc (bytes=636262388) at malloc.c:3660
+        ar_ptr = 0x97b2400
+        victim = <optimized out>
+        hook = <optimized out>
+        __func__ = "__libc_malloc"
+#4  0x00ed6d9b in qMalloc(unsigned int) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#5  0x00efd9c8 in QListData::detach(int) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#6  0x00cb770a in QList<IndicatorEntryWidget*>::detach_helper() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#7  0x00cb77a7 in QList<IndicatorEntryWidget*>::removeOne(IndicatorEntryWidget* const&) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#8  0x00cb64bd in IndicatorsManager::removeIndicatorEntryWidget(IndicatorEntryWidget*) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#9  0x00cb868a in IndicatorsWidget::onEntryRemoved(std::string const&) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#10 0x00cb879a in sigc::internal::slot_call1<sigc::bound_mem_functor1<void, IndicatorsWidget, std::string const&>, void, std::string const&>::call_it(sigc::internal::slot_rep*, std::string const&) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#11 0x01831f15 in unity::indicator::Indicator::~Indicator() () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#12 0x01836c19 in boost::detail::sp_counted_impl_p<unity::indicator::Indicator>::dispose() () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#13 0x00cb8a69 in QList<boost::shared_ptr<unity::indicator::Indicator> >::~QList() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#14 0x00cb8bc3 in IndicatorsWidget::~IndicatorsWidget() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#15 0x00fec7f1 in QObjectPrivate::deleteChildren() () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#16 0x002bb4de in QWidget::~QWidget() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#17 0x08069733 in IndicatorApplet::~IndicatorApplet() () from /usr/lib/unity-2d/plugins/panel/libpanelplugin-indicator.so.0
+No symbol table info available.
+#18 0x00fec7f1 in QObjectPrivate::deleteChildren() () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#19 0x002bb4de in QWidget::~QWidget() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#20 0x00c51a1c in Unity2dPanel::~Unity2dPanel() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#21 0x00c51ac2 in Unity2dPanel::~Unity2dPanel() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#22 0x0804ba46 in PanelManager::~PanelManager() ()
+No symbol table info available.
+#23 0x0804b067 in main ()
+No symbol table info available.

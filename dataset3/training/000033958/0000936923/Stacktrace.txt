@@ -1,0 +1,32 @@
+#0  0x00007fea54ffb650 in unity::launcher::Launcher::DndReset() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0x00007fea54ffbbd6 in unity::launcher::Launcher::OnUpdateDragManagerTimeout(void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x00007fea6616380b in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007fea66162bca in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007fea66162f90 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007fea66163054 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007fea62663c79 in ?? () from /usr/lib/compizconfig/backends/libgconf.so
+No symbol table info available.
+#7  0x00007fea63f2959e in CcpScreen::timeout() () from /usr/lib/compiz/libccp.so
+No symbol table info available.
+#8  0x00007fea6815642b in CompTimer::triggerCallback() () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#9  0x00007fea6815652f in CompTimeoutSource::callback() () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#10 0x00007fea681559dd in CompTimeoutSource::dispatch(sigc::slot_base*) () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#11 0x00007fea666586bf in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/x86_64-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#12 0x00007fea66162bca in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0x00007fea66162f90 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00007fea6616338a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x000000000040299e in main ()
+No symbol table info available.

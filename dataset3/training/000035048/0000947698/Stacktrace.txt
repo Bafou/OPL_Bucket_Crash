@@ -1,0 +1,32 @@
+#0  0x00000000039111f0 in ?? ()
+No symbol table info available.
+#1  0x00007f1800d73fe0 in nux::Property<int>::operator=(int const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x00007f1800d7d197 in unity::ui::Decaymulator::OnDecayTimeout(void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x00007f181245da1b in g_mapped_file_get_length () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x0000000005271fe0 in ?? ()
+No symbol table info available.
+#5  0x0000000000000005 in ?? ()
+No symbol table info available.
+#6  0x00007f181245cdda in g_timeout_add_full () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00000000038aa400 in ?? ()
+No symbol table info available.
+#8  0x00007fff87f047f0 in ?? ()
+No symbol table info available.
+#9  0x00007f181245da00 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0x00000000051542b0 in ?? ()
+No symbol table info available.
+#11 0x0000000005271fe0 in ?? ()
+No symbol table info available.
+#12 0x00007fff87f049e0 in ?? ()
+No symbol table info available.
+#13 0x0000000003c08050 in ?? ()
+No symbol table info available.
+#14 0x00007f1800d7d160 in ?? () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#15 0x0000000000000000 in ?? ()
+No symbol table info available.

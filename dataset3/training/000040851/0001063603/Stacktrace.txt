@@ -1,0 +1,34 @@
+#0  0x00007ffc3c2c3c51 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007ffc3c2c408c in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007ffc3c2c40b8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007ffc3c2c5ac8 in g_source_add_child_source () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007ffc24ba4d24 in ?? () from /usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so
+No symbol table info available.
+#5  0x00007ffc3c2c6ab5 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007ffc3c2c6de8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00007ffc3c2c6ea4 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0x00007ffc3c85f69c in g_application_run () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#9  0x00007ffc3d8d5730 in ?? ()
+No symbol table info available.
+#10 0x00007ffc3bcc476d in __libc_start_main () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#11 0x00007ffc3d8d4c69 in ?? ()
+No symbol table info available.
+#12 0x00007fff8aef2928 in ?? ()
+No symbol table info available.
+#13 0x000000000000001c in ?? ()
+No symbol table info available.
+#14 0x0000000000000001 in ?? ()
+No symbol table info available.
+#15 0x00007fff8aef3914 in ?? ()
+No symbol table info available.
+#16 0x0000000000000000 in ?? ()
+No symbol table info available.

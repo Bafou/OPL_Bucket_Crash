@@ -1,0 +1,30 @@
+#0  0x00007fa1884d1d05 in raise () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00007fa1884d5ab6 in abort () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x00007fa18850ad7b in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0x00007fa188516a8f in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#4  0x00007fa18851a8e3 in free () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#5  0x00007fa17d90b8ac in BamfLauncherIcon::BamfLauncherIcon(Launcher*, _BamfApplication*, CompScreen*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#6  0x00007fa17d8a03b6 in LauncherController::CreateFavorite(char const*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#7  0x00007fa17d8a046b in LauncherController::SetupBamf() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#8  0x00007fa17d8a06a9 in LauncherController::BamfTimerCallback(void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#9  0x00007fa1898b34eb in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0x00007fa1898b1bcd in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0x00007fa1898b23a8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#12 0x00007fa1898b29f2 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0x000000000042a32a in CompScreen::eventLoop() ()
+No symbol table info available.
+#14 0x00000000004231a0 in main ()
+No symbol table info available.

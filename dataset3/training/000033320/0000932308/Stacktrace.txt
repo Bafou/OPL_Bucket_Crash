@@ -1,0 +1,68 @@
+#0  0x00007f7837b87f2b in g_logv () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007f7837b88102 in g_log () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f78387a0c77 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#3  0x00007f7837e3f15e in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00007f7837e40644 in g_object_newv () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007f7837e40e26 in g_object_new_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00007f7837e41134 in g_object_new () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00007f78289664b8 in ?? () from /usr/lib/indicators3/7/libsoundmenu.so
+No symbol table info available.
+#8  0x00007f7837e5a917 in g_type_create_instance () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#9  0x00007f7837e3efe9 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#10 0x00007f7837e40b62 in g_object_newv () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x00007f7837e4114c in g_object_new () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x00007f78289654be in ?? () from /usr/lib/indicators3/7/libsoundmenu.so
+No symbol table info available.
+#13 0x00007f7837e5a917 in g_type_create_instance () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#14 0x00007f7837e3efe9 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#15 0x00007f7837e40b62 in g_object_newv () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#16 0x00007f7837e4114c in g_object_new () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#17 0x00007f78395a9d5c in indicator_object_new_from_file () from /usr/lib/libindicator3.so.7
+No symbol table info available.
+#18 0x0000000000410fb7 in ?? ()
+No symbol table info available.
+#19 0x00007f7837e40644 in g_object_newv () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#20 0x00007f7837e40e26 in g_object_new_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#21 0x00007f7837e41134 in g_object_new () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#22 0x000000000040e7a8 in ?? ()
+No symbol table info available.
+#23 0x00007f7837e40644 in g_object_newv () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#24 0x00007f7837e4114c in g_object_new () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#25 0x0000000000413ed6 in ?? ()
+No symbol table info available.
+#26 0x000000000041523b in ?? ()
+No symbol table info available.
+#27 0x00007f78370b376d in __libc_start_main () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#28 0x0000000000408ec9 in ?? ()
+No symbol table info available.
+#29 0x00007fffbbbc3058 in ?? ()
+No symbol table info available.
+#30 0x000000000000001c in ?? ()
+No symbol table info available.
+#31 0x0000000000000001 in ?? ()
+No symbol table info available.
+#32 0x00007fffbbbc4d68 in ?? ()
+No symbol table info available.
+#33 0x0000000000000000 in ?? ()
+No symbol table info available.

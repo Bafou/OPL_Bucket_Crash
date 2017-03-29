@@ -1,0 +1,20 @@
+#0  0xac460659 in ?? () from /usr/lib/libgnome-bluetooth.so.11
+No symbol table info available.
+#1  0xafe00699 in ?? () from /usr/lib/i386-linux-gnu/control-center-1/panels/libbluetooth.so
+No symbol table info available.
+#2  0xb6f5c1e5 in g_simple_async_result_complete () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#3  0xb6f5c24b in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#4  0xb6d6f590 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0xb6d7282e in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0xb6d72bd8 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0xb6d72c98 in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0xb6f8e194 in g_application_run () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#9  0x0804d4e0 in main ()
+No symbol table info available.

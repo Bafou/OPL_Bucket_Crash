@@ -1,0 +1,102 @@
+#0  0x00000251 in ?? ()
+No symbol table info available.
+#1  0x013346ff in ?? () from /usr/lib/i386-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#2  0x0133654c in geis_filter_delete () from /usr/lib/i386-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#3  0x01336654 in ?? () from /usr/lib/i386-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#4  0x01338ccd in ?? () from /usr/lib/i386-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#5  0x01338d29 in ?? () from /usr/lib/i386-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#6  0x0133b549 in geis_delete () from /usr/lib/i386-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#7  0x0133ab4f in geis_finish () from /usr/lib/i386-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#8  0x026500c6 in GeisAdapter::RegisterRootInstance() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#9  0x026501f4 in GeisAdapter::GeisAdapter() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#10 0x0265036e in GeisAdapter::Default() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#11 0x02686d5e in unity::launcher::Launcher::Launcher(nux::BaseWindow*, char const*, int) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#12 0x02691173 in unity::launcher::Controller::Impl::CreateLauncher(int) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#13 0x02691af4 in unity::launcher::Controller::Impl::EnsureLaunchers(int, std::vector<nux::Rect, std::allocator<nux::Rect> > const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#14 0x02692216 in unity::launcher::Controller::Impl::Impl(_XDisplay*, unity::launcher::Controller*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#15 0x0269331a in unity::launcher::Controller::Controller(_XDisplay*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#16 0x0276c465 in unity::UnityScreen::initLauncher() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#17 0x0276d012 in unity::UnityScreen::initUnity(nux::NThread*, void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#18 0x012eb214 in nux::WindowThread::Run(void*) () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#19 0x027710ab in unity::UnityScreen::UnityScreen(CompScreen*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#20 0x0277f26e in PluginClassHandler<unity::UnityScreen, CompScreen, 0>::get(CompScreen*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#21 0x0277f3fb in CompPlugin::VTableForScreenAndWindow<unity::UnityScreen, unity::UnityWindow>::initScreen(CompScreen*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#22 0x0089904d in CompManager::initPlugin(CompPlugin*) () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#23 0x00899bf0 in CompPlugin::push(CompPlugin*) () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#24 0x008658a2 in compiz::private_screen::PluginManager::updatePlugins() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#25 0x00867b67 in PrivateScreen::processEvents() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#26 0x00867cb2 in CompScreenImpl::processEvents() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#27 0x0089f552 in CompEventSource::callback() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#28 0x0089f8c2 in sigc::internal::slot_call0<sigc::bound_mem_functor0<bool, CompEventSource>, bool>::call_it(sigc::internal::slot_rep*) () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#29 0x0089f662 in CompEventSource::dispatch(sigc::slot_base*) () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#30 0x0023dd71 in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#31 0x00711d7a in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#32 0x00712185 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#33 0x00712261 in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#34 0x004bb2bc in ?? () from /usr/lib/compizconfig/backends/libgconf.so
+No symbol table info available.
+#35 0x007e3c2f in ccsProcessEvents () from /usr/lib/libcompizconfig.so.0
+No symbol table info available.
+#36 0x004a134b in CcpScreen::timeout() () from /usr/lib/compiz/libccp.so
+No symbol table info available.
+#37 0x004a1621 in boost::detail::function::function_obj_invoker0<boost::_bi::bind_t<bool, boost::_mfi::mf0<bool, CcpScreen>, boost::_bi::list1<boost::_bi::value<CcpScreen*> > >, bool>::invoke(boost::detail::function::function_buffer&) () from /usr/lib/compiz/libccp.so
+No symbol table info available.
+#38 0x008a8c83 in CompTimer::triggerCallback() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#39 0x008a8d91 in CompTimeoutSource::callback() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#40 0x008a8ea2 in sigc::internal::slot_call0<sigc::bound_mem_functor0<bool, CompTimeoutSource>, bool>::call_it(sigc::internal::slot_rep*) () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#41 0x008a801f in CompTimeoutSource::dispatch(sigc::slot_base*) () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#42 0x0023dd71 in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#43 0x00711d7a in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#44 0x00712185 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#45 0x007125cb in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#46 0x0023f3f3 in Glib::MainLoop::run() () from /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#47 0x0085b9e6 in compiz::private_screen::EventManager::startEventLoop() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#48 0x0085ba22 in CompScreenImpl::eventLoop() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#49 0x0804a4f2 in CompManager::run() ()
+No symbol table info available.
+#50 0x0804a17c in main ()
+No symbol table info available.

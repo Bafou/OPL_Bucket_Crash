@@ -1,0 +1,26 @@
+#0  0xb46e2f9e in unity::ui::EdgeBarrierController::Impl::OnPointerBarrierEvent(unity::ui::PointerBarrierWrapper*, std::shared_ptr<unity::ui::BarrierEvent>) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0xb46e4ec5 in sigc::internal::slot_call2<sigc::bound_mem_functor2<void, unity::ui::EdgeBarrierController::Impl, unity::ui::PointerBarrierWrapper*, std::shared_ptr<unity::ui::BarrierEvent> >, void, unity::ui::PointerBarrierWrapper*, std::shared_ptr<unity::ui::BarrierEvent> >::call_it(sigc::internal::slot_rep*, unity::ui::PointerBarrierWrapper* const&, std::shared_ptr<unity::ui::BarrierEvent> const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0xb4759599 in unity::ui::PointerBarrierWrapper::EmitCurrentData() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0xb4759772 in ?? () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0xb7190a3f in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0xb718fcda in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0xb71900e5 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0xb719052b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0xb728b983 in Glib::MainLoop::run() () from /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#9  0xb7716816 in compiz::private_screen::EventManager::startEventLoop() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#10 0xb7716852 in CompScreenImpl::eventLoop() () from /usr/lib/libcompiz_core.so.ABI-20120305
+No symbol table info available.
+#11 0x0804a4f2 in CompManager::run() ()
+No symbol table info available.
+#12 0x0804a17c in main ()
+No symbol table info available.

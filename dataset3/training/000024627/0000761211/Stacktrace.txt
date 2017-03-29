@@ -1,0 +1,20 @@
+#0  0x01ea9cab in PlacesResultsController::Clear() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0x01e4151c in PlacesView::SetActiveEntry(PlaceEntry*, unsigned int, char const*, bool) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x01e46c6e in PlacesController::OnViewShowHideFrame(PlacesController*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x002733cc in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00271aa8 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00272270 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x0027292b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00bcce95 in Glib::MainLoop::run() () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#8  0x0806ecbb in CompScreen::eventLoop() ()
+No symbol table info available.
+#9  0x08066e78 in main ()
+No symbol table info available.

@@ -1,0 +1,47 @@
+#0  __GI_getenv (name=0x7f17f64df0f7 "NGUAGE") at getenv.c:90
+        ep_start = <error reading variable ep_start (Cannot access memory at address 0x120)>
+        len = 6
+        ep = 0xcad1a0
+        name_start = 16716
+#1  0x00007f17f63b49fc in guess_category_value (category=5, categoryname=<optimized out>) at dcigettext.c:1359
+        language = <optimized out>
+        retval = <optimized out>
+#2  __dcigettext (domainname=0x7f17f67b08b0 "contents != NULL || length == 0", msgid1=0x7f17f718ee11 "t of the compressed data", msgid2=0x0, plural=0, n=0, category=5) at dcigettext.c:575
+        domain = <optimized out>
+        binding = <optimized out>
+        categoryname = 0x7f17f64cb0d3 "LC_MESSAGES"
+        categoryvalue = <optimized out>
+        dirname = 0x7f17f64e6750 "/usr/share/locale"
+        xdomainname = <optimized out>
+        retval = <optimized out>
+        retlen = <optimized out>
+        saved_errno = 0
+        search = {domainname = 0x7f17f67b08b0 "contents != NULL || length == 0", category = 5, localename = 0x7f17ee06c6c0 "en_US.UTF-8", counter = 0, domain = 0x0, translation = 0xde4920 "\001", translation_length = 14567424, msgid = {appended = 0x7f17ee06c788 "\021\356\030\367\027\177", ptr = 0x7f17f718ee11 "t of the compressed data"}}
+        foundp = 0x0
+        localename = 0x7f17ee06c6c0 "en_US.UTF-8"
+        domainname_len = <optimized out>
+        tree_lock = {__data = {__lock = 0, __nr_readers = 0, __readers_wakeup = 0, __writer_wakeup = 0, __nr_readers_queued = 0, __nr_writers_queued = 0, __writer = 0, __shared = 0, __pad1 = 0, __pad2 = 0, __flags = 0}, __size = '\000' <repeats 55 times>, __align = 0}
+#3  0x00007f17f7144958 in distribute_signals (message=0xde4800, connection=0xde4a30) at /build/buildd/glib2.0-2.29.90/./gio/gdbusconnection.c:3562
+        signal_data_array = 0xffffffe8
+        sender = 0xde4800 "\020", <incomplete sequence \336>
+#4  on_worker_message_received (worker=<optimized out>, message=0xde4800, user_data=<optimized out>) at /build/buildd/glib2.0-2.29.90/./gio/gdbusconnection.c:2134
+        message_type = <optimized out>
+        connection = 0xde4a30
+        filters = 0x7f17f719bd80
+        num_filters = <optimized out>
+        n = <optimized out>
+        alive = <optimized out>
+#5  0x00007f17f6c2873e in g_bsearch_array_grow (barray=<optimized out>, bconfig=<optimized out>, index_=<optimized out>) at /build/buildd/glib2.0-2.29.90/./glib/gbsearcharray.h:206
+No locals.
+#6  g_bsearch_array_grow (barray=0x7f17f7185dc9, index_=16, bconfig=<optimized out>) at /build/buildd/glib2.0-2.29.90/./glib/gbsearcharray.h:198
+        old_size = 4294966720
+        new_size = 4294966744
+        node = <optimized out>
+#7  0x0000000000000001 in ?? ()
+No symbol table info available.
+#8  0x0000000000000001 in ?? ()
+No symbol table info available.
+#9  0x0000000000000001 in ?? ()
+No symbol table info available.
+#10 0x0000000000000000 in ?? ()
+No symbol table info available.

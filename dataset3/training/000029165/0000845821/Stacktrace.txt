@@ -1,0 +1,56 @@
+#0  0x00a21416 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0x00637c8f in raise () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x0063b2b5 in abort () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0x001ce4ed in __gnu_cxx::__verbose_terminate_handler() () from /usr/lib/i386-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#4  0x001cc283 in ?? () from /usr/lib/i386-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#5  0x001cc2bf in std::terminate() () from /usr/lib/i386-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#6  0x001cc40e in __cxa_throw () from /usr/lib/i386-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#7  0x002bcf02 in qBadAlloc() () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#8  0x002e7a21 in QListData::detach(int) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#9  0x005d470a in QList<IndicatorEntryWidget*>::detach_helper() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#10 0x005d47a7 in QList<IndicatorEntryWidget*>::removeOne(IndicatorEntryWidget* const&) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#11 0x005d34bd in IndicatorsManager::removeIndicatorEntryWidget(IndicatorEntryWidget*) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#12 0x0830a20a in MenuBarWidget::onEntryRemoved(std::string const&) () from /usr/lib/unity-2d/plugins/panel/libpanelplugin-appname.so.0
+No symbol table info available.
+#13 0x0830a32a in sigc::internal::slot_call1<sigc::bound_mem_functor1<void, MenuBarWidget, std::string const&>, void, std::string const&>::call_it(sigc::internal::slot_rep*, std::string const&) () from /usr/lib/unity-2d/plugins/panel/libpanelplugin-appname.so.0
+No symbol table info available.
+#14 0x093dcf15 in unity::indicator::Indicator::~Indicator() () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#15 0x093e1c19 in boost::detail::sp_counted_impl_p<unity::indicator::Indicator>::dispose() () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#16 0x093e2060 in std::_Rb_tree<std::string, std::pair<std::string const, boost::shared_ptr<unity::indicator::Indicator> >, std::_Select1st<std::pair<std::string const, boost::shared_ptr<unity::indicator::Indicator> > >, std::less<std::string>, std::allocator<std::pair<std::string const, boost::shared_ptr<unity::indicator::Indicator> > > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, boost::shared_ptr<unity::indicator::Indicator> > >*) () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#17 0x093e0cfc in unity::indicator::Indicators::~Indicators() () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#18 0x093c4808 in unity::indicator::DBusIndicators::~DBusIndicators() () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#19 0x093c4852 in unity::indicator::DBusIndicators::~DBusIndicators() () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#20 0x005d3d76 in boost::detail::sp_counted_impl_p<unity::indicator::DBusIndicators>::dispose() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#21 0x005d4310 in IndicatorsManager::~IndicatorsManager() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#22 0x003d67f1 in QObjectPrivate::deleteChildren() () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#23 0x00bcd4de in QWidget::~QWidget() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#24 0x0056ea1c in Unity2dPanel::~Unity2dPanel() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#25 0x0056eac2 in Unity2dPanel::~Unity2dPanel() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#26 0x0804ba46 in PanelManager::~PanelManager() ()
+No symbol table info available.
+#27 0x0804b067 in main ()
+No symbol table info available.

@@ -1,0 +1,143 @@
+#0  0x00d33422 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0x00c65f60 in raise () from /lib/tls/i686/cmov/libpthread.so.0
+No symbol table info available.
+#2  0x0112ee2a in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#3  <signal handler called>
+No symbol table info available.
+#4  0x032dac82 in graphite_PangoGlyphString ()
+   from /usr/lib/pango/1.6.0/modules/graphite/pango-graphite.so
+No symbol table info available.
+#5  0x032dbcb9 in ?? ()
+   from /usr/lib/pango/1.6.0/modules/graphite/pango-graphite.so
+No symbol table info available.
+#6  0x009e857a in ?? () from /usr/lib/libpango-1.0.so.0
+No symbol table info available.
+#7  0x009fae8a in pango_shape () from /usr/lib/libpango-1.0.so.0
+No symbol table info available.
+#8  0x0199720a in gfxPangoFontGroup::CreateGlyphRunsItemizing(gfxTextRun*, char const*, unsigned int, unsigned int) ()
+   from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#9  0x01998ea9 in gfxPangoFontGroup::InitTextRun(gfxTextRun*, char const*, unsigned int, unsigned int, int) () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#10 0x0199916d in gfxPangoFontGroup::MakeTextRun(unsigned short const*, unsigned int, gfxTextRunFactory::Parameters const*, unsigned int) ()
+   from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#11 0x01993441 in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#12 0x0199357d in gfxTextRunWordCache::MakeTextRun(unsigned short const*, unsigned int, gfxFontGroup*, gfxTextRunFactory::Parameters const*, unsigned int) ()
+   from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#13 0x01991ab0 in gfxTextRunCache::MakeTextRun(unsigned short const*, unsigned int, gfxFontGroup*, gfxContext*, unsigned int, unsigned int) ()
+   from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#14 0x018ba2aa in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#15 0x018b91c3 in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#16 0x018b7c5e in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#17 0x0197a035 in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#18 0x012bc213 in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#19 0x013bd7ae in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#20 0x013be26a in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#21 0x013be2dd in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#22 0x013be479 in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#23 0x013be52c in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#24 0x012ade79 in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#25 0x012ae1a1 in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#26 0x012ade79 in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#27 0x012ae057 in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#28 0x012ade79 in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#29 0x012ae057 in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#30 0x012ade79 in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#31 0x012be774 in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#32 0x012c650a in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#33 0x0153070f in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#34 0x01530d54 in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#35 0x0153125e in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#36 0x0152c764 in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#37 0x01885e73 in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#38 0x0188e219 in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#39 0x0188e539 in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#40 0x0200e3c4 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#41 0x007b5092 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#42 0x007ca6f8 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#43 0x007cb908 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#44 0x007cbf06 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#45 0x0212a83e in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#46 0x02008025 in gtk_main_do_event () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#47 0x00bdc1e4 in ?? () from /usr/lib/libgdk-x11-2.0.so.0
+No symbol table info available.
+#48 0x00bff744 in ?? () from /usr/lib/libgdk-x11-2.0.so.0
+No symbol table info available.
+#49 0x00bd389f in ?? () from /usr/lib/libgdk-x11-2.0.so.0
+No symbol table info available.
+#50 0x00bd584f in gdk_window_process_all_updates ()
+   from /usr/lib/libgdk-x11-2.0.so.0
+No symbol table info available.
+#51 0x00bd58cb in ?? () from /usr/lib/libgdk-x11-2.0.so.0
+No symbol table info available.
+#52 0x00bb1f98 in ?? () from /usr/lib/libgdk-x11-2.0.so.0
+No symbol table info available.
+#53 0x00d6b0f1 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#54 0x00d6ce78 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#55 0x00d70720 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#56 0x00d70853 in g_main_context_iteration () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#57 0x018914a0 in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#58 0x018a5acc in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#59 0x018a5c18 in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#60 0x019545de in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#61 0x01925063 in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#62 0x018a5d7e in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#63 0x0176edd0 in ?? () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#64 0x0112a5bd in XRE_main () from /usr/lib/xulrunner-1.9.1.3/libxul.so
+No symbol table info available.
+#65 0x0804a02f in ?? ()
+No symbol table info available.
+#66 0x002fbb56 in __libc_start_main () from /lib/tls/i686/cmov/libc.so.6
+No symbol table info available.
+#67 0x08049881 in ?? ()
+No symbol table info available.

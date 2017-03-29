@@ -1,0 +1,24 @@
+#0  0x0000000000000000 in ?? ()
+No symbol table info available.
+#1  0x00007f178c68f5c9 in eglGetDisplay () from /usr/lib/x86_64-linux-gnu/libhybris-egl/libEGL.so.1
+No symbol table info available.
+#2  0x00007f178a942d25 in mir::graphics::gbm::helpers::EGLHelper::setup_internal(mir::graphics::gbm::helpers::GBMHelper const&, bool) () from /usr/lib/x86_64-linux-gnu/libmirplatformgraphics.so
+No symbol table info available.
+#3  0x00007f178a942fb3 in mir::graphics::gbm::helpers::EGLHelper::setup(mir::graphics::gbm::helpers::GBMHelper const&) () from /usr/lib/x86_64-linux-gnu/libmirplatformgraphics.so
+No symbol table info available.
+#4  0x00007f178a945550 in mir::graphics::gbm::GBMDisplay::GBMDisplay(std::shared_ptr<mir::graphics::gbm::GBMPlatform> const&, std::shared_ptr<mir::graphics::gbm::VideoDevices> const&, std::shared_ptr<mir::graphics::DisplayConfigurationPolicy> const&, std::shared_ptr<mir::graphics::DisplayReport> const&) () from /usr/lib/x86_64-linux-gnu/libmirplatformgraphics.so
+No symbol table info available.
+#5  0x00007f178a939c36 in mir::graphics::gbm::GBMPlatform::create_display(std::shared_ptr<mir::graphics::DisplayConfigurationPolicy> const&) () from /usr/lib/x86_64-linux-gnu/libmirplatformgraphics.so
+No symbol table info available.
+#6  0x00007f178e172008 in ?? () from /usr/lib/x86_64-linux-gnu/libmirserver.so.1
+No symbol table info available.
+#7  0x00007f178e1798a3 in mir::DefaultServerConfiguration::the_display() () from /usr/lib/x86_64-linux-gnu/libmirserver.so.1
+No symbol table info available.
+#8  0x00007f178e16de1e in mir::DisplayServer::DisplayServer(mir::ServerConfiguration&) () from /usr/lib/x86_64-linux-gnu/libmirserver.so.1
+No symbol table info available.
+#9  0x00007f178e16978d in mir::run_mir(mir::ServerConfiguration&, std::function<void (mir::DisplayServer&)>) () from /usr/lib/x86_64-linux-gnu/libmirserver.so.1
+No symbol table info available.
+#10 0x000000000041996e in SystemCompositor::run(int, char const**) ()
+No symbol table info available.
+#11 0x00000000004143b7 in main ()
+No symbol table info available.

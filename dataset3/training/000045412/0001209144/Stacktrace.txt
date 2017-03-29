@@ -1,0 +1,87 @@
+#0  0xb7702424 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0xb66f8aff in __GI_raise (sig=sig@entry=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:56
+        resultvar = <optimized out>
+        resultvar = <optimized out>
+        pid = -1232629760
+        selftid = 6211
+#2  0xb66fc083 in __GI_abort () at abort.c:90
+        save_stage = 2
+        act = {__sigaction_handler = {sa_handler = 0xb71742c8, sa_sigaction = 0xb71742c8}, sa_mask = {__val = {2781032368, 3067731968, 2934032732, 3077718016, 3071754952, 5, 3067732872, 3077641692, 3071755392, 3029035792, 1, 5, 0, 3064243983, 3, 3062772776, 3063830859, 3067731968, 3, 3063538084, 2934032668, 3063831251, 2934032732, 3060596968, 2934032760, 3064813632, 2783345824, 3067731968, 2786794456, 146391040, 2934033016, 3077667200}}, sa_flags = -1293942720, sa_restorer = 0xb66fbf40 <__GI_abort>}
+        sigs = {__val = {32, 0 <repeats 31 times>}}
+#3  0xb69e5fc3 in QMessageLogger::fatal(char const*, ...) const () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#4  0xb6e8e836 in ?? () from /usr/lib/i386-linux-gnu/libQt5Gui.so.5
+No symbol table info available.
+#5  0xb6e8e9a3 in QPixmap::QPixmap() () from /usr/lib/i386-linux-gnu/libQt5Gui.so.5
+No symbol table info available.
+#6  0xb6ea1231 in QIconLoader::findIconHelper(QString const&, QString const&, QStringList&) const () from /usr/lib/i386-linux-gnu/libQt5Gui.so.5
+No symbol table info available.
+#7  0xb6ea1957 in QIconLoader::findIconHelper(QString const&, QString const&, QStringList&) const () from /usr/lib/i386-linux-gnu/libQt5Gui.so.5
+No symbol table info available.
+#8  0xb6ea1c68 in QIconLoader::loadIcon(QString const&) const () from /usr/lib/i386-linux-gnu/libQt5Gui.so.5
+No symbol table info available.
+#9  0xb6ea1ddb in ?? () from /usr/lib/i386-linux-gnu/libQt5Gui.so.5
+No symbol table info available.
+#10 0xb6ea1f76 in ?? () from /usr/lib/i386-linux-gnu/libQt5Gui.so.5
+No symbol table info available.
+#11 0xb6ea3ab8 in QIconEngine::availableSizes(QIcon::Mode, QIcon::State) const () from /usr/lib/i386-linux-gnu/libQt5Gui.so.5
+No symbol table info available.
+#12 0xb6e9a7f2 in QIcon::availableSizes(QIcon::Mode, QIcon::State) const () from /usr/lib/i386-linux-gnu/libQt5Gui.so.5
+No symbol table info available.
+#13 0xb6e9ac17 in QIcon::fromTheme(QString const&, QIcon const&) () from /usr/lib/i386-linux-gnu/libQt5Gui.so.5
+No symbol table info available.
+#14 0xb6e9ad35 in QIcon::hasThemeIcon(QString const&) () from /usr/lib/i386-linux-gnu/libQt5Gui.so.5
+No symbol table info available.
+#15 0xb31b2d46 in GIconProvider::requestImage(QString const&, QSize*, QSize const&) () from /usr/lib/i386-linux-gnu/qt5/qml/Ubuntu/Components/libUbuntuComponents.so
+No symbol table info available.
+#16 0xb721330a in ?? () from /usr/lib/i386-linux-gnu/libQt5Quick.so.5
+No symbol table info available.
+#17 0xb7213e5e in ?? () from /usr/lib/i386-linux-gnu/libQt5Quick.so.5
+No symbol table info available.
+#18 0xb7213f2b in ?? () from /usr/lib/i386-linux-gnu/libQt5Quick.so.5
+No symbol table info available.
+#19 0xb6b8b530 in QCoreApplicationPrivate::notify_helper(QObject*, QEvent*) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#20 0xb6b8b594 in QCoreApplication::notify(QObject*, QEvent*) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#21 0xb6e38a0d in QGuiApplication::notify(QObject*, QEvent*) () from /usr/lib/i386-linux-gnu/libQt5Gui.so.5
+No symbol table info available.
+#22 0xb6b8b28a in QCoreApplication::notifyInternal(QObject*, QEvent*) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#23 0xb6b8cc0b in QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#24 0xb6b8d37c in QCoreApplication::sendPostedEvents(QObject*, int) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#25 0xb6bd566e in ?? () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#26 0xb5c794de in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#27 0xb5c79888 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#28 0xb5c79948 in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#29 0xb6bd525d in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#30 0xb6b89b16 in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#31 0xb6b89f24 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#32 0xb69ef91b in QThread::exec() () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#33 0xb7213fb5 in ?? () from /usr/lib/i386-linux-gnu/libQt5Quick.so.5
+No symbol table info available.
+#34 0xb69f3a18 in ?? () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#35 0xb607cd78 in start_thread (arg=0xaee1db40) at pthread_create.c:311
+        __res = <optimized out>
+        pd = 0xaee1db40
+        now = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {-1240932352, 0, 4001536, -1360931800, 219272097, -1053959792}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = 0
+        pagesize_m1 = <optimized out>
+        sp = <optimized out>
+        freesize = <optimized out>
+        __PRETTY_FUNCTION__ = "start_thread"
+#36 0xb67bb45e in clone () at ../sysdeps/unix/sysv/linux/i386/clone.S:131
+No locals.

@@ -1,0 +1,64 @@
+#0  0x00007f9cf10d90a0 in ?? ()
+No symbol table info available.
+#1  0x00007f9d15de1596 in ?? () from /usr/lib/x86_64-linux-gnu/libpixman-1.so.0
+No symbol table info available.
+#2  0x00007f9d15e0d5c2 in ?? () from /usr/lib/x86_64-linux-gnu/libpixman-1.so.0
+No symbol table info available.
+#3  0x00007f9d15da8478 in pixman_image_composite32 () from /usr/lib/x86_64-linux-gnu/libpixman-1.so.0
+No symbol table info available.
+#4  0x00007f9d185c589d in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#5  0x00007f9d185c730c in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#6  0x00007f9d185c862b in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#7  0x00007f9d185c88a9 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#8  0x00007f9d185e6704 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#9  0x00007f9d185c03ed in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#10 0x00007f9d185b7290 in cairo_fill_preserve () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#11 0x00007f9d185b72a9 in cairo_fill () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#12 0x00007f9d0ccc3ff5 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#13 0x00007f9d0ccc0bea in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#14 0x00007f9d0ccb8573 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#15 0x00007f9d0ccb8a63 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#16 0x00007f9d0ccb8573 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#17 0x00007f9d0ccb897c in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#18 0x00007f9d0ccb8573 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#19 0x00007f9d0ccc4bc8 in rsvg_handle_render_cairo_sub () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#20 0x00007f9d0ccc5093 in rsvg_handle_get_pixbuf_sub () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#21 0x00007f9d0cecfd2b in ?? () from /usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+No symbol table info available.
+#22 0x00007f9d1838af11 in gdk_pixbuf_loader_close () from /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0
+No symbol table info available.
+#23 0x00007f9d18387cf9 in ?? () from /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0
+No symbol table info available.
+#24 0x00007f9d18388c41 in gdk_pixbuf_new_from_stream_at_scale () from /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0
+No symbol table info available.
+#25 0x00007f9d04cd045e in unity::IconLoader::Impl::LoaderJobFunc(_GIOSchedulerJob*, _GCancellable*, unity::IconLoader::Impl::IconLoaderTask*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#26 0x00007f9d1808329e in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#27 0x00007f9d1ad2ecf8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#28 0x00007f9d1ad2e485 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#29 0x00007f9d1a8a6e2b in start_thread () from /lib/x86_64-linux-gnu/libpthread.so.0
+No symbol table info available.
+#30 0x00007f9d19c430dd in clone () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#31 0x0000000000000000 in ?? ()
+No symbol table info available.

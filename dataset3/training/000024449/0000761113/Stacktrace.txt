@@ -1,0 +1,86 @@
+#0  0x080845b9 in PrivateWindow::processMap() ()
+No symbol table info available.
+#1  0x08093036 in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#2  0xb63a5802 in PrivateCompositeScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libcomposite.so
+No symbol table info available.
+#3  0x0809299f in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#4  0xb637b5e4 in PrivateGLScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libopengl.so
+No symbol table info available.
+#5  0x0809299f in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#6  0xb5020365 in DecorScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libdecor.so
+No symbol table info available.
+#7  0x0809299f in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#8  0xb5004f19 in VPSwitchScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libvpswitch.so
+No symbol table info available.
+#9  0x0809299f in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#10 0xb4ff9521 in RegexScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libregex.so
+No symbol table info available.
+#11 0x0809299f in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#12 0xb4f834f5 in SnapScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libsnap.so
+No symbol table info available.
+#13 0x0809299f in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#14 0xb4eea964 in MoveScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libmove.so
+No symbol table info available.
+#15 0x0809299f in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#16 0xb4ec9b71 in PlaceScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libplace.so
+No symbol table info available.
+#17 0x0809299f in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#18 0xb4e59053 in WallScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libwall.so
+No symbol table info available.
+#19 0x0809299f in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#20 0xb4c11ad1 in WorkaroundsScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libworkarounds.so
+No symbol table info available.
+#21 0x0809299f in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#22 0xb4bd78ce in ResizeScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libresize.so
+No symbol table info available.
+#23 0x0809299f in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#24 0xb4bbf9d5 in FadeScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libfade.so
+No symbol table info available.
+#25 0x0809299f in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#26 0xb4baa9cd in UnityMTGrabHandlesScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libunitymtgrabhandles.so
+No symbol table info available.
+#27 0x0809299f in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#28 0xb4b67450 in PrivateScaleScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libscale.so
+No symbol table info available.
+#29 0x0809299f in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#30 0xb4b4e5a6 in SessionScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libsession.so
+No symbol table info available.
+#31 0x0809299f in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#32 0xb4af5310 in UnityScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#33 0x0809299f in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#34 0x08072489 in PrivateScreen::processEvents() ()
+No symbol table info available.
+#35 0x0809a060 in CompEventSource::callback() ()
+No symbol table info available.
+#36 0xb7307959 in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#37 0xb71d9aa8 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#38 0xb71da270 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#39 0xb71da92b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#40 0xb7308e95 in Glib::MainLoop::run() () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#41 0x0806ecbb in CompScreen::eventLoop() ()
+No symbol table info available.
+#42 0x08066e78 in main ()
+No symbol table info available.

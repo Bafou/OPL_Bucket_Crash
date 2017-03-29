@@ -1,0 +1,28 @@
+#0  0x00007f5c8d4c992d in g_mount_spec_match_with_path () from /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+No symbol table info available.
+#1  0x00007f5c8d6fe2d3 in ?? () from /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+No symbol table info available.
+#2  0x00007f5c8d6ff0c5 in ?? () from /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+No symbol table info available.
+#3  0x00007f5c8d704a0d in ?? () from /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+No symbol table info available.
+#4  0x00007f5c8d7052d0 in ?? () from /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+No symbol table info available.
+#5  0x00007f5c8d706014 in ?? () from /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+No symbol table info available.
+#6  0x00007f5caa204bea in g_file_load_contents () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#7  0x00007f5c93869810 in unity::IconLoader::Impl::IconLoaderTask::LoaderJobFunc(_GIOSchedulerJob*, _GCancellable*, void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#8  0x00007f5caa219766 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#9  0x00007f5cae4911a2 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0x00007f5cae490985 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0x00007f5caf90ee9a in start_thread () from /lib/x86_64-linux-gnu/libpthread.so.0
+No symbol table info available.
+#12 0x00007f5cafc1639d in clone () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#13 0x0000000000000000 in ?? ()
+No symbol table info available.

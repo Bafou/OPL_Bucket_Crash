@@ -1,0 +1,44 @@
+#0  strlen () at ../sysdeps/x86_64/strlen.S:106
+No locals.
+#1  0x00007f1d8a92b79a in FcitxConfigFree () from /usr/lib/x86_64-linux-gnu/libfcitx-config.so.4
+No symbol table info available.
+#2  0x00007f1d8ada2809 in ?? () from /usr/lib/x86_64-linux-gnu/unity-control-center-1/panels/libregion.so
+No symbol table info available.
+#3  0x00007f1db4bf512f in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00007f1db4bf6225 in g_object_unref () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007f1d8ad9d16a in ?? () from /usr/lib/x86_64-linux-gnu/unity-control-center-1/panels/libregion.so
+No symbol table info available.
+#6  0x00007f1db4bf629a in g_object_unref () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00007f1db6908814 in cc_shell_set_active_panel () from /usr/lib/x86_64-linux-gnu/libunity-control-center.so.1
+No symbol table info available.
+#8  0x00007f1db690888e in ?? () from /usr/lib/x86_64-linux-gnu/libunity-control-center.so.1
+No symbol table info available.
+#9  0x00007f1db4bf6225 in g_object_unref () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#10 0x00007f1db5ad5219 in ?? () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#11 0x00007f1db4bf1504 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x00007f1db4c0aa50 in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x00007f1db4c0b8ff in g_signal_emit () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#14 0x00007f1db5c06434 in ?? () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#15 0x00007f1db5ad4762 in gtk_main_do_event () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#16 0x00007f1db5671a22 in ?? () from /usr/lib/x86_64-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#17 0x00007f1db491bc3d in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#18 0x00007f1db491bf20 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#19 0x00007f1db491bfcc in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#20 0x00007f1db4edbfac in g_application_run () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#21 0x00000000004075c6 in main ()
+No symbol table info available.

@@ -1,0 +1,87 @@
+#0  0x00007f1c79a07cfd in e_contact_set (contact=0x176dd20, 
+    field_id=E_CONTACT_ADDRESS_HOME, value=0x169cc00) at e-contact.c:1637
+	__t = <value optimized out>
+	__r = <value optimized out>
+	__PRETTY_FUNCTION__ = "e_contact_set"
+#1  0x000000000040d8f5 in about_me_focus_out (widget=<value optimized out>, 
+    event=<value optimized out>, me=0x15ea660) at gnome-about-me.c:314
+	str = (gchar *) 0x17473b0 ""
+	wid = (const gchar *) 0x16783e0 "addr-street-1"
+	i = <value optimized out>
+#2  0x00007f1c7a888488 in _gtk_marshal_BOOLEAN__BOXED (closure=0x16aea80, 
+    return_value=0x7fff10c7a0c0, n_param_values=<value optimized out>, 
+    param_values=0x1887260, invocation_hint=<value optimized out>, 
+    marshal_data=0x40d670)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtkmarshalers.c:84
+	data1 = (gpointer) 0x16742e0
+	data2 = (gpointer) 0x20
+	v_return = <value optimized out>
+	__PRETTY_FUNCTION__ = "_gtk_marshal_BOOLEAN__BOXED"
+#3  0x00007f1c792fe60e in g_closure_invoke ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00007f1c79313933 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007f1c79314b7c in g_signal_emit_valist ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00007f1c79315233 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00007f1c7a98f34f in gtk_widget_event_internal (widget=0x16742e0, 
+    event=0x1855240) at /build/buildd/gtk+2.0-2.18.0/gtk/gtkwidget.c:4767
+	signal_num = <value optimized out>
+	return_val = 0
+#8  0x00007f1c7a99e403 in do_focus_change (widget=0x16742e0, in=0)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtkwindow.c:5256
+	fevent = (GdkEvent *) 0x1855240
+#9  0x00007f1c7a99edb2 in gtk_window_real_set_focus (window=0x16050a0, 
+    focus=0x0) at /build/buildd/gtk+2.0-2.18.0/gtk/gtkwindow.c:5458
+	old_focus = (GtkWidget *) 0x16742e0
+	had_default = 0
+	focus_had_default = 0
+	old_focus_had_default = 0
+#10 0x00007f1c792fe60e in g_closure_invoke ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x00007f1c793135fd in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x00007f1c79314ce9 in g_signal_emit_valist ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x00007f1c79315233 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#14 0x00007f1c7a9a565b in gtk_window_dispose (object=0x176dd20)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtkwindow.c:2148
+No locals.
+#15 0x00007f1c79300970 in g_object_run_dispose ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#16 0x00007f1c7a881d9a in IA__gtk_main_do_event (event=0x1854440)
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtkmain.c:1549
+	event_widget = (GtkWidget *) 0x16050a0
+	grab_widget = (GtkWidget *) 0x16050a0
+	window_group = (GtkWindowGroup *) 0x174a4e0
+	rewritten_event = (GdkEvent *) 0x0
+	tmp_list = <value optimized out>
+	__PRETTY_FUNCTION__ = "IA__gtk_main_do_event"
+#17 0x00007f1c7a4f6b5c in gdk_event_dispatch (source=<value optimized out>, 
+    callback=<value optimized out>, user_data=<value optimized out>)
+    at /build/buildd/gtk+2.0-2.18.0/gdk/x11/gdkevents-x11.c:2369
+	display = <value optimized out>
+	event = <value optimized out>
+#18 0x00007f1c79065bbe in g_main_context_dispatch ()
+   from /lib/libglib-2.0.so.0
+No symbol table info available.
+#19 0x00007f1c79069588 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#20 0x00007f1c790699e5 in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#21 0x00007f1c7a881fc7 in IA__gtk_main ()
+    at /build/buildd/gtk+2.0-2.18.0/gtk/gtkmain.c:1205
+	tmp_list = (GList *) 0x166c990
+	functions = (GList *) 0x0
+	init = (GtkInitFunction *) 0x15ea660
+	loop = <value optimized out>
+#22 0x000000000040eeec in main (argc=1, argv=0x7fff10c7abb8)
+    at gnome-about-me.c:1078
+	rc = <value optimized out>

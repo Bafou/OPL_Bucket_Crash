@@ -1,0 +1,26 @@
+#0  0x00000000004061f4 in ?? ()
+No symbol table info available.
+#1  0x00007f93d28db123 in ?? () from /usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0
+No symbol table info available.
+#2  0x00007f93d0b22780 in g_hash_table_foreach () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f93d28db49d in ?? () from /usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0
+No symbol table info available.
+#4  0x00007f93d28d8af4 in ?? () from /usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0
+No symbol table info available.
+#5  0x00007f93d0278e66 in ?? () from /lib/x86_64-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#6  0x00007f93d026ba31 in dbus_connection_dispatch () from /lib/x86_64-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#7  0x00007f93cfa5b205 in ?? () from /usr/lib/x86_64-linux-gnu/libatspi.so.0
+No symbol table info available.
+#8  0x00007f93d0b32446 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0x00007f93d0b32798 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0x00007f93d0b32b9a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0x00007f93d1c0f3a5 in gtk_main () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#12 0x0000000000404e57 in main ()
+No symbol table info available.

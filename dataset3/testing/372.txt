@@ -1,0 +1,96 @@
+#0  0x0806d0a1 in CompScreen::insertServerWindow(CompWindow*, unsigned long) ()
+No symbol table info available.
+#1  0x080849cb in PrivateWindow::reconfigureXWindow(unsigned int, XWindowChanges*) ()
+No symbol table info available.
+#2  0x08084a9d in CompWindow::configureXWindow(unsigned int, XWindowChanges*) ()
+No symbol table info available.
+#3  0x0808666f in CompWindow::updateAttributes(CompStackingUpdateMode) ()
+No symbol table info available.
+#4  0x08086b7b in CompWindow::activate() ()
+No symbol table info available.
+#5  0x08086a7d in CompWindow::activate() ()
+No symbol table info available.
+#6  0x08086a7d in CompWindow::activate() ()
+No symbol table info available.
+#7  0x08086a7d in CompWindow::activate() ()
+No symbol table info available.
+#8  0x08086a7d in CompWindow::activate() ()
+No symbol table info available.
+#9  0x08086a7d in CompWindow::activate() ()
+No symbol table info available.
+#10 0x08086a7d in CompWindow::activate() ()
+No symbol table info available.
+#11 0x08086a7d in CompWindow::activate() ()
+No symbol table info available.
+#12 0x08086a7d in CompWindow::activate() ()
+No symbol table info available.
+#13 0x08086a7d in CompWindow::activate() ()
+No symbol table info available.
+#14 0x08086a7d in CompWindow::activate() ()
+No symbol table info available.
+#15 0x092666ee in WallWindow::activate() () from /usr/lib/compiz/libwall.so
+No symbol table info available.
+#16 0x08086a7d in CompWindow::activate() ()
+No symbol table info available.
+#17 0x08086a7d in CompWindow::activate() ()
+No symbol table info available.
+#18 0x08086a7d in CompWindow::activate() ()
+No symbol table info available.
+#19 0x087122cc in PluginAdapter::FocusWindowGroup(std::vector<unsigned long, std::allocator<unsigned long> >) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#20 0x08663a89 in BamfLauncherIcon::Focus() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#21 0x08663c83 in BamfLauncherIcon::ActivateLauncherIcon(ActionArg) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#22 0x086d4fdb in LauncherIcon::Activate(ActionArg) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#23 0x086bd518 in Launcher::RecvKeyPressed(unsigned long, unsigned long, unsigned long, char const*, unsigned short) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#24 0x086cb014 in sigc::internal::slot_call5<sigc::bound_mem_functor5<void, Launcher, unsigned long, unsigned long, unsigned long, char const*, unsigned short>, void, unsigned long, unsigned long, unsigned long, char const*, unsigned short>::call_it(sigc::internal::slot_rep*, unsigned long const&, unsigned long const&, unsigned long const&, char const* const&, unsigned short const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#25 0x014c4068 in nux::InputArea::EmitKeyEventSignal(unsigned long, unsigned int, unsigned long, char const*, int) () from /usr/lib/libnux-1.0.so.0
+No symbol table info available.
+#26 0x0158687b in nux::WindowCompositor::SendKeyEvent(nux::InputArea*, nux::NuxEventType, unsigned int, unsigned long, unsigned long, char const*, int) () from /usr/lib/libnux-1.0.so.0
+No symbol table info available.
+#27 0x0158daa7 in nux::WindowCompositor::KeyboardEventCycle(nux::Event&) () from /usr/lib/libnux-1.0.so.0
+No symbol table info available.
+#28 0x0158e997 in nux::WindowCompositor::ProcessEvent(nux::Event&) () from /usr/lib/libnux-1.0.so.0
+No symbol table info available.
+#29 0x01593716 in nux::WindowThread::ExecutionLoop(unsigned int) () from /usr/lib/libnux-1.0.so.0
+No symbol table info available.
+#30 0x01593c7f in nux::nux_event_dispatch(_GSource*, int (*)(void*), void*) () from /usr/lib/libnux-1.0.so.0
+No symbol table info available.
+#31 0x0016c25f in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#32 0x0016c990 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#33 0x0016cc2a in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#34 0x00db52ac in ?? () from /usr/lib/compizconfig/backends/libgconf.so
+No symbol table info available.
+#35 0x0611fabf in ccsProcessEvents () from /usr/lib/libcompizconfig.so.0
+No symbol table info available.
+#36 0x00d8157b in CcpScreen::timeout() () from /usr/lib/compiz/libccp.so
+No symbol table info available.
+#37 0x00d81c61 in boost::detail::function::function_obj_invoker0<boost::_bi::bind_t<bool, boost::_mfi::mf0<bool, CcpScreen>, boost::_bi::list1<boost::_bi::value<CcpScreen*> > >, bool>::invoke(boost::detail::function::function_buffer&) () from /usr/lib/compiz/libccp.so
+No symbol table info available.
+#38 0x08066aa4 in CompTimer::triggerCallback() ()
+No symbol table info available.
+#39 0x08066bbe in CompTimeoutSource::callback() ()
+No symbol table info available.
+#40 0x0806609f in CompTimeoutSource::dispatch(sigc::slot_base*) ()
+No symbol table info available.
+#41 0x00846111 in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#42 0x0016c25f in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#43 0x0016c990 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#44 0x0016cf9b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#45 0x00847753 in Glib::MainLoop::run() () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#46 0x08070827 in CompScreen::eventLoop() ()
+No symbol table info available.
+#47 0x08063a14 in main ()
+No symbol table info available.

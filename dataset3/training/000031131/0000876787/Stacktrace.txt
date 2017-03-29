@@ -1,0 +1,18 @@
+#0  0x0064d198 in g_type_check_instance_cast () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#1  0x01e32a0f in ?? () from /usr/lib/libdbusmenu-gtk3.so.4
+No symbol table info available.
+#2  0x01e32b1b in ?? () from /usr/lib/libdbusmenu-gtk3.so.4
+No symbol table info available.
+#3  0x00538110 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x0053c25f in g_main_contehostname_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x0053c990 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x0053cf9b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x009b8f95 in gtk_main () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#8  0x0804b2a2 in main ()
+No symbol table info available.

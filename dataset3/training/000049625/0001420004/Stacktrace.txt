@@ -1,0 +1,13 @@
+#0  0xb6ba3bea in QQmlBoundSignalExpression::function() const () from /usr/lib/arm-linux-gnueabihf/libQt5Qml.so.5
+No symbol table info available.
+#1  0xb6ba3c6e in QQmlBoundSignalExpression::sourceLocation() const () from /usr/lib/arm-linux-gnueabihf/libQt5Qml.so.5
+No symbol table info available.
+#2  0xb6b8e530 in QQmlData::destroyed(QObject*) () from /usr/lib/arm-linux-gnueabihf/libQt5Qml.so.5
+No symbol table info available.
+#3  0xb652c90a in QObject::~QObject() () from /usr/lib/arm-linux-gnueabihf/libQt5Core.so.5
+No symbol table info available.
+#4  0xb68d9858 in QQuickItem::~QQuickItem() () from /usr/lib/arm-linux-gnueabihf/libQt5Quick.so.5
+No symbol table info available.
+#5  0xb6945182 in ?? () from /usr/lib/arm-linux-gnueabihf/libQt5Quick.so.5
+No symbol table info available.
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)

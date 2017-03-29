@@ -1,0 +1,11 @@
+#0  0x00406a9d in g_slice_alloc () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x004070b6 in g_slice_alloc0 () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0x005e7a3b in pango_font_description_set_gravity () from /usr/lib/i386-linux-gnu/libpango-1.0.so.0
+No symbol table info available.
+#3  0x005ef02f in ?? () from /usr/lib/i386-linux-gnu/libpango-1.0.so.0
+No symbol table info available.
+#4  0xbfccc3f0 in ?? ()
+No symbol table info available.
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)

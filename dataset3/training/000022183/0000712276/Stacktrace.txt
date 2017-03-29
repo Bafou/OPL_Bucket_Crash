@@ -1,0 +1,32 @@
+#0  0x00007f882e2ede36 in gtk_label_set_text_with_mnemonic () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#1  0x00007f882d77598c in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#2  0x00007f882d788069 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#3  0x00007f882d791486 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00007f882d79163f in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007f8825f6d6f7 in dbusmenu_menuitem_property_set_variant () from /usr/lib/libdbusmenu-glib.so.3
+No symbol table info available.
+#6  0x00007f8825f726f1 in ?? () from /usr/lib/libdbusmenu-glib.so.3
+No symbol table info available.
+#7  0x00007f8825f725ba in ?? () from /usr/lib/libdbusmenu-glib.so.3
+No symbol table info available.
+#8  0x00007f882dc942a2 in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#9  0x00007f882dc89f54 in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#10 0x00007f882dc42fec in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#11 0x00007f882d4bacfd in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#12 0x00007f882d4bb4e8 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#13 0x00007f882d4bbb2a in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00007f882e2f8797 in gtk_main () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#15 0x0000000000403702 in main ()
+No symbol table info available.

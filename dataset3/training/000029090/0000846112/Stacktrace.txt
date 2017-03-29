@@ -1,0 +1,48 @@
+#0  0x00ba2416 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0x004d6c8f in raise () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x004da2b5 in abort () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0x0050cdfc in ?? () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#4  0x00517bc2 in ?? () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#5  0x00518862 in ?? () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#6  0x0051b94d in free () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#7  0x00174dbb in qFree(void*) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#8  0x008731b8 in QList<IndicatorEntryWidget*>::~QList() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#9  0x00874643 in IndicatorsWidget::onEntryRemoved(std::string const&) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#10 0x0087479a in sigc::internal::slot_call1<sigc::bound_mem_functor1<void, IndicatorsWidget, std::string const&>, void, std::string const&>::call_it(sigc::internal::slot_rep*, std::string const&) () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#11 0x01af2f15 in unity::indicator::Indicator::~Indicator() () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#12 0x01af7c19 in boost::detail::sp_counted_impl_p<unity::indicator::Indicator>::dispose() () from /usr/lib/libunity-core-4.0.so.4
+No symbol table info available.
+#13 0x00874a69 in QList<boost::shared_ptr<unity::indicator::Indicator> >::~QList() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#14 0x00874bc3 in IndicatorsWidget::~IndicatorsWidget() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#15 0x0028a7f1 in QObjectPrivate::deleteChildren() () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#16 0x0119e4de in QWidget::~QWidget() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#17 0x0767c733 in IndicatorApplet::~IndicatorApplet() () from /usr/lib/unity-2d/plugins/panel/libpanelplugin-indicator.so.0
+No symbol table info available.
+#18 0x0028a7f1 in QObjectPrivate::deleteChildren() () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#19 0x0119e4de in QWidget::~QWidget() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#20 0x0080da1c in Unity2dPanel::~Unity2dPanel() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#21 0x0080dac2 in Unity2dPanel::~Unity2dPanel() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#22 0x0804ba46 in PanelManager::~PanelManager() ()
+No symbol table info available.
+#23 0x0804b067 in main ()
+No symbol table info available.

@@ -1,0 +1,42 @@
+#0  0x0091851c in gtk_tree_model_get_valist () from /usr/lib/i386-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#1  0x00918740 in gtk_tree_model_get () from /usr/lib/i386-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#2  0x05e9fd90 in ?? () from /usr/lib/control-center-1/panels/libsoundnua.so
+No symbol table info available.
+#3  0x0044d94a in g_cclosure_marshal_VOID(unsigned int0_t) () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x0044bf8c in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x0045d845 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x004650c2 in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00465253 in g_signal_emit () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#8  0x05eb5ac5 in ?? () from /usr/lib/control-center-1/panels/libsoundnua.so
+No symbol table info available.
+#9  0x0ef44447 in ?? () from /usr/lib/i386-linux-gnu/libpulse.so.0
+No symbol table info available.
+#10 0x100a9dfd in ?? () from /usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+No symbol table info available.
+#11 0x100aa200 in pa_pdispatch_run () from /usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+No symbol table info available.
+#12 0x0ef38a1d in ?? () from /usr/lib/i386-linux-gnu/libpulse.so.0
+No symbol table info available.
+#13 0x100af7d3 in ?? () from /usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+No symbol table info available.
+#14 0x10099b38 in ?? () from /usr/lib/i386-linux-gnu/libpulsecommon-1.1.so
+No symbol table info available.
+#15 0x0b057a3a in ?? () from /usr/lib/i386-linux-gnu/libpulse-mainloop-glib.so.0
+No symbol table info available.
+#16 0x00c20a4a in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#17 0x00c20e55 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#18 0x00c20f31 in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#19 0x0037becc in g_application_run () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#20 0x0062cf26 in main ()
+No symbol table info available.

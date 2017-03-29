@@ -1,0 +1,46 @@
+#0  0x00007f25be741445 in raise () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00007f25be744bab in abort () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x00007f25bd08128d in g_assertion_message () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f25bd0817b2 in g_assertion_message_expr () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f25bd09a0e6 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f25bd09a7c0 in g_variant_type_info_unref () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f25bd094072 in g_variant_unref () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00007f25a9b8adb8 in unity::launcher::SoftwareCenterLauncherIcon::OnPropertyChanged(_GVariant*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#8  0x00007f25a6eb9f17 in unity::glib::DBusProxy::Impl::OnProxySignal(_GDBusProxy*, char*, char*, _GVariant*) () from /usr/lib/libunity-core-5.0.so.5
+No symbol table info available.
+#9  0x00007f25a6eba744 in unity::glib::Signal3<void, _GDBusProxy*, char*, char*, _GVariant*>::Callback(_GDBusProxy*, char*, char*, _GVariant*, unity::glib::Signal3<void, _GDBusProxy*, char*, char*, _GVariant*>*) () from /usr/lib/libunity-core-5.0.so.5
+No symbol table info available.
+#10 0x00007f25bb036a14 in ffi_call_unix64 () from /usr/lib/x86_64-linux-gnu/libffi.so.6
+No symbol table info available.
+#11 0x00007f25bb036435 in ffi_call () from /usr/lib/x86_64-linux-gnu/libffi.so.6
+No symbol table info available.
+#12 0x00007f25bc0a46db in g_cclosure_marshal_generic () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x00007f25bc0a3e72 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#14 0x00007f25bc0b5943 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#15 0x00007f25bc0be230 in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#16 0x00007f25bc0be472 in g_signal_emit () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#17 0x00007f25b9096934 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#18 0x00007f25b9086005 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#19 0x00007f25bd060d8a in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#20 0x00007f25bd061150 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#21 0x00007f25bd06154a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#22 0x00000000004029ae in main ()
+No symbol table info available.

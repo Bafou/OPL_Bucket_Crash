@@ -1,0 +1,44 @@
+#0  0x00007fe262482d05 in raise () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00007fe262486ab6 in abort () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x00007fe26801547b in ?? () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#3  0x00007fe268289a7e in qt_message_output(QtMsgType, char const*) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#4  0x00007fe268289c8f in ?? () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#5  0x00007fe268289e31 in qFatal(char const*, ...) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#6  0x00007fe268014fd1 in ?? () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#7  0x00007fe2640ff70c in g_logv () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0x00007fe2640ffaaf in g_log () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0x00007fe24b2f2f33 in ?? () from /usr/lib/indicators/5/libme.so
+No symbol table info available.
+#10 0x00007fe2663f88c5 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#11 0x00007fe2663ee874 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#12 0x00007fe2663abd49 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#13 0x00007fe2640f6bcd in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00007fe2640f73a8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x00007fe2640f7639 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0x00007fe2683a53ef in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#17 0x00007fe26890fdfe in ?? () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#18 0x00007fe268379882 in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#19 0x00007fe268379abc in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#20 0x00007fe26837decb in QCoreApplication::exec() () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#21 0x0000000000417347 in main ()
+No symbol table info available.

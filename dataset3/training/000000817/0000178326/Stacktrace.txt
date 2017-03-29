@@ -1,0 +1,13 @@
+#0  0xb77cb5ec in g_logv () from /usr/lib/libglib-2.0.so.0
+#1  0xb77cb869 in g_log () from /usr/lib/libglib-2.0.so.0
+#2  0x08058ad0 in gnome_settings_daemon_new () at gnome-settings-daemon.c:287
+	terminated = 0
+	display = (GdkDisplay *) 0x8099010
+	i = <value optimized out>
+	n_screens = 1
+#3  0x08055933 in main (argc=135042376, argv=0x80c77e0) at factory.c:38
+	program = (GnomeProgram *) 0x807cc58
+	session = <value optimized out>
+	settings_daemon = <value optimized out>
+	restart_argv = {0x806c87a "gnome-settings-daemon", 
+  0xbfc51ade "/usr/lib/gnome-control-center/gnome-settings-daemon", 0x0}

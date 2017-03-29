@@ -1,0 +1,26 @@
+#0  0xad3ccbc7 in signon_auth_session_cancel () from /usr/lib/i386-linux-gnu/libsignon-glib.so.1
+No symbol table info available.
+#1  0xad49233e in ?? () from /usr/lib/libaccount-plugin-1.0.so.0
+No symbol table info available.
+#2  0xad492bfd in ?? () from /usr/lib/libaccount-plugin-1.0.so.0
+No symbol table info available.
+#3  0xb7029f00 in g_simple_async_result_complete () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#4  0xb708aa7c in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#5  0xb7029f00 in g_simple_async_result_complete () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#6  0xb702a02c in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#7  0xb6eafe50 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0xb6eb32f3 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0xb6eb3690 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0xb6eb3771 in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0xb706068c in g_application_run () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#12 0xb777f48f in main ()
+No symbol table info available.

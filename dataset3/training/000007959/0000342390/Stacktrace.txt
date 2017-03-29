@@ -1,0 +1,7 @@
+#0  strcmp () at ../sysdeps/i386/i686/strcmp.S:40
+No locals.
+#1  0xb7ef2f7c in gnome_rr_screen_get_output_by_name (screen=0x8475f48, 
+    name=0x0) at gnome-rr.c:911
+	output = (GnomeRROutput *) 0x84758c0
+	__PRETTY_FUNCTION__ = "gnome_rr_screen_get_output_by_name"
+#2  0x0804e561 in _start ()

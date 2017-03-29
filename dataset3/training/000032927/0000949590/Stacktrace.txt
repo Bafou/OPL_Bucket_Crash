@@ -1,0 +1,50 @@
+#0  0x00007f8b1af81a50 in ?? ()
+No symbol table info available.
+#1  0x00007f8b2f94c5a6 in ?? () from /usr/lib/x86_64-linux-gnu/libpixman-1.so.0
+No symbol table info available.
+#2  0x00007f8b2f9784f2 in ?? () from /usr/lib/x86_64-linux-gnu/libpixman-1.so.0
+No symbol table info available.
+#3  0x00007f8b2f913488 in pixman_image_composite32 () from /usr/lib/x86_64-linux-gnu/libpixman-1.so.0
+No symbol table info available.
+#4  0x00007f8b33981f9f in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#5  0x00007f8b3398330c in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#6  0x00007f8b33983889 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#7  0x00007f8b339a31a5 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#8  0x00007f8b3397d13b in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#9  0x00007f8b33973af0 in cairo_show_glyphs () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#10 0x00007f8b1a35c541 in CairoOutputDev::endString(GfxState*) () from /usr/lib/x86_64-linux-gnu/libpoppler-glib.so.8
+No symbol table info available.
+#11 0x00007f8b1a00dfef in Gfx::doShowText(GooString*) () from /usr/lib/x86_64-linux-gnu/libpoppler.so.19
+No symbol table info available.
+#12 0x00007f8b1a00e7a1 in Gfx::opShowText(Object*, int) () from /usr/lib/x86_64-linux-gnu/libpoppler.so.19
+No symbol table info available.
+#13 0x00007f8b1a006491 in Gfx::go(bool) () from /usr/lib/x86_64-linux-gnu/libpoppler.so.19
+No symbol table info available.
+#14 0x00007f8b1a0068ae in Gfx::display(Object*, bool) () from /usr/lib/x86_64-linux-gnu/libpoppler.so.19
+No symbol table info available.
+#15 0x00007f8b1a042bff in Page::displaySlice(OutputDev*, double, double, int, bool, bool, int, int, int, int, bool, Catalog*, bool (*)(void*), void*, bool (*)(Annot*, void*), void*) () from /usr/lib/x86_64-linux-gnu/libpoppler.so.19
+No symbol table info available.
+#16 0x00007f8b1a353874 in ?? () from /usr/lib/x86_64-linux-gnu/libpoppler-glib.so.8
+No symbol table info available.
+#17 0x00007f8b1a57c04f in ?? () from /usr/lib/evince/3/backends/libpdfdocument.so
+No symbol table info available.
+#18 0x00007f8b1a57c307 in ?? () from /usr/lib/evince/3/backends/libpdfdocument.so
+No symbol table info available.
+#19 0x00007f8b355b7a08 in ?? () from /usr/lib/libevview3.so.3
+No symbol table info available.
+#20 0x00007f8b355b8772 in ?? () from /usr/lib/libevview3.so.3
+No symbol table info available.
+#21 0x00007f8b3325b7f5 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#22 0x00007f8b32ce2e9a in start_thread () from /lib/x86_64-linux-gnu/libpthread.so.0
+No symbol table info available.
+#23 0x00007f8b32a1074d in clone () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#24 0x0000000000000000 in ?? ()
+No symbol table info available.

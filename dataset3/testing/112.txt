@@ -1,0 +1,93 @@
+#0  0x00007feaa7502f71 in ?? () from /usr/lib/libpango-1.0.so.0
+No symbol table info available.
+#1  0x00007feaa7503b8c in ?? () from /usr/lib/libpango-1.0.so.0
+No symbol table info available.
+#2  0x00007feaa828a6ca in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#3  0x00007feaa70700e9 in g_closure_invoke ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00007feaa7084de3 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007feaa7086ad6 in g_signal_emit_valist ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00007feaa7086e28 in g_signal_emit_by_name ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00007feaa8312ff8 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#8  0x00007feaa81cfebc in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#9  0x00007feaa70700e9 in g_closure_invoke ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#10 0x00007feaa7084de3 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x00007feaa7086ad6 in g_signal_emit_valist ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x00007feaa7086e28 in g_signal_emit_by_name ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x00007feaa8312ff8 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#14 0x00007feaa81cfebc in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#15 0x00007feaa70700e9 in g_closure_invoke ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#16 0x00007feaa7084de3 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#17 0x00007feaa7086ad6 in g_signal_emit_valist ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#18 0x00007feaa7086e28 in g_signal_emit_by_name ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#19 0x00007feaa8312ff8 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#20 0x00007feaa83e47bc in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#21 0x00007feaa707019e in g_closure_invoke ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#22 0x00007feaa7084de3 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#23 0x00007feaa7086ad6 in g_signal_emit_valist ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#24 0x00007feaa7086e28 in g_signal_emit_by_name ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#25 0x00007feaa8312ff8 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#26 0x00007feaa83dfd0a in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#27 0x00007feaa83e66fd in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#28 0x00007feaa707019e in g_closure_invoke ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#29 0x00007feaa7085162 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#30 0x00007feaa7086ad6 in g_signal_emit_valist ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#31 0x00007feaa7087093 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#32 0x00007feaa82064d6 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#33 0x00007feaa7ea40c6 in ?? () from /usr/lib/libgdk-x11-2.0.so.0
+No symbol table info available.
+#34 0x00007feaa69cb7c0 in g_main_context_dispatch ()
+   from /lib/libglib-2.0.so.0
+No symbol table info available.
+#35 0x00007feaa69cf5f8 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#36 0x00007feaa69cfb3d in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#37 0x00007feaa8294387 in gtk_main () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#38 0x00000000004186d3 in main ()
+No symbol table info available.

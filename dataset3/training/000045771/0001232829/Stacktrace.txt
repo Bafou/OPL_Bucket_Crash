@@ -1,0 +1,36 @@
+#0  0x00007fdb14dd3158 in nux::RWProperty<bool>::Set(bool const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0x00007fdb14dcdc08 in unity::launcher::ApplicationLauncherIcon::Stick(bool) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x00007fdb14db9e96 in unity::launcher::SoftwareCenterLauncherIcon::OnFinished(_GVariant*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x00007fdb1310026f in unity::glib::DBusProxy::Impl::OnProxySignal(_GDBusProxy*, char const*, char const*, _GVariant*) () from /usr/lib/libunity-core-6.0.so.8
+No symbol table info available.
+#4  0x00007fdb2fb52adc in ffi_call_unix64 () from /usr/lib/x86_64-linux-gnu/libffi.so.6
+No symbol table info available.
+#5  0x00007fdb2fb5240c in ffi_call () from /usr/lib/x86_64-linux-gnu/libffi.so.6
+No symbol table info available.
+#6  0x00007fdb309bb9c8 in g_cclosure_marshal_generic () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00007fdb309bb188 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#8  0x00007fdb309ccb1d in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#9  0x00007fdb309d4829 in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#10 0x00007fdb309d4ae2 in g_signal_emit () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x00007fdb2d994eac in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#12 0x00007fdb2d985275 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#13 0x00007fdb31b9f3a6 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00007fdb31b9f6f8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x00007fdb31b9fafa in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0x00007fdb33b77e4b in compiz::private_screen::EventManager::startEventLoop(_XDisplay*) () from /usr/lib/libcompiz_core.so.ABI-20130415
+No symbol table info available.
+#17 0x0000000000401981 in main ()
+No symbol table info available.

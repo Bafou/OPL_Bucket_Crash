@@ -1,0 +1,67 @@
+#0  0x00973233 in g_hash_table_lookup_node (hash_table=0xefedffeb, key=0x217e7aa8, value=0x1, keep_new_key=0) at /build/buildd/glib2.0-2.29.10/./glib/ghash.c:360
+        node_hash = <value optimized out>
+        hash_value = <value optimized out>
+        have_tombstone = 0
+        step = 0
+        node_index = <value optimized out>
+        first_tombstone = 0
+#1  g_hash_table_insert_internal (hash_table=0xefedffeb, key=0x217e7aa8, value=0x1, keep_new_key=0) at /build/buildd/glib2.0-2.29.10/./glib/ghash.c:1099
+        key_hash = <value optimized out>
+#2  0x01d888a2 in picture_scaled (source_object=0x217e6c90, res=0x217c12c8, user_data=0x21772230) at bg-pictures-source.c:184
+        basename = <value optimized out>
+        cache_path = <value optimized out>
+        file = 0x215f3d10
+        parent = 0x215e7790
+        dir = <value optimized out>
+        bg_source = 0x21772230
+        item = <value optimized out>
+        error = 0x0
+        pixbuf = 0x217ccd00
+        source_url = <value optimized out>
+        iter = {stamp = 7364572, user_data = 0x2164ac60, user_data2 = 0x0, user_data3 = 0x21629710}
+        store = 0x215e7790
+#3  0x007470e2 in g_simple_async_result_complete (simple=0x217c12c8) at /build/buildd/glib2.0-2.29.10/./gio/gsimpleasyncresult.c:749
+        current_source = <value optimized out>
+        current_context = <value optimized out>
+        __PRETTY_FUNCTION__ = "g_simple_async_result_complete"
+#4  0x00747163 in complete_in_idle_cb_for_thread (_data=0x215d5b98) at /build/buildd/glib2.0-2.29.10/./gio/gsimpleasyncresult.c:816
+        data = 0x215d5b98
+        simple = 0x217c12c8
+#5  0x00981370 in g_idle_dispatch (source=0x217d59c8, callback=0x747130 <complete_in_idle_cb_for_thread>, user_data=0x215d5b98) at /build/buildd/glib2.0-2.29.10/./glib/gmain.c:4822
+No locals.
+#6  0x0098554f in g_main_dispatch (context=0x21535da8) at /build/buildd/glib2.0-2.29.10/./glib/gmain.c:2473
+        dispatch = 0x981350 <g_idle_dispatch>
+        was_in_call = 0
+        user_data = 0x215d5b98
+        callback = 0x747130 <complete_in_idle_cb_for_thread>
+        cb_funcs = 0xa3335c
+        cb_data = 0x217664b0
+        current_source_link = {data = 0x217d59c8, next = 0x0}
+        need_destroy = <value optimized out>
+        source = 0x217d59c8
+        current = 0x21603b98
+        i = <value optimized out>
+#7  g_main_context_dispatch (context=0x21535da8) at /build/buildd/glib2.0-2.29.10/./glib/gmain.c:3046
+No locals.
+#8  0x00985c80 in g_main_context_iterate (context=0x21535da8, block=10045008, dispatch=1, self=<value optimized out>) at /build/buildd/glib2.0-2.29.10/./glib/gmain.c:3124
+        max_priority = 2147483647
+        timeout = 597
+        some_ready = 1
+        nfds = <value optimized out>
+        allocated_nfds = <value optimized out>
+        fds = 0x21638d60
+#9  0x0098628b in g_main_loop_run (loop=0x2169cec8) at /build/buildd/glib2.0-2.29.10/./glib/gmain.c:3332
+        __PRETTY_FUNCTION__ = "g_main_loop_run"
+#10 0x002798e5 in gtk_main () at /build/buildd/gtk+3.0-3.1.8/./gtk/gtkmain.c:1362
+        loop = 0x2169cec8
+#11 0x0017c3c4 in gtk_application_run_mainloop (application=0x21669ed0) at /build/buildd/gtk+3.0-3.1.8/./gtk/gtkapplication.c:112
+No locals.
+#12 0x007794ac in g_application_run (application=0x21669ed0, argc=2, argv=0xbf9a5044) at /build/buildd/glib2.0-2.29.10/./gio/gapplication.c:1325
+        arguments = 0x2169cec8
+        status = 0
+        i = <value optimized out>
+        __PRETTY_FUNCTION__ = "g_application_run"
+#13 0x00deb9b8 in main (argc=2, argv=0xbf9a5044) at control-center.c:193
+        shell = <value optimized out>
+        application = 0x21669ed0
+        status = <value optimized out>

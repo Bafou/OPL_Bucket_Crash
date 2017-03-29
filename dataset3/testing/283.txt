@@ -1,0 +1,164 @@
+#0  0x012d36bd in goa_oauth_provider_get_callback_uri () from /usr/lib/libgoa-backend-1.0.so.0
+No symbol table info available.
+#1  0x012d376a in ?? () from /usr/lib/libgoa-backend-1.0.so.0
+No symbol table info available.
+#2  0x146209f7 in webkit_marshal_BOOLEAN__OBJECT_OBJECT_OBJECT_OBJECT () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#3  0x0039ea5c in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x003b2ec0 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x003bba41 in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x003bbe8f in g_signal_emit_by_name () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x145eeba4 in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#8  0x14b056b9 in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#9  0x14ae0b1d in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#10 0x14ae1bf5 in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#11 0x14ae364e in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#12 0x14ae52cd in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#13 0x145f0617 in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#14 0x14b11c96 in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#15 0x14b12049 in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#16 0x14b12d99 in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#17 0x149bbb1e in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#18 0x149bbbf2 in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#19 0x149bc630 in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#20 0x149c0490 in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#21 0x1483ec13 in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#22 0x14840424 in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#23 0x14884e3a in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#24 0x1474adc5 in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#25 0x15121697 in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#26 0x1e529f41 in ?? ()
+No symbol table info available.
+#27 0x15398953 in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#28 0x15421af2 in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#29 0x1476b131 in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#30 0x1476b7e1 in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#31 0x1476b8ed in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#32 0x14b3add6 in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#33 0x14c03bf2 in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#34 0x14c03c65 in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#35 0x145baceb in ?? () from /usr/lib/libwebkitgtk-3.0.so.0
+No symbol table info available.
+#36 0x0099deef in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#37 0x0099c81f in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#38 0x0099cf50 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#39 0x0099d55b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#40 0x012d4e1f in ?? () from /usr/lib/libgoa-backend-1.0.so.0
+No symbol table info available.
+#41 0x012d0436 in goa_provider_add_account () from /usr/lib/libgoa-backend-1.0.so.0
+No symbol table info available.
+#42 0x18e62c72 in ?? () from /usr/lib/control-center-1/panels/libonline-accounts.so
+No symbol table info available.
+#43 0x0039ff6c in g_cclosure_marshal_VOID__VOID () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#44 0x0039ea5c in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#45 0x003b2ec0 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#46 0x003bbb8f in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#47 0x003bbe8f in g_signal_emit_by_name () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#48 0x00710be1 in ?? () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#49 0x0039ff6c in g_cclosure_marshal_VOID__VOID () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#50 0x0039ea5c in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#51 0x003b2ec0 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#52 0x003bbb8f in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#53 0x003bbd03 in g_signal_emit () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#54 0x0051edaa in gtk_button_clicked () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#55 0x00520368 in ?? () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#56 0x0039ff6c in g_cclosure_marshal_VOID__VOID () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#57 0x0039d4ad in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#58 0x0039ea5c in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#59 0x003b2687 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#60 0x003bbb8f in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#61 0x003bbd03 in g_signal_emit () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#62 0x0051ecba in gtk_button_released () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#63 0x0051ed15 in ?? () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#64 0x006079da in ?? () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#65 0x0039d4ad in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#66 0x0039ea5c in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#67 0x003b2d08 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#68 0x003bba41 in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#69 0x003bbd03 in g_signal_emit () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#70 0x00770423 in ?? () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#71 0x006070d2 in gtk_propagate_event () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#72 0x00607558 in gtk_main_do_event () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#73 0x00c2895c in ?? () from /usr/lib/libgdk-3.so.0
+No symbol table info available.
+#74 0x00c55768 in ?? () from /usr/lib/libgdk-3.so.0
+No symbol table info available.
+#75 0x0099c81f in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#76 0x0099cf50 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#77 0x0099d55b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#78 0x006067a5 in gtk_main () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#79 0x00506b74 in ?? () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#80 0x002df08c in g_application_run () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#81 0x0048fc96 in main ()
+No symbol table info available.

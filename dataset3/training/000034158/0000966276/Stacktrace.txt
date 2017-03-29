@@ -1,0 +1,74 @@
+#0  0x00007f74f4b10445 in __GI_raise (sig=<optimized out>) at ../nptl/sysdeps/unix/sysv/linux/raise.c:64
+        resultvar = 0
+        pid = <optimized out>
+        selftid = 25916
+#1  0x00007f74f4b13bab in __GI_abort () at abort.c:91
+        save_stage = 2
+        act = {__sigaction_handler = {sa_handler = 0x18, sa_sigaction = 0x18}, sa_mask = {__val = {140140304628025, 140140297981000, 140140324651008, 1024, 7582208, 7797480, 4294967296, 4294967295, 7582208, 165, 7582208, 3092568, 0, 7329808, 7149808, 140140304089088}}, sa_flags = -165283980, sa_restorer = 0x5}
+        sigs = {__val = {32, 0 <repeats 15 times>}}
+#2  0x00007f74f511bf6d in g_assertion_message () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f74f511c492 in g_assertion_message_expr () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f74f5134dc6 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f74f5134e5b in g_variant_type_info_get_type_string () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f74f5bb135c in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#7  0x00007f74f5bb2846 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#8  0x00007f74f5ba8ebf in dee_model_set () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#9  0x00007f74f5df9c0a in ?? () from /usr/lib/libunity.so.9
+No symbol table info available.
+#10 0x00007f74f53b8c82 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x00007f74f53c9d51 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x00007f74f53d2079 in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x00007f74f53d2734 in g_signal_emit_by_name () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#14 0x00007f74f53b8c82 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#15 0x00007f74f53c9d51 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#16 0x00007f74f53d2079 in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#17 0x00007f74f53d2222 in g_signal_emit () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#18 0x00007f74f5bb2872 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#19 0x00007f74f5bb88b0 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#20 0x00007f74f5bb8d71 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#21 0x00007f74f56ad645 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#22 0x00007f74f50fbc9a in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#23 0x00007f74f50fc060 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#24 0x00007f74f50fc124 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#25 0x00007f74f568fb74 in g_application_run () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#26 0x00000000004119a0 in ?? ()
+No symbol table info available.
+#27 0x00007f74f4afb76d in __libc_start_main (main=0x4072f0, argc=1, ubp_av=0x7fff3223cb68, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fff3223cb58) at libc-start.c:226
+        result = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {0, -8177962469242149133, 4223760, 140734034594656, 0, 0, 8177532180524197619, 8100818123949106931}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x4143e0, 0x7fff3223cb68}, data = {prev = 0x0, cleanup = 0x0, canceltype = 4277216}}}
+        not_first_call = <optimized out>
+#28 0x0000000000407339 in ?? ()
+No symbol table info available.
+#29 0x00007fff3223cb58 in ?? ()
+No symbol table info available.
+#30 0x000000000000001c in ?? ()
+No symbol table info available.
+#31 0x0000000000000001 in ?? ()
+No symbol table info available.
+#32 0x00007fff3223ea6e in ?? ()
+No symbol table info available.
+#33 0x0000000000000000 in ?? ()
+No symbol table info available.

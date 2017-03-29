@@ -1,0 +1,38 @@
+#0  0x00007fee269c5a70 in ?? () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#1  0x00007fee269c879f in ?? () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#2  0x00007fee269c4bcc in ?? () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#3  0x00007fee269c9447 in ?? () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#4  0x00007fee2698c3d8 in FT_Load_Glyph () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#5  0x00007fee2b3f4ff4 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#6  0x00007fee2b39dc80 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#7  0x00007fee2b3c122b in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#8  0x00007fee2b3a40f5 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#9  0x00007fee2b3a8798 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#10 0x00007fee2b3a8f06 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#11 0x00007fee2b3a40f5 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#12 0x00007fee2b37e24b in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#13 0x00007fee2b374c10 in cairo_show_glyphs () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#14 0x00007fee29537e15 in ?? () from /usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0
+No symbol table info available.
+#15 0x00007fff7f41caa0 in ?? ()
+No symbol table info available.
+#16 0x00007fee2b398c40 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#17 0x00007fff7f41c6a0 in ?? ()
+No symbol table info available.
+#18 0x0000000000000000 in ?? ()
+No symbol table info available.

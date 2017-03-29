@@ -1,0 +1,80 @@
+#0  0x00000069 in ?? ()
+No symbol table info available.
+#1  0xb49b46ff in ?? () from /usr/lib/i386-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#2  0xb49b654c in geis_filter_delete () from /usr/lib/i386-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#3  0xb49b6654 in ?? () from /usr/lib/i386-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#4  0xb49b8ccd in ?? () from /usr/lib/i386-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#5  0xb49b8d29 in ?? () from /usr/lib/i386-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#6  0xb49bb549 in geis_delete () from /usr/lib/i386-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#7  0xb49bab4f in geis_finish () from /usr/lib/i386-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#8  0xb6313114 in GestureHandler::~GestureHandler() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#9  0xb0ba3905 in QDeclarativePrivate::QDeclarativeElement<GestureHandler>::~QDeclarativeElement() () from /usr/lib/qt4/imports/Unity2d/libunity-2d-private-qml.so
+No symbol table info available.
+#10 0xb7624491 in QObjectPrivate::deleteChildren() () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#11 0xb7629c01 in QObject::~QObject() () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#12 0xb66d9f56 in QDeclarativeItem::~QDeclarativeItem() () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#13 0xb6698750 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#14 0xb71a3dfc in QGraphicsScene::clear() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#15 0xb71a3e7a in QGraphicsScene::~QGraphicsScene() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#16 0xb6310078 in Unity2DDeclarativeView::~Unity2DDeclarativeView() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#17 0x08059cca in ShellDeclarativeView::~ShellDeclarativeView() ()
+No symbol table info available.
+#18 0xb7623483 in qDeleteInEventHandler(QObject*) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#19 0xb762a428 in QObject::event(QEvent*) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#20 0xb6b56cb2 in QWidget::event(QEvent*) () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#21 0xb6f741c5 in QFrame::event(QEvent*) () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#22 0xb70089e4 in QAbstractScrollArea::event(QEvent*) () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#23 0xb71ccbf8 in QGraphicsView::event(QEvent*) () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#24 0xb6afcd24 in QApplicationPrivate::notify_helper(QObject*, QEvent*) () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#25 0xb6b021f2 in QApplication::notify(QObject*, QEvent*) () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#26 0xb760f0fe in QCoreApplication::notifyInternal(QObject*, QEvent*) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#27 0xb7613258 in QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#28 0xb761358c in QCoreApplication::sendPostedEvents(QObject*, int) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#29 0xb7641c14 in ?? () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#30 0xb5f1ad7a in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#31 0xb5f1b185 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#32 0xb5f1b261 in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#33 0xb7642007 in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#34 0xb6bb589a in ?? () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#35 0xb760dc8d in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#36 0xb760df29 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#37 0xb761363a in QCoreApplication::exec() () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#38 0xb6afa8c4 in QApplication::exec() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#39 0x0805141a in main ()
+No symbol table info available.

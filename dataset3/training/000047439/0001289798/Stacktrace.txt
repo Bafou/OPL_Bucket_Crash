@@ -1,0 +1,112 @@
+#0  0x00007f18b083034f in ?? () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#1  0x00007f18b0830457 in ?? () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#2  0x00007f18b0830a36 in ?? () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#3  0x00007f18b0831152 in ?? () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#4  0x00007f18b07e3f69 in FT_Outline_Decompose () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#5  0x00007f18b08312e3 in ?? () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#6  0x00007f18b083162d in ?? () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#7  0x00007f18b083008e in ?? () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#8  0x00007f18b07e80b3 in FT_Render_Glyph_Internal () from /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#9  0x00007f18b100d9f3 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#10 0x00007f18b0fbd788 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#11 0x00007f18b0f8a667 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#12 0x00007f18b0fd6c74 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#13 0x00007f18b0fd6e80 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#14 0x00007f18b0f80bff in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#15 0x00007f18b0f90e9f in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#16 0x00007f18b0fc5b4c in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#17 0x00007f18b0f893c9 in ?? () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#18 0x00007f18b0f7c0a2 in cairo_show_glyphs () from /usr/lib/x86_64-linux-gnu/libcairo.so.2
+No symbol table info available.
+#19 0x00007f18aa0fce43 in ?? () from /usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0
+No symbol table info available.
+#20 0x00007f18aa0fd154 in ?? () from /usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0
+No symbol table info available.
+#21 0x00007f18ab2e8f0f in pango_renderer_draw_glyphs () from /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0
+No symbol table info available.
+#22 0x00007f18ab2e9898 in pango_renderer_draw_layout_line () from /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0
+No symbol table info available.
+#23 0x00007f18ab2e9bf5 in pango_renderer_draw_layout () from /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0
+No symbol table info available.
+#24 0x00007f18aa0fd2fa in ?? () from /usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0
+No symbol table info available.
+#25 0x00007f18a29f3f17 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#26 0x00007f18a29ee987 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#27 0x00007f18a29ee818 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#28 0x00007f18a29eec10 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#29 0x00007f18a29e9473 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#30 0x00007f18a29e94f3 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#31 0x00007f18a29e9473 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#32 0x00007f18a29e9873 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#33 0x00007f18a29e9473 in ?? () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#34 0x00007f18a29f5a13 in rsvg_handle_render_cairo_sub () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#35 0x00007f18a29f5e44 in rsvg_handle_get_pixbuf_sub () from /usr/lib/x86_64-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#36 0x00007f18a2c34e46 in ?? () from /usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+No symbol table info available.
+#37 0x00007f18af1e41fb in gdk_pixbuf_loader_close () from /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0
+No symbol table info available.
+#38 0x00007f18af1e0435 in ?? () from /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0
+No symbol table info available.
+#39 0x00007f18af1e207d in gdk_pixbuf_new_from_stream_at_scale () from /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0
+No symbol table info available.
+#40 0x00007f18ab9263cb in icon_info_ensure_scale_and_pixbuf (icon_info=0x340f630, scale_only=<optimized out>) at /build/buildd/gtk+3.0-3.10.7/./gtk/gtkicontheme.c:3722
+        stream = 0x7f1864038550
+        scaled_desired_size = 64
+        image_width = <optimized out>
+        image_height = <optimized out>
+        source_pixbuf = <optimized out>
+        is_svg = 1
+        scale_only = <optimized out>
+        icon_info = 0x340f630
+#41 0x00007f18ab929b6a in gtk_icon_info_load_icon (icon_info=0x340f630, error=0x38d7b58) at /build/buildd/gtk+3.0-3.10.7/./gtk/gtkicontheme.c:3881
+        __FUNCTION__ = "gtk_icon_info_load_icon"
+#42 0x00007f18ac6ba0c0 in unity::IconLoader::Impl::IconLoaderTask::LoaderJobFunc(_GTask*, void*, void*, _GCancellable*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#43 0x00007f18c5596c05 in g_task_thread_pool_thread (thread_data=0x2d9c1d0, pool_data=<optimized out>) at /build/buildd/glib2.0-2.39.91/./gio/gtask.c:1213
+        task = 0x2d9c1d0
+#44 0x00007f18c983489c in g_thread_pool_thread_proxy (data=<optimized out>) at /build/buildd/glib2.0-2.39.91/./glib/gthreadpool.c:307
+        task = 0x2d9c1d0
+        pool = 0x13b7980
+#45 0x00007f18c9833f15 in g_thread_proxy (data=0x7f186800a2d0) at /build/buildd/glib2.0-2.39.91/./glib/gthread.c:764
+        thread = 0x7f186800a2d0
+#46 0x00007f18c93a7182 in start_thread (arg=0x7f1873fff700) at pthread_create.c:312
+        __res = <optimized out>
+        pd = 0x7f1873fff700
+        now = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {139743002097408, -777195410537509348, 0, 0, 139743002098112, 139743002097408, 794391771832978972, 794685844597444124}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <optimized out>
+        pagesize_m1 = <optimized out>
+        sp = <optimized out>
+        freesize = <optimized out>
+        __PRETTY_FUNCTION__ = "start_thread"
+#47 0x00007f18cafc412d in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:111
+No locals.

@@ -1,0 +1,18 @@
+#0  0x00007f21947f3bc8 in main_arena () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00007f217635279d in unity::ui::EdgeBarrierController::Impl::SetupBarriers(std::vector<nux::Rect, std::allocator<nux::Rect> > const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x00007f217638e78a in ?? () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x00007f21746f6c6a in unity::glib::Source::SourceCallback(void*) () from /usr/lib/libunity-core-6.0.so.7
+No symbol table info available.
+#4  0x00007f2192d7c446 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f2192d7c798 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f2192d7cb9a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00007f2194d54e4b in compiz::private_screen::EventManager::startEventLoop(_XDisplay*) () from /usr/lib/libcompiz_core.so.ABI-20130415
+No symbol table info available.
+#8  0x0000000000401971 in main ()
+No symbol table info available.

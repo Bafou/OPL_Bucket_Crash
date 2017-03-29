@@ -1,0 +1,144 @@
+#0  0xffffffff in QQmlBoundSignalExpression::function() const (this=<optimized out>) at /usr/include/arm-linux-gnueabihf/qt5/QtCore/qscopedpointer.h:143
+        scope = <optimized out>
+        v = <optimized out>
+#1  0xffffffff in QQmlBoundSignalExpression::function() const (p=...) at /usr/include/arm-linux-gnueabihf/qt5/QtCore/qglobal.h:945
+        scope = <optimized out>
+        v = <optimized out>
+#2  0xffffffff in QQmlBoundSignalExpression::function() const (this=<optimized out>) at ../../include/QtQml/5.3.2/QtQml/private/../../../../../src/qml/qml/qqmlengine.h:158
+        scope = <optimized out>
+        v = <optimized out>
+#3  0xffffffff in QQmlBoundSignalExpression::function() const (e=<optimized out>) at ../../include/QtQml/5.3.2/QtQml/private/../../../../../src/qml/qml/qqmlengine_p.h:496
+        scope = <optimized out>
+        v = <optimized out>
+#4  0xffffffff in QQmlBoundSignalExpression::function() const (this=this@entry=0x15c9b00) at qml/qqmlboundsignal.cpp:191
+        scope = <optimized out>
+        v = <optimized out>
+#5  0xffffffff in QQmlBoundSignalExpression::sourceLocation() const (this=this@entry=0x15c9b00) at qml/qqmlboundsignal.cpp:162
+        f = <optimized out>
+        loc = <optimized out>
+#6  0xffffffff in QQmlData::destroyed(QObject*) (this=0x18b3708, object=0x17a0b50) at qml/qqmlengine.cpp:1619
+        location = {sourceFile = {static null = {<No data fields>}, d = 0xb64c4fc9 <QObject::disconnectNotify(QMetaMethod const&)>}, line = 28817, column = 46668}
+        source = {static null = {<No data fields>}, d = 0xb6f69f10 <__stack_chk_guard>}
+        locationString = {static null = {<No data fields>}, d = 0xb651cc68 <QArrayData::shared_null>}
+        expr = 0x15c9b00
+        next = <optimized out>
+        binding = <optimized out>
+        signalHandler = <optimized out>
+        __PRETTY_FUNCTION__ = "void QQmlData::destroyed(QObject*)"
+#7  0xffffffff in QObject::~QObject() (this=0x17a0b50, __in_chrg=<optimized out>) at kernel/qobject.cpp:916
+        d = 0xd07ae8
+        __PRETTY_FUNCTION__ = "virtual QObject::~QObject()"
+#8  0xffffffff in QQmlConnections::~QQmlConnections() (this=0x17a0b50, __in_chrg=<optimized out>) at types/qqmlconnections.cpp:138
+#9  0xffffffff in QQmlPrivate::QQmlElement<QQmlConnections>::~QQmlElement() (this=0x17a0b50, __in_chrg=<optimized out>) at ../../include/QtQml/../../src/qml/qml/qqmlprivate.h:106
+#10 0xffffffff in QQmlPrivate::QQmlElement<QQmlConnections>::~QQmlElement() (this=0x17a0b50, __in_chrg=<optimized out>) at ../../include/QtQml/../../src/qml/qml/qqmlprivate.h:106
+#11 0xffffffff in QObjectPrivate::deleteChildren() (this=this@entry=0x18df038) at kernel/qobject.cpp:1936
+        i = 0
+#12 0xffffffff in QObject::~QObject() (this=<optimized out>, __in_chrg=<optimized out>) at kernel/qobject.cpp:1028
+        d = <optimized out>
+        __PRETTY_FUNCTION__ = "virtual QObject::~QObject()"
+#13 0xffffffff in QQuickItem::~QQuickItem() (this=0x19ac0d8, __in_chrg=<optimized out>) at items/qquickitem.cpp:2066
+#14 0xffffffff in QQuickLoader::~QQuickLoader() (this=0x19ac0d8, __in_chrg=<optimized out>) at items/qquickimplicitsizeitem_p.h:51
+#15 0xffffffff in QQuickLoader::~QQuickLoader() (this=0x19ac0d8, __in_chrg=<optimized out>) at items/qquickloader.cpp:304
+#16 0xffffffff in QQmlPrivate::QQmlElement<QQuickLoader>::~QQmlElement() (this=0x19ac0d8, __in_chrg=<optimized out>) at ../../include/QtQml/../../src/qml/qml/qqmlprivate.h:106
+#17 0xffffffff in QQmlPrivate::QQmlElement<QQuickLoader>::~QQmlElement() (this=0x19ac0d8, __in_chrg=<optimized out>) at ../../include/QtQml/../../src/qml/qml/qqmlprivate.h:106
+#18 0xffffffff in QObjectPrivate::deleteChildren() (this=this@entry=0x13ae058) at kernel/qobject.cpp:1936
+        i = 0
+#19 0xffffffff in QObject::~QObject() (this=<optimized out>, __in_chrg=<optimized out>) at kernel/qobject.cpp:1028
+        d = <optimized out>
+        __PRETTY_FUNCTION__ = "virtual QObject::~QObject()"
+#20 0xffffffff in QQuickItem::~QQuickItem() (this=0x19cefe0, __in_chrg=<optimized out>) at items/qquickitem.cpp:2066
+#21 0xffffffff in QQmlPrivate::QQmlElement<QQuickItem>::~QQmlElement() (this=0x19cefe0, __in_chrg=<optimized out>) at ../../include/QtQml/../../src/qml/qml/qqmlprivate.h:106
+#22 0xffffffff in QQmlPrivate::QQmlElement<QQuickItem>::~QQmlElement() (this=0x19cefe0, __in_chrg=<optimized out>) at ../../include/QtQml/../../src/qml/qml/qqmlprivate.h:106
+#23 0xffffffff in QObject::event(QEvent*) (this=this@entry=0x19cefe0, e=e@entry=0x1978938) at kernel/qobject.cpp:1232
+#24 0xffffffff in QQuickItem::event(QEvent*) (this=0x19cefe0, ev=0x1978938) at items/qquickitem.cpp:7118
+#25 0xffffffff in QCoreApplication::notify(QObject*, QEvent*) (this=<optimized out>, receiver=<optimized out>, event=<optimized out>) at kernel/qcoreapplication.cpp:997
+        d = <optimized out>
+#26 0xffffffff in QCoreApplication::notifyInternal(QObject*, QEvent*) (this=0x59c3e0, receiver=receiver@entry=0x19cefe0, event=event@entry=0x1978938) at kernel/qcoreapplication.cpp:935
+        threadData = 0x59c488
+        loopLevelCounter = {threadData = 0x59c488}
+        result = false
+        cbdata = {0x19cefe0, 0x1978938, 0xbede5917}
+        d = <optimized out>
+#27 0xffffffff in QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) (event=0x1978938, receiver=0x19cefe0) at ../../include/QtCore/../../src/corelib/kernel/qcoreapplication.h:237
+        e = 0x1978938
+        pe = <optimized out>
+        r = 0x19cefe0
+        unlocker = {m = <synthetic pointer>}
+        event_deleter = {d = 0x1978938}
+        __PRETTY_FUNCTION__ = "static void QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*)"
+        locker = {val = 5883044}
+        startOffset = 0
+        i = <optimized out>
+        cleanup = {receiver = 0x0, event_type = 0, data = 0x59c488, exceptionCaught = true}
+#28 0xffffffff in QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) (receiver=receiver@entry=0x0, event_type=event_type@entry=0, data=0x59c488) at kernel/qcoreapplication.cpp:1539
+        e = 0x1978938
+        pe = <optimized out>
+        r = 0x19cefe0
+        unlocker = {m = <synthetic pointer>}
+        event_deleter = {d = 0x1978938}
+        __PRETTY_FUNCTION__ = "static void QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*)"
+        locker = {val = 5883044}
+        startOffset = 0
+        i = <optimized out>
+        cleanup = {receiver = 0x0, event_type = 0, data = 0x59c488, exceptionCaught = true}
+#29 0xffffffff in QCoreApplication::sendPostedEvents(QObject*, int) (receiver=receiver@entry=0x0, event_type=event_type@entry=0) at kernel/qcoreapplication.cpp:1397
+        data = <optimized out>
+#30 0xffffffff in postEventSourceDispatch(GSource*, GSourceFunc, gpointer) (s=0x5e31c8) at kernel/qeventdispatcher_glib.cpp:279
+        source = 0x5e31c8
+#31 0xffffffff in g_main_context_dispatch (context=0x5e3bf0) at /build/buildd/glib2.0-2.43.3/./glib/gmain.c:3122
+        dispatch = 0xb64e1c4d <postEventSourceDispatch(GSource*, GSourceFunc, gpointer)>
+        prev_source = 0x5e3a00
+        was_in_call = 0
+        user_data = 0x0
+        callback = 0x0
+        cb_funcs = <optimized out>
+        cb_data = 0x0
+        need_destroy = <optimized out>
+        source = 0x5e31c8
+        current = 0x5caba0
+        i = 0
+#32 0xffffffff in g_main_context_dispatch (context=context@entry=0x5e3bf0) at /build/buildd/glib2.0-2.43.3/./glib/gmain.c:3737
+#33 0xffffffff in g_main_context_iterate (context=context@entry=0x5e3bf0, block=block@entry=1, dispatch=dispatch@entry=1, self=<optimized out>) at /build/buildd/glib2.0-2.43.3/./glib/gmain.c:3808
+        max_priority = 0
+        timeout = 0
+        some_ready = 1
+        nfds = <optimized out>
+        allocated_nfds = <optimized out>
+        fds = 0x693a40
+#34 0xffffffff in g_main_context_iteration (context=0x5e3bf0, may_block=1) at /build/buildd/glib2.0-2.43.3/./glib/gmain.c:3869
+        retval = <optimized out>
+#35 0xffffffff in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (this=0x5e5060, flags=...) at kernel/qeventdispatcher_glib.cpp:426
+        d = 0x5e3e00
+        canWait = true
+        savedFlags = {i = 36}
+        result = <optimized out>
+#36 0xffffffff in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (this=0xbede5b2c, flags=...) at kernel/qeventloop.cpp:212
+        locker = {val = 5883168}
+        __PRETTY_FUNCTION__ = "int QEventLoop::exec(QEventLoop::ProcessEventsFlags)"
+        ref = {d = 0x14d5888, locker = @0xbede5a8c, exceptionCaught = true}
+        d = 0x14d5888
+#37 0xffffffff in scopes_ng::Scope::loginToAccount(QString const&, QString const&, QString const&, QString const&) () at /usr/lib/arm-linux-gnueabihf/unity8/qml/Unity/libUnity-qml.so
+#38 0xffffffff in scopes_ng::Scope::activate(QVariant const&) () at /usr/lib/arm-linux-gnueabihf/unity8/qml/Unity/libUnity-qml.so
+#39 0xffffffff in scopes_ng::Scope::qt_metacall(QMetaObject::Call, int, void**) () at /usr/lib/arm-linux-gnueabihf/unity8/qml/Unity/libUnity-qml.so
+#40 0xffffffff in CallMethod(QObject*, int, int, int, int*, QV8Engine*, QV4::CallData*) (object=object@entry=0x169f3a8, index=<optimized out>, returnType=returnType@entry=43, argCount=<optimized out>, argTypes=0x13f2d8c, engine=engine@entry=0x5ffc38, callArgs=callArgs@entry=0xb10002c0) at jsruntime/qv4qobjectwrapper.cpp:1133
+        valueTypeValue = {d = {data = {c = 0 '\000', uc = 0 '\000', s = 0, sc = 0 '\000', us = 0, i = 0, u = 0, l = 0, ul = 0, b = false, d = -7,2401453508064151e-06, f = 0, real = -7,2401453508064151e-06, ll = -4693210356040859648, ull = 13753533717668691968, o = 0x0, ptr = 0x0, shared = 0x0}, type = 0, is_shared = 0, is_null = 1}}
+        args = {a = 9, s = 2, ptr = 0xbede5e30, {array = "\004\000\000\000l\000\000\000.\000\000\000\002\000\000\000\240_\336\276\000\000\000\000\310)\232\001\000\066\235&\274\006\000@\nc%\000H^\336\276)\000\000\000P\v`\000\230\023`\000\340^\336\276\020\237\366\266\334^\336\276\275\266\254\266@_\336\276C\223\071\266\000\360e\266,:s\255-\000\000\000\333lN\266\310\000\000\261P\v`\000\000\000\000\000@_\336\276\000\360O\260\000\066\235&.\000\000\000\360\000\000\000\v\000\000\000\024_\336\276\230\023`\000@\263\231\261@d\001\216\030;`\000\030_\336\276\065Ŭ\266p\323y\000\020\237\366\266 \377_\000\360\001\000\261+\000\000\000\020\237\366\266\020\237\366\266\200\361\251\000@d\001\216\020\237\366\266\000\066\235&\000\220\036\266\006"..., q_for_alignment_1 = 463856467972, q_for_alignment_2 = 2,2917554542622567e-312}}
+        argData = {a = 9, s = 2, ptr = 0xbede5df8, {array = "\000\000\000\000H^\336\276\224_\336\276 \377_\000\000\000\000\000hi\233\001 \377_\000\350\224\036\266\000\200,\266", q_for_alignment_1 = -4693210098342821888, q_for_alignment_2 = -7,2403636295348406e-06}}
+#41 0xffffffff in CallPrecise(QObject*, QQmlPropertyData const&, QV8Engine*, QV4::CallData*) (object=object@entry=0x169f3a8, data=..., engine=engine@entry=0x5ffc38, callArgs=callArgs@entry=0xb10002c0) at jsruntime/qv4qobjectwrapper.cpp:1385
+        args = <optimized out>
+        dummy = {a = 9, s = 0, ptr = 0xbede5f68, {array = "\020\237\366\266\000\000\000\000\020W\216\001\023\071\254\266\000@\376\177hd\001\216\000\000\000\000\020W\216\001\244\020\000", q_for_alignment_1 = 3069615888, q_for_alignment_2 = 1,5165917561892715e-314}}
+        unknownTypeError = {d = 0xb651cc68 <QArrayData::shared_null>}
+        returnType = 43
+#42 0xffffffff in QV4::QObjectMethod::callInternal(QV4::CallData*) (this=0x8e016440, callData=0xb10002c0) at jsruntime/qv4qobjectwrapper.cpp:1874
+        v8Engine = 0x5ffc38
+        scope = {engine = 0x5fff20, mark = 0xb1000310}
+        method = {<QQmlPropertyRawData> = {{propType = 43, propTypeName = 0x2b <error: Cannot access memory at address 0x2b>}, coreIndex = 51, {notifyIndex = 20917624, arguments = 0x13f2d78}, {{revision = 0, metaObjectOffset = 2, {{valueTypeFlags = 64, valueTypePropType = 0, valueTypeCoreIndex = 0}, {overrideIndexIsProperty = 0, overrideIndex = 32}}}, {accessors = 0x20000, accessorData = 64}}, flags = 524608}, <No data fields>}
+#43 0xffffffff in QV4::Runtime::callProperty(QV4::ExecutionContext*, QV4::StringRef, QV4::CallDataRef) (d=0xb10002c0, this=<optimized out>) at jsruntime/qv4object_p.h:270
+        scope = {engine = 0x5fff20, mark = 0xb1000300}
+        baseObject = {ptr = 0xb1000300}
+        o = <optimized out>
+#44 0xffffffff in QV4::Runtime::callProperty(QV4::ExecutionContext*, QV4::StringRef, QV4::CallDataRef) (context=0xbede6224, name=..., callData=...) at jsruntime/qv4runtime.cpp:938
+        scope = {engine = 0x5fff20, mark = 0xb1000300}
+        baseObject = {ptr = 0xb1000300}
+        o = <optimized out>
+#45 0xffffffff in  ()

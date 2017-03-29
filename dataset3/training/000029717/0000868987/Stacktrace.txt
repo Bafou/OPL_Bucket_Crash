@@ -1,0 +1,10 @@
+#0  0x00007f517d316205 in g_slice_alloc () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007f517d5d571a in g_signal_has_handler_pending () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#2  0x0000000000000039 in ?? ()
+No symbol table info available.
+#3  0x0000000000000001 in ?? ()
+No symbol table info available.
+#4  0x0000000000000000 in ?? ()
+No symbol table info available.

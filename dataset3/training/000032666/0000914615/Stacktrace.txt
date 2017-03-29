@@ -1,0 +1,38 @@
+#0  __strcmp_ssse3 () at ../sysdeps/i386/i686/multiarch/strcmp-ssse3.S:75
+No locals.
+#1  0x1c01eff6 in ?? () from /usr/lib/control-center-1/panels/libnetwork.so
+No symbol table info available.
+#2  0x008a8fd0 in g_idle_dispatch (source=0x21f7ec18, callback=0x1c01eb60, user_data=0x21ceb810) at /build/buildd/glib2.0-2.31.8/./glib/gmain.c:4632
+No locals.
+#3  0x008ab56a in g_main_dispatch (context=0x21a49e90) at /build/buildd/glib2.0-2.31.8/./glib/gmain.c:2513
+        dispatch = 0x8a8fb0 <g_idle_dispatch>
+        was_in_call = 0
+        user_data = 0x21ceb810
+        callback = 0x1c01eb60
+        cb_funcs = 0x95b4d8
+        cb_data = 0x21ce43c8
+        current_source_link = {data = 0x21f7ec18, next = 0x0}
+        need_destroy = <optimized out>
+        source = 0x21f7ec18
+        current = 0x21bbf9d8
+        i = <optimized out>
+#4  g_main_context_dispatch (context=0x21a49e90) at /build/buildd/glib2.0-2.31.8/./glib/gmain.c:3050
+No locals.
+#5  0x008ab975 in g_main_context_iterate (dispatch=1, block=9147136, context=0x21a49e90, self=<optimized out>) at /build/buildd/glib2.0-2.31.8/./glib/gmain.c:3121
+        timeout = 0
+        some_ready = 1
+        fds = 0x21f269d8
+        max_priority = 200
+        nfds = <optimized out>
+        allocated_nfds = <optimized out>
+#6  g_main_context_iterate (context=0x21a49e90, block=9147136, dispatch=1, self=<optimized out>) at /build/buildd/glib2.0-2.31.8/./glib/gmain.c:3058
+        some_ready = 1
+#7  0x008aba51 in g_main_context_iteration (context=0x21a49e90, may_block=1) at /build/buildd/glib2.0-2.31.8/./glib/gmain.c:3182
+        retval = <optimized out>
+#8  0x0073e21c in g_application_run (application=0x21b8a168, argc=1, argv=0xbf9384a4) at /build/buildd/glib2.0-2.31.8/./gio/gapplication.c:1599
+        arguments = 0x21bf0c60
+        status = 0
+        i = <optimized out>
+        __PRETTY_FUNCTION__ = "g_application_run"
+#9  0x00cd19a6 in main ()
+No symbol table info available.

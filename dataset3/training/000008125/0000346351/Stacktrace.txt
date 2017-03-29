@@ -1,0 +1,211 @@
+#0  0xb73c33c1 in *__GI_getenv (name=0xb7b99f56 "K_DEBUG") at getenv.c:90
+	len = 7
+	ep = (char **) 0xa0f07b8
+	name_start = 21575
+#1  0xb757f461 in IA__g_getenv (variable=0xd <Address 0xd out of bounds>)
+    at /build/buildd/glib2.0-2.20.0/glib/gutils.c:1083
+	__PRETTY_FUNCTION__ = "IA__g_getenv"
+#2  0xb79aab18 in gtk_rc_parse_assignment (scanner=0xa04ab40, style=0x0, 
+    prop=0xbfb10764) at /build/buildd/gtk+2.0-2.16.0/gtk/gtkrc.c:2679
+	negate = <value optimized out>
+	token = 61
+#3  0xb79acad3 in gtk_rc_parse_any (context=0x9e8da80, 
+    input_name=0x9e6e4e0 "/home/jonas/.gtkrc-2.0", input_fd=5, 
+    input_string=0x0) at /build/buildd/gtk+2.0-2.16.0/gtk/gtkrc.c:2973
+	expected_token = <value optimized out>
+	scanner = (GScanner *) 0xa04ab40
+	__PRETTY_FUNCTION__ = "gtk_rc_parse_any"
+#4  0xb79acfd7 in gtk_rc_context_parse_one_file (context=0x9e8da80, 
+    filename=0x9e6e4e0 "/home/jonas/.gtkrc-2.0", priority=12, reload=0)
+    at /build/buildd/gtk+2.0-2.16.0/gtk/gtkrc.c:1055
+	fd = 5
+	rc_file = (GtkRcFile *) 0xa16da00
+	statbuf = {st_dev = 2050, __pad1 = 0, __st_ino = 1915801, 
+  st_mode = 33188, st_nlink = 1, st_uid = 1000, st_gid = 1000, st_rdev = 0, 
+  __pad2 = 0, st_size = 45, st_blksize = 4096, st_blocks = 8, st_atim = {
+    tv_sec = 1224965798, tv_nsec = 0}, st_mtim = {tv_sec = 1220778772, 
+    tv_nsec = 0}, st_ctim = {tv_sec = 1220778772, tv_nsec = 0}, 
+  st_ino = 1915801}
+	saved_priority = 12
+	__PRETTY_FUNCTION__ = "gtk_rc_context_parse_one_file"
+#5  0xb79ad18c in gtk_rc_context_parse_file (context=0x9e8da80, 
+    filename=0x9e6e4e0 "/home/jonas/.gtkrc-2.0", priority=12, reload=0)
+    at /build/buildd/gtk+2.0-2.16.0/gtk/gtkrc.c:1121
+	locale_suffixes = {0xa027140 "es_VE", 0x9e95070 "es"}
+	n_locale_suffixes = 2
+	locale = (gchar *) 0xa02fc18 "/home/jonas"
+	length = <value optimized out>
+	j = 0
+	found = <value optimized out>
+#6  0xb79ad5af in IA__gtk_rc_reparse_all_for_settings (settings=0x9e6fc60, 
+    force_load=1) at /build/buildd/gtk+2.0-2.16.0/gtk/gtkrc.c:884
+	rc_file = <value optimized out>
+	tmp_list = (GSList *) 0x9f92318
+	context = (GtkRcContext *) 0x9e8da80
+	statbuf = {st_dev = 0, __pad1 = 0, __st_ino = 0, 
+  st_mode = 3076542452, st_nlink = 166132832, st_uid = 166132832, 
+  st_gid = 3216050440, st_rdev = 713535083308218566, __pad2 = 40421, 
+  st_size = -5233480993432598244, st_blksize = -1212313612, 
+  st_blocks = -4633912405298455936, st_atim = {tv_sec = -1214589024, 
+    tv_nsec = 166132832}, st_mtim = {tv_sec = -1212572187, 
+    tv_nsec = 166255280}, st_ctim = {tv_sec = 0, tv_nsec = 167322392}, 
+  st_ino = 13230120826780356596}
+	__PRETTY_FUNCTION__ = "IA__gtk_rc_reparse_all_for_settings"
+#7  0xb75dfabc in IA__g_cclosure_marshal_VOID__PARAM (closure=0x9e8e128, 
+    return_value=0x0, n_param_values=2, param_values=0x9f92318, 
+    invocation_hint=0xbfb10acc, marshal_data=0xb79ad750)
+    at /build/buildd/glib2.0-2.20.0/gobject/gmarshal.c:531
+	data1 = (gpointer) 0x9e6fc60
+	data2 = <value optimized out>
+	__PRETTY_FUNCTION__ = "IA__g_cclosure_marshal_VOID__PARAM"
+#8  0xb75d2c7b in IA__g_closure_invoke (closure=0x9e8e128, return_value=0x0, 
+    n_param_values=2, param_values=0x9f92318, invocation_hint=0xbfb10acc)
+    at /build/buildd/glib2.0-2.20.0/gobject/gclosure.c:767
+	marshal = (
+    GClosureMarshal) 0xb75dfa30 <IA__g_cclosure_marshal_VOID__PARAM>
+	marshal_data = (gpointer) 0x0
+	__PRETTY_FUNCTION__ = "IA__g_closure_invoke"
+#9  0xb75e8e0f in signal_emit_unlocked_R (node=0x9e6d130, detail=126, 
+    instance=0x9e6fc60, emission_return=0x0, instance_and_params=0x9f92318)
+    at /build/buildd/glib2.0-2.20.0/gobject/gsignal.c:3244
+	tmp = <value optimized out>
+	handler = (Handler *) 0x9e6fce0
+	accumulator = (SignalAccumulator *) 0x0
+	emission = {next = 0x0, instance = 0x9e6fc60, ihint = {signal_id = 1, 
+    detail = 126, run_type = G_SIGNAL_RUN_FIRST}, state = EMISSION_RUN, 
+  chain_type = 4}
+	class_closure = (GClosure *) 0x9e6cfe8
+	handler_list = (Handler *) 0x9e6fcc0
+	return_accu = (GValue *) 0x0
+	accu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+      v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, 
+      v_pointer = 0x0}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, 
+      v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}}}
+	signal_id = 1
+	max_sequential_handler_number = 62
+	return_value_altered = 1
+#10 0xb75ea489 in IA__g_signal_emit_valist (instance=0x9e6fc60, signal_id=1, 
+    detail=126, var_args=0xbfb10c70 " \024P·ÀùO·¨\f±¿ôO`·\003")
+    at /build/buildd/glib2.0-2.20.0/gobject/gsignal.c:2977
+	signal_return_type = 4
+	param_values = (GValue *) 0x9f9232c
+	node = (SignalNode *) 0x9e6d130
+	i = 1
+	n_params = 1
+	__PRETTY_FUNCTION__ = "IA__g_signal_emit_valist"
+#11 0xb75ea906 in IA__g_signal_emit (instance=0x9e6fc60, signal_id=1, 
+    detail=126) at /build/buildd/glib2.0-2.20.0/gobject/gsignal.c:3034
+No locals.
+#12 0xb75d7231 in g_object_dispatch_properties_changed (object=0x9e6fc60, 
+    n_pspecs=3, pspecs=0xbfb10ccc)
+    at /build/buildd/glib2.0-2.20.0/gobject/gobject.c:770
+	i = 2
+#13 0xb75d39df in g_object_notify_dispatcher (object=0x9e6fc60, n_pspecs=3, 
+    pspecs=0xbfb10ccc) at /build/buildd/glib2.0-2.20.0/gobject/gobject.c:312
+No locals.
+#14 0xb75d6338 in g_object_notify_queue_thaw (object=0x9e6fc60, 
+    nqueue=<value optimized out>)
+    at /build/buildd/glib2.0-2.20.0/gobject/gobjectnotifyqueue.c:125
+	context = (GObjectNotifyContext *) 0xb7605308
+	pspecs_mem = {0x9e89388, 0x9e6f4a0, 0x9e88ef8, 0x1, 0xb75ef0c3, 
+  0xb7604ff4, 0xbfb10dc8, 0xbfb10cf8, 0xb75fa0f6, 0xa1520d0, 0xb7604ff4, 
+  0xbfb10d18, 0xb75f5668, 0xbfb10dc8, 0xa0bbad0, 0xbfb10d18}
+	pspecs = (GParamSpec **) 0xbfb10ccc
+	free_me = (GParamSpec **) 0x0
+	slist = <value optimized out>
+	n_pspecs = 3
+#15 0xb75d8042 in IA__g_object_set_valist (object=0x9e6fc60, 
+    first_property_name=0x8075d42 "gtk-theme-name", var_args=0xbfb10e24 "")
+    at /build/buildd/glib2.0-2.20.0/gobject/gobject.c:1437
+	nqueue = (GObjectNotifyQueue *) 0xa0bbad0
+	name = (const gchar *) 0x0
+	__PRETTY_FUNCTION__ = "IA__g_object_set_valist"
+#16 0xb75d8286 in IA__g_object_set (_object=0x9e6fc60, 
+    first_property_name=0x8075d42 "gtk-theme-name")
+    at /build/buildd/glib2.0-2.20.0/gobject/gobject.c:1537
+	__PRETTY_FUNCTION__ = "IA__g_object_set"
+#17 0x08071d91 in create_gtk_theme_pixbuf (theme_thumbnail_data=0xbfb11564)
+    at theme-thumbnail.c:392
+	settings = (GtkSettings *) 0xd
+	window = (GtkWidget *) 0x9e58868
+	vbox = (GtkWidget *) 0xbfb10e68
+	box = <value optimized out>
+	stock_button = (GtkWidget *) 0xb7523c5a
+	checkbox = (GtkWidget *) 0x9ebb5c8
+	radio = (GtkWidget *) 0xbfb1105b
+	requisition = {width = -1219347264, height = 166037608}
+	allocation = {x = 134717428, y = 166037608, width = -8, 
+  height = -1078915448}
+	visual = (GdkVisual *) 0xd
+	pixmap = <value optimized out>
+	pixbuf = <value optimized out>
+	retval = <value optimized out>
+	width = <value optimized out>
+	height = <value optimized out>
+	__PRETTY_FUNCTION__ = "create_gtk_theme_pixbuf"
+#18 0x080723d9 in message_from_capplet (source=0x9ebaba0, condition=G_IO_IN, 
+    data=0xbfb11564) at theme-thumbnail.c:709
+	width = <value optimized out>
+	height = <value optimized out>
+	buffer = "gtk\000New Wave\000fg_color: #101010\nbg_color: #E5E5E5\nbase_color: #FFFFFF\ntext_color: #1A1A1A\nselected_bg_color: #FF8F4C\nselected_fg_color: #1A1A1A\ntooltip_bg_color:#FFE6C4\ntooltip_fg_color:#330606\000\000\000Sans "...
+	status = <value optimized out>
+	bytes_read = 203
+	pixbuf = <value optimized out>
+	i = <value optimized out>
+	rowstride = <value optimized out>
+	pixels = <value optimized out>
+	__PRETTY_FUNCTION__ = "message_from_capplet"
+#19 0xb7581c4d in g_io_unix_dispatch (source=0x9ebabe8, 
+    callback=0x8072290 <message_from_capplet>, user_data=0xbfb11564)
+    at /build/buildd/glib2.0-2.20.0/glib/giounix.c:162
+	buffer_condition = 21575
+#20 0xb754aa58 in IA__g_main_context_dispatch (context=0x9e87f50)
+    at /build/buildd/glib2.0-2.20.0/glib/gmain.c:1814
+No locals.
+#21 0xb754dfbb in g_main_context_iterate (context=0x9e87f50, block=1, 
+    dispatch=1, self=0x9e57518)
+    at /build/buildd/glib2.0-2.20.0/glib/gmain.c:2448
+	max_priority = 2147483647
+	timeout = -1
+	some_ready = 1
+	nfds = 4
+	allocated_nfds = <value optimized out>
+	fds = (GPollFD *) 0x9e9ed98
+	__PRETTY_FUNCTION__ = "g_main_context_iterate"
+#22 0xb754e48a in IA__g_main_loop_run (loop=0x9ebab60)
+    at /build/buildd/glib2.0-2.20.0/glib/gmain.c:2656
+	self = (GThread *) 0x9e57518
+	__PRETTY_FUNCTION__ = "IA__g_main_loop_run"
+#23 0xb795c5c9 in IA__gtk_main ()
+    at /build/buildd/gtk+2.0-2.16.0/gtk/gtkmain.c:1205
+	tmp_list = (GList *) 0xbfb1162c
+	functions = (GList *) 0x0
+	init = (GtkInitFunction *) 0x9ebaba0
+	loop = (GMainLoop *) 0x9ebab60
+#24 0x080718ea in theme_thumbnail_factory_init (argc=1, argv=0xbfb116e4)
+    at theme-thumbnail.c:1229
+	data = {status = 7, type = 0x9e587c0, control_theme_name = 0x9e58808, 
+  gtk_color_scheme = 0x9e58820, wm_theme_name = 0x9e58838, 
+  icon_theme_name = 0x9e58850, application_font = 0x9e58868}
+	channel = (GIOChannel *) 0x9ebaba0
+	__PRETTY_FUNCTION__ = "theme_thumbnail_factory_init"
+#25 0x0805c571 in main (argc=1, argv=0xbfb116e4) at appearance-main.c:41
+	w = <value optimized out>
+	warning = <value optimized out>
+	install_filename = (gchar *) 0x0
+	start_page = (gchar *) 0x0
+	wallpaper_files = (gchar **) 0x0
+	option_context = (GOptionContext *) 0x9e57190
+	option_entries = {{long_name = 0x80756d8 "install-theme", 
+    short_name = 105 'i', flags = 2, arg = G_OPTION_ARG_FILENAME, 
+    arg_data = 0xbfb11634, 
+    description = 0x80757bc "Specify the filename of a theme to install", 
+    arg_description = 0x80756e6 "filename"}, {
+    long_name = 0x80756ef "show-page", short_name = 112 'p', flags = 2, 
+    arg = G_OPTION_ARG_STRING, arg_data = 0xbfb11630, 
+    description = 0x80757e8 "Specify the name of the page to show (theme|background|fonts|interface)", arg_description = 0x80756f4 "page"}, {
+    long_name = 0x8076ddc "", short_name = 0 '\0', flags = 2, 
+    arg = G_OPTION_ARG_FILENAME_ARRAY, arg_data = 0xbfb1162c, 
+    description = 0x0, arg_description = 0x80756f9 "[WALLPAPER...]"}, {
+    long_name = 0x0, short_name = 0 '\0', flags = 0, arg = G_OPTION_ARG_NONE, 
+    arg_data = 0x0, description = 0x0, arg_description = 0x0}}

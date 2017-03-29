@@ -1,0 +1,54 @@
+#0  0x00007f79f34d13f0 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007f79f34d154b in g_variant_type_info_get_type_string () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f79f3c7673d in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#3  0x00007f79f3c7686f in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#4  0x00007f79f3c76df3 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#5  0x00007f79f3c7686f in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#6  0x00007f79f3c7a27f in g_dbus_message_to_blob () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#7  0x00007f79f3c6f343 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#8  0x00007f79f3c71ee0 in g_dbus_connection_send_message () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#9  0x00007f79f3c86d80 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#10 0x00007f79f47da10d in ?? () from /usr/lib/x86_64-linux-gnu/libdbusmenu-glib.so.4
+No symbol table info available.
+#11 0x00007f79f3c72425 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#12 0x00007f79f3496ab5 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0x00007f79f3496de8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00007f79f34971e2 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x0000000000407ceb in ?? ()
+No symbol table info available.
+#16 0x00007f79f27c876d in __libc_start_main () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#17 0x0000000000407d41 in ?? ()
+No symbol table info available.
+#18 0x00007ffffc0eed28 in ?? ()
+No symbol table info available.
+#19 0x000000000000001c in ?? ()
+No symbol table info available.
+#20 0x0000000000000005 in ?? ()
+No symbol table info available.
+#21 0x00007ffffc0ef9e0 in ?? ()
+No symbol table info available.
+#22 0x00007ffffc0efa17 in ?? ()
+No symbol table info available.
+#23 0x00007ffffc0efa21 in ?? ()
+No symbol table info available.
+#24 0x00007ffffc0efa2f in ?? ()
+No symbol table info available.
+#25 0x00007ffffc0efa4e in ?? ()
+No symbol table info available.
+#26 0x0000000000000000 in ?? ()
+No symbol table info available.

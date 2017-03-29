@@ -1,0 +1,37 @@
+#0  gnome_bg_create_thumbnail (bg=0x2350120, factory=0x1e26d60, screen=0x1b721a0, dest_width=108, 
+    dest_height=67) at gnome-bg.c:1487
+	result = (GdkPixbuf *) 0x22b5770
+	thumb = (GdkPixbuf *) 0x0
+	__PRETTY_FUNCTION__ = "gnome_bg_create_thumbnail"
+#1  0x000000000041e469 in gnome_wp_item_get_thumbnail (item=0x2317b10, thumbs=0x1e26d60) at gnome-wp-item.c:192
+	pixbuf = <value optimized out>
+#2  0x000000000041376f in wp_props_load_wallpaper (key=<value optimized out>, item=0x2317b10, data=0x1e26e00)
+    at appearance-desktop.c:160
+	iter = {stamp = -1352663675, user_data = 0x1fe5d90, user_data2 = 0x430288, user_data3 = 0x7fa7c3bd8a40}
+	path = <value optimized out>
+	pixbuf = <value optimized out>
+#3  0x00007fa7c47fca5e in ?? ()
+#4  0x0000000001e26e00 in ?? ()
+#5  0x00007fa7c3bda570 in ?? () from /lib/libpthread.so.0
+#6  0x0000000001e26e00 in ?? ()
+#7  0x00007fa7c4aafab0 in ?? ()
+#8  0x0000000001e25d70 in ?? ()
+#9  0x0000000001b7cf50 in ?? ()
+#10 0x0000000001c43680 in ?? ()
+#11 0x0000000000413a81 in wp_load_stuffs (user_data=<value optimized out>) at appearance-desktop.c:892
+	data = (AppearanceData *) 0x1e26e00
+	imagepath = <value optimized out>
+	uri = <value optimized out>
+	style = <value optimized out>
+	item = <value optimized out>
+#12 0x00007fa7c4809534 in ?? ()
+#13 0x00007fa7c3bda570 in ?? () from /lib/libpthread.so.0
+#14 0x00007fffcfa06ac0 in ?? ()
+#15 0x00007fffcfa06ac8 in ?? ()
+#16 0x0000000001b7cf58 in ?? ()
+#17 0x00007fffcfa06ab0 in ?? ()
+#18 0x00007fa7c48078e0 in ?? ()
+#19 0x00000009c3bd8a40 in ?? ()
+#20 0x0000000100000000 in ?? ()
+#21 0x0000000001da0cb0 in ?? ()
+#22 0x0000000000000000 in ?? ()

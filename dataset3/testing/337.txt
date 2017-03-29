@@ -1,0 +1,22 @@
+#0  0x00007f7abd811c55 in raise () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00007f7abd815a06 in abort () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x00007f7abd84acdb in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0x00007f7abd856a9f in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#4  0x00007f7abd85a8f3 in free () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#5  0x00007f7ac075eb1f in ?? () from /usr/lib/libutouch-geis.so.1
+No symbol table info available.
+#6  0x00007f7ac0764605 in geis_new () from /usr/lib/libutouch-geis.so.1
+No symbol table info available.
+#7  0x00007f7ac07638b8 in geis_init () from /usr/lib/libutouch-geis.so.1
+No symbol table info available.
+#8  0x00000000004110f6 in GestureHandler::geisInitialize() ()
+No symbol table info available.
+#9  0x000000000041127a in GestureHandler::GestureHandler(Unity2dPanel*, QObject*) ()
+No symbol table info available.
+#10 0x0000000000409d67 in main ()
+No symbol table info available.

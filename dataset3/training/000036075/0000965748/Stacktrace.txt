@@ -1,0 +1,84 @@
+#0  0xb4d80464 in ?? () from /usr/lib/i386-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#1  0xb4d83103 in ?? () from /usr/lib/i386-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#2  0xb4d7f2a2 in ?? () from /usr/lib/i386-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#3  0xb4d83821 in ?? () from /usr/lib/i386-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#4  0xb4d42e5d in FT_Load_Glyph () from /usr/lib/i386-linux-gnu/libfreetype.so.6
+No symbol table info available.
+#5  0xb4f1faa9 in ?? () from /usr/lib/i386-linux-gnu/libcairo.so.2
+No symbol table info available.
+#6  0xb4edf07f in ?? () from /usr/lib/i386-linux-gnu/libcairo.so.2
+No symbol table info available.
+#7  0xb4edfc39 in ?? () from /usr/lib/i386-linux-gnu/libcairo.so.2
+No symbol table info available.
+#8  0xb4eb5159 in ?? () from /usr/lib/i386-linux-gnu/libcairo.so.2
+No symbol table info available.
+#9  0xb4ec2b89 in ?? () from /usr/lib/i386-linux-gnu/libcairo.so.2
+No symbol table info available.
+#10 0xb4ee5d43 in ?? () from /usr/lib/i386-linux-gnu/libcairo.so.2
+No symbol table info available.
+#11 0xb4ebb8b0 in ?? () from /usr/lib/i386-linux-gnu/libcairo.so.2
+No symbol table info available.
+#12 0xb4eb0e6d in cairo_show_glyphs () from /usr/lib/i386-linux-gnu/libcairo.so.2
+No symbol table info available.
+#13 0xb3e01271 in ?? () from /usr/lib/i386-linux-gnu/libpangocairo-1.0.so.0
+No symbol table info available.
+#14 0xb3e015c4 in ?? () from /usr/lib/i386-linux-gnu/libpangocairo-1.0.so.0
+No symbol table info available.
+#15 0xb3dd74fe in pango_renderer_draw_glyphs () from /usr/lib/i386-linux-gnu/libpango-1.0.so.0
+No symbol table info available.
+#16 0xb3dd75f6 in pango_renderer_draw_glyph_item () from /usr/lib/i386-linux-gnu/libpango-1.0.so.0
+No symbol table info available.
+#17 0xb3dd8227 in pango_renderer_draw_layout_line () from /usr/lib/i386-linux-gnu/libpango-1.0.so.0
+No symbol table info available.
+#18 0xb3dd83aa in pango_renderer_draw_layout () from /usr/lib/i386-linux-gnu/libpango-1.0.so.0
+No symbol table info available.
+#19 0xb3e0175c in ?? () from /usr/lib/i386-linux-gnu/libpangocairo-1.0.so.0
+No symbol table info available.
+#20 0xb0ed29af in ?? () from /usr/lib/i386-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#21 0xb0ecc90b in ?? () from /usr/lib/i386-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#22 0xb0ecc7f2 in ?? () from /usr/lib/i386-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#23 0xb0eccbfb in ?? () from /usr/lib/i386-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#24 0xb0ec68e4 in ?? () from /usr/lib/i386-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#25 0xb0ec6cf7 in ?? () from /usr/lib/i386-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#26 0xb0ec68e4 in ?? () from /usr/lib/i386-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#27 0xb0ed49d4 in rsvg_handle_render_cairo_sub () from /usr/lib/i386-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#28 0xb0ed4f7e in rsvg_handle_get_pixbuf_sub () from /usr/lib/i386-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#29 0xb0ed5013 in rsvg_handle_get_pixbuf () from /usr/lib/i386-linux-gnu/librsvg-2.so.2
+No symbol table info available.
+#30 0xb11149d0 in ?? () from /usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+No symbol table info available.
+#31 0xb4a1da0b in gdk_pixbuf_loader_close () from /usr/lib/i386-linux-gnu/libgdk_pixbuf-2.0.so.0
+No symbol table info available.
+#32 0xb4a1989d in ?? () from /usr/lib/i386-linux-gnu/libgdk_pixbuf-2.0.so.0
+No symbol table info available.
+#33 0xb4a1b3f7 in gdk_pixbuf_new_from_stream_at_scale () from /usr/lib/i386-linux-gnu/libgdk_pixbuf-2.0.so.0
+No symbol table info available.
+#34 0xb40181cc in ?? () from /usr/lib/i386-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#35 0xb401b359 in gtk_icon_info_load_icon () from /usr/lib/i386-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#36 0xb465f233 in unity::IconLoader::Impl::LoaderJobFunc(_GIOSchedulerJob*, _GCancellable*, unity::IconLoader::Impl::IconLoaderTask*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#37 0xb6289d5c in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#38 0xb714c357 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#39 0xb714b9c3 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#40 0xb73c5d4c in start_thread () from /lib/i386-linux-gnu/libpthread.so.0
+No symbol table info available.
+#41 0xb74c4ace in clone () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.

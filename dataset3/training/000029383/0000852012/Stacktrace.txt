@@ -1,0 +1,94 @@
+#0  0x0057d416 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0x00234c8f in __GI_raise (sig=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:64
+        resultvar = <optimized out>
+        resultvar = <optimized out>
+        pid = 3665908
+        selftid = 1749
+#2  0x002382b5 in __GI_abort () at abort.c:92
+        save_stage = 2
+        act = {__sigaction_handler = {sa_handler = 0x3118bd <__GI__dl_addr+189>, sa_sigaction = 0x3118bd <__GI__dl_addr+189>}, sa_mask = {__val = {15721700, 134516428, 67, 134525265, 15722776, 0, 67, 3213199544, 2, 26, 2952732, 4, 0, 3665908, 26, 3213201000, 2, 3076218, 2, 3213199544, 4, 0, 3213202716, 3, 3213202728, 6, 3213199648, 3213199640, 4, 3416109, 3416113, 2228256}}, sa_flags = 3, sa_restorer = 0x220113 <__libc_start_main+243>}
+        sigs = {__val = {32, 0 <repeats 31 times>}}
+#3  0x0026adfc in __libc_message (do_abort=2, fmt=0x344080 "*** glibc detected *** %s: %s: 0x%s ***\n") at ../sysdeps/unix/sysv/linux/libc_fatal.c:189
+        ap = 0xb5f00f80 "*** glibc detected *** unity-2d-panel: corrupted double-linked list: 0x094bc9b0 ***\n"
+        ap_copy = 0xb5f00f80 "*** glibc detected *** unity-2d-panel: corrupted double-linked list: 0x094bc9b0 ***\n"
+        fd = 2
+        on_2 = <optimized out>
+        list = <optimized out>
+        nlist = <optimized out>
+        cp = <optimized out>
+        written = <optimized out>
+#4  0x00275bc2 in malloc_printerr (action=<optimized out>, str=<optimized out>, ptr=0x94bc9b0) at malloc.c:6283
+        buf = "094bc9b0"
+        cp = <optimized out>
+#5  0x00276000 in malloc_consolidate (av=0x380400) at malloc.c:5161
+        p = 0x94bc9b0
+        first_unsorted = <optimized out>
+        size = 296
+        nextsize = 16
+        nextinuse = <optimized out>
+        maxfb = 0x38042c
+        nextp = 0x94c1b08
+        unsorted_bin = 0x380430
+        nextchunk = 0x94bcad8
+        prevsize = <optimized out>
+        fwd = <optimized out>
+        fb = 0x38040c
+        bck = <optimized out>
+#6  malloc_consolidate (av=0x380400) at malloc.c:5089
+No locals.
+#7  0x00276737 in _int_free (av=0x380400, p=0x9561638) at malloc.c:5034
+        size = 149840
+        fb = <optimized out>
+        nextchunk = <optimized out>
+        nextsize = 147848
+        nextinuse = <optimized out>
+        prevsize = <optimized out>
+        bck = <optimized out>
+        fwd = <optimized out>
+        errstr = 0x0
+        __func__ = "_int_free"
+#8  0x0027994d in __GI___libc_free (mem=0x9561688) at malloc.c:3738
+        ar_ptr = 0x380400
+        p = <optimized out>
+        hook = <optimized out>
+#9  0x01124250 in QImageData::~QImageData() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#10 0x011242d9 in QImage::~QImage() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#11 0x011526b0 in QRasterPixmapData::~QRasterPixmapData() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#12 0x01152702 in QRasterPixmapData::~QRasterPixmapData() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#13 0x01140f26 in QPixmap::~QPixmap() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#14 0x00436657 in IndicatorEntryWidget::~IndicatorEntryWidget() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#15 0x00436722 in IndicatorEntryWidget::~IndicatorEntryWidget() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#16 0x00ae1841 in QObjectPrivate::deleteChildren() () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#17 0x010abf4e in QWidget::~QWidget() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#18 0x0207788b in MenuBarWidget::~MenuBarWidget() () from /usr/lib/unity-2d/plugins/panel/libpanelplugin-appname.so.0
+No symbol table info available.
+#19 0x00ae1841 in QObjectPrivate::deleteChildren() () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#20 0x010abf4e in QWidget::~QWidget() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#21 0x020740c3 in AppNameApplet::~AppNameApplet() () from /usr/lib/unity-2d/plugins/panel/libpanelplugin-appname.so.0
+No symbol table info available.
+#22 0x02074102 in AppNameApplet::~AppNameApplet() () from /usr/lib/unity-2d/plugins/panel/libpanelplugin-appname.so.0
+No symbol table info available.
+#23 0x00ae1841 in QObjectPrivate::deleteChildren() () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#24 0x010abf4e in QWidget::~QWidget() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#25 0x003d5a1c in Unity2dPanel::~Unity2dPanel() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#26 0x003d5ac2 in Unity2dPanel::~Unity2dPanel() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#27 0x0804ba46 in PanelManager::~PanelManager() ()
+No symbol table info available.
+#28 0x0804b067 in main ()
+No symbol table info available.

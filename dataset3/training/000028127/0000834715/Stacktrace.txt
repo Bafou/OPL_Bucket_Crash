@@ -1,0 +1,42 @@
+#0  0x00007fb303781152 in QConf::notify(char const*) () from /usr/lib/libdconf-qt.so.0
+No symbol table info available.
+#1  0x00007fb2ffeaa826 in ?? () from /usr/lib/libdconf-dbus-1.so.0
+No symbol table info available.
+#2  0x00007fb2fb47940a in ?? () from /lib/x86_64-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#3  0x00007fb2fb47c69a in dbus_connection_dispatch () from /lib/x86_64-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#4  0x00007fb3000ca6a9 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDBus.so.4
+No symbol table info available.
+#5  0x00007fb30010d7d4 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDBus.so.4
+No symbol table info available.
+#6  0x00007fb303b0c9fe in QObject::event(QEvent*) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#7  0x00007fb304024154 in QApplicationPrivate::notify_helper(QObject*, QEvent*) () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#8  0x00007fb304028fc1 in QApplication::notify(QObject*, QEvent*) () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#9  0x00007fb303af5b5c in QCoreApplication::notifyInternal(QObject*, QEvent*) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#10 0x00007fb303af957f in QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#11 0x00007fb303b20a83 in ?? () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#12 0x00007fb3022b2efd in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0x00007fb3022b36f8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00007fb3022b38c9 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x00007fb303b20ee6 in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#16 0x00007fb3040cb7ae in ?? () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#17 0x00007fb303af4d52 in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#18 0x00007fb303af4f57 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#19 0x00007fb303af97e9 in QCoreApplication::exec() () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#20 0x0000000000403cf9 in main ()
+No symbol table info available.

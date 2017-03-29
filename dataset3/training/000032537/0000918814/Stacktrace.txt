@@ -1,0 +1,34 @@
+#0  0x00007f93f181db3b in g_logv () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007f93f181dd12 in g_log () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f93f1dc1dd8 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#3  0x00007f93f1ad513e in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00007f93f1ad6624 in g_object_newv () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007f93f1ad6e06 in g_object_new_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00007f93f1ad7114 in g_object_new () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00007f93e7ba51aa in deja_dup_get_settings () from /usr/lib/control-center-1/panels/libdeja-dup.so
+No symbol table info available.
+#8  0x00007f93e7ba5879 in deja_dup_convert_ssh_to_file () from /usr/lib/control-center-1/panels/libdeja-dup.so
+No symbol table info available.
+#9  0x00007f93e7ba5efd in deja_dup_initialize () from /usr/lib/control-center-1/panels/libdeja-dup.so
+No symbol table info available.
+#10 0x00007f93e7b99f01 in deja_dup_gui_initialize () from /usr/lib/control-center-1/panels/libdeja-dup.so
+No symbol table info available.
+#11 0x00007f93e7b859dd in ?? () from /usr/lib/control-center-1/panels/libdeja-dup.so
+No symbol table info available.
+#12 0x00007f93f18167da in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0x00007f93f1816ba0 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00007f93f1816c64 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x00007f93f1dae594 in g_application_run () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#16 0x00007f93f3b163bc in main ()
+No symbol table info available.

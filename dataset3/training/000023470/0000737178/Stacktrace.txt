@@ -1,0 +1,42 @@
+#0  0x00007f0a381fd8a0 in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00007f0a2d3a0090 in nux::CairoGraphics::GetBitmap() () from /usr/lib/libnux-image-0.9.so.0
+No symbol table info available.
+#2  0x00007f0a2dd05d20 in PanelMenuView::Refresh() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x00007f0a2dd08211 in PanelMenuView::OnActiveWindowChanged(_BamfView*, _BamfView*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0x00007f0a39db981c in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007f0a39dcb019 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00007f0a39dd4258 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00007f0a39dd441f in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#8  0x00007f0a2b062c2f in ?? () from /usr/lib/libdbus-glib-1.so.2
+No symbol table info available.
+#9  0x00007f0a39db981c in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#10 0x00007f0a39dcb019 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x00007f0a39dd4258 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x00007f0a39dd441f in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x00007f0a2b06375b in ?? () from /usr/lib/libdbus-glib-1.so.2
+No symbol table info available.
+#14 0x00007f0a2ae1cac6 in dbus_connection_dispatch () from /lib/libdbus-1.so.3
+No symbol table info available.
+#15 0x00007f0a2b05c655 in ?? () from /usr/lib/libdbus-glib-1.so.2
+No symbol table info available.
+#16 0x00007f0a394ecbcd in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#17 0x00007f0a394ed3a8 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#18 0x00007f0a394ed9f2 in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#19 0x0000000000429fba in CompScreen::eventLoop() ()
+No symbol table info available.
+#20 0x0000000000422f70 in main ()
+No symbol table info available.

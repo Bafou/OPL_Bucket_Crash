@@ -1,0 +1,28 @@
+#0  0x00007fcf7f218a50 in gdk_window_get_type_hint () from /usr/lib/x86_64-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#1  0x0000000000431b86 in ?? ()
+No symbol table info available.
+#2  0x00007fcf7f22c821 in ?? () from /usr/lib/x86_64-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#3  0x00007fcf7f22cad3 in ?? () from /usr/lib/x86_64-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#4  0x00007fcf7f204728 in gdk_display_get_event () from /usr/lib/x86_64-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#5  0x00007fcf7f22c8a2 in ?? () from /usr/lib/x86_64-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#6  0x00007fcf7e0c6b54 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00007fcf7e0c6d98 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0x00007fcf7e0c705a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0x00007fcf7f626ab5 in gtk_main () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#10 0x00000000004345c5 in ?? ()
+No symbol table info available.
+#11 0x00007fcf7caaaed5 in __libc_start_main (main=0x40e160, argc=1, argv=0x7fff64d396f8, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fff64d396e8) at libc-start.c:287
+        result = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {0, -5146940192823782373, 4252032, 140734884976368, 0, 0, 5146678196351980571, 5119638947090453531}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x440770, 0x7fff64d396f8}, data = {prev = 0x0, cleanup = 0x0, canceltype = 4458352}}}
+        not_first_call = <optimized out>
+#12 0x000000000040e1a9 in ?? ()
+No symbol table info available.

@@ -1,0 +1,20 @@
+#0  0x00007f835eaf6d5c in ?? () from /usr/lib/control-center-1/panels/libdisplay.so
+No symbol table info available.
+#1  0x00007f83642c845a in ?? () from /lib/x86_64-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#2  0x00007f83642cb6ea in dbus_connection_dispatch () from /lib/x86_64-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#3  0x00007f835e8d4395 in ?? () from /usr/lib/x86_64-linux-gnu/libdbus-glib-1.so.2
+No symbol table info available.
+#4  0x00007f836b7bbb4d in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f836b7bc348 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f836b7bc882 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00007f836d14a89d in gtk_main () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#8  0x00007f836bf6134e in g_application_run () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#9  0x00007f836daa43bc in main ()
+No symbol table info available.

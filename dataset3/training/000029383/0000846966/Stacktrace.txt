@@ -1,0 +1,32 @@
+#0  0x0050af1d in ?? () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x0050b737 in ?? () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x0050e94d in free () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0x004b69ff in ?? () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#4  0x004b5f5a in iconv_close () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#5  0x002aff6a in ?? () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#6  0x002b14d6 in ?? () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#7  0x00179ad9 in QThreadStorageData::finish(void**) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#8  0x002796f7 in QCoreApplicationPrivate::~QCoreApplicationPrivate() () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#9  0x0106184b in QApplicationPrivate::~QApplicationPrivate() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#10 0x01061b62 in QApplicationPrivate::~QApplicationPrivate() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#11 0x0028f491 in QObject::~QObject() () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#12 0x00279648 in QCoreApplication::~QCoreApplication() () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#13 0x0106d903 in QApplication::~QApplication() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#14 0x00ad4987 in Unity2dApplication::~Unity2dApplication() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#15 0x0804b077 in main ()
+No symbol table info available.

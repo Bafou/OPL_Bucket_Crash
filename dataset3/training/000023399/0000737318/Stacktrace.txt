@@ -1,0 +1,58 @@
+#0  0x02ccea48 in DeviceLauncherIcon::UpdateVisibility() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0x02ccf1e7 in DeviceLauncherSection::OnMountAdded(_GVolumeMonitor*, _GMount*, DeviceLauncherSection*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x001d0088 in g_cclosure_marshal_VOID__OBJECT () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#3  0x001b3372 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x001c6048 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x001ceb29 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x001cee3d in g_signal_emit_by_name () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x0042315e in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#8  0x001d0088 in g_cclosure_marshal_VOID__OBJECT () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#9  0x001b3372 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#10 0x001c6048 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x001ceb29 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x001cee3d in g_signal_emit_by_name () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x04f2be43 in ?? () from /usr/lib/gio/modules/libgvfsdbus.so
+No symbol table info available.
+#14 0x001cffc8 in g_cclosure_marshal_VOID__POINTER () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#15 0x001b3372 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#16 0x001c6048 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#17 0x001ceb29 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#18 0x001cecc2 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#19 0x047a020b in ?? () from /usr/lib/libgvfscommon.so.0
+No symbol table info available.
+#20 0x047a07b2 in ?? () from /usr/lib/libgvfscommon.so.0
+No symbol table info available.
+#21 0x017193ab in dbus_connection_dispatch () from /lib/libdbus-1.so.3
+No symbol table info available.
+#22 0x04799ecd in ?? () from /usr/lib/libgvfscommon.so.0
+No symbol table info available.
+#23 0x004f5aa8 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#24 0x004f6270 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#25 0x004f692b in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#26 0x00182a35 in Glib::MainLoop::run() () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#27 0x0806e9ab in CompScreen::eventLoop() ()
+No symbol table info available.
+#28 0x08066c98 in main ()
+No symbol table info available.

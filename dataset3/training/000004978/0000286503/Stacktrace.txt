@@ -1,0 +1,2 @@
+#0  0xb7726d2a in strcmp () from /lib/tls/i686/cmov/libc.so.6
+#1  0x0804f759 in _start ()

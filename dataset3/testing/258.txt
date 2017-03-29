@@ -1,0 +1,36 @@
+#0  0x01692afe in unity::PanelTray::FilterTrayCallback(_NaTray*, _NaTrayChild*, unity::PanelTray*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0x02eedcdd in ?? () from /usr/lib/libunity-misc.so.4
+No symbol table info available.
+#2  0x00623d43 in g_cclosure_marshal_VOID__OBJECT () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#3  0x00621c3c in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x006349f0 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x0063d787 in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x0063d8f3 in g_signal_emit () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x02eec788 in ?? () from /usr/lib/libunity-misc.so.4
+No symbol table info available.
+#8  0x00a70044 in ?? () from /usr/lib/libgdk-3.so.0
+No symbol table info available.
+#9  0x00a701ea in ?? () from /usr/lib/libgdk-3.so.0
+No symbol table info available.
+#10 0x00a4475e in gdk_display_get_event () from /usr/lib/libgdk-3.so.0
+No symbol table info available.
+#11 0x00a6feba in ?? () from /usr/lib/libgdk-3.so.0
+No symbol table info available.
+#12 0x002b925f in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0x002b9990 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x002b9f9b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x004b1753 in Glib::MainLoop::run() () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#16 0x08070837 in CompScreen::eventLoop() ()
+No symbol table info available.
+#17 0x08063a14 in main ()
+No symbol table info available.

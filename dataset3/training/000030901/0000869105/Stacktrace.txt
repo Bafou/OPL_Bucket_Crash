@@ -1,0 +1,20 @@
+#0  0x00007f28e1e6954c in g_type_check_instance_cast () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#1  0x00007f28ce1b8056 in ?? () from /usr/lib/control-center-1/panels/libbackground.so
+No symbol table info available.
+#2  0x00007f28e20eec17 in g_simple_async_result_complete () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#3  0x00007f28e20eeca8 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#4  0x00007f28e197fa5d in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f28e1980258 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f28e1980792 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00007f28e32dde1d in gtk_main () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#8  0x00007f28e211ca4e in g_application_run () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#9  0x00007f28e3c0b3bc in main ()
+No symbol table info available.

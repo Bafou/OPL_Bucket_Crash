@@ -1,0 +1,84 @@
+#0  0x00007f122651a21b in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00007f122651e085 in calloc () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x00007f1224df6c31 in g_malloc0 () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f1223e3bc9c in g_object_new_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00007f1223e3c0f4 in g_object_new () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007f1220dbe72c in g_memory_output_stream_new () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#6  0x00007f1220e25aff in g_dbus_message_to_blob () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#7  0x00007f1220e1a672 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#8  0x00007f1220e1cf3e in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#9  0x00007f1220e20b1d in g_dbus_connection_signal_unsubscribe () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#10 0x00007f1220e281f5 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#11 0x00007f121006a335 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#12 0x00007f1223e39bd3 in g_object_unref () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x00007f121007465d in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#14 0x00007f1223e39bd3 in g_object_unref () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#15 0x00007f120ef43bb8 in unity::dash::Model<unity::dash::FilterAdaptor>::~Model() () from /usr/lib/libunity-core-5.0.so.5
+No symbol table info available.
+#16 0x00007f120ef41089 in unity::dash::Filters::~Filters() () from /usr/lib/libunity-core-5.0.so.5
+No symbol table info available.
+#17 0x00007f120ef5edba in unity::dash::Lens::Impl::~Impl() () from /usr/lib/libunity-core-5.0.so.5
+No symbol table info available.
+#18 0x00007f120ef5f22b in unity::dash::Lens::~Lens() () from /usr/lib/libunity-core-5.0.so.5
+No symbol table info available.
+#19 0x00007f120ef5f869 in unity::dash::Lens::~Lens() () from /usr/lib/libunity-core-5.0.so.5
+No symbol table info available.
+#20 0x00007f120ef3acf1 in unity::dash::FilesystemLenses::Impl::~Impl() () from /usr/lib/libunity-core-5.0.so.5
+No symbol table info available.
+#21 0x00007f120ef3ae18 in unity::dash::FilesystemLenses::~FilesystemLenses() () from /usr/lib/libunity-core-5.0.so.5
+No symbol table info available.
+#22 0x00007f1211abafdf in unity::launcher::BFBLauncherIcon::~BFBLauncherIcon() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#23 0x00007f12127f311e in nux::Object::Destroy() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#24 0x00007f12127f3489 in nux::Object::UnReference() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#25 0x00007f1211b5d352 in unity::launcher::LauncherModel::~LauncherModel() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#26 0x00007f1211b5d489 in unity::launcher::LauncherModel::~LauncherModel() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#27 0x00007f1211b49bc9 in unity::launcher::Controller::Impl::~Impl() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#28 0x00007f1211b49d25 in unity::launcher::Controller::~Controller() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#29 0x00007f1211b49e29 in unity::launcher::Controller::~Controller() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#30 0x00007f1211c130e5 in unity::UnityScreen::~UnityScreen() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#31 0x00007f1211c13519 in unity::UnityScreen::~UnityScreen() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#32 0x00007f1226dd61d8 in CompManager::finiPlugin(CompPlugin*) () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#33 0x00007f1226dd771e in CompPlugin::pop() () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#34 0x00007f1226da6e3c in PrivateScreen::updatePlugins() () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#35 0x00007f1226da7284 in PrivateScreen::processEvents() () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#36 0x00007f1226ddc9e7 in CompEventSource::callback() () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#37 0x00007f12252e76df in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/x86_64-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#38 0x00007f1224df0dda in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#39 0x00007f1224df11a0 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#40 0x00007f1224df159a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#41 0x000000000040299e in main ()
+No symbol table info available.

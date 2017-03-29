@@ -1,0 +1,22 @@
+#0  0xb75e9a4c in _int_malloc (av=0xb76d8140, bytes=38) at malloc.c:4130
+	nb = $2 = -99
+.
+Thread 1 (process 5314):
+#0  0xb75e9a4c in _int_malloc (av=0xb76d8140, bytes=38) at malloc.c:4130
+	nb = $3 = -99
+eax            0xb76d8140	-1217560256
+ecx            0xb76d8140	-1217560256
+edx            0x1	1
+ebx            0xb76d6ff4	-1217564684
+esp            0xbf3fef74	0xbf3fef74
+ebp            0xbf3ff024	0xbf3ff024
+esi            0x9	9
+edi            0x26	38
+eip            0xb75e9a4c	0xb75e9a4c <_int_malloc+12>
+eflags         0x210286	[ PF SF IF RF ID ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x33	51

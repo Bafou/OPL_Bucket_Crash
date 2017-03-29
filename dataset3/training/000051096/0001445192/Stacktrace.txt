@@ -1,0 +1,64 @@
+#0  0x00007f277b6f7d00 in g_logv () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007f277b6f7f3f in g_log () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f277c44321b in ?? () from /usr/lib/x86_64-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#3  0x00007f277c44bc01 in ?? () from /usr/lib/x86_64-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#4  0x00007f277cfc17ed in _XError () from /usr/lib/x86_64-linux-gnu/libX11.so.6
+No symbol table info available.
+#5  0x00007f277cfbe7e7 in ?? () from /usr/lib/x86_64-linux-gnu/libX11.so.6
+No symbol table info available.
+#6  0x00007f277cfbe895 in ?? () from /usr/lib/x86_64-linux-gnu/libX11.so.6
+No symbol table info available.
+#7  0x00007f277cfbf7a8 in _XReply () from /usr/lib/x86_64-linux-gnu/libX11.so.6
+No symbol table info available.
+#8  0x00007f277cfbb28d in XSync () from /usr/lib/x86_64-linux-gnu/libX11.so.6
+No symbol table info available.
+#9  0x00007f2752d19303 in ?? () from /usr/lib/fglrx/libGL.so.1
+No symbol table info available.
+#10 0x00007f2752d19a91 in glXCreateNewContext () from /usr/lib/fglrx/libGL.so.1
+No symbol table info available.
+#11 0x00007f275615bc62 in ?? () from /usr/lib/x86_64-linux-gnu/libcogl.so.20
+No symbol table info available.
+#12 0x00007f27561196af in cogl_display_setup () from /usr/lib/x86_64-linux-gnu/libcogl.so.20
+No symbol table info available.
+#13 0x00007f2756118c09 in cogl_renderer_check_onscreen_template () from /usr/lib/x86_64-linux-gnu/libcogl.so.20
+No symbol table info available.
+#14 0x00007f27563cbf24 in ?? () from /usr/lib/x86_64-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#15 0x00007f27563fad5f in ?? () from /usr/lib/x86_64-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#16 0x00007f27564131f3 in ?? () from /usr/lib/x86_64-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#17 0x00007f275642568b in ?? () from /usr/lib/x86_64-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#18 0x00007f2756425890 in ?? () from /usr/lib/x86_64-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#19 0x00007f277b6fc269 in g_option_context_parse () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#20 0x00007f2756426548 in clutter_init () from /usr/lib/x86_64-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#21 0x00007f2756fb344c in cheese_gtk_init () from /usr/lib/x86_64-linux-gnu/libcheese-gtk.so.23
+No symbol table info available.
+#22 0x00007f275762f043 in g_io_module_load () from /usr/lib/x86_64-linux-gnu/unity-control-center-1/panels/libuser-accounts.so
+No symbol table info available.
+#23 0x00007f277bc67f26 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#24 0x00007f277b9eb301 in g_type_module_use () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#25 0x00007f277bc68305 in g_io_modules_load_all_in_directory_with_scope () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#26 0x000000000040a4ba in ?? ()
+No symbol table info available.
+#27 0x00007f277b9e7fa9 in g_type_create_instance () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#28 0x00007f277b9cb867 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#29 0x00007f277b9cd25d in g_object_newv () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#30 0x00007f277b9cd9f4 in g_object_new () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#31 0x0000000000407556 in main ()
+No symbol table info available.

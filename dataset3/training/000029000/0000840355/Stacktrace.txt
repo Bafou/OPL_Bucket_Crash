@@ -1,0 +1,68 @@
+#0  0x006c3416 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0x007dcc8f in raise () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x007e02b5 in abort () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0x00212e4d in ?? () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#4  0x003a7319 in qt_message_output(QtMsgType, char const*) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#5  0x003a784b in ?? () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#6  0x003a7968 in qFatal(char const*, ...) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#7  0x06b55ca4 in QConfSchema::QConfSchema(QString const&) () from /usr/lib/libdconf-qt.so.0
+No symbol table info available.
+#8  0x06b55d8d in QConfSchema::getSchema(QString const&) () from /usr/lib/libdconf-qt.so.0
+No symbol table info available.
+#9  0x06b5416d in QConf::setSchema(QString const&) () from /usr/lib/libdconf-qt.so.0
+No symbol table info available.
+#10 0x06b54823 in QConf::qt_metacall(QMetaObject::Call, int, void**) () from /usr/lib/libdconf-qt.so.0
+No symbol table info available.
+#11 0x004b2bed in QMetaObject::metacall(QObject*, QMetaObject::Call, int, void**) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#12 0x049bf634 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#13 0x049c2f6f in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#14 0x049b6872 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#15 0x049bef53 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#16 0x049bfb6a in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#17 0x049c2f6f in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#18 0x049b6872 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#19 0x049bef53 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#20 0x049bfb6a in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#21 0x049c2f6f in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#22 0x049b6872 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#23 0x049b6d55 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#24 0x049b6e63 in QDeclarativeComponent::beginCreate(QDeclarativeContext*) () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#25 0x04977543 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#26 0x049780f3 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#27 0x049610f6 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#28 0x049b62e8 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#29 0x049b6684 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#30 0x049b509f in QDeclarativeComponent::create(QDeclarativeContext*) () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#31 0x048a3908 in QDeclarativeView::continueExecute() () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#32 0x048a3f90 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#33 0x0804cb29 in main ()
+No symbol table info available.

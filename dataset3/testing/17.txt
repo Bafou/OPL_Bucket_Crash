@@ -1,0 +1,44 @@
+#0  0xb6c104fd in g_logv () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0xb6c10683 in g_log () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0xb71672e1 in ?? () from /usr/lib/i386-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#3  0xb7174d98 in ?? () from /usr/lib/i386-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#4  0xb702cad6 in _XError () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#5  0xb7029a4e in ?? () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#6  0xb702a879 in _XReply () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#7  0xb4ea5ec8 in DRI2GetMSC () from /usr/lib/i386-linux-gnu/mesa/libGL.so.1
+No symbol table info available.
+#8  0xb4ea436c in ?? () from /usr/lib/i386-linux-gnu/mesa/libGL.so.1
+No symbol table info available.
+#9  0xb4e78f76 in ?? () from /usr/lib/i386-linux-gnu/mesa/libGL.so.1
+No symbol table info available.
+#10 0xb6880b8d in ?? () from /usr/lib/i386-linux-gnu/libcogl.so.9
+No symbol table info available.
+#11 0xb688182d in ?? () from /usr/lib/i386-linux-gnu/libcogl.so.9
+No symbol table info available.
+#12 0xb687c33d in cogl_onscreen_swap_buffers () from /usr/lib/i386-linux-gnu/libcogl.so.9
+No symbol table info available.
+#13 0xb68da081 in ?? () from /usr/lib/i386-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#14 0xb6957af8 in ?? () from /usr/lib/i386-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#15 0xb69539be in ?? () from /usr/lib/i386-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#16 0xb693580f in ?? () from /usr/lib/i386-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#17 0xb6c08a83 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#18 0xb6c08e20 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#19 0xb6c08f01 in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#20 0xb6f26c1c in g_application_run () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#21 0xb774592f in main ()
+No symbol table info available.

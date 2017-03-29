@@ -1,0 +1,122 @@
+#0  0x00007f0ac9d0d405 in raise () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00007f0ac9d10b6b in abort () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x00007f0ac87c7ec7 in g_assertion_message () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f0ac87c83e4 in g_assertion_message_expr () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f0ac71456d1 in ?? () from /usr/lib/python3/dist-packages/gi/_gobject/_gobject.cpython-32mu.so
+No symbol table info available.
+#5  0x00007f0ac7145f57 in ?? () from /usr/lib/python3/dist-packages/gi/_gobject/_gobject.cpython-32mu.so
+No symbol table info available.
+#6  0x00007f0ac8f09edf in ?? () from /usr/lib/python3/dist-packages/gi/_gi.cpython-32mu.so
+No symbol table info available.
+#7  0x00007f0ac8f0cd22 in ?? () from /usr/lib/python3/dist-packages/gi/_gi.cpython-32mu.so
+No symbol table info available.
+#8  0x00007f0ac7df0990 in ffi_closure_unix64_inner () from /usr/lib/x86_64-linux-gnu/libffi.so.6
+No symbol table info available.
+#9  0x00007f0ac7df0d20 in ffi_closure_unix64 () from /usr/lib/x86_64-linux-gnu/libffi.so.6
+No symbol table info available.
+#10 0x00007f0ac3e9a9c4 in ?? () from /usr/lib/x86_64-linux-gnu/libsignon-glib.so.1
+No symbol table info available.
+#11 0x00007f0ac3e99bf1 in ?? () from /usr/lib/x86_64-linux-gnu/libsignon-glib.so.1
+No symbol table info available.
+#12 0x00007f0ac3e99c51 in ?? () from /usr/lib/x86_64-linux-gnu/libsignon-glib.so.1
+No symbol table info available.
+#13 0x00007f0ac878af20 in g_datalist_clear () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00007f0ac8a6a6bd in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#15 0x00007f0ac8a6a3d8 in g_object_unref () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#16 0x00007f0ac714552f in ?? () from /usr/lib/python3/dist-packages/gi/_gobject/_gobject.cpython-32mu.so
+No symbol table info available.
+#17 0x000000000046e6e7 in ?? ()
+No symbol table info available.
+#18 0x00000000004cb543 in ?? ()
+No symbol table info available.
+#19 0x00000000004cb5f7 in PyDict_SetItem ()
+No symbol table info available.
+#20 0x0000000000485589 in _PyObject_GenericSetAttrWithDict ()
+No symbol table info available.
+#21 0x00007f0ac7145279 in ?? () from /usr/lib/python3/dist-packages/gi/_gobject/_gobject.cpython-32mu.so
+No symbol table info available.
+#22 0x0000000000485855 in PyObject_SetAttr ()
+No symbol table info available.
+#23 0x0000000000462551 in PyEval_EvalFrameEx ()
+No symbol table info available.
+#24 0x00000000004606f3 in PyEval_EvalCodeEx ()
+No symbol table info available.
+#25 0x00000000004e9a6e in ?? ()
+No symbol table info available.
+#26 0x00000000004b23fa in PyObject_Call ()
+No symbol table info available.
+#27 0x00000000004880df in PyObject_CallObject ()
+No symbol table info available.
+#28 0x00007f0ac8f0cd75 in ?? () from /usr/lib/python3/dist-packages/gi/_gi.cpython-32mu.so
+No symbol table info available.
+#29 0x00007f0ac7df0990 in ffi_closure_unix64_inner () from /usr/lib/x86_64-linux-gnu/libffi.so.6
+No symbol table info available.
+#30 0x00007f0ac7df0d20 in ffi_closure_unix64 () from /usr/lib/x86_64-linux-gnu/libffi.so.6
+No symbol table info available.
+#31 0x00007f0ac3bd98cf in ?? () from /usr/lib/libgdata.so.13
+No symbol table info available.
+#32 0x00007f0ac3bd9c10 in ?? () from /usr/lib/libgdata.so.13
+No symbol table info available.
+#33 0x00007f0ac3bd9d66 in ?? () from /usr/lib/libgdata.so.13
+No symbol table info available.
+#34 0x00007f0ac3bda144 in gdata_service_query () from /usr/lib/libgdata.so.13
+No symbol table info available.
+#35 0x00007f0ac3c1b09d in gdata_documents_service_query_documents () from /usr/lib/libgdata.so.13
+No symbol table info available.
+#36 0x00007f0ac7df0bb8 in ffi_call_unix64 () from /usr/lib/x86_64-linux-gnu/libffi.so.6
+No symbol table info available.
+#37 0x00007f0ac7df05c0 in ffi_call () from /usr/lib/x86_64-linux-gnu/libffi.so.6
+No symbol table info available.
+#38 0x00007f0ac8caff64 in g_callable_info_invoke () from /usr/lib/libgirepository-1.0.so.1
+No symbol table info available.
+#39 0x00007f0ac8cb12cb in g_function_info_invoke () from /usr/lib/libgirepository-1.0.so.1
+No symbol table info available.
+#40 0x00007f0ac8f0ff8a in ?? () from /usr/lib/python3/dist-packages/gi/_gi.cpython-32mu.so
+No symbol table info available.
+#41 0x0000000000468327 in PyEval_EvalFrameEx ()
+No symbol table info available.
+#42 0x0000000000460c63 in PyEval_EvalCodeEx ()
+No symbol table info available.
+#43 0x0000000000466881 in PyEval_EvalFrameEx ()
+No symbol table info available.
+#44 0x0000000000465e34 in PyEval_EvalFrameEx ()
+No symbol table info available.
+#45 0x00000000004606f3 in PyEval_EvalCodeEx ()
+No symbol table info available.
+#46 0x0000000000466317 in PyEval_EvalFrameEx ()
+No symbol table info available.
+#47 0x00000000004606f3 in PyEval_EvalCodeEx ()
+No symbol table info available.
+#48 0x00000000004e9a6e in ?? ()
+No symbol table info available.
+#49 0x00000000004b23fa in PyObject_Call ()
+No symbol table info available.
+#50 0x00000000004b2667 in ?? ()
+No symbol table info available.
+#51 0x00000000004b23fa in PyObject_Call ()
+No symbol table info available.
+#52 0x00000000004880df in PyObject_CallObject ()
+No symbol table info available.
+#53 0x00007f0ac714bc21 in ?? () from /usr/lib/python3/dist-packages/gi/_gobject/_gobject.cpython-32mu.so
+No symbol table info available.
+#54 0x00007f0ac8a6523e in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#55 0x00007f0ac8a77370 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#56 0x00007f0ac8a7f601 in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#57 0x00007f0ac8a7fd60 in g_signal_emit_by_name () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#58 0x00007f0abd7d3a4e in unity_scope_impl_export () from /usr/lib/x86_64-linux-gnu/libunity.so.9
+No symbol table info available.
+#59 0x0000000002a04d90 in ?? ()
+No symbol table info available.
+#60 0x0000000000000000 in ?? ()
+No symbol table info available.

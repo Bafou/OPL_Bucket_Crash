@@ -1,0 +1,24 @@
+#0  0x0000000000000000 in ?? ()
+No symbol table info available.
+#1  0x00007f0719fdbdd9 in eglGetDisplay () from /usr/lib/x86_64-linux-gnu/libhybris-egl/libEGL.so.1
+No symbol table info available.
+#2  0x00007f07156c6d75 in mir::graphics::mesa::helpers::EGLHelper::setup_internal(mir::graphics::mesa::helpers::GBMHelper const&, bool) () from /usr/lib/x86_64-linux-gnu/mir/platformgraphics/mesa/libmirplatformgraphics.so
+No symbol table info available.
+#3  0x00007f07156c7003 in mir::graphics::mesa::helpers::EGLHelper::setup(mir::graphics::mesa::helpers::GBMHelper const&) () from /usr/lib/x86_64-linux-gnu/mir/platformgraphics/mesa/libmirplatformgraphics.so
+No symbol table info available.
+#4  0x00007f07156ca1eb in mir::graphics::mesa::Display::Display(std::shared_ptr<mir::graphics::mesa::Platform> const&, std::shared_ptr<mir::graphics::DisplayConfigurationPolicy> const&, std::shared_ptr<mir::graphics::DisplayReport> const&) () from /usr/lib/x86_64-linux-gnu/mir/platformgraphics/mesa/libmirplatformgraphics.so
+No symbol table info available.
+#5  0x00007f07156bc578 in mir::graphics::mesa::Platform::create_display(std::shared_ptr<mir::graphics::DisplayConfigurationPolicy> const&) () from /usr/lib/x86_64-linux-gnu/mir/platformgraphics/mesa/libmirplatformgraphics.so
+No symbol table info available.
+#6  0x00007f071c25d3d4 in ?? () from /usr/lib/x86_64-linux-gnu/libmirserver.so.16
+No symbol table info available.
+#7  0x00007f071c25cbb5 in mir::DefaultServerConfiguration::the_display() () from /usr/lib/x86_64-linux-gnu/libmirserver.so.16
+No symbol table info available.
+#8  0x00007f071c21efbc in mir::DisplayServer::DisplayServer(mir::ServerConfiguration&) () from /usr/lib/x86_64-linux-gnu/libmirserver.so.16
+No symbol table info available.
+#9  0x00007f071c21a492 in mir::run_mir(mir::ServerConfiguration&, std::function<void (mir::DisplayServer&)>) () from /usr/lib/x86_64-linux-gnu/libmirserver.so.16
+No symbol table info available.
+#10 0x0000000000422d77 in SystemCompositor::run(int, char**) ()
+No symbol table info available.
+#11 0x000000000041c017 in main ()
+No symbol table info available.

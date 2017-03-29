@@ -1,0 +1,36 @@
+#0  0x00007faac3865da0 in getenv () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00007faac385b4af in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x00007faac45ee895 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#3  0x00007faac40fdd97 in g_type_class_ref () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00007faac40e2ffd in g_object_new_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007faac40e3464 in g_object_new () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00007faac45ebd8f in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#7  0x00007faac45f3a2b in g_bus_get_sync () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#8  0x00007faaba2cdeba in ?? () from /usr/lib/gio/modules/libdconfsettings.so
+No symbol table info available.
+#9  0x00007faaba2ce237 in ?? () from /usr/lib/gio/modules/libdconfsettings.so
+No symbol table info available.
+#10 0x00007faac3c175bd in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0x00007faac3c17db8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#12 0x00007faac3c182f2 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0x00007faaba2cda0b in ?? () from /usr/lib/gio/modules/libdconfsettings.so
+No symbol table info available.
+#14 0x00007faac3c3d086 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x00007faac3390d8c in start_thread () from /lib/x86_64-linux-gnu/libpthread.so.0
+No symbol table info available.
+#16 0x00007faac39131dd in clone () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#17 0x0000000000000000 in ?? ()
+No symbol table info available.

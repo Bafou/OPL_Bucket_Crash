@@ -1,0 +1,60 @@
+#0  0x00007f52192c8d05 in raise (sig=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:64
+        resultvar = 0
+        pid = <value optimized out>
+        selftid = 1642
+#1  0x00007f52192ccab6 in abort () at abort.c:92
+        save_stage = 2
+        act = {__sigaction_handler = {sa_handler = 0, sa_sigaction = 0}, sa_mask = {__val = {139990607428673, 16638272, 139990589985216, 139990586211232, 139990659561920, 16638272, 2, 4294967295, 139990586693859, 64, 2, 3068024, 0, 0, 139990610103968, 139990607032320}}, sa_flags = 493468964, sa_restorer = 0x7f5200000005}
+        sigs = {__val = {32, 0 <repeats 15 times>}}
+#2  0x00007f521a6c2a22 in g_logv () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f521a6c2aaf in g_log () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f521b6c1c1b in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#5  0x00007f521b6c4286 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#6  0x00007f521af8b8e3 in g_object_newv () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00007f521af8c321 in g_object_new_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#8  0x00007f521af8c621 in g_object_new () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#9  0x00007f520d064207 in FavoriteStoreGSettings::FavoriteStoreGSettings() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#10 0x00007f520d05170d in FavoriteStore::GetDefault() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#11 0x00007f520d061f33 in LauncherController::LauncherController(Launcher*, CompScreen*, nux::BaseWindow*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#12 0x00007f520d06d57a in UnityScreen::initLauncher(nux::NThread*, void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#13 0x00007f520d06d7d0 in UnityScreen::initUnity(nux::NThread*, void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#14 0x00007f520cd4ea12 in nux::WindowThread::Run(void*) () from /usr/lib/libnux-0.9.so.0
+No symbol table info available.
+#15 0x00007f520d06f627 in UnityScreen::UnityScreen(CompScreen*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#16 0x00007f520d074759 in CompPlugin::VTableForScreenAndWindow<UnityScreen, UnityWindow>::initScreen(CompScreen*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#17 0x000000000045162a in CompManager::initPlugin(CompPlugin*) ()
+No symbol table info available.
+#18 0x000000000045271e in CompPlugin::push(CompPlugin*) ()
+No symbol table info available.
+#19 0x000000000042e1ff in PrivateScreen::updatePlugins() ()
+No symbol table info available.
+#20 0x000000000042e5c8 in PrivateScreen::processEvents() ()
+No symbol table info available.
+#21 0x0000000000455a68 in CompEventSource::callback() ()
+No symbol table info available.
+#22 0x00007f521b2099df in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#23 0x00007f521a6b9bcd in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#24 0x00007f521a6ba3a8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#25 0x00007f521a6ba9f2 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#26 0x000000000042a22a in CompScreen::eventLoop() ()
+No symbol table info available.
+#27 0x0000000000423180 in main ()
+No symbol table info available.

@@ -1,0 +1,45 @@
+#0  0x00ac7416 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0x07225e71 in raise (sig=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:64
+        resultvar = <value optimised out>
+        resultvar = <value optimised out>
+        pid = 120946676
+        selftid = 6772
+#2  0x0722934e in abort () at abort.c:92
+        save_stage = 2
+        act = {__sigaction_handler = {sa_handler = 0x6717854, sa_sigaction = 0x6717854}, sa_mask = {__val = {3215232836, 7039604, 0, 3078792464, 5, 0, 1, 3078834280, 0, 108099604, 7025812, 0, 52232829, 108150468, 120948167, 1, 3215232792, 120303396, 0, 0, 3215232912, 120948167, 3078834280, 108308895, 3078829448, 4294967295, 120948096, 120948167, 3215232836, 119938783, 120948096, 120948167}}, sa_flags = 1, sa_restorer = 0xffffffff}
+        sigs = {__val = {32, 0 <repeats 31 times>}}
+#3  0x067c00b5 in __gnu_cxx::__verbose_terminate_handler() () from /usr/lib/i386-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#4  0x067bdfa5 in ?? () from /usr/lib/i386-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#5  0x067bdfe2 in std::terminate() () from /usr/lib/i386-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#6  0x067be1ab in __cxa_rethrow () from /usr/lib/i386-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#7  0x00268dc8 in QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#8  0x00268e0d in QCoreApplication::sendPostedEvents(QObject*, int) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#9  0x002923c4 in ?? () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#10 0x01a11aa8 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0x01a12270 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#12 0x01a12524 in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0x0029253c in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#14 0x00ca9775 in ?? () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#15 0x00264289 in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#16 0x00264522 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#17 0x00268ecc in QCoreApplication::exec() () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#18 0x00bf38e7 in QApplication::exec() () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#19 0x0804ced6 in main ()
+No symbol table info available.

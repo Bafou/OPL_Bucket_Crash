@@ -1,0 +1,12 @@
+#0  0x00007effcc53c74e in unity::launcher::Launcher::handle_dbus_method_call(_GDBusConnection*, char const*, char const*, char const*, char const*, _GVariant*, _GDBusMethodInvocation*, void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0x00007effda41e28b in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#2  0x00007effde3eec9a in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007effde3ef060 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007effde3ef45a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00000000004029ae in main ()
+No symbol table info available.

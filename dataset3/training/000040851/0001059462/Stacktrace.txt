@@ -1,0 +1,24 @@
+#0  0xb73b79c7 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0xb73b7f12 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0xb73b7f2f in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0xb73b98a7 in g_source_add_child_source () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0xb43ee35e in ?? () from /usr/lib/i386-linux-gnu/gio/modules/libgiognutls.so
+No symbol table info available.
+#5  0xb43ee46e in ?? () from /usr/lib/i386-linux-gnu/gio/modules/libgiognutls.so
+No symbol table info available.
+#6  0xb73ba9e3 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0xb73bad80 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0xb73bae61 in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0xb755aa9c in g_application_run () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#10 0xb77d074a in ?? ()
+No symbol table info available.
+#11 0xb77cfa4c in main ()
+No symbol table info available.

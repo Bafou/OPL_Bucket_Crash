@@ -1,0 +1,62 @@
+#0  0x009a6978 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#1  0x009a7f47 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#2  0x0099da15 in dee_model_remove () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#3  0x009a5036 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#4  0x0099da15 in dee_model_remove () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#5  0x00d868d9 in ?? () from /usr/lib/libunity.so.9
+No symbol table info available.
+#6  0x0021209a in g_cclosure_marshal_VOID__BOXED () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x0020ff8c in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#8  0x00221845 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#9  0x002290c2 in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#10 0x00229253 in g_signal_emit () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x009a7f3e in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#12 0x0099da15 in dee_model_remove () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#13 0x009aa394 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#14 0x0099daed in dee_model_clear () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#15 0x08052b1c in ?? ()
+No symbol table info available.
+#16 0x00d8921c in ?? () from /usr/lib/libunity.so.9
+No symbol table info available.
+#17 0x0020ff8c in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#18 0x00221845 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#19 0x002290c2 in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#20 0x002296af in g_signal_emit_by_name () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#21 0x00d91ebd in ?? () from /usr/lib/libunity.so.9
+No symbol table info available.
+#22 0x006e1490 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#23 0x006e3a2a in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#24 0x006e3e35 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#25 0x006e3f11 in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#26 0x00548bcc in g_application_run () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#27 0x08055017 in ?? ()
+No symbol table info available.
+#28 0x0804df70 in ?? ()
+No symbol table info available.
+#29 0x00e9b113 in __libc_start_main () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#30 0x0804df95 in ?? ()
+No symbol table info available.

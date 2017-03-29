@@ -1,0 +1,26 @@
+#0  0x0000000000402346 in ?? ()
+No symbol table info available.
+#1  0x0000000000401ba7 in ?? ()
+No symbol table info available.
+#2  0x00007fe51c325ab5 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007fe51c325de8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007fe51c3261e2 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x0000000000401481 in ?? ()
+No symbol table info available.
+#6  0x00007fe51ba7b76d in __libc_start_main () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#7  0x00000000004014b1 in ?? ()
+No symbol table info available.
+#8  0x00007fff50887b38 in ?? ()
+No symbol table info available.
+#9  0x000000000000001c in ?? ()
+No symbol table info available.
+#10 0x0000000000000001 in ?? ()
+No symbol table info available.
+#11 0x00007fff50889752 in ?? ()
+No symbol table info available.
+#12 0x0000000000000000 in ?? ()
+No symbol table info available.

@@ -1,0 +1,121 @@
+#0  0xb7758d2a in strchr () from /lib/tls/i686/cmov/libc.so.6
+#1  0x091731b8 in ?? ()
+#2  0xb7963970 in screen_update (screen=0x93884c8, force_callback=1)
+    at gnome-rr.c:381
+	info = <value optimized out>
+	changed = 0
+	__PRETTY_FUNCTION__ = "screen_update"
+#3  0xb79639fd in screen_on_event (xevent=0xbfec25e8, event=0x9387da0, 
+    data=0x9170650) at gnome-rr.c:407
+No locals.
+#4  0xb7b9e669 in gdk_event_translate (display=0x90480b8, event=0x9387da0, 
+    xevent=0xbfec25e8, return_exposes=0)
+    at /build/buildd/gtk+2.0-2.14.4/gdk/x11/gdkevents-x11.c:349
+	window = (GdkWindow *) 0x904b000
+	filter_window = (GdkWindow *) 0x904b000
+	window_impl = (GdkWindowImplX11 *) 0x904bc28
+	return_val = <value optimized out>
+	xoffset = <value optimized out>
+	yoffset = <value optimized out>
+	screen = (GdkScreen *) 0x90490d0
+	screen_x11 = (GdkScreenX11 *) 0x90490d0
+	toplevel = (GdkToplevelX11 *) 0x9201490
+	xwindow = 128
+	filter_xwindow = <value optimized out>
+#5  0xb7ba00b3 in _gdk_events_queue (display=0x90480b8)
+    at /build/buildd/gtk+2.0-2.14.4/gdk/x11/gdkevents-x11.c:2299
+	node = (GList *) 0x9213050
+	event = (GdkEvent *) 0x9387da0
+	xevent = {type = 100, xany = {type = 100, serial = 4210, 
+    send_event = 0, display = 0x903e200, window = 128}, xkey = {type = 100, 
+    serial = 4210, send_event = 0, display = 0x903e200, window = 128, 
+    root = 0, subwindow = 75, time = 92, x = 1, y = 0, x_root = 0, 
+    y_root = 1152, state = 864, keycode = 0, same_screen = 0}, xbutton = {
+    type = 100, serial = 4210, send_event = 0, display = 0x903e200, 
+    window = 128, root = 0, subwindow = 75, time = 92, x = 1, y = 0, 
+    x_root = 0, y_root = 1152, state = 864, button = 0, same_screen = 0}, 
+  xmotion = {type = 100, serial = 4210, send_event = 0, display = 0x903e200, 
+    window = 128, root = 0, subwindow = 75, time = 92, x = 1, y = 0, 
+    x_root = 0, y_root = 1152, state = 864, is_hint = 0 '\0', 
+    same_screen = 0}, xcrossing = {type = 100, serial = 4210, send_event = 0, 
+    display = 0x903e200, window = 128, root = 0, subwindow = 75, time = 92, 
+    x = 1, y = 0, x_root = 0, y_root = 1152, mode = 864, detail = 0, 
+    same_screen = 0, focus = 0, state = 0}, xfocus = {type = 100, 
+    serial = 4210, send_event = 0, display = 0x903e200, window = 128, 
+    mode = 0, detail = 75}, xexpose = {type = 100, serial = 4210, 
+    send_event = 0, display = 0x903e200, window = 128, x = 0, y = 75, 
+    width = 92, height = 1, count = 0}, xgraphicsexpose = {type = 100, 
+    serial = 4210, send_event = 0, display = 0x903e200, drawable = 128, 
+    x = 0, y = 75, width = 92, height = 1, count = 0, major_code = 0, 
+    minor_code = 1152}, xnoexpose = {type = 100, serial = 4210, 
+    send_event = 0, display = 0x903e200, drawable = 128, major_code = 0, 
+    minor_code = 75}, xvisibility = {type = 100, serial = 4210, 
+    send_event = 0, display = 0x903e200, window = 128, state = 0}, 
+  xcreatewindow = {type = 100, serial = 4210, send_event = 0, 
+    display = 0x903e200, parent = 128, window = 0, x = 75, y = 92, width = 1, 
+    height = 0, border_width = 0, override_redirect = 1152}, 
+  xdestroywindow = {type = 100, serial = 4210, send_event = 0, 
+    display = 0x903e200, event = 128, window = 0}, xunmap = {type = 100, 
+    serial = 4210, send_event = 0, display = 0x903e200, event = 128, 
+    window = 0, from_configure = 75}, xmap = {type = 100, serial = 4210, 
+    send_event = 0, display = 0x903e200, event = 128, window = 0, 
+    override_redirect = 75}, xmaprequest = {type = 100, serial = 4210, 
+    send_event = 0, display = 0x903e200, parent = 128, window = 0}, 
+  xreparent = {type = 100, serial = 4210, send_event = 0, 
+    display = 0x903e200, event = 128, window = 0, parent = 75, x = 92, y = 1, 
+    override_redirect = 0}, xconfigure = {type = 100, serial = 4210, 
+    send_event = 0, display = 0x903e200, event = 128, window = 0, x = 75, 
+    y = 92, width = 1, height = 0, border_width = 0, above = 1152, 
+    override_redirect = 864}, xgravity = {type = 100, serial = 4210, 
+    send_event = 0, display = 0x903e200, event = 128, window = 0, x = 75, 
+    y = 92}, xresizerequest = {type = 100, serial = 4210, send_event = 0, 
+    display = 0x903e200, window = 128, width = 0, height = 75}, 
+  xconfigurerequest = {type = 100, serial = 4210, send_event = 0, 
+    display = 0x903e200, parent = 128, window = 0, x = 75, y = 92, width = 1, 
+    height = 0, border_width = 0, above = 1152, detail = 864, 
+    value_mask = 0}, xcirculate = {type = 100, serial = 4210, send_event = 0, 
+    display = 0x903e200, event = 128, window = 0, place = 75}, 
+  xcirculaterequest = {type = 100, serial = 4210, send_event = 0, 
+    display = 0x903e200, parent = 128, window = 0, place = 75}, xproperty = {
+    type = 100, serial = 4210, send_event = 0, display = 0x903e200, 
+    window = 128, atom = 0, time = 75, state = 92}, xselectionclear = {
+    type = 100, serial = 4210, send_event = 0, display = 0x903e200, 
+    window = 128, selection = 0, time = 75}, xselectionrequest = {type = 100, 
+    serial = 4210, send_event = 0, display = 0x903e200, owner = 128, 
+    requestor = 0, selection = 75, target = 92, property = 1, time = 0}, 
+  xselection = {type = 100, serial = 4210, send_event = 0, 
+    display = 0x903e200, requestor = 128, selection = 0, target = 75, 
+    property = 92, time = 1}, xcolormap = {type = 100, serial = 4210, 
+    send_event = 0, display = 0x903e200, window = 128, colormap = 0, 
+    new = 75, state = 92}, xclient = {type = 100, serial = 4210, 
+    send_event = 0, display = 0x903e200, window = 128, message_type = 0, 
+    format = 75, data = {
+      b = "\\\000\000\000\001", '\0' <repeats 11 times>, "\200\004\000", s = {
+        92, 0, 1, 0, 0, 0, 0, 0, 1152, 0}, l = {92, 1, 0, 0, 1152}}}, 
+  xmapping = {type = 100, serial = 4210, send_event = 0, display = 0x903e200, 
+    window = 128, request = 0, first_keycode = 75, count = 92}, xerror = {
+    type = 100, display = 0x1072, resourceid = 0, serial = 151249408, 
+    error_code = 128 '\200', request_code = 0 '\0', minor_code = 0 '\0'}, 
+  xkeymap = {type = 100, serial = 4210, send_event = 0, display = 0x903e200, 
+    window = 128, 
+    key_vector = "\000\000\000\000K\000\000\000\\\000\000\000\001", '\0' <repeats 11 times>, "\200\004\000\000`\003\000"}, pad = {100, 4210, 0, 151249408, 
+    128, 0, 75, 92, 1, 0, 0, 1152, 864, 0 <repeats 11 times>}}
+	xdisplay = (Display *) 0x903e200
+#6  0xb7ba04df in gdk_event_dispatch (source=0x904e1c8, callback=0, 
+    user_data=0x0)
+    at /build/buildd/gtk+2.0-2.14.4/gdk/x11/gdkevents-x11.c:2359
+	display = (GdkDisplay *) 0x90480b8
+	event = <value optimized out>
+#7  0xb79a76f8 in g_main_context_dispatch () from /usr/lib/libglib-2.0.so.0
+#8  0xb79aada3 in ?? () from /usr/lib/libglib-2.0.so.0
+#9  0xb79ab2c2 in g_main_loop_run () from /usr/lib/libglib-2.0.so.0
+#10 0xb7c8e215 in IA__gtk_dialog_run (dialog=0x9075000)
+    at /build/buildd/gtk+2.0-2.14.4/gtk/gtkdialog.c:1068
+	ri = {dialog = 0x0, response_id = -1, loop = 0x9201720, destroyed = 0}
+	was_modal = 0
+	response_handler = 220
+	unmap_handler = 221
+	destroy_handler = 223
+	delete_handler = 222
+	__PRETTY_FUNCTION__ = "IA__gtk_dialog_run"
+#11 0x0804fc04 in main ()

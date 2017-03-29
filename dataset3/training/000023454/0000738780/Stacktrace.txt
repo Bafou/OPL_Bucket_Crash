@@ -1,0 +1,52 @@
+#0  0x00007f8cb2d97d05 in raise () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00007f8cb2d9bab6 in abort () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x00007f8cb33da6dd in __gnu_cxx::__verbose_terminate_handler() () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#3  0x00007f8cb33d8926 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#4  0x00007f8cb33d8953 in std::terminate() () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#5  0x00007f8cb33d8a5e in __cxa_throw () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#6  0x00007f8cb3671ecf in ?? () from /usr/lib/libxapian.so.22
+No symbol table info available.
+#7  0x00007f8cb3672ccb in Xapian::Database::get_document(unsigned int) const () from /usr/lib/libxapian.so.22
+No symbol table info available.
+#8  0x000000000041167a in ?? ()
+No symbol table info available.
+#9  0x0000000000409ee1 in ?? ()
+No symbol table info available.
+#10 0x00007f8cb4d78953 in ?? () from /usr/lib/libzeitgeist-1.0.so.1
+No symbol table info available.
+#11 0x00007f8cb44548c5 in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#12 0x00007f8cb444a874 in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#13 0x00007f8cb4407d49 in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#14 0x00007f8cb3a71bcd in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#15 0x00007f8cb3a723a8 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#16 0x00007f8cb3a729f2 in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#17 0x00007f8cb44310fd in g_application_run () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#18 0x000000000040b610 in ?? ()
+No symbol table info available.
+#19 0x00007f8cb2d82eff in __libc_start_main () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#20 0x0000000000406f99 in ?? ()
+No symbol table info available.
+#21 0x00007fff05344ba8 in ?? ()
+No symbol table info available.
+#22 0x000000000000001c in ?? ()
+No symbol table info available.
+#23 0x0000000000000001 in ?? ()
+No symbol table info available.
+#24 0x00007fff05345ac0 in ?? ()
+No symbol table info available.
+#25 0x0000000000000000 in ?? ()
+No symbol table info available.

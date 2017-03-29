@@ -1,0 +1,24 @@
+#0  0x00007fb706747f10 in QScriptValue::engine() const () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#1  0x00007fb70d98a00d in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#2  0x00007fb70d8e9834 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#3  0x00007fb70d98b445 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#4  0x00007fb70d99083e in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#5  0x00007fb706769a20 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#6  0x00007fb706642295 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#7  0x00007fb6e75a7268 in ?? ()
+No symbol table info available.
+#8  0x7fffffff00000001 in ?? ()
+No symbol table info available.
+#9  0x00007fb6fb40bf38 in ?? ()
+No symbol table info available.
+#10 0x00007fb600000001 in ?? ()
+No symbol table info available.
+#11 0x0000000000000000 in ?? ()
+No symbol table info available.

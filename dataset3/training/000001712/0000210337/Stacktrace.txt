@@ -1,0 +1,23 @@
+#0  IA__g_list_foreach (list=0x71412d6f72654130, func=0x7f42d041f670 <gnome_vfs_uri_unref>, user_data=0x0)
+    at /build/buildd/glib2.0-2.16.1/glib/glist.c:788
+	next = <value optimized out>
+#1  0x00007f42d041f572 in gnome_vfs_uri_list_unref (list=0x71412d6f72654130) at gnome-vfs-uri.c:2074
+No locals.
+#2  0x0000000000417d9c in main (argc=3, argv=0x7fffd9b31488) at appearance-main.c:147
+	data = <value optimized out>
+	program = (GnomeProgram *) 0x8b9940
+	w = <value optimized out>
+	install_filename = (gchar *) 0x71412d6f72654130 <Address 0x71412d6f72654130 out of bounds>
+	start_page = (gchar *) 0x0
+	wallpaper_files = (gchar **) 0x0
+	option_context = (GOptionContext *) 0x907f50
+	option_entries = {{long_name = 0x42d058 "install-theme", short_name = 105 'i', flags = 2, 
+    arg = G_OPTION_ARG_FILENAME, arg_data = 0x7fffd9b31378, 
+    description = 0x42d120 "Specify the filename of a theme to install", 
+    arg_description = 0x42d066 "filename"}, {long_name = 0x42d06f "show-page", short_name = 112 'p', 
+    flags = 2, arg = G_OPTION_ARG_STRING, arg_data = 0x7fffd9b31370, 
+    description = 0x42d150 "Specify the name of the page to show (theme|background|fonts|interface)", 
+    arg_description = 0x42d074 "page"}, {long_name = 0x42e574 "", short_name = 0 '\0', flags = 2, 
+    arg = G_OPTION_ARG_FILENAME_ARRAY, arg_data = 0x7fffd9b31368, description = 0x0, 
+    arg_description = 0x42d079 "[WALLPAPER...]"}, {long_name = 0x0, short_name = 0 '\0', flags = 0, 
+    arg = G_OPTION_ARG_NONE, arg_data = 0x0, description = 0x0, arg_description = 0x0}}

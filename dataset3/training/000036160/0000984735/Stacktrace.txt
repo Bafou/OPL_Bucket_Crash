@@ -1,0 +1,12 @@
+#0  0x0000000000000000 in ?? ()
+No symbol table info available.
+#1  0x00007f4cf902d821 in unity::switcher::SwitcherView::GetBackgroundGeometry() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x0000000000ca36b0 in ?? ()
+No symbol table info available.
+#3  0x0000000001777710 in ?? ()
+No symbol table info available.
+#4  0x0000000002d17720 in ?? ()
+No symbol table info available.
+#5  0x0000000000000000 in ?? ()
+No symbol table info available.

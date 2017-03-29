@@ -1,0 +1,14 @@
+#0  0x00007fd88f335cd9 in unity::ui::PointerBarrierWrapper::EmitCurrentData() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0x00007fd88f335ed9 in ?? () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x00007fd89fd68a1b in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007fd89fd67dda in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007fd89fd681a0 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007fd89fd6859a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00000000004029ae in main ()
+No symbol table info available.

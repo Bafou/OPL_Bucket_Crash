@@ -1,0 +1,34 @@
+#0  0x00007fe02b8d169d in CompAction::initiate() () from /usr/lib/libcompiz_core.so.ABI-20130415
+No symbol table info available.
+#1  0x00007fe00c3ae37b in unity::MultiActionList::Initiate(std::string const&, std::vector<CompOption, std::allocator<CompOption> > const&, int) const () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x00007fe00c3ae53d in unity::MultiActionList::InitiateAll(std::vector<CompOption, std::allocator<CompOption> > const&, int) const () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x00007fe00c3ae5f4 in unity::PluginAdapter::InitiateExpo() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0x00007fe00c253ce4 in unity::launcher::LauncherIcon::Activate(unity::launcher::ActionArg) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#5  0x00007fe00c23e02a in unity::launcher::Controller::HandleLauncherKeyEvent(_XDisplay*, unsigned int, unsigned long, unsigned long, char*, unsigned long) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#6  0x00007fe00c20e33f in unity::UnityScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#7  0x00007fe02b8e064f in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20130415
+No symbol table info available.
+#8  0x00007fe02b8e068b in CompScreenImpl::alwaysHandleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20130415
+No symbol table info available.
+#9  0x00007fe02b8bb35d in PrivateScreen::processEvents() () from /usr/lib/libcompiz_core.so.ABI-20130415
+No symbol table info available.
+#10 0x00007fe02b8edf67 in CompEventSource::callback() () from /usr/lib/libcompiz_core.so.ABI-20130415
+No symbol table info available.
+#11 0x00007fe029ddbfff in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/x86_64-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#12 0x00007fe0298d72d6 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0x00007fe0298d7628 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00007fe0298d7a2a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x00007fe02b8afe4b in compiz::private_screen::EventManager::startEventLoop(_XDisplay*) () from /usr/lib/libcompiz_core.so.ABI-20130415
+No symbol table info available.
+#16 0x0000000000401981 in main ()
+No symbol table info available.

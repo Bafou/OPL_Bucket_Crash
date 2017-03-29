@@ -1,0 +1,44 @@
+#0  0x00007f9e083813c0 in DeviceLauncherIcon::UpdateVisibility() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0x00007f9e1906881c in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#2  0x00007f9e1907a019 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#3  0x00007f9e19083258 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00007f9e1908360d in g_signal_emit_by_name () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007f9e1906881c in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00007f9e1907a019 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00007f9e19083258 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#8  0x00007f9e1908360d in g_signal_emit_by_name () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#9  0x00007f9dfe6abd3c in ?? () from /usr/lib/gio/modules/libgvfsdbus.so
+No symbol table info available.
+#10 0x00007f9e1906881c in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x00007f9e1907a019 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x00007f9e19083258 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x00007f9e1908341f in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#14 0x00007f9dfe4971c9 in ?? () from /usr/lib/libgvfscommon.so.0
+No symbol table info available.
+#15 0x00007f9e05b46ac6 in dbus_connection_dispatch () from /lib/x86_64-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#16 0x00007f9dfe490ff5 in ?? () from /usr/lib/libgvfscommon.so.0
+No symbol table info available.
+#17 0x00007f9e1879bbcd in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#18 0x00007f9e1879c3a8 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#19 0x00007f9e1879c9f2 in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#20 0x0000000000429fba in CompScreen::eventLoop() ()
+No symbol table info available.
+#21 0x0000000000422f70 in main ()
+No symbol table info available.

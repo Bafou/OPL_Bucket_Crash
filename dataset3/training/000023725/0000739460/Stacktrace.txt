@@ -1,0 +1,56 @@
+#0  0x00f1b416 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0x00632e71 in raise () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x0063634e in abort () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0x0040b0b5 in __gnu_cxx::__verbose_terminate_handler() () from /usr/lib/i386-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#4  0x00408fa5 in ?? () from /usr/lib/i386-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#5  0x00408fe2 in std::terminate() () from /usr/lib/i386-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#6  0x0040914e in __cxa_throw () from /usr/lib/i386-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#7  0x00b26df0 in ?? () from /usr/lib/sse2/libxapian.so.22
+No symbol table info available.
+#8  0x00b27d09 in Xapian::Database::get_document(unsigned int) const () from /usr/lib/sse2/libxapian.so.22
+No symbol table info available.
+#9  0x08057dcd in ?? ()
+No symbol table info available.
+#10 0x08050524 in ?? ()
+No symbol table info available.
+#11 0x00e7989f in ?? () from /usr/lib/libzeitgeist-1.0.so.1
+No symbol table info available.
+#12 0x001b0cbf in g_simple_async_result_complete () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#13 0x00206cc1 in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#14 0x001b0cbf in g_simple_async_result_complete () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#15 0x001fbd03 in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#16 0x001b0cbf in g_simple_async_result_complete () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#17 0x001b0ddd in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#18 0x00292311 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#19 0x00296aa8 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#20 0x00297270 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#21 0x0029792b in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#22 0x001de78f in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#23 0x001e0093 in g_application_run () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#24 0x08051ebf in ?? ()
+No symbol table info available.
+#25 0x08051ef0 in ?? ()
+No symbol table info available.
+#26 0x0061ee37 in __libc_start_main () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#27 0x0804d2e1 in ?? ()
+No symbol table info available.

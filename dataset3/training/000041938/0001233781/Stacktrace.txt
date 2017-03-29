@@ -1,0 +1,32 @@
+#0  0x00007f4f3054f508 in g_mount_spec_match_with_path () from /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+No symbol table info available.
+#1  0x00007f4f30783083 in ?? () from /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+No symbol table info available.
+#2  0x00007f4f30783ff1 in ?? () from /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+No symbol table info available.
+#3  0x00007f4f30789339 in ?? () from /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+No symbol table info available.
+#4  0x00007f4f3078a2cd in ?? () from /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+No symbol table info available.
+#5  0x00007f4f50460a9a in g_file_load_contents () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#6  0x00007f4f37726188 in unity::IconLoader::Impl::IconLoaderTask::LoaderJobFunc(_GTask*, void*, void*, _GCancellable*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#7  0x00007f4f504925d5 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#8  0x00007f4f5470faa6 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0x00007f4f5470f0e5 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0x00007f4f54283f6e in start_thread (arg=0x7f4f1d9a2700) at pthread_create.c:311
+        __res = <optimized out>
+        pd = 0x7f4f1d9a2700
+        now = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {139977775785728, -3606141442247861436, 0, 147631968, 140735577730224, 21, 3704864090542332740, 3704986015026273092}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = 0
+        pagesize_m1 = <optimized out>
+        sp = <optimized out>
+        freesize = <optimized out>
+        __PRETTY_FUNCTION__ = "start_thread"
+#11 0x00007f4f55e9aecd in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:113
+No locals.

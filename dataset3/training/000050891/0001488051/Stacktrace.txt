@@ -1,0 +1,94 @@
+#0  0x00007f9b386e8328 in g_bit_lock () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007f9b3874d788 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f9b38752b9d in g_variant_serialiser_needed_size () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f9b3874ce57 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f9b3874d790 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f9b38752d9f in g_variant_serialiser_needed_size () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f9b3874ce57 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00007f9b3874d790 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0x00007f9b38752e10 in g_variant_serialiser_needed_size () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0x00007f9b3874ce57 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0x00007f9b3874d790 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0x00007f9b38752cb8 in g_variant_serialiser_needed_size () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#12 0x00007f9b3874ce57 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0x00007f9b3874d790 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00007f9b38752b9d in g_variant_serialiser_needed_size () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x00007f9b3874ce57 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0x00007f9b3874d48f in g_variant_get_size () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#17 0x00007f9b2d14a70f in ?? () from /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+No symbol table info available.
+#18 0x00007f9b2d14a7ff in ?? () from /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+No symbol table info available.
+#19 0x00007f9b2d14b4e1 in ?? () from /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+No symbol table info available.
+#20 0x00007f9b2d149eac in ?? () from /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+No symbol table info available.
+#21 0x00007f9b2e2829e4 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#22 0x00007f9b2e287533 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#23 0x00007f9b2e288945 in g_settings_set_value () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#24 0x00007f9b18789a66 in unity::launcher::DevicesSettingsImp::Impl::UploadBlacklist() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#25 0x00007f9b18773c1d in std::_Function_handler<void (_DbusmenuMenuitem*, unsigned int), unity::launcher::VolumeLauncherIcon::Impl::AppendUnlockFromLauncherItem(std::vector<unity::glib::Object<_DbusmenuMenuitem>, std::allocator<unity::glib::Object<_DbusmenuMenuitem> > >&)::{lambda(_DbusmenuMenuitem*, int)#1}>::_M_invoke(std::_Any_data const&, _DbusmenuMenuitem*&&, unsigned int&&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#26 0x00007f9b1876e799 in unity::glib::Signal<void, _DbusmenuMenuitem*, unsigned int>::Callback(_DbusmenuMenuitem*, unsigned int, unity::glib::Signal<void, _DbusmenuMenuitem*, unsigned int>*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#27 0x00007f9b3731e778 in g_cclosure_marshal_VOID(unsigned int0_t, void) () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#28 0x00007f9b3731c5e4 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#29 0x00007f9b37336167 in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#30 0x00007f9b37336abf in g_signal_emit () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#31 0x00007f9b1654558a in dbusmenu_menuitem_handle_event () from /usr/lib/x86_64-linux-gnu/libdbusmenu-glib.so.4
+No symbol table info available.
+#32 0x00007f9b1875c7f0 in unity::QuicklistMenuItem::Activate() const () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#33 0x00007f9b18760f47 in unity::QuicklistView::CheckAndEmitItemSignal(int, int) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#34 0x00007f9b18760ffc in unity::QuicklistView::RecvItemMouseRelease(unity::QuicklistMenuItem*, int, int) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#35 0x00007f9b1875cf5d in unity::QuicklistMenuItem::RecvMouseUp(int, int, unsigned long, unsigned long) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#36 0x00007f9b16ca7d71 in nux::InputArea::EmitMouseUpSignal(int, int, unsigned long, unsigned long) () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#37 0x00007f9b16cdb9cd in nux::WindowCompositor::UpdateMouseOwner(nux::Event const&, bool) () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#38 0x00007f9b16cdc4c7 in nux::WindowCompositor::MouseEventCycle(nux::Event&) () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#39 0x00007f9b16cdd27b in nux::WindowCompositor::ProcessEvent(nux::Event&) () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#40 0x00007f9b16ce1bc9 in nux::WindowThread::DoProcessEvent(nux::Event&) () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#41 0x00007f9b16cb32f6 in nux::nux_event_dispatch(_GSource*, int (*)(void*), void*) () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#42 0x00007f9b38711f1d in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#43 0x00007f9b387122f0 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#44 0x00007f9b38712612 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#45 0x00007f9b3a58c1db in compiz::private_screen::EventManager::startEventLoop(_XDisplay*) () from /usr/lib/x86_64-linux-gnu/libcompiz_core.so.ABI-20150217
+No symbol table info available.
+#46 0x00000000004017f1 in main ()
+No symbol table info available.

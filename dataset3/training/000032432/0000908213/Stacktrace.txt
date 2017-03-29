@@ -1,0 +1,58 @@
+#0  0x0171666e in unity::PanelTray::FilterTrayCallback(_NaTray*, _NaTrayChild*, unity::PanelTray*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0x07a4dcdd in ?? () from /usr/lib/libunity-misc.so.4
+No symbol table info available.
+#2  0x004c505a in g_cclosure_marshal_VOID__OBJECT () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#3  0x004c2dac in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x004d40c5 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x004db942 in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x004dbad3 in g_signal_emit () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x07a4c788 in ?? () from /usr/lib/libunity-misc.so.4
+No symbol table info available.
+#8  0x00316524 in ?? () from /usr/lib/i386-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#9  0x00316707 in ?? () from /usr/lib/i386-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#10 0x002e514e in gdk_display_get_event () from /usr/lib/i386-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#11 0x0031636a in ?? () from /usr/lib/i386-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#12 0x0017028a in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0x00170695 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00170771 in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x057132ac in ?? () from /usr/lib/compizconfig/backends/libgconf.so
+No symbol table info available.
+#16 0x01938abf in ccsProcessEvents () from /usr/lib/libcompizconfig.so.0
+No symbol table info available.
+#17 0x0501557b in CcpScreen::timeout() () from /usr/lib/compiz/libccp.so
+No symbol table info available.
+#18 0x05015c61 in boost::detail::function::function_obj_invoker0<boost::_bi::bind_t<bool, boost::_mfi::mf0<bool, CcpScreen>, boost::_bi::list1<boost::_bi::value<CcpScreen*> > >, bool>::invoke(boost::detail::function::function_buffer&) () from /usr/lib/compiz/libccp.so
+No symbol table info available.
+#19 0x080686c4 in CompTimer::triggerCallback() ()
+No symbol table info available.
+#20 0x080687de in CompTimeoutSource::callback() ()
+No symbol table info available.
+#21 0x08067cbf in CompTimeoutSource::dispatch(sigc::slot_base*) ()
+No symbol table info available.
+#22 0x00eaf9e1 in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#23 0x0017028a in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#24 0x00170695 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#25 0x00170adb in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#26 0x00eb1063 in Glib::MainLoop::run() () from /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#27 0x08072497 in CompScreen::eventLoop() ()
+No symbol table info available.
+#28 0x08065634 in main ()
+No symbol table info available.

@@ -1,0 +1,82 @@
+#0  0x00007fe20fbae215 in g_slice_alloc () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007fe20fbae846 in g_slice_alloc0 () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007fe210ec4ee3 in gtk_symbolic_color_new_literal () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#3  0x00007fe210e9de88 in ?? () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#4  0x00007fe210eafb4c in ?? () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#5  0x00007fe210eb128b in ?? () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#6  0x00007fe210f7cb81 in gtk_widget_style_get_valist () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#7  0x00007fe210f7ce37 in gtk_widget_style_get () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#8  0x00007fe210f8527f in ?? () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#9  0x00007fe20fe77833 in g_type_create_instance () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#10 0x00007fe20fe56d2c in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x00007fe20fe59654 in g_object_newv () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x00007fe20fe5a516 in g_object_new_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x00007fe20fe5a824 in g_object_new () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#14 0x00007fe210e32d6d in ?? () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#15 0x00007fe20fe77833 in g_type_create_instance () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#16 0x00007fe20fe56d2c in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#17 0x00007fe20fe59cc2 in g_object_newv () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#18 0x00007fe20fe5a83c in g_object_new () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#19 0x00007fe1fe99bbd5 in ?? () from /usr/lib/indicators3/6/libpower.so
+No symbol table info available.
+#20 0x00007fe1fe99bd70 in ?? () from /usr/lib/indicators3/6/libpower.so
+No symbol table info available.
+#21 0x00007fe211351b59 in ?? () from /usr/lib/libindicator3.so.6
+No symbol table info available.
+#22 0x0000000000410973 in ?? ()
+No symbol table info available.
+#23 0x00007fe20fe53254 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#24 0x00007fe20fe664fb in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#25 0x00007fe20fe6fb17 in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#26 0x00007fe20fe6fecd in g_signal_emit_by_name () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#27 0x000000000040bfc9 in ?? ()
+No symbol table info available.
+#28 0x00007fe210a4ea9f in ?? () from /usr/lib/libgdk-3.so.0
+No symbol table info available.
+#29 0x00007fe20fb92b6d in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#30 0x00007fe20fb93368 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#31 0x00007fe20fb938a2 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#32 0x00007fe210e2510d in gtk_main () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#33 0x000000000040a405 in ?? ()
+No symbol table info available.
+#34 0x00007fe20f05d30d in __libc_start_main () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#35 0x0000000000407349 in ?? ()
+No symbol table info available.
+#36 0x00007ffff2f880a8 in ?? ()
+No symbol table info available.
+#37 0x000000000000001c in ?? ()
+No symbol table info available.
+#38 0x0000000000000001 in ?? ()
+No symbol table info available.
+#39 0x00007ffff2f88d44 in ?? ()
+No symbol table info available.
+#40 0x0000000000000000 in ?? ()
+No symbol table info available.

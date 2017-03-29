@@ -1,0 +1,63 @@
+#0  0xb7642c88 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#1  0xb7644257 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#2  0xb763a285 in dee_model_remove () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#3  0xb7641346 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#4  0xb763a285 in dee_model_remove () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#5  0xb768a429 in ?? () from /usr/lib/libunity.so.9
+No symbol table info available.
+#6  0xb741f16a in g_cclosure_marshal_VOID__POINTER () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#7  0xb741cf8c in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#8  0xb742e845 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#9  0xb74360c2 in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#10 0xb7436253 in g_signal_emit () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#11 0xb764424e in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#12 0xb763a285 in dee_model_remove () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#13 0xb7646674 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#14 0xb763a35d in dee_model_clear () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#15 0x0804ef32 in ?? ()
+No symbol table info available.
+#16 0xb768cd6c in ?? () from /usr/lib/libunity.so.9
+No symbol table info available.
+#17 0xb741cf8c in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#18 0xb742e845 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#19 0xb74360c2 in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#20 0xb74366af in g_signal_emit_by_name () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#21 0xb7695a6d in ?? () from /usr/lib/libunity.so.9
+No symbol table info available.
+#22 0xb7344150 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#23 0xb73466ea in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#24 0xb7346af5 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#25 0xb7346bd1 in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#26 0xb7516c4c in g_application_run () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#27 0x08052757 in ?? ()
+No symbol table info available.
+#28 0x0804d660 in ?? ()
+No symbol table info available.
+#29 0xb6d20113 in __libc_start_main () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#30 0x0804d685 in ?? ()
+No symbol table info available.
+Backtrace stopped: not enough registers or memory available to unwind further

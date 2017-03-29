@@ -1,0 +1,38 @@
+#0  0x00007fd71c746297 in ?? () from /usr/lib/x86_64-linux-gnu/dri/nouveau_dri.so
+No symbol table info available.
+#1  0x00007fd71c7d52e2 in ?? () from /usr/lib/x86_64-linux-gnu/dri/nouveau_dri.so
+No symbol table info available.
+#2  0x00007fd71c0e7b7c in ?? () from /usr/lib/x86_64-linux-gnu/libdrm_nouveau.so.2
+No symbol table info available.
+#3  0x00007fd71c0e7dfe in ?? () from /usr/lib/x86_64-linux-gnu/libdrm_nouveau.so.2
+No symbol table info available.
+#4  0x00007fd71c0e88a0 in nouveau_pushbuf_kick () from /usr/lib/x86_64-linux-gnu/libdrm_nouveau.so.2
+No symbol table info available.
+#5  0x00007fd71c7d56fd in ?? () from /usr/lib/x86_64-linux-gnu/dri/nouveau_dri.so
+No symbol table info available.
+#6  0x00007fd71c685e4a in ?? () from /usr/lib/x86_64-linux-gnu/dri/nouveau_dri.so
+No symbol table info available.
+#7  0x00007fd71c737b1f in ?? () from /usr/lib/x86_64-linux-gnu/dri/nouveau_dri.so
+No symbol table info available.
+#8  0x00007fd721beb526 in ?? () from /usr/lib/x86_64-linux-gnu/mesa-egl/libEGL.so.1
+No symbol table info available.
+#9  0x00007fd721bdc896 in eglSwapBuffers () from /usr/lib/x86_64-linux-gnu/mesa-egl/libEGL.so.1
+No symbol table info available.
+#10 0x00007fd722ad8c2c in mir::compositor::DefaultDisplayBufferCompositor::composite() () from /usr/lib/x86_64-linux-gnu/libmirserver.so.17
+No symbol table info available.
+#11 0x00007fd722adef02 in std::thread::_Impl<std::_Bind_simple<std::reference_wrapper<mir::compositor::CompositingFunctor> ()> >::_M_run() () from /usr/lib/x86_64-linux-gnu/libmirserver.so.17
+No symbol table info available.
+#12 0x00007fd729a03bf0 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+No symbol table info available.
+#13 0x00007fd72821d182 in start_thread (arg=0x7fd70e7fc700) at pthread_create.c:312
+        __res = <optimized out>
+        pd = 0x7fd70e7fc700
+        now = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140561637951232, -4236558834019267475, 0, 0, 140561637951936, 140561637951232, 4222868816859565165, 4222943153023814765}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <optimized out>
+        pagesize_m1 = <optimized out>
+        sp = <optimized out>
+        freesize = <optimized out>
+        __PRETTY_FUNCTION__ = "start_thread"
+#14 0x00007fd72947130d in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:111
+No locals.

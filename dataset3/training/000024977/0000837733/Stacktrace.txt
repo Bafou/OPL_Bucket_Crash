@@ -1,0 +1,22 @@
+#0  0x00007fcdec666295 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#1  0x00007fcdec66ad91 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#2  0x00007fcdec66af7b in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#3  0x00007fcde542376e in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#4  0x00007fcde52c7065 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#5  0x00007fcde53017be in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#6  0x00007fcdd1f0828e in ?? ()
+No symbol table info available.
+#7  0x7fffffff00000001 in ?? ()
+No symbol table info available.
+#8  0x00007fcddc8fafc0 in ?? ()
+No symbol table info available.
+#9  0x00007fcdd39dab18 in ?? ()
+No symbol table info available.
+#10 0x0000000000000000 in ?? ()
+No symbol table info available.

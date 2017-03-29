@@ -1,0 +1,16 @@
+#0  0x00007f831dde804c in free () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00007f831fc68049 in ?? () from /usr/lib/libindicator3.so.7
+No symbol table info available.
+#2  0x00007f831ee9d645 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#3  0x00007f831e169c9a in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f831e16a060 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f831e16a45a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f831f750edd in gtk_main () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#7  0x0000000000404f72 in main ()
+No symbol table info available.

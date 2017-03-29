@@ -1,0 +1,18 @@
+#0  0x00007fd62f18ba10 in LauncherHideMachine::GetQuirk(LauncherHideMachine::HideQuirk, bool) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0x00007fd62f18bbea in LauncherHideMachine::SetQuirk(LauncherHideMachine::HideQuirk, bool) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x00007fd62f170d6e in Launcher::OnBFBUpdate(_GVariant*, void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x00007fd62f1e60a9 in ?? () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0x00007fd63fcc6bcd in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007fd63fcc73a8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007fd63fcc79f2 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x000000000042a32a in CompScreen::eventLoop() ()
+No symbol table info available.
+#8  0x00000000004231a0 in main ()
+No symbol table info available.

@@ -1,0 +1,46 @@
+#0  0x001ea0f8 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#1  0x001ea77b in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#2  0x001d2d0e in dee_index_lookup () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#3  0x08053b3f in ?? ()
+No symbol table info available.
+#4  0x08051931 in ?? ()
+No symbol table info available.
+#5  0x08054b9c in ?? ()
+No symbol table info available.
+#6  0x080554fd in ?? ()
+No symbol table info available.
+#7  0x080556e0 in ?? ()
+No symbol table info available.
+#8  0x00bb28ec in ?? () from /usr/lib/libunity.so.9
+No symbol table info available.
+#9  0x00698624 in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#10 0x006ab029 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x006b387f in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x006b3edf in g_signal_emit_by_name () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x00bbb65d in ?? () from /usr/lib/libunity.so.9
+No symbol table info available.
+#14 0x002407e0 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x00242d7a in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0x00243185 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#17 0x00243261 in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#18 0x0040e364 in g_application_run () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#19 0x08051507 in ?? ()
+No symbol table info available.
+#20 0x0804bb90 in ?? ()
+No symbol table info available.
+#21 0x006f54d3 in __libc_start_main () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#22 0x0804bbb5 in ?? ()
+No symbol table info available.

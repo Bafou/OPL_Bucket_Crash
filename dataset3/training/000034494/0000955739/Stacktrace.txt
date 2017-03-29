@@ -1,0 +1,26 @@
+#0  0xb76e0424 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0xb605e1ef in raise () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0xb6061835 in abort () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0xb6328ed8 in ?? () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#4  0xb7447519 in qt_message_output(QtMsgType, char const*) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#5  0xb7447a4b in ?? () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#6  0xb7447b68 in qFatal(char const*, ...) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#7  0xb6505ca4 in QConfSchema::QConfSchema(QString const&) () from /usr/lib/libdconf-qt.so.0
+No symbol table info available.
+#8  0xb6505d8d in QConfSchema::getSchema(QString const&) () from /usr/lib/libdconf-qt.so.0
+No symbol table info available.
+#9  0xb650416d in QConf::setSchema(QString const&) () from /usr/lib/libdconf-qt.so.0
+No symbol table info available.
+#10 0xb6504b1a in QConf::QConf(QString const&) () from /usr/lib/libdconf-qt.so.0
+No symbol table info available.
+#11 0x080525c0 in ShellDeclarativeView::ShellDeclarativeView() ()
+No symbol table info available.
+#12 0x0804f6a4 in main ()
+No symbol table info available.

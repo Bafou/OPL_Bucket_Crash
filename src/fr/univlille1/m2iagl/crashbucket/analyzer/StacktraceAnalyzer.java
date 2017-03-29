@@ -26,7 +26,7 @@ import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.LibraryNamePars
 import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.MethodNameParser;
 import fr.univlille1.m2iagl.crashbucket.stacktracelinedataparser.StacktraceLineDataParser;
 import fr.univlille1.m2iagl.crashbucket.structure.Bucket;
-import fr.univlille1.m2iagl.crashbucket.structure.Crash;
+import fr.univlille1.m2iagl.crashbucket.structure.Stacktrace;
 import fr.univlille1.m2iagl.crashbucket.structure.StacktraceLine;
 
 /**
@@ -47,19 +47,23 @@ public class StacktraceAnalyzer {
 	private final Map<File, String> testingRessourcesContent = new HashMap<>();
 
 	private final Map<String, Bucket> trainingRessourcesStacktrace = new HashMap<>();
-	private final Map<String, Crash> testingRessourcesStacktrace = new HashMap<>();
+	private final Map<String, Stacktrace> testingRessourcesStacktrace = new HashMap<>();
 
 	public StacktraceAnalyzer() {
 		super();
 	}
 
 	/**
-	 * Assign the stacktrace from testingFolder in the bucket contain in the trainingFolder
-	 * Put the result in the file named outputFileName
+	 * Assign the stacktrace from testingFolder in the bucket contain in the
+	 * trainingFolder Put the result in the file named outputFileName
 	 * 
-	 * @param testingFolder the folder that contains the stacktrace that should be put in the bucket
-	 * @param trainingFolder the folder that contains the excictent buckets
-	 * @param outputFileName the name of the file where the result will be stored
+	 * @param testingFolder
+	 *            the folder that contains the stacktrace that should be put in
+	 *            the bucket
+	 * @param trainingFolder
+	 *            the folder that contains the excictent buckets
+	 * @param outputFileName
+	 *            the name of the file where the result will be stored
 	 */
 	public void assignStacktraceToBucket(final File testingFolder, final File trainingFolder,
 			final String outputFileName) {
@@ -72,17 +76,20 @@ public class StacktraceAnalyzer {
 		getStacktraceContentTesting(testingRessourcesStacktrace, testingRessourcesContent);
 		getStacktraceContentTraining(trainingRessourcesStacktrace, trainingRessourcesContent);
 
-		final BucketDecider bucketDecider = new BucketDecider(trainingRessourcesStacktrace, testingRessourcesStacktrace);
+		final BucketDecider bucketDecider = new BucketDecider(trainingRessourcesStacktrace,
+				testingRessourcesStacktrace);
 		bucketDecider.InitiateAssignment();
 		generateOutputFile(outputFileName);
 	}
-	
+
 	/**
-	 * Assign the stacktrace from testingFolder in the bucket contain in the trainingFolder
-	 * Put the result in the file named outputFileName
+	 * Assign the stacktrace from testingFolder in the bucket contain in the
+	 * trainingFolder Put the result in the file named outputFileName
 	 * 
-	 * @param trainingFolder the folder that contains the excictent buckets
-	 * @param outputFileName the name of the file where the result will be stored
+	 * @param trainingFolder
+	 *            the folder that contains the excictent buckets
+	 * @param outputFileName
+	 *            the name of the file where the result will be stored
 	 */
 	public int testBucketDeciderOnBucket(final File trainingFolder) {
 		loadAllFiles(trainingFolder, trainingRessources);
@@ -91,16 +98,16 @@ public class StacktraceAnalyzer {
 
 		getStacktraceContentTraining(trainingRessourcesStacktrace, trainingRessourcesContent);
 
-		Map<String,Bucket> alternate = new HashMap<>(trainingRessourcesStacktrace);
+		Map<String, Bucket> alternate = new HashMap<>(trainingRessourcesStacktrace);
 		final BucketDecider bucketDecider = new BucketDecider(alternate);
-		
-		int score =0;
-		int count =0;
+
+		int score = 0;
+		int count = 0;
 		for (final String bucketId : trainingRessourcesStacktrace.keySet()) {
 			Bucket bucket = trainingRessourcesStacktrace.get(bucketId);
-			if (bucket.getCrash().size() >= 3 ) {
-				final List<Crash> copyCrash = new ArrayList<Crash>(bucket.getCrash());
-				for (final Crash crash : copyCrash) {
+			if (bucket.getCrash().size() >= 3) {
+				final List<Stacktrace> copyCrash = new ArrayList<Stacktrace>(bucket.getCrash());
+				for (final Stacktrace crash : copyCrash) {
 					count++;
 					bucketDecider.removeFromBucket(bucketId, crash);
 					if (bucketId.equals(bucketDecider.decideBucket(crash))) {
@@ -108,17 +115,19 @@ public class StacktraceAnalyzer {
 					}
 					bucketDecider.addToBucket(bucketId, crash);
 				}
-				
+
 			}
 		}
 		System.out.println("Resultat sur : " + count);
 		return score;
-		
+
 	}
 
 	/**
 	 * Generate the outputfile with the value found in the assignementResult
-	 * @param outputFileName the name of the outputFile
+	 * 
+	 * @param outputFileName
+	 *            the name of the outputFile
 	 */
 	public void generateOutputFile(final String outputFileName) {
 		final SortedSet<String> sortedList = new TreeSet<>(new Comparator<String>() {
@@ -134,47 +143,55 @@ public class StacktraceAnalyzer {
 	}
 
 	/**
-	 * Load the file content as a String for all the fileList and the put it in the fileContent Map
-	 * @param fileList the file that need to be read
-	 * @param fileContent a map which will contain the file and its associated content
+	 * Load the file content as a String for all the fileList and the put it in
+	 * the fileContent Map
+	 * 
+	 * @param fileList
+	 *            the file that need to be read
+	 * @param fileContent
+	 *            a map which will contain the file and its associated content
 	 */
 	public void loadFileContent(final List<File> fileList, final Map<File, String> fileContent) {
 		FileReader fileReader = null;
 		for (final File file : fileList) {
 			try {
 				fileReader = new FileReader(file);
-			} catch (final FileNotFoundException ex) {
-				System.out.println("The file with the specified pathname does not exist");
-			}
 			final BufferedReader bfReader = new BufferedReader(fileReader);
-			try {
+			
 				String line = null;
 				final StringBuilder sb = new StringBuilder("");
 				while ((line = bfReader.readLine()) != null)
 					sb.append(line).append("\n");
 				fileContent.put(file, sb.toString());
-			} catch (final IOException ex) {
-				System.out.println("Failed or interrupted I/O operations.");
-			} finally {
-				try {
-					bfReader.close();
-				} catch (final IOException ex) {
-					System.out.println("Failed or interrupted I/O operations.");
-				}
+				bfReader.close();
+			} 
+			catch (final FileNotFoundException ex) {
+				System.out.println("The file with the specified pathname does not exist");
+				System.exit(1);
 			}
+			catch (final IOException ex) {
+				System.out.println("Failed or interrupted I/O operations.");
+				System.exit(1);
+			} 
+			
 		}
 	}
 
 	/**
-	 * Read the content of the testing stacktrace in order to associate a stacktrace id to the different elements contained in it
-	 * @param stacktraceContent the map which will contain the result, associate the stacktrace id to its crash content (object)
-	 * @param fileContent the map that contain the file and its associated content
+	 * Read the content of the testing stacktrace in order to associate a
+	 * stacktrace id to the different elements contained in it
+	 * 
+	 * @param stacktraceContent
+	 *            the map which will contain the result, associate the
+	 *            stacktrace id to its crash content (object)
+	 * @param fileContent
+	 *            the map that contain the file and its associated content
 	 */
-	public void getStacktraceContentTesting(final Map<String, Crash> stacktraceContent,
+	public void getStacktraceContentTesting(final Map<String, Stacktrace> stacktraceContent,
 			final Map<File, String> fileContent) {
 		for (final File file : fileContent.keySet()) {
 			String stacktraceData = fileContent.get(file);
-			final Crash crashReport = new Crash();
+			final Stacktrace crashReport = new Stacktrace();
 			final String fileName = file.getName().substring(0, file.getName().length() - 4);
 			if (!stacktraceContent.containsKey(fileName))
 				stacktraceContent.put(fileName, crashReport);
@@ -186,7 +203,7 @@ public class StacktraceAnalyzer {
 				while (scanner.hasNext()) {
 					line = scanner.nextLine();
 					if (line.startsWith("#")) {
-						stacktraceContent.get(fileName).addCrashLines(stacktraceLine);
+						stacktraceContent.get(fileName).addStacktracelines(stacktraceLine);
 						stacktraceLine = new StacktraceLine();
 						Integer index = line.indexOf(" ");
 						Integer crashLineNumber = Integer.parseInt(line.substring(1, index));
@@ -195,22 +212,27 @@ public class StacktraceAnalyzer {
 					}
 					getStacktraceLineData(line, stacktraceLine, crashReport);
 				}
-				stacktraceContent.get(fileName).addCrashLines(stacktraceLine);
+				stacktraceContent.get(fileName).addStacktracelines(stacktraceLine);
 			}
 		}
 	}
 
 	/**
-	 * Read the content of the training buckets in order to associate a bucket id to the different elements contained in it
-	 * @param stackTraceContent the map which will contain the result, associate the bucket id to its content (object)
-	 * @param fileContent the map that contain the file and its associated content
+	 * Read the content of the training buckets in order to associate a bucket
+	 * id to the different elements contained in it
+	 * 
+	 * @param stackTraceContent
+	 *            the map which will contain the result, associate the bucket id
+	 *            to its content (object)
+	 * @param fileContent
+	 *            the map that contain the file and its associated content
 	 */
 	public void getStacktraceContentTraining(final Map<String, Bucket> stackTraceContent,
 			final Map<File, String> fileContent) {
 		String stacktraceData = null;
 
 		for (final File file : fileContent.keySet()) {
-			final Crash crashReport = new Crash();
+			final Stacktrace crashReport = new Stacktrace();
 			stacktraceData = fileContent.get(file);
 			Bucket bucket = stackTraceContent.get(file.getParentFile().getParentFile().getName());
 			if (bucket == null) {
@@ -233,29 +255,37 @@ public class StacktraceAnalyzer {
 					getStacktraceLineData(line, stacktraceLine, crashReport);
 				}
 			}
-			bucket.addCrash(crashReport);
+			bucket.addStacktrace(crashReport);
 		}
 	}
 
 	/**
-	 * Use the content of a line to extract all the valuable elements, needed to compare, in it
-	 * @param line the line that will be read
-	 * @param stacktraceLine the object which will contain the valuable elements
-	 * @param crashReport the crash where the stacktrace will be put
+	 * Use the content of a line to extract all the valuable elements, needed to
+	 * compare, in it
+	 * 
+	 * @param line
+	 *            the line that will be read
+	 * @param stacktraceLine
+	 *            the object which will contain the valuable elements
+	 * @param crashReport
+	 *            the crash where the stacktrace will be put
 	 */
-	public void getStacktraceLineData(final String line, final StacktraceLine stacktraceLine, final Crash crashReport) {
+	public void getStacktraceLineData(final String line, final StacktraceLine stacktraceLine,
+			final Stacktrace crashReport) {
 		List<StacktraceLineDataParser> allData = new ArrayList<StacktraceLineDataParser>();
 		allData.addAll(getAllAddresses(line));
 		allData.addAll(getAllClasses(line));
 		allData.addAll(getAllLibraries(line));
 		allData.addAll(getAllMethods(line));
 		stacktraceLine.addAllStacktraceLineData(allData);
-		crashReport.addCrashLines(stacktraceLine);
+		crashReport.addStacktracelines(stacktraceLine);
 	}
 
 	/**
 	 * Return all the adresses contain in the stacktrace line
-	 * @param line the stacktrace line that need to be read
+	 * 
+	 * @param line
+	 *            the stacktrace line that need to be read
 	 * @return the list of all the adresses
 	 */
 	private List<StacktraceLineDataParser> getAllAddresses(final String line) {
@@ -269,7 +299,9 @@ public class StacktraceAnalyzer {
 
 	/**
 	 * Return all the classes (marked by a "at") contain in the stacktrace line
-	 * @param line the stacktrace line that need to be read
+	 * 
+	 * @param line
+	 *            the stacktrace line that need to be read
 	 * @return the list of all the adresses
 	 */
 	private List<StacktraceLineDataParser> getAllClasses(final String line) {
@@ -285,8 +317,11 @@ public class StacktraceAnalyzer {
 	}
 
 	/**
-	 * Return all the libraries (marked by a "from") contain in the stacktrace line
-	 * @param line the stacktrace line that need to be read
+	 * Return all the libraries (marked by a "from") contain in the stacktrace
+	 * line
+	 * 
+	 * @param line
+	 *            the stacktrace line that need to be read
 	 * @return the list of all the libraries
 	 */
 	private List<StacktraceLineDataParser> getAllLibraries(final String line) {
@@ -303,7 +338,9 @@ public class StacktraceAnalyzer {
 
 	/**
 	 * Return all the methods contain in the stacktrace line
-	 * @param line the stacktrace line that need to be read
+	 * 
+	 * @param line
+	 *            the stacktrace line that need to be read
 	 * @return the list of all the methods
 	 */
 	private List<StacktraceLineDataParser> getAllMethods(final String line) {

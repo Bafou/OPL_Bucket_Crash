@@ -1,0 +1,34 @@
+#0  0x0000000004b06850 in ?? ()
+No symbol table info available.
+#1  0x00007f7fef1cffe0 in nux::Property<int>::operator=(int const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x00007f7fef1d9197 in unity::ui::Decaymulator::OnDecayTimeout(void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x00007f80027f6a1b in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f80027f5dda in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f80027f61a0 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f80027f6264 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00007f7ffecf3c79 in ?? () from /usr/lib/compizconfig/backends/libgconf.so
+No symbol table info available.
+#8  0x00007f80005b959e in CcpScreen::timeout() () from /usr/lib/compiz/libccp.so
+No symbol table info available.
+#9  0x00007f80047e942b in CompTimer::triggerCallback() () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#10 0x00007f80047e952f in CompTimeoutSource::callback() () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#11 0x00007f80047e89dd in CompTimeoutSource::dispatch(sigc::slot_base*) () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#12 0x00007f8002ced85f in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/x86_64-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#13 0x00007f80027f5dda in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00007f80027f61a0 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x00007f80027f659a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0x000000000040299e in main ()
+No symbol table info available.

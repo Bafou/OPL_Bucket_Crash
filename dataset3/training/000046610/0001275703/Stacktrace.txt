@@ -1,0 +1,42 @@
+#0  0x00007f29d093a913 in g_logv () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007f29d093aa72 in g_log () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f29ca9a76c0 in atspi_dbus_connection_setup_with_g_main () from /usr/lib/x86_64-linux-gnu/libatspi.so.0
+No symbol table info available.
+#3  0x00007f29ce8b5d0b in ?? () from /usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0
+No symbol table info available.
+#4  0x00007f29ce8b5fdb in ?? () from /usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0
+No symbol table info available.
+#5  0x00007f29d0934453 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f29d0933a35 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00007f29d0933d98 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0x00007f29d093405a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0x00007f29ce8b5f12 in ?? () from /usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0
+No symbol table info available.
+#10 0x00007f29d200413c in ?? () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#11 0x00007f29d1e9446d in gtk_main_do_event () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#12 0x00007f29d1a998b2 in ?? () from /usr/lib/x86_64-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#13 0x00007f29d0933b54 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00007f29d0933d98 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x00007f29d093405a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0x00007f29d1e93ab5 in gtk_main () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#17 0x00000000004345c5 in ?? ()
+No symbol table info available.
+#18 0x00007f29cf317ed5 in __libc_start_main (main=0x40e160, argc=1, argv=0x7fff23f38f18, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fff23f38f08) at libc-start.c:287
+        result = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {0, -3591556970620652903, 4252032, 140733796552464, 0, 0, 3591196367895392921, 3493570190900851353}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x440770, 0x7fff23f38f18}, data = {prev = 0x0, cleanup = 0x0, canceltype = 4458352}}}
+        not_first_call = <optimized out>
+#19 0x000000000040e1a9 in ?? ()
+No symbol table info available.

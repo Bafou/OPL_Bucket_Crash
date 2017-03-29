@@ -1,0 +1,32 @@
+#0  0x00007fb5bc51ce88 in Launcher::Launcher(nux::BaseWindow*, CompScreen*, char const*, int) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0x00007fb5c3398d60 in GLWindow::glPaint(GLWindowPaintAttrib const&, GLMatrix const&, CompRegion const&, unsigned int) () from /usr/lib/compiz/libopengl.so
+No symbol table info available.
+#2  0x00007fb5bcdd5d05 in FadeWindow::glPaint(GLWindowPaintAttrib const&, GLMatrix const&, CompRegion const&, unsigned int) () from /usr/lib/compiz/libfade.so
+No symbol table info available.
+#3  0x00007fb5c3398d60 in GLWindow::glPaint(GLWindowPaintAttrib const&, GLMatrix const&, CompRegion const&, unsigned int) () from /usr/lib/compiz/libopengl.so
+No symbol table info available.
+#4  0x00007fb5c3399655 in PrivateGLScreen::paintOutputRegion(GLMatrix const&, CompRegion const&, CompOutput*, unsigned int) () from /usr/lib/compiz/libopengl.so
+No symbol table info available.
+#5  0x00007fb5c3399b07 in GLScreen::glPaintOutput(GLScreenPaintAttrib const&, GLMatrix const&, CompRegion const&, CompOutput*, unsigned int) () from /usr/lib/compiz/libopengl.so
+No symbol table info available.
+#6  0x00007fb5beb10be2 in WallScreen::glPaintOutput(GLScreenPaintAttrib const&, GLMatrix const&, CompRegion const&, CompOutput*, unsigned int) () from /usr/lib/compiz/libwall.so
+No symbol table info available.
+#7  0x00007fb5c3399a3d in GLScreen::glPaintOutput(GLScreenPaintAttrib const&, GLMatrix const&, CompRegion const&, CompOutput*, unsigned int) () from /usr/lib/compiz/libopengl.so
+No symbol table info available.
+#8  0x00007fb5bc4f505e in nux::_compute_full_mask_path(_cairo*, float, float, int, int, int, float, unsigned int) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#9  0x0000000000b02710 in ?? ()
+No symbol table info available.
+#10 0x0000000007440000 in ?? ()
+No symbol table info available.
+#11 0x00007fff196197b0 in ?? ()
+No symbol table info available.
+#12 0x0000000000670110 in pointerMods ()
+No symbol table info available.
+#13 0x0000000007445c98 in ?? ()
+No symbol table info available.
+#14 0x000000003f800000 in ?? ()
+No symbol table info available.
+#15 0x0000000000000000 in ?? ()
+No symbol table info available.

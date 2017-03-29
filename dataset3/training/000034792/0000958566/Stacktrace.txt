@@ -1,0 +1,14 @@
+#0  0x0000000000405d02 in ?? ()
+No symbol table info available.
+#1  0x00007f4d5e4c8e3c in ?? () from /usr/lib/x86_64-linux-gnu/gtk-3.0/modules/libatk-bridge.so
+No symbol table info available.
+#2  0x00007f4d65e48dda in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f4d65e491a0 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f4d65e4959a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f4d6723629d in gtk_main () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#6  0x0000000000404922 in main ()
+No symbol table info available.

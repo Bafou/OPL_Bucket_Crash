@@ -1,0 +1,37 @@
+#0  emit (this=0x3a8ad38, visible=false) at /usr/include/sigc++-2.0/sigc++/signal.h:1244
+No locals.
+#1  emit (this=0x3a8ad38, visible=false) at /usr/include/sigc++-2.0/sigc++/signal.h:2885
+No locals.
+#2  nux::Area::SetVisible (this=0x3a8ad38, visible=false) at ./Area.cpp:546
+No locals.
+#3  0x00007f9aef151470 in PlacesGroup::Refresh() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0x00007f9aef151559 in PlacesGroup::OnIdleRelayout(PlacesGroup*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#5  0x00007f9aff08cc2d in g_main_dispatch (context=0x16bbef0) at /build/buildd/glib2.0-2.28.1/./glib/gmain.c:2440
+        dispatch = 0x7f9aff088530 <g_idle_dispatch>
+        was_in_call = 0
+        user_data = 0x826c4c0
+        callback = 0x7f9aef151550 <PlacesGroup::OnIdleRelayout(PlacesGroup*)>
+        cb_funcs = 0x7f9aff337630
+        cb_data = 0x3a61820
+        current_source_link = {data = 0x3a61950, next = 0x0}
+        need_destroy = <value optimized out>
+        source = 0x3a61950
+        current = 0x16bc990
+        i = <value optimized out>
+#6  g_main_context_dispatch (context=0x16bbef0) at /build/buildd/glib2.0-2.28.1/./glib/gmain.c:3013
+No locals.
+#7  0x00007f9aff08d418 in g_main_context_iterate (context=0x16bbef0, block=<value optimized out>, dispatch=1, self=<value optimized out>) at /build/buildd/glib2.0-2.28.1/./glib/gmain.c:3091
+        max_priority = 200
+        timeout = 0
+        some_ready = 1
+        nfds = 14
+        allocated_nfds = <value optimized out>
+        fds = <value optimized out>
+#8  0x00007f9aff08da5a in g_main_loop_run (loop=0x170f9f0) at /build/buildd/glib2.0-2.28.1/./glib/gmain.c:3299
+        __PRETTY_FUNCTION__ = "g_main_loop_run"
+#9  0x0000000000429eca in CompScreen::eventLoop (this=0x16739f0) at /build/buildd/compiz-0.9.4/src/screen.cpp:128
+No locals.
+#10 0x0000000000422e80 in main (argc=<value optimized out>, argv=0x7fff27e74138) at /build/buildd/compiz-0.9.4/src/main.cpp:285
+        manager = {plugins = {<std::_List_base<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >> = {_M_impl = {<std::allocator<std::_List_node<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >> = {<__gnu_cxx::new_allocator<std::_List_node<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >> = {<No data fields>}, <No data fields>}, _M_node = {_M_next = 0x16739b0, _M_prev = 0x16739b0}}}, <No data fields>}, disableSm = false, clientId = 0x0, displayName = 0x0}

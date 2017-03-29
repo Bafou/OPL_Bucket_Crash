@@ -1,0 +1,38 @@
+#0  0x0804c642 in ?? ()
+No symbol table info available.
+#1  0x0804ed29 in ?? ()
+No symbol table info available.
+#2  0x00137cf8 in ?? () from /usr/lib/libzeitgeist-1.0.so.0
+No symbol table info available.
+#3  0x002ef176 in g_simple_async_result_complete ()
+   from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#4  0x001460cc in ?? () from /usr/lib/libzeitgeist-1.0.so.0
+No symbol table info available.
+#5  0x002ef176 in g_simple_async_result_complete ()
+   from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#6  0x002049c8 in ?? () from /usr/lib/libeggdbus-1.so.0
+No symbol table info available.
+#7  0x00173f61 in ?? () from /lib/libdbus-1.so.3
+No symbol table info available.
+#8  0x00163aa6 in ?? () from /lib/libdbus-1.so.3
+No symbol table info available.
+#9  0x00166082 in dbus_connection_dispatch () from /lib/libdbus-1.so.3
+No symbol table info available.
+#10 0x0027c39d in ?? () from /usr/lib/libdbus-glib-1.so.2
+No symbol table info available.
+#11 0x0042b9b5 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#12 0x0042f7c8 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#13 0x0042fd07 in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#14 0x0805011a in ?? ()
+No symbol table info available.
+#15 0x08050170 in ?? ()
+No symbol table info available.
+#16 0x008e4ce7 in __libc_start_main () from /lib/libc.so.6
+No symbol table info available.
+#17 0x0804bc91 in ?? ()
+No symbol table info available.

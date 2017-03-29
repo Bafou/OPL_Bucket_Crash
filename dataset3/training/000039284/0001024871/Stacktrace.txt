@@ -1,0 +1,38 @@
+#0  0x0804d0b8 in ?? ()
+No symbol table info available.
+#1  0xb7135d94 in atk_object_get_n_accessible_children () from /usr/lib/i386-linux-gnu/libatk-1.0.so.0
+No symbol table info available.
+#2  0xb69a7059 in ?? () from /usr/lib/i386-linux-gnu/libatk-bridge-2.0.so.0
+No symbol table info available.
+#3  0xb6d355f0 in g_idle_dispatch (source=source@entry=0x9822d68, callback=0xb69a6e40, user_data=0x8e5a2e0) at /build/buildd/glib2.0-2.33.3/./glib/gmain.c:4657
+No locals.
+#4  0xb6d37b13 in g_main_dispatch (context=0x8cdb668) at /build/buildd/glib2.0-2.33.3/./glib/gmain.c:2539
+        dispatch = 0xb6d355d0 <g_idle_dispatch>
+        was_in_call = 0
+        user_data = 0x8e5a2e0
+        callback = 0xb69a6e40
+        cb_funcs = 0xb6dea4d8
+        cb_data = 0x96e0300
+        current_source_link = {
+          data = 0x9822d68, 
+          next = 0x0
+        }
+        need_destroy = <optimized out>
+        source = 0x9822d68
+        current = 0x8d90440
+        i = <optimized out>
+#5  g_main_context_dispatch (context=context@entry=0x8cdb668) at /build/buildd/glib2.0-2.33.3/./glib/gmain.c:3075
+No locals.
+#6  0xb6d37eb0 in g_main_context_iterate (context=0x8cdb668, block=block@entry=1, dispatch=dispatch@entry=1, self=<error reading variable: Unhandled dwarf expression opcode 0xfa>) at /build/buildd/glib2.0-2.33.3/./glib/gmain.c:3146
+        max_priority = 200
+        timeout = 0
+        some_ready = 1
+        nfds = 7
+        allocated_nfds = <optimized out>
+        fds = <optimized out>
+#7  0xb6d3830b in g_main_loop_run (loop=loop@entry=0x8e5fde0) at /build/buildd/glib2.0-2.33.3/./glib/gmain.c:3340
+        __PRETTY_FUNCTION__ = "g_main_loop_run"
+#8  0xb7378bbd in gtk_main () at /build/buildd/gtk+3.0-3.5.6/./gtk/gtkmain.c:1162
+        loop = 0x8e5fde0
+#9  0x0804bbb6 in main ()
+No symbol table info available.

@@ -1,0 +1,90 @@
+#0  0x00007f3823b2f680 in _IO_file_jumps () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00007f3813d31572 in unity::switcher::SwitcherController::CompareSwitcherItemsPriority(AbstractLauncherIcon*, AbstractLauncherIcon*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x00007f3813d33122 in void std::__insertion_sort<__gnu_cxx::__normal_iterator<AbstractLauncherIcon**, std::vector<AbstractLauncherIcon*, std::allocator<AbstractLauncherIcon*> > >, bool (*)(AbstractLauncherIcon*, AbstractLauncherIcon*)>(__gnu_cxx::__normal_iterator<AbstractLauncherIcon**, std::vector<AbstractLauncherIcon*, std::allocator<AbstractLauncherIcon*> > >, __gnu_cxx::__normal_iterator<AbstractLauncherIcon**, std::vector<AbstractLauncherIcon*, std::allocator<AbstractLauncherIcon*> > >, bool (*)(AbstractLauncherIcon*, AbstractLauncherIcon*)) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x00007f3813d32bdb in unity::switcher::SwitcherController::Show(unity::switcher::SwitcherController::ShowMode, unity::switcher::SwitcherController::SortMode, bool, std::vector<AbstractLauncherIcon*, std::allocator<AbstractLauncherIcon*> >) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0x00007f3813dab5ed in UnityScreen::altTabInitiateCommon(CompAction*, unsigned int, std::vector<CompOption, std::allocator<CompOption> >&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#5  0x00007f3813dab9c5 in UnityScreen::altTabForwardInitiate(CompAction*, unsigned int, std::vector<CompOption, std::allocator<CompOption> >&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#6  0x0000000000455259 in PrivateScreen::triggerKeyPressBindings(std::vector<CompOption, std::allocator<CompOption> >&, XKeyEvent*, std::vector<CompOption, std::allocator<CompOption> >&) ()
+No symbol table info available.
+#7  0x0000000000456361 in PrivateScreen::handleActionEvent(_XEvent*) ()
+No symbol table info available.
+#8  0x0000000000457b11 in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#9  0x00007f381a1e6b04 in PrivateCompositeScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libcomposite.so
+No symbol table info available.
+#10 0x0000000000457bf8 in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#11 0x00007f3819fc501f in PrivateGLScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libopengl.so
+No symbol table info available.
+#12 0x0000000000457bf8 in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#13 0x00007f3816d8f003 in DecorScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libdecor.so
+No symbol table info available.
+#14 0x0000000000457bf8 in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#15 0x00007f381612b794 in MoveScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libmove.so
+No symbol table info available.
+#16 0x0000000000457bf8 in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#17 0x0000000000457bf8 in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#18 0x00007f3815d066df in RegexScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libregex.so
+No symbol table info available.
+#19 0x0000000000457bf8 in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#20 0x00007f3815af4556 in ResizeScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libresize.so
+No symbol table info available.
+#21 0x0000000000457bf8 in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#22 0x00007f38158da8f0 in SessionScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libsession.so
+No symbol table info available.
+#23 0x0000000000457bf8 in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#24 0x0000000000457bf8 in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#25 0x00007f38154b0d4c in UnityMTGrabHandlesScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libunitymtgrabhandles.so
+No symbol table info available.
+#26 0x0000000000457bf8 in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#27 0x0000000000457bf8 in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#28 0x0000000000457bf8 in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#29 0x00007f38142a15c2 in FadeScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libfade.so
+No symbol table info available.
+#30 0x0000000000457bf8 in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#31 0x00007f3814087767 in PrivateScaleScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libscale.so
+No symbol table info available.
+#32 0x0000000000457bf8 in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#33 0x00007f3813dafed0 in UnityScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#34 0x0000000000457bf8 in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#35 0x00007f380b1bac0d in WorkaroundsScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libworkarounds.so
+No symbol table info available.
+#36 0x0000000000457bf8 in CompScreen::handleEvent(_XEvent*) ()
+No symbol table info available.
+#37 0x00000000004319ca in PrivateScreen::processEvents() ()
+No symbol table info available.
+#38 0x000000000045ead1 in CompEventSource::callback() ()
+No symbol table info available.
+#39 0x00007f3824e409df in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#40 0x00007f3824946a5d in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#41 0x00007f3824947258 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#42 0x00007f3824947792 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#43 0x000000000042e8b6 in CompScreen::eventLoop() ()
+No symbol table info available.
+#44 0x000000000042227a in main ()
+No symbol table info available.

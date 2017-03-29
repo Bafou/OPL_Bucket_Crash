@@ -1,0 +1,32 @@
+#0  0x00007fbc995c6f11 in ?? () from /usr/lib/libdee-1.0.so.1
+No symbol table info available.
+#1  0x00007fbc995c748b in ?? () from /usr/lib/libdee-1.0.so.1
+No symbol table info available.
+#2  0x00007fbc9a82a43b in unity::dash::ResultRendererTile::IconLoaded(char const*, unsigned int, _GdkPixbuf*, std::string, unity::dash::Result&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x00007fbc9a82a86d in sigc::internal::slot_call3<sigc::bind_functor<-1, sigc::bound_mem_functor5<void, unity::dash::ResultRendererTile, char const*, unsigned int, _GdkPixbuf*, std::string, unity::dash::Result&>, std::string, unity::dash::Result, sigc::nil, sigc::nil, sigc::nil, sigc::nil, sigc::nil>, void, char const*, unsigned int, _GdkPixbuf*>::call_it(sigc::internal::slot_rep*, char const* const&, unsigned int const&, _GdkPixbuf* const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0x00007fbc9a818d80 in IconLoader::ProcessURITaskReady(IconLoader::IconLoaderTask*, char*, unsigned long) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#5  0x00007fbc9a819066 in IconLoader::LoadContentsReady(_GObject*, _GAsyncResult*, IconLoader::IconLoaderTask*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#6  0x00007fbca845ad61 in g_simple_async_result_complete () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#7  0x00007fbca842e2eb in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#8  0x00007fbca8449aa8 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#9  0x00007fbca845ad61 in g_simple_async_result_complete () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#10 0x00007fbca845ae08 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#11 0x00007fbcaaeb8e5d in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#12 0x00007fbcaaeb9658 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0x00007fbcaaeb9b92 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x000000000042b546 in CompScreen::eventLoop() ()
+No symbol table info available.
+#15 0x000000000041f57a in main ()
+No symbol table info available.

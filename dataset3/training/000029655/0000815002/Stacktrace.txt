@@ -1,0 +1,30 @@
+#0  0x00007ff44e7f443d in QMetaObject::activate(QObject*, QMetaObject const*, int, void**) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#1  0x00007ff44db9577f in QApplication::focusChanged(QWidget*, QWidget*) () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#2  0x00007ff44db959d7 in QApplicationPrivate::setFocusWidget(QWidget*, Qt::FocusReason) () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#3  0x00007ff44db9abea in QApplication::setActiveWindow(QWidget*) () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#4  0x00007ff44dc1645d in QApplication::x11ProcessEvent(_XEvent*) () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#5  0x00007ff44dc3eac2 in ?? () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#6  0x00007ff44b069cbd in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00007ff44b06a4b8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0x00007ff44b06a689 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0x00007ff44e80c746 in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#10 0x00007ff44dc3e72e in ?? () from /usr/lib/libQtGui.so.4
+No symbol table info available.
+#11 0x00007ff44e7e0c62 in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#12 0x00007ff44e7e0e67 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#13 0x00007ff44e7e507b in QCoreApplication::exec() () from /usr/lib/libQtCore.so.4
+No symbol table info available.
+#14 0x0000000000407be2 in main ()
+No symbol table info available.

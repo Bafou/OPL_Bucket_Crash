@@ -1,0 +1,60 @@
+#0  0x006e832c in IA__gtk_tree_model_get_valist (tree_model=0x8a590e0, 
+    iter=0xbfae5044, var_args=0xbfae4f9c "?O?????????\b?O??")
+    at /build/buildd/gtk+2.0-2.17.7/gtk/gtktreemodel.c:1443
+	_vtable = (GTypeValueTable *) 0xbfae4f60
+	_lcopy_format = <value optimized out>
+	_cvalues = {{v_int = 10265568, v_long = 10265568, 
+    v_int64 = 62138903948993504, v_double = 1.6383227532657641e-304, 
+    v_pointer = 0x9ca3e0}, {v_int = 14462964, v_long = 14462964, 
+    v_int64 = 62139586852990964, v_double = 1.6384609520618688e-304, 
+    v_pointer = 0xdcaff4}, {v_int = 13066228, v_long = 13066228, 
+    v_int64 = 56128007026728948, v_double = 6.6664603604247484e-305, 
+    v_pointer = 0xc75ff4}, {v_int = 145176948, v_long = 145176948, 
+    v_int64 = -4634679726996768396, v_double = -0.059199095779706307, 
+    v_pointer = 0x8a73974}, {v_int = 12939997, v_long = 12939997, 
+    v_int64 = 56128007026602717, v_double = 6.666460360297022e-305, 
+    v_pointer = 0xc572dd}, {v_int = 0, v_long = 0, 
+    v_int64 = 21343977416425472, v_double = 3.096083529236502e-307, 
+    v_pointer = 0x0}, {v_int = 9445364, v_long = 9445364, 
+    v_int64 = -4634678713520218124, v_double = -0.059206128185962742, 
+    v_pointer = 0x901ff4}, {v_int = 1220384903, v_long = 1220384903, 
+    v_int64 = -4634679725921560441, v_double = -0.059199103240460231, 
+    v_pointer = 0x48bd9887}}
+	_n_values = <value optimized out>
+	value = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+      v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, 
+      v_pointer = 0x0}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, 
+      v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}}}
+	error = <value optimized out>
+	column = <value optimized out>
+	__PRETTY_FUNCTION__ = "IA__gtk_tree_model_get_valist"
+#1  0x006e856f in IA__gtk_tree_model_get (tree_model=0x8a590e0, 
+    iter=0xbfae5044) at /build/buildd/gtk+2.0-2.17.7/gtk/gtktreemodel.c:1405
+	__PRETTY_FUNCTION__ = "IA__gtk_tree_model_get"
+#2  0x0804d19e in find_section (model=0x8a590e0, iter=0xbfae5044, 
+    title=<value optimized out>) at gnome-keybinding-properties.c:536
+	description = 0x0
+	i = 1
+	j = 0
+#3  0x0804f1aa in append_keys_to_tree (builder=<value optimized out>, 
+    title=0x8a189c8 "Desktop", keys_list=0x8aa1188)
+    at gnome-keybinding-properties.c:569
+	client = (GConfClient *) 0x8a5f588
+	parent_iter = {stamp = 144479920, user_data = 0xdcaff4, 
+  user_data2 = 0x8a5f1c0, user_data3 = 0x8a19918}
+	iter = {stamp = 0, user_data = 0x89c9748, user_data2 = 0x0, 
+  user_data3 = 0x0}
+	model = (GtkTreeModel *) 0x8a590e0
+	i = 144877216
+	rows_before = 144877168
+#4  0x0804fdd7 in reload_key_entries (wm_name=0x8a1dbb0, builder=0x8a2a168)
+    at gnome-keybinding-properties.c:896
+	path = (
+    gchar *) 0x8a19918 "/usr/share/gnome-control-center/keybindings/01-desktop-key.xml"
+	dir = <value optimized out>
+	name = <value optimized out>
+	list = <value optimized out>
+	l = (GList *) 0x8a5f1c0
+#5  0x080504c3 in main (argc=1, argv=0xbfae5224)
+    at gnome-keybinding-properties.c:1861
+	builder = (GtkBuilder *) 0x8a2a168

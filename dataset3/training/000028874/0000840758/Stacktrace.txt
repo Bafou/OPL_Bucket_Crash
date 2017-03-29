@@ -1,0 +1,44 @@
+#0  0x074d5969 in ?? () from /usr/lib/libdee-1.0.so.1
+No symbol table info available.
+#1  0x074d5f1c in ?? () from /usr/lib/libdee-1.0.so.1
+No symbol table info available.
+#2  0x074cdf35 in dee_model_get_tag () from /usr/lib/libdee-1.0.so.1
+No symbol table info available.
+#3  0x074d1051 in ?? () from /usr/lib/libdee-1.0.so.1
+No symbol table info available.
+#4  0x074cdf35 in dee_model_get_tag () from /usr/lib/libdee-1.0.so.1
+No symbol table info available.
+#5  0x050a883b in unity::dash::TextureContainer* unity::dash::RowAdaptorBase::renderer<unity::dash::TextureContainer*>() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#6  0x050a7bb0 in unity::dash::ResultRendererTile::IconLoaded(char const*, unsigned int, _GdkPixbuf*, std::string, unity::dash::Result&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#7  0x050a802e in sigc::internal::slot_call3<sigc::bind_functor<-1, sigc::bound_mem_functor5<void, unity::dash::ResultRendererTile, char const*, unsigned int, _GdkPixbuf*, std::string, unity::dash::Result&>, std::string, unity::dash::Result, sigc::nil, sigc::nil, sigc::nil, sigc::nil, sigc::nil>, void, char const*, unsigned int, _GdkPixbuf*>::call_it(sigc::internal::slot_rep*, char const* const&, unsigned int const&, _GdkPixbuf* const&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#8  0x0502eff0 in IconLoader::ProcessURITaskReady(IconLoader::IconLoaderTask*, char*, unsigned int) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#9  0x0502f337 in IconLoader::LoadContentsReady(_GObject*, _GAsyncResult*, IconLoader::IconLoaderTask*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#10 0x00b3a452 in g_simple_async_result_complete () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#11 0x00b0b8cb in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#12 0x00b27f8b in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#13 0x00b3a452 in g_simple_async_result_complete () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#14 0x00b3a4d3 in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#15 0x00589640 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0x0058d77f in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#17 0x0058deb0 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#18 0x0058e4bb in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#19 0x002ca503 in Glib::MainLoop::run() () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#20 0x0806f6f7 in CompScreen::eventLoop() ()
+No symbol table info available.
+#21 0x08062e44 in main ()
+No symbol table info available.

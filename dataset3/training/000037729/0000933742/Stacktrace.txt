@@ -1,0 +1,34 @@
+#0  0x00d22413 in DecorWindow::computeShadowRegion() () from /usr/lib/compiz/libdecor.so
+No symbol table info available.
+#1  0x00d24ba3 in DecorWindow::update(bool) () from /usr/lib/compiz/libdecor.so
+No symbol table info available.
+#2  0x00d28840 in DecorWindow::windowNotify(CompWindowNotify) () from /usr/lib/compiz/libdecor.so
+No symbol table info available.
+#3  0x00bb2f5e in CompWindow::windowNotify(CompWindowNotify) () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#4  0x0493f77f in PrivateAnimWindow::windowNotify(CompWindowNotify) () from /usr/lib/compiz/libanimation.so
+No symbol table info available.
+#5  0x00bb2f5e in CompWindow::windowNotify(CompWindowNotify) () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#6  0x08364041 in FadeWindow::windowNotify(CompWindowNotify) () from /usr/lib/compiz/libfade.so
+No symbol table info available.
+#7  0x00bb2f5e in CompWindow::windowNotify(CompWindowNotify) () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#8  0x012a5e84 in unity::UnityWindow::windowNotify(CompWindowNotify) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#9  0x00bb2f5e in CompWindow::windowNotify(CompWindowNotify) () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#10 0x00bc474d in PrivateWindow::unreparent() () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#11 0x00bc4bd6 in CompWindow::~CompWindow() () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#12 0x00bc5102 in CompWindow::~CompWindow() () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#13 0x00ba326b in CompScreenImpl::~CompScreenImpl() () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#14 0x00ba3412 in CompScreenImpl::~CompScreenImpl() () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#15 0x0804a530 in CompManager::fini() ()
+No symbol table info available.
+#16 0x0804a174 in main ()
+No symbol table info available.

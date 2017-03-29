@@ -1,0 +1,28 @@
+#0  0x00007fc6b379f7e3 in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00007fc6b379f8b5 in exit () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x00007fc6b4c57108 in ?? () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#3  0x00007fc6b2fe912e in _XIOError () from /usr/lib/x86_64-linux-gnu/libX11.so.6
+No symbol table info available.
+#4  0x00007fc6b2fe674c in _XReadEvents () from /usr/lib/x86_64-linux-gnu/libX11.so.6
+No symbol table info available.
+#5  0x00007fc6b2fd4bd8 in XNextEvent () from /usr/lib/x86_64-linux-gnu/libX11.so.6
+No symbol table info available.
+#6  0x00007fc6b5bad73c in KeyMonitor::run() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#7  0x00007fc6b5bae916 in QtConcurrent::RunFunctionTask<void>::run() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#8  0x00007fc6b572b8d5 in ?? () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#9  0x00007fc6b5736e45 in ?? () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#10 0x00007fc6abf0a25a in ?? () from /usr/lib/nvidia-current/libGL.so.1
+No symbol table info available.
+#11 0x00007fc6b2738efc in start_thread () from /lib/x86_64-linux-gnu/libpthread.so.0
+No symbol table info available.
+#12 0x00007fc6b384592d in clone () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#13 0x0000000000000000 in ?? ()
+No symbol table info available.

@@ -1,0 +1,214 @@
+#0  0xb74923c1 in *__GI_getenv (name=0xb7f3ff56 "K_DEBUG") at getenv.c:90
+	len = 7
+	ep = (char **) 0x9277440
+	name_start = 21575
+#1  0xb7859461 in IA__g_getenv (variable=0xd <Address 0xd out of bounds>)
+    at /build/buildd/glib2.0-2.20.0/glib/gutils.c:1083
+	__PRETTY_FUNCTION__ = "IA__g_getenv"
+#2  0xb7d50b18 in gtk_rc_parse_assignment (scanner=0x913aca0, 
+    style=0x913c2a0, prop=0xbfab1268)
+    at /build/buildd/gtk+2.0-2.16.0/gtk/gtkrc.c:2679
+	negate = <value optimized out>
+	token = 61
+#3  0xb7d51d9f in gtk_rc_parse_style (context=0x9133200, scanner=0x913aca0)
+    at /build/buildd/gtk+2.0-2.16.0/gtk/gtkrc.c:3223
+	prop = {type_name = 142, property_name = 143, origin = 0x0, value = {
+    g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, 
+        v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, 
+        v_pointer = 0x0}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, 
+        v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, 
+        v_pointer = 0x0}}}}
+	rc_style = (GtkRcStyle *) 0x913c2a0
+	orig_style = (GtkRcStyle *) 0x0
+	parent_style = <value optimized out>
+	rc_priv = (GtkRcStylePrivate *) 0x913c3e8
+	token = 266
+	i = <value optimized out>
+	our_factory = (GtkIconFactory *) 0x0
+	our_hash = (GHashTable *) 0x9137a60
+	__PRETTY_FUNCTION__ = "gtk_rc_parse_style"
+#4  0xb7d529c8 in gtk_rc_parse_any (context=0x9133200, 
+    input_name=0x9136710 "/usr/share/themes/MurrinaCappuccino/gtk-2.0/gtkrc", 
+    input_fd=16, input_string=0x0)
+    at /build/buildd/gtk+2.0-2.16.0/gtk/gtkrc.c:2941
+	expected_token = 3086222380
+	scanner = (GScanner *) 0x913aca0
+	__PRETTY_FUNCTION__ = "gtk_rc_parse_any"
+#5  0xb7d52fd7 in gtk_rc_context_parse_one_file (context=0x9133200, 
+    filename=0x9136710 "/usr/share/themes/MurrinaCappuccino/gtk-2.0/gtkrc", 
+    priority=12, reload=0) at /build/buildd/gtk+2.0-2.16.0/gtk/gtkrc.c:1055
+	fd = 16
+	rc_file = (GtkRcFile *) 0x916da40
+	statbuf = {st_dev = 2054, __pad1 = 0, __st_ino = 49415, 
+  st_mode = 33188, st_nlink = 1, st_uid = 0, st_gid = 0, st_rdev = 0, 
+  __pad2 = 0, st_size = 4213, st_blksize = 4096, st_blocks = 16, st_atim = {
+    tv_sec = 1238459928, tv_nsec = 0}, st_mtim = {tv_sec = 1210223839, 
+    tv_nsec = 0}, st_ctim = {tv_sec = 1238459824, tv_nsec = 0}, 
+  st_ino = 49415}
+	saved_priority = 12
+	__PRETTY_FUNCTION__ = "gtk_rc_context_parse_one_file"
+#6  0xb7d5318c in gtk_rc_context_parse_file (context=0x9133200, 
+    filename=0x9136710 "/usr/share/themes/MurrinaCappuccino/gtk-2.0/gtkrc", 
+    priority=12, reload=0) at /build/buildd/gtk+2.0-2.16.0/gtk/gtkrc.c:1121
+	locale_suffixes = {0x92bcfa0 "pt_PT", 0x93c9c58 "pt"}
+	n_locale_suffixes = 2
+	locale = (gchar *) 0x9295998 "SELECTED"
+	length = <value optimized out>
+	j = 0
+	found = <value optimized out>
+#7  0xb7d52d1a in gtk_rc_parse_any (context=0x9133200, 
+    input_name=0x9116678 "/home/renatohe/.gtkrc-2.0", input_fd=15, 
+    input_string=0x0) at /build/buildd/gtk+2.0-2.16.0/gtk/gtkrc.c:2909
+	expected_token = 3086222380
+	scanner = (GScanner *) 0x926d4a0
+	__PRETTY_FUNCTION__ = "gtk_rc_parse_any"
+#8  0xb7d52fd7 in gtk_rc_context_parse_one_file (context=0x9133200, 
+    filename=0x9116678 "/home/renatohe/.gtkrc-2.0", priority=12, reload=0)
+    at /build/buildd/gtk+2.0-2.16.0/gtk/gtkrc.c:1055
+	fd = 15
+	rc_file = (GtkRcFile *) 0x925d3d0
+	statbuf = {st_dev = 2054, __pad1 = 0, __st_ino = 3230029, 
+  st_mode = 33188, st_nlink = 1, st_uid = 1000, st_gid = 1000, st_rdev = 0, 
+  __pad2 = 0, st_size = 278, st_blksize = 4096, st_blocks = 8, st_atim = {
+    tv_sec = 1238497675, tv_nsec = 0}, st_mtim = {tv_sec = 1238497653, 
+    tv_nsec = 0}, st_ctim = {tv_sec = 1238497653, tv_nsec = 0}, 
+  st_ino = 3230029}
+	saved_priority = 12
+	__PRETTY_FUNCTION__ = "gtk_rc_context_parse_one_file"
+#9  0xb7d5318c in gtk_rc_context_parse_file (context=0x9133200, 
+    filename=0x9116678 "/home/renatohe/.gtkrc-2.0", priority=12, reload=0)
+    at /build/buildd/gtk+2.0-2.16.0/gtk/gtkrc.c:1121
+	locale_suffixes = {0x926d2d8 "pt_PT", 0x925d3c0 "pt"}
+	n_locale_suffixes = 2
+	locale = (gchar *) 0x926d460 "xp\022\t\b\221)\t\020"
+	length = <value optimized out>
+	j = 0
+	found = <value optimized out>
+#10 0xb7d535af in IA__gtk_rc_reparse_all_for_settings (settings=0x9118860, 
+    force_load=1) at /build/buildd/gtk+2.0-2.16.0/gtk/gtkrc.c:884
+	rc_file = <value optimized out>
+	tmp_list = (GSList *) 0x9133200
+	context = (GtkRcContext *) 0x9133200
+	statbuf = {st_dev = 0, __pad1 = 0, __st_ino = 0, st_mode = 0, 
+  st_nlink = 0, st_uid = 0, st_gid = 0, st_rdev = 0, __pad2 = 0, st_size = 0, 
+  st_blksize = 0, st_blocks = 0, st_atim = {tv_sec = -1215352844, 
+    tv_nsec = 152143968}, st_mtim = {tv_sec = 152252928, 
+    tv_nsec = -1079306616}, st_ctim = {tv_sec = -1215539002, 
+    tv_nsec = 152143968}, st_ino = 13246551928549408157}
+	__PRETTY_FUNCTION__ = "IA__gtk_rc_reparse_all_for_settings"
+#11 0xb7d53883 in gtk_rc_settings_changed (settings=0x9118860, 
+    pspec=0x912e4f8, context=0x9133200)
+    at /build/buildd/gtk+2.0-2.16.0/gtk/gtkrc.c:682
+	new_theme_name = (gchar *) 0x9267f88 "MurrinaLoveGray"
+	new_key_theme_name = (gchar *) 0x9267fc0 "Default"
+#12 0xb78cdabc in IA__g_cclosure_marshal_VOID__PARAM (closure=0x9133810, 
+    return_value=0x0, n_param_values=2, param_values=0x9242d68, 
+    invocation_hint=0xbfab185c, marshal_data=0xb7d537c0)
+    at /build/buildd/glib2.0-2.20.0/gobject/gmarshal.c:531
+	data1 = (gpointer) 0x9118860
+	data2 = <value optimized out>
+	__PRETTY_FUNCTION__ = "IA__g_cclosure_marshal_VOID__PARAM"
+#13 0xb78c0c7b in IA__g_closure_invoke (closure=0x9133810, return_value=0x0, 
+    n_param_values=2, param_values=0x9242d68, invocation_hint=0xbfab185c)
+    at /build/buildd/glib2.0-2.20.0/gobject/gclosure.c:767
+	marshal = (
+    GClosureMarshal) 0xb78cda30 <IA__g_cclosure_marshal_VOID__PARAM>
+	marshal_data = (gpointer) 0x0
+	__PRETTY_FUNCTION__ = "IA__g_closure_invoke"
+#14 0xb78d6e0f in signal_emit_unlocked_R (node=0x9117200, detail=93, 
+    instance=0x9118860, emission_return=0x0, instance_and_params=0x9242d68)
+    at /build/buildd/glib2.0-2.20.0/gobject/gsignal.c:3244
+	tmp = <value optimized out>
+	handler = (Handler *) 0x9118880
+	accumulator = (SignalAccumulator *) 0x0
+	emission = {next = 0x0, instance = 0x9118860, ihint = {signal_id = 1, 
+    detail = 93, run_type = G_SIGNAL_RUN_FIRST}, state = EMISSION_RUN, 
+  chain_type = 4}
+	class_closure = (GClosure *) 0x91167c0
+	handler_list = (Handler *) 0x9118880
+	return_accu = (GValue *) 0x0
+	accu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+      v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, 
+      v_pointer = 0x0}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, 
+      v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}}}
+	signal_id = 1
+	max_sequential_handler_number = 89
+	return_value_altered = 1
+#15 0xb78d8489 in IA__g_signal_emit_valist (instance=0x9118860, signal_id=1, 
+    detail=93, var_args=0xbfab1a00 " \024]·Àù\\·8\032«¿ô/\217·\001")
+    at /build/buildd/glib2.0-2.20.0/gobject/gsignal.c:2977
+	signal_return_type = 4
+	param_values = (GValue *) 0x9242d7c
+	node = (SignalNode *) 0x9117200
+	i = 1
+	n_params = 1
+	__PRETTY_FUNCTION__ = "IA__g_signal_emit_valist"
+#16 0xb78d8906 in IA__g_signal_emit (instance=0x9118860, signal_id=1, 
+    detail=93) at /build/buildd/glib2.0-2.20.0/gobject/gsignal.c:3034
+No locals.
+#17 0xb78c5231 in g_object_dispatch_properties_changed (object=0x9118860, 
+    n_pspecs=1, pspecs=0xbfab1a6c)
+    at /build/buildd/glib2.0-2.20.0/gobject/gobject.c:770
+	i = 1
+#18 0xb78c19df in g_object_notify_dispatcher (object=0x9118860, n_pspecs=1, 
+    pspecs=0xbfab1a6c) at /build/buildd/glib2.0-2.20.0/gobject/gobject.c:312
+No locals.
+#19 0xb78c7b5d in IA__g_object_notify (object=0x9118860, 
+    property_name=0xb7f3fd9d "gtk-theme-name")
+    at /build/buildd/glib2.0-2.20.0/gobject/gobjectnotifyqueue.c:125
+	nqueue = <value optimized out>
+	pspec = <value optimized out>
+	__PRETTY_FUNCTION__ = "IA__g_object_notify"
+#20 0xb7d7315e in _gtk_settings_handle_event (event=0x925a818)
+    at /build/buildd/gtk+2.0-2.16.0/gtk/gtksettings.c:1906
+	settings = (GtkSettings *) 0x9118860
+	pspec = <value optimized out>
+#21 0xb7d02140 in IA__gtk_main_do_event (event=0x925a818)
+    at /build/buildd/gtk+2.0-2.16.0/gtk/gtkmain.c:1448
+	event_widget = <value optimized out>
+	grab_widget = <value optimized out>
+	window_group = <value optimized out>
+	rewritten_event = <value optimized out>
+	tmp_list = <value optimized out>
+	__PRETTY_FUNCTION__ = "IA__gtk_main_do_event"
+#22 0xb7b8f16a in gdk_event_dispatch (source=0x912d4e0, callback=0, 
+    user_data=0x0)
+    at /build/buildd/gtk+2.0-2.16.0/gdk/x11/gdkevents-x11.c:2364
+	display = <value optimized out>
+	event = <value optimized out>
+#23 0xb7824a58 in IA__g_main_context_dispatch (context=0x912d528)
+    at /build/buildd/glib2.0-2.20.0/glib/gmain.c:1814
+No locals.
+#24 0xb7827fbb in g_main_context_iterate (context=0x912d528, block=1, 
+    dispatch=1, self=0x9100bb0)
+    at /build/buildd/glib2.0-2.20.0/glib/gmain.c:2448
+	max_priority = 2147483647
+	timeout = 500
+	some_ready = 1
+	nfds = 2
+	allocated_nfds = <value optimized out>
+	fds = (GPollFD *) 0x9258ff8
+	__PRETTY_FUNCTION__ = "g_main_context_iterate"
+#25 0xb782848a in IA__g_main_loop_run (loop=0x9258fe8)
+    at /build/buildd/glib2.0-2.20.0/glib/gmain.c:2656
+	self = (GThread *) 0x9100bb0
+	__PRETTY_FUNCTION__ = "IA__g_main_loop_run"
+#26 0xb7d025c9 in IA__gtk_main ()
+    at /build/buildd/gtk+2.0-2.16.0/gtk/gtkmain.c:1205
+	tmp_list = (GList *) 0x8069ea4
+	functions = (GList *) 0x0
+	init = (GtkInitFunction *) 0x1
+	loop = (GMainLoop *) 0x9258fe8
+#27 0x0805bcd6 in main (argc=7, argv=0xbfab1e84) at scim_panel_gtk.cpp:3721
+	config_list = {<std::_Vector_base<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >> = {
+    _M_impl = {<std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >> = {<__gnu_cxx::new_allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >> = {<No data fields>}, <No data fields>}, _M_start = 0x9100ad0, _M_finish = 0x9100adc, 
+      _M_end_of_storage = 0x9100ae0}}, <No data fields>}
+	i = 7
+	daemon = true
+	new_argc = 1
+	new_argv = (char **) 0x91009a8
+	config_name = {static npos = 4294967295, 
+  _M_dataplus = {<std::allocator<char>> = {<__gnu_cxx::new_allocator<char>> = {<No data fields>}, <No data fields>}, _M_p = 0x9100a5c "socket"}}
+	display_name = {static npos = 4294967295, 
+  _M_dataplus = {<std::allocator<char>> = {<__gnu_cxx::new_allocator<char>> = {<No data fields>}, <No data fields>}, _M_p = 0x92574dc ":0.0"}}
+	should_resident = <value optimized out>

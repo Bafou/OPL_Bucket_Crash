@@ -1,0 +1,78 @@
+#0  theme_get_style (theme=0x0, type=META_FRAME_TYPE_NORMAL, flags=3199) at ui/theme.c:4913
+	state = <value optimized out>
+	resize = <value optimized out>
+	style_set = <value optimized out>
+	__PRETTY_FUNCTION__ = "theme_get_style"
+#1  0x00007fbe2b4b1cd5 in meta_preview_get_clip_region (preview=0x817160, new_window_width=128, new_window_height=128)
+    at ui/preview-widget.c:477
+	xrect = {x = 0, y = 1079164928, width = 0, height = 48}
+	corners_xregion = <value optimized out>
+	window_xregion = <value optimized out>
+	fgeom = <value optimized out>
+	frame_style = <value optimized out>
+	__PRETTY_FUNCTION__ = "meta_preview_get_clip_region"
+#2  0x000000000042a135 in create_meta_theme_pixbuf (theme_thumbnail_data=<value optimized out>) at theme-thumbnail.c:367
+	window = (GtkWidget *) 0x8142d0
+	preview = (GtkWidget *) 0x817160
+	vbox = (GtkWidget *) 0x8ad1c0
+	align = <value optimized out>
+	box = <value optimized out>
+	stock_button = (GtkWidget *) 0x707180
+	checkbox = (GtkWidget *) 0x80f9a0
+	radio = (GtkWidget *) 0x80fa60
+	requisition = {width = 81, height = 70}
+	allocation = {x = 0, y = 0, width = 128, height = 128}
+	pixmap = (GdkPixmap *) 0x8a3160
+	visual = <value optimized out>
+	theme = (MetaTheme *) 0x0
+	pixbuf = (GdkPixbuf *) 0x68c540
+	icon = (GdkPixbuf *) 0x8c2f20
+	icon_width = 48
+	icon_height = 48
+	region = <value optimized out>
+	__PRETTY_FUNCTION__ = "create_meta_theme_pixbuf"
+#3  0x000000000042adf5 in message_from_capplet (source=<value optimized out>, condition=<value optimized out>, 
+    data=0x7fff3594d0d0) at theme-thumbnail.c:705
+	type = <value optimized out>
+	width = <value optimized out>
+	height = <value optimized out>
+	buffer = "Sans 10\000\000#f5f5f5\nbg_color:#888a85\nbase_color:#babdb6\ntext_color:#000\nselected_bg_color:#f57900\nselected_fg_color:#fff\nfoo:#123\000\000À\201f\000\000\000\000\000 \031½)¾\177\000\000P\215f\000\000\000\000\000\020ä½)¾\177\000\000\001\000\000\000\000\000\000\000Àø\n*¾\177\000\000àl/*¾\177\000\000\020ä½)¾\177\000\000Ð\201f\000\000\000\000\000"...
+	status = <value optimized out>
+	bytes_read = 8
+	pixbuf = <value optimized out>
+	i = <value optimized out>
+	rowstride = <value optimized out>
+	pixels = <value optimized out>
+	theme_thumbnail_data = (ThemeThumbnailData *) 0x0
+	__PRETTY_FUNCTION__ = "message_from_capplet"
+#4  0x00007fbe29e293b4 in g_main_context_dispatch () from /usr/lib/libglib-2.0.so.0
+#5  0x00007fbe29e2c6c5 in ?? () from /usr/lib/libglib-2.0.so.0
+#6  0x00007fbe29e2c9e5 in g_main_loop_run () from /usr/lib/libglib-2.0.so.0
+#7  0x00007fbe2b01dd63 in IA__gtk_main () at /build/buildd/gtk+2.0-2.12.8/gtk/gtkmain.c:1163
+	tmp_list = (GList *) 0x0
+	functions = (GList *) 0x0
+	init = (GtkInitFunction *) 0x66d430
+	loop = (GMainLoop *) 0x66d2a0
+#8  0x000000000042988e in theme_thumbnail_factory_init (argc=1, argv=0x7fff3594d338) at theme-thumbnail.c:1198
+	data = {status = 7, type = 0x66cc80, control_theme_name = 0x66cca0, gtk_color_scheme = 0x66ccc0, 
+  wm_theme_name = 0x66cce0, icon_theme_name = 0x66cd00, application_font = 0x66cd20}
+	channel = (GIOChannel *) 0x66d430
+	__PRETTY_FUNCTION__ = "theme_thumbnail_factory_init"
+#9  0x00000000004179fb in main (argc=1, argv=0x7fff3594d338) at appearance-main.c:50
+	data = <value optimized out>
+	program = <value optimized out>
+	w = <value optimized out>
+	install_filename = (gchar *) 0x0
+	start_page = (gchar *) 0x0
+	wallpaper_files = (gchar **) 0x0
+	option_context = <value optimized out>
+	option_entries = {{long_name = 0x42ce18 "install-theme", short_name = 105 'i', flags = 2, 
+    arg = G_OPTION_ARG_FILENAME, arg_data = 0x7fff3594d228, 
+    description = 0x42cee0 "Specify the filename of a theme to install", arg_description = 0x42ce26 "filename"}, {
+    long_name = 0x42ce2f "show-page", short_name = 112 'p', flags = 2, arg = G_OPTION_ARG_STRING, 
+    arg_data = 0x7fff3594d220, 
+    description = 0x42cf10 "Specify the name of the page to show (theme|background|fonts|interface)", 
+    arg_description = 0x42ce34 "page"}, {long_name = 0x42e334 "", short_name = 0 '\0', flags = 2, 
+    arg = G_OPTION_ARG_FILENAME_ARRAY, arg_data = 0x7fff3594d218, description = 0x0, 
+    arg_description = 0x42ce39 "[WALLPAPER...]"}, {long_name = 0x0, short_name = 0 '\0', flags = 0, 
+    arg = G_OPTION_ARG_NONE, arg_data = 0x0, description = 0x0, arg_description = 0x0}}

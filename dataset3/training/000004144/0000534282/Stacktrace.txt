@@ -1,0 +1,128 @@
+#0  0x003de32c in pango_default_break () from /usr/lib/libpango-1.0.so.0
+No symbol table info available.
+#1  0x003dfb72 in pango_break () from /usr/lib/libpango-1.0.so.0
+No symbol table info available.
+#2  0x003f2c33 in ?? () from /usr/lib/libpango-1.0.so.0
+No symbol table info available.
+#3  0x003f4104 in ?? () from /usr/lib/libpango-1.0.so.0
+No symbol table info available.
+#4  0x011059a9 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#5  0x0042fa7c in g_cclosure_marshal_VOID__BOXED ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x0041f7d9 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00421078 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#8  0x004381ca in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#9  0x00439fa4 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#10 0x0043a295 in g_signal_emit_by_name () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x011973c8 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#12 0x011976af in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#13 0x0126433b in gtk_widget_size_request () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#14 0x0103b42d in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#15 0x0042fa7c in g_cclosure_marshal_VOID__BOXED ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#16 0x0041f7d9 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#17 0x00421078 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#18 0x004381ca in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#19 0x00439fa4 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#20 0x0043a295 in g_signal_emit_by_name () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#21 0x011973c8 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#22 0x011976af in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#23 0x0126433b in gtk_widget_size_request () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#24 0x0103b42d in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#25 0x0042fa7c in g_cclosure_marshal_VOID__BOXED ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#26 0x0041f7d9 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#27 0x00421078 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#28 0x004381ca in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#29 0x00439fa4 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#30 0x0043a295 in g_signal_emit_by_name () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#31 0x011973c8 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#32 0x011976af in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#33 0x0126433b in gtk_widget_size_request () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#34 0x012771b5 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#35 0x0042fa7c in g_cclosure_marshal_VOID__BOXED ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#36 0x0041f7d9 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#37 0x00421152 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#38 0x004381ca in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#39 0x00439fa4 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#40 0x0043a295 in g_signal_emit_by_name () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#41 0x011973c8 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#42 0x011976af in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#43 0x0126433b in gtk_widget_size_request () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#44 0x01272194 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#45 0x012793c9 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#46 0x0042f3ec in g_cclosure_marshal_VOID__VOID ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#47 0x0041f7d9 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#48 0x00421152 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#49 0x00438576 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#50 0x00439fa4 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#51 0x0043a706 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#52 0x0107600a in gtk_container_check_resize ()
+   from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#53 0x0107636e in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#54 0x001264f8 in ?? () from /usr/lib/libgdk-x11-2.0.so.0
+No symbol table info available.
+#55 0x00564e81 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#56 0x00566e05 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#57 0x0056ab08 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#58 0x0056b05f in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#59 0x01110049 in gtk_main () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#60 0x0805ce29 in main ()
+No symbol table info available.

@@ -1,0 +1,32 @@
+#0  0xb74709f4 in g_type_check_instance_is_a () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#1  0xb755c521 in g_volume_get_drive () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#2  0xb40ffd18 in DeviceLauncherIcon::OnStopDriveReady(_GObject*, _GAsyncResult*, DeviceLauncherIcon*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0xb7547cbf in g_simple_async_result_complete () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#4  0xb316a424 in ?? () from /usr/lib/gio/modules/libgioremote-volume-monitor.so
+No symbol table info available.
+#5  0xb180c3ec in ?? () from /usr/lib/libgvfscommon.so.0
+No symbol table info available.
+#6  0xb37753b1 in ?? () from /lib/libdbus-1.so.3
+No symbol table info available.
+#7  0xb3760896 in ?? () from /lib/libdbus-1.so.3
+No symbol table info available.
+#8  0xb37640d0 in dbus_connection_dispatch () from /lib/libdbus-1.so.3
+No symbol table info available.
+#9  0xb180aecd in ?? () from /usr/lib/libgvfscommon.so.0
+No symbol table info available.
+#10 0xb7392bd8 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#11 0xb73933a0 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#12 0xb7393a5b in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#13 0xb74c1a35 in Glib::MainLoop::run() () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#14 0x0806e9ab in CompScreen::eventLoop() ()
+No symbol table info available.
+#15 0x08066c98 in main ()
+No symbol table info available.

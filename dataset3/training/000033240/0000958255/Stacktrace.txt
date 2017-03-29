@@ -1,0 +1,12 @@
+#0  0x00007fed5c55d235 in ?? () from /usr/lib/control-center-1/panels/libnetwork.so
+No symbol table info available.
+#1  0x00007fed88834dda in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007fed888351a0 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007fed88835264 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007fed88dd2994 in g_application_run () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#5  0x00007fed8a95e75a in main ()
+No symbol table info available.

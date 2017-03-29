@@ -1,0 +1,62 @@
+#0  0x002f95f6 in ?? () from /lib/libc.so.6
+No symbol table info available.
+#1  0x00000001 in ?? ()
+No symbol table info available.
+#2  0x047702db in nux::Memcpy(void*, void const*, unsigned int) () from /usr/lib/libnux-core-0.9.so.0
+No symbol table info available.
+#3  0x00de674a in nux::CairoGraphics::GetBitmap() () from /usr/lib/libnux-image-0.9.so.0
+No symbol table info available.
+#4  0x01188765 in PanelMenuView::Refresh() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#5  0x01188cff in PanelMenuView::PostLayoutManagement(long) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#6  0x06edb71e in nux::View::ComputeChildLayout() () from /usr/lib/libnux-0.9.so.0
+No symbol table info available.
+#7  0x06edae91 in nux::View::ComputeLayout2() () from /usr/lib/libnux-0.9.so.0
+No symbol table info available.
+#8  0x06ed1796 in nux::HLayout::ComputeLayout2() () from /usr/lib/libnux-0.9.so.0
+No symbol table info available.
+#9  0x06edb689 in nux::View::ComputeChildLayout() () from /usr/lib/libnux-0.9.so.0
+No symbol table info available.
+#10 0x06edae91 in nux::View::ComputeLayout2() () from /usr/lib/libnux-0.9.so.0
+No symbol table info available.
+#11 0x06ed1796 in nux::HLayout::ComputeLayout2() () from /usr/lib/libnux-0.9.so.0
+No symbol table info available.
+#12 0x06edb689 in nux::View::ComputeChildLayout() () from /usr/lib/libnux-0.9.so.0
+No symbol table info available.
+#13 0x06e9f5d7 in nux::BaseWindow::SetLayout(nux::Layout*) () from /usr/lib/libnux-0.9.so.0
+No symbol table info available.
+#14 0x011cf24a in UnityScreen::initLauncher(nux::NThread*, void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#15 0x011cf488 in UnityScreen::initUnity(nux::NThread*, void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#16 0x06f707c6 in nux::WindowThread::Run(void*) () from /usr/lib/libnux-0.9.so.0
+No symbol table info available.
+#17 0x011d1185 in UnityScreen::UnityScreen(CompScreen*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#18 0x011d56a4 in CompPlugin::VTableForScreenAndWindow<UnityScreen, UnityWindow>::initScreen(CompScreen*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#19 0x08094e77 in CompManager::initPlugin(CompPlugin*) ()
+No symbol table info available.
+#20 0x08096056 in CompPlugin::push(CompPlugin*) ()
+No symbol table info available.
+#21 0x08071d7f in PrivateScreen::updatePlugins() ()
+No symbol table info available.
+#22 0x08072138 in PrivateScreen::processEvents() ()
+No symbol table info available.
+#23 0x080995d0 in CompEventSource::callback() ()
+No symbol table info available.
+#24 0x00bc9329 in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#25 0x00424c08 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#26 0x004253d0 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#27 0x00425a93 in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#28 0x00bca865 in Glib::MainLoop::run() () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#29 0x0806e8bb in CompScreen::eventLoop() ()
+No symbol table info available.
+#30 0x08066ba8 in main ()
+No symbol table info available.

@@ -1,0 +1,54 @@
+#0  0x00007fd41951ec78 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#1  0x00007fd4195201d2 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#2  0x00007fd418d1e364 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#3  0x00007fd418d2e615 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00007fd418d35feb in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007fd418d361b2 in g_signal_emit () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00007fd4195201c7 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#7  0x00007fd41952232b in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#8  0x0000000000408f0b in ?? ()
+No symbol table info available.
+#9  0x000000000040962c in ?? ()
+No symbol table info available.
+#10 0x00007fd418d1e364 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x00007fd418d2e615 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x00007fd418d35feb in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x00007fd418d366c4 in g_signal_emit_by_name () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#14 0x00007fd41976ffce in ?? () from /usr/lib/libunity.so.9
+No symbol table info available.
+#15 0x00007fd418a63b2a in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0x00007fd418a63ef0 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#17 0x00007fd418a63fb4 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#18 0x00007fd418ffb3b4 in g_application_run () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#19 0x0000000000408b50 in ?? ()
+No symbol table info available.
+#20 0x00007fd41847e30d in __libc_start_main () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#21 0x0000000000403da9 in ?? ()
+No symbol table info available.
+#22 0x00007fffc6663c18 in ?? ()
+No symbol table info available.
+#23 0x000000000000001c in ?? ()
+No symbol table info available.
+#24 0x0000000000000001 in ?? ()
+No symbol table info available.
+#25 0x00007fffc66659d4 in ?? ()
+No symbol table info available.
+#26 0x0000000000000000 in ?? ()
+No symbol table info available.

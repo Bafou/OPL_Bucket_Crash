@@ -1,0 +1,32 @@
+#0  0x00007f9c909934b9 in ?? () from /lib/x86_64-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#1  0x00007f9c90974047 in dbus_connection_send () from /lib/x86_64-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#2  0x00007f9c90dd8426 in ?? () from /usr/lib/gio/modules/libgvfsdbus.so
+No symbol table info available.
+#3  0x00007f9c9832aed4 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00007f9c9833e17b in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007f9c98347797 in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00007f9c98347962 in g_signal_emit () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00007f9c9859fef8 in g_cancellable_cancel () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#8  0x00007f9c8d8be3e4 in ?? () from /usr/lib/control-center-1/panels/libindicator-datetime.so
+No symbol table info available.
+#9  0x00007f9c97e6663b in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0x00007f9c97e64e5d in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0x00007f9c97e65658 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#12 0x00007f9c97e65b92 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0x00007f9c997f210d in gtk_main () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#14 0x00007f9c9860aafe in g_application_run () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#15 0x00007f9c9a14b76c in main ()
+No symbol table info available.

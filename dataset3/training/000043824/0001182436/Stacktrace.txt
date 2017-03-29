@@ -1,0 +1,60 @@
+#0  0x00007f9f545e0446 in ido_calendar_menu_item_get_calendar () from /usr/lib/x86_64-linux-gnu/libido3-0.1.so.0
+No symbol table info available.
+#1  0x00007f9f547f004c in ?? () from /usr/lib/indicators3/7/libdatetime.so
+No symbol table info available.
+#2  0x00007f9f615ad578 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#3  0x00007f9f615bf94d in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00007f9f615c7b9e in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007f9f615c7e82 in g_signal_emit () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00007f9f615b1975 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00007f9f615b405b in g_object_notify () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#8  0x00007f9f6294aace in gtk_widget_hide () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#9  0x00007f9f615b0647 in g_cclosure_marshal_VOID__OBJECTv () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#10 0x00007f9f615ad7a7 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x00007f9f615c7541 in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x00007f9f615c7e82 in g_signal_emit () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x00007f9f54aee462 in ?? () from /usr/lib/x86_64-linux-gnu/libdbusmenu-glib.so.4
+No symbol table info available.
+#14 0x00007f9f615ad578 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#15 0x00007f9f615bf94d in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#16 0x00007f9f615c7b9e in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#17 0x00007f9f615c7e82 in g_signal_emit () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#18 0x00007f9f615b1975 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#19 0x00007f9f615b405b in g_object_notify () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#20 0x00007f9f61f33920 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#21 0x00007f9f61f23e35 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#22 0x00007f9f612e6226 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#23 0x00007f9f612e6578 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#24 0x00007f9f612e697a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#25 0x00007f9f628104a5 in gtk_main () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#26 0x000000000042f26c in ?? ()
+No symbol table info available.
+#27 0x00007f9f5ff74ea5 in __libc_start_main (main=0x40d1a0, argc=1, ubp_av=0x7fff9f681848, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fff9f681838) at libc-start.c:260
+        result = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {0, -4279275204500678892, 4248000, 140735867787328, 0, 0, 4279487340201219860, 4297078570374895380}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x43b240, 0x7fff9f681848}, data = {prev = 0x0, cleanup = 0x0, canceltype = 4436544}}}
+        not_first_call = <optimized out>
+#28 0x000000000040d1e9 in ?? ()
+No symbol table info available.

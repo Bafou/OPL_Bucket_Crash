@@ -1,0 +1,62 @@
+#0  0x0ab6a1bf in ?? () from /usr/lib/control-center-1/panels/libscreen.so
+No symbol table info available.
+#1  0x00adf0a2 in g_simple_async_result_complete (simple=0x2243ba70) at /build/buildd/glib2.0-2.29.8/./gio/gsimpleasyncresult.c:749
+        current_source = <value optimized out>
+        current_context = <value optimized out>
+        __PRETTY_FUNCTION__ = "g_simple_async_result_complete"
+#2  0x00b39617 in reply_cb (connection=0x2224b638, res=0x2243baa8, user_data=0x2243ba70) at /build/buildd/glib2.0-2.29.8/./gio/gdbusproxy.c:2355
+        simple = 0x2243ba70
+        value = <value optimized out>
+        error = 0x0
+#3  0x00adf0a2 in g_simple_async_result_complete (simple=0x2243baa8) at /build/buildd/glib2.0-2.29.8/./gio/gsimpleasyncresult.c:749
+        current_source = <value optimized out>
+        current_context = <value optimized out>
+        __PRETTY_FUNCTION__ = "g_simple_async_result_complete"
+#4  0x00b2e6cc in g_dbus_connection_call_done (source=0x2224b638, result=0x2243bb18, user_data=0x222a7960) at /build/buildd/glib2.0-2.29.8/./gio/gdbusconnection.c:5017
+        connection = <value optimized out>
+        state = 0x222a7960
+        error = 0x0
+        reply = 0x22459ec0
+        value = <value optimized out>
+#5  0x00adf0a2 in g_simple_async_result_complete (simple=0x2243bb18) at /build/buildd/glib2.0-2.29.8/./gio/gsimpleasyncresult.c:749
+        current_source = <value optimized out>
+        current_context = <value optimized out>
+        __PRETTY_FUNCTION__ = "g_simple_async_result_complete"
+#6  0x00adf1dc in complete_in_idle_cb (data=0x2243bb18) at /build/buildd/glib2.0-2.29.8/./gio/gsimpleasyncresult.c:761
+        simple = <value optimized out>
+#7  0x00c01230 in g_idle_dispatch (source=0xa9101508, callback=0xadf1b0 <complete_in_idle_cb>, user_data=0x2243bb18) at /build/buildd/glib2.0-2.29.8/./glib/gmain.c:4844
+No locals.
+#8  0x00c050cf in g_main_dispatch (context=0x221e9d58) at /build/buildd/glib2.0-2.29.8/./glib/gmain.c:2477
+        dispatch = 0xc01210 <g_idle_dispatch>
+        was_in_call = 0
+        user_data = 0x2243bb18
+        callback = 0xadf1b0 <complete_in_idle_cb>
+        cb_funcs = 0xcb335c
+        cb_data = 0xa9100508
+        current_source_link = {data = 0xa9101508, next = 0x0}
+        need_destroy = <value optimized out>
+        source = 0xa9101508
+        current = 0x222a4890
+        i = <value optimized out>
+#9  g_main_context_dispatch (context=0x221e9d58) at /build/buildd/glib2.0-2.29.8/./glib/gmain.c:3050
+No locals.
+#10 0x00c05800 in g_main_context_iterate (context=0x221e9d58, block=12665856, dispatch=1, self=<value optimized out>) at /build/buildd/glib2.0-2.29.8/./glib/gmain.c:3128
+        max_priority = 2147483647
+        timeout = 483
+        some_ready = 1
+        nfds = <value optimized out>
+        allocated_nfds = <value optimized out>
+        fds = 0x224b2fd0
+#11 0x00c05e0b in g_main_loop_run (loop=0x222d7f80) at /build/buildd/glib2.0-2.29.8/./glib/gmain.c:3336
+        __PRETTY_FUNCTION__ = "g_main_loop_run"
+#12 0x0056a675 in gtk_main () at /build/buildd/gtk+3.0-3.1.6/./gtk/gtkmain.c:1363
+        loop = 0x222d7f80
+#13 0x0046d344 in gtk_application_run_mainloop (application=0x2229db00) at /build/buildd/gtk+3.0-3.1.6/./gtk/gtkapplication.c:112
+No locals.
+#14 0x00b111fc in g_application_run (application=0x2229db00, argc=2, argv=0xbfde38c4) at /build/buildd/glib2.0-2.29.8/./gio/gapplication.c:1326
+        arguments = 0x222d7f80
+        status = 0
+        i = <value optimized out>
+        __PRETTY_FUNCTION__ = "g_application_run"
+#15 0x00a7374a in main ()
+No symbol table info available.

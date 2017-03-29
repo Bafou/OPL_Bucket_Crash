@@ -1,0 +1,52 @@
+#0  0x00007fbe084e7f79 in __GI_raise (sig=sig@entry=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:56
+        resultvar = 0
+        pid = 3666
+        selftid = 3666
+#1  0x00007fbe084eb388 in __GI_abort () at abort.c:89
+        save_stage = 2
+        act = {__sigaction_handler = {sa_handler = 0x7fbe0989328c, sa_sigaction = 0x7fbe0989328c}, sa_mask = {__val = {42488656, 140454177969056, 140454208783703, 140733193388037, 0, 72057594037927936, 140454159678760, 46590432, 140454177969056, 109, 140454208812309, 0, 0, 140454163580824, 4294967295, 0}}, sa_flags = 2048, sa_restorer = 0x2c6e9e0}
+        sigs = {__val = {32, 0 <repeats 15 times>}}
+#2  0x00007fbe0938f175 in g_assertion_message () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007fbe0938f20a in g_assertion_message_expr () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007fbe0988393a in gdk_pixbuf_animation_new_from_file () from /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0
+No symbol table info available.
+#5  0x00007fbe0a45ac73 in gtk_image_set_from_file () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#6  0x00007fbe0af48033 in ?? () from /usr/lib/x86_64-linux-gnu/libindicator3.so.7
+No symbol table info available.
+#7  0x00007fbe0af4827c in indicator_image_helper_update_from_gicon () from /usr/lib/x86_64-linux-gnu/libindicator3.so.7
+No symbol table info available.
+#8  0x00007fbe0af483bb in indicator_image_helper_update () from /usr/lib/x86_64-linux-gnu/libindicator3.so.7
+No symbol table info available.
+#9  0x00007fbdf9dbbfcb in ?? () from /usr/lib/indicators3/7/libapplication.so
+No symbol table info available.
+#10 0x00007fbe04cabadc in ffi_call_unix64 () from /usr/lib/x86_64-linux-gnu/libffi.so.6
+No symbol table info available.
+#11 0x00007fbe04cab40c in ffi_call () from /usr/lib/x86_64-linux-gnu/libffi.so.6
+No symbol table info available.
+#12 0x00007fbe0963abf8 in g_cclosure_marshal_generic () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x00007fbe0963a3b8 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#14 0x00007fbe0964bd3d in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#15 0x00007fbe09653a29 in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#16 0x00007fbe09653ce2 in g_signal_emit () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#17 0x00007fbe09b6f2ec in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#18 0x00007fbe09b5f6c5 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#19 0x00007fbe0936ace5 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#20 0x00007fbe0936b048 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#21 0x00007fbe0936b30a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#22 0x00007fbe0a478fe5 in gtk_main () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#23 0x000000000040589b in main ()
+No symbol table info available.

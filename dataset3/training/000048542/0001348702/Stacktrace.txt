@@ -1,0 +1,17 @@
+#0  0x01697f80 in ?? ()
+No symbol table info available.
+#1  0xa824574a in ?? () from /usr/lib/arm-linux-gnueabihf/libunity-scopes.so.2
+No symbol table info available.
+#2  0xa8245858 in ?? () from /usr/lib/arm-linux-gnueabihf/libunity-scopes.so.2
+No symbol table info available.
+#3  0xa823b274 in ?? () from /usr/lib/arm-linux-gnueabihf/libunity-scopes.so.2
+No symbol table info available.
+#4  0xa823be82 in ?? () from /usr/lib/arm-linux-gnueabihf/libunity-scopes.so.2
+No symbol table info available.
+#5  0xb637a4a4 in ?? () from /usr/lib/arm-linux-gnueabihf/libstdc++.so.6
+No symbol table info available.
+#6  0xb60c5f98 in start_thread () from /lib/arm-linux-gnueabihf/libpthread.so.0
+No symbol table info available.
+#7  0xb62747cc in ?? () from /lib/arm-linux-gnueabihf/libc.so.6
+No symbol table info available.
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)

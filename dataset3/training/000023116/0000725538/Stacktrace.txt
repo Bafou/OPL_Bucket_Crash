@@ -1,0 +1,41 @@
+#0  0x00007f063487e4c0 in addGuard (this=0x2637390, object=<value optimized out>, type=136) at ../../include/QtDeclarative/private/../../../src/declarative/qml/qdeclarativedata_p.h:162
+        data = 0x2b9e330
+#1  QDeclarativeGuard (this=0x2637390, object=<value optimized out>, type=136) at ../../include/QtDeclarative/private/../../../src/declarative/qml/qdeclarativeguard_p.h:116
+No locals.
+#2  ObjectData (this=0x2637390, object=<value optimized out>, type=136) at qml/qdeclarativeobjectscriptclass.cpp:62
+No locals.
+#3  QDeclarativeObjectScriptClass::newQObject (this=0x2637390, object=<value optimized out>, type=136) at qml/qdeclarativeobjectscriptclass.cpp:125
+        scriptEngine = 0x2613ed0
+        ddata = 0x2b64110
+#4  0x00007f06347e8655 in QDeclarativeEnginePrivate::scriptValueFromVariant (this=0x2613dc0, val=...) at qml/qdeclarativeengine.cpp:1892
+        objOk = true
+        obj = <value optimized out>
+#5  0x00007f063487f66c in QDeclarativeObjectScriptClass::property (this=<value optimized out>, obj=0x2b452c0, name=<value optimized out>) at qml/qdeclarativeobjectscriptclass.cpp:301
+        var = {d = {data = {c = 16 '\020', i = 43599632, u = 43599632, b = 16, d = 2.154108034252068e-316, f = 2.25221173e-37, real = 2.154108034252068e-316, ll = 43599632, ull = 43599632, o = 0x2994710, ptr = 0x2994710, shared = 0x2994710}, type = 480, is_shared = 0, is_null = 0}, static handler = 0x7f0632d85060}
+        scriptEngine = 0x2613ed0
+        enginePriv = 0x2613dc0
+#6  0x00007f06348842ad in QDeclarativeContextScriptClass::property (this=0x2636aa0, object=<value optimized out>, name=<value optimized out>) at qml/qdeclarativecontextscriptclass.cpp:273
+        bindContext = 0x2b45b50
+        ep = 0x2613dc0
+        scriptEngine = 0x2613ed0
+#7  0x00007f0631347800 in QScript::DeclarativeObjectDelegate::getOwnPropertySlot (this=0x2991fa0, object=0x7f061cc27380, exec=0x7f061cc6b130, propertyName=..., slot=...) at bridge/qscriptdeclarativeobject.cpp:76
+        val = {dummy = "\350]\020$\006\177\000"}
+        identifier = 0x7f0624050280
+        p = 0x2635d90
+        flags = {i = 3}
+#8  0x00007f06312138da in fastGetOwnPropertySlot (args=0x7fff541c1cc0) at ../3rdparty/javascriptcore/JavaScriptCore/runtime/JSObject.h:382
+No locals.
+#9  getPropertySlot (args=0x7fff541c1cc0) at ../3rdparty/javascriptcore/JavaScriptCore/runtime/JSObject.h:391
+        object = 0x7f061cc27380
+#10 QTJSC::cti_op_resolve_skip (args=0x7fff541c1cc0) at ../3rdparty/javascriptcore/JavaScriptCore/jit/JITStubs.cpp:2298
+        o = <value optimized out>
+        slot = {m_getValue = 0xffff000000000002, m_slotBase = {m_ptr = 0x7f061cc27380}, m_data = {getterFunc = 0x7fff541c1c68, valueSlot = 0x7fff541c1c68, registerSlot = 0x7fff541c1c68, index = 1411128424}, m_value = {m_ptr = 0x0}, m_offset = 18446744073709551615}
+        callFrame = 0x7f061cc6b130
+        stackFrame = @0x7fff541c1cc0
+        skip = <value optimized out>
+        ident = @0x7f0624105df0
+        codeBlock = 0x7fff541c1c50
+#11 0x00007f060ba2404e in ?? ()
+No symbol table info available.
+#12 0x0000000000000000 in ?? ()
+No symbol table info available.

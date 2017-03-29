@@ -1,0 +1,15 @@
+#0  0x0000000000417fde in style_init (data=0x929650) at appearance-style.c:884
+	settings = <value optimized out>
+	w = <value optimized out>
+	adjustment = <value optimized out>
+#1  0x0000000000415a94 in main (argc=1, argv=0x7fffc4859668) at appearance-main.c:142
+	data = (AppearanceData *) 0x0
+	program = (GnomeProgram *) 0x922c30
+	w = <value optimized out>
+	install_filename = (gchar *) 0x0
+	start_page = (gchar *) 0x0
+	option_context = (GOptionContext *) 0x92ec30
+	option_entries = {{long_name = 0x428eda "", short_name = 105 'i', flags = 2, arg = G_OPTION_ARG_FILENAME, arg_data = 0x7fffc4859558, description = 0x428f98 "to install", 
+    arg_description = 0x428ee8 "cale"}, {long_name = 0x428ef1 "e-control-center-2.0", short_name = 112 'p', flags = 2, arg = G_OPTION_ARG_STRING, arg_data = 0x7fffc4859550, 
+    description = 0x428fc8 "show (theme|background|fonts|interface)", arg_description = 0x428ef6 "trol-center-2.0"}, {long_name = 0x0, short_name = 0 '\0', flags = 0, 
+    arg = G_OPTION_ARG_NONE, arg_data = 0x0, description = 0x0, arg_description = 0x0}}

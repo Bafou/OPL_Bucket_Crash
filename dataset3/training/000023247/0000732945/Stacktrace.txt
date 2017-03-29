@@ -1,0 +1,40 @@
+#0  0x00781655 in Xapian::MSetIterator::operator*() const () from /usr/lib/sse2/libxapian.so.22
+No symbol table info available.
+#1  0x08056eca in ?? ()
+No symbol table info available.
+#2  0x0805018e in ?? ()
+No symbol table info available.
+#3  0x0048f89f in ?? () from /usr/lib/libzeitgeist-1.0.so.1
+No symbol table info available.
+#4  0x00e60cbf in g_simple_async_result_complete () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#5  0x00eb6cd1 in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#6  0x00e60cbf in g_simple_async_result_complete () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#7  0x00eabd13 in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#8  0x00e60cbf in g_simple_async_result_complete () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#9  0x00e60ddd in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#10 0x001d6441 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#11 0x001dabd8 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#12 0x001db3a0 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#13 0x001dba5b in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00e8e79f in ?? () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#15 0x00e900a3 in g_application_run () from /usr/lib/libgio-2.0.so.0
+No symbol table info available.
+#16 0x08051b2f in ?? ()
+No symbol table info available.
+#17 0x08051b60 in ?? ()
+No symbol table info available.
+#18 0x00962e37 in __libc_start_main () from /lib/libc.so.6
+No symbol table info available.
+#19 0x0804cf41 in ?? ()
+No symbol table info available.

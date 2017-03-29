@@ -1,0 +1,50 @@
+#0  0x00001411 in ?? ()
+No symbol table info available.
+#1  0xb49d44bf in ?? () from /usr/lib/i386-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#2  0xb49d625c in geis_filter_delete () from /usr/lib/i386-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#3  0xb49d6364 in ?? () from /usr/lib/i386-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#4  0xb49d89ed in ?? () from /usr/lib/i386-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#5  0xb49d8a49 in ?? () from /usr/lib/i386-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#6  0xb49db429 in geis_delete () from /usr/lib/i386-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#7  0xb49daa4a in geis_finish () from /usr/lib/i386-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#8  0xb63aed04 in GestureHandler::~GestureHandler() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#9  0xb0365885 in QDeclarativePrivate::QDeclarativeElement<GestureHandler>::~QDeclarativeElement() () from /usr/lib/qt4/imports/Unity2d/libunity-2d-private-qml.so
+No symbol table info available.
+#10 0xb75fd441 in QObjectPrivate::deleteChildren() () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#11 0xb7602bb1 in QObject::~QObject() () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#12 0xb66b2f56 in QDeclarativeItem::~QDeclarativeItem() () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#13 0xb6671750 in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#14 0xb717cd6c in QGraphicsScene::clear() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#15 0xb717cdea in QGraphicsScene::~QGraphicsScene() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#16 0xb66064ea in ?? () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#17 0xb75fd441 in QObjectPrivate::deleteChildren() () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#18 0xb6b29fcc in QWidget::~QWidget() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#19 0xb6f4c80f in QFrame::~QFrame() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#20 0xb6fdfc94 in QAbstractScrollArea::~QAbstractScrollArea() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#21 0xb71b2964 in QGraphicsView::~QGraphicsView() () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#22 0xb6603726 in QDeclarativeView::~QDeclarativeView() () from /usr/lib/i386-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#23 0xb63abedf in Unity2DDeclarativeView::~Unity2DDeclarativeView() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#24 0x0804f90a in main ()
+No symbol table info available.

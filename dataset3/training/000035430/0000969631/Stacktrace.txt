@@ -1,0 +1,126 @@
+#0  0x00007f7994816445 in raise () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00007f7994819bab in abort () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x00007f7994853e2e in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0x00007f799485e626 in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#4  0x00007f7988164a18 in ?? () from /usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0
+No symbol table info available.
+#5  0x00007f798d480e73 in g_object_unref () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00007f7988154039 in ?? () from /usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0
+No symbol table info available.
+#7  0x00007f7988154925 in ?? () from /usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0
+No symbol table info available.
+#8  0x00007f798d480e73 in g_object_unref () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#9  0x00007f79880f889b in ?? () from /usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0
+No symbol table info available.
+#10 0x00007f798812ddcf in ?? () from /usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0
+No symbol table info available.
+#11 0x00007f798d47bbfb in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x00007f798d48cc11 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x00007f798d495079 in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#14 0x00007f798d495222 in g_signal_emit () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#15 0x00007f79881d32c0 in ?? () from /usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0
+No symbol table info available.
+#16 0x00007f798d481fe0 in g_object_run_dispose () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#17 0x00007f79880f889b in ?? () from /usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0
+No symbol table info available.
+#18 0x00007f798812ddcf in ?? () from /usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0
+No symbol table info available.
+#19 0x00007f798d47bbfb in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#20 0x00007f798d48cc11 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#21 0x00007f798d495079 in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#22 0x00007f798d495222 in g_signal_emit () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#23 0x00007f79881d32c0 in ?? () from /usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0
+No symbol table info available.
+#24 0x00007f798d481fe0 in g_object_run_dispose () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#25 0x00007f798812ddcf in ?? () from /usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0
+No symbol table info available.
+#26 0x00007f798d47bc82 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#27 0x00007f798d48cc11 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#28 0x00007f798d495079 in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#29 0x00007f798d495222 in g_signal_emit () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#30 0x00007f79881d32c0 in ?? () from /usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0
+No symbol table info available.
+#31 0x00007f798d481fe0 in g_object_run_dispose () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#32 0x00007f798ecdd8f2 in ?? () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#33 0x00007f798ee23c70 in QFileDialog::getOpenFileNames(QWidget*, QString const&, QString const&, QString const&, QString*, QFlags<QFileDialog::Option>) () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#34 0x00007f798fe16dbb in ?? () from /usr/lib/vlc/plugins/gui/libqt4_plugin.so
+No symbol table info available.
+#35 0x00007f798fe17d00 in ?? () from /usr/lib/vlc/plugins/gui/libqt4_plugin.so
+No symbol table info available.
+#36 0x00007f798ff1221d in ?? () from /usr/lib/vlc/plugins/gui/libqt4_plugin.so
+No symbol table info available.
+#37 0x00007f798e4318f1 in QMetaObject::activate(QObject*, QMetaObject const*, int, void**) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#38 0x00007f798e939f52 in QAction::triggered(bool) () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#39 0x00007f798e93a13f in QAction::activate(QAction::ActionEvent) () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#40 0x00007f798ed8ca79 in ?? () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#41 0x00007f798ed92b82 in ?? () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#42 0x00007f798e990f64 in QWidget::event(QEvent*) () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#43 0x00007f798ed9411b in QMenu::event(QEvent*) () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#44 0x00007f798e9406b4 in QApplicationPrivate::notify_helper(QObject*, QEvent*) () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#45 0x00007f798e945edf in QApplication::notify(QObject*, QEvent*) () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#46 0x00007f798e41d50c in QCoreApplication::notifyInternal(QObject*, QEvent*) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#47 0x00007f798e941682 in QApplicationPrivate::sendMouseEvent(QWidget*, QMouseEvent*, QWidget*, QWidget*, QWidget**, QPointer<QWidget>&, bool) () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#48 0x00007f798e9c10e1 in ?? () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#49 0x00007f798e9bf9ce in QApplication::x11ProcessEvent(_XEvent*) () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#50 0x00007f798e9e8e92 in ?? () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#51 0x00007f798ddddc9a in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#52 0x00007f798ddde060 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#53 0x00007f798ddde124 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#54 0x00007f798e44ca2f in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#55 0x00007f798e9e8b1e in ?? () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#56 0x00007f798e41c2f2 in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#57 0x00007f798e41c547 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#58 0x00007f798e4215d7 in QCoreApplication::exec() () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#59 0x00007f798fdff04e in ?? () from /usr/lib/vlc/plugins/gui/libqt4_plugin.so
+No symbol table info available.
+#60 0x00007f7994da8e9a in start_thread () from /lib/x86_64-linux-gnu/libpthread.so.0
+No symbol table info available.
+#61 0x00007f79948d24bd in clone () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#62 0x0000000000000000 in ?? ()
+No symbol table info available.

@@ -1,0 +1,74 @@
+#0  0x00007fec86344b05 in g_datalist_id_set_data_full () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007fec82d9bc6f in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#2  0x00007fec82d9caed in g_object_unref () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#3  0x00007fec7682bfe3 in unity::PanelTray::~PanelTray() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0x00007fec7682c0a9 in unity::PanelTray::~PanelTray() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#5  0x00007fec7580379e in nux::Object::Destroy() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#6  0x00007fec75803b09 in nux::Object::UnReference() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#7  0x00007fec763f580d in nux::Layout::~Layout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#8  0x00007fec763e9de9 in nux::HLayout::~HLayout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#9  0x00007fec7580379e in nux::Object::Destroy() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#10 0x00007fec75803b09 in nux::Object::UnReference() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#11 0x00007fec763f1959 in nux::View::RemoveLayout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#12 0x00007fec763f1ac3 in nux::View::~View() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#13 0x00007fec76826626 in unity::PanelView::~PanelView() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#14 0x00007fec76826889 in unity::PanelView::~PanelView() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#15 0x00007fec7580379e in nux::Object::Destroy() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#16 0x00007fec75803b09 in nux::Object::UnReference() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#17 0x00007fec763f580d in nux::Layout::~Layout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#18 0x00007fec763e9de9 in nux::HLayout::~HLayout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#19 0x00007fec7580379e in nux::Object::Destroy() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#20 0x00007fec75803b09 in nux::Object::UnReference() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#21 0x00007fec763f1959 in nux::View::RemoveLayout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#22 0x00007fec763f1ac3 in nux::View::~View() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#23 0x00007fec763d23c9 in nux::BaseWindow::~BaseWindow() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#24 0x00007fec7580379e in nux::Object::Destroy() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#25 0x00007fec75803b09 in nux::Object::UnReference() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#26 0x00007fec7681c659 in unity::panel::Controller::Impl::~Impl() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#27 0x00007fec7681ca41 in unity::panel::Controller::~Controller() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#28 0x00007fec768161a2 in std::_Sp_counted_ptr<unity::panel::Controller*, (__gnu_cxx::_Lock_policy)2>::_M_dispose() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#29 0x00007fec7680d97c in unity::UnityScreen::~UnityScreen() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#30 0x00007fec7680dd49 in unity::UnityScreen::~UnityScreen() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#31 0x000000000045a12a in CompManager::finiPlugin(CompPlugin*) ()
+No symbol table info available.
+#32 0x000000000045ba0f in CompPlugin::pop() ()
+No symbol table info available.
+#33 0x000000000042a20d in CompScreen::~CompScreen() ()
+No symbol table info available.
+#34 0x000000000042a469 in CompScreen::~CompScreen() ()
+No symbol table info available.
+#35 0x00000000004256e0 in CompManager::fini() ()
+No symbol table info available.
+#36 0x0000000000422222 in main ()
+No symbol table info available.

@@ -1,0 +1,210 @@
+#0  0xb75543c1 in *__GI_getenv (name=0xb7d2af56 "K_DEBUG") at getenv.c:90
+	len = 7
+	ep = (char **) 0x936c630
+	name_start = 21575
+#1  0xb7710461 in IA__g_getenv (variable=0xd <Address 0xd out of bounds>)
+    at /build/buildd/glib2.0-2.20.0/glib/gutils.c:1083
+	__PRETTY_FUNCTION__ = "IA__g_getenv"
+#2  0xb7b3bb18 in gtk_rc_parse_assignment (scanner=0x9323ca0, 
+    style=0x9349e88, prop=0xbffa1a78)
+    at /build/buildd/gtk+2.0-2.16.0/gtk/gtkrc.c:2679
+	negate = <value optimized out>
+	token = 61
+#3  0xb7b3cd9f in gtk_rc_parse_style (context=0x9069398, scanner=0x9323ca0)
+    at /build/buildd/gtk+2.0-2.16.0/gtk/gtkrc.c:3223
+	prop = {type_name = 142, property_name = 143, origin = 0x0, value = {
+    g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, 
+        v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, 
+        v_pointer = 0x0}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, 
+        v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, 
+        v_pointer = 0x0}}}}
+	rc_style = (GtkRcStyle *) 0x9349e88
+	orig_style = (GtkRcStyle *) 0x0
+	parent_style = <value optimized out>
+	rc_priv = (GtkRcStylePrivate *) 0x9349fd0
+	token = 266
+	i = <value optimized out>
+	our_factory = (GtkIconFactory *) 0x0
+	our_hash = (GHashTable *) 0x93e7800
+	__PRETTY_FUNCTION__ = "gtk_rc_parse_style"
+#4  0xb7b3d9c8 in gtk_rc_parse_any (context=0x9069398, 
+    input_name=0xb7d6186d "-", input_fd=-1, 
+    input_string=0x9051198 "style \"gtk-default-tooltips-style\" {\n  bg[NORMAL] = \"#eee1b3\"\n  fg[NORMAL] = \"#000000\"\n}\n\nstyle \"gtk-default-progress-bar-style\" {\n  bg[PRELIGHT] = \"#4b6983\"\n  fg[PRELIGHT] = \"#ffffff\"\n  bg[NORMAL]   "...) at /build/buildd/gtk+2.0-2.16.0/gtk/gtkrc.c:2941
+	expected_token = 256
+	scanner = (GScanner *) 0x9323ca0
+	__PRETTY_FUNCTION__ = "gtk_rc_parse_any"
+#5  0xb7b3e5f0 in IA__gtk_rc_reparse_all_for_settings (settings=0x9052860, 
+    force_load=1) at /build/buildd/gtk+2.0-2.16.0/gtk/gtkrc.c:945
+	rc_file = <value optimized out>
+	tmp_list = (GSList *) 0x903cbe0
+	context = (GtkRcContext *) 0x9069398
+	statbuf = {st_dev = 0, __pad1 = 0, __st_ino = 0, st_mode = 0, 
+  st_nlink = 0, st_uid = 0, st_gid = 0, st_rdev = 0, __pad2 = 0, st_size = 0, 
+  st_blksize = 0, st_blocks = 0, st_atim = {tv_sec = -1216782348, 
+    tv_nsec = 151332960}, st_mtim = {tv_sec = 151425944, 
+    tv_nsec = -1074127864}, st_ctim = {tv_sec = -1216968506, 
+    tv_nsec = 151332960}, st_ino = 13237175293385551261}
+	__PRETTY_FUNCTION__ = "IA__gtk_rc_reparse_all_for_settings"
+#6  0xb7b3e883 in gtk_rc_settings_changed (settings=0x9052860, 
+    pspec=0x90694f8, context=0x9069398)
+    at /build/buildd/gtk+2.0-2.16.0/gtk/gtkrc.c:682
+	new_theme_name = (gchar *) 0x928d398 "Redmond"
+	new_key_theme_name = (gchar *) 0x90a5590 "Default"
+#7  0xb7770abc in IA__g_cclosure_marshal_VOID__PARAM (closure=0x906add0, 
+    return_value=0x0, n_param_values=2, param_values=0x9071f68, 
+    invocation_hint=0xbffa1ddc, marshal_data=0xb7b3e7c0)
+    at /build/buildd/glib2.0-2.20.0/gobject/gmarshal.c:531
+	data1 = (gpointer) 0x9052860
+	data2 = <value optimized out>
+	__PRETTY_FUNCTION__ = "IA__g_cclosure_marshal_VOID__PARAM"
+#8  0xb7763c7b in IA__g_closure_invoke (closure=0x906add0, return_value=0x0, 
+    n_param_values=2, param_values=0x9071f68, invocation_hint=0xbffa1ddc)
+    at /build/buildd/glib2.0-2.20.0/gobject/gclosure.c:767
+	marshal = (
+    GClosureMarshal) 0xb7770a30 <IA__g_cclosure_marshal_VOID__PARAM>
+	marshal_data = (gpointer) 0x0
+	__PRETTY_FUNCTION__ = "IA__g_closure_invoke"
+#9  0xb7779e0f in signal_emit_unlocked_R (node=0x904fd98, detail=93, 
+    instance=0x9052860, emission_return=0x0, instance_and_params=0x9071f68)
+    at /build/buildd/glib2.0-2.20.0/gobject/gsignal.c:3244
+	tmp = <value optimized out>
+	handler = (Handler *) 0x9052880
+	accumulator = (SignalAccumulator *) 0x0
+	emission = {next = 0x0, instance = 0x9052860, ihint = {signal_id = 1, 
+    detail = 93, run_type = G_SIGNAL_RUN_FIRST}, state = EMISSION_RUN, 
+  chain_type = 4}
+	class_closure = (GClosure *) 0x904fc30
+	handler_list = (Handler *) 0x9052880
+	return_accu = (GValue *) 0x0
+	accu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+      v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, 
+      v_pointer = 0x0}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, 
+      v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}}}
+	signal_id = 1
+	max_sequential_handler_number = 134
+	return_value_altered = 1
+#10 0xb777b489 in IA__g_signal_emit_valist (instance=0x9052860, signal_id=1, 
+    detail=93, var_args=0xbffa1f80 " $i·À\ti·¸\037ú¿ô_y·\002")
+    at /build/buildd/glib2.0-2.20.0/gobject/gsignal.c:2977
+	signal_return_type = 4
+	param_values = (GValue *) 0x9071f7c
+	node = (SignalNode *) 0x904fd98
+	i = 1
+	n_params = 1
+	__PRETTY_FUNCTION__ = "IA__g_signal_emit_valist"
+#11 0xb777b906 in IA__g_signal_emit (instance=0x9052860, signal_id=1, 
+    detail=93) at /build/buildd/glib2.0-2.20.0/gobject/gsignal.c:3034
+No locals.
+#12 0xb7768231 in g_object_dispatch_properties_changed (object=0x9052860, 
+    n_pspecs=2, pspecs=0xbffa1fdc)
+    at /build/buildd/glib2.0-2.20.0/gobject/gobject.c:770
+	i = 2
+#13 0xb77649df in g_object_notify_dispatcher (object=0x9052860, n_pspecs=2, 
+    pspecs=0xbffa1fdc) at /build/buildd/glib2.0-2.20.0/gobject/gobject.c:312
+No locals.
+#14 0xb7767338 in g_object_notify_queue_thaw (object=0x9052860, 
+    nqueue=<value optimized out>)
+    at /build/buildd/glib2.0-2.20.0/gobject/gobjectnotifyqueue.c:125
+	context = (GObjectNotifyContext *) 0xb7796308
+	pspecs_mem = {0x9069988, 0x90694f8, 0xbffa20c4, 0x9046258, 
+  0xb77800c3, 0xb7795ff4, 0xbffa20d8, 0xbffa2008, 0xb778b0f6, 0x90a5590, 
+  0xb7795ff4, 0xbffa2028, 0xb7786668, 0xbffa20d8, 0x9208460, 0xbffa2028}
+	pspecs = (GParamSpec **) 0xbffa1fdc
+	free_me = (GParamSpec **) 0x0
+	slist = <value optimized out>
+	n_pspecs = 2
+#15 0xb7769042 in IA__g_object_set_valist (object=0x9052860, 
+    first_property_name=0x8075d42 "gtk-theme-name", var_args=0xbffa2134 "")
+    at /build/buildd/glib2.0-2.20.0/gobject/gobject.c:1437
+	nqueue = (GObjectNotifyQueue *) 0x9208460
+	name = (const gchar *) 0x0
+	__PRETTY_FUNCTION__ = "IA__g_object_set_valist"
+#16 0xb7769286 in IA__g_object_set (_object=0x9052860, 
+    first_property_name=0x8075d42 "gtk-theme-name")
+    at /build/buildd/glib2.0-2.20.0/gobject/gobject.c:1537
+	__PRETTY_FUNCTION__ = "IA__g_object_set"
+#17 0x08071d91 in create_gtk_theme_pixbuf (theme_thumbnail_data=0xbffa2874)
+    at theme-thumbnail.c:392
+	settings = (GtkSettings *) 0xd
+	window = (GtkWidget *) 0x903c650
+	vbox = (GtkWidget *) 0xbffa2178
+	box = <value optimized out>
+	stock_button = (GtkWidget *) 0xb76b4c5a
+	checkbox = (GtkWidget *) 0x90a0c78
+	radio = (GtkWidget *) 0xbffa22b7
+	requisition = {width = -1217704768, height = 151242320}
+	allocation = {x = 134717428, y = 151242320, width = -8, 
+  height = -1074126440}
+	visual = (GdkVisual *) 0xd
+	pixmap = <value optimized out>
+	pixbuf = <value optimized out>
+	retval = <value optimized out>
+	width = <value optimized out>
+	height = <value optimized out>
+	__PRETTY_FUNCTION__ = "create_gtk_theme_pixbuf"
+#18 0x080723d9 in message_from_capplet (source=0x90a0250, condition=G_IO_IN, 
+    data=0xbffa2874) at theme-thumbnail.c:709
+	width = <value optimized out>
+	height = <value optimized out>
+	buffer = "gtk\000Redmond\000\000\000\000Sans 10\000\000\001\000\000\000\000\036\006\tø\"ú¿ô\177u· $i·\001\000\000\000\b#ú¿çbl·Î\ti·\000\000\000\000\030#ú¿\225?i·ôOR·\001\000\000\000\000\000\000\0005\037R·Î\ti·ô\177u·\237\034\000\000\000\000\000\000\001\000\000\000ô¿\233·\000\000\000\000ô\177u·\\ i· $i·\237\034\000\000\000\000\000\000Î\ti·@7\n\th\000\000\000\225?i·ôOR·\001\000\000\000\000\000\000\0005\037R·\\ i·ô\177u·\237\034\000\000\000\000\000\000\001\000\000\000@7\n\t\000\000\000\000ô\177u·"...
+	status = <value optimized out>
+	bytes_read = 23
+	pixbuf = <value optimized out>
+	i = <value optimized out>
+	rowstride = <value optimized out>
+	pixels = <value optimized out>
+	__PRETTY_FUNCTION__ = "message_from_capplet"
+#19 0xb7712c4d in g_io_unix_dispatch (source=0x90a0298, 
+    callback=0x8072290 <message_from_capplet>, user_data=0xbffa2874)
+    at /build/buildd/glib2.0-2.20.0/glib/giounix.c:162
+	buffer_condition = 21575
+#20 0xb76dba58 in IA__g_main_context_dispatch (context=0x9068618)
+    at /build/buildd/glib2.0-2.20.0/glib/gmain.c:1814
+No locals.
+#21 0xb76defbb in g_main_context_iterate (context=0x9068618, block=1, 
+    dispatch=1, self=0x903b518)
+    at /build/buildd/glib2.0-2.20.0/glib/gmain.c:2448
+	max_priority = 2147483647
+	timeout = -1
+	some_ready = 1
+	nfds = 4
+	allocated_nfds = <value optimized out>
+	fds = (GPollFD *) 0x920bf70
+	__PRETTY_FUNCTION__ = "g_main_context_iterate"
+#22 0xb76df48a in IA__g_main_loop_run (loop=0x909ebf0)
+    at /build/buildd/glib2.0-2.20.0/glib/gmain.c:2656
+	self = (GThread *) 0x903b518
+	__PRETTY_FUNCTION__ = "IA__g_main_loop_run"
+#23 0xb7aed5c9 in IA__gtk_main ()
+    at /build/buildd/gtk+2.0-2.16.0/gtk/gtkmain.c:1205
+	tmp_list = (GList *) 0xbffa293c
+	functions = (GList *) 0x0
+	init = (GtkInitFunction *) 0x90a0250
+	loop = (GMainLoop *) 0x909ebf0
+#24 0x080718ea in theme_thumbnail_factory_init (argc=2, argv=0xbffa29f4)
+    at theme-thumbnail.c:1229
+	data = {status = 7, type = 0x903c5a8, control_theme_name = 0x903c5c0, 
+  gtk_color_scheme = 0x903c608, wm_theme_name = 0x903c620, 
+  icon_theme_name = 0x903c638, application_font = 0x903c650}
+	channel = (GIOChannel *) 0x90a0250
+	__PRETTY_FUNCTION__ = "theme_thumbnail_factory_init"
+#25 0x0805c571 in main (argc=2, argv=0xbffa29f4) at appearance-main.c:41
+	w = <value optimized out>
+	warning = <value optimized out>
+	install_filename = (gchar *) 0x0
+	start_page = (gchar *) 0x0
+	wallpaper_files = (gchar **) 0x0
+	option_context = (GOptionContext *) 0x903b190
+	option_entries = {{long_name = 0x80756d8 "install-theme", 
+    short_name = 105 'i', flags = 2, arg = G_OPTION_ARG_FILENAME, 
+    arg_data = 0xbffa2944, 
+    description = 0x80757bc "Specify the filename of a theme to install", 
+    arg_description = 0x80756e6 "filename"}, {
+    long_name = 0x80756ef "show-page", short_name = 112 'p', flags = 2, 
+    arg = G_OPTION_ARG_STRING, arg_data = 0xbffa2940, 
+    description = 0x80757e8 "Specify the name of the page to show (theme|background|fonts|interface)", arg_description = 0x80756f4 "page"}, {
+    long_name = 0x8076ddc "", short_name = 0 '\0', flags = 2, 
+    arg = G_OPTION_ARG_FILENAME_ARRAY, arg_data = 0xbffa293c, 
+    description = 0x0, arg_description = 0x80756f9 "[WALLPAPER...]"}, {
+    long_name = 0x0, short_name = 0 '\0', flags = 0, arg = G_OPTION_ARG_NONE, 
+    arg_data = 0x0, description = 0x0, arg_description = 0x0}}

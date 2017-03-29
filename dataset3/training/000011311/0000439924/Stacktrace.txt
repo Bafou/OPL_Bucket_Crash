@@ -1,0 +1,75 @@
+#0  0x0110c94f in ?? () at /build/buildd/gtk+2.0-2.18.1/gtk/gtkiconview.c:2098
+   from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#1  0x08058bce in wp_button_press_cb (widget=0x8acc138, event=0x141aff4, 
+    data=0x8b5f708) at appearance-desktop.c:1079
+	cell = <value optimized out>
+#2  0x0113c254 in gtk_menu_scroll_to (menu=0xbf9f81e4, 
+    offset=<value optimized out>)
+    at /build/buildd/gtk+2.0-2.18.1/gtk/gtkmenu.c:4469
+	y = -1080065564
+	view_width = 148634944
+	view_height = 21082100
+	border_width = -1080065912
+	menu_height = 148634944
+	vertical_padding = 16
+	horizontal_padding = 297
+	double_arrows = <value optimized out>
+	arrow_border = {left = 146142984, right = 13379306, top = 2, 
+  bottom = 0}
+#3  0x00cc4092 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00cd96f8 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00cda908 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00cdaf06 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x0125867e in closures_destroy (data=0xbf9f83cc)
+    at /build/buildd/gtk+2.0-2.18.1/gtk/gtkwidget.c:4176
+	slist = (GSList *) 0x8b8b410
+#8  0x01134ae0 in IA__gtk_grab_add (widget=0x8b8b410)
+    at /build/buildd/gtk+2.0-2.18.1/gtk/gtkmain.c:1808
+	group = <value optimized out>
+	old_grab_widget = <value optimized out>
+	__PRETTY_FUNCTION__ = "IA__gtk_grab_add"
+#9  0x01135d69 in post_parse_hook (context=0x8b8b410, group=0x0, data=0x0, 
+    error=0x5454ea) at /build/buildd/gtk+2.0-2.18.1/gtk/gtkmain.c:776
+	display_name = <value optimized out>
+#10 0x0054553a in gdk_fontset_name_hash_get (display=0x8b8b410)
+    at /build/buildd/gtk+2.0-2.18.1/gdk/x11/gdkfont-x11.c:91
+	result = <value optimized out>
+	fontset_name_quark = 0
+#11 0x003c2e78 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#12 0x003c6720 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#13 0x003c6b8f in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#14 0x011362d9 in gtk_marshal_VOID__POINTER_POINTER_UINT_UINT (
+    closure=0x8af8500, return_value=0x8075c57, n_param_values=0, 
+    param_values=0x8b5f708, invocation_hint=0x0, marshal_data=0x1)
+    at /build/buildd/gtk+2.0-2.18.1/gtk/gtkmarshal.c:829
+	data1 = <value optimized out>
+	data2 = <value optimized out>
+	__PRETTY_FUNCTION__ = "gtk_marshal_VOID__POINTER_POINTER_UINT_UINT"
+#15 0x0805d129 in main (argc=1, argv=0xbf9f87d4) at appearance-main.c:232
+	w = <value optimized out>
+	install_filename = (gchar *) 0x0
+	start_page = (gchar *) 0x8a236a8 ":1.7"
+	wallpaper_files = (gchar **) 0x0
+	option_context = (GOptionContext *) 0x8a0e008
+	option_entries = {{long_name = 0x8075bd8 "nter-2.0", 
+    short_name = 105 'i', flags = 2, arg = G_OPTION_ARG_FILENAME, 
+    arg_data = 0xbf9f870c, 
+    description = 0x8075cb8 "the page to show (theme|background|fonts|interface)", arg_description = 0x8075be6 "rance.ui"}, {
+    long_name = 0x8075bef "preferences-desktop-theme", short_name = 112 'p', 
+    flags = 2, arg = G_OPTION_ARG_STRING, arg_data = 0xbf9f8708, 
+    description = 0x8075ce4 "erface)", 
+    arg_description = 0x8075bf4 "rences-desktop-theme"}, {
+    long_name = 0x8077350 "ists. Would you like to replace it?", 
+    short_name = 0 '\0', flags = 2, arg = G_OPTION_ARG_FILENAME_ARRAY, 
+    arg_data = 0xbf9f8704, description = 0x0, 
+    arg_description = 0x8075bf9 "s-desktop-theme"}, {long_name = 0x0, 
+    short_name = 0 '\0', flags = 0, arg = G_OPTION_ARG_NONE, arg_data = 0x0, 
+    description = 0x0, arg_description = 0x0}}

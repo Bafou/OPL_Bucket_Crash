@@ -1,0 +1,56 @@
+#0  0x0804cbe6 in ?? ()
+No symbol table info available.
+#1  0xb7197ab6 in atk_object_get_n_accessible_children (accessible=0xa881158) at atkobject.c:800
+        klass = 0xa170b88
+        __PRETTY_FUNCTION__ = "atk_object_get_n_accessible_children"
+#2  0xb5940d4c in append_cache_item (obj=0xa881158, data=0xbff78994) at cache-adaptor.c:151
+        childcount = <optimized out>
+        i = <optimized out>
+        parent = <optimized out>
+        iter_struct = {dummy1 = 0xa7476a8, dummy2 = 0x3e00000, dummy3 = 176124524, dummy4 = 169422648, dummy5 = 19, dummy6 = 175404780, dummy7 = 49029, dummy8 = 8, dummy9 = 0, dummy10 = 1, dummy11 = 4, pad1 = 4, pad2 = 0, pad3 = 0x6c}
+        iter_sub_array = {dummy1 = 0xa7476a8, dummy2 = 0x3e00000, dummy3 = 176120172, dummy4 = 169422648, dummy5 = 15, dummy6 = 175404780, dummy7 = 49040, dummy8 = 49040, dummy9 = 49032, dummy10 = 15, dummy11 = 0, pad1 = -1074296476, pad2 = 169422648, pad3 = 0x0}
+        states = {1094713600, 0}
+        count = <optimized out>
+        set = 0xb4e24b68
+        iter_array = 0xbff78994
+        name = <optimized out>
+        desc = <optimized out>
+        role = 29
+#3  0xb6dc1c18 in g_hash_table_foreach () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0xb59369ae in spi_cache_foreach (cache=0xa15fda0, func=0xb5941210 <append_accessible_hf>, data=0xbff78994) at ../../atk-adaptor/accessible-cache.c:422
+No locals.
+#5  0xb59409f5 in impl_GetItems (bus=0xa77a768, message=0xa3b2a38, user_data=0xa15fda0) at cache-adaptor.c:317
+        reply = 0xa7476a8
+        iter = {dummy1 = 0xa7476a8, dummy2 = 0x1e00000, dummy3 = 176029804, dummy4 = 169422648, dummy5 = 27, dummy6 = 175404780, dummy7 = 0, dummy8 = -1248493580, dummy9 = -1248596846, dummy10 = 169829341, dummy11 = 176077416, pad1 = 111, pad2 = -1074296356, pad3 = 0xb6e82ff4}
+        iter_array = {dummy1 = 0xa7476a8, dummy2 = 0x2e00000, dummy3 = 176120172, dummy4 = 169422648, dummy5 = 1, dummy6 = 175404780, dummy7 = 48888, dummy8 = 8, dummy9 = 0, dummy10 = 1, dummy11 = 0, pad1 = -599613594, pad2 = 0, pad3 = 0xa18da48}
+        pending_unrefs = 0x0
+#6  0xb593dbe6 in handle_other (pathstr=0xa7eba18 "/org/a11y/atspi/cache", member=0xa7eba68 "GetItems", iface=0xa7eba48 "org.a11y.atspi.Cache", path=0xa128980, message=0xa3b2a38, bus=0xa77a768) at droute.c:538
+        pair = {one = 0xa7eba48 "org.a11y.atspi.Cache", two = 0xa7eba68 "GetItems"}
+        func = 0xb5940920 <impl_GetItems>
+        datum = 0x0
+        result = 1
+        reply = 0x0
+#7  handle_message (bus=0xa77a768, message=0xa3b2a38, user_data=0xa128980) at droute.c:585
+        path = 0xa128980
+        iface = <optimized out>
+        member = 0xa7eba68 "GetItems"
+        type = <optimized out>
+        pathstr = <optimized out>
+        result = DBUS_HANDLER_RESULT_NOT_YET_HANDLED
+#8  0xb62aa871 in ?? () from /lib/i386-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#9  0xb629a49f in dbus_connection_dispatch () from /lib/i386-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#10 0xb61fde0d in ?? () from /usr/lib/i386-linux-gnu/libatspi.so.0
+No symbol table info available.
+#11 0xb6dd1d8a in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#12 0xb6dd2195 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0xb6dd25db in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0xb73d0155 in gtk_main () from /usr/lib/i386-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#15 0x0804b6f6 in main ()
+No symbol table info available.

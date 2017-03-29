@@ -1,0 +1,24 @@
+#0  0x0000000000000000 in ?? ()
+No symbol table info available.
+#1  0x00007f6a0fbc032d in cache (obj=0x25d5750, this=0x16a94c0) at ../../include/QtDeclarative/private/../../../src/declarative/qml/qdeclarativeengine_p.h:340
+        mo = <optimized out>
+        rv = <optimized out>
+#2  QDeclarativePropertyCache::property (engine=<optimized out>, obj=0x25d5750, name=@0x7fff8b21a478, local=...) at qml/qdeclarativepropertycache.cpp:401
+        rv = 0x0
+        enginePrivate = 0x16a94c0
+        cache = 0x0
+        ddata = 0x1f50010
+#3  0x00007f6a0fbc4d91 in QDeclarativeObjectScriptClass::queryProperty (this=0x16e1e30, obj=<optimized out>, name=@0x7fff8b21a478, flags=<optimized out>, evalContext=0x0, hints=...) at qml/qdeclarativeobjectscriptclass.cpp:167
+        enginePrivate = 0x16a94c0
+#4  0x00007f6a0fbc4f7b in QDeclarativeObjectScriptClass::queryProperty (this=0x16e1e30, object=<optimized out>, name=@0x7fff8b21a478, flags=<optimized out>) at qml/qdeclarativeobjectscriptclass.cpp:147
+No locals.
+#5  0x00007f6a0897876e in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#6  0x00007f6a0881c065 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#7  0x00007f6a088577b8 in ?? () from /usr/lib/x86_64-linux-gnu/libQtScript.so.4
+No symbol table info available.
+#8  0x00007f69e8e85daa in ?? ()
+No symbol table info available.
+#9  0x0000000000000000 in ?? ()
+No symbol table info available.

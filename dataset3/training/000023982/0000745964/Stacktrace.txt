@@ -1,0 +1,44 @@
+#0  0x00007fbd73c34d05 in raise (sig=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:64
+        resultvar = 0
+        pid = <value optimized out>
+        selftid = 14453
+#1  0x00007fbd73c38ab6 in abort () at abort.c:92
+        save_stage = 2
+        act = {__sigaction_handler = {sa_handler = 0xdd, sa_sigaction = 0xdd}, sa_mask = {__val = {140451668969070, 140451688852567, 140451668960954, 140734555966960, 140451667933282, 206158430232, 140734555966976, 140734555966752, 140451667844468, 206158430256, 140734555967000, 14433120, 9087728, 17297648, 4332508099554534773, 140734555970242}}, sa_flags = 1943414458, sa_restorer = 0x7fbd7505a8d3}
+        sigs = {__val = {32, 0 <repeats 15 times>}}
+#2  0x00007fbd73c2d7c5 in __assert_fail (assertion=0x7fbd7505ab50 "(((long) (event_sequence) - (long) (dpy->request)) <= 0)", file=<value optimized out>, line=221, function=<value optimized out>) at assert.c:81
+        buf = 0xdc3b60 "unity-2d-places: ../../src/xcb_io.c:221: poll_for_event: Assertion `(((long) (event_sequence) - (long) (dpy->request)) <= 0)' failed.\n"
+#3  0x00007fbd74fe5d52 in ?? () from /usr/lib/x86_64-linux-gnu/libX11.so.6
+No symbol table info available.
+#4  0x00007fbd74fe60af in ?? () from /usr/lib/x86_64-linux-gnu/libX11.so.6
+No symbol table info available.
+#5  0x00007fbd74fe65ad in _XEventsQueued () from /usr/lib/x86_64-linux-gnu/libX11.so.6
+No symbol table info available.
+#6  0x00007fbd74fd6f5d in XPending () from /usr/lib/x86_64-linux-gnu/libX11.so.6
+No symbol table info available.
+#7  0x00007fbd7765ad56 in ?? () from /usr/lib/libgdk-x11-2.0.so.0
+No symbol table info available.
+#8  0x00007fbd755340a2 in g_main_context_prepare () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0x00007fbd75534f9d in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0x00007fbd75535639 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0x00007fbd796fd3ef in QEventDispatcherGlib::processEvents (this=0xbcf580, flags=<value optimized out>) at kernel/qeventdispatcher_glib.cpp:422
+        d = 0xc4ddc0
+        canWait = true
+        result = <value optimized out>
+#12 0x00007fbd78b3adfe in QGuiEventDispatcherGlib::processEvents (this=<value optimized out>, flags=<value optimized out>) at kernel/qguieventdispatcher_glib.cpp:204
+        d = 0xc4ddc0
+        returnValue = false
+#13 0x00007fbd796d1882 in QEventLoop::processEvents (this=<value optimized out>, flags=...) at kernel/qeventloop.cpp:149
+        d = 0x10081e0
+#14 0x00007fbd796d1abc in QEventLoop::exec (this=0x7fff513750f0, flags=...) at kernel/qeventloop.cpp:201
+        d = 0x10081e0
+        app = 0x7fff513751b0
+#15 0x00007fbd796d5ecb in QCoreApplication::exec () at kernel/qcoreapplication.cpp:1008
+        threadData = 0xc2ce20
+        eventLoop = {<QObject> = {_vptr.QObject = 0x7fbd79a03910, static staticMetaObject = {d = {superdata = 0x0, stringdata = 0x7fbd7978d140 "QObject", data = 0x7fbd7978d1e0, extradata = 0x7fbd799fb240}}, d_ptr = {d = 0x10081e0}, static staticQtMetaObject = {d = {superdata = 0x0, stringdata = 0x7fbd79795e20 "Qt", data = 0x7fbd797996a0, extradata = 0x0}}}, static staticMetaObject = {d = {superdata = 0x7fbd799fb220, stringdata = 0x7fbd7979f640 "QEventLoop", data = 0x7fbd7979f660, extradata = 0x0}}}
+        returnCode = <value optimized out>
+#16 0x0000000000407c3a in main ()
+No symbol table info available.

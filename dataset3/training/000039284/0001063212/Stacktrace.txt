@@ -1,0 +1,30 @@
+#0  0x0804ca98 in ?? ()
+No symbol table info available.
+#1  0xb7142f2c in atk_object_ref_accessible_child () from /usr/lib/i386-linux-gnu/libatk-1.0.so.0
+No symbol table info available.
+#2  0xb6d1c50b in ?? () from /usr/lib/i386-linux-gnu/libatk-bridge-2.0.so.0
+No symbol table info available.
+#3  0xb6ea0502 in g_hash_table_foreach () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0xb6d11eae in ?? () from /usr/lib/i386-linux-gnu/libatk-bridge-2.0.so.0
+No symbol table info available.
+#5  0xb6d1c19e in ?? () from /usr/lib/i386-linux-gnu/libatk-bridge-2.0.so.0
+No symbol table info available.
+#6  0xb6d191ea in ?? () from /usr/lib/i386-linux-gnu/libatk-bridge-2.0.so.0
+No symbol table info available.
+#7  0xb67df666 in ?? () from /lib/i386-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#8  0xb67cf4d7 in dbus_connection_dispatch () from /lib/i386-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#9  0xb681408d in ?? () from /usr/lib/i386-linux-gnu/libatspi.so.0
+No symbol table info available.
+#10 0xb6eb09e3 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0xb6eb0d80 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#12 0xb6eb11db in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0xb736df75 in gtk_main () from /usr/lib/i386-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#14 0x0804b866 in main ()
+No symbol table info available.

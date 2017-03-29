@@ -1,0 +1,78 @@
+#0  0x00007f1ef930a0c5 in gtk_tree_model_get_valist () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#1  0x00007f1ef930a39c in gtk_tree_model_get () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#2  0x00007f1ed9b8c420 in ?? () from /usr/lib/control-center-1/panels/libsoundnua.so
+No symbol table info available.
+#3  0x00007f1ef7b1b384 in g_closure_invoke (closure=0x7f1efbaa3bb0, return_value=0x0, n_param_values=2, param_values=0x7f1efbcbba10, invocation_hint=<optimized out>) at /build/buildd/glib2.0-2.31.16/./gobject/gclosure.c:774
+        marshal = 0x7f1ef7b1cbd0 <g_cclosure_marshal_VOID__UINT>
+        marshal_data = <optimized out>
+        in_marshal = <optimized out>
+        __PRETTY_FUNCTION__ = "g_closure_invoke"
+#4  0x00007f1ef7b2b635 in signal_emit_unlocked_R (node=<optimized out>, detail=0, instance=<optimized out>, emission_return=0x0, instance_and_params=0x7f1efbcbba10) at /build/buildd/glib2.0-2.31.16/./gobject/gsignal.c:3302
+        tmp = <optimized out>
+        handler = 0x7f1efba940a0
+        accumulator = 0x0
+        emission = {next = 0x0, instance = 0x7f1efba5e8c0, ihint = {signal_id = 270, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, state = EMISSION_RUN, chain_type = 4}
+        class_closure = 0x7f1efbb9b1b0
+        hlist = 0x7f1efbcf8828
+        handler_list = 0x7f1efba940a0
+        return_accu = 0x0
+        accu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 270
+        max_sequential_handler_number = 1236
+        return_value_altered = 0
+#5  0x00007f1ef7b3300b in g_signal_emit_valist (instance=<optimized out>, signal_id=<optimized out>, detail=<optimized out>, var_args=0x7fff9d641bf8) at /build/buildd/glib2.0-2.31.16/./gobject/gsignal.c:3033
+        instance_and_params = 0x7f1efbcbba10
+        signal_return_type = 4
+        param_values = 0x7f1efbcbba28
+        node = 0x7f1efbb21b50
+        i = <optimized out>
+        n_params = 1
+        __PRETTY_FUNCTION__ = "g_signal_emit_valist"
+#6  0x00007f1ef7b331d2 in g_signal_emit (instance=<optimized out>, signal_id=<optimized out>, detail=<optimized out>) at /build/buildd/glib2.0-2.31.16/./gobject/gsignal.c:3090
+        var_args = {{gp_offset = 32, fp_offset = 48, overflow_arg_area = 0x7fff9d641cd0, reg_save_area = 0x7fff9d641c10}}
+#7  0x00007f1eeb781156 in ?? () from /usr/lib/x86_64-linux-gnu/libpulse.so.0
+No symbol table info available.
+#8  0x00007f1eeb30a5a3 in ?? () from /usr/lib/x86_64-linux-gnu/libpulsecommon-1.1.so
+No symbol table info available.
+#9  0x00007f1eeb30a913 in pa_pdispatch_run () from /usr/lib/x86_64-linux-gnu/libpulsecommon-1.1.so
+No symbol table info available.
+#10 0x00007f1eeb777bdd in ?? () from /usr/lib/x86_64-linux-gnu/libpulse.so.0
+No symbol table info available.
+#11 0x00007f1eeb30f1b9 in ?? () from /usr/lib/x86_64-linux-gnu/libpulsecommon-1.1.so
+No symbol table info available.
+#12 0x00007f1eeb9b2ab3 in ?? () from /usr/lib/x86_64-linux-gnu/libpulse-mainloop-glib.so.0
+No symbol table info available.
+#13 0x00007f1ef7860bca in g_main_dispatch (context=0x7f1efb7c5470) at /build/buildd/glib2.0-2.31.16/./glib/gmain.c:2510
+        dispatch = 0x7f1eeb9b2930
+        was_in_call = 0
+        user_data = 0x0
+        callback = 0
+        cb_funcs = 0x0
+        cb_data = 0x0
+        current_source_link = {data = 0x7f1efbabef50, next = 0x0}
+        need_destroy = <optimized out>
+        source = 0x7f1efbabef50
+        current = 0x7f1efba79ca0
+        i = <optimized out>
+#14 g_main_context_dispatch (context=0x7f1efb7c5470) at /build/buildd/glib2.0-2.31.16/./glib/gmain.c:3047
+No locals.
+#15 0x00007f1ef7860f90 in g_main_context_iterate (dispatch=1, block=<optimized out>, context=0x7f1efb7c5470, self=<optimized out>) at /build/buildd/glib2.0-2.31.16/./glib/gmain.c:3118
+        timeout = 0
+        some_ready = 1
+        fds = <optimized out>
+        max_priority = 108
+        nfds = 6
+        allocated_nfds = <optimized out>
+#16 g_main_context_iterate (context=0x7f1efb7c5470, block=<optimized out>, dispatch=1, self=<optimized out>) at /build/buildd/glib2.0-2.31.16/./glib/gmain.c:3055
+        some_ready = 1
+#17 0x00007f1ef7861054 in g_main_context_iteration (context=0x7f1efb7c5470, may_block=1) at /build/buildd/glib2.0-2.31.16/./glib/gmain.c:3179
+        retval = <optimized out>
+#18 0x00007f1ef7df86a4 in g_application_run (application=0x7f1efb90e410, argc=<optimized out>, argv=0x7fff9d642338) at /build/buildd/glib2.0-2.31.16/./gio/gapplication.c:1496
+        arguments = 0x7f1efbc0e9c0
+        status = 0
+        i = <optimized out>
+        __PRETTY_FUNCTION__ = "g_application_run"
+#19 0x00007f1ef9b68b3c in main ()
+No symbol table info available.

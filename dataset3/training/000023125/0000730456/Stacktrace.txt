@@ -1,0 +1,20 @@
+#0  0x01bbf158 in nux::Area::SetVisible(bool) () from /usr/lib/libnux-0.9.so.0
+No symbol table info available.
+#1  0x0398ca6e in PlacesGroup::Refresh() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#2  0x0398cb7e in PlacesGroup::OnIdleRelayout(PlacesGroup*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x0044c451 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00450c08 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#5  0x004513d0 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00451a93 in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00a20a35 in Glib::MainLoop::run() () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#8  0x0806e8bb in CompScreen::eventLoop() ()
+No symbol table info available.
+#9  0x08066ba8 in main ()
+No symbol table info available.

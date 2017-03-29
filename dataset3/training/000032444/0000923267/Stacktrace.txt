@@ -1,0 +1,68 @@
+#0  0x00007f1a6ba32b55 in g_datalist_id_set_data_full () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007f1a68480c6f in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#2  0x00007f1a68481aed in g_object_unref () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#3  0x00007f1a5c139fe3 in unity::PanelTray::~PanelTray() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0x00007f1a5c13a0a9 in unity::PanelTray::~PanelTray() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#5  0x00007f1a5b0fc79e in nux::Object::Destroy() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#6  0x00007f1a5b0fcb09 in nux::Object::UnReference() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#7  0x00007f1a5bd0380d in nux::Layout::~Layout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#8  0x00007f1a5bcf7de9 in nux::HLayout::~HLayout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#9  0x00007f1a5b0fc79e in nux::Object::Destroy() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#10 0x00007f1a5b0fcb09 in nux::Object::UnReference() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#11 0x00007f1a5bcff959 in nux::View::RemoveLayout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#12 0x00007f1a5bcffac3 in nux::View::~View() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#13 0x00007f1a5c134626 in unity::PanelView::~PanelView() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#14 0x00007f1a5c134889 in unity::PanelView::~PanelView() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#15 0x00007f1a5b0fc79e in nux::Object::Destroy() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#16 0x00007f1a5b0fcb09 in nux::Object::UnReference() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#17 0x00007f1a5bd0380d in nux::Layout::~Layout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#18 0x00007f1a5bcf7de9 in nux::HLayout::~HLayout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#19 0x00007f1a5b0fc79e in nux::Object::Destroy() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#20 0x00007f1a5b0fcb09 in nux::Object::UnReference() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#21 0x00007f1a5bcff959 in nux::View::RemoveLayout() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#22 0x00007f1a5bcffac3 in nux::View::~View() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#23 0x00007f1a5bce03c9 in nux::BaseWindow::~BaseWindow() () from /usr/lib/libnux-2.0.so.0
+No symbol table info available.
+#24 0x00007f1a5b0fc79e in nux::Object::Destroy() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#25 0x00007f1a5b0fcb09 in nux::Object::UnReference() () from /usr/lib/libnux-core-2.0.so.0
+No symbol table info available.
+#26 0x00007f1a5c12b058 in unity::panel::Controller::Impl::OnScreenChanged(int, std::vector<nux::Rect, std::allocator<nux::Rect> >&) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#27 0x00007f1a5c12baf0 in UScreen::Refresh() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#28 0x00007f1a5c12bc40 in UScreen::OnIdleChanged(UScreen*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#29 0x00007f1a6ba4d7da in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#30 0x00007f1a6ba4dba0 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#31 0x00007f1a6ba4df9a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#32 0x000000000042e856 in CompScreen::eventLoop() ()
+No symbol table info available.
+#33 0x000000000042221a in main ()
+No symbol table info available.

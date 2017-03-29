@@ -1,0 +1,26 @@
+#0  0x00b6f413 in DecorWindow::computeShadowRegion() () from /usr/lib/compiz/libdecor.so
+No symbol table info available.
+#1  0x00b71ba3 in DecorWindow::update(bool) () from /usr/lib/compiz/libdecor.so
+No symbol table info available.
+#2  0x00b75840 in DecorWindow::windowNotify(CompWindowNotify) () from /usr/lib/compiz/libdecor.so
+No symbol table info available.
+#3  0x001d2e6e in CompWindow::windowNotify(CompWindowNotify) () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#4  0x01332544 in unity::UnityWindow::windowNotify(CompWindowNotify) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#5  0x001d2e6e in CompWindow::windowNotify(CompWindowNotify) () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#6  0x001e465d in PrivateWindow::unreparent() () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#7  0x001e4ae6 in CompWindow::~CompWindow() () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#8  0x001e5012 in CompWindow::~CompWindow() () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#9  0x001c319b in CompScreenImpl::~CompScreenImpl() () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#10 0x001c3342 in CompScreenImpl::~CompScreenImpl() () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#11 0x0804a530 in CompManager::fini() ()
+No symbol table info available.
+#12 0x0804a174 in main ()
+No symbol table info available.

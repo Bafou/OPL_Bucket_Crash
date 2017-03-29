@@ -1,0 +1,38 @@
+#0  0x0000000000000a51 in ?? ()
+No symbol table info available.
+#1  0x00007fb866e2e810 in geis_filter_delete () from /usr/lib/x86_64-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#2  0x00007fb866e2e905 in ?? () from /usr/lib/x86_64-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#3  0x00007fb866e309f2 in ?? () from /usr/lib/x86_64-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#4  0x00007fb866e30a3a in ?? () from /usr/lib/x86_64-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#5  0x00007fb866e32dd2 in geis_delete () from /usr/lib/x86_64-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#6  0x00007fb866e3256e in geis_finish () from /usr/lib/x86_64-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#7  0x00007fb86e528ce4 in GestureHandler::~GestureHandler() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#8  0x00007fb859f8d863 in QDeclarativePrivate::QDeclarativeElement<GestureHandler>::~QDeclarativeElement() () from /usr/lib/qt4/imports/Unity2d/libunity-2d-private-qml.so
+No symbol table info available.
+#9  0x00007fb870386f85 in QObjectPrivate::deleteChildren() () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#10 0x00007fb87038d1ec in QObject::~QObject() () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#11 0x00007fb86ee20795 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#12 0x00007fb86fd00fe4 in QGraphicsScene::clear() () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#13 0x00007fb86fd01065 in QGraphicsScene::~QGraphicsScene() () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#14 0x00007fb86edbcfe3 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4
+No symbol table info available.
+#15 0x00007fb870386f85 in QObjectPrivate::deleteChildren() () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#16 0x00007fb86f742560 in QWidget::~QWidget() () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#17 0x00007fb86fd32415 in QGraphicsView::~QGraphicsView() () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#18 0x0000000000409494 in main ()
+No symbol table info available.

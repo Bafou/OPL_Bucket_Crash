@@ -1,0 +1,53 @@
+#0  0x0805fbef in ?? ()
+No locals.
+#1  0x08069a44 in peditor_select_radio_widget_changed (peditor=0xbfd7b8e4, tb=0x0) at gconf-property-editor.c:1002
+	group = (GSList *) 0x943be60
+	value = <value optimized out>
+	value_wid = (GConfValue *) 0x93daa70
+#2  0x0806b9f3 in gconf_peditor_new_tree_view (changeset=0x8075540, 
+    key=0x80699c0 "\213H\034\205Ét\t\213E\fö@X\001u\020\213]ô\213uø\213}ü\211ì]Ã\215v", tree_view=0x0, 
+    first_property_name=0x93daa70 "") at gconf-property-editor.c:1806
+	peditor = <value optimized out>
+	__PRETTY_FUNCTION__ = "gconf_peditor_new_tree_view"
+#3  0x0806bb49 in gconf_peditor_new_select_radio_with_enum (changeset=0x0, 
+    key=0x8075540 "theme suggests a font. Also, the last applied font suggestion can be reverted.", 
+    radio_group=0x93daa70, enum_type=134699812, use_nick=134609456, first_property_name=0x807518a "")
+    at gconf-property-editor.c:1699
+	peditor = <value optimized out>
+	item = <value optimized out>
+	__PRETTY_FUNCTION__ = "gconf_peditor_new_select_radio_with_enum"
+#4  0x0805f72e in prepare_list (data=0x942c558, list=0x93daa70, type=THEME_TYPE_CURSOR, 
+    callback=0x8061360 <cursor_theme_changed+464>) at appearance-style.c:932
+	store = (GtkListStore *) 0x942bc60
+	l = <value optimized out>
+	themes = (GList *) 0x9459a70
+	renderer = (GtkCellRenderer *) 0x94036a8
+	column = (GtkTreeViewColumn *) 0x947c998
+	sort_model = <value optimized out>
+	thumbnail = (GdkPixbuf *) 0x0
+	key = (
+    const gchar *) 0x8075540 "theme suggests a font. Also, the last applied font suggestion can be reverted."
+	peditor = <value optimized out>
+	value = <value optimized out>
+	generator = (ThumbnailGenFunc) 0
+	thumb_cb = (ThemeThumbnailFunc) 0
+#5  0x0806052a in style_init (data=0x942c558) at appearance-style.c:982
+	settings = <value optimized out>
+	w = (GtkWidget *) 0x942bc20
+	i = <value optimized out>
+#6  0x0805c4d3 in main (argc=155353688, argv=0x0) at appearance-main.c:156
+	program = (GnomeProgram *) 0x93cec10
+	w = <value optimized out>
+	install_filename = (gchar *) 0x0
+	start_page = (gchar *) 0x0
+	wallpaper_files = (gchar **) 0x0
+	option_context = (GOptionContext *) 0x93d5290
+	option_entries = {{long_name = 0x8075328 "/usr/share/gnome-control-center/glade", short_name = 105 'i', 
+    flags = 2, arg = G_OPTION_ARG_FILENAME, arg_data = 0xbfd7bb44, description = 0x80753f0 "cation-daemon/theme", 
+    arg_description = 0x8075336 "me-control-center/glade"}, {long_name = 0x807533f "l-center/glade", 
+    short_name = 112 'p', flags = 2, arg = G_OPTION_ARG_STRING, arg_data = 0xbfd7bb40, 
+    description = 0x807541c "ls/mouse/cursor_theme", arg_description = 0x8075344 "ter/glade"}, {
+    long_name = 0x8076a14 "e", short_name = 0 '\0', flags = 2, arg = G_OPTION_ARG_FILENAME_ARRAY, 
+    arg_data = 0xbfd7bb3c, description = 0x0, arg_description = 0x8075349 "lade"}, {long_name = 0x0, 
+    short_name = 0 '\0', flags = 0, arg = G_OPTION_ARG_NONE, arg_data = 0x0, description = 0x0, 
+    arg_description = 0x0}}

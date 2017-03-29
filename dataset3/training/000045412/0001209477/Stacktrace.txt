@@ -1,0 +1,115 @@
+#0  0xb7783424 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0xb6777aff in __GI_raise (sig=sig@entry=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:56
+        resultvar = <optimized out>
+        resultvar = <optimized out>
+        pid = -1232109568
+        selftid = 3948
+#2  0xb677b083 in __GI_abort () at abort.c:90
+        save_stage = 2
+        act = {__sigaction_handler = {sa_handler = 0x0, sa_sigaction = 0x0}, sa_mask = {__val = {160284200, 3068252160, 3213488940, 3078246400, 3072275144, 5, 3068253064, 3078170076, 3072275584, 3029555984, 1, 5, 0, 3064764175, 3, 3063292968, 3064351051, 3068252160, 3, 3064058276, 3213488876, 3064351443, 3213488940, 3061117160, 3213488980, 3061582335, 159175888, 3068252160, 0, 160141656, 160141656, 3078195584}}, sa_flags = -1232108432, sa_restorer = 0xb677af40 <__GI_abort>}
+        sigs = {__val = {32, 0 <repeats 31 times>}}
+#3  0xb6a64fc3 in QMessageLogger::fatal(char const*, ...) const () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#4  0xb6a61f5b in qt_assert(char const*, char const*, int) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#5  0xb0c03c8f in ?? () from /usr/lib/i386-linux-gnu/unity8/qml/ListViewWithPageHeader/libListViewWithPageHeader-qml.so
+No symbol table info available.
+#6  0xb0c09f01 in ?? () from /usr/lib/i386-linux-gnu/unity8/qml/ListViewWithPageHeader/libListViewWithPageHeader-qml.so
+No symbol table info available.
+#7  0xb0c0a122 in ?? () from /usr/lib/i386-linux-gnu/unity8/qml/ListViewWithPageHeader/libListViewWithPageHeader-qml.so
+No symbol table info available.
+#8  0xb6c30e00 in QMetaObject::activate(QObject*, int, int, void**) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#9  0xb6c3137b in QMetaObject::activate(QObject*, QMetaObject const*, int, void**) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#10 0xb744f4a5 in QQuickVisualModel::modelUpdated(QQuickChangeSet const&, bool) () from /usr/lib/i386-linux-gnu/libQt5Quick.so.5
+No symbol table info available.
+#11 0xb738d281 in ?? () from /usr/lib/i386-linux-gnu/libQt5Quick.so.5
+No symbol table info available.
+#12 0xb738eb1b in ?? () from /usr/lib/i386-linux-gnu/libQt5Quick.so.5
+No symbol table info available.
+#13 0xb7392541 in ?? () from /usr/lib/i386-linux-gnu/libQt5Quick.so.5
+No symbol table info available.
+#14 0xb739531e in QQuickVisualDataModel::_q_itemsInserted(int, int) () from /usr/lib/i386-linux-gnu/libQt5Quick.so.5
+No symbol table info available.
+#15 0xb73953df in QQuickVisualDataModel::_q_rowsInserted(QModelIndex const&, int, int) () from /usr/lib/i386-linux-gnu/libQt5Quick.so.5
+No symbol table info available.
+#16 0xb744d4b1 in ?? () from /usr/lib/i386-linux-gnu/libQt5Quick.so.5
+No symbol table info available.
+#17 0xb744db5e in QQuickVisualDataModel::qt_metacall(QMetaObject::Call, int, void**) () from /usr/lib/i386-linux-gnu/libQt5Quick.so.5
+No symbol table info available.
+#18 0xb6c115f0 in QMetaObject::metacall(QObject*, QMetaObject::Call, int, void**) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#19 0xb6c30efb in QMetaObject::activate(QObject*, int, int, void**) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#20 0xb6c3137b in QMetaObject::activate(QObject*, QMetaObject const*, int, void**) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#21 0xb6c9d3b5 in QAbstractItemModel::rowsInserted(QModelIndex const&, int, int, QAbstractItemModel::QPrivateSignal) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#22 0xb6bc4372 in QAbstractItemModel::endInsertRows() () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#23 0xb6bdcb60 in ?? () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#24 0xb6be3562 in ?? () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#25 0xb6be4191 in ?? () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#26 0xb6c30e00 in QMetaObject::activate(QObject*, int, int, void**) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#27 0xb6c3137b in QMetaObject::activate(QObject*, QMetaObject const*, int, void**) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#28 0xb6c9d1d5 in QAbstractItemModel::dataChanged(QModelIndex const&, QModelIndex const&, QVector<int> const&) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#29 0xb256173a in ?? () from /usr/lib/i386-linux-gnu/unity8/qml/Unity/libUnity-qml.so
+No symbol table info available.
+#30 0xb2563041 in ?? () from /usr/lib/i386-linux-gnu/unity8/qml/Unity/libUnity-qml.so
+No symbol table info available.
+#31 0xb6c308de in QMetaObject::activate(QObject*, int, int, void**) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#32 0xb6c3137b in QMetaObject::activate(QObject*, QMetaObject const*, int, void**) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#33 0xb6c9f735 in QTimer::timeout(QTimer::QPrivateSignal) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#34 0xb6c3d0db in QTimer::timerEvent(QTimerEvent*) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#35 0xb6c31cfc in QObject::event(QEvent*) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#36 0xb6c0a530 in QCoreApplicationPrivate::notify_helper(QObject*, QEvent*) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#37 0xb6c0a594 in QCoreApplication::notify(QObject*, QEvent*) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#38 0xb6eb7a0d in QGuiApplication::notify(QObject*, QEvent*) () from /usr/lib/i386-linux-gnu/libQt5Gui.so.5
+No symbol table info available.
+#39 0xb6c0a28a in QCoreApplication::notifyInternal(QObject*, QEvent*) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#40 0xb6c53a45 in QTimerInfoList::activateTimers() () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#41 0xb6c53f28 in ?? () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#42 0xb5cf84de in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#43 0xb5cf8888 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#44 0xb5cf8948 in g_main_context_iteration () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#45 0xb6c5425d in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#46 0xb46cded6 in ?? () from /usr/lib/i386-linux-gnu/qt5/plugins/platforms/libqxcb.so
+No symbol table info available.
+#47 0xb6c08b16 in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#48 0xb6c08f24 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#49 0xb6c0ed86 in QCoreApplication::exec() () from /usr/lib/i386-linux-gnu/libQt5Core.so.5
+No symbol table info available.
+#50 0xb6eb4444 in QGuiApplication::exec() () from /usr/lib/i386-linux-gnu/libQt5Gui.so.5
+No symbol table info available.
+#51 0x0804b4e8 in ?? ()
+No symbol table info available.
+#52 0xb6762905 in __libc_start_main (main=0x804a7b0, argc=1, ubp_av=0xbf8a0344, init=0x804f5e0 <__libc_csu_init>, fini=0x804f650 <__libc_csu_fini>, rtld_fini=0xb77935f0 <_dl_fini>, stack_end=0xbf8a033c) at libc-start.c:260
+        result = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {-1232109568, 0, 0, 0, -128005198, 667553}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x1, 0x804bf42 <_start>}, data = {prev = 0x0, cleanup = 0x0, canceltype = 1}}}
+        not_first_call = <optimized out>
+#53 0x0804bf63 in _start ()
+No symbol table info available.

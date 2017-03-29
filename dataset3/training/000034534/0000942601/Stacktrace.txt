@@ -1,0 +1,44 @@
+#0  0x00007f465afeb524 in unity::MT::GrabHandle::reposition(int, int, unsigned int) () from /usr/lib/compiz/libunitymtgrabhandles.so
+No symbol table info available.
+#1  0x00007f465afe94cc in unity::MT::GrabHandleGroup::forEachHandle(std::function<void (boost::shared_ptr<unity::MT::GrabHandle> const&)> const&) () from /usr/lib/compiz/libunitymtgrabhandles.so
+No symbol table info available.
+#2  0x00007f465afedaa6 in UnityMTGrabHandlesWindow::restackHandles() () from /usr/lib/compiz/libunitymtgrabhandles.so
+No symbol table info available.
+#3  0x00007f465aff1078 in UnityMTGrabHandlesScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libunitymtgrabhandles.so
+No symbol table info available.
+#4  0x00007f466cd56f63 in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#5  0x00007f465bb46f8c in SessionScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libsession.so
+No symbol table info available.
+#6  0x00007f466cd56f63 in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#7  0x00007f4659fb6efd in WorkaroundsScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libworkarounds.so
+No symbol table info available.
+#8  0x00007f466cd56f63 in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#9  0x00007f465b210dc2 in FadeScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libfade.so
+No symbol table info available.
+#10 0x00007f466cd56f63 in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#11 0x00007f4659d8c917 in PrivateScaleScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libscale.so
+No symbol table info available.
+#12 0x00007f466cd56f63 in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#13 0x00007f46593e3b03 in unity::UnityScreen::handleEvent(_XEvent*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#14 0x00007f466cd56f63 in CompScreen::handleEvent(_XEvent*) () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#15 0x00007f466cd2e13a in PrivateScreen::processEvents() () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#16 0x00007f466cd639e7 in CompEventSource::callback() () from /usr/lib/libcompiz_core.so.ABI-20120216
+No symbol table info available.
+#17 0x00007f466b26e6df in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/x86_64-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#18 0x00007f466ad77dda in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#19 0x00007f466ad781a0 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#20 0x00007f466ad7859a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#21 0x000000000040299e in main ()
+No symbol table info available.

@@ -1,0 +1,40 @@
+#0  0x00007fc711f95040 in typeinfo name for nux::logging::RollingFileAppender () from /usr/lib/x86_64-linux-gnu/libnux-core-4.0.so.0
+No symbol table info available.
+#1  0x00007fc70da941ad in nux::Area::PrepareParentRedirectedView() () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#2  0x00007fc70dad874a in nux::View::QueueDraw() () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#3  0x00007fc70dae973c in nux::WindowThread::ComputeQueuedLayout() () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#4  0x00007fc70daeaa78 in nux::WindowThread::RenderInterfaceFromForeignCmd(nux::Rect const&) () from /usr/lib/x86_64-linux-gnu/libnux-4.0.so.0
+No symbol table info available.
+#5  0x00007fc70f2753bc in unity::UnityScreen::paintDisplay() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#6  0x00007fc70f2759aa in unity::UnityScreen::glPaintOutput(GLScreenPaintAttrib const&, GLMatrix const&, CompRegion const&, CompOutput*, unsigned int) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#7  0x00007fc72259b238 in GLScreen::glPaintOutput(GLScreenPaintAttrib const&, GLMatrix const&, CompRegion const&, CompOutput*, unsigned int) () from /usr/lib/compiz/libopengl.so
+No symbol table info available.
+#8  0x00007fc72259bf1f in PrivateGLScreen::paintOutputs(std::list<CompOutput*, std::allocator<CompOutput*> >&, unsigned int, CompRegion const&) () from /usr/lib/compiz/libopengl.so
+No symbol table info available.
+#9  0x00007fc722bdc026 in CompositeScreen::paint(std::list<CompOutput*, std::allocator<CompOutput*> >&, unsigned int) () from /usr/lib/compiz/libcomposite.so
+No symbol table info available.
+#10 0x00007fc722bdf62c in CompositeScreen::handlePaintTimeout() () from /usr/lib/compiz/libcomposite.so
+No symbol table info available.
+#11 0x00007fc72e960f7d in CompTimer::triggerCallback() () from /usr/lib/libcompiz_core.so.ABI-20140123
+No symbol table info available.
+#12 0x00007fc72e96102f in CompTimeoutSource::callback() () from /usr/lib/libcompiz_core.so.ABI-20140123
+No symbol table info available.
+#13 0x00007fc72e96057d in CompTimeoutSource::dispatch(sigc::slot_base*) () from /usr/lib/libcompiz_core.so.ABI-20140123
+No symbol table info available.
+#14 0x00007fc72ce3f35f in Glib::Source::dispatch_vfunc(_GSource*, int (*)(void*), void*) () from /usr/lib/x86_64-linux-gnu/libglibmm-2.4.so.1
+No symbol table info available.
+#15 0x00007fc72cb30b3d in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0x00007fc72cb30f18 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#17 0x00007fc72cb31242 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#18 0x00007fc72e91c3bb in compiz::private_screen::EventManager::startEventLoop(_XDisplay*) () from /usr/lib/libcompiz_core.so.ABI-20140123
+No symbol table info available.
+#19 0x0000000000401911 in main ()
+No symbol table info available.

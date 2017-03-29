@@ -1,0 +1,40 @@
+#0  0x00007f69c46ac6a8 in pthread_join () from /lib/libpthread.so.0
+#1  0x00007f69ba447c62 in pa_thread_free (t=0x49040950) at pulsecore/thread-posix.c:114
+	__func__ = "pa_thread_free"
+	__PRETTY_FUNCTION__ = "pa_thread_free"
+#2  0x00007f69ba42c789 in pa_threaded_mainloop_free (m=0xa05820) at pulse/thread-mainloop.c:127
+	__func__ = "pa_threaded_mainloop_free"
+	__PRETTY_FUNCTION__ = "pa_threaded_mainloop_free"
+#3  0x00007f69ba6686a4 in gst_pulseprobe_close (c=0xa057b0) at pulseprobe.c:226
+	__PRETTY_FUNCTION__ = "gst_pulseprobe_close"
+#4  0x00007f69c5438511 in gst_property_probe_probe_and_get_values (probe=0x9aa2d0, pspec=0x9f7d20) at propertyprobe.c:310
+	__PRETTY_FUNCTION__ = "gst_property_probe_probe_and_get_values"
+#5  0x00007f69c5644431 in gst_audio_default_registry_mixer_filter (filter_func=0, first=0, data=0x0) at mixerutils.c:130
+	factory = (GstElementFactory *) 0x6506c0
+	klass = <value optimized out>
+	mixer_list = (GList *) 0x9f8380
+	feature_list = (GList *) 0x9d1940
+	walk = (GList *) 0x9d1980
+	__PRETTY_FUNCTION__ = "gst_audio_default_registry_mixer_filter"
+#6  0x000000000040b28a in create_mixer_device_tree_model () at mixer-support.c:45
+	device_store = (GtkListStore *) 0x9b7d10
+	mixer_list = (GList *) 0x1c5
+	l = <value optimized out>
+	unknown = 0
+#7  0x0000000000409d08 in setup_dialog (dialog=0x62c900, changeset=<value optimized out>) at sound-properties-capplet.c:885
+	peditor = (GObject *) 0x9cb100
+	combobox_size_group = <value optimized out>
+	label_size_group = <value optimized out>
+#8  0x000000000040a8ef in main (argc=<value optimized out>, argv=<value optimized out>) at sound-properties-capplet.c:1071
+	changeset = (GConfChangeSet *) 0x9bd5d0
+	dialog = (GladeXML *) 0x62c900
+	program = (GnomeProgram *) 0x627050
+	context = <value optimized out>
+	apply_only = 0
+	get_legacy = 0
+	cap_options = {{long_name = 0x412ddd "apply", short_name = 0 '\0', flags = 0, arg = G_OPTION_ARG_NONE, arg_data = 0x7fffcf831e9c, 
+    description = 0x4131f8 "Just apply settings and quit (compatibility only; now handled by daemon)", arg_description = 0x0}, {long_name = 0x412cdf "init-session-settings", 
+    short_name = 0 '\0', flags = 0, arg = G_OPTION_ARG_NONE, arg_data = 0x7fffcf831e9c, 
+    description = 0x4131f8 "Just apply settings and quit (compatibility only; now handled by daemon)", arg_description = 0x0}, {long_name = 0x412cf5 "get-legacy", 
+    short_name = 0 '\0', flags = 0, arg = G_OPTION_ARG_NONE, arg_data = 0x7fffcf831e98, description = 0x413248 "Retrieve and store legacy settings", arg_description = 0x0}, {
+    long_name = 0x0, short_name = 0 '\0', flags = 0, arg = G_OPTION_ARG_NONE, arg_data = 0x0, description = 0x0, arg_description = 0x0}}

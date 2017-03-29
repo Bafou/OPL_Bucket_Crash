@@ -1,0 +1,130 @@
+#0  __memcpy_ssse3 () at ../sysdeps/x86_64/multiarch/memcpy-ssse3.S:119
+No locals.
+#1  0x00007f3ee6c0f040 in nux::CairoGraphics::GetBitmap (this=0x7fffc1554ef0) at ./CairoGraphics.cpp:155
+        j = <value optimized out>
+        bitmap_format = <value optimized out>
+        bitmap_data = 0x1422690
+        ptr = <value optimized out>
+        stride = 0
+#2  0x00007f3ee7567ce0 in PanelMenuView::Refresh() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x00007f3ee75681e6 in PanelMenuView::PostLayoutManagement(long) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#4  0x00007f3ee71ee442 in nux::View::ComputeChildLayout (this=0x13fee00) at ./View.cpp:170
+        ret = <value optimized out>
+#5  0x00007f3ee71e58b4 in nux::HLayout::ComputeLayout2 (this=0x13e6800) at ./HLayout.cpp:364
+        largerHeight = false
+        smallerHeight = false
+        largerWidth = false
+        smallerWidth = false
+        ret = 0
+        temp = <value optimized out>
+        num_element = <value optimized out>
+        current_y = <value optimized out>
+        offset_space = 0
+        element_height = <value optimized out>
+        width = <value optimized out>
+        height = <value optimized out>
+        current_x = <value optimized out>
+        space_after_element = 0
+        FullSizeUnadjusted = {<std::_Vector_base<int, std::allocator<int> >> = {_M_impl = {<std::allocator<int>> = {<__gnu_cxx::new_allocator<int>> = {<No data fields>}, <No data fields>}, _M_start = 0x0, _M_finish = 0x0, _M_end_of_storage = 0x0}}, <No data fields>}
+        original_height = 24
+        unadjusted_layout = <value optimized out>
+        size_compliance = <value optimized out>
+#6  0x00007f3ee71ee3a4 in nux::View::ComputeChildLayout (this=0x13dab98) at ./View.cpp:125
+        ret = <value optimized out>
+        size_compliance = <value optimized out>
+        PreWidth = 13746704
+        PreHeight = 24
+        PostWidth = <value optimized out>
+        PostHeight = <value optimized out>
+#7  0x00007f3ee71e58b4 in nux::HLayout::ComputeLayout2 (this=0x1469e50) at ./HLayout.cpp:364
+        largerHeight = false
+        smallerHeight = false
+        largerWidth = false
+        smallerWidth = false
+        ret = 0
+        temp = <value optimized out>
+        num_element = <value optimized out>
+        current_y = <value optimized out>
+        offset_space = 0
+        element_height = <value optimized out>
+        width = <value optimized out>
+        height = <value optimized out>
+        current_x = <value optimized out>
+        space_after_element = 0
+        FullSizeUnadjusted = {<std::_Vector_base<int, std::allocator<int> >> = {_M_impl = {<std::allocator<int>> = {<__gnu_cxx::new_allocator<int>> = {<No data fields>}, <No data fields>}, _M_start = 0x0, _M_finish = 0x0, _M_end_of_storage = 0x0}}, <No data fields>}
+        original_height = 24
+        unadjusted_layout = <value optimized out>
+        size_compliance = <value optimized out>
+#8  0x00007f3ee71ee3a4 in nux::View::ComputeChildLayout (this=0x146a2c0) at ./View.cpp:125
+        ret = <value optimized out>
+        size_compliance = <value optimized out>
+        PreWidth = 13746704
+        PreHeight = 24
+        PostWidth = <value optimized out>
+        PostHeight = <value optimized out>
+#9  0x00007f3ee71b93bf in nux::BaseWindow::SetLayout (this=0x146a2c0, layout=0x1469e50) at ./BaseWindow.cpp:233
+        geo = {x = 100, y = 100, width = 320, height = 200}
+        layout_geo = {x = 100, y = 100, width = 320, height = 200}
+#10 0x00007f3ee75a7d04 in UnityScreen::initLauncher(nux::NThread*, void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#11 0x00007f3ee75a7f00 in UnityScreen::initUnity(nux::NThread*, void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#12 0x00007f3ee7276952 in nux::WindowThread::Run (this=0xd7c0f0, arg=<value optimized out>) at ./WindowThread.cpp:791
+No locals.
+#13 0x00007f3ee75a9aa0 in UnityScreen::UnityScreen(CompScreen*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#14 0x00007f3ee75ae099 in CompPlugin::VTableForScreenAndWindow<UnityScreen, UnityWindow>::initScreen(CompScreen*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#15 0x0000000000450faa in CompManager::initPlugin (p=0xd03a30) at /build/buildd/compiz-0.9.4/src/plugin.cpp:280
+No locals.
+#16 0x00000000004520ae in CompPlugin::push (p=0xd03a30) at /build/buildd/compiz-0.9.4/src/plugin.cpp:495
+        name = 0xd1c9d8 "unityshell"
+#17 0x000000000042de6f in PrivateScreen::updatePlugins (this=0x901ab0) at /build/buildd/compiz-0.9.4/src/screen.cpp:914
+        p = 0xd03a30
+        j = <value optimized out>
+        pop = {<std::_List_base<CompPlugin*, std::allocator<CompPlugin*> >> = {_M_impl = {<std::allocator<std::_List_node<CompPlugin*> >> = {<__gnu_cxx::new_allocator<std::_List_node<CompPlugin*> >> = {<No data fields>}, <No data fields>}, _M_node = {_M_next = 0x7fffc1555970, _M_prev = 0x7fffc1555970}}}, <No data fields>}
+        nPop = <value optimized out>
+        pListCount = 25
+        __PRETTY_FUNCTION__ = "void PrivateScreen::updatePlugins()"
+        i = 25
+        pList = {<std::_Vector_base<CompOption::Value, std::allocator<CompOption::Value> >> = {_M_impl = {<std::allocator<CompOption::Value>> = {<__gnu_cxx::new_allocator<CompOption::Value>> = {<No data fields>}, <No data fields>}, _M_start = 0x97d920, _M_finish = 0x97d9f0, _M_end_of_storage = 0x97d9f0}}, <No data fields>}
+        failedPush = <value optimized out>
+        list = @0x19
+#18 0x000000000042e238 in PrivateScreen::processEvents (this=0x901ab0) at /build/buildd/compiz-0.9.4/src/screen.cpp:697
+        event = {type = 9698792, xany = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, window = 1}, xkey = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, window = 1, root = 139908414323713, subwindow = 139908224126640, time = 139908414324835, x = 9730728, y = 0, x_root = -335544288, y_root = 32574, state = 9739696, keycode = 0, same_screen = 1}, xbutton = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, window = 1, root = 139908414323713, subwindow = 139908224126640, time = 139908414324835, x = 9730728, y = 0, x_root = -335544288, y_root = 32574, state = 9739696, button = 0, same_screen = 1}, xmotion = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, window = 1, root = 139908414323713, subwindow = 139908224126640, time = 139908414324835, x = 9730728, y = 0, x_root = -335544288, y_root = 32574, state = 9739696, is_hint = 0 '\000', same_screen = 1}, xcrossing = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, window = 1, root = 139908414323713, subwindow = 139908224126640, time = 139908414324835, x = 9730728, y = 0, x_root = -335544288, y_root = 32574, mode = 9739696, detail = 0, same_screen = 1, focus = 0, state = 0}, xfocus = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, window = 1, mode = -145343487, detail = 32574}, xexpose = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, window = 1, x = -145343487, y = 32574, width = -335540560, height = 32574, count = -145342365}, xgraphicsexpose = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, drawable = 1, x = -145343487, y = 32574, width = -335540560, height = 32574, count = -145342365, major_code = 32574, minor_code = 9730728}, xnoexpose = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, drawable = 1, major_code = -145343487, minor_code = 32574}, xvisibility = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, window = 1, state = -145343487}, xcreatewindow = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, parent = 1, window = 139908414323713, x = -335540560, y = 32574, width = -145342365, height = 32574, border_width = 9730728, override_redirect = 0}, xdestroywindow = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, event = 1, window = 139908414323713}, xunmap = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, event = 1, window = 139908414323713, from_configure = -335540560}, xmap = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, event = 1, window = 139908414323713, override_redirect = -335540560}, xmaprequest = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, parent = 1, window = 139908414323713}, xreparent = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, event = 1, window = 139908414323713, parent = 139908224126640, x = -145342365, y = 32574, override_redirect = 9730728}, xconfigure = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, event = 1, window = 139908414323713, x = -335540560, y = 32574, width = -145342365, height = 32574, border_width = 9730728, above = 139908224122912, override_redirect = 9739696}, xgravity = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, event = 1, window = 139908414323713, x = -335540560, y = 32574}, xresizerequest = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, window = 1, width = -145343487, height = 32574}, xconfigurerequest = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, parent = 1, window = 139908414323713, x = -335540560, y = 32574, width = -145342365, height = 32574, border_width = 9730728, above = 139908224122912, detail = 9739696, value_mask = 1}, xcirculate = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, event = 1, window = 139908414323713, place = -335540560}, xcirculaterequest = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, parent = 1, window = 139908414323713, place = -335540560}, xproperty = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, window = 1, atom = 139908414323713, time = 139908224126640, state = -145342365}, xselectionclear = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, window = 1, selection = 139908414323713, time = 139908224126640}, xselectionrequest = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, owner = 1, requestor = 139908414323713, selection = 139908224126640, target = 139908414324835, property = 9730728, time = 139908224122912}, xselection = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, requestor = 1, selection = 139908414323713, target = 139908224126640, property = 139908414324835, time = 9730728}, xcolormap = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, window = 1, colormap = 139908414323713, c_new = -335540560, state = 32574}, xclient = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, window = 1, message_type = 139908414323713, format = -335540560, data = {b = "c@V\367>\177\000\000\250z\224\000\000\000\000\000 \000\000", <incomplete sequence \354>, s = {16483, -2218, 32574, 0, 31400, 148, 0, 0, 32, -5120}, l = {139908414324835, 9730728, 139908224122912, 9739696, 1}}}, xmapping = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, window = 1, request = -145343487, first_keycode = 32574, count = -335540560}, xerror = {type = 9698792, display = 0x937d10, resourceid = 9698784, serial = 9719616, error_code = 1 '\001', request_code = 0 '\000', minor_code = 0 '\000'}, xkeymap = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, window = 1, key_vector = "\001<V\367>\177\000\000\260\016\000\354>\177\000\000c@V\367>\177\000\000\250z\224\000\000\000\000"}, xgeneric = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, extension = 1, evtype = 0}, xcookie = {type = 9698792, serial = 9665808, send_event = 9698784, display = 0x944f40, extension = 1, evtype = 0, cookie = 4149623809, data = 0x7f3eec000eb0}, pad = {9698792, 9665808, 9698784, 9719616, 1, 139908414323713, 139908224126640, 139908414324835, 9730728, 139908224122912, 9739696, 1, 0, 1, 0, 139908428524259, 9739696, 1, 0, 1, 139908224127008, 139908414183940, 9739696, 139908419181302}}
+        peekEvent = {type = 61, xany = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, window = 9705248}, xkey = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, window = 9705248, root = 139908414132189, subwindow = 9705248, time = 139908439348112, x = 9705248, y = 0, x_root = -142669912, y_root = 32574, state = 4152297440, keycode = 32574, same_screen = -140389004}, xbutton = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, window = 9705248, root = 139908414132189, subwindow = 9705248, time = 139908439348112, x = 9705248, y = 0, x_root = -142669912, y_root = 32574, state = 4152297440, button = 32574, same_screen = -140389004}, xmotion = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, window = 9705248, root = 139908414132189, subwindow = 9705248, time = 139908439348112, x = 9705248, y = 0, x_root = -142669912, y_root = 32574, state = 4152297440, is_hint = 62 '>', same_screen = -140389004}, xcrossing = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, window = 9705248, root = 139908414132189, subwindow = 9705248, time = 139908439348112, x = 9705248, y = 0, x_root = -142669912, y_root = 32574, mode = -142669856, detail = 32574, same_screen = -140389004, focus = 32574, state = 3959426736}, xfocus = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, window = 9705248, mode = -145535011, detail = 32574}, xexpose = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, window = 9705248, x = -145535011, y = 32574, width = 9705248, height = 0, count = -120319088}, xgraphicsexpose = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, drawable = 9705248, x = -145535011, y = 32574, width = 9705248, height = 0, count = -120319088, major_code = 32574, minor_code = 9705248}, xnoexpose = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, drawable = 9705248, major_code = -145535011, minor_code = 32574}, xvisibility = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, window = 9705248, state = -145535011}, xcreatewindow = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, parent = 9705248, window = 139908414132189, x = 9705248, y = 0, width = -120319088, height = 32574, border_width = 9705248, override_redirect = 0}, xdestroywindow = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, event = 9705248, window = 139908414132189}, xunmap = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, event = 9705248, window = 139908414132189, from_configure = 9705248}, xmap = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, event = 9705248, window = 139908414132189, override_redirect = 9705248}, xmaprequest = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, parent = 9705248, window = 139908414132189}, xreparent = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, event = 9705248, window = 139908414132189, parent = 9705248, x = -120319088, y = 32574, override_redirect = 9705248}, xconfigure = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, event = 9705248, window = 139908414132189, x = 9705248, y = 0, width = -120319088, height = 32574, border_width = 9705248, above = 139908416997288, override_redirect = -142669856}, xgravity = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, event = 9705248, window = 139908414132189, x = 9705248, y = 0}, xresizerequest = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, window = 9705248, width = -145535011, height = 32574}, xconfigurerequest = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, parent = 9705248, window = 139908414132189, x = 9705248, y = 0, width = -120319088, height = 32574, border_width = 9705248, above = 139908416997288, detail = -142669856, value_mask = 139908419278196}, xcirculate = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, event = 9705248, window = 139908414132189, place = 9705248}, xcirculaterequest = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, parent = 9705248, window = 139908414132189, place = 9705248}, xproperty = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, window = 9705248, atom = 139908414132189, time = 9705248, state = -120319088}, xselectionclear = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, window = 9705248, selection = 139908414132189, time = 9705248}, xselectionrequest = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, owner = 9705248, requestor = 139908414132189, selection = 9705248, target = 139908439348112, property = 9705248, time = 139908416997288}, xselection = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, requestor = 9705248, selection = 139908414132189, target = 9705248, property = 139908439348112, time = 9705248}, xcolormap = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, window = 9705248, colormap = 139908414132189, c_new = 9705248, state = 0}, xclient = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, window = 9705248, message_type = 139908414132189, format = 9705248, data = {b = "\220\023\324\370>\177\000\000 \027\224\000\000\000\000\000\250\a\177", <incomplete sequence \367>, s = {5008, -1836, 32574, 0, 5920, 148, 0, 0, 1960, -2177}, l = {139908439348112, 9705248, 139908416997288, 139908416997344, 139908419278196}}}, xmapping = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, window = 9705248, request = -145535011, first_keycode = 32574, count = 9705248}, xerror = {type = 61, display = 0x7fffc1555cf0, resourceid = 139908413938372, serial = 139908414132189, error_code = 32 ' ', request_code = 23 '\027', minor_code = 148 '\224'}, xkeymap = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, window = 9705248, key_vector = "\335OS\367>\177\000\000 \027\224\000\000\000\000\000\220\023\324\370>\177\000\000 \027\224\000\000\000\000"}, xgeneric = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, extension = 9705248, evtype = 0}, xcookie = {type = 61, serial = 140736436985072, send_event = -145728828, display = 0x7f3ef7534fdd, extension = 9705248, evtype = 0, cookie = 4149432285, data = 0x941720}, pad = {61, 140736436985072, 139908413938372, 139908414132189, 9705248, 139908414132189, 9705248, 139908439348112, 9705248, 139908416997288, 139908416997344, 139908419278196, 139908224126640, 139908414323713, 9705264, 139908414087952, 9705256, 9713168, 9705248, 9715712, 1, 139908414323713, 139908224126640, 139908414087952}}
+#19 0x0000000000455318 in CompEventSource::callback (this=<value optimized out>) at /build/buildd/compiz-0.9.4/src/eventsource.cpp:69
+No locals.
+#20 0x00007f3ef95ad7cf in Glib::Source::dispatch_vfunc (callback=<value optimized out>, user_data=<value optimized out>) at main.cc:892
+        self = <value optimized out>
+        callback_data = <value optimized out>
+        __PRETTY_FUNCTION__ = "static gboolean Glib::Source::dispatch_vfunc(GSource*, gboolean (*)(void*), void*)"
+#21 0x00007f3ef7545c2d in g_main_dispatch (context=0x949db0) at /build/buildd/glib2.0-2.28.1/./glib/gmain.c:2440
+        dispatch = 0x7f3ef95ad780 <Glib::Source::dispatch_vfunc(GSource*, GSourceFunc, void*)>
+        was_in_call = 0
+        user_data = 0x95eb40
+        callback = 0x7f3ef95ad930 <(anonymous namespace)::glibmm_dummy_source_callback(void*)>
+        cb_funcs = 0x7f3ef77f0630
+        cb_data = 0x95df40
+        current_source_link = {data = 0x95ded0, next = 0x0}
+        need_destroy = <value optimized out>
+        source = 0x95ded0
+        current = 0x94ab90
+        i = <value optimized out>
+#22 g_main_context_dispatch (context=0x949db0) at /build/buildd/glib2.0-2.28.1/./glib/gmain.c:3013
+No locals.
+#23 0x00007f3ef7546418 in g_main_context_iterate (context=0x949db0, block=<value optimized out>, dispatch=1, self=<value optimized out>) at /build/buildd/glib2.0-2.28.1/./glib/gmain.c:3091
+        max_priority = 0
+        timeout = 0
+        some_ready = 1
+        nfds = 7
+        allocated_nfds = <value optimized out>
+        fds = <value optimized out>
+#24 0x00007f3ef7546a5a in g_main_loop_run (loop=0x95eb20) at /build/buildd/glib2.0-2.28.1/./glib/gmain.c:3299
+        __PRETTY_FUNCTION__ = "g_main_loop_run"
+#25 0x0000000000429eca in CompScreen::eventLoop (this=0x9019f0) at /build/buildd/compiz-0.9.4/src/screen.cpp:128
+No locals.
+#26 0x0000000000422e80 in main (argc=<value optimized out>, argv=0x7fffc1555f68) at /build/buildd/compiz-0.9.4/src/main.cpp:285
+        manager = {plugins = {<std::_List_base<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >> = {_M_impl = {<std::allocator<std::_List_node<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >> = {<__gnu_cxx::new_allocator<std::_List_node<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >> = {<No data fields>}, <No data fields>}, _M_node = {_M_next = 0x9019b0, _M_prev = 0x9019b0}}}, <No data fields>}, disableSm = false, clientId = 0x910110 "10eb22aa205a295c5612990525764224000000038690036", displayName = 0x0}

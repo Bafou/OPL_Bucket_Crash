@@ -1,0 +1,27 @@
+#0  0xb6698f1d in ?? () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0xb6699eac in ?? () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0xb669d4ce in calloc () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0xb650f683 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0xb650feaa in g_malloc0 () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0xb6526453 in g_slice_free1 () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0xb6503cf3 in g_list_free_1 () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0xb6518e28 in g_queue_pop_tail () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0xb64db3a9 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0xb6532d9b in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0xb6530924 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0xb65dfd31 in start_thread () from /lib/i386-linux-gnu/libpthread.so.0
+No symbol table info available.
+#12 0xb66fc0ce in clone () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+Backtrace stopped: Not enough registers or memory available to unwind further

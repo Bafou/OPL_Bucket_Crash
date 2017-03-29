@@ -1,0 +1,28 @@
+#0  0x0048b476 in sigc::internal::trackable_callback_list::remove_callback(void*) () from /usr/lib/libsigc-2.0.so.0
+No symbol table info available.
+#1  0x0048b4db in sigc::trackable::remove_destroy_notify_callback(void*) const () from /usr/lib/libsigc-2.0.so.0
+No symbol table info available.
+#2  0x093feec0 in sigc::internal::typed_slot_rep<sigc::bound_mem_functor1<void, PlacesGroup, nux::Area*> >::destroy(void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#3  0x0048b8ac in sigc::slot_base::~slot_base() () from /usr/lib/libsigc-2.0.so.0
+No symbol table info available.
+#4  0x093fe8e7 in PlacesGroup::RefreshLabel() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#5  0x093fe952 in PlacesGroup::Refresh() () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#6  0x093fe9a8 in PlacesGroup::OnIdleRelayout(PlacesGroup*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#7  0x001cd640 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0x001d177f in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0x001d1eb0 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#10 0x001d24bb in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#11 0x0016a503 in Glib::MainLoop::run() () from /usr/lib/libglibmm-2.4.so.1
+No symbol table info available.
+#12 0x0806f6f7 in CompScreen::eventLoop() ()
+No symbol table info available.
+#13 0x08062e44 in main ()
+No symbol table info available.

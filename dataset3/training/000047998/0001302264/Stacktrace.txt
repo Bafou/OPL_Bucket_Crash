@@ -1,0 +1,26 @@
+#0  0x00007f2326562f79 in __GI_raise (sig=sig@entry=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:56
+        resultvar = 0
+        pid = 2195
+        selftid = 2195
+#1  0x00007f2326566388 in __GI_abort () at abort.c:89
+        save_stage = 2
+        act = {__sigaction_handler = {sa_handler = 0x7fff5ba60a10, sa_sigaction = 0x7fff5ba60a10}, sa_mask = {__val = {139788949684362, 1, 140734730996368, 5, 20668864, 5832576001, 20670304, 0, 0, 1, 0, 0, 0, 1, 0, 4389805}}, sa_flags = 0, sa_restorer = 0x7fff5ba60af0}
+        sigs = {__val = {32, 0 <repeats 15 times>}}
+#2  0x00007f2326f599f1 in nih_error_get () from /lib/x86_64-linux-gnu/libnih.so.1
+No symbol table info available.
+#3  0x0000000000422445 in ?? ()
+No symbol table info available.
+#4  0x000000000041fc5b in ?? ()
+No symbol table info available.
+#5  0x0000000000422298 in ?? ()
+No symbol table info available.
+#6  0x0000000000408b9a in ?? ()
+No symbol table info available.
+#7  0x00000000004061e5 in ?? ()
+No symbol table info available.
+#8  0x00007f232654dec5 in __libc_start_main (main=0x4060d0, argc=1, argv=0x7fff5ba60cb8, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fff5ba60ca8) at libc-start.c:287
+        result = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {0, 1270396499936188765, 4219731, 140734730996912, 0, 0, -1270035234802853539, -1159933865592972963}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x7fff5ba60cc8, 0x7f2327fe41c8}, data = {prev = 0x0, cleanup = 0x0, canceltype = 1537608904}}}
+        not_first_call = <optimized out>
+#9  0x000000000040637c in ?? ()
+No symbol table info available.

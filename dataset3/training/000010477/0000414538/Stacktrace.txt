@@ -1,0 +1,176 @@
+#0  0x003fcf1f in e_contact_set (contact=0xa12f420, 
+    field_id=E_CONTACT_HOMEPAGE_URL, value=0xa0db320) at e-contact.c:1637
+	__t = <value optimized out>
+	__r = <value optimized out>
+	__PRETTY_FUNCTION__ = "e_contact_set"
+#1  0x080558ad in about_me_focus_out (widget=0x9f8de00, event=0xa135418, 
+    me=0x9f0d918) at gnome-about-me.c:321
+	str = (gchar *) 0xa0db320 ""
+	wid = <value optimized out>
+	i = 12
+#2  0x00b732c8 in _gtk_marshal_BOOLEAN__BOXED (closure=0xa0f9b60, 
+    return_value=0xbf8b1574, n_param_values=2, param_values=0xa138628, 
+    invocation_hint=0xbf8b1560, marshal_data=0x8055780)
+    at /build/buildd/gtk+2.0-2.17.7/gtk/gtkmarshalers.c:84
+	data1 = (gpointer) 0x9f8de00
+	data2 = (gpointer) 0x9f0d918
+	v_return = <value optimized out>
+	__PRETTY_FUNCTION__ = "_gtk_marshal_BOOLEAN__BOXED"
+#3  0x001e9102 in IA__g_closure_invoke (closure=0xa0f9b60, 
+    return_value=0xbf8b1574, n_param_values=2, param_values=0xa138628, 
+    invocation_hint=0xbf8b1560)
+    at /build/buildd/glib2.0-2.21.4/gobject/gclosure.c:767
+	marshal = (GClosureMarshal) 0xb73220 <_gtk_marshal_BOOLEAN__BOXED>
+	marshal_data = (gpointer) 0x0
+	__PRETTY_FUNCTION__ = "IA__g_closure_invoke"
+#4  0x001ffae8 in signal_emit_unlocked_R (node=<value optimized out>, 
+    detail=<value optimized out>, instance=0x9f8de00, 
+    emission_return=0xbf8b16bc, instance_and_params=0xa138628)
+    at /build/buildd/glib2.0-2.21.4/gobject/gsignal.c:3247
+	tmp = (Handler *) 0x333200
+	handler = (Handler *) 0xa0e89a0
+	accumulator = (SignalAccumulator *) 0x9edfde0
+	emission = {next = 0xbf8b1978, instance = 0x9f8de00, ihint = {
+    signal_id = 48, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, 
+  state = EMISSION_RUN, chain_type = 4}
+	class_closure = (GClosure *) 0x9ef2060
+	handler_list = (Handler *) 0x333200
+	return_accu = <value optimized out>
+	accu = {g_type = 20, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+      v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, 
+      v_pointer = 0x0}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, 
+      v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}}}
+	signal_id = 48
+	max_sequential_handler_number = 840
+	return_value_altered = 0
+#5  0x00200d88 in IA__g_signal_emit_valist (instance=0x9f8de00, signal_id=48, 
+    detail=0, var_args=0xbf8b1720 "L\027\213?\001")
+    at /build/buildd/glib2.0-2.21.4/gobject/gsignal.c:2990
+	return_value = {g_type = 20, data = {{v_int = 0, v_uint = 0, 
+      v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, 
+      v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, v_long = 0, 
+      v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, 
+      v_pointer = 0x0}}}
+	error = <value optimized out>
+	signal_return_type = 20
+	node = (SignalNode *) 0x9ef1fd8
+	i = <value optimized out>
+	n_params = 1
+	__PRETTY_FUNCTION__ = "IA__g_signal_emit_valist"
+#6  0x00201386 in IA__g_signal_emit (instance=0x9f8de00, signal_id=48, 
+    detail=0) at /build/buildd/glib2.0-2.21.4/gobject/gsignal.c:3037
+No locals.
+#7  0x00ca8b7e in gtk_widget_event_internal (widget=<value optimized out>, 
+    event=0xa135418) at /build/buildd/gtk+2.0-2.17.7/gtk/gtkwidget.c:4786
+	signal_num = <value optimized out>
+	return_val = 0
+#8  0x00cbbcb4 in do_focus_change (widget=0x9f8de00, in=<value optimized out>)
+    at /build/buildd/gtk+2.0-2.17.7/gtk/gtkwindow.c:5254
+	fevent = (GdkEvent *) 0xa135418
+#9  0x00cbc9f1 in gtk_window_real_set_focus (window=0x9f28038, focus=0x0)
+    at /build/buildd/gtk+2.0-2.17.7/gtk/gtkwindow.c:5456
+	old_focus = (GtkWidget *) 0x9f8de00
+	had_default = 0
+	focus_had_default = 0
+	old_focus_had_default = 0
+#10 0x001f72dc in IA__g_cclosure_marshal_VOID__OBJECT (closure=0x9ef7c38, 
+    return_value=0x0, n_param_values=2, param_values=0xa138990, 
+    invocation_hint=0xbf8b1980, marshal_data=0xcbc760)
+    at /build/buildd/glib2.0-2.21.4/gobject/gmarshal.c:636
+	data1 = (gpointer) 0x9f28038
+	data2 = (gpointer) 0x9ee7868
+	__PRETTY_FUNCTION__ = "IA__g_cclosure_marshal_VOID__OBJECT"
+#11 0x001e7789 in g_type_class_meta_marshal (closure=0x9ef7c38, 
+    return_value=0x0, n_param_values=2, param_values=0xa138990, 
+    invocation_hint=0xbf8b1980, marshal_data=0x1a0)
+    at /build/buildd/glib2.0-2.21.4/gobject/gclosure.c:878
+	callback = <value optimized out>
+#12 0x001e9102 in IA__g_closure_invoke (closure=0x9ef7c38, return_value=0x0, 
+    n_param_values=2, param_values=0xa138990, invocation_hint=0xbf8b1980)
+    at /build/buildd/glib2.0-2.21.4/gobject/gclosure.c:767
+	marshal = (GClosureMarshal) 0x1e7740 <g_type_class_meta_marshal>
+	marshal_data = (gpointer) 0x1a0
+	__PRETTY_FUNCTION__ = "IA__g_closure_invoke"
+#13 0x001ff7db in signal_emit_unlocked_R (node=<value optimized out>, 
+    detail=<value optimized out>, instance=0x9f28038, emission_return=0x0, 
+    instance_and_params=0xa138990)
+    at /build/buildd/glib2.0-2.21.4/gobject/gsignal.c:3285
+	accumulator = (SignalAccumulator *) 0x0
+	emission = {next = 0x0, instance = 0x9f28038, ihint = {
+    signal_id = 84, detail = 0, run_type = G_SIGNAL_RUN_LAST}, 
+  state = EMISSION_RUN, chain_type = 166692064}
+	class_closure = (GClosure *) 0x9ef7c38
+	handler_list = (Handler *) 0x0
+	return_accu = <value optimized out>
+	accu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, 
+      v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, 
+      v_pointer = 0x0}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, 
+      v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}}}
+	signal_id = 84
+	max_sequential_handler_number = 840
+	return_value_altered = 0
+#14 0x00200ecd in IA__g_signal_emit_valist (instance=0x9f28038, signal_id=84, 
+    detail=0, var_args=0xbf8b1b40 "")
+    at /build/buildd/glib2.0-2.21.4/gobject/gsignal.c:2980
+	signal_return_type = 4
+	node = (SignalNode *) 0x9ef7c90
+	i = <value optimized out>
+	n_params = 1
+	__PRETTY_FUNCTION__ = "IA__g_signal_emit_valist"
+#15 0x00201386 in IA__g_signal_emit (instance=0x9f28038, signal_id=84, 
+    detail=0) at /build/buildd/glib2.0-2.21.4/gobject/gsignal.c:3037
+No locals.
+#16 0x00cc40bb in _gtk_window_internal_set_focus (window=0x9f28038, focus=0x0)
+    at /build/buildd/gtk+2.0-2.17.7/gtk/gtkwindow.c:1603
+	__PRETTY_FUNCTION__ = "_gtk_window_internal_set_focus"
+#17 0x00cc420e in IA__gtk_window_set_focus (window=0x9f28038, focus=0x0)
+    at /build/buildd/gtk+2.0-2.17.7/gtk/gtkwindow.c:1591
+	widget = (GtkWidget *) 0x9fa8358
+	__PRETTY_FUNCTION__ = "IA__gtk_window_set_focus"
+#18 0x00cc5270 in gtk_window_dispose (object=0x9f28038)
+    at /build/buildd/gtk+2.0-2.17.7/gtk/gtkwindow.c:2148
+No locals.
+#19 0x001eb82f in IA__g_object_run_dispose (object=0x9f28038)
+    at /build/buildd/glib2.0-2.21.4/gobject/gobject.c:789
+	__PRETTY_FUNCTION__ = "IA__g_object_run_dispose"
+#20 0x00b9f082 in IA__gtk_object_destroy (object=0x9f28038)
+    at /build/buildd/gtk+2.0-2.17.7/gtk/gtkobject.c:406
+	__PRETTY_FUNCTION__ = "IA__gtk_object_destroy"
+#21 0x00b6bfaa in IA__gtk_main_do_event (event=0xa12c1a8)
+    at /build/buildd/gtk+2.0-2.17.7/gtk/gtkmain.c:1549
+	event_widget = (GtkWidget *) 0x9f28038
+	grab_widget = <value optimized out>
+	window_group = (GtkWindowGroup *) 0x9fa39a0
+	rewritten_event = (GdkEvent *) 0x0
+	tmp_list = <value optimized out>
+	__PRETTY_FUNCTION__ = "IA__gtk_main_do_event"
+#22 0x00169c4a in gdk_event_dispatch (source=0x9edc4c0, callback=0, 
+    user_data=0x0)
+    at /build/buildd/gtk+2.0-2.17.7/gdk/x11/gdkevents-x11.c:2379
+	display = <value optimized out>
+	event = <value optimized out>
+#23 0x00f2bc48 in IA__g_main_context_dispatch (context=0x9edc508)
+    at /build/buildd/glib2.0-2.21.4/glib/gmain.c:1960
+No locals.
+#24 0x00f2f4f0 in g_main_context_iterate (context=0x9edc508, 
+    block=<value optimized out>, dispatch=1, self=0x9ec3378)
+    at /build/buildd/glib2.0-2.21.4/glib/gmain.c:2591
+	max_priority = 2147483647
+	timeout = 800
+	some_ready = 1
+	nfds = <value optimized out>
+	allocated_nfds = <value optimized out>
+	fds = <value optimized out>
+	__PRETTY_FUNCTION__ = "g_main_context_iterate"
+#25 0x00f2f95f in IA__g_main_loop_run (loop=0xa12a778)
+    at /build/buildd/glib2.0-2.21.4/glib/gmain.c:2799
+	self = (GThread *) 0x9ec3378
+	__PRETTY_FUNCTION__ = "IA__g_main_loop_run"
+#26 0x00b6c2f9 in IA__gtk_main ()
+    at /build/buildd/gtk+2.0-2.17.7/gtk/gtkmain.c:1205
+	tmp_list = (GList *) 0x21
+	functions = (GList *) 0x0
+	init = (GtkInitFunction *) 0x9f0d918
+	loop = (GMainLoop *) 0xa12a778
+#27 0x08054cd3 in main (argc=1, argv=0xbf8b1f74) at gnome-about-me.c:1118
+	rc = <value optimized out>

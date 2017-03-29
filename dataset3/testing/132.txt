@@ -1,0 +1,38 @@
+#0  0x00007fbd0a2ceb80 in gdk_window_get_type_hint () from /usr/lib/x86_64-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#1  0x0000000000429d89 in ?? ()
+No symbol table info available.
+#2  0x00007fbd0a2e41a1 in ?? () from /usr/lib/x86_64-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#3  0x00007fbd0a2e434f in ?? () from /usr/lib/x86_64-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#4  0x00007fbd0a2b68f1 in gdk_display_get_event () from /usr/lib/x86_64-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#5  0x00007fbd0a2e4022 in ?? () from /usr/lib/x86_64-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#6  0x00007fbd0919db15 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00007fbd0919de48 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0x00007fbd0919e242 in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#9  0x00007fbd0a6c3b25 in gtk_main () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#10 0x000000000042b6a7 in ?? ()
+No symbol table info available.
+#11 0x00007fbd0848476d in __libc_start_main (main=0x40c4e0, argc=1, ubp_av=0x7fff5d0f7208, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fff5d0f71f8) at libc-start.c:226
+        result = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {0, 4686310721680731950, 4244736, 140734754681344, 0, 0, -4686095625366638802, -4723415824894628050}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x436d20, 0x7fff5d0f7208}, data = {prev = 0x0, cleanup = 0x0, canceltype = 4418848}}}
+        not_first_call = <optimized out>
+#12 0x000000000040c529 in ?? ()
+No symbol table info available.
+#13 0x00007fff5d0f71f8 in ?? ()
+No symbol table info available.
+#14 0x000000000000001c in ?? ()
+No symbol table info available.
+#15 0x0000000000000001 in ?? ()
+No symbol table info available.
+#16 0x00007fff5d0f8d7b in ?? ()
+No symbol table info available.
+#17 0x0000000000000000 in ?? ()
+No symbol table info available.

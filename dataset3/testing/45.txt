@@ -1,0 +1,22 @@
+#0  0x064400be in ?? () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#1  0x0094748c in g_cclosure_marshal_VOID__VOID () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#2  0x0092b372 in g_closure_invoke () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#3  0x0093e048 in ?? () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00946b29 in g_signal_emit_valist () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00946cc2 in g_signal_emit () from /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x0739ced8 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#7  0x0739d08c in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#8  0x063f0e76 in LauncherIcon::TextureFromGtkTheme(char const*, int, bool) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#9  0x00000026 in ?? ()
+No symbol table info available.
+#10 0x00000000 in ?? ()
+No symbol table info available.

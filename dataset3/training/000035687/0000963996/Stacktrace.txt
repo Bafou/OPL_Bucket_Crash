@@ -1,0 +1,30 @@
+#0  0x00007f584eb71c88 in ?? () from /usr/lib/x86_64-linux-gnu/libutouch-grail.so.1
+No symbol table info available.
+#1  0x00007f584eb6237c in ?? () from /usr/lib/x86_64-linux-gnu/libutouch-grail.so.1
+No symbol table info available.
+#2  0x00007f584eb5d0a9 in ?? () from /usr/lib/x86_64-linux-gnu/libutouch-grail.so.1
+No symbol table info available.
+#3  0x00007f584eb5da3a in ?? () from /usr/lib/x86_64-linux-gnu/libutouch-grail.so.1
+No symbol table info available.
+#4  0x00007f584eb5e1e4 in ?? () from /usr/lib/x86_64-linux-gnu/libutouch-grail.so.1
+No symbol table info available.
+#5  0x00007f584eb65cb2 in ?? () from /usr/lib/x86_64-linux-gnu/libutouch-grail.so.1
+No symbol table info available.
+#6  0x00007f584eb66109 in grail_process_frame_event () from /usr/lib/x86_64-linux-gnu/libutouch-grail.so.1
+No symbol table info available.
+#7  0x00007f5851751077 in ?? () from /usr/lib/x86_64-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#8  0x00007f58517471f6 in ?? () from /usr/lib/x86_64-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#9  0x00007f585174c82c in geis_event_dispatch () from /usr/lib/x86_64-linux-gnu/libutouch-geis.so.1
+No symbol table info available.
+#10 0x00007f5851e171b0 in GeisAdapter::OnWatchIn(_GIOChannel*, GIOCondition, void*) () from /usr/lib/compiz/libunityshell.so
+No symbol table info available.
+#11 0x00007f58639a1d8a in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#12 0x00007f58639a2150 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#13 0x00007f58639a254a in g_main_loop_run () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#14 0x00000000004029ae in main ()
+No symbol table info available.

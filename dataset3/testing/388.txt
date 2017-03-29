@@ -1,0 +1,60 @@
+#0  0x00007f54e865a201 in cairo_translate () from /usr/lib/libcairo.so.2
+No symbol table info available.
+#1  0x00007f54db4f2cb3 in ?? () from /usr/lib/indicators/4/libsoundmenu.so
+No symbol table info available.
+#2  0x00007f54db4f42cc in ?? () from /usr/lib/indicators/4/libsoundmenu.so
+No symbol table info available.
+#3  0x00007f54e9b929ae in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00007f54e9ba5079 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007f54e9bae476 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00007f54e9bae633 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00007f54ea87bb9e in gtk_widget_hide () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#8  0x00007f54ea7485b3 in gtk_menu_popdown () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#9  0x00007f54ea7486b4 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#10 0x00007f54e9b929ae in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x00007f54e9ba481e in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x00007f54e9bae476 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x00007f54e9bae633 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#14 0x00007f54ea753d45 in gtk_menu_shell_activate_item () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#15 0x00007f54ea75413d in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#16 0x00007f54ea73b943 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#17 0x00007f54e9b929ae in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#18 0x00007f54e9ba4e72 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#19 0x00007f54e9bae27a in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#20 0x00007f54e9bae633 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#21 0x00007f54ea873121 in ?? () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#22 0x00007f54ea739463 in gtk_propagate_event () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#23 0x00007f54ea73982b in gtk_main_do_event () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#24 0x00007f54ea38d76c in ?? () from /usr/lib/libgdk-x11-2.0.so.0
+No symbol table info available.
+#25 0x00007f54e98dbadd in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#26 0x00007f54e98dc2c8 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#27 0x00007f54e98dc90a in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#28 0x00007f54ea7387c7 in gtk_main () from /usr/lib/libgtk-x11-2.0.so.0
+No symbol table info available.
+#29 0x0000000000403179 in main ()
+No symbol table info available.

@@ -1,0 +1,59 @@
+#0  0x00007f565dbb1152 in QConf::notify(char const*) () from /usr/lib/libdconf-qt.so.0
+No symbol table info available.
+#1  0x00007f565a2da826 in ?? () from /usr/lib/libdconf-dbus-1.so.0
+No symbol table info available.
+#2  0x00007f56558a940a in ?? () from /lib/x86_64-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#3  0x00007f56558ac69a in dbus_connection_dispatch () from /lib/x86_64-linux-gnu/libdbus-1.so.3
+No symbol table info available.
+#4  0x00007f565a4fa6a9 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDBus.so.4
+No symbol table info available.
+#5  0x00007f565a53d7d4 in ?? () from /usr/lib/x86_64-linux-gnu/libQtDBus.so.4
+No symbol table info available.
+#6  0x00007f565df3c9fe in QObject::event(QEvent*) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#7  0x00007f565e454154 in QApplicationPrivate::notify_helper(QObject*, QEvent*) () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#8  0x00007f565e458fc1 in QApplication::notify(QObject*, QEvent*) () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#9  0x00007f565df25b5c in QCoreApplication::notifyInternal(QObject*, QEvent*) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#10 0x00007f565df2957f in QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#11 0x00007f565df50a83 in ?? () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#12 0x00007f565c6e2efd in g_main_dispatch (context=0x11b0c30) at /build/buildd/glib2.0-2.29.16/./glib/gmain.c:2439
+        dispatch = 0x7f565df50a70
+        was_in_call = 0
+        user_data = 0x0
+        callback = 0
+        cb_funcs = 0x0
+        cb_data = 0x0
+        current_source_link = {data = 0x1264a00, next = 0x0}
+        need_destroy = <optimized out>
+        source = 0x1264a00
+        current = 0x11f9d00
+        i = <optimized out>
+#13 g_main_context_dispatch (context=0x11b0c30) at /build/buildd/glib2.0-2.29.16/./glib/gmain.c:3008
+No locals.
+#14 0x00007f565c6e36f8 in g_main_context_iterate (context=0x11b0c30, block=<optimized out>, dispatch=1, self=<optimized out>) at /build/buildd/glib2.0-2.29.16/./glib/gmain.c:3086
+        max_priority = 0
+        timeout = 0
+        some_ready = 1
+        nfds = 8
+        allocated_nfds = <optimized out>
+        fds = <optimized out>
+#15 0x00007f565c6e38c9 in g_main_context_iteration (context=0x11b0c30, may_block=1) at /build/buildd/glib2.0-2.29.16/./glib/gmain.c:3149
+        retval = <optimized out>
+#16 0x00007f565df50ee6 in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#17 0x00007f565e4fb7ae in ?? () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#18 0x00007f565df24d52 in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#19 0x00007f565df24f57 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#20 0x00007f565df297e9 in QCoreApplication::exec() () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#21 0x0000000000403cf9 in main ()
+No symbol table info available.

@@ -1,0 +1,27 @@
+#0  0x00427934 in ?? () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00427a0d in exit () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x00d86e38 in ?? () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+No symbol table info available.
+#3  0x00642e14 in _XIOError () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#4  0x006402db in _XReadEvents () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#5  0x0062e840 in XNextEvent () from /usr/lib/i386-linux-gnu/libX11.so.6
+No symbol table info available.
+#6  0x0081706b in KeyMonitor::run() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#7  0x008181d0 in QtConcurrent::VoidStoredMemberFunctionPointerCall0<void, KeyMonitor>::runFunctor() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#8  0x0081833e in QtConcurrent::RunFunctionTask<void>::run() () from /usr/lib/libunity-2d-private.so.0
+No symbol table info available.
+#9  0x00975651 in ?? () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#10 0x009817b3 in ?? () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+No symbol table info available.
+#11 0x001fbd31 in start_thread () from /lib/i386-linux-gnu/libpthread.so.0
+No symbol table info available.
+#12 0x004c70ce in clone () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+Backtrace stopped: Not enough registers or memory available to unwind further

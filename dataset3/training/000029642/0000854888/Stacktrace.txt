@@ -1,0 +1,28 @@
+#0  0x00007f624f826edc in getenv () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#1  0x00007f624f81c9fc in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0x00007f62500a1c6c in g_key_file_get_value () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f62500a35fc in g_key_file_get_boolean () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f62505b5618 in lightdm_get_sessions () from /usr/lib/liblightdm-gobject-1.so.0
+No symbol table info available.
+#5  0x0000000000408fe4 in ?? ()
+No symbol table info available.
+#6  0x000000000040a21b in ?? ()
+No symbol table info available.
+#7  0x00007f624f80d30d in __libc_start_main () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#8  0x00000000004072f9 in ?? ()
+No symbol table info available.
+#9  0x00007fff334061d8 in ?? ()
+No symbol table info available.
+#10 0x000000000000001c in ?? ()
+No symbol table info available.
+#11 0x0000000000000001 in ?? ()
+No symbol table info available.
+#12 0x00007fff33406d64 in ?? ()
+No symbol table info available.
+#13 0x0000000000000000 in ?? ()
+No symbol table info available.

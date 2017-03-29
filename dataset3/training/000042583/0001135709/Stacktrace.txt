@@ -1,0 +1,24 @@
+#0  0x00007f2e449b4451 in g_object_ref () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#1  0x00000000004045d0 in ?? ()
+No symbol table info available.
+#2  0x00007f2e45d12bce in ?? () from /usr/lib/x86_64-linux-gnu/libsoup-2.4.so.1
+No symbol table info available.
+#3  0x00007f2e45d12d7b in ?? () from /usr/lib/x86_64-linux-gnu/libsoup-2.4.so.1
+No symbol table info available.
+#4  0x00007f2e45d12e38 in ?? () from /usr/lib/x86_64-linux-gnu/libsoup-2.4.so.1
+No symbol table info available.
+#5  0x00007f2e446ebe85 in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f2e446ec1c8 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00007f2e446ec284 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#8  0x00007f2e44c9451c in g_application_run () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#9  0x00000000004042c8 in ?? ()
+No symbol table info available.
+#10 0x00007f2e440dfea5 in __libc_start_main () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#11 0x0000000000404099 in ?? ()
+No symbol table info available.

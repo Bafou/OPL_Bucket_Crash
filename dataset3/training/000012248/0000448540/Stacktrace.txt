@@ -1,0 +1,155 @@
+#0  0x000000000041cf4b in cursor_size_scale_value_changed_cb (
+    range=<value optimized out>, data=<value optimized out>)
+    at appearance-style.c:474
+	theme = <value optimized out>
+	name = <value optimized out>
+#1  0x00007fbf8c4ff5ae in g_closure_invoke ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#2  0x00007fbf8c514983 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#3  0x00007fbf8c515d39 in g_signal_emit_valist ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00007fbf8c516283 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007fbf8d724c68 in gtk_range_adjustment_value_changed (
+    adjustment=<value optimized out>, data=<value optimized out>)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtkrange.c:2487
+	range = (GtkRange *) 0x217b340
+	layout = {stepper_a = {x = 2, y = 4, width = 0, height = 0}, 
+  stepper_b = {x = 2, y = 4, width = 0, height = 0}, stepper_c = {x = 98, 
+    y = 4, width = 0, height = 0}, stepper_d = {x = 98, y = 4, width = 0, 
+    height = 0}, trough = {x = 2, y = 2, width = 96, height = 25}, slider = {
+    x = 2, y = 4, width = 17, height = 21}, mouse_location = MOUSE_SLIDER, 
+  mouse_x = 11, mouse_y = 13, grab_location = MOUSE_SLIDER, grab_button = 1, 
+  lower_sensitive = 0, upper_sensitive = 1, show_fill_level = 0, 
+  restrict_to_fill_level = 1, lower_sensitivity = GTK_SENSITIVITY_AUTO, 
+  upper_sensitivity = GTK_SENSITIVITY_AUTO, repaint_id = 0, 
+  fill_level = 1.7976931348623157e+308, slider_detail_quark = 0, 
+  stepper_detail_quark = 0, marks = 0x0, mark_pos = 0x0, n_marks = 0, 
+  recalc_marks = 0}
+#6  0x00007fbf8c4ff5ae in g_closure_invoke ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#7  0x00007fbf8c514983 in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#8  0x00007fbf8c515d39 in g_signal_emit_valist ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#9  0x00007fbf8c516283 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#10 0x00007fbf8d628e2a in IA__gtk_adjustment_value_changed (
+    adjustment=0x21aef70)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtkadjustment.c:668
+	__PRETTY_FUNCTION__ = "IA__gtk_adjustment_value_changed"
+#11 0x00007fbf8d726a61 in gtk_range_real_change_value (range=0x217b340, 
+    scroll=<value optimized out>, value=<value optimized out>)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtkrange.c:3514
+No locals.
+#12 0x00007fbf8d6eb2ae in _gtk_marshal_BOOLEAN__ENUM_DOUBLE (
+    closure=0x20cceb0, return_value=0x7fff08dbafb0, 
+    n_param_values=<value optimized out>, param_values=0x2362f70, 
+    invocation_hint=<value optimized out>, marshal_data=0x7fbf8d726920)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtkmarshalers.c:245
+	data1 = (gpointer) 0x217b340
+	data2 = (gpointer) 0x2
+	v_return = <value optimized out>
+	__PRETTY_FUNCTION__ = "_gtk_marshal_BOOLEAN__ENUM_DOUBLE"
+#13 0x00007fbf8c4ff5ae in g_closure_invoke ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#14 0x00007fbf8c51464d in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#15 0x00007fbf8c515bcc in g_signal_emit_valist ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#16 0x00007fbf8c516283 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#17 0x00007fbf8d725118 in update_slider_position (range=0x217b340, 
+    mouse_x=<value optimized out>, mouse_y=<value optimized out>)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtkrange.c:2204
+	delta = <value optimized out>
+	c = 3
+	new_value = 0
+	handled = 32703
+	mark_value = 0
+	mark_delta = <value optimized out>
+	i = <value optimized out>
+#18 0x00007fbf8d7270eb in gtk_range_motion_notify (widget=0x217b340, 
+    event=0x2478a40) at /build/buildd/gtk+2.0-2.18.2/gtk/gtkrange.c:2347
+No locals.
+#19 0x00007fbf8d6eb698 in _gtk_marshal_BOOLEAN__BOXED (closure=0x2067b70, 
+    return_value=0x7fff08dbb440, n_param_values=<value optimized out>, 
+    param_values=0x2839a00, invocation_hint=<value optimized out>, 
+    marshal_data=0x7fbf8d727050)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtkmarshalers.c:84
+	data1 = (gpointer) 0x217b340
+	data2 = (gpointer) 0x2
+	v_return = <value optimized out>
+	__PRETTY_FUNCTION__ = "_gtk_marshal_BOOLEAN__BOXED"
+#20 0x00007fbf8c4ff5ae in g_closure_invoke ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#21 0x00007fbf8c51464d in ?? () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#22 0x00007fbf8c515bcc in g_signal_emit_valist ()
+   from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#23 0x00007fbf8c516283 in g_signal_emit () from /usr/lib/libgobject-2.0.so.0
+No symbol table info available.
+#24 0x00007fbf8d7f265f in gtk_widget_event_internal (widget=0x217b340, 
+    event=0x2478a40) at /build/buildd/gtk+2.0-2.18.2/gtk/gtkwidget.c:4767
+	signal_num = <value optimized out>
+	return_val = 0
+#25 0x00007fbf8d6e3c43 in IA__gtk_propagate_event (widget=0x217b340, 
+    event=0x2478a40) at /build/buildd/gtk+2.0-2.18.2/gtk/gtkmain.c:2415
+	tmp = (GtkWidget *) 0x0
+	handled_event = 35107648
+	__PRETTY_FUNCTION__ = "IA__gtk_propagate_event"
+#26 0x00007fbf8d6e4c13 in IA__gtk_main_do_event (event=0x2478a40)
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtkmain.c:1620
+	event_widget = <value optimized out>
+	grab_widget = (GtkWidget *) 0x217b340
+	window_group = (GtkWindowGroup *) 0x234cee0
+	rewritten_event = (GdkEvent *) 0x0
+	tmp_list = <value optimized out>
+	__PRETTY_FUNCTION__ = "IA__gtk_main_do_event"
+#27 0x00007fbf8d359cdc in gdk_event_dispatch (source=<value optimized out>, 
+    callback=<value optimized out>, user_data=<value optimized out>)
+    at /build/buildd/gtk+2.0-2.18.2/gdk/x11/gdkevents-x11.c:2369
+	display = <value optimized out>
+	event = <value optimized out>
+#28 0x00007fbf8c062bbe in g_main_context_dispatch ()
+   from /lib/libglib-2.0.so.0
+No symbol table info available.
+#29 0x00007fbf8c066588 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#30 0x00007fbf8c0669e5 in g_main_loop_run () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#31 0x00007fbf8d6e50e7 in IA__gtk_main ()
+    at /build/buildd/gtk+2.0-2.18.2/gtk/gtkmain.c:1216
+	tmp_list = (GList *) 0x2206880
+	functions = (GList *) 0x0
+	init = (GtkInitFunction *) 0x2173810
+	loop = <value optimized out>
+#32 0x0000000000418b33 in main (argc=1, argv=0x7fff08dbbb58)
+    at appearance-main.c:232
+	w = <value optimized out>
+	install_filename = (gchar *) 0x0
+	start_page = (gchar *) 0x2023730 "p\n[\002"
+	wallpaper_files = (gchar **) 0x0
+	option_context = <value optimized out>
+	option_entries = {{long_name = 0x42fad8 "install-theme", 
+    short_name = 105 'i', flags = 2, arg = G_OPTION_ARG_FILENAME, 
+    arg_data = 0x7fff08dbba48, 
+    description = 0x42fbb8 "Specify the filename of a theme to install", 
+    arg_description = 0x42fae6 "filename"}, {
+    long_name = 0x42faef "show-page", short_name = 112 'p', flags = 2, 
+    arg = G_OPTION_ARG_STRING, arg_data = 0x7fff08dbba40, 
+    description = 0x42fbe8 "Specify the name of the page to show (theme|background|fonts|interface)", arg_description = 0x42faf4 "page"}, {
+    long_name = 0x43136c "", short_name = 0 '\0', flags = 2, 
+    arg = G_OPTION_ARG_FILENAME_ARRAY, arg_data = 0x7fff08dbba38, 
+    description = 0x0, arg_description = 0x42faf9 "[WALLPAPER...]"}, {
+    long_name = 0x0, short_name = 0 '\0', flags = 0, arg = G_OPTION_ARG_NONE, 
+    arg_data = 0x0, description = 0x0, arg_description = 0x0}}

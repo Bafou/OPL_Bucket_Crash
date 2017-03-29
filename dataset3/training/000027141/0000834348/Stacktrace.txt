@@ -1,0 +1,113 @@
+#0  g_type_check_instance_cast (type_instance=0x86024a0, iface_type=141933256) at /build/buildd/glib2.0-2.29.16/./gobject/gtype.c:3985
+        node = 0x86024a0
+        iface = 0x80506d0
+        is_instantiatable = <optimized out>
+        check = <optimized out>
+#1  0x08050707 in ?? ()
+No symbol table info available.
+#2  0x0805492a in marshal_VOID__STRING_BOXED ()
+No symbol table info available.
+#3  0x00319dba in marshal_dbus_message_to_g_marshaller (closure=0x867cc78, return_value=0x0, n_param_values=3, param_values=0x86f8908, invocation_hint=0xbff3d970, marshal_data=0x0) at dbus-gproxy.c:1733
+        value_array = 0x8623250
+        c_marshaller = 0x8054890 <marshal_VOID__STRING_BOXED>
+        proxy = 0x860f010
+        message = 0x879af58
+        gsignature = <optimized out>
+        types = <optimized out>
+        priv = <optimized out>
+        __PRETTY_FUNCTION__ = "marshal_dbus_message_to_g_marshaller"
+#4  0x0011ca5c in g_closure_invoke (closure=0x867cc78, return_value=0x0, n_param_values=3, param_values=0x86f8908, invocation_hint=0xbff3d970) at /build/buildd/glib2.0-2.29.16/./gobject/gclosure.c:773
+        marshal = 0x319c10 <marshal_dbus_message_to_g_marshaller>
+        marshal_data = 0x0
+        in_marshal = 0
+        __PRETTY_FUNCTION__ = "g_closure_invoke"
+#5  0x00130ec0 in signal_emit_unlocked_R (node=0x8559fc0, detail=1907, instance=0x860f010, emission_return=0x0, instance_and_params=0x86f8908) at /build/buildd/glib2.0-2.29.16/./gobject/gsignal.c:3271
+        tmp = <optimized out>
+        handler = 0x87056e0
+        accumulator = 0x0
+        emission = {next = 0x0, instance = 0x860f010, ihint = {signal_id = 320, detail = 1907, run_type = G_SIGNAL_RUN_FIRST}, state = EMISSION_RUN, chain_type = 4}
+        class_closure = 0x0
+        hlist = 0x86fb920
+        handler_list = 0x87056e0
+        return_accu = 0x0
+        accu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 320
+        max_sequential_handler_number = 1199
+        return_value_altered = 0
+#6  0x00139b8f in g_signal_emit_valist (instance=0x860f010, signal_id=320, detail=1907, var_args=0xbff3db24 "") at /build/buildd/glib2.0-2.29.16/./gobject/gsignal.c:3002
+        instance_and_params = 0x86f8908
+        signal_return_type = 4
+        param_values = 0x86f891c
+        node = 0x8559fc0
+        i = <optimized out>
+        n_params = 2
+        __PRETTY_FUNCTION__ = "g_signal_emit_valist"
+#7  0x00139d03 in g_signal_emit (instance=0x860f010, signal_id=320, detail=1907) at /build/buildd/glib2.0-2.29.16/./gobject/gsignal.c:3059
+        var_args = 0xbff3db1c "X\257y\b \"c\b"
+#8  0x0031a460 in dbus_g_proxy_emit_remote_signal (message=0x879af58, proxy=<optimized out>) at dbus-gproxy.c:1786
+        gsignature = <optimized out>
+        i = <optimized out>
+        interface = 0x879d840 "org-bluez-Adapter-PropertyChanged"
+        signal = <optimized out>
+        q = 1907
+        name = 0x879d840 "org-bluez-Adapter-PropertyChanged"
+        priv = 0x8632220
+        msg_gsignature = 0x8632220
+#9  dbus_g_proxy_manager_filter (user_data=0x86e1b70, message=0x879af58, connection=<optimized out>) at dbus-gproxy.c:1353
+        proxy = <optimized out>
+        tri = <optimized out>
+        tmp = <optimized out>
+        full_list = 0x862bb40
+        owned_names = <optimized out>
+        sender = 0x8622748 "\r"
+        manager = 0x86e1b70
+#10 dbus_g_proxy_manager_filter (connection=0x856a7e0, message=0x879af58, user_data=0x86e1b70) at dbus-gproxy.c:1194
+No locals.
+#11 0x0018b411 in dbus_connection_dispatch (connection=0x856a7e0) at ../../dbus/dbus-connection.c:4601
+        filter = <optimized out>
+        next = 0x0
+        message = 0x879af58
+        link = <optimized out>
+        filter_list_copy = 0x86e5198
+        message_link = 0x86e5114
+        result = DBUS_HANDLER_RESULT_NOT_YET_HANDLED
+        pending = <optimized out>
+        reply_serial = <optimized out>
+        status = <optimized out>
+        __FUNCTION__ = "dbus_connection_dispatch"
+#12 0x0031295d in message_queue_dispatch (source=0x86fb750, callback=0, user_data=0x0) at dbus-gmain.c:90
+        connection = 0x856a7e0
+#13 0x0024e81f in g_main_dispatch (context=0x85650d8) at /build/buildd/glib2.0-2.29.16/./glib/gmain.c:2439
+        dispatch = 0x312930 <message_queue_dispatch>
+        was_in_call = 0
+        user_data = 0x0
+        callback = 0
+        cb_funcs = 0x0
+        cb_data = 0x0
+        current_source_link = {data = 0x86fb750, next = 0x0}
+        need_destroy = <optimized out>
+        source = 0x86fb750
+        current = 0x863e800
+        i = <optimized out>
+#14 g_main_context_dispatch (context=0x85650d8) at /build/buildd/glib2.0-2.29.16/./glib/gmain.c:3008
+No locals.
+#15 0x0024ef50 in g_main_context_iterate (context=0x85650d8, block=2480400, dispatch=1, self=<optimized out>) at /build/buildd/glib2.0-2.29.16/./glib/gmain.c:3086
+        max_priority = 0
+        timeout = 0
+        some_ready = 1
+        nfds = <optimized out>
+        allocated_nfds = <optimized out>
+        fds = 0x86c93f0
+#16 0x0024f55b in g_main_loop_run (loop=0x87888e0) at /build/buildd/glib2.0-2.29.16/./glib/gmain.c:3294
+        __PRETTY_FUNCTION__ = "g_main_loop_run"
+#17 0x00c8c7a5 in gtk_main () from /usr/lib/libgtk-3.so.0
+No symbol table info available.
+#18 0x0804cde3 in ?? ()
+No symbol table info available.
+#19 0x00349113 in __libc_start_main (main=0x804c1d0, argc=1, ubp_av=0xbff3df14, init=0x8054ff0, fini=0x8055060, rtld_fini=0x1f9bc0, stack_end=0xbff3df0c) at libc-start.c:226
+        result = <optimized out>
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {4882420, 0, 0, 0, -130431611, 1990549754}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x1, 0x804d4d4}, data = {prev = 0x0, cleanup = 0x0, canceltype = 1}}}
+        not_first_call = <optimized out>
+#20 0x0804d4f5 in ?? ()
+No symbol table info available.
+Backtrace stopped: Not enough registers or memory available to unwind further

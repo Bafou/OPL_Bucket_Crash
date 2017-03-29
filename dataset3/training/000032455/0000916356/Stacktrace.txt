@@ -1,0 +1,52 @@
+#0  0x00007fe201352e38 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#1  0x00007fe201354392 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#2  0x00007fe20093e364 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#3  0x00007fe20094e615 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#4  0x00007fe200955feb in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#5  0x00007fe2009561b2 in g_signal_emit () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#6  0x00007fe201354387 in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#7  0x00007fe2013564cb in ?? () from /usr/lib/libdee-1.0.so.4
+No symbol table info available.
+#8  0x000000000040c945 in ?? ()
+No symbol table info available.
+#9  0x00007fe20093e364 in g_closure_invoke () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#10 0x00007fe20094e615 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#11 0x00007fe200955feb in g_signal_emit_valist () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#12 0x00007fe2009566c4 in g_signal_emit_by_name () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#13 0x00007fe2015a3bde in ?? () from /usr/lib/libunity.so.9
+No symbol table info available.
+#14 0x00007fe20046d6ca in g_main_context_dispatch () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#15 0x00007fe20046da90 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#16 0x00007fe20046db54 in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#17 0x00007fe200e34254 in g_application_run () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+No symbol table info available.
+#18 0x000000000040bf90 in ?? ()
+No symbol table info available.
+#19 0x00007fe1ff43630d in __libc_start_main () from /lib/x86_64-linux-gnu/libc.so.6
+No symbol table info available.
+#20 0x00000000004074e9 in ?? ()
+No symbol table info available.
+#21 0x00007fff9b8ee4b8 in ?? ()
+No symbol table info available.
+#22 0x000000000000001c in ?? ()
+No symbol table info available.
+#23 0x0000000000000001 in ?? ()
+No symbol table info available.
+#24 0x00007fff9b8ef9e7 in ?? ()
+No symbol table info available.
+#25 0x0000000000000000 in ?? ()
+No symbol table info available.

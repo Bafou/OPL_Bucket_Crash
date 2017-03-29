@@ -1,0 +1,18 @@
+#0  0x0804a2d1 in ?? ()
+No symbol table info available.
+#1  0x080499fd in ?? ()
+No symbol table info available.
+#2  0xb7707a3e in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#3  0xb76c59e3 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#4  0xb76c5d80 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#5  0xb76c61db in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#6  0x08049090 in ?? ()
+No symbol table info available.
+#7  0xb74244d3 in __libc_start_main () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#8  0x080490b5 in ?? ()
+No symbol table info available.

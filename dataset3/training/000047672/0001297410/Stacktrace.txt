@@ -1,0 +1,9 @@
+#0  0xb6517888 in QBasicMutex::lockInternal() () from /usr/lib/arm-linux-gnueabihf/libQt5Core.so.5
+No symbol table info available.
+#1  0xb6517afe in QMutex::lock() () from /usr/lib/arm-linux-gnueabihf/libQt5Core.so.5
+No symbol table info available.
+#2  0xb6642026 in QCoreApplication::postEvent(QObject*, QEvent*, int) () from /usr/lib/arm-linux-gnueabihf/libQt5Core.so.5
+No symbol table info available.
+#3  0xb6873fac in ?? () from /usr/lib/arm-linux-gnueabihf/libQt5Quick.so.5
+No symbol table info available.
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)

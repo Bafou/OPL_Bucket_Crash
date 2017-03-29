@@ -1,0 +1,48 @@
+#0  0x00007f01b5c0ec7f in g_logv () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#1  0x00007f01b5c0ee42 in g_log () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f01b6f3807d in ?? () from /usr/lib/x86_64-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#3  0x00007f01b6f42e41 in ?? () from /usr/lib/x86_64-linux-gnu/libgdk-3.so.0
+No symbol table info available.
+#4  0x00007f01b6c004f6 in _XError () from /usr/lib/x86_64-linux-gnu/libX11.so.6
+No symbol table info available.
+#5  0x00007f01b6bfd741 in ?? () from /usr/lib/x86_64-linux-gnu/libX11.so.6
+No symbol table info available.
+#6  0x00007f01b6bfe489 in _XReply () from /usr/lib/x86_64-linux-gnu/libX11.so.6
+No symbol table info available.
+#7  0x00007f01ac0ce166 in ?? () from /usr/lib/fglrx/libGL.so.1
+No symbol table info available.
+#8  0x00007f01ac0a8deb in ?? () from /usr/lib/fglrx/libGL.so.1
+No symbol table info available.
+#9  0x00007f01ac0a1a7a in glXQueryVersion () from /usr/lib/fglrx/libGL.so.1
+No symbol table info available.
+#10 0x00007f01b507291e in ?? () from /usr/lib/x86_64-linux-gnu/libcogl.so.9
+No symbol table info available.
+#11 0x00007f01b5032212 in cogl_renderer_connect () from /usr/lib/x86_64-linux-gnu/libcogl.so.9
+No symbol table info available.
+#12 0x00007f01b52f9998 in ?? () from /usr/lib/x86_64-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#13 0x00007f01b5312913 in ?? () from /usr/lib/x86_64-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#14 0x00007f01b53250ba in ?? () from /usr/lib/x86_64-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#15 0x00007f01b53255cb in ?? () from /usr/lib/x86_64-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#16 0x00007f01b5c12fc7 in g_option_context_parse () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+No symbol table info available.
+#17 0x00007f01b5325312 in clutter_init () from /usr/lib/x86_64-linux-gnu/libclutter-1.0.so.0
+No symbol table info available.
+#18 0x00007f01b8291441 in ?? ()
+No symbol table info available.
+#19 0x00007f01b5ee798f in g_type_create_instance () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#20 0x00007f01b5ecc288 in ?? () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#21 0x00007f01b5ecdd41 in g_object_newv () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#22 0x00007f01b5ece38c in g_object_new () from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
+No symbol table info available.
+#23 0x00007f01b828f860 in main ()
+No symbol table info available.

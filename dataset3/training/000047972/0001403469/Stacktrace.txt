@@ -1,0 +1,101 @@
+#0  0x00007f0f0561a21f in ?? () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#1  0x00007f0effe2eadc in ffi_call_unix64 () from /usr/lib/x86_64-linux-gnu/libffi.so.6
+No symbol table info available.
+#2  0x00007f0effe2e40c in ffi_call () from /usr/lib/x86_64-linux-gnu/libffi.so.6
+No symbol table info available.
+#3  0x00007f0f047bdbf8 in g_cclosure_marshal_generic (closure=0x25d3c60, return_gvalue=0x0, n_param_values=<optimized out>, param_values=<optimized out>, invocation_hint=<optimized out>, marshal_data=0x0) at /build/buildd/glib2.0-2.40.2/./gobject/gclosure.c:1445
+        rtype = <optimized out>
+        rvalue = 0x7fff597e3dd0
+        n_args = 5
+        atypes = <optimized out>
+        i = <optimized out>
+        cif = {abi = FFI_UNIX64, nargs = 5, arg_types = 0x7fff597e3d90, rtype = 0x7f0effe2eed0 <ffi_type_void>, bytes = 0, flags = 0}
+        cc = 0x25d3c60
+        enum_tmpval = <optimized out>
+        tmpval_used = 0
+#4  0x00007f0f047bd3b8 in g_closure_invoke (closure=0x25d3c60, return_value=0x0, n_param_values=4, param_values=0x7fff597e4060, invocation_hint=0x7fff597e4000) at /build/buildd/glib2.0-2.40.2/./gobject/gclosure.c:768
+        marshal = 0x7f0f047bda00 <g_cclosure_marshal_generic>
+        marshal_data = 0x0
+        in_marshal = 0
+        real_closure = 0x25d3c40
+        __FUNCTION__ = "g_closure_invoke"
+#5  0x00007f0f047ced3d in signal_emit_unlocked_R (node=node@entry=0x1526680, detail=detail@entry=0, instance=instance@entry=0x2384780, emission_return=emission_return@entry=0x0, instance_and_params=instance_and_params@entry=0x7fff597e4060) at /build/buildd/glib2.0-2.40.2/./gobject/gsignal.c:3551
+        tmp = <optimized out>
+        handler = 0x7f0ef03f20f0
+        accumulator = 0x0
+        emission = {next = 0x0, instance = 0x2384780, ihint = {signal_id = 270, detail = 0, run_type = G_SIGNAL_RUN_FIRST}, state = EMISSION_RUN, chain_type = 4}
+        handler_list = 0x7f0ef03f20f0
+        return_accu = 0x0
+        accu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}}}
+        signal_id = 270
+        max_sequential_handler_number = 825976
+        return_value_altered = 0
+#6  0x00007f0f047d6a29 in g_signal_emit_valist (instance=<optimized out>, signal_id=<optimized out>, detail=<optimized out>, var_args=var_args@entry=0x7fff597e4228) at /build/buildd/glib2.0-2.40.2/./gobject/gsignal.c:3307
+        instance_and_params = 0x7fff597e4060
+        signal_return_type = <optimized out>
+        param_values = 0x7fff597e4078
+        i = <optimized out>
+        n_params = <optimized out>
+        __FUNCTION__ = "g_signal_emit_valist"
+#7  0x00007f0f047d6ce2 in g_signal_emit (instance=<optimized out>, signal_id=<optimized out>, detail=detail@entry=0) at /build/buildd/glib2.0-2.40.2/./gobject/gsignal.c:3363
+        var_args = {{gp_offset = 48, fp_offset = 48, overflow_arg_area = 0x7fff597e4300, reg_save_area = 0x7fff597e4240}}
+#8  0x00007f0f04cc9a27 in g_menu_model_items_changed (model=<optimized out>, position=position@entry=1, removed=removed@entry=0, added=added@entry=1) at /build/buildd/glib2.0-2.40.2/./gio/gmenumodel.c:688
+No locals.
+#9  0x00007f0f04ccc972 in g_dbus_menu_model_changed (added=1, removed=0, position=1, items=0x2549480, proxy=<optimized out>) at /build/buildd/glib2.0-2.40.2/./gio/gdbusmenumodel.c:825
+No locals.
+#10 g_dbus_menu_group_changed (group=0x7f0ef0215200, menu_id=0, position=1, removed=0, added=<optimized out>) at /build/buildd/glib2.0-2.40.2/./gio/gdbusmenumodel.c:628
+        point = 0x7f0ef040e8c0
+        iter = {x = {139702133595648, 1, 1, 139702482201420, 140734694835380, 140734694835384, 139702136551488, 3579507750, 21726560, 139702482201606, 0, 206158430256, 140734694835368, 140734694835152, 140734694835176, 139702473775930}}
+        proxy = <optimized out>
+        items = 0x2549480
+        item = 0x0
+        n_added = 1
+        __FUNCTION__ = "g_dbus_menu_group_changed"
+#11 0x00007f0f04cccfc9 in g_dbus_menu_path_signal (connection=<optimized out>, sender_name=<optimized out>, object_path=<optimized out>, interface_name=<optimized out>, signal_name=<optimized out>, parameters=<optimized out>, user_data=0x1965ce0) at /build/buildd/glib2.0-2.40.2/./gio/gdbusmenumodel.c:291
+        group = <optimized out>
+        iter = 0x7f0ef05a98f0
+        menu_id = 0
+        removes = 0
+        adds = 0x7f0ef00c1e00
+        group_id = 27
+        position = 1
+        connection = <optimized out>
+        sender_name = <optimized out>
+        object_path = <optimized out>
+        parameters = <optimized out>
+        interface_name = <optimized out>
+        signal_name = <optimized out>
+        user_data = 0x1965ce0
+        path = 0x1965ce0
+#12 0x00007f0f04ce2be5 in emit_signal_instance_in_idle_cb (data=0x7f0ef03221b0) at /build/buildd/glib2.0-2.40.2/./gio/gdbusconnection.c:3750
+        signal_instance = 0x7f0ef03221b0
+        parameters = 0x7f0ef0250f90
+        has_subscription = 1
+#13 0x00007f0f044edce5 in g_main_dispatch (context=0x14b8560) at /build/buildd/glib2.0-2.40.2/./glib/gmain.c:3064
+        dispatch = 0x7f0f044eabc0 <g_idle_dispatch>
+        prev_source = 0x0
+        was_in_call = 0
+        user_data = 0x7f0ef03221b0
+        callback = 0x7f0f04ce2b70 <emit_signal_instance_in_idle_cb>
+        cb_funcs = 0x7f0f047ab920 <g_source_callback_funcs>
+        cb_data = 0x7f0ef0018c20
+        need_destroy = <optimized out>
+        source = 0x7f0ef006a310
+        current = 0x14d6b60
+        i = 0
+#14 g_main_context_dispatch (context=context@entry=0x14b8560) at /build/buildd/glib2.0-2.40.2/./glib/gmain.c:3663
+No locals.
+#15 0x00007f0f044ee048 in g_main_context_iterate (context=0x14b8560, block=block@entry=1, dispatch=dispatch@entry=1, self=<optimized out>) at /build/buildd/glib2.0-2.40.2/./glib/gmain.c:3734
+        max_priority = 2147483647
+        timeout = 47335
+        some_ready = 1
+        nfds = <optimized out>
+        allocated_nfds = 3
+        fds = 0x166b850
+#16 0x00007f0f044ee30a in g_main_loop_run (loop=0x166b830) at /build/buildd/glib2.0-2.40.2/./glib/gmain.c:3928
+        __FUNCTION__ = "g_main_loop_run"
+#17 0x00007f0f055fbfe5 in gtk_main () from /usr/lib/x86_64-linux-gnu/libgtk-3.so.0
+No symbol table info available.
+#18 0x000000000040589b in main ()
+No symbol table info available.
